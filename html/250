@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Purshia tridentata - Artemisia tridentata</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Purshia</i> <i>tridentata</i> - <i>Artemisia</i> <i>tridentata</i></span> Shrubland Alliance <br/>
+        <span class="subtitle">Antelope bitterbrush - Big sagebrush scrub</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>1000-3400 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S4
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G4
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA, CO, ID, OR, WA, WY (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/purshia-tridentata_cord97_09-10_01.jpg', '/static/images/photos/shrub/purshia-tridentata_cord97_modocnf_09-10_02.jpg', '/static/images/photos/shrub/purshia-tridentata_cord97_modocnf_09-10_03.jpg', '/static/images/photos/shrub/purshia-tridentata_cord97_modocnf_09-10_04.jpg', '/static/images/photos/shrub/purshia-tridentata_ephedra-viridis_harpermtn_04-99_01.jpg', '/static/images/photos/shrub/purshia-tridentata_ephedra-viridis_harpermtn_04-99_02.jpg', '/static/images/photos/shrub/purshia-tridentata_lastchancerng_05-10_01.jpg', '/static/images/photos/shrub/purshia-tridentata_lastchancerng_05-10_02.jpg', '/static/images/photos/shrub/purshia-tridentata_lonepine_09-94_01.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Purshia</i> <i>tridentata</i>, <i>Tetradymia</i> <i>canescens</i> or <i>Tetradymia</i> <i>glabrata</i> is dominant or co-dominant in the shrub canopy with <i>Artemisia</i> <i>tridentata</i>, <i>Ceanothus</i> <i>cuneatus</i>, <i>Cercocarpus</i> <i>ledifolius</i>, <i>Chrysothamnus</i> <i>viscidiflorus</i>, <i>Ephedra</i> <i>viridis</i>, <i>Ericameria</i> <i>nauseosa</i>, <i>Prunus</i> <i>andersonii</i> and <i>Symphoricarpos</i> <i>rotundifolius</i>. Emergent trees may be present at low cover, including <i>Juniperus</i> spp., <i>Pinus</i> spp. or <i>Yucca</i> <i>brevifolia</i>. Associated herbs include <i>Achnatherum</i> <i>hymenoides</i>, <i>Bromus</i> <i>tectorum</i>, <i>Elymus</i> <i>elymoides</i>, <i>Eriogonum</i> <i>umbellatum</i>, <i>Poa</i> <i>secunda</i> and <i>Pseudoroegneria</i> <i>spicata</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 5 m; canopy is open to continuous. Herbaceous layer is sparse to open and possibly grassy. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Purshia tridentata</i> > 5% absolute cover in the shrub canopy; <i>Ephedra viridis</i> often present but subdominant, though <i>Artemisia tridentata</i> may codominate (Thomas et al. 2004, Keeler-Wolf et al. 2003b).</li>
+		
+		<li><i>Purshia tridentata</i> ≥ 50% relative cover to other important species in the shrub canopy, especially <i>Artemisia tridentata</i> or <i>Ericameria nauseosa</i> (Neal 1994).</li>
+		
+		<li><i>Purshia tridentata</i> is always present with at least 50% relative cover and dominant to co-dominant in the shrub layer with <i>Artemisia tridentata</i> and/or <i>Tetradymia canescens</i> (Boul et al. 2021b).</li>
+		
+		<li><i>Tetradymia canescens</i> or <i>Tetradymia glabrata</i> ≥ 60% relative cover in the shrub layer (Boul et al. 2021b).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Varied topographic settings. Soils are highly permeable and well drained.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Bitterbrush series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Purshia tridentata shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Bitterbrush, Great Basin mixed scrub, Great Basin-Mixed chaparral transition, Great Basin-Desert mixed scrub, Bitterbrush-Sagebrush
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Great Basin mixed scrub, Big sagebrush scrub, Sagebrush steppe
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Sagebrush scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Sagebrush
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>35.200.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Xeromorphic Scrub and Herb Vegetation (Semi-Desert)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Cool Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Cool Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North American Cool Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Inter-Mountain Dry Shrubland and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Intermountain shallow/calcareous soil scrub
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Purshia tridentata </i>is a long-lived, deep-rooted shrub that varies greatly in habit and local ecotypic response. For instance, the erect form tends to grow at lower elevations than the decumbent form. Plants flower in the spring, and seeds mature in mid-summer. Rodents collect and cache the seeds (Nord 1965). Seedlings establish sporadically on disturbed sites that have some plant cover, occurring in years of heavy seed crops, moderate rodent populations, sufficiently cold winters to promote seed ripening, and favorable moisture and temperature conditions in spring and summer. Many stands tend to be of a single age (Zlatnik 1999d). <br/>
+<br/>
+We include both varieties in this alliance: var. <i>glandulosa </i>occupies the dry, more southern part of the species range than that of var. <i>tridentata</i>. Both grow in the southeastern Great Basin (Zlatnik 1999d). Some manuals treat them as separate species.<br/>
+<br/>
+<i>Tetradymeia canescens</i> and <i>T. glabrata</i> are weedy seral shrub species that become abundant after disturbance. They grow in dry open places in the Great Basin. Synchrounous flowering, or flowering within a few days of each other, often occurs in a given location (Howard 2002, Scher 2001).<br/>
+<br/>
+This alliance can occur over a broad range of landforms and microhabitats across it’s expansive range. Stands typically have an open to dense short-shrub layer with an herbaceous understory dominated by perennial bunch grasses (NatureServe 2019). In the Modoc region of California, it is typically found on moderately steep, north-facing slopes. Generally, the alliance is defined as being dominated by <i>Purshia tridentata</i> and <i>Artemisia tridentata</i> may or may not be present. However, if <i>A. tridentata</i> is an important component of the stand, and <i>P. tridentata</i> cover is low, then stands are classified in the <i>A. tridentata</i> alliance (VegCAMP 2020). However, stands of this <i>Purshia tridentata - Artemisia tridentata </i>Alliance in the Modoc Plateau region have experienced significant recent disturbance and may be strongly dominated by <i>Tetradymia canescens</i> or <i>T. glabrata</i>, while <i>P. tridentata</i> and <i>A. tridentata</i> may be low in cover or absent (VegCAMP 2020). </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Purshia tridentata</th>
+			
+		
+			
+			<th>Tetradymia canescens</th>
+			
+		
+			
+			<th>Tetradymia glabrata</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Shrub; evergreen</td>
+			
+		
+			
+			<td>Perennial; shrub; subshrub</td>
+			
+		
+			
+			<td>Perennial; shrub, subshrub</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Long</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; gravity; wind</td>
+			
+		
+			
+			<td>Wind</td>
+			
+		
+			
+			<td>Wind</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>Stratification - Winter</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Buds on small branches; underground structures (root crowns)</td>
+			
+		
+			
+			<td>Underground structures</td>
+			
+		
+			
+			<td>Underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-sensitive; high flammability?; no/low sprouting; canopy architecture susceptible</td>
+			
+		
+			
+			<td>Fire-sensitive; no/low sprouting; canopy architechure susceptible</td>
+			
+		
+			
+			<td>Fire-sensitive; high flammability; high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>3-60 (150) years</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>High</td>
+			
+		
+			
+			<td>Episodic</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Sprouting varies with populations</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">After fires, <i>Purshia tridentata </i>regenerates by sprouting or by germinating from cached seed. Sprouting ability varies by ecotype and by age. The erect form sprouts from buds just about the root collar; the decumbent form sprouts from buds just at the root collar or buds along layered branches. Shrubs less than 5 years old and those over 60 years do not sprout as vigorously as do mid-aged ones. Fires reduce duff, litter, and competitive plants, and in years of favorable conditions, they encourage high seedling establishment (Zlatnik 1999d).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Medium (25-50 years)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Summer-early fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Medium to large
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low to moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Moderate to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>High to very high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Surface to passive-active crown fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Modoc Plateau
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Klamath Mountains</b> (M261Ae, Al). Small stands occur in the eastern subsections bordering the Cascade Mountains.</li>
+        
+            <li><b>Modoc Plateau</b> (M261Gb-d, Gf-p). Scattered stands occur along valley edges near Goose Lake and throughout the section. Stands with<i>Tetradymia </i>spp. are found throughout this section in disturbed settings. <i>Tetradymia </i>may be dominant to co-dominant with <i>P. tridentata </i>, representing various seral stages of this alliance.</li>
+        
+            <li><b>Mojave Desert</b> (322Ad, Ag-h, Aj, Al). Stands mix with those of <i>Artemisia tridentata</i> alliance in the Mid Hills and other eastern mountains on granitic or metamorphic substrates (Thomas et al. 2004).</li>
+        
+            <li><b>Mono</b> (341Da-f, Dh-l). Stands are widespread, mixed with those of the <i>Artemisia tridentata</i> alliance. Stands were extensive in the south and east parts of Mono Basin; however, several large fires in the past decade have reduced their extent.</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Ba). Small, localized stands range from the Yolla Bolly Mountains south to Mount Saint John.</li>
+        
+            <li><b>Northwestern Basin and Range</b> (342Bc-e). Stands exist in the Honey Lake Basin and in the Madeline Plain area.</li>
+        
+            <li><b>Sierra Nevada</b> (M261Ea, Ec, Eh, Ej, Er). Eastside stands in Yosemite National Park border the Mono section, especially mixed with those of the <i>Artemisia tridentata</i> alliance (Keeler-Wolf et al. 2003b). In the northern Sierra Nevadas, stands exist in the areas surrounding Sierra Valley (Ratchford et al. 2021b (in progress)).</li>
+        
+            <li><b>Southeastern Great Basin</b> (341Fa-c, Ff). Stands occur in the Harper Mountain area and in other parts of the Cottonwood, Inyo, and Panamint ranges.</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Bg-i, Bp). Small stands occur on the east side of the San Bernardino Mountains and on the desert slopes of the San Jacinto Mountains.</li>
+        
+            <li><b>Southern Cascades</b> (M261Df, Dh-i). Small stands exist on the volcanic soils north and east of Mount Shasta.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Vegetation with <i>P. tridentata </i>in the Great Basin of California has shifted considerably. According to Clements and Young et al. (1977, 2007), the vegetation of the northwestern Great Basin has experienced at least three conditions over the last 200 years: (1) wildfire from aboriginal burning and promiscuous burning by ranchers and sheepherders; (2) attempts for complete fire suppression, and (3) attempts at prescribed burning and let-burn policies. Many <i>P. tridentata </i>stands established from 1890 to 1910 (e.g., Hormay 1943), following a period of promiscuous burning, reduced browsing, and the hard winter of 1889-90. Stands are now old and, when burned in intense fires, often do not regenerate.
+
+<i>Purshia tridentata </i>is an important browse for livestock in the spring and is critical for wintering mule deer herds. Clements and Young (1997) identified high densities of mule deer in the Great Basin during the late 1950s and early 1960s as associated with higher densities of shrubs such as <i>P. tridentata, </i>which established after previous events of excessive livestock grazing followed by decreased fire incidence. However, recent decline of <i>P. tridentata </i>across much of its range in the intermountain region is concerning (Rickard and Sauer 1982, Updike et al. 1990). Many stands are becoming decadent with no seedling recruitment, and much of their decline is due to increased intensity and perhaps nonseasonality of fire throughout the range of the alliance.
+
+If stands are disturbed by clearing or fire, <P. tridentata</i> and <i> Artemisia tridentata</i> may be replaced by <i>Tetradymia canescens</i> or <i>T. glabrata</i> as the dominant shrub with other disturbance related species such as <i>Chrysothamnus viscidiflorus, Ericameria nauseosa, Bromus tectorum, Tragopogon dubius</i> and/or <i> Sisymbrium altissimum</i>. This expression of the alliance is described by the <i>Tetradymia canescens</i> provisional association (VegCAMP 2020). <i>Tetradymia canescens</i> and <i>T. glabrata</i> are unpalatable, and even toxic, to livestock and are believed to increase in stands with heavy grazing (Howard 2002, Scher 2001). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Purshia glandulosa [2], [4]</li>
+                
+                    <li>Purshia glandulosa - Artemisia tridentata [2], [4], [6]</li>
+                
+                    <li>Purshia tridentata [5]</li>
+                
+                    <li>Purshia tridentata - Artemisia tridentata [3]</li>
+                
+                    <li>Purshia tridentata - Artemisia tridentata / Achnatherum hymenoides [1], [3]</li>
+                
+                    <li>Purshia tridentata - Artemisia tridentata - Symphoricarpos rotundifolius [1]</li>
+                
+                    <li>Purshia tridentata - Artemisia tridentata - (Tetradymia canescens / Eriogonum umbellatum) [5]</li>
+                
+                    <li>Tetradymia canescens [3]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Keeler-Wolf, T.;Schindel, M.;San, S.;Moore, P.;Hickson, D. 2003b</li>
+		
+		<li>[2] Evens, J.M.;Sikes, K.;Hastings, D.;Ratchford,J.S. 2014</li>
+		
+		<li>[3] Boul, R.;Keeler-Wolf, T.;Ratchford, J.;Haynes, T.;Hickson, D.;Yacoub, R.;Harbert, B.;Evens, J. 2021b</li>
+		
+		<li>[4] Reyes, E.;Evens, J.;Glass, A.;Sikes, K.;Keeler-Wolf., T.;Winitsky, S.;Johnson, D.;Menke, J.;Hepburn, A. 2020a</li>
+		
+		<li>[5] Slaton, M. 2018</li>
+		
+		<li>[6] Thomas, K.;Franklin, J.;Keeler-Wolf, T.;Stine, P. 2004</li>
+		
+		<li>Barry, W.J. 1989a</li>
+		
+		<li>Barry, W.J. 1989b</li>
+		
+		<li>Brown, D.E.;Lowe, C.H.;Pase, C.P. 1980</li>
+		
+		<li>Cheatham, N.H.;Haller, J.R. 1975</li>
+		
+		<li>Hormay, A.L. 1943</li>
+		
+		<li>Howard, J.L. 2002c</li>
+		
+		<li>Menke, J.;Reyes, E.;Hepburn, A.;Johnson, D.;Reyes, J. 2013</li>
+		
+		<li>NatureServe, 2014+</li>
+		
+		<li>Neal, D.L. 1994</li>
+		
+		<li>Nord, E.C. 1965</li>
+		
+		<li>Scher, J.S. 2001</li>
+		
+		<li>Shiflet, T.N. 1994</li>
+		
+		<li>Thorne, R.F. 1976</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program);AIS, 2013</li>
+		
+		<li>Young, J.A.;Evans, R.A. 1981</li>
+		
+		<li>Young, J.A.;Evans, R.A.;Major, J. 1977</li>
+		
+		<li>Young, Richard P. 1983</li>
+		
+		<li>Zlatnik, E. 1999d</li>
+		
+		<li>Zlatnik, E. 1999g</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/250/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

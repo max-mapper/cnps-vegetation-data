@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Tetracoccus hallii</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+	<div class="allianceHeader">
+		<span class="scientificName"><i>Tetracoccus</i> <i>hallii</i></span> Provisional Shrubland Alliance <br/>
+		<span class="subtitle">Hall’s shrubby-spurge patches</span>
+	</div>
+
+	<div class="mainAllianceInfo">
+
+		<div class="allianceSideInfo">
+			<div class="quickInfoList">
+				<h4>Summary Information</h4>
+				<ul>
+					<li>
+						<span class="category">Primary Life Form</span>Shrub
+					</li>
+					<li>
+						<span class="category">Elevation</span>30-1200 m
+					</li>
+					<li>
+						<span class="category">State Rarity</span>S1.1
+					</li>
+					<li>
+						<span class="category">Global Rarity</span>G2
+					</li>
+					<li>
+						<span class="category">Distribution</span>USA: AZ, CA, NV (USDA Plants)
+					</li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2009/09/01
+                    </li>
+				</ul>
+			</div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/tetracoccus_hallii_sjotr_03-08_01.jpg', '/static/images/photos/shrub/tetracoccus_hallii_sjotr_03-08_02.jpg', '/static/images/photos/shrub/tetracoccus_hallii_sjotr_03-08_03.jpg', '/static/images/photos/shrub/tetracoccus_hallii_sjotr_03-08_04.jpg', '/static/images/photos/shrub/tetracoccus_hallii_sjotr_03-08_05.jpg', '/static/images/photos/shrub/tetracoccus_hallii_sjotr_03-08_06.jpg', '/static/images/photos/shrub/tetracoccus_hallii_sjotr_03-08_07.jpg', '/static/images/photos/shrub/tetracoccus_hallii_sjotr_03-08_08.jpg', '/static/images/photos/shrub/tetracoccus_hallii_sjotr_03-08_09.jpg', '/static/images/photos/shrub/tetracoccus_hallii_sjotr_03-08_10.jpg', '/static/images/photos/shrub/tetracoccus_hallii_sjotr_03-08_11.jpg', '/static/images/photos/shrub/tetracoccus_hallii_sjotr_03-08_12.jpg', '/static/images/photos/shrub/tetracoccus_hallii_sjotr_03-08_13.jpg', '/static/images/photos/shrub/tetracoccus_hallii_sjotr_03-08_14.jpg']
+            </script>
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+		</div>
+
+		
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Tetracoccus</i> <i>hallii</i> is dominant in the shrub canopy with species including <i>Ambrosia</i> <i>dumosa</i>, <i>Encelia</i> <i>farinosa</i>, <i>Ephedra</i> <i>nevadensis</i>, <i>Senegalia</i> <i>greggii</i>, <i>Simmondsia</i> <i>chinensis</i> and <i>Viguiera</i> <i>parishii</i>. </div>
+</div>
+
+		
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 4 m; canopy is intermittent. Herbaceous layer is sparse. </div>
+</div>
+
+		
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Washes surrounded by uplands with desert pavement.  </div>
+</div>
+
+		
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance, and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Sonoran creosote bush scrub, Mojave desert wash scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Creosote bush scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Desert wash
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>33.350.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+	</div>
+
+
+	<!-- collapsable content below -->
+
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Tetracoccus hallii </i>is an intricately branched, spiny shrub with fascicled leaves. Individuals occur in stands of the <i>Coleogyne ramosissima, Larrea tridentata-Ambrosia dumosa, </i>and <i>Juniperus californica </i>alliances at mid elevations in the southcentral portion of Joshua Tree National Park (Keeler-Wolf et al. 2005). <i>T. hallii </i>(a CNPS List 4 plant) grows in the Sonoran and southern Mojave deserts. Stands where <i>T. hallii </i>dominates are uncommon. </div>
+</div>
+
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Observations</h4>
+	<div class="text"> Stands occur on northerly slopes and washes in the Sonoran Desert (322 B) and southernmost Mojave Desert (322A). Two stands sampled in Joshua Tree National Park had <i>Tetracoccus hallii</i> dominance (Keeler-Wolf et al. 2005), but they have rather different species composition and settings. One formed small stringers along low-elevation washes surrounded by upland stands with <i>Senegalia greggii, Ambrosia dumosa, Senna armata, Viguiera parishii</i>, and <i>Yucca schidigera</i>. The second stand occurred on colluvial slopes with <i>Ephedra nevadensis, Nolina bigelovii, Simmondsia chinensis</i>, and <i>Xylorhiza tortifolia</i>. Other stands with relatively high cover of <i>T. hallii</i> occur in the eastern Turtle and Whipple mountains of the southeastern Mojave Desert on the border with the Sonoran Desert. We need further information is to understand the relationship of this species in the state’s desert vegetation. </div>
+</div>
+
+	
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>Keeler-Wolf, T.;San, S.;Hickson, D. 2005</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+	<script src="/static/javascript/alliance_page.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Pseudotsuga menziesii - Notholithocarpus densiflorus</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Pseudotsuga</i> <i>menziesii</i> - <i>Notholithocarpus</i> <i>densiflorus</i></span> Forest &amp; Woodland Alliance <br/>
+        <span class="subtitle">Douglas fir - tanoak forest and woodland</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Tree
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>100-1500 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G3
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA, OR (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>Yes
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/tree/pseudotsuga-menziesii_lithocarpus-densiflorus_marinosd_05-10_01.jpg', '/static/images/photos/tree/pseudotsuga-menziesii-lithocarpus-densiflorus_2003.jpg', '/static/images/photos/tree/pseudotsuga-menziesii_notholithocarpus-densiflorus_jenner-headlands_07-2013.jpg', '/static/images/photos/tree/pseudotsuga-menziesii_notholithocarpus-densiflorus_bear-flat_10-2013.jpg', '/static/images/photos/tree/pseudotsuga-menziesii_notholithocarpus-densiflorus_buckeye-ranch_10-2013_01.jpg', '/static/images/photos/tree/pseudotsuga-menziesii_notholithocarpus-densiflorus_buckeye-ranch_10-2013_02.jpg', '/static/images/photos/tree/pseudotsuga-menziesii_notholithocarpus-densiflorus_mendocino-parks_02-2015.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Notholithocarpus</i> <i>densiflorus</i> and <i>Pseudotsuga</i> <i>menziesii</i> are co-dominant in the tree canopy with <i>Acer</i> <i>macrophyllum</i>, <i>Arbutus</i> <i>menziesii</i>, <i>Calocedrus</i> <i>decurrens</i>, <i>Chamaecyparis</i> <i>lawsoniana</i>, <i>Chrysolepis</i> <i>chrysophylla</i>, <i>Pinus</i> <i>lambertiana</i>, <i>Pinus</i> <i>ponderosa</i>, <i>Quercus</i> <i>chrysolepis</i>, <i>Quercus</i> <i>kelloggii</i>, <i>Taxus</i> <i>brevifolia</i> and <i>Umbellularia</i> <i>californica</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text"> Trees < 75 m; canopy is intermittent to continuous and two tiered in older stands. Shrub layer is sparse to intermittent. Herbaceous layer is sparse or abundant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Pseudotsuga menziesii</i> and <i>Notholithocarpus densiflorus</i> both 25%-60% cover in the tree canopy (NVCS).</li>
+		
+		<li><i>Pseudotsuga menziesii</i> and <i>Notholithocarpus densiflorus</i> both 30%-60% relative cover in the tree canopy (Bingham 1999, VegCAMP 2019).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Raised stream benches, terraces, slopes, and ridges of all aspects. Soils are deep, well drained, and mostly derived from sandstones and schists. The USFWS Wetland Inventory (1996 and 2012 national lists) recognizes <i>Pseudotsuga menziesii</i> as a FACU plant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Douglas fir-tanoak series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Pseudotsuga menziesii-Lithocarpus densiflorus forest alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Pacific Douglas-fir, Tanoak
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Mixed evergreen forest, Tan-oak forest, Upland douglas-fir forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Douglas fir forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Douglas fir
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>82.500.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Tree Vegetation (Forest and Woodland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Cool Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North America Cool Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Californian-Vancouverian Montane and Foothill Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Vancouverian evergreen broadleaf and mixed forest
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Pseudotsuga menziesii </i>reaches 75 m in height and 500 years or more in age. Roots occupy the uppermost soil surfaces. Trees begin bearing cones by 20 years of age. Seed production is cyclic, with heavy years every 5-7 years. The wind- and gravity-dispersed seeds fall within 100 m of the parent tree. Seeds remain viable up to 2 years. Seedling establishment is best on mineral soil or on light, moist litter. First-year seedlings survive and grow best in partial shade, especially on drier sites where seedling survival and growth is best in 50% shade. Trees cannot survive in dense shade, but they are more shade tolerant on moist sites than on dry ones (Griffin and Critchf ield 1972, Hermann and Lavender 1990, Uchytil 1991d). <br/>
+<br/>
+<i>Notholithocarpus densiflorus </i>is a slow-growing, shade-tolerant evergreen hardwood that attains a height of 45 m. Plants possess burls at the soil surface and an extensive root system with a deep taproot. They produce large seed crops almost every other year with mast years in 6-year cycles. Acorns mature after 2years; most are sound. Mammals and birds disperse and cache the acorns. Seed predation is high. Seedlings establish on loose, moist mineral soil and in duff and litter; they growth best in partial shade. Young plants develop a multistemmed, shrub-like growth under shady conditions (McMurray 1989c, McDonald and Tappeiner 1990). <br/>
+<br/>
+Ecologists have used the term “mixed evergreen forest” in referring to stands in this and several other alliances (Sawyer 2007). However, Bingham (1999) found that stands where <i>Ps. menziesii </i>and <i>N. densiflorus </i>shared dominance segregated significantly in species composition and environmental conditions from those where <i>Ps. menziesii </i>shared dominance with other trees (see the <i>Abies concolor-Pseudotsuga menziesii, Pinus ponderosa-Pseudotsuga menziesii, </i>and <i>Pseudotsuga menziesii </i>alliances). While Jimerson et al. (1996) described separate subtypes when both <i>Ps. menziesii </i>and <i>N. densiflorus </i>shared dominance, we have combined them in this alliance due to similarity in floristics and enviromental conditions.<br/>
+<br/>
+The structural changes described by Oliver and Larson (1990) for forests in the Pacific Northwest occur as stands of this alliance age. A mature stand with its one-tiered canopy will change into a two-tiered one as it approaches the old-growth stage (Bingham and Sawyer 1991, 1992). Earlier ecologists (Whittaker 1960) considered these changes site induced. Old-growth stands of the <i>P. menziesii </i>alliance often have two-tiered canopies. Keeler-Wolf (1988e) studied the transition between these forest types and <i>Abies concolor-Pseudotsuga menziesii </i>forests in the western Klamath Mountains. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Notholithocarpus densiflorus</th>
+			
+		
+			
+			<th>Pseudotsuga menziesii</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Tree; evergreen</td>
+			
+		
+			
+			<td>Tree; evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Transient</td>
+			
+		
+			
+			<td>Transient</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+			
+			<td>Short</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; gravity</td>
+			
+		
+			
+			<td>Animal; gravity; wind</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Buds on large branches or trunks; underground structures</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+			
+			<td>Fire-hardy; thick epidermis; canopy architecture resistant</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>30-400 years</td>
+			
+		
+			
+			<td>5-500+ years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>Low to high</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text"><i>Notholithocarpus densiflorus </i>sprouts following fire or cutting, and even low-intensity, surface fires readily top-kill trees of all sizes. Stored carbohydrates in the burl and an extensive root system aid in rapid sprout growth after fire and logging (McMurray 1989c, McDonald and Tappeiner 1990). <i>Ps. menziesii </i>is adapted to a regime with moderately long, fire-free intervals. In time, seedlings of both species can establish with the absence of fire. Frequent fires convert stands to hardwoods (Hermann and Lavender 1990, McMurray 1989c, McDonald and Tappeiner 1990, Stuart and Stephens 2006, Uchytil 1991d).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Low to moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Summer-early fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Small to large
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Multiple
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Multiple
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Multiple
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Multiple
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Klamath Mountains, North Coast, Sierra Nevada
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Af, Aj). Stands occur in the Santa Cruz Mountains. Stands historically occurred in the northern Santa Lucia Mountains (UCB 2005) but are now mostly extirpated because of logging, fire, or stand decline through sudden oak death.</li>
+        
+            <li><b>Klamath Mountains</b> (M261Aa-b, Ad, Af, Ai, Am, Ap-s, Au). Stands in the western subsections and in the North Coast region are similar in species composition (Sawyer 2006, 2007). They are extensive, forming a mosaic with stands of other alliances where <i>Pseudotsuga menziesii</i> is important, and where fire exclusion has been successful only over the last 50 years. For example, <i>Ps. menziesii</i> has increased in importance in <i>Quercus garryana</i> and <i>Q. kelloggii</i> stands in the section. Stands described in the western Marble Mountain Wilderness (Mize 1973), Bridge Creek and Hennessy Ridge RNAs (Keeler- Wolf 1990d, Cheng 2004), the Siskiyou Mountains (Simpson 1980), Whiskeytown National Recreation Area (Lee 2004), and regionally in the section (Atzet and Wheeler 1984, Jimerson 1993, 1994, Jimerson et al. 1996) represent many associations.</li>
+        
+            <li><b>Northern California Coast</b> (263Ab, Ad, Af-m). Vegetation patterns and history are similar to those in the northern Coast Ranges (Sawyer 2006, 2007). Some mature stands, as well as second growth, occur in Marin Co. at Point Reyes National Seashore, Golden Gate National Recreation Area, and adjacent lands (Evens and Kentner 2006, Keeler-Wolf et al. 2003a). Sudden oak death syndrome is eliminating most <i>Notholithocarpus densiflorus,</i> and the stands are transitioning to stands dominated by <i>Ps. menziesii</i> alone or with other hardwoods (Evens and Kentner 2006).</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Bb). Old-growth and mature stands are all but absent at low elevations (Sawyer 2007, 2007). Most original stands logged in the 1950s and others since then are in their third growth cycle. As a result, <i>Arbutus menziesii, Chrysolepis chrysophylla, N. densiflorus,</i> and <i>Umbellularia californica</i> are now dominant (Bingham and Sawyer 1991, 1992).</li>
+        
+            <li><b>Sierra Nevada</b> (M261Ef-g). Old growth in this section has a similarly complex structure to that in northwestern California, but species composition differs. Stands contain <i>Abies concolor, Calocedrus decurrens, Pinus lambertiana,</i> and <i>Q. kelloggii.</i> They occur on cool, moist, productive sites with low or medium fire frequencies. Stands in the Middle Yuba River watershed (Gudmonds and Barbour 1987) and generally on the western slopes of the northern subsections (Fites 1993) have been referred to as mixed conifer forests. Stands are indicated in the northern portion of M261Eg by Calveg (Calveg) polygons and by Calflora (2018+) and Consortium of California Herbaria (2018+) points.</li>
+        
+            <li><b>Southern Cascades</b> (M261Dl). Stands occur in the western portion of the section (Fites 1993).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Sudden oak death syndrome is currently modifying the stand composition of many stands in the San Francisco Bay area. The disease now occurs as far north in the state as Humboldt Co. and as far south as Big Sur in Monterey Co. Monitoring these stands and other infected areas is useful to demonstrate the resultant shift in structure and species composition.
+
+The impact of sudden oak death on vegetation in the Marin Municipal Watershed was measured over a 10-year period from 2004 to 2014. Over 2,500 acres of pure and mixed tanoak were reclassified to other vegetation types. In 2014, there were still tanoak individuals present, however, stands mapped to the tanoak alliance or vegetation co-dominating with tanoak were rare. The majority of gaps in tanoak - mixed conifer forests were repopulated with <i>Vaccinium ovatum</i> (AIS 2015).
+
+Private timberlands in western Mendocino County and Humboldt County are in some cases managed to eliminate <i>Notholithocarpus densiflorus</i> to increase productivity of conifers, including from stands of <i>Pseudotsuga menziesii - Notholithocarpus densiflorus</i>. Herbicide is applied directly to cuts in the trunks, killing the trees (which are are left standing), and resulting in type conversion of stands. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+                <p>Stands Lacking a Well-Developed Shrub Layer</p>
+            
+            <ul class="text">
+                
+                    <li>Pseudotsuga menziesii - Notholithocarpus densiflorus / Achlys triphylla [7]</li>
+                
+                    <li>Pseudotsuga menziesii - Notholithocarpus densiflorus / Chimaphila umbellata [3], [4]</li>
+                
+                    <li>Pseudotsuga menziesii - Notholithocarpus densiflorus / (Toxicodendron diversilobum - Lonicera hispidula) [2], [6], [9], [10]</li>
+                
+                    <li>Pseudotsuga menziesii - Notholithocarpus densiflorus / Whipplea modesta [2]</li>
+                
+            </ul>
+        
+            
+                <p>Stands with a Mixed Tree Canopy</p>
+            
+            <ul class="text">
+                
+                    <li>Pseudotsuga menziesii - Notholithocarpus densiflorus - (Acer macrophyllum) / Polystichum munitum [2]</li>
+                
+                    <li>Pseudotsuga menziesii - Notholithocarpus densiflorus - (Calocedrus decurrens)  / Festuca californica [2]</li>
+                
+                    <li>Pseudotsuga menziesii - Notholithocarpus densiflorus - (Chamaecyparis lawsoniana) / Acer circinatum [2]</li>
+                
+                    <li>Pseudotsuga menziesii - Notholithocarpus densiflorus - (Chamaecyparis lawsoniana - Alnus rubra) / riparian [2]</li>
+                
+                    <li>Pseudotsuga menziesii - Notholithocarpus densiflorus - (Chamaecyparis lawsoniana) / Gaultheria shallon [2]</li>
+                
+                    <li>Pseudotsuga menziesii - Notholithocarpus densiflorus - (Chamaecyparis lawsoniana) / Mahonia nervosa / Linnaea borealis [2]</li>
+                
+                    <li>Pseudotsuga menziesii - Notholithocarpus densiflorus - (Chamaecyparis lawsoniana - Tsuga heterophylla) / Vaccinium ovatum [2]</li>
+                
+                    <li>Pseudotsuga menziesii - Notholithocarpus densiflorus - (Chamaecyparis lawsoniana - Umbellularia californica) / Vaccinium ovatum [2]</li>
+                
+                    <li>Pseudotsuga menziesii - Notholithocarpus densiflorus - (Chamaecyparis lawsoniana) / Vaccinium ovatum [2]</li>
+                
+                    <li>Pseudotsuga menziesii - Notholithocarpus densiflorus - (Chamaecyparis lawsoniana) / Vaccinium ovatum - Rhododendron occidentale [2]</li>
+                
+                    <li>Pseudotsuga menziesii - Notholithocarpus densiflorus - (Chamaecyparis lawsoniana) / Vaccinium parvifolium [2]</li>
+                
+                    <li>Pseudotsuga menziesii - Notholithocarpus densiflorus - (Chrysolepis chrysophylla) / Gaultheria shallon [2]</li>
+                
+                    <li>Pseudotsuga menziesii - Notholithocarpus densiflorus - (Chrysolepis chrysophylla) / Pteridium aquilinum [2]</li>
+                
+                    <li>Pseudotsuga menziesii - Notholithocarpus densiflorus - (Chrysolepis chrysophylla) / Rhododendron macrophyllum - Gaultheria shallon [2]</li>
+                
+                    <li>Pseudotsuga menziesii - Notholithocarpus densiflorus - (Pinus lambertiana) [7]</li>
+                
+                    <li>Pseudotsuga menziesii - Notholithocarpus densiflorus - (Quercus chrysolepis) / Mahonia nervosa [2]</li>
+                
+                    <li>Pseudotsuga menziesii - Notholithocarpus densiflorus - (Quercus chrysolepis) / Mahonia nervosa - Gaultheria shallon [2]</li>
+                
+                    <li>Pseudotsuga menziesii - Notholithocarpus densiflorus - (Quercus chrysolepis, Quercus kelloggii) / Toxicodendron diversilobum [2]</li>
+                
+                    <li>Pseudotsuga menziesii - Notholithocarpus densiflorus - (Quercus chrysolepis) / rockpile [2]</li>
+                
+                    <li>Pseudotsuga menziesii - Notholithocarpus densiflorus - (Quercus chrysolepis) / Toxicodendron diversilobum [2]</li>
+                
+                    <li>Pseudotsuga menziesii - Notholithocarpus densiflorus - (Quercus chrysolepis) / Vaccinium ovatum [2]</li>
+                
+                    <li>Pseudotsuga menziesii - Notholithocarpus densiflorus - (Quercus kelloggii) / Rosa gymnocarpa [2]</li>
+                
+                    <li>Pseudotsuga menziesii - Notholithocarpus densiflorus - Thuja plicata / Vaccinium ovatum - Gaultheria shallon [2]</li>
+                
+                    <li>Pseudotsuga menziesii - Notholithocarpus densiflorus - Umbellularia californica / Toxicodendron diversilobum [2], [5], [14]</li>
+                
+            </ul>
+        
+            
+                <p>Stands with a Sub-Canopy of Trees</p>
+            
+            <ul class="text">
+                
+                    <li>Pseudotsuga menziesii - Notholithocarpus densiflorus / Taxus brevifolia [7]</li>
+                
+            </ul>
+        
+            
+                <p>Stands with a Well-Developed Shrub Layer</p>
+            
+            <ul class="text">
+                
+                    <li>Pseudotsuga menziesii - Notholithocarpus densiflorus / Acer circinatum [2]</li>
+                
+                    <li>Pseudotsuga menziesii - Notholithocarpus densiflorus / Aralia californica [6]</li>
+                
+                    <li>Pseudotsuga menziesii - Notholithocarpus densiflorus / Gaultheria shallon [2]</li>
+                
+                    <li>Pseudotsuga menziesii - Notholithocarpus densiflorus / Mahonia nervosa [2], [9]</li>
+                
+                    <li>Pseudotsuga menziesii - Notholithocarpus densiflorus / Quercus vacciniifolia - Holodiscus discolor [2]</li>
+                
+                    <li>Pseudotsuga menziesii - Notholithocarpus densiflorus / Rhododendron macrophyllum [2], [11]</li>
+                
+                    <li>Pseudotsuga menziesii - Notholithocarpus densiflorus / Vaccinium ovatum [8], [12], [13], [14]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[2] Jimerson, T.M.;McGee, E.A.;Jones, D.W.;Svilich, R.J.;Hotalen, E.;DeNitto, G.;Laurent, T.;Tenpas, J.D.;Smith, M.E.;Hefner-McClelland, K.;Mattison, J. 1996</li>
+		
+		<li>[3] Keeler-Wolf, T. 1985b</li>
+		
+		<li>[4] Keeler-Wolf, T. 1987d</li>
+		
+		<li>[5] Stumpf, K. 2017</li>
+		
+		<li>[6] Lee, C. 2004</li>
+		
+		<li>[7] Mize, C.W. 1973</li>
+		
+		<li>[8] Simpson, L.G. 1980</li>
+		
+		<li>[9] Thornburgh, D.A. 1987</li>
+		
+		<li>[10] Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>[11] VegCAMP (CDFW Vegetation Classification and Mapping Program), 2019</li>
+		
+		<li>[12] Thornburgh, D.A. 1982</li>
+		
+		<li>[13] Sikes, K.;Buck-Diaz, J.;Evens, J. 2021</li>
+		
+		<li>[14] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>AIS (Aerial Information Systems Inc.), 2007a</li>
+		
+		<li>AIS (Aerial Information Systems Inc.), 2015</li>
+		
+		<li>Bingham, B.B. 1999</li>
+		
+		<li>Bingham, B.B.;Sawyer, J.O. 1991</li>
+		
+		<li>Bingham, B.B.;Sawyer, J.O. 1992</li>
+		
+		<li>Calflora, 2018+</li>
+		
+		<li>CCH (Consortium of California Herbaria), 2017+</li>
+		
+		<li>Fites, J. 1993</li>
+		
+		<li>Franklin, J.F.;Cromack, K.;Denison, W.;McKee, A.;Maser, C.;Sedell, J.;Swanson, F.;Juday, G. 1981</li>
+		
+		<li>Jimerson, T.M. 1994, 1999</li>
+		
+		<li>Keeler-Wolf, T. 1985c</li>
+		
+		<li>McDonald, P.M.;Minore, D.;Atzet, T. 1983</li>
+		
+		<li>McDonald, P.M.;Tappeiner, J.C. 1990</li>
+		
+		<li>McMurray, N. 1989c</li>
+		
+		<li>NPS (National Park Service), 2017</li>
+		
+		<li>Sawyer, J.O. 1980</li>
+		
+		<li>Sawyer, J.O. 2006</li>
+		
+		<li>Sawyer, J.O. 2007</li>
+		
+		<li>Sawyer, J.O.;Thornburgh, D.A. 1977</li>
+		
+		<li>Uchytil, R.J. 1991d</li>
+		
+		<li>Williamson, R.L. 1980</li>
+		
+		<li>Williamson, R.L.;Twombly, A.D. 1983</li>
+		
+		<li>Zinke, P.J. 1977</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/76/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

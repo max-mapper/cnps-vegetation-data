@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Salix planifolia</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+	<div class="allianceHeader">
+		<span class="scientificName"><i>Salix</i> <i>planifolia</i></span> Provisional Shrubland Alliance <br/>
+		<span class="subtitle">Tea-leaved willow thickets</span>
+	</div>
+
+	<div class="mainAllianceInfo">
+
+		<div class="allianceSideInfo">
+			<div class="quickInfoList">
+				<h4>Summary Information</h4>
+				<ul>
+					<li>
+						<span class="category">Primary Life Form</span>Shrub
+					</li>
+					<li>
+						<span class="category">Elevation</span>2500-4000 m
+					</li>
+					<li>
+						<span class="category">State Rarity</span>S2?
+					</li>
+					<li>
+						<span class="category">Global Rarity</span>G4
+					</li>
+					<li>
+						<span class="category">Distribution</span>CAN: AB, BC, LB, MB, NF, NT, NU, ON, QC, SK, YT. FRA: SPM. USA: AK, AZ, CA, CO, ID, ME, MI, MN, MT, NH, NM, NV, OR, SD, UT, VT, WA, WI, WY (TJM2) (USDA Plants)
+					</li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2009/09/01
+                    </li>
+				</ul>
+			</div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/salix-planifolia_danaplateau_09-09_01.jpg', '/static/images/photos/shrub/salix-planifolia_tiogameadows_10-03_01.jpg']
+            </script>
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+		</div>
+
+		
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Salix</i> <i>planifolia</i> is dominant in the shrub canopy with <i>Salix</i> <i>eastwoodiae</i>, <i>Salix</i> <i>orestera</i> and <i>Vaccinium</i> <i>cespitosum</i>. </div>
+</div>
+
+		
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 3 m; canopy is open to continuous. Herbaceous layer is variable with a diversity of upper-elevation, wet meadow species. </div>
+</div>
+
+		
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Subalpine wet or saturated streamsides, tarn edges, and wet meadows. Soils are alluvial and derived from granitic parent materials. The USFWS Wetland Inventory (1996 national list) recognizes <i>Salix planifolia</i> as an OBL plant. </div>
+</div>
+
+		
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance, and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Subalpine wetland shrub habitat
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Salix planifolia temporarily flooded shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Willow (riparian scrub)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Montane riparian scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Montane riparian, Wet meadow
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>61.119.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+	</div>
+
+
+	<!-- collapsable content below -->
+
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Salix planifolia </i>is a deciduous, riparian shrub to 3 m tall. Its leaves are bicolored, highly glossy above, and glabrous to silky, hairy below with glands at the leaf bases. Plants produce abundant small seeds, which disperse in wind and water. Seeds remain viable for a week and germinate on moist, exposed mineral substrates. Plants will sprout from their root crown or stem base after fire or cutting (Uchytil 1991f). <br/>
+<br/>
+<i>Salix planifolia </i>is a widespread, high-elevation shrub, which ranges throughout much of the mountains of western North America. The alliance exists (Nature- Serve 2007a) in several western states, including Colorado, Montana, New Mexico, Utah, Washington, and Wyoming. <br/>
+<br/>
+Stands in the Rocky Mountains appear to vary significantly with regard to moisture regime and associated herbaceous species from those in California. Stands in California occupy streamsides on moderately sloping streams in the subalpine adjacent to many other upper-elevation riparian and meadow types. Saturated during the growing season, stand understories contain <i>Allium validum, Carex breweri, </i>and <i>C. scopulorum. </i>Ecologically, they share much similarity with the stands of the <i>Salix eastwoodiae </i>and <i>Salix orestera </i>alliances. While the National Vegetation Classification currently places associations with <i>S. planifolia </i> in the mixed shrub willow, <i>Salix boothii - Salix geyeriana - Salix lutea</i>, alliance; we are reserving judgement until more regional analysis is done for montane to high elevation riparian vegetation. </div>
+</div>
+
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Observations</h4>
+	<div class="text"> A few surveys document the alliance in the Sierra Nevada (M261E), including those from Harvey Monroe Hall, Mount Pleasant, and Snow Canyon RNAs (Cheng 2004), Yosemite National Park (Keeler-Wolf et al. 2003b), and elsewhere in the Sierra Nevada (Potter 2005). Taylor (1884) identified a <i>Salix planifolia-Carex scopulorum</i> association and Keeler-Wolf et al. (2003b) identified a provisional <i>Salix planifolia</i> association. However, these studies provide little information on species composition. We need further sampling and analysis to characterize the alliance in California. </div>
+</div>
+
+	
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Keeler-Wolf, T.;Schindel, M.;San, S.;Moore, P.;Hickson, D. 2003b</li>
+		
+		<li>[2] Taylor, D.W. 1984</li>
+		
+		<li>Keeler-Wolf, T.;Keeler-Wolf, V. 1981</li>
+		
+		<li>Nachlinger, J.L. 1992</li>
+		
+		<li>Potter, D.A. 2005</li>
+		
+		<li>Uchytil, R.J. 1991f</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+	<script src="/static/javascript/alliance_page.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

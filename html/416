@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Lasthenia fremontii - Downingia (bicornuta)</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Lasthenia</i> <i>fremontii</i> - <i>Downingia</i> (<i>bicornuta</i><span style="padding-left: .2em">)</span></span> Herbaceous Alliance <br/>
+        <span class="subtitle">Fremont’s goldfields - Downingia vernal pools</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Herb
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>15-710 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S2
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G2
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>CAN: BC. USA: CA, OR, WA (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2009/09/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/herb/lasthenia-fremontii-downingia-%28bicornuta%29_cuyamacalake_1993.jpg', '/static/images/photos/herb/lasthenia-fremontii-downingia-%28bicornuta%29_delevanvernalpool_05-96.jpg', '/static/images/photos/herb/lasthenia-fremontii-downingia-%28bicornuta%29_flyingmranch_04-10_01.jpg', '/static/images/photos/herb/lasthenia-fremontii-downingia-%28bicornuta%29_flyingmranch_04-10_02.jpg', '/static/images/photos/herb/lasthenia-fremontii-downingia-%28bicornuta%29_flyingmranch_04-10_03.jpg', '/static/images/photos/herb/lasthenia-fremontii-downingia-%28bicornuta%29_glideranchyolowa_04-03.jpg', '/static/images/photos/herb/lasthenia-californica_plantago-erecta_vulpia-microstachys_tablemtn_04-11_01.jpg', '/static/images/photos/herb/lasthenia-californica_plantago-erecta_vulpia-microstachys_tablemtn_04-11_02.jpg', '/static/images/photos/herb/lasthenia-fremontii-downingia-%28bicornuta%29_howardranch_04-06.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Downingia</i> spp. and/or <i>Lasthenia</i> <i>fremontii</i> are characteristically present in the herbaceous layer with <i>Castilleja</i> <i>campestris</i>, <i>Cuscuta</i> <i>howelliana</i>, <i>Eryngium</i> <i>castrense</i>, <i>Eryngium</i> <i>vaseyi</i>, <i>Gratiola</i> <i>ebracteata</i>, <i>Lilaea</i> <i>scilloides</i>, <i>Limnanthes</i> <i>douglasii</i>, <i>Plagiobothrys</i> <i>stipitatus</i> var. <i>micranthus</i>, <i>Plagiobothrys</i> <i>undulatus</i>, <i>Psilocarphus</i> <i>brevissimus</i> var. <i>brevissimus</i> and <i>Ranunculus</i> <i>bonariensis</i> var. <i>trisepalus</i>. Other common species include <i>Briza</i> <i>minor</i>, <i>Bromus</i> <i>hordeaceus</i>, <i>Centromadia</i> <i>fitchii</i>, <i>Croton</i> <i>setigerus</i>, <i>Erodium</i> spp., <i>Hordeum</i> spp., <i>Hypochaeris</i> <i>glabra</i>, <i>Leontodon</i> <i>saxatilis</i>, <i>Lolium</i> <i>perenne</i> or <i>Lythrum</i> <i>hyssopifolia</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Herbs < 60 cm; cover is intermittent to continuous. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Castilleja campestris</i> ssp. <i>campestris, Downingia bicornuta, Gratiola ebracteata, Lasthenia fremontii</i>, and/or <i>Ranunculus bonariensis</i> var. <i>trisepalus</i> present and abundant collectively or in part with upland species; or <i>Eryngium castrense, E. vaseyi, Plagiobothrys
+stipitatus</i> var. <i>micranthus</i>, and/or <i>Psilocarphus brevissimus</i>
+var. <i>brevissimus</i> present and abundant; or
+<i>Downingia cuspidata, D. bicornuta</i>, and/or <i>D. ornatissima</i>
+present in the herbaceous layer (Barbour et al. 2007b).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Shallow vernal pool bottoms and edges, mostly hardpan pools on older geomorphic surfaces but also on volcanic substrates. Soils have short periods of inundation. The USFWS Wetland Inventory (1996 national list) recognizes <i>Lasthenia fremontii, Downingia bicornuta,</i> and other <i>Downingia</i> as OBL plants. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Northern hardpan vernal pool habitat, Northern volcanic mudflow vernal pool habitat
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>North Pacific hardpan vernal pool, Northern California volcanic vernal pool
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Annual grasses and forbs, Vernal pool
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Northern hardpan vernal pool
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Valley grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Annual grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>42.007.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate and Boreal Shrubland and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate and Boreal Freshwater Marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North American Freshwater Marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Western North America Vernal Pool
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Californian mixed annual/perennial freshwater vernal pool / swale bottomland
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Lasthenia fremontii </i>is an annual composite that is endemic to the Great Valley. It has yellow ray flowers and opposite, linear to linear-lobed leaves. <i>L. fremontii </i>is pollinated by a specialist solitary bee that nests underground and emerges during the brief spring season when the plant blooms. The bee’s life cycle is timed closely with the plant’s reproductive cycle, which ensures the bee has pollen for food and the flower exchanges genetic material in pollen to produce seeds (Thorp 2007). <br/>
+<br/>
+<i>Downingia </i>species are annual plants, primarily endemic to vernal pools, and their flowers are mainly blue. They must cross-pollinate to produce seeds. Flowers have hair triggers that release pollen upon contact from specialist pollinators, native solitary bees, which collect pollen to feed their offspring. <i>D. bicornuta </i>has long and twisted hair triggers, and it has a pair of purple bumps near the center of the flower (SacSplash 2005). <br/>
+<br/>
+Barbour et al. (2003, 2007b) recognized the <i>Downingia-Lasthenia </i>class for California vernal pool vegetation on all geomorphic surfaces, landscapes, and soil types in the Central Valley and adjacent foothills. Within that class, they recognized the <i>Lasthenia fremontii</i>-<i>Downingia bicornuta </i>alliance for vegetation of shallow vernal pools and pool edges. Rare taxa (CNPS 1B and 2 list plants) in this alliance include <i>Castilleja campestris </i>ssp. <i>succulenta, Downingia pusilla, Gratiola heterosepala, Legenere limosa, Limnanthes floccosa </i>ssp. <i>californica, Navarretia myersii, Orcuttia pilosa, </i>and <i>O. tenuis</i>. <br/>
+<br/>
+Nomenclature for this alliance, as described by Barbour et al. (2007b), includes some associations without the nominate alliance species in their names. Their philosophy for vegetation classification in vernal pools reflects the fact that many related vernal pools have similar species composition (e.g., similar presence of <i>Eryngium </i>spp., <i>Lasthenia fremontii, Plagiobothrys stipitatus, </i>and <i>Psilocarphus brevissimus</i>), and that certain species are significant indicators of certain pool types. Furthermore, the local distribution of certain ecologically equivalent species of <i>Downingia </i>is taken into account in the naming of some associations. <br/>
+<br/>
+According to Barbour et al. (2007b), two associations have high constancy of species and better define the alliance; they occur in the southeastern Sacramento Valley and in the southern Sierra Nevada foothills (Keeler-Wolf et al. 1998a). Two other associations along with the <i>Eryngium </i>(<i>vaseyi, castrense</i>) type have somewhat impoverished floristics, and their affiliation with the alliance is thus weaker; they occur in the northern Sacramento Valley. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Downingia spp.</th>
+			
+		
+			
+			<th>Lasthenia fremontii</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Fire in vernal pool systems is not understood well historically. Although the likelihood of frequent fire is high in most cismontane grasslands of the state, the lower fuel volumes and the wetter condition of the plants in vernal pools with respect to surrounding grasslands may minimize fire spread in vernal pools (Wills 2006). Late summer to fall season fire is likely to have largely neutral to positive effects on the native, seed-banking annuals and geophytes.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Great Valley</b> (262Ab, Af-g, Ao, As, Au). Stands occur in hardpan and volcanic pools on a wide variety of landforms, geomorphic surfaces, and soil series (Barbour et al. 2007b). The <i>Ranunculus bonariensis-Holocarpha virgata</i> association is common in this section, primarily occurring in the southeastern Sacramento Valley in very small, hardpan pools. Three local variants are distinguished by specific taxa: <i>Limnanthes alba, L. douglasii,</i> and <i>Navarretia myersii.</i> The <i>Lasthenia fremontii-Downingia bicornuta</i> association also occurs in the southeastern portion of the section, whereas the <i>Downingia (bicornuta, cuspidata)</i> and the <i>Lasthenia fremontii-Downingia ornatissima</i> associations occur in the northeastern portion of the section.</li>
+        
+            <li><b>Modoc Plateau</b> (M261Go-p). S. Smith (1998b) described a <i>Downingia bicornuta</i> type on flat, broad volcanic valley bottoms and backwater channels with rather different species composition with <i>Damasonium californicum, Eryngium alismifolium,</i> and <i>Eleocharis quinqueflora.</i></li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fa-b). Stands occur in hardpan and volcanic pools on low-terrace, highterrace, mudflow, and volcanic landforms with a wide variety of geomorphic surfaces and soils series (Barbour et al. 2007b, Klein et al. 2007). The <i>Lasthenia fremontii-Downingia bicornuta</i> association occurs in small hardpan and occasionally volcanic pools. The <i>Downingia (bicornuta, cuspidata)</i> association exists only in the northern portion of the section in usually large, volcanic pools. Two variants are based on the presence of the rare taxa: <i>Orcuttia tenuis</i> and <i>O. pilosa.</i> The <i>Lasthenia fremontii-Downingia ornatissima</i> association is common in the northern subsection in small hardpan pools. The <i>Eryngium (vaseyi, castrense)</i> type occurs on a variety of surfaces with smaller pool sizes.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Vernal pools in cismontane California are depleted severely in number and extent. Threats are primarily from loss of habitat due to conversion to agriculture, development, and roads. Threats also include invasion and competition by non-native plants, such as <i>Erodium </i>spp., <i>Hordeum </i>spp., <i>Leontodon taraxacoides, Lolium perenne, </i>and <i>Lythrum hyssopifolia, </i>commonly found in this alliance. A number of authors have investigated grazing practices as management tools in vernal pools to decrease competition of non-native plants, and ecologists have denoted the importance of conserving and restoring the vegetation complexes found in vernal pools (see Treatment of Vernal Pools discussion). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Downingia bicornuta [4]</li>
+                
+                    <li>Downingia (bicornuta, cuspidata) [1], [3], [6]</li>
+                
+                    <li>Eryngium (vaseyi, castrense) [1], [3], [6], [7], [8]</li>
+                
+                    <li>Lasthenia californica - Downingia bicornuta [5]</li>
+                
+                    <li>Lasthenia fremontii [3], [6]</li>
+                
+                    <li>Lasthenia fremontii - Downingia bicornuta [1], [2], [3], [7], [8]</li>
+                
+                    <li>Lasthenia fremontii - Downingia ornatissima [1], [3], [6]</li>
+                
+                    <li>Ranunculus bonariensis - Holocarpha virgata [1]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Barbour, M.G.;Solomeshch, A.I.;Buck, J.J. 2007b</li>
+		
+		<li>[2] Barbour, M.G.;Solomeshch, A.;Witham, C.;Holland, R.;MacDonald, R.;Cilliers, S.;Molina, J.A.;Buck, J.;Hillman, J. 2003</li>
+		
+		<li>[3] Klein, A.;Crawford, J.;Evens, J.;Keeler-Wolf, T.;Hickson, D. 2007</li>
+		
+		<li>[4] Smith, S. 1998b</li>
+		
+		<li>[5] Taylor, D.W.;Clifton, G.L.;Holland, R.F.;Witham, C.W. 1992</li>
+		
+		<li>[6] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>[7] Buck-Diaz, J.;Harbert, B.;Evens, J. 2011</li>
+		
+		<li>[8] Buck-Diaz, J.;Ratchford, J.;Evens, J. 2013</li>
+		
+		<li>Platenkamp, G.A. 1998</li>
+		
+		<li>Smith, C.F. 1998a</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/416/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

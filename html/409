@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Juncus nevadensis</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Juncus</i> <i>nevadensis</i></span> Herbaceous Alliance <br/>
+        <span class="subtitle">Sierra rush marshes</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Herb
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>1200-3300 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G3?
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>CAN: AB, BC, SK. USA: AZ, CA, CO, ID, MT, NM, NV, OR, UT, WA, WY (USDA Plants)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2009/09/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/herb/juncus-nevadensis_shasta-trinity_08-2011.jpg', '/static/images/photos/herb/juncus-nevadensis_eldorado-nf-fen_07-2008.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Juncus</i> <i>nevadensis</i> is dominant or co-dominant in the herbaceous layer with <i>Achillea</i> <i>millefolium</i>, <i>Bistorta</i> <i>bistortoides</i>, <i>Carex</i> <i>feta</i>, <i>Carex</i> <i>leporinella</i>, <i>Carex</i> <i>simulata</i>, <i>Eleocharis</i> <i>quinqueflora</i>, <i>Epilobium</i> <i>ciliatum</i>, <i>Juncus</i> <i>arcticus</i>, <i>Mimulus</i> <i>guttatus</i>, <i>Muhlenbergia</i> <i>filiformis</i>, <i>Perideridia</i> <i>parishii</i>, <i>Potentilla</i> <i>gracilis</i>, <i>Sidalcea</i> <i>reptans</i> and <i>Trifolium</i> <i>wormskioldii</i>. Emergent trees or shrubs may be present at low cover, including <i>Pinus</i> <i>contorta</i> ssp. <i>murrayana</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Herbs < 70 cm; cover is intermittent to continuous. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Juncus nevadensis</i> > 25% relative cover in the herbaceous layer; it dominates or co-dominates with other herbaceous species (S. Smith 1998, Potter 2005).</li>
+		
+		<li><i>Juncus nevadensis</i> has 30 - 50% relative cover with <i>Juncus arcticus</i> (Boul et al. 2021b).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Montane to subalpine wet meadows, seeps, stream channel bars; basin fens. Soils are permanently to seasonally saturated and often peaty. The USFWS Wetland Inventory (2012 national list) recognizes <i>Juncus nevadensis</i> as a FACW plant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Montane meadow habitat, Subalpine meadow habitat
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Wet grasses and forbs
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Wet montane meadow, Wet subalpine or alpine meadow
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Freshwater marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Wet meadow
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>45.567.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate and Boreal Shrubland and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate Grassland, Meadow, and Shrubland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Vancouverian and Rocky Mountain Grassland and Shrubland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Western Cordilleran montane-boreal wet meadow
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Western cordilleran montane-boreal mesic wet meadow
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Juncus nevadensis </i>is a perennial, rhizomatous rush that grows to 70 cm tall. It has terminal inflorescences with dark brown bracts and showy three-parted stigmas. Leaves are well developed and have complete cross walls, which feel like bumps when a leaf is slid between two fingers. The species is widespread above 1200 m from California to British Columbia (Brooks and Clements 2000). <br/>
+<br/>
+Two varieties of <i>J. nevadensis</i> have been recognized in California. <i>J. nevadensis</i> var. <i>inventus</i> is a rare variety that grows in coastal peatlands and dune swales from the North Coast of California to southern Washington. The other variety, <i>J. nevadensis</i> var. <i>nevadensis</i>, is much more common, especially in mountain meadows and streambanks (The Jepson Manual 2015). This alliance refers to stands of <i>J. nevadensis</i> var. <i>nevadensis</i> only, and thus is to restricted to the inland and montane regions where this variety is stand-forming. Stands of <i>J. nevadensis</i> var. <i>inventus</i>, if they occur, have not been documented and described within the Manual of California Vegetation to date.<br/>
+<br/>
+This alliance occurs in montane seeps and wet meadows that are submerged in spring and early summer and can be dry by late summer. According to Potter (2005), most stands are some distance from streams in mesic portions of meadows that are drier than those of the <i>Carex scopulorum </i>alliance, but wetter than those of the <i>Poa pratensis </i>semi-natural stands. Stands are typically dominated or co-dominated by <i>J. nevadensis</i> and may be mixed with sedges or grasses. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Juncus nevadensis</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Polycarpic perennial; herb; rhizomatous</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Transient</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; gravity</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Stratification—winter </td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>Long-lived</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Low; episodic</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Fluvial processes, rather than fire, primarily disturb stands. Plants can sprout after disturbance.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+            <p>The range of <i>Juncus nevadensis</i> includes the Southern Cascades (M261D), Sierra Nevada (M261E), Modoc Plateau (M261G), and Southern California Mountains and Valleys (M262B).</p>
+        
+
+        <ul class="text">
+        
+            <li><b>Modoc Plateau</b> (M261Gb, Gh). Stands were sampled in a meadow between Little Juniper and Big Juniper Creeks northeast of Likely (Boul et al. 2021b), and in two meadows in the north of Devil's Garden (Kreb 2021).</li>
+        
+            <li><b>Sierra Nevada</b> (M261Ec, Ee, Eg-h, Ej-m, Ep-r, Et). Stands occur in mesic meadows (Potter 2005), in a basin fen at Grass Lake RNA (Beguin and Major 1975), and in wet meadows in Yosemite National Park (Keeler-Wolf et al. 2003b).</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Bh). Stands are presumed to exist in the San Bernadino Mountains based on CCH collection locations (Consortium of California Herbaria, 2017+).</li>
+        
+            <li><b>Southern Cascades</b> (M261Df, Dm). Stands occur in a basin fen (Cooper and Wolf 2006) and in moist to wet meadows, marshes, and channel bars (S. Smith 1998b).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> <i>Juncus nevadensis </i>is palatable to livestock. S. Smith (1998b) suggested that it is sensitive to overgrazing and lowered water tables, while Potter (2005) proposed its presence indicated past grazing or other disturbance. The relatively low sample sizes of these studies and difference between authors indicate that this alliance is not common and not fully understood. However, because stands of this alliance occur in wet meadows defined by high water tables throughout the growing season, threats likely center around historic and current disturbances that have led to downcutting of streams, altering meadow hydrologic regimes and lowering water tables and water availability. These disturbances include repeat and over-grazing, as well as intensive logging and severe crown fires upstream of meadows. This alliance is also likely threatened by reduced growing season water availability due to climate change. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Juncus nevadensis [3], [4], [6]</li>
+                
+                    <li>Juncus nevadensis - (Carex simulata) [1], [2]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Cooper, D.J.;Wolf, E.C. 2006</li>
+		
+		<li>[2] Beguin, C.N.;Major, J. 1975</li>
+		
+		<li>[3] Keeler-Wolf, T.;Schindel, M.;San, S.;Moore, P.;Hickson, D. 2003b</li>
+		
+		<li>[4] Potter, D.A. 2005</li>
+		
+		<li>[6] Boul, R.;Keeler-Wolf, T.;Ratchford, J.;Haynes, T.;Hickson, D.;Yacoub, R.;Harbert, B.;Evens, J. 2021b</li>
+		
+		<li>Brooks, R.E.;Clements, S.E. 2000</li>
+		
+		<li>CCH (Consortium of California Herbaria), 2017+</li>
+		
+		<li>Jepson Flora Project, 2004-present</li>
+		
+		<li>Kreb, B. 2021</li>
+		
+		<li>Smith, S. 1998b</li>
+		
+		<li>UCB (University of California Berkeley), 2004-present</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/409/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

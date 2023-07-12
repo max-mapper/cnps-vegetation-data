@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Juncus (oxymeris, xiphioides)</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+	<div class="allianceHeader">
+		<span class="scientificName"><i>Juncus</i> (<i>oxymeris</i>, <i>xiphioides</i><span style="padding-left: .2em">)</span></span> Provisional Herbaceous Alliance <br/>
+		<span class="subtitle">Iris-leaf rush seeps</span>
+	</div>
+
+	<div class="mainAllianceInfo">
+
+		<div class="allianceSideInfo">
+			<div class="quickInfoList">
+				<h4>Summary Information</h4>
+				<ul>
+					<li>
+						<span class="category">Primary Life Form</span>Herb
+					</li>
+					<li>
+						<span class="category">Elevation</span>0-1600 m
+					</li>
+					<li>
+						<span class="category">State Rarity</span>S2?
+					</li>
+					<li>
+						<span class="category">Global Rarity</span>G2?
+					</li>
+					<li>
+						<span class="category">Distribution</span>USA: CA, OR?
+					</li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2009/09/01
+                    </li>
+				</ul>
+			</div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/herb/juncus-xiphioides_santaluciaconservancy_05-12.jpg']
+            </script>
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+		</div>
+
+		
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Juncus</i> <i>oxymeris</i>, <i>Juncus</i> <i>xiphioides</i> or another iris-leaved rush is dominant in the herbaceous layer with <i>Carex</i> <i>serratodens</i>, <i>Cirsium</i> <i>fontinale</i> var. <i>campylon</i>, <i>Eleocharis</i> <i>macrostachya</i>, <i>Equisetum</i> <i>arvense</i>, <i>Hordeum</i> <i>brachyantherum</i>, <i>Juncus</i> <i>arcticus</i>, <i>Juncus</i> <i>effusus</i>, <i>Juncus</i> <i>patens</i>, <i>Lolium</i> <i>perenne</i>, <i>Lotus</i> <i>purshianus</i>, <i>Lythrum</i> <i>hyssopifolia</i>, <i>Mimulus</i> <i>guttatus</i>, <i>Polypogon</i> <i>monspeliensis</i>, <i>Rumex</i> <i>acetosella</i>, <i>Rumex</i> <i>crispus</i>, <i>Sisyrinchium</i> <i>bellum</i>, <i>Veronica</i> <i>americana</i> and <i>Vulpia</i> spp. Emergent shrubs may be present at low cover, including <i>Frangula</i> <i>californica</i> or <i>Rubus</i> spp. </div>
+</div>
+
+		
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Herbs < 1 m; cover is intermittent to continuous. </div>
+</div>
+
+		
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Seeps, mainly on metamorphic, serpentine, and volcanic substrates. The USFWS Wetland Inventory (1996 national list) recognizes <i>Juncus oxymeris</i> as FACW and <i>Juncus xiphioides</i> as an OBL plant. </div>
+</div>
+
+		
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance, and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Wet grasses and forbs
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Freshwater seep
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Freshwater marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Fresh emergent wetland, Wet meadow
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>45.568.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+	</div>
+
+
+	<!-- collapsable content below -->
+
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Juncus oxymeris </i>and <i>J. xiphioides </i>are perennial, rhizomatous rushes. They form small stands in serpentine and nonserpentine seeps in scattered areas throughout the state. Similar falcate-leaved <i>Juncus </i>(e.g., <i>J. ensifolius </i>and <i>J. phaeocephalus</i>) also form stands in similar settings. It remains to be seen whether these ecologically and morphologically similar species constitute a single or multiple alliances. <i>J. xiphioides </i>stands appear restricted to saline and serpentine soils in California, whereas <i>J. oxymeris </i>and <i>J. phaeocephalus </i>stands occurs on several substrates. </div>
+</div>
+
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Observations</h4>
+	<div class="text"> The range of <i>Juncus oxymeris</i> includes the inner Great Valley (262A), North California Coast Ranges (M261B), Sierra Nevada (M261E), and Transverse Ranges (M262Ba-Bg). Klein et al. (2007) described stands of both <i>Juncus oxymeris</i> and <i>Juncus xiphioides</i> associations in small wetlands of the northern Sierra Nevada Foothills (M261Fa-Fb). Other stands of <i>J. phaeocephalus</i> in vernal pools at Burton Mesa Ecological Reserve (Condor Environmental Services, Inc. 2007) are along the Southern California Coast (261B). In freshwater wetlands on the Channel Islands (Junak et al. 2007), <i>J. phaeocephalus</i> shared dominance with <i>J. arcticus</i> var. <i>mexicanus</i>. The range of <i>J. xiphioide</i>s includes cismontane California and some transmontane ranges (322Al, 341Dj). Stands occur in the Central California Coast Ranges (M262Aa) at Coyote Ridge in Santa Clara Valley. They also exist along the Central California Coast (261Aa-Ad), including the San Francisco Bay estuary region in tidal marshes, sloughs, and clayey swales (Baye et al. 2000, Holstein 2000, Sycamore Associates 2001), and in the East Bay Hills at springs with <i>J. patens</i> and <i>Lolium perenne</i> (Allen-Diaz et al. 2001). </div>
+</div>
+
+	
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Evens, J.M.;Klein, A.;Taylor, J.;Hickson, D.;Keeler-Wolf, T. 2006</li>
+		
+		<li>[2] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>[3] Klein, A.;Crawford, J.;Evens, J.;Keeler-Wolf, T.;Hickson, D. 2007</li>
+		
+		<li>[4] Evens, J.;San, S. 2004</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+	<script src="/static/javascript/alliance_page.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

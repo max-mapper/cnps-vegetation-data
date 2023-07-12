@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Alnus incana</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Alnus</i> <i>incana</i></span> Shrubland Alliance <br/>
+        <span class="subtitle">Mountain alder thicket</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>1200-2925 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G4
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>CAN: BC, MB, NB, NS, ON, PE, QC. USA: CA, CO, CT, IA, ID, IL, IN, MA, ME, MI, MN, MT, ND, NH, NJ, NM, NV, NY, OH, OR, PA, RI, UT, VT, WA, WI, WV, WY. Mexico (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/alnus-incana_hermitvalley_09-09_01.jpg', '/static/images/photos/shrub/alnus-incana_hermitvalley_09-09_02.jpg', '/static/images/photos/shrub/alnus-incana_hermitvalley_09-09_03.jpg', '/static/images/photos/shrub/alnus-incana_mtlassennp_08-09_01.jpg', '/static/images/photos/shrub/alnus-incana_onioncr_08-09_01.jpg', '/static/images/photos/shrub/alnus-incana_osgoodswamp-lktahoebasin_07-10_01.jpg', '/static/images/photos/shrub/alnus-incana_pct-hwy80_tahoenf_08-10_01.jpg', '/static/images/photos/shrub/alnus-incana_pct-hwy80_tahoenf_08-10_02.jpg', '/static/images/photos/shrub/alnus-incana_sonorapass_09-03_01.jpg', '/static/images/photos/shrub/alnus-incana_plaskett-meadows_yollabollymtns_06-2013_01.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Alnus</i> <i>incana</i> is dominant or co-dominant in the shrub canopy with <i>Acer</i> <i>glabrum</i>, <i>Cornus</i> <i>sericea</i>, <i>Salix</i> <i>jepsonii</i>, <i>Salix</i> <i>lemmonii</i>, <i>Salix</i> <i>melanopsis</i>, <i>Salix</i> <i>planifolia</i>, <i>Salix</i> <i>prolixa</i> and <i>Salix</i> <i>scouleriana</i>. Emergent trees may be present at low cover, including <i>Abies</i> <i>concolor</i>, <i>Pinus</i> <i>contorta</i> ssp. <i>murrayana</i>, <i>Pinus</i> <i>jeffreyi</i>, <i>Pinus</i> <i>ponderosa</i>, <i>Populus</i> spp. or <i>Salix</i> spp. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 10 m; canopy is intermittent to continuous. Herbaceous layer is variable and usually includes forbs, ferns, and grasses. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Alnus incana</i> > 25% absolute cover in the small tree layer, where it usually dominates (Manning and Padgett 1995).</li>
+		
+		<li><i>Alnus incana</i> > 5% absolute cover in the shrub layer where it dominates (Potter 2005).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Montane streamsides, seeps, springs, and pond and lake margins. The USFWS Wetland Inventory (1996 national list) recognizes <i>Alnus incana</i> spp. <i>tenuifolia</i> as an OBL+ plant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Montane wetland shrub habitat, Mountain alder series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Alnus incana seasonally flooded shrubland alliance, Alnus incana temporarily flooded shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Riparian mixed shrub, Mountain alder
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Montane riparian scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Montane riparian
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>63.210.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Tree Vegetation (Forest and Woodland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate Flooded and Swamp Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North America Flooded and Swamp Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Western Cordilleran montane-boreal riparian scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Western North American montane-subalpine riparian scrub
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Alnus incana </i>is a deciduous, multi-stemmed shrub or small tree that attains a height of 9 m and an age of about 100 years. Plants produce abundant seed, which is dispersed during fall and winter, but seed viability can be quite low (5%). Seeds require no treatment to break dormancy. Seedling establishment is best on exposed mineral soil. Their flexible stems are well adapted to frequent disturbance. Plants fix atmospheric nitrogen through a symbiotic relationship with bacteria (Uchytil 1989b). <br/>
+<br/>
+<i>Alnus incana </i>is a circumboreal shrub involving three subspecies: <i>A. incana </i>ssp. <i>incana </i>in Europe and Asia, ssp. <i>rugosa </i>in the Lake States and New England, and ssp. <i>tenuifolia </i>in the western mountains of the United States (Brayshaw 1976). The ecology of the subspecies is similar, and both North American subspecies are included in the same alliance (NatureServe 2007a). <br/>
+<br/>
+Stands in California are restricted to montane riparian thickets in the northern half of the state. They typically occupy relatively cool and shady settings along small to mid-size streams and rivulets, seeps and springs, and meadow complexes. There is little overlap with <i>Salix</i>-dominated alliances because the latter typically occupy warmer, sunnier exposures or montane zones in more southerly latitudes. <i>A. incana </i>meets the other shrubby alder, <i>A. viridis, </i>in the Klamath Mountains. Seasonally flooded stream banks provide seedbeds for establishment of <i>A. incana </i>stands, and stands may be transitional to riparian hardwood- or conifer-dominated woodlands or forests (Uchytil 1989b, Potter 2005). </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Alnus incana</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Shrub; winter deciduous</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil?</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Medium?</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Wind; water/hydrological</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; low flammability; high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>Unknown</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>High</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Stands are primarily disturbed by fluvial processes rather than fire. The species may respond to fire by sprouting from the root crown after fire and colonizing from numerous wind- and water-dispersed seeds (Uchytil 1989b). If fires do occur in the alliance, they have less than half the median fire return interval of surrounding forests.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Depends on neighboring alliances. Half the median frequency of surrounding forests
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Summer-fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Small to medium
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>High
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Low to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Low to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Surface-crown fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Klamath, Cascade, and North Coast ranges
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Klamath Mountains</b> (M261Ad, Ag, Aj, An-p, As-u). Stands occur more commonly in the central and eastern subsections surrounding streams and adjacent to wet meadows as far west as the southern border along the higher portions of South Fork Mountain. In much of the western Klamath Mountains, the alliance is largely replaced by <i>A. viridis.</i> Both alliances occur in the central portion, where <i>A. incana</i> tends to be in shady sites.</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Ba). Meadow and streamside stands occur in the Yolla Bolly Mountains south to Snow Mountain; these are usually on northern exposures. Stands are described at Doll Basin RNA (Cheng 2004) and generally for the Yolla Bolly Mountains (Keeler-Wolf and Keeler-Wolf 1974).</li>
+        
+            <li><b>Sierra Nevada</b> (M261Eb, Ed-e, Eg-h, Ej-o, Eq, Et). Many stands along middle elevation streamsides (Potter 2005) are transitional to flood-prone areas and in avalanche chutes in the <i>Abies magnifica, A. concolor,</i> and<i> Pinus contorta</i> ssp. <i>murrayana</i> zones in the section. The alliance exists as far south as the Stanislaus River drainage, but apparently does not occur as stands in Yosemite National Park. Stands occur in the upper San Joaquin River Drainage in Devils Postpile National Monument (S. Haultain, pers. comm. 2004). The most southerly occurrence is in Fresno Co. Stands are described at Clark Fork cRNA, Grass Lake RNA, Lyon Peak/Needle Lake RNA, Moses Mountain RNA, Mount Pleasant RNA, Mud Lake RNA, and Onion Creek study area (Cheng 2004).</li>
+        
+            <li><b>Southern Cascades</b> (M261Df, Dm). Meadow and stream bank stands occur commonly in the <i>A. magnifica</i> and <i>A. concolor</i> forest zones from Mount Shasta to Mount Lassen, including as far east as Antelope Creek Lakes, Green Island Lake, and Soda Ridge rRNAs (Cheng 2004).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> <i>Alnus incana </i>with its nitrogen-fixing bacteria provides a nutrient supply to streams and ponds. It is not an aggressive colonizer in California, but it helps maintain stream bank stability and prevents soil loss on the steep forested hillsides on which it commonly occurs. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Alnus incana [2]</li>
+                
+                    <li>Alnus incana / bench [1]</li>
+                
+                    <li>Alnus incana / Glyceria elata [3]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Manning, M.E.;Padgett, W.G. 1995</li>
+		
+		<li>[2] Potter, D.A. 2005</li>
+		
+		<li>[3] Smith, S. 1998b</li>
+		
+		<li>Brayshaw, T.C. 1976</li>
+		
+		<li>Hansen, P.L.;Chadde, S.W.;Pfister, R.D. 1988</li>
+		
+		<li>Reid, M.S.;Schulz, K.A.;Cormer, P.J.;Schindel, M.H.;Culver, D.R.;Sarr, D.A.;Damm, M.C. 1999</li>
+		
+		<li>Uchytil, R.J. 1989b</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/109/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

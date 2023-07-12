@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Arctostaphylos pungens - Arctostaphylos pringlei</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Arctostaphylos</i> <i>pungens</i> - <i>Arctostaphylos</i> <i>pringlei</i></span> Shrubland Alliance <br/>
+        <span class="subtitle">Pointleaf manzanita - pink-bract manzanita chaparral</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>900-2400 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G4
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA (TJM2)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>Yes
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>Yes
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2009/09/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/arctostaphylos-pringlei-drupacea_wriv0894-59_06-03.jpg', '/static/images/photos/shrub/arctostaphylos-pringlei-drupacea_wriv0894-66_06-03.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Arctostaphylos</i> <i>parryana</i>, <i>Arctostaphylos</i> <i>pringlei</i> ssp. <i>drupacea</i> or <i>Arctostaphylos</i> <i>pungens</i> is dominant or co-dominant in the shrub canopy with <i>Adenostoma</i> <i>fasciculatum</i>, <i>Adenostoma</i> <i>sparsifolium</i>, <i>Arctostaphylos</i> <i>pungens</i>, <i>Ceanothus</i> <i>greggii</i>, <i>Cercocarpus</i> <i>montanus</i>, <i>Eriogonum</i> <i>fasciculatum</i>, <i>Eriophyllum</i> <i>confertiflorum</i>, <i>Fremontodendron</i> <i>californicum</i>, <i>Hesperoyucca</i> <i>whipplei</i>, <i>Quercus</i> <i>berberidifolia</i>, <i>Quercus</i> <i>wislizeni</i>, <i>Rhamnus</i> <i>ilicifolia</i> and <i>Salvia</i> <i>apiana</i>. Emergent trees may be present at low cover, including <i>Pinus</i> <i>coulteri</i>, <i>Pinus</i> <i>jeffreyi</i>, <i>Pinus</i> <i>monophylla</i>, <i>Quercus</i> <i>chrysolepis</i> or <i>Quercus</i> <i>kelloggii</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 5 m; canopy is intermittent to continuous. Herbaceous layer is sparse to open. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Arctostaphylos pringlei</i> ssp. <i>drupacea</i> > 30% relative cover in the shrub canopy (cf. Klein and Evens 2005).</li>
+		
+		<li><i>Arctostaphylos pringlei</i> ssp. <i>drupacea</i> > 50% relative cover in the shrub canopy, or > 30% cover with other shrub species such as <i>A. pungens, Quercus berberidifolia,</i> and <i>Q. wislizeni</i> (Keeler-Wolf et al. 1998b, Evens and San 2005).</li>
+		
+		<li><i>Arctostaphylos parryana</i> > 50% relative cover in the shrub canopy (Kauffmann et al. 2017).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Uplands: outcrops, ridges, and gradual to steep slopes. Soils are shallow and coarse-textured.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Upper montane mixed chaparral, Manzanita chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Northern mixed chaparral, Upper Sonoran manzanita chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Mixed chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>37.310.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Mediterranean Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Mediterranean Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>California Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>California Chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Californian pre-montane chaparral
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Arctostaphylos pungens </i> and <i>Arctostaphylos pringlei </i> are long-lived manzanitas that grow up to 6 m tall and live to 100 or more years. Both species lack a lignotuber. Shrubs produce abundant seed that collects in duff and soil as a seed bank as stones (League 2005a). Similarly, <i>A. parryana </i>is a long-lived manzanita that grows to 2 m tall, with ssp. <i>parryana </i>lacking a lignotuber, and ssp. <i>deserticans</i> and ssp. <i>tumescens </i> with lignotubers. The typical form of <i>A. pringlei </i> ssp. <i>pringlei, </i>grows outside of California, and ssp. <i>drupacea </i>occurs in the San Bernardino Mountains and in the Peninsular Ranges in California.  <i>A. pungens </i> grows in a wider distribution outside of and in California, including the inner Central Coast Ranges, southern North Coast Ranges, as well as Peninsular and Transverse Ranges into the mountains of the southern and eastern Mojave Desert. <i>A. parryana </i>is endemic to California occurring in the Penisular and Transverse Ranges.<br/>
+<br/>
+<i>A. pringlei</i> occurs discontinuously throughout mountainous areas of southern California, Arizona, extreme southern Nevada and Utah, and Baja California, while <i>A. pungens </i>overlaps in distribution though occurs more broady yet discontinuously throughout  mountainous areas of southern California, Arizona, extreme southern Nevada and Utah, New Mexico, western Texas, and Mexico. Outside of and in California, these taxa occur in dry chaparral in and adjacent to pinyon-juniper and other pine woodlands.  The two species have a similar appearance to each other, though <i>A. pringlei</i> is more glandular hairy, blooms earlier in the year, and typically grows in lower elevations (Southwest Desert Flora 2015).<br/>
+<br/>
+Both species are common understory shrubs in stands of the <i>Pinus coulteri, P. jeffreyi, Quercus chrysolepis, </i>and <i>Quercus kelloggii </i>alliances in southern California (Keeler- Wolf et al. 1998b, Klein and Evens 2005). Depending on slope exposure and soil fertility, these trees can invade and shade out stands particularly of <i>A. pringlei, </i>but <i>A. pringlei </i>stands persist on xeric south-facing sites with shallow soils, such as at Hall Canyon RNA (Keeler-Wolf 1986c, see Cheng 2004) where individual plants are tree-like. Stands at Cahuilla Mountain RNA contain pole-size <i>P. coulteri </i>trees that established 60+ years after the last fire (Keeler-Wolf 1986a, see Cheng 2004). <i>A. pungens </i>mostly occurs as a component of other vegetation alliances in California, though it forms extensive stands in the Mojave Desert and beyond outside of California. <br/>
+<br/>
+Currently, the NVC describes a mixed alliance of <i>A. pringlei </i> and <i>A. pungens </i>with <i>Ceanothus greggii </i> (sensu lato). We have not included the ceanothus species in this alliance for California, because this taxon occurs almost exclusively in post-burn settings in the montane southern California, and the manzanitas occur as xeric montane chapparal particularly on nutrient poor rock types. We do, though, include stands of <i>Arctostaphylos parryana </i>, another montane chaparral in similar settings to the other manzanita in this alliance. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Arctostaphylos parryana</th>
+			
+		
+			
+			<th>Arctostaphylos pringlei ssp. drupacea</th>
+			
+		
+			
+			<th>Arctostaphylos pungens</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Shrub; evergreen</td>
+			
+		
+			
+			<td>Shrub; evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Medium to long</td>
+			
+		
+			
+			<td>Medium-long</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Gravity; animal</td>
+			
+		
+			
+			<td>Gravity; animal</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Heat; scarification</td>
+			
+		
+			
+			<td>Scarification: fire, charred wood</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>non sprouter, layering for more than 2 years, take root</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Fire-sensitive; no/low sprouting; canopy architecture susceptible</td>
+			
+		
+			
+			<td>fire-sensitive, seeds germinate after fire</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>no</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>?-100+ years</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Medium</td>
+			
+		
+			
+			<td>Medium. High mortality rate common 1st year, produces lots of seeds</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text"><i>Arctostaphylos pringlei </i>is an obligate seeder. Shrubs produce abundant seed that collect in duff and soil as a seed bank as stones. Charate and heat break seed dormancy, and the refractory seeds germinate following winter rains. Seedling mortality is high in areas with annuals and with drought. Branches on soil surfaces can layer (League 2005a).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Medium (20-50+ years)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Late summer-fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Medium to large—up to stand
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low to moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Moderate to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Moderate to very high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Dependent crown fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Southern California
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Bd, Bh, Bm-p). Stands with <i>Arctostaphylos pringlei</i> are common at higher elevations in Anza- Borrego Desert State Park (Keeler-Wolf et al. 1998b). Stands with <i>A. pringlei</i> strongly dominant occur west of the desert in San Diego Co. along foothill slopes and montane slopes, including Volcan Mountain, intermixed with other chaparral and evergreen forest types (Evens and San 2005). Small stands occur with <i>A. pringlei</i> co-dominant in the San Jacinto Mountains (Klein and Evens 2005) such as at Cahuilla Mountain and Hall Canyon RNAs (Keeler-Wolf 1986a and 1986c, see Cheng 2004). Stands are also likely in the San Bernardino Mountains. Stands of <i>A. parryana</i> have been sampled in the San Gabriel Mountains (Kauffmann et al. 2017).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> The mixed manzanita alliance is naturally uncommon and localized in California, and it appears little impacted by management practices on xeric sites that favor long fire intervals. However, the recent short-interval fires in the San Bernardino Mountains and Peninsular Ranges may be depleting the species’s seed bank. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Adenostoma fasciculatum - Arctostaphylos pringlei [3]</li>
+                
+                    <li>Arctostaphylos parryana [4]</li>
+                
+                    <li>Arctostaphylos pringlei ssp. drupacea [1], [2]</li>
+                
+                    <li>Arctostaphylos pringlei ssp. drupacea - Arctostaphylos pungens [2]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Evens, J.;San, S. 2005</li>
+		
+		<li>[2] Keeler-Wolf, T.;Roye, C.;Lewis, K. 1998b</li>
+		
+		<li>[3] Klein, A.;Evens, J. 2005</li>
+		
+		<li>[4] Kauffmann, M.;Ratchford, J.;Evens, J.;Lindke, K.;Barnes, J. 2017</li>
+		
+		<li>California Native Plant Database, 2009</li>
+		
+		<li>Fulton, R.E;Lynn, F. 1979</li>
+		
+		<li>Keeler-Wolf, T. 1986a</li>
+		
+		<li>Keeler-Wolf, T. 1986c</li>
+		
+		<li>League, K.R. 2005a</li>
+		
+		<li>Levine, J.M.;Vila, M.;D'Antonio, C.M.;Dukes, J.S.;Grigulis, K.;Lavorel, S. 2003</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/128/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

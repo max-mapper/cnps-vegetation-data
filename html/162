@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Ceanothus greggii - Fremontodendron californicum</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Ceanothus</i> <i>greggii</i> - <i>Fremontodendron</i> <i>californicum</i></span> Shrubland Alliance <br/>
+        <span class="subtitle">Cup leaf ceanothus - California flannelbush chaparral</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>600-2800 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G4
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: AZ, CA, NM, TX. Baja California, Mexico (TJM2)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2009/09/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/ceanothus-greggii_uppercoyotecrdrainage_10-02.jpg', '/static/images/photos/shrub/fremontodendron_californicum_lakeisabella_aug5_2008.jpg', '/static/images/photos/shrub/fremontodendron_californicum_lakeisabella_aug6_2008.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Ceanothus</i> <i>greggii</i> var. <i>perplexans</i>, <i>Ceanothus</i> <i>greggii</i> var. <i>vestitus</i> and/or <i>Fremontodendron</i> <i>californicum</i> is dominant or co-dominant in the shrub canopy with <i>Adenostoma</i> <i>fasciculatum</i>, <i>Adenostoma</i> <i>sparsifolium</i>, <i>Arctostaphylos</i> <i>glauca</i>, <i>Artemisia</i> <i>tridentata</i>, <i>Cercocarpus</i> <i>montanus</i>, <i>Dendromecon</i> <i>rigida</i>, <i>Ericameria</i> <i>nauseosa</i>, <i>Eriogonum</i> <i>fasciculatum</i>, <i>Fallugia</i> <i>paradoxa</i>, <i>Garrya</i> <i>veatchii</i>, <i>Hesperoyucca</i> <i>whipplei</i>, <i>Lotus</i> <i>scoparius</i>, <i>Prunus</i> <i>fasciculata</i>, <i>Prunus</i> <i>fremontii</i>, <i>Purshia</i> <i>glandulosa</i>, <i>Purshia</i> <i>stansburiana</i>, <i>Quercus</i> <i>berberidifolia</i>, <i>Quercus</i> <i>cornelius</i>-<i>mulleri</i>, <i>Quercus</i> <i>john</i>-<i>tuckeri</i>, <i>Quercus</i> <i>palmeri</i>, <i>Quercus</i> <i>wislizeni</i>, <i>Rhus</i> <i>ovata</i>, <i>Salvia</i> <i>apiana</i> and <i>Salvia</i> <i>mellifera</i>. Emergent trees may be present at low cover, including <i>Juniperus</i> <i>californica</i> or <i>Pinus</i> <i>monophylla</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 5 m; canopy is intermittent to continuous. Herbaceous layer is sparse. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li>Both <i>Adenostoma fasciculatum</i> and <i>Ceanothus greggii</i> have between 30% and 60% relative cover in the shrub canopy (cf. Evens and San 2005, Gordon and White 1994).</li>
+		
+		<li><i>Fremontodendron californicum</i> > 50% relative cover in the shrub canopy (Reyes et al. 2020a).</li>
+		
+		<li><i>Ceanothus greggii</i> > 30% relative cover in the shrub canopy with <i>Fremontodendron californicum</i> or other shrubs (Reyes et al. 2020a).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Varied topography, usually middle to upper slopes that are mostly moderately steep and south facing in higher elevations, but also gentle, north-facing slopes at  lower elevations. Soils are shallow and may be rocky or sandy loam.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Cupleaf ceanothus-fremontia-oak series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Ceanothus greggii-Fremontodendron californicum shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Great Basin-Mixed chaparral transition, Ceanothus chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Chamise chaparral, Semi-desert chaparral, Northern north slope chaparral, Flannel bush chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Chamise-redshank chaparral, Mixed chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>37.212.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate and Boreal Shrubland and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate Grassland, Meadow, and Shrubland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North America Interior Sclerophyllous Shrubland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Warm Interior Chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Mogollion Rim chaparral
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Ceanothus greggii</i> is a low to rounded evergreen shrub with rigid branches that grows to 2 m in height. At 3 years, shrubs begin producing seed, which is explosively cast from plants as their capsules break. Most of the seed drops beneath the crowns of the shrubs. Seed predation by small mammals and insects may be severe, but with time, seeds collect in the duff and soil as a seed bank (Zouhar 2000a). <br/>
+<br/>
+Two of the four varieties of <i>Ceanothus greggii</i> are widespread in southern California (Hickman 1993). The more restricted var. <i>perplexans</i> grows in the San Bernardino Mountains and Peninsular Ranges; var. <i>vestitus</i> ranges from the Transverse Ranges east though the Tehachapi area along the desert margin of the southern Sierra Nevada and White Mountains to the Mojave Desert. Fross and Wilken (2006) and others have argued recently that the California plants are best treated as <i>C. perplexans</i> and <i>C. vestitus</i>. However, additional taxonomic analysis of plants referred to as <i>C. greggii</i> var. <i>vestitus</i> (or <i>C. vestitus</i>) and <i>C. pauciflorus</i> in the southwestern U.S. and Mexico are better combined into a single taxon with C. vestitus synonymized into <i>C. pauciflorus</i> (Burge and Zhukovsky 2013). <br/>
+<br/>
+<i>Fremontodendron californicum</i> is a medium to tall shrub to 3 (-5) m in height. After 2 years, shrubs begin producing seed, and they are prolific seed producers but germination may be variable. Plants also can resprout from a lignotuber following top-kill, and plants can grow rapidly after germination or resprouting (Pavek 1993b).<br/>
+<br/>
+Both <i>C. greggii</i> and <i>F. californicum</i> are components of desert chaparral vegetation that also inter-relate with desert scrub and pinyon-juniper woodland in post-burn settings. Many transmontane stands have been called desert, semi-desert, and transitional chaparral. Descriptions stress the open shrub canopy but differ in species composition. Some allow a significant tree component. The alliance definition builds on the original description of desert chaparral (Horton 1960), which lacks a common tree component. Stands are described at Long Canyon RNA (Keeler-Wolf 1990b).<br/>
+<br/>
+This alliance definition includes stands with <i>C. greggii</i> and <i>F. californicum</i> dominance (where <i>Adenostoma fasciculatum</i> is 10% or less), stands with <i>C. greggii</i> and <i>A. fasciculatum</i> co-dominance, and stands with <i>C. greggii</i> and <i>F. californicum</i> co-dominance. The name and definition has been expanded since the publication of the 2009 A Manual of California Vegetation where it was cited as the <i>Ceanothus greggii</i> Alliance. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Ceanothus greggii var. perplexans</th>
+			
+		
+			
+			<th>Ceanothus greggii var. vestitus</th>
+			
+		
+			
+			<th>Fremontodendron californicum</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Shrub; evergreen</td>
+			
+		
+			
+			<td>Shrub; evergreen</td>
+			
+		
+			
+			<td>Shrub; evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Long</td>
+			
+		
+			
+			<td>Long</td>
+			
+		
+			
+			<td>Long</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; expulsion from capsule</td>
+			
+		
+			
+			<td>Animal; expulsion from capsule</td>
+			
+		
+			
+			<td>Animal; Wind</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Heat; chemical; stratification—summer; stratification—winter</td>
+			
+		
+			
+			<td>Heat; chemical; stratification—summer; stratification—winter</td>
+			
+		
+			
+			<td>Chemical; heat</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>None (rarely sprouting)</td>
+			
+		
+			
+			<td>None (rarely sprouting)</td>
+			
+		
+			
+			<td>Buds on small branches; underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-sensitive; high flammability; canopy architecture susceptible </td>
+			
+		
+			
+			<td>Fire-sensitive; high flammability; canopy architecture susceptible </td>
+			
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>3(6)-100 years (varies by site; crowded out at moist sites)</td>
+			
+		
+			
+			<td>3(6)-100 years (varies by site; crowded out at moist sites)</td>
+			
+		
+			
+			<td>2-50+</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Low to high; episodic</td>
+			
+		
+			
+			<td>Low to high; episodic</td>
+			
+		
+			
+			<td>Low to high; episodic</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Most stands of this alliance are associated with relatively recent fires. <i>Ceanothus greggii </i>may sprout weakly from stems or root crowns, but survival is generally low. As an obligate seeder, abundant seedlings are produced after fires, and germination between fires is negligible (Zouhar 2000a). Seeds germinate from the seed bank, and seedlings reach densities of 150/100 m2 (Keeler-Wolf 1990b). <i>Fremontodendron californicum </i>can either resprout from a lignotuber or can germinate from underground or off-site seed sources after fire (Pavek 1993b).
+
+Post-fire stands attain dominance of <i>C. greggii </i> or <i>F. californicum </i>in as little as 4 years, when shrubs already average 30 cm in height and 50 cm in crown diameter. Older stands > 30 years tend to lose the dominance of these more early seral shrubs and include other species of sprouting shrubs (Keeler-Wolf 1990b, see Cheng 2004). Schmalbach et al. (2007) discussed the post-fire response of <i>Ceanothus </i>stands that were 12 years old and 60 years old in the Peninsular Ranges of San Diego Co. The older stands had significantly higher <i>C. greggii </i>regeneration than the younger ones.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Medium (10-100 years)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Late summer-fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Medium to large; stand size or larger
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>High to moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Surface
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Sierra Nevada, southern California
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Colorado Desert</b> (322Cb). Stands occur along the westernmost fringe of the section (Keeler-Wolf et al. 1998b).</li>
+        
+            <li><b>Mono</b> (341Dh). A <i>Ceanothus greggii </i>stand has been sampled near Lake Crowley (Reyes et al. 2020a).</li>
+        
+            <li><b>Sierra Nevada</b> (M261Ep, Er-s, Eu). Stands are found in the Piute, Scodie, and Tehachapi mountains, including Long Canyon RNA (Keeler-Wolf 1990b, see Cheng 2004).</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fc-d). Stands of <i>Fremontodendron californicum</i> have been sampled near Lake Isabella and near the town of Mariposa (CNPS field data 2008).</li>
+        
+            <li><b>Southeastern Great Basin</b> (341Ff). <i>Ceanothus greggii </i>stands have been sampled in the Panamint Range of Death Valley National Park (Evens et al. 2014).</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Bb-d, Bg, Bi-j, Bl-p). Stands exist in Anza-Borrego Desert State Park (Keeler-Wolf et al. 1998b) and in the southern Peninsular Ranges (Evens and San 2005, Gordon and White 1994, Schmalbach et al. 2007). Four chaparral stands described by Gordon and White (1994) are placed here at this time.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> The life history of <i>Ceanothus greggii</i> and <i>Fremontodendron californicum </i>suggest that canopy fires are needed for stand regeneration. Very long intervals between fires will reduce dominance of this type, while repeated short-interval fires may deplete the seed bank. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Ceanothus greggii - Adenostoma fasciculatum [1], [2], [3], [4]</li>
+                
+                    <li>Ceanothus greggii (var. vestitus, var. perplexans) [2], [3], [5], [6]</li>
+                
+                    <li>Fremontodendron californicum [6]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Evens, J.;San, S. 2005</li>
+		
+		<li>[2] Gordon, H.J.;White, T.C. 1994</li>
+		
+		<li>[3] Keeler-Wolf, T.;Roye, C.;Lewis, K. 1998b</li>
+		
+		<li>[4] Klein, A.;Evens, J. 2005</li>
+		
+		<li>[5] Evens, J.M.;Sikes, K.;Hastings, D.;Ratchford,J.S. 2014</li>
+		
+		<li>[6] Reyes, E.;Evens, J.;Glass, A.;Sikes, K.;Keeler-Wolf., T.;Winitsky, S.;Johnson, D.;Menke, J.;Hepburn, A. 2020a</li>
+		
+		<li>Bissing, D.R. 1982</li>
+		
+		<li>Bullock, S.H.;Chamela., E. 1991</li>
+		
+		<li>Burge, D.O.;Erwin, D.M.;Islam M.B.;Kellermann, J.;Kembel, S.W.;Wilken D.H.;Manos P.S. 2011</li>
+		
+		<li>Burge, D.;Zhukovsky, K. 2013</li>
+		
+		<li>Conard, S.G.;Jaramillo, E.;Annabelle, E.;Cromack, K.;Rose, S. 1985</li>
+		
+		<li>Hanes, T.L. 1976</li>
+		
+		<li>Hanes, T.L. 1977</li>
+		
+		<li>Hanes, T.L. 1981</li>
+		
+		<li>Horton, J.S. 1960</li>
+		
+		<li>Keeley, J.E. 1987b</li>
+		
+		<li>Keeley, J.E. 1993b</li>
+		
+		<li>Keeley, J.E.;Keeley, S.C. 1988</li>
+		
+		<li>Keeley, J.E.;Zedler, P.H. 1978</li>
+		
+		<li>McMurray, N. 1990a</li>
+		
+		<li>Minnich, R.A. 1976</li>
+		
+		<li>Pase, C.P. 1982a</li>
+		
+		<li>Patric, J.H.;Hanes, T.L. 1964</li>
+		
+		<li>Pavek, D.S. 1993b</li>
+		
+		<li>Schmalbach, H.L.;Franklin, J.;O'Leary, J.F. 2007</li>
+		
+		<li>Shiflet, T.N. 1994</li>
+		
+		<li>Thorne, R.F. 1976</li>
+		
+		<li>Vogl, R.J.;Schorr, P.K. 1972</li>
+		
+		<li>Zammit, C.A.;Zedler, P.H. 1992</li>
+		
+		<li>Zouhar, K. 2000a</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/162/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

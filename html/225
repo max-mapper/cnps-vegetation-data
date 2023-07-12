@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Larrea tridentata - Encelia farinosa</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Larrea</i> <i>tridentata</i> - <i>Encelia</i> <i>farinosa</i></span> Shrubland Alliance <br/>
+        <span class="subtitle">Creosote bush - brittle bush scrub</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>-75-1400 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S4
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G5
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: AZ, CA, NV, UT. Mexico (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2009/09/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/larrea-tridentata-encelia-farinosa_10-97.jpg', '/static/images/photos/shrub/larrea-tridentata-encelia-farinosa_boxcanyon.jpg', '/static/images/photos/shrub/larrea-tridentata-encelia-farinosa_jotr_1997_01.jpg', '/static/images/photos/shrub/larrea-tridentata-encelia-farinosa_sjotr_03-08_01.jpg', '/static/images/photos/shrub/larrea-tridentata-encelia-farinosa_sjotr_03-08_02.jpg', '/static/images/photos/shrub/larrea-tridentata-encelia-farinosa_sjotr_03-08_03.jpg', '/static/images/photos/shrub/larrea-tridentata-encelia-farinosa_sjotr_03-08_04.jpg', '/static/images/photos/shrub/larrea-tridentata-encelia-farinosa_whipplemtns_03-95_01.jpg', '/static/images/photos/shrub/larrea-tridentata-encelia-farinosa_whipplemtns_03-95_02.jpg', '/static/images/photos/shrub/larrea-tridentata-encelia-farinosa_whipplemtns_04-92.jpg', '/static/images/photos/shrub/larrea-tridentata_encelia-farinosa_coloradodesert_riversideco_12-11.jpg', '/static/images/photos/shrub/larrea-tridentata_encelia-farinosa_joshuatreenp_riversideco_03-08.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Encelia</i> <i>farinosa</i> and <i>Larrea</i> <i>tridentata</i> are co-dominant
+and equally conspicuous in the shrub canopy with <i>Agave</i> <i>deserti</i>, <i>Ambrosia</i> <i>dumosa</i>, <i>Atriplex</i> <i>hymenelytra</i>, <i>Bebbia</i> <i>juncea</i>, <i>Cylindropuntia</i> <i>bigelovii</i>, <i>Dasyochloa</i> <i>pulchella</i>, <i>Eriogonum</i> <i>inflatum</i>, <i>Fagonia</i> <i>laevis</i>, <i>Ferocactus</i> <i>cylindraceus</i>, <i>Krameria</i> <i>grayi</i>, <i>Opuntia</i> <i>basilaris</i> and <i>Stephanomeria</i> <i>pauciflora</i>. Emergent trees or tall shrubs may be present at low cover, including <i>Fouquieria</i> <i>splendens</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 3 m; canopy is open to intermittent, and two tiered. Herbaceous layer is open with seasonal annuals. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li>Both <i>Encelia farinosa</i> and <i>Larrea tridentata</i> > 1%
+absolute cover in the shrub canopy; no other woody
+species can greatly exceed their cover. <i>Ambrosia
+dumosa, Agave deserti, Opuntia</i> spp., and emergent
+<i>Fouquieria splendens</i> may be present with < 5% absolute cover
+(Keeler-Wolf et al. 1998b).</li>
+		
+		<li>Both <i>Encelia farinosa</i> and <i>Larrea tridentata</i> > 1% absolute cover in the shrub canopy. <i>Ambrosia dumosa</i> may be present (Thomas et al. 2004).</li>
+		
+		<li><i>Larrea tridentata</i> generally ≥ 1% and evenly distributed across the stand. <i>Encelia farinosa</i> ≥ 1% cover, may have higher cover than <i>Larrea tridentata. Ambrosia dumosa</i> may be present but at generally lower cover than <i>Encelia farinosa</i> (Keeler-Wolf et al. 2005</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Small washes, rills, alluvial fans, bajadas, colluvium on upland slopes. Soils are well drained, rocky, may have desert pavement surfaces, and are often derived from granitic or volcanic rock.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Brittlebush series, Creosote bush series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Encelia farinosa shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Creosote bush, Ocotillo, Desert mixed scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Sonoran creosote bush scrub, Mojave creosote bush scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Creosote bush scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Desert scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>33.027.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Xeromorphic Scrub and Herb Vegetation (Semi-Desert)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Warm Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Warm Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Sonoran and Chihuahuan Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Mojavean-Sonoran Desert Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Lower Bajada and Fan Mojavean-Sonoran desert scrub
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Larrea tridentata </i>is a very long-lived shrub (10,000+ years as a clone), and under good conditions it develops a deep and widely spreading root system. The plant survives in deep, sandy soils or in rocky areas more effectively than other shrubs because of its spreading root system (Marshall 1995b). Further, <i>L. tridentata </i>is extremely resistant to high temperatures and low tissue water potential. Its resinous leaves are ideally anti-transpiring because they diminish transpiration more than assimilation (Meinzer et al. 1990). It is thereby successfully dominating landscapes throughout most of the hot deserts in California. Mature plants may be allelopathic to their own seedlings, encouraging an open community structure. <br/>
+<br/>
+<i>Encelia farinosa </i>is a short-lived sub-shrub that lives to 30 years in age. It leafs outs and flowers whenever moisture is available. It reproduces by seed and weakly sprouts from damaged stems. It is allelopathic to several winter annual species. It is fire sensitive, as it is intolerant of heat from fire, with sprouting weak or non-existent. However, it can quickly re-colonize areas from off-site seed sources (Tesky 1993b), and seedlings rapidly colonize roadsides and other disturbed areas. <br/>
+<br/>
+The alliance is found on hotter, rockier, and often steeper environments than the <i>Larrea tridentata-Ambrosia dumosa </i>alliance and tends to be less diverse with a lower proportion of annual herbs in rainy years. It is not found on sandy or clay-rich soils. Widespread in the southern and central Mojave Desert and throughout much of the Sonoran and Colorado deserts, this alliance represents a drought-tolerant expression of the American desert scrub dominated by <i>L. tridentata</i>. Despite the colonizing properties of <i>E. farinosa, </i>the alliance is generally stable. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Encelia farinosa</th>
+			
+		
+			
+			<th>Larrea tridentata</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Shrub; drought deciduous</td>
+			
+		
+			
+			<td>Shrub; drought deciduous</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Transient</td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+			
+			<td>Medium</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Gravity; wind </td>
+			
+		
+			
+			<td>Animal; gravity; wind</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>Chemical; heat</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Underground structures (weak)</td>
+			
+		
+			
+			<td>Underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>(Very) fire-sensitive; no/low sprouter</td>
+			
+		
+			
+			<td>Fire-sensitive; no/low sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>3-30 years</td>
+			
+		
+			
+			<td>Long lived (maybe 100s to 1000s of years)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>High</td>
+			
+		
+			
+			<td>Low to high (secondary colonizer, fire intensity dependant)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">In stages following fire, or other unnatural disturbance, <i>Encelia farinosa </i>may dominate alone as an alliance for several years before <i>Larrea tridentata </i>and other long-lived shrubs re-establish.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Truncated Long
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Spring-summer-fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Small to medium
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>High
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Passive-active crown fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Hot deserts
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Colorado Desert</b> (322Ca-b, Cd). Stands commonly occur on granitic slopes below 700 m, including the Coachella Valley (Evens and Hartman 2007). A study for Anza-Borrego Desert State Park (Keeler-Wolf et al. 1998b) concluded that areas mapped as <i>Encelia farinosa</i> series are more accurately considered part of this alliance. This alliance includes areas with a high cacti diversity. Brown and Minnich (1986) studied the fire history in the Palm Springs area, suggesting that much area had been converted to <i>E. farinosa</i> stands as a result of fire.</li>
+        
+            <li><b>Mojave Desert</b> (322Ab-f, Ah-p). Stands occur in all but the northernmost and westernmost subsections. Stands exist at Twentynine Palms Marine Corps Base (Minnich et al. 1993) and generally for the central and eastern subsections (Thomas et al. 2004). The alliance may occupy limestone and other calcareous mountains such as in the Nopah Range and Silurian Hills, as well as granitics and volcanics. The northernmost stands occur on volcanics near Panamint Springs.</li>
+        
+            <li><b>Sonoran Desert</b> (322Ba-e). Stands occur commonly on slopes and well-drained upper bajadas and alluvial fans throughout the section (Evens and Hartman 2007).</li>
+        
+            <li><b>Southeastern Great Basin</b> (341Fe-f). Stands occur in the southern subsections on steep slopes of the Argus and Panamint mountains.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> This is another alliance where non-native annual grass invasion and human-related fires have coincided in threatening its structure and diversity. Fires should be excluded at all times of the year and core areas should be identified where grass cover is low and stands are defensible. Unlike the <i>Larrea tridentata</i>-<i>Ambrosia dumosa </i>alliance, the rocky steep nature of many of the stands preclude the establishment of a dense cover of <i>Bromus rubens, </i>so resistance to fire and invasion may be high. <i>Brassica tournefortii </i>is a new non-native that is successfully invading stands of this alliance. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Larrea tridentata - Encelia farinosa [1], [3], [4], [5], [6]</li>
+                
+                    <li>Larrea tridentata - Encelia farinosa - Ambrosia dumosa [1], [3], [4], [5], [6]</li>
+                
+                    <li>Larrea tridentata - Encelia farinosa - Bebbia juncea [4], [5], [6]</li>
+                
+                    <li>Larrea tridentata - Encelia farinosa - Fouquieria splendens [3]</li>
+                
+                    <li>Larrea tridentata - Encelia farinosa - Peucephyllum schottii [2], [4]</li>
+                
+                    <li>Larrea tridentata - Encelia farinosa - Pleurocoronis pluriseta [4], [5], [6]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Evens, J.M.;Hartman, S. 2007</li>
+		
+		<li>[2] Keeler-Wolf, T.;Roye, C.;Lewis, K. 1998b</li>
+		
+		<li>[3] Keeler-Wolf, T.;San, S.;Hickson, D. 2005</li>
+		
+		<li>[4] Keeler-Wolf, T.;Thomas, K. 2000</li>
+		
+		<li>[5] Evens, J.M.;Sikes, K.;Hastings, D.;Ratchford,J.S. 2014</li>
+		
+		<li>[6] Reyes, E.;Evens, J.;Fulton, J.;Sikes, K.; Johnson, D.;Keeler-Wolf, T.;Vu, S.;LaFever-Jackson, A. 2023 (in progress)</li>
+		
+		<li>Barbour, M.G. 1994c</li>
+		
+		<li>Burk, J.H. 1977</li>
+		
+		<li>Hunt, C.B. 1966</li>
+		
+		<li>MacMahon, J.A. 1988</li>
+		
+		<li>Marshall, K.A. 1995a</li>
+		
+		<li>Menke, J.;Reyes, E.;Hepburn, A.;Johnson, D.;Reyes, J. 2013</li>
+		
+		<li>Pase, C.P.;Brown, D.E. 1982</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Black, H.;Bleich, V.C.;Mincks, J.W. 1980</li>
+		
+		<li>Reid, M.S.;Schulz, K.A.;Cormer, P.J.;Schindel, M.H.;Culver, D.R.;Sarr, D.A.;Damm, M.C. 1999</li>
+		
+		<li>Tesky, J.L. 1993b</li>
+		
+		<li>Thomas, K.;Franklin, J.;Keeler-Wolf, T.;Stine, P. 2004</li>
+		
+		<li>Vasek, F.C.;Barbour, M.G. 1977</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program);AIS, 2013</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/225/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

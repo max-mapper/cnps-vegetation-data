@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Salix nivalis</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+	<div class="allianceHeader">
+		<span class="scientificName"><i>Salix</i> <i>nivalis</i></span> Provisional Dwarf Shrubland Alliance <br/>
+		<span class="subtitle">Snow willow mats</span>
+	</div>
+
+	<div class="mainAllianceInfo">
+
+		<div class="allianceSideInfo">
+			<div class="quickInfoList">
+				<h4>Summary Information</h4>
+				<ul>
+					<li>
+						<span class="category">Primary Life Form</span>Shrub
+					</li>
+					<li>
+						<span class="category">Elevation</span>3100-3500 m
+					</li>
+					<li>
+						<span class="category">State Rarity</span>S1?
+					</li>
+					<li>
+						<span class="category">Global Rarity</span>G4
+					</li>
+					<li>
+						<span class="category">Distribution</span>CAN: AB, BC. USA: CA, CO, ID, MT, NM, NV, OR, UT, WA, WY (USDA Plants)
+					</li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2009/09/01
+                    </li>
+				</ul>
+			</div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/salix-nivalis_danaplateau_09-09_01.jpg', '/static/images/photos/shrub/salix-nivalis_danaplateau_09-09_02.jpg', '/static/images/photos/shrub/salix-nivalis_danaplateau_09-09_03.jpg']
+            </script>
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+		</div>
+
+		
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Salix</i> <i>nivalis</i> is dominant in the dwarf shrub and herbaceous layers with shrubs <i>Salix</i> <i>petrophila</i> and herbs:<i>Achillea</i> <i>millefolium</i>, <i>Carex</i> <i>subnigricans</i>, <i>Festuca</i> <i>brachyphylla</i>, <i>Phlox</i> <i>covillei</i>, <i>Pyrrocoma</i> <i>apargioides</i>, <i>Rhodiola</i> <i>integrifolia</i>, <i>Solidago</i> <i>multiradiata</i> or <i>Trisetum</i> <i>spicatum</i>. </div>
+</div>
+
+		
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 30 cm; canopy is intermittent to continuous. Herbaceous layer is open to continuous at the same height as <i>S. nivalis.</i> </div>
+</div>
+
+		
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Bases of alpine cirques, solifluction lobes. Soils are thin and rocky. The USFWS Wetland Inventory (1996 national list) recognizes <i>Salix nivalis</i> as a FACW plant. </div>
+</div>
+
+		
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance, and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Alpine habitat
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Salix (reticulata, nivalis) dwarf-shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Alpine grasses and forbs, Alpine mixed scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Alpine snowbank margin
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Alpine fell-fields
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Alpine dwarf-shrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>91.127.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+	</div>
+
+
+	<!-- collapsable content below -->
+
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Salix nivalis </i>is a deciduous, prostrate shrub that is usually less than 10 cm tall. Its leaves are shiny green above and pale gray-green and glabrous below. <i>S. nivalis </i>is part of the circumpolar <i>S. reticulata </i>complex that is treated differently by authors (Argus 1997, USDA NRCS 2008), including <i>S. reticulata </i>that grows in Canada and Alaska, and <i>S. nivalis </i>that occurs from British Columbia, across to the Rocky Mountains and to California. <br/>
+<br/>
+The <i>Salix </i>( <i>reticulata, nivalis</i>) alliance occurs in alpine areas in Washington and Colorado, where snow melts early and frost action is a disturbance feature (NatureServe 2007a). The southernmost occurrences in the range are in local environmental settings similar to those in the northern Rockies, where stands are more common than in California. They carpet active solifluction slopes and sites with frost-heave action, and they may be subirrigated by snowfields above the stands. The <i>Salix nivalis </i>alliance in California may be relictual. <i>S. nivalis </i>(a CNPS 2.3 list plant) so far is known from only five occurrences in the state. </div>
+</div>
+
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Observations</h4>
+	<div class="text"> The alliance occurs along the Sierra Nevada crest (M261Eo, Er), usually on metamorphic substrates from Dunderberg Peak near Conway Summit to Mount Morrison in the Convict Lake area where Pemble (1970) described a <i>Salix nivalis</i> association on slate and marble. Stands occur on Dana Plateau in granite and in the Virginia Lakes area on metamorphic substrates (Sawyer and Keeler-Wolf 2007). A stand sampled at Yosemite National Park (Keeler-Wolf et al. 2003b) contained a small amount of <i>S. petrophila</i> with associates <i>Carex subnigricans, Rhodiola integrifolia,</i> and <i>Solidago multiradiata</i>. The stands of <i>S. nivalis</i> may represent a few individual clones that have spread as mats in the alpine zone, and as a vegetation type, it is rare in California. We need more sampling and analysis to determine differences between related types, such as the <i>Salix reticulata</i> and <i>Salix nivalis</i> alliances in the Rocky Mountains. </div>
+</div>
+
+	
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>Pemble, R.H. 1970</li>
+		
+		<li>Sawyer, J.O.;Keeler-Wolf, T. 2007</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+	<script src="/static/javascript/alliance_page.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

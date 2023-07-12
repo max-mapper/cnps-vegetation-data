@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Pseudotsuga menziesii - Calocedrus decurrens</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Pseudotsuga</i> <i>menziesii</i> - <i>Calocedrus</i> <i>decurrens</i></span> Forest &amp; Woodland Alliance <br/>
+        <span class="subtitle">Douglas fir - incense cedar forest and woodland</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Tree
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>700-1500 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G3
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA, OR. Mexico (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>Yes
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2009/09/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/tree/pseudotsuga-menziesii-calocedrus-decurrens_e.fk.trinityriver_1982.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Calocedrus</i> <i>decurrens</i> and <i>Pseudotsuga</i> <i>menziesii</i> are co-dominant in the tree canopy with <i>Abies</i> <i>concolor</i>, <i>Pinus</i> <i>jeffreyi</i>, <i>Pinus</i> <i>lambertiana</i>, <i>Pinus</i> <i>monticola</i>, <i>Pinus</i> <i>ponderosa</i>, <i>Quercus</i> <i>kelloggii</i> and <i>Umbellularia</i> <i>californica</i>. Understory can be sparse to well-developed including <i>Chimaphila</i> <i>menziesii</i>, <i>Festuca</i> <i>californica</i>, <i>Hieracium</i> <i>albiflorum</i>, <i>Iris</i> spp., <i>Nassella</i> <i>pulchra</i>, <i>Notholithocarpus</i> <i>densiflorus</i> var. <i>echinoides</i>, <i>Quercus</i> <i>vacciniifolia</i> and <i>Toxicodendron</i> <i>diversilobum</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text"> Trees < 75 m; canopy is intermittent or continuous. Shrubs are infrequent or common. Herbaceous layer is sparse to abundant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Pseudotsuga menziesii</i> > 30% relative cover, <i>Calocedrus decurrens</i> present as overstory trees and reproduction layer with at least 30% relative cover; <i>Abies concolor</i> and <i>Notholithocarpus densiflorus</i> absent or unimportant though <i>Pinus jeffreyi</i> may be present and codominant (cf. Jimerson et al. 1995).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Raised stream benches, terraces, slopes, and ridges of all aspects. Soils are deep and well drained, typically on serpentine or other ultramafics. The USFWS Wetland Inventory (1996 national list) recognizes <i>Pseudotsuga menziesii</i> as a FACU plant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Douglas fir series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Calocedrus decurrens-Pseudotsuga menziesii forest alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Pacific Douglas-fir, Klamath mixed conifer, Mixed conifer-Pine
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Coast range mixed coniferous forest, Sierran mixed coniferous forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Yellow pine forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Sierran mixed conifer
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>82.600.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Tree Vegetation (Forest and Woodland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Cool Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North America Cool Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Californian-Vancouverian Montane and Foothill Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Upland Vancouverian mixed woodland and forest
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Calocedrus decurrens </i>grows to 50 m in height and lives to over 500 years in age. Seed crops vary in 3- to 6-year cycles, with seed production lacking in some years. Seeds are wind dispersed. Germination is best under partial shade on fresh mineral soil or very light litter. Established seedlings are both shade and drought tolerant. Understory trees can survive in dense shade, and they release when shade is removed. <i>C. decurrens </i>grows a wide variety of parent materials. Plants can extract soil phosphorus and calcium and exclude surplus magnesium, allowing the tree to grow on ultramafic substrates. Trees grow fastest on deep, well-drained, productive sites, but they commonly occur on unproductive ones as well (Habeck 1992a, Powers and Oliver 1990). <br/>
+<br/>
+<i>Pseudotsuga menziesii </i>reaches 75 m in height and 500 years or more in age. Trees begin bearing cones by 20 years of age. Seed production is cyclic, with heavy crops every 5-7 years. Seeds are dispersed primarily by wind and gravity; most seeds fall within 100 m of the parent tree. Seeds remain viable up to 2 years. Seedling establishment is best on mineral soil or on light, moist litter. First-year seedlings survive and grow best in partial shade, especially on drier sites where seedling survival and growth is best in 50% shade. Understory trees cannot survive in dense shade, but they are more shade tolerant on moist sites than on dry ones (Griffin and Critchfield 1972, Hermann and Lavender 1990, Uchytil 1991d). <br/>
+<br/>
+Bingham (1999) developed a region-wide alliance-level classification for late-seral forests based on relationships between species composition and major environmental gradients. Stands where <i>C. decurrens </i>and <i>Ps. menziesii </i>share dominance segregated significantly from the other alliances, forming a small but distinct group. These stands are limited in range and often found on ultramafic substrates. On the other hand, stands where <i>Ps. menziesii </i>and <i>C. decurrens </i>share canopy dominance with other conifers (such as pines) and are not found on ultramafic soils belong to the mixed conifer alliance <i>Pinus ponderosa - Calocedrus decurrens - Pseudotsuga menziesii</i>. <br/>
+<br/>
+In mesic settings in the northern Sierra and southern Cascades, Fites (1993) defined several forest associations within the mixed conifer-dogwood group and the mixed conifer-tanoak group that share <i>Ps. menziesii </i>and <i>C. decurrens </i>regularly in the canopy and understory layers. However, these stands tend to have higher cover of <i>Abies concolor </i>or <i>Notholithocarpus densiflorus </i>than <i>C. decurrens </i>and are thus better placed in either the Douglas fir-(tanoak-madrone) alliance or the white fir-Douglas fir alliance. Stuart et al. (1992) suggests that this alliance in the eastern Klamath Mountains may be dominated by <i>C. decurrens </i>as compared to <i>Ps. menziesii </i>and may contain low cover of <i>Pinus jeffreyi</i>. This alliance appears to be restricted to serpentinite and other nonproductive substrates in the Klamath Mountains and the northern Coast Ranges. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Calocedrus decurrens</th>
+			
+		
+			
+			<th>Pseudotsuga menziesii</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Tree; evergreen</td>
+			
+		
+			
+			<td>Tree; evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Transient</td>
+			
+		
+			
+			<td>Transient</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+			
+			<td>Short</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Wind</td>
+			
+		
+			
+			<td>Animal; gravity; wind</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Stratification—winter</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; thick epidermis; low flammability; canopy architecture resistant</td>
+			
+		
+			
+			<td>Fire-hardy; thick epidermis; canopy architecture resistant</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>20-500+ years</td>
+			
+		
+			
+			<td>5-500+ years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Episodic; high</td>
+			
+		
+			
+			<td>Low to high</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text"><i>Pseudotsuga menziesii </i>and <i>Calocedrus decurrens </i>are highly susceptible to low-severity fires. Seedlings have very flammable bark and foliage. Their ability to survive fire increases with age because mature trees have thick bark protecting them from ground fires. However, moderate- to high-severity surface fires damage trunks, making trees susceptible to rots and root disease (Habeck 1992a, Powers and Oliver 1990). Fire regimes are variable though relatively low to moderate due to the relatively open spacing of the trees and the serpentine soils intensities. Understory burning may allow older trees to survive repeated fires.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Short to medium (5-50 years)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Summer-early fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Small to medium
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low to moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Low to moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Low to moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Surface to passive crown
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Klamath and North Coast ranges
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Klamath Mountains</b> (M261Aa-d, Af, Aj-k, An-t). Stands occur on ultramafic substrates in this section. If the soils are deep and well developed, they support productive forests with large trees. Stands are described at Castle Crags State Park (Stuart et al. 1992) and generally for the Six Rivers National Forest (Jimerson et al. 1995). The eastern stands occur on peridotite and occupy more productive sites (deeper soils, lower slope positions) than those with higher cover of <i>Pinus jeffreyi</i> (Sawyer 2006, 2007).</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Ba). Stands observed in the Yolla Bolly Mountains occur on shale and serpentine.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Seed dispersion and site conditions for seed establishment are similar for both dominant conifers. Fire suppression has led to a buildup of fuels, increased stem density, and a change in composition toward the more shade-tolerant conifers. Additionally, logging practices have selectively taken the large trees. Like fire suppression, these practices encourage stands to change in composition toward shade-tolerant conifers. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Pseudotsuga menziesii - Calocedrus decurrens / Festuca californica [2]</li>
+                
+                    <li>Pseudotsuga menziesii - Calocedrus decurrens - Pinus jeffreyi [3]</li>
+                
+                    <li>Pseudotsuga menziesii - Calocedrus decurrens - Pinus jeffreyi / Festuca californica [2]</li>
+                
+                    <li>Pseudotsuga menziesii - Calocedrus decurrens - (Pinus jeffreyi) / Nassella pulchra [3], [4]</li>
+                
+                    <li>Pseudotsuga menziesii - Calocedrus decurrens - (Quercus kelloggii) / Nassella pulchra [3], [4]</li>
+                
+                    <li>Pseudotsuga menziesii - Calocedrus decurrens / Quercus vacciniifolia [1]</li>
+                
+                    <li>Pseudotsuga menziesii - Calocedrus decurrens - Umbellularia californica / Toxicodendron diversilobum [1]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Jimerson, T.M. 1993</li>
+		
+		<li>[2] Jimerson, T.M.;Hoover, L.D.;McGee, E.A.;DeNitto, G.;Creasy, R.M. 1995</li>
+		
+		<li>[3] Stuart, J.D.;Worley, T.;Buell, A.C. 1992</li>
+		
+		<li>[4] Stuart, J.D.;Worley, T.;Buell, A.C. 1996</li>
+		
+		<li>Atzet, T.A.;White, D.E.;McCrimmon, L.A.;Martinez, P.A.;Fong, P.R.;Randall, V.D. 1996</li>
+		
+		<li>Barbour, M.G. 1988</li>
+		
+		<li>Brooks, R.R. 1987</li>
+		
+		<li>Coleman, R.G.;Kruckeberg, A.R. 1999</li>
+		
+		<li>Griffin, J.R.;Critchfield, W.B. 1972</li>
+		
+		<li>Habeck, R.J. 1992a</li>
+		
+		<li>Hermann, R.K.;Lavender, D.P. 1990</li>
+		
+		<li>Kruckeberg, A.R. 1984</li>
+		
+		<li>Powers, R.F.;Oliver, W.W. 1990</li>
+		
+		<li>Uchytil, R.J. 1991d</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/75/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

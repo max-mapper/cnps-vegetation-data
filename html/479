@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Trifolium longipes</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+	<div class="allianceHeader">
+		<span class="scientificName"><i>Trifolium</i> <i>longipes</i></span> Provisional Herbaceous Alliance <br/>
+		<span class="subtitle">Long-stalk clover meadows</span>
+	</div>
+
+	<div class="mainAllianceInfo">
+
+		<div class="allianceSideInfo">
+			<div class="quickInfoList">
+				<h4>Summary Information</h4>
+				<ul>
+					<li>
+						<span class="category">Primary Life Form</span>Herb
+					</li>
+					<li>
+						<span class="category">Elevation</span>300-3000 m
+					</li>
+					<li>
+						<span class="category">State Rarity</span>S3?
+					</li>
+					<li>
+						<span class="category">Global Rarity</span>G3?
+					</li>
+					<li>
+						<span class="category">Distribution</span>USA: AZ, CA, CO, ID, MT, NM, NV, OR, UT, WA, WY (USDA Plants)
+					</li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2009/09/01
+                    </li>
+				</ul>
+			</div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/herb/trifolium-longipes_grasslk_06-09_01.jpg']
+            </script>
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+		</div>
+
+		
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Trifolium</i> <i>longipes</i> is dominant or co-dominant in the herbaceous layer with <i>Achillea</i> <i>millefolium</i>, <i>Carex</i> <i>angustata</i>, <i>Carex</i> <i>microptera</i>, <i>Carex</i> <i>nebrascensis</i>, <i>Danthonia</i> <i>unispicata</i>, <i>Deschampsia</i> <i>danthonioides</i>, <i>Eleocharis</i> <i>quinqueflora</i>, <i>Juncus</i> <i>arcticus</i>, <i>Muhlenbergia</i> <i>filiformis</i>, <i>Phleum</i> <i>alpinum</i>, <i>Poa</i> <i>bolanderi</i>, <i>Poa</i> <i>cusickii</i> ssp. <i>epilis</i>, <i>Potentilla</i> spp., <i>Ranunculus</i> <i>alismifolius</i>, <i>Sidalcea</i> <i>oregana</i>, <i>Symphyotrichum</i> <i>foliaceum</i> and <i>Symphyotrichum</i> <i>spathulatum</i>. </div>
+</div>
+
+		
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Herbs < 1 m; cover is intermittent to continuous. </div>
+</div>
+
+		
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Moist meadows, stream banks, openings in moist woods. Soils are gravelly, sandy loams to clay loams. The USFWS Wetland Inventory (1996 national list) recognizes <i>Trifolium longipes</i> as a FACW plant. </div>
+</div>
+
+		
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance, and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Montane meadow habitat, Subalpine meadow habitat
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Wet grasses and forbs
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Wet montane meadow, Wet subalpine or alpine meadow
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Red fir forest, Sagebrush scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Wet meadow
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>45.426.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+	</div>
+
+
+	<!-- collapsable content below -->
+
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Trifolium longipes </i>is perennial, rhizomatous or caespitose clover to 50 cm tall. It has inflorescence heads of white flowers upon long flowering stalks that lack involucral bracts. The species complex involves many species, subspecies, or varieties depending on the taxonomic treatment. The <i>Jepson Manual </i>(Hickman 1993) listed 12 subspecies for California. The species is common at montane to alpine elevations throughout the western states. The typical ssp. <i>longipes </i>is a Washington plant. Some subspecies are geographically isolated, but stands can have more than one subspecies in a meadow. <br/>
+<br/>
+Stands in California occur as small patches in wet to moist, gravelly meadows, usually associated with and adjacent to stands of the <i>Carex </i>(<i>aquatilis, lenticularis</i>)<i>, Carex nebrascensis, </i>or <i>Carex </i>(<i>utriculata, vesicaria</i>) alliances (S. Smith 1998). The clover patches vary in the abundance of graminoids and contain relatively high diversity of other broadleaf herbs. These stands are related to those of other common meadow alliances, and may vary depending on available moisture and grazing history. Stands of <i>T. longipes </i>are preferred grazing sites since the clover has high forage value; however, under continued heavy grazing pressure, the clover decreases (Ratliff 1982). Stands of the <i>Artemisia cana, Poa pratensis, </i>and <i>Veratrum californicum </i>alliances are typically nearby, but they are usually drier by the middle of the summer growing season. Other related stands with <i>Poa cusickii </i>ssp. <i>epilis </i>dominant are preferred grazing sites, where <i>T. longipes </i>is characteristically present at low cover (Weixelman 1999); we currently include these stands within this provisional alliance. </div>
+</div>
+
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Observations</h4>
+	<div class="text"> S. Smith (1998b) described three meadow stands from the Southern Cascades (M261D) and Modoc Plateau (M261G) that offer this description. Ratliff (1982, 1985) recognized a <i>Trifolium longipes</i> series from meadows of the Sierra Nevada (M261Eo, Eq), including near Clover Meadow in the Sierra National Forest and Cannell Meadow in the Sequoia National Forest. Weixelman et al. (1999) identified other stands as <i>Poa cusickii</i> ssp. <i>epilis</i> ecological type that appear similar to these clover stands, based on species composition and habitat conditions. They were sampled in the Carson and Walker river drainages (M261Er, 341Da-d). We need further sampling and analysis to understand the relationships among this alliance and other more widespread wet meadow alliances, especially those of the <i>Carex nebrascensis</i> alliance. </div>
+</div>
+
+	
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>Ratliff, R.D. 1982</li>
+		
+		<li>Ratliff, R.D. 1985</li>
+		
+		<li>Smith, S. 1998b</li>
+		
+		<li>Weixelman, D.A.;Zamudio, D.C.;Zamudio, K.A. 1999</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+	<script src="/static/javascript/alliance_page.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Achnatherum speciosum</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Achnatherum</i> <i>speciosum</i></span> Herbaceous Alliance <br/>
+        <span class="subtitle">Desert needlegrass grassland</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Herb
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-3400 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S2.2
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G4
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>CAN: BC: USA: CA, NV, CO?, NM?, OR?, WA?. Mexico? (TJM2) (USDA Plants)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/herb/achnatherum-speciosum_aguereberryptdvnp_10-99_01.jpg', '/static/images/photos/herb/achnatherum-speciosum_aguereberryptdvnp_10-99_02.jpg', '/static/images/photos/herb/achnatherum-speciosum_antelopevalley_11-95_01.jpg', '/static/images/photos/herb/achnatherum-speciosum_antelopevalley_4-92_01.jpg', '/static/images/photos/herb/achnatherum-speciosum_antelopevalley_4-92_02.jpg', '/static/images/photos/herb/achnatherum-speciosum_superiorvalley_03-12.jpg', '/static/images/photos/herb/achnatherum-speciosum_tejonranch_01-10_01.jpg', '/static/images/photos/herb/achnatherum-speciosum_tejonranch_04-93.jpg', '/static/images/photos/herb/achnatherum-speciosum_w_yubr-herbertii-chna_2antelopev_11-95.jpg', '/static/images/photos/herb/achnatherum-speciosum_w_yubr-herbertii-chna_antelopev_11-95.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Achnatherum</i> <i>speciosum</i> is dominant or co-dominant in the herbaceous layer with <i>Achnatherum</i> <i>hymenoides</i>, <i>Elymus</i> <i>elymoides</i>, <i>Nassella</i> <i>cernua</i>, <i>Nassella</i> <i>lepida</i> and <i>Poa</i> <i>secunda</i>. Emergent trees and shrubs may be present at low cover, including trees <i>Juniperus</i> <i>californica</i> or <i>Yucca</i> <i>brevifolia</i> and shrubs:<i>Ambrosia</i> <i>salsola</i>, <i>Artemisia</i> <i>tridentata</i>, <i>Coleogyne</i> <i>ramosissima</i>, <i>Ericameria</i> <i>cooperi</i>, <i>Ericameria</i> <i>linearifolia</i>, <i>Ericameria</i> <i>teretifolia</i>, <i>Grayia</i> <i>spinosa</i> and <i>Krascheninnikovia</i> <i>lanata</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Herbs < 1 m; cover is open to intermittent. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Achnatherum speciosum</i> > 50% relative cover in the herbaceous layer (Thomas et al. 2004).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Lower slopes, swales, rocky hills, flat ridges, talus slopes, and , and in canyons, and on sandy or gravelly alluvial fans. Soils are coarse- textured with no profile development.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Desert needlegrass series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Achnatherum speciosum herbaceous alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Perennial grasses and forbs
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Mojave mixed steppe, Native grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Creosote bush scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Desert scrub, Perennial grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>41.090.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Xeromorphic Scrub and Herb Vegetation (Semi-Desert)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Cool Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Cool Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North American Cool Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Inter-Mountain Dry Shrubland and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Southern Great Basin semi-desert grassland group
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Achnatherum speciosum </i>is a native, cool-season, perennial bunchgrass. It grows in large, dense clumps that have persistent leaf bases. The species reproduces asexually with tiller growth and sexually by seed. Seed crop size is closely tied to adequate moisture and temperature conditions. The grass has persistent seed and seedling banks, and seeds are self-planting (Pavek 1993c). It is often referred to as <i>Stipa speciosa </i>in botanical literature. <br/>
+<br/>
+<i>Achnatherum speciosum </i>occurs as a species in a wider range than does the alliance. In California, for example, <i>A. speciosum </i>occurs west of the desert in the dry, interior South Coast ranges of Fresno Co. However, the alliance is known from relatively few stands in transmontane California. Known stands are in upper-desert settings, adjacent to stands dominated by <i>Coleogyne ramosissima, Ericameria teretifolia, Grayia spinosa, Juniperus californica, </i>or <i>Yucca brevifolia</i>. Its rarity is likely a function of the natural disturbance regimes necessary for its development. However, its rarity is also likely a function of the invasion of non-native annual grasses that have altered fire frequencies. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Achnatherum speciosum</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Polycarpic perennial; herb</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Medium</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; wind</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Underground structures </td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>1-50 years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Stands appear associated with past burns that occur in the late summer or fall. The stands occupy areas where fire frequencies are moderate to relatively high, such as in the borderland between desert and chaparral types. Individuals of <i>Achnatherum speciosum </i>survive fires, sprout rapidly, set seed, and colonize burned areas more rapidly than the formerly dominant shrubs (Humphrey 1974). However, the presence of <i>Bromus rubens, Schismus </i>spp., and other non-natives increases fire frequencies, and the invasive qualities of these species impose a decline on the importance of this bunchgrass.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Medium
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Late summer-fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Small to large; up to stand size
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low to moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Low to moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>High
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Surface
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Mojave Desert
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Mojave Desert</b> (322Ag). Stands are generally open and may contain annual native wildflower displays. Surrounding shrub vegetation is generally well stocked with <i>Achnatherum speciosum,</i> suggesting that with appropriate fire intensity and frequency, grass stands could increase (Thomas et al. 2004). Regular grazing occurs in some of these stands at Tejon Ranch; at the current stocking rate, they appear to be viable. Antelope Valley stands are generally small (< 30 ha) and are interspersed among larger stands of <i>Ericmeria linearifolia, Juniperus californica,</i> and <i>Yucca brevifolia</i> alliances. California Vegetation Information System (CVIS 1995) has plot data on file from Kern and Los Angeles Cos. The grass has invaded lands cleared for agriculture (Desert Workshop 2000).</li>
+        
+            <li><b>Sierra Nevada</b> (M261Er). The few stands known are at the southern and eastern base of the Tehachapi Mountains. They occur in similar circumstances to western Mojave stands of the Antelope Valley. Some are within wind farm holdings and have been impacted by associated development.</li>
+        
+            <li><b>Southeastern Great Basin</b> (341Ff). The only known stands in the section occur in the Panamint Mountains, adjacent to stands of <i>Artemisia tridentata</i> and <i>Coleogyne ramosissima</i> alliances. The irregular boundaries of the stands suggest they are defined by the extent of old burns. Stands are generally < 50 ha.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> This alliance is currently rare but may have been more common prior to the invasion of non-native grasses and under different fire regimes. Old rangeland records in the western Mojave Desert suggest <i>Achnatherum speciosum </i>was once common and widespread (Desert Workshop 2000). Intensive sheep grazing over 100 years ago may have reduced its range. 
+
+In its natural state, the alliance was probably a relatively short-lived but important type associated with small, irregularly occurring fires in mid- to upper-elevation desert shrub types. Stands of associated shrublands with a significant component of <i>A. speciosum </i>should be identified and monitored for a better understanding of the shrub/grassland relationships to perpetuate this phase of natural desert systems. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Achnatherum speciosum Shrub [1], [2], [3], [4]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Keeler-Wolf, T.;Thomas, K. 2000</li>
+		
+		<li>[2] Evens, J.M.;Sikes, K.;Hastings, D.;Ratchford,J.S. 2014</li>
+		
+		<li>[3] Buck-Diaz, J.;Harbert, B.;Evens, J. 2011</li>
+		
+		<li>[4] Buck-Diaz, J.;Ratchford, J.;Evens, J. 2013</li>
+		
+		<li>Humphrey, R.R. 1974</li>
+		
+		<li>Keeler-Wolf, T.;Evens, J.M.;Solomeshch, A.I.;Holland, V.L.;Barbour, M.G. 2007</li>
+		
+		<li>Menke, J.;Reyes, E.;Hepburn, A.;Johnson, D.;Reyes, J. 2013</li>
+		
+		<li>Pavek, D.S. 1993c</li>
+		
+		<li>Reid, M.S.;Schulz, K.A.;Cormer, P.J.;Schindel, M.H.;Culver, D.R.;Sarr, D.A.;Damm, M.C. 1999</li>
+		
+		<li>Sawyer, J.O.;Keeler-Wolf, T. 1995</li>
+		
+		<li>Thomas, K.;Franklin, J.;Keeler-Wolf, T.;Stine, P. 2004</li>
+		
+		<li>Tueller, P.T.;Tausch, R.J.;Bostick, V. 1991</li>
+		
+		<li>Vasek, F.C.;Thorne, R.F. 1977</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program);AIS, 2013</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/311/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

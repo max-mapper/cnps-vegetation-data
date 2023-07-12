@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Carex (aquatilis, lenticularis)</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Carex</i> (<i>aquatilis</i>, <i>lenticularis</i><span style="padding-left: .2em">)</span></span> Herbaceous Alliance <br/>
+        <span class="subtitle">Water sedge and lakeshore sedge meadows</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Herb
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>1200-3400 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G5
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>CAN: AB, MB, NB, ON, QC. USA: AZ, CA, CO, ID, MI, MN, MT, ND, NM, NV, OR, SD, UT, WA, WY (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2009/09/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/herb/carex-aquatilis-lenticularis_hellholefen-ltbmu_07-10_01.jpg', '/static/images/photos/herb/carex-aquatilis-lenticularis_hellholefen-ltbmu_07-10_02.jpg', '/static/images/photos/herb/carex-aquatilis-lenticularis_uticareservoir_2006_01.jpg', '/static/images/photos/herb/carex-aquatilis-lenticularis_yosemitenp_10-03.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Carex</i> <i>aquatilis</i> and/or <i>Carex</i> <i>lenticularis</i> is dominant or co-dominant in the herbaceous layer with <i>Achillea</i> <i>millefolium</i>, <i>Bistorta</i> <i>bistortoides</i>, <i>Carex</i> <i>jonesii</i>, <i>Carex</i> <i>luzulina</i>, <i>Carex</i> <i>microptera</i>, <i>Carex</i> <i>simulata</i>, <i>Carex</i> <i>utriculata</i>, <i>Deschampsia</i> <i>cespitosa</i>, <i>Dodecatheon</i> <i>jeffreyi</i>, <i>Eleocharis</i> <i>quinqueflora</i>, <i>Epilobium</i> <i>ciliatum</i>, <i>Hypericum</i> <i>anagalloides</i>, <i>Juncus</i> <i>arcticus</i>, <i>Mimulus</i> <i>primuloides</i>, <i>Muhlenbergia</i> <i>filiformis</i>, <i>Oreostemma</i> <i>alpigenum</i>, <i>Perideridia</i> <i>parishii</i>, <i>Phleum</i> <i>alpinum</i>, <i>Phleum</i> <i>pratense</i>, <i>Poa</i> <i>pratensis</i>, <i>Poa</i> <i>secunda</i>, <i>Rumex</i> <i>crispus</i>, <i>Scirpus</i> <i>congdonii</i>, <i>Taraxacum</i> <i>officinale</i> and <i>Viola</i> <i>macloskeyi</i>. Emergent trees and shrubs may be present at low cover: such as <i>Pinus</i> <i>contorta</i> ssp. <i>murrayana</i> <i>Cornus</i> <i>sericea</i>, <i>Kalmia</i> <i>microphylla</i>, <i>Salix</i> spp. and <i>Vaccinium</i> <i>uliginosum</i>. Mosses may be abundant, including <i>Aulacomnium</i> <i>palustre</i> and <i>Campylium</i> <i>stellatum</i> </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text"> Emergent trees, if present, are sparse. Herbs < 1.5 m; cover is open to continuous. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Carex aquatilis</i> or <i>C. lenticularis</i> is ≥ 30% relative cover in the herbaceous layer; <i>C. scopulorum, C. utriculata,</i> or <i>C. vesicaria</i> absent or at relatively low cover (Potter 2005).</li>
+		
+		<li><i>Carex aquatilis</i> and/or <i>C. lenticularis</i> has ≥ 30% relative cover in the herbaceous layer; no other <i> Carex</i> spp. has greater cover (Boul et al. 2021b).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Wet meadows in basins, shallow lakes and margins, floodplains; montane fens; and along streams in narrow riparian ecotones. Soils have high organic material content; some are sandy. The USACE Wetland Inventory (2018 national list) recognizes <i>Carex aquatilis</i> and <i>C. lenticularis</i> as OBL plants. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Sedge series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Carex aquatilis seasonally flooded herbaceous alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Wet grasses and forbs, Tule-Cattail
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Wet montane meadow, Wet subalpine or alpine meadow, Freshwater seep, Fen
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Freshwater marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Wet meadow
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>45.168.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate and Boreal Shrubland and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate and Boreal Freshwater Marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North American Freshwater Marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Western North America Wet Meadow and Low Shrub Carr
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Western Cordilleran montane-boreal summer-saturated meadow
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Carex aquatilis </i>is a 150-cm tall, rhizomatous sedge that forms dense clumps. It has a circumboreal range, and plants have an extensive root system that can tolerate anoxic conditions (Hauser 2006a). Two of the four varieties (var. <i>aquatilis </i>and var. <i>dives</i>) grow in California. <br/>
+<br/>
+<i>Carex lenticularis </i>is a 90-cm tall, caespitose sedge without rhizomes that forms dense clumps. Three of the five varieties (var. <i>impressa, </i>var. <i>limnophila, </i>and var. <i>lipocarpa</i>) grow in California. <i>C. lenticularis </i>is difficult to distinguish from <i>C. aquatilis </i>in the field (Potter 2005). <br/>
+<br/>
+In general, stands of this alliance are dominated by wet meadow sedges and spike rushes that dominate the herbaceous layer. Both <i>Carex aquatilis</i> and <i>C. lenticularis</i> grow in seasonally or permanently saturated meadows along lakes and streams interspersed with forest edges. <br/>
+<br/>
+Potter (2005) included both sedges in a single association in his treatment for the Sierra Nevada meadows. Similarly, Pierce and Johnson (1986) identified <i>C. lenticularis </i>as dominant or codominant in a meadow type in a wetland classification for west-central Montana. Christy (2004) placed stands dominated by the different varieties in separate associations in a <i>Carex aquatilis </i>alliance and stands of <i>C. lenticularis </i>in a separate alliance in a northwestern Oregon study. The principal difference appeared to be more woody plants, such as <i>Rhododendron columbianum </i>and <i>Vaccinium uliginosum, </i>in <i>C. aquatilis </i>stands than in those of <i>C. lenticularis</i>. The latter alliance tended to have higher cover of large herbs such as <i>Bistorta bistortoides </i>and <i>Senecio triangularis</i>. At present, we consider these differences to be at the association level of this alliance. Hauser (2006a) also stated that <i>C. aquatilis </i>is co-dominant with <i>C. rostrata </i>in many states of the West. <br/>
+<br/>
+However, further analysis and review of wet meadow and fen alliances is needed to determine if separate and/or broader alliance designations are warranted, as has been done by the NVC. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Carex aquatilis</th>
+			
+		
+			
+			<th>Carex lenticularis</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Polycarpic perennial; herb; rhizomatous</td>
+			
+		
+			
+			<td>Polycarpic perennial; herb; rhizomatous</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Transient</td>
+			
+		
+			
+			<td>Transient</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+			
+			<td>Short</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; gravity; water/hydrological</td>
+			
+		
+			
+			<td>Animal; gravity; water/hydrological</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Stratification—winter </td>
+			
+		
+			
+			<td>Stratification—winter </td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Underground structures</td>
+			
+		
+			
+			<td>Underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>Long-lived</td>
+			
+		
+			
+			<td>Long-lived</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Low; episodic</td>
+			
+		
+			
+			<td>Low; episodic</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>High</td>
+			
+		
+			
+			<td>High</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Fluvial processes rather than fire primarily disturb the alliance. <i>Carex aquatilis </i>recovers rapidly when rhizome buds sprout; <i>C. lenticularis </i>is not capable of sprouting.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+            <p>The range of <i>Carex aquatilis</i> and <i>C. lenticularis</i> includes the Central California Coast (261A), Klamath Mountains (M261Ag, At), Modoc Plateau (M261G), and Northern California Coast (263A).</p>
+        
+
+        <ul class="text">
+        
+            <li><b>Klamath Mountains</b> (M261Ad, Ag, Ai-j, An, Aq, At). Stands are presumed present based on CCH and calflora records.</li>
+        
+            <li><b>Modoc Plateau</b> (M261Gb, Gf, Gh-i, Gm). Stands are scattered throughout the section along stream channels and at the edges of meadows (Boul et al. 2020).</li>
+        
+            <li><b>Mono</b> (341Dl). Stands of <i>C. aquatilis</i> occur in wet meadows and riparian zones at the Glass Mountain area with <i>C. nebrascensis</i> and willows such as <i>Salix exigua, S. geyeriana,</i> and <i>S. lutea</i> (Honer 2001).</li>
+        
+            <li><b>Northern California Coast</b> (263Aa, Ad-e, Ag). Stands are presumed present based on CCH and calflora records.</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Ba). Small stands of <i>C. aquatilis</i> occur in fens at the higher elevations of the Yolla Bolly Mountains within the <i>Abies magnifica</i> zone at more than 1900 m (Keeler-Wolf and Keeler-Wolf 1974).</li>
+        
+            <li><b>Northwestern Basin and Range</b> (342Bd). Stands are present in Balls Canyon at the northwestern base of Shaffer Mountain, in some small patches along Willow Creek, and in a meadow on Painters Creek in the north of the subsection (Boul et al. 2020).</li>
+        
+            <li><b>Sierra Nevada</b> (M261Ea-h, Ej-r, Eu). Stands occur generally north of the Kings River (Potter 2005), sporadically in Yosemite National Park (Keeler-Wolf et al. 2003b), and as far north as Bucks Lake Wilderness, including Mount Pleasant RNA (Cheng 2004). According to Potter (2005), common adjacent stands include those of the <i>Carex nebrascensis, Carex (utriculata, vesicaria), Eleocharis quinqueflora, Oxypolis occidentalis,</i> and <i>Scirpus microcarpus</i> alliances on wet sites; <i>Poa pratensis</i> and <i>Veratrum californicum</i> alliances on moist sites; and <i>Cistanthe (umbellata)-Gayophytum (diffusum)</i> alliance on dry sites. Associated shrub stands are those of the <i>Salix eastwoodiae, Salix lemmonii,</i> and <i>Vaccinium cespitosum</i> alliances. Common adjacent forest stands are those of the moist meadow edge associations of the <I>Pinus contorta</i> ssp. <i>murrayana</i> alliance.</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Bh). No description available</li>
+        
+            <li><b>Southern Cascades</b> (M261Dd, Df-g, Di-j, Dm). Stands of <i>C. aquatilis</i> are common in the section in higher mountain meadows (S. Smith 1998b).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Sedges are moderately palatable to livestock. <i>Carex aquatilis </i>is particularly susceptible to grazing and trampling (Hauser 2006a, Potter 2005, S. Smith 1998b). Erosion and stream downcutting, often the result of cumulative impacts of grazing and timber harvest, has eliminated and reduced stands by dropping water tables. Managers should limit these impacts in and adjacent to stands. <i>C. aquatilis </i>is excellent for stabilizing stream banks and filtering sediments with its sod-forming, strongly rhizomatous growth (Hauser 2006a). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Carex aquatilis [2], [4]</li>
+                
+                    <li>Carex aquatilis - Carex lenticularis [3], [5]</li>
+                
+                    <li>Carex lenticularis / Aulacomnium palustre [1]</li>
+                
+                    <li>Carex lenticularis / Perideridia parishii [1]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Cooper, D.J.;Wolf, E.C. 2006</li>
+		
+		<li>[2] Keeler-Wolf, T.;Schindel, M.;San, S.;Moore, P.;Hickson, D. 2003b</li>
+		
+		<li>[3] Potter, D.A. 2005</li>
+		
+		<li>[4] Smith, S. 1998b</li>
+		
+		<li>[5] Boul, R.;Keeler-Wolf, T.;Ratchford, J.;Haynes, T.;Hickson, D.;Yacoub, R.;Harbert, B.;Evens, J. 2021b</li>
+		
+		<li>Christy, J.A. 2004</li>
+		
+		<li>Hauser, A.S. 2006a</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/340/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

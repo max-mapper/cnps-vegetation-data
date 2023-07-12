@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Cercocarpus montanus</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Cercocarpus</i> <i>montanus</i></span> Shrubland Alliance <br/>
+        <span class="subtitle">Birch leaf mountain mahogany chaparral</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>100-2400 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S4
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G5
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: AZ, CA, CO, ID, KS, MT, NE, NM, NV, OK, OR, SD, TX, UT, WY (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/cercocarpus-montanus_clearcreekma_06-04.jpg', '/static/images/photos/shrub/cercocarpus-montanus_clearcreekma_07-04_01.jpg', '/static/images/photos/shrub/cercocarpus-montanus_clearcreekma_07-04_02.jpg', '/static/images/photos/shrub/cercocarpus-montanus_fresnoco_2004_01.jpg', '/static/images/photos/shrub/cercocarpus-montanus_wfresno_06-05_01.jpg', '/static/images/photos/shrub/cercocarpus-montanus_wfresno_06-05_02.jpg', '/static/images/photos/shrub/cercocarpus-montanus_wfresno_07-04_01.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Cercocarpus</i> <i>montanus</i> is dominant or co-dominant in the shrub or small tree canopy with <i>Adenostoma</i> <i>fasciculatum</i>, <i>Adenostoma</i> <i>sparsifolium</i>, <i>Arctostaphylos</i> <i>glandulosa</i>, <i>Arctostaphylos</i> <i>glauca</i>, <i>Artemisia</i> <i>californica</i>, <i>Ceanothus</i> <i>crassifolius</i>, <i>Ceanothus</i> <i>cuneatus</i>, <i>Ceanothus</i> <i>megacarpus</i>, <i>Ceanothus</i> <i>spinosus</i>, <i>Eriogonum</i> <i>fasciculatum</i>, <i>Eriogonum</i> <i>wrightii</i>, <i>Fremontodendron</i> <i>californicum</i>, <i>Garrya</i> <i>flavescens</i>, <i>Hesperoyucca</i> <i>whipplei</i>, <i>Heteromeles</i> <i>arbutifolia</i>, <i>Malosma</i> <i>laurina</i>, <i>Prunus</i> <i>ilicifolia</i>, <i>Quercus</i> <i>berberidifolia</i>, <i>Quercus</i> <i>john</i>-<i>tuckeri</i>, <i>Rhamnus</i> <i>ilicifolia</i>, <i>Salvia</i> <i>apiana</i> and <i>Salvia</i> <i>mellifera</i>. Emergent trees may be present at low cover, including <i>Juglans</i> <i>californica</i>, <i>Juniperus</i> <i>californica</i>, <i>Pinus</i> <i>monophylla</i>, <i>Pinus</i> <i>sabiniana</i>, <i>Platanus</i> <i>racemosa</i>, <i>Quercus</i> <i>agrifolia</i>, <i>Quercus</i> <i>chrysolepis</i>, <i>Quercus</i> <i>douglasii</i> or <i>Umbellularia</i> <i>californica</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 5 m; canopy is single or two tiered, and open to continuous. Herbaceous layer is sparse or grassy. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li>Both <I>C. montanus</i> and <i>Eriogonum fasciculatum</i> between 30% and 60% relative cover in the shrub canopy (Gordon and White 1994).</li>
+		
+		<li><i>Cercocarpus montanus</i> > 30% relative cover with no other shrub species exceeding it in cover, or <i>C. montanus</i> and <i>Arctostaphylos glauca</i> with equal relative cover (Keeler-Wolf et al. 1998b).</li>
+		
+		<li><i>Cercocarpus montanus</i> ≥ 30% relative cover, and other chaparral shrubs may be equally important in cover, including <i>Adenostoma fasciculatum</i> and <i>Ceanothus spinosus</i> (Keeler-Wolf and Evens 2006).</li>
+		
+		<li><i>Cercocarpus montanus</i> > 50% relative cover in the shrub canopy, or > 30% relative cover with <i>Adenostoma fasciculatum</i> (Buck-Diaz et al. 2021, Sikes et al. 2021).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Ridges, upper slopes, all aspects; fractured rock outcrops, including limestone and marble, rarely flooded, rocky alluvium. Soils are shallow, rocky, and well drained.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Birchleaf mountain mahogany series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Cercocarpus montanus woodland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>California buckwheat, Birchleaf mountain mahogany
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Semi-desert chaparral, Northern north slope chaparral, Southern north slope chaparral, Flannel bush chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Mixed chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>76.100.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Mediterranean Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Mediterranean Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>California Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>California Chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Californian mesic chaparral
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Cercocarpus montanus </i>is a long-lived shrub or small tree that grows up to 8 m in height. In fruit, the styles expand with silvery, plumose hairs, and seeds are wind dispersed. Seed crops vary in size, and seedling establishment is episodic, occurring in years of high precipitation. Plants occur in many alliances, especially various chaparral and coastal scrub types (Uchytil 1991b). <br/>
+<br/>
+<i>Cercocarpus montanus </i>grows throughout the western United States. The species varies morphologically throughout its range, with four of its seven varieties occurring in California (USDA-NRCS 2007): var. <i>montanus </i>in the Rocky Mountains; var. <i>glaber </i>(<i>C. betuloides</i>) throughout California; var. <i>macrourus </i>in the Klamath Mountains, Cascades, and Modoc Plateau <i> </i>var <i>. minutiflorus </i>( <i>C. minutiflorus</i>) in the southern Peninsular Mountains; and var. <i>blancheae </i>on the Channel Islands (a CNPS list 4 plant). Stands of <i>C. montanus</i> found in the Modoc Plateau and other areas of transmontane California are ascribed to the <i>Amelanchier utahensis - Cercocarpus montanus - Cercocarpus intricatus</i> Alliance. Most California references use the names <i>C. betuloides </i>and <i>C. minutiflorus. </i><br/>
+<br/>
+Most stands are open and frequently occur on steep, north-facing slopes, where the plant dominates on rocky ridges and steep slopes with thin soil, or on alluvial deposits along stream terraces (Uchytil 1991b). They typically occupy rockier sites than do denser <i>Ceanothus- </i>and <i>Quercus</i>-dominated chaparral types. <br/>
+<br/>
+In some stands along the western desert margins and in inland cismontane California, relatively tall <i>Cercocarpus montanus </i>shrubs share dominance with the relatively low shrub <i>Eriogonum fasciculatum, </i>along with other low shrubs. Such stands of transitional scrub have often been called desert chaparral (Horton 1960) or semi-desert chaparral (Holland 1986). Stands occupy locally xeric, steep, rocky exposures or occur along intermittently flooded stream channels with well-drained sandy and bouldery substrates. Associations dominated by <i>C. montanus </i>vary in the species composition of the secondary species. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Cercocarpus montanus</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Shrub; evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Transient</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; wind</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Underground structures (root crown)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>5-100+ years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>High</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text"><i>Cercocarpus montanus </i>is generally top-killed and sprouts vigorously from the root crowns and stumps after most fires; however, seedling establishment may be relatively low and mortality high. Seeds typically germinate in fire-free intervals; seedling establishment is episodic and occurs usually > 60 years after fire. Older stands can have a buildup of dead surface fuels, but they are not completely consumed (Uchytil 1991b). Stands that have not burned for many decades develop a woodland character associated with other tall shrubs and trees, but stands with more frequent fire intervals are low, shrubby, and open.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Medium (40-80 years)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Summer-early fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Medium to large; up to and beyond stand
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low to moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>High
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>High
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Surface to active-independent crown fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Sierra Nevada foothills, southern California
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Af-g, Aj-k). Stands are uncommon in the inner portions of the San Francisco Peninsula in Santa Clara Co.</li>
+        
+            <li><b>Central California Coast Ranges</b> (M262Aa-f, Ah, Aj). Stands are common in the inner Coast Ranges of San Benito and western Fresno Cos., both on and off serpentine (Evens et al. 2006). They also occur scattered on Mount Diablo and Coyote Ridge (Evens and San 2005).</li>
+        
+            <li><b>Klamath Mountains</b> (M261Ac, Ae, Ai, Al-m, Ar, Au). Stands in the eastern and southern subsections occur on dry, limestone, and metamorphic outcrops at Devil’s Rock, Hosselkus, Manzanita Creek, and Smoky Creek rRNAs (Cheng 2004).</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Ba-f). Stands are localized but occur throughout the section, usually on steep, north-facing slopes surrounded by other chaparral types.</li>
+        
+            <li><b>Northern California Interior Coast Ranges</b> (M261Ca). Stands are common on steep, north-facing slopes, often associated with <i>Aesculus californica, Q. berberidifolia,</i> and shrubby <i>Q. wislizeni</i> stands in Napa Co.</li>
+        
+            <li><b>Sierra Nevada</b> (M261Ef-g, Ep, Es). Stands are common on the western margins at lower elevations on metamorphic and granitic rock adjacent to <i>Quercus chrysolepis, Quercus wislizeni,</i> and <i>Pinus sabiniana</i> alliances (Keeler-Wolf et al. 2003b). Stands in Sequoia National Park are frequently on limestone and may occur on either north- or south-facing slopes.</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fa-e). Stands occur throughout the section. Stands are patchy, and many contain <i>Ceanothus cuneatus</i> (Klein et al. 2007).</li>
+        
+            <li><b>Southern California Coast</b> (261Bb-c, Be-f, Bh-i). Stands occur throughout the section. Stands in the Santa Monica (Keeler-Wolf and Evens 2006) and Santa Ynez mountains (Borchert et al. 2004) often occur adjacent to stands of the <i>Adenostoma fasciculatum</i> or <i>Ceanothus megacarpus</i> alliances on upslope convex exposures, and adjacent to stands of the <i>Ceanothus spinosus, Quercus agrifolia</i>, or <i>Quercus berberidifolia</i> alliances on concave lower slopes. Plants approaching var. <i>blancheae</i> occupy steep, north-facing slopes adjacent to coastal scrub types.</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Ba-d, Bf-g, Bj-p). Stands occur on rocky slopes and along coarse alluvium of streams and terraces in Cleghorn Canyon cRNA and Millard Canyon RNA (Cheng 2004), and generally in the section (Gordon and White 1994, Keeler-Wolf et al. 1998b). Evens and San (2005) describe stands of var. <i>minutiflorus</i> in the Peninsular Ranges on intermittently flooded alluvium.</li>
+        
+            <li><b>Southern Cascades</b> (M261Dj). Stands occur in the Pit River drainage, mostly on basalt.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Fires occurring at short intervals have the potential to cause significant changes in species composition and deplete seed banks. <i>Cercocarpus montanus </i>is valuable browse in much of the state, but excessive browsing kills branches (Uchytil 1991b). Stands on steep, rocky slopes are not as threatened by unnaturally high fire frequency as those in other sites with more fuel buildup. However, the increasing invasion by non-native grasses has the potential of increasing fire frequencies. Water diversion threatens some stands along stream channels in southern California. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Cercocarpus montanus - Adenostoma fasciculatum [3], [6], [12], [15]</li>
+                
+                    <li>Cercocarpus montanus - Arctostaphylos glauca [4]</li>
+                
+                    <li>Cercocarpus montanus - Ceanothus cuneatus [5], [7]</li>
+                
+                    <li>Cercocarpus montanus - Ceanothus cuneatus - Quercus john-tuckeri [2], [20]</li>
+                
+                    <li>Cercocarpus montanus - Ceanothus spinosus [6]</li>
+                
+                    <li>Cercocarpus montanus - Eriogonum fasciculatum [2], [3], [8], [18], [20]</li>
+                
+                    <li>Cercocarpus montanus - Eriogonum fasciculatum - Eriogonum wrightii [8]</li>
+                
+                    <li>Cercocarpus montanus - Fremontodendron californicum [3]</li>
+                
+                    <li>Cercocarpus montanus - Malosma laurina - Artemisia californica [6]</li>
+                
+                    <li>Cercocarpus montanus - Prunus ilicifolia [1], [22]</li>
+                
+                    <li>Cercocarpus montanus - Prunus ilicifolia - Adenostoma sparsifolium [8]</li>
+                
+                    <li>Cercocarpus montanus var. blancheae [14], [17]</li>
+                
+                    <li>Cercocarpus montanus var. glaber [2], [3], [5], [6], [7], [8], [9], [16], [19], [20]</li>
+                
+                    <li>Cercocarpus montanus var. macrourus [10]</li>
+                
+                    <li>Cercocarpus montanus var. minutiflorus [13], [21]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Borchert, M.;Lopez, A.;Bauer, C.;Knowd, T. 2004</li>
+		
+		<li>[2] Evens, J.M.;Klein, A.;Taylor, J.;Hickson, D.;Keeler-Wolf, T. 2006</li>
+		
+		<li>[3] Gordon, H.J.;White, T.C. 1994</li>
+		
+		<li>[4] Keeler-Wolf, T.;Roye, C.;Lewis, K. 1998b</li>
+		
+		<li>[5] Keeler-Wolf, T.;Schindel, M.;San, S.;Moore, P.;Hickson, D. 2003b</li>
+		
+		<li>[6] Keeler-Wolf, T.;Evens, J. 2006</li>
+		
+		<li>[7] Klein, A.;Crawford, J.;Evens, J.;Keeler-Wolf, T.;Hickson, D. 2007</li>
+		
+		<li>[8] Klein, A.;Evens, J. 2005</li>
+		
+		<li>[9] Kittel, G.;Reyes, E.;Evens, J.;Buck, J.;Johnson, D. 2012</li>
+		
+		<li>[10] Taylor, D.W.;Teare, K.A. 1979b</li>
+		
+		<li>[12] Evens, J.;San, S. 2004</li>
+		
+		<li>[13] Sproul, F.;Keeler-Wolf, T.;Gordon-Reedy, P.;Dunn, J.;Klein, A.;Harper, K. 2011</li>
+		
+		<li>[14] Rodriguez, D.;Sikes, K.;Keeler-Wolf, T.;Kittel, G.;Curtis, J.;Curley, C.;Evens, J. 2017</li>
+		
+		<li>[15] Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>[16] AECOM, 2013</li>
+		
+		<li>[17] Dixon, P. 2019</li>
+		
+		<li>[18] White, S.D. 1994a</li>
+		
+		<li>[19] Reyes, E.;Johnson, D.;Glass, A. 2019</li>
+		
+		<li>[20] Reyes, E.;Evens, J.;Glass, A.;Sikes, K.;Keeler-Wolf., T.;Winitsky, S.;Johnson, D.;Menke, J.;Hepburn, A. 2020a</li>
+		
+		<li>[21] Evens, J.;San, S. 2005</li>
+		
+		<li>[22] Sikes, K.;Buck-Diaz, J.;Evens, J. 2021</li>
+		
+		<li>Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>Cheatham, N.H.;Haller, J.R. 1975</li>
+		
+		<li>Hanes, T.L. 1976</li>
+		
+		<li>Hanes, T.L. 1977</li>
+		
+		<li>Hanes, T.L. 1981</li>
+		
+		<li>Horton, J.S. 1960</li>
+		
+		<li>Keeley, J.E. 1992a</li>
+		
+		<li>Keeley, J.E. 1992b</li>
+		
+		<li>Keeley, J.E.;Keeley, S.C. 1988</li>
+		
+		<li>Menke, J.;Reyes, E.;Hepburn, A.;Johnson, D.;Reyes, J. 2013</li>
+		
+		<li>NPS-SEKI, 2009</li>
+		
+		<li>O'Leary, J.F. 1990</li>
+		
+		<li>Uchytil, R.J. 1991b</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program), 2015a</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program);AIS, 2013</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/175/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

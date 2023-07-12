@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Dicoria canescens - Abronia villosa - Panicum urvilleanum</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Dicoria</i> <i>canescens</i> - <i>Abronia</i> <i>villosa</i> - <i>Panicum</i> <i>urvilleanum</i></span> Sparsely Vegetated Alliance <br/>
+        <span class="subtitle">Mojave-Sonoran desert dunes</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Herb
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>10-1300 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3.2
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G4
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA. Mexico (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2017/02/10
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/herb/dicoria-canescens_abronia-villosa_glamisdunes-imperial%20co_01_jos.jpg', '/static/images/photos/herb/dicoria-canescens_abronia-villosa_glamisdunes-imperial%20co_02_jos.jpg', '/static/images/photos/herb/dicoria-canescens_abronia-villosa_glamisdunes-imperial%20co_03_jos.jpg', '/static/images/photos/herb/dicoria-canescens_abronia-villosa_glamisdunes-imperial%20co_04_jos.jpg', '/static/images/photos/herb/dicoria-canescens_abronia-villosa_anzaborrego_03-98_01.jpg', '/static/images/photos/herb/dicoria-canescens_abronia-villosa_kelsodunes_01-98_01.jpg', '/static/images/photos/herb/dicoria-canescens_abronia-villosa_lowercronesel_04-98_01.jpg', '/static/images/photos/herb/dicoria-canescens_abronia-villosa_lowercronesel_04-98_02.jpg', '/static/images/photos/herb/dicoria-canescens_abronia-villosa_lowercronesel_04-98_03.jpg', '/static/images/photos/herb/dicoria-canescens_abronia-villosa_s-jotr_03-08_01.jpg', '/static/images/photos/herb/panicum-urvilleanum_kelsodunes_2003.jpg', '/static/images/photos/herb/panicum-urvilleanum_mojavenp_01.jpg', '/static/images/photos/herb/panicum-urvilleanum_mojavenp_02.jpg', '/static/images/photos/herb/panicum-urvilleanum_mojavenp_03.jpg', '/static/images/photos/herb/panicum-urvilleanum_algadonesdunes_01.jpg', '/static/images/photos/herb/panicum-urvilleanum_kelsodunes_04-98_01.jpg', '/static/images/photos/herb/panicum-urvilleanum_kelsodunes_04-98_02.jpg', '/static/images/photos/herb/panicum-urvilleanum_kelsodunes_04-98_03.jpg', '/static/images/photos/herb/swallenia-alexandrae_eurekadunes_04-99_01.jpg', '/static/images/photos/herb/swallenia-alexandrae_eurekadunes_04-99_02.jpg', '/static/images/photos/herb/swallenia-alexandrae_eurekadunes_04-99_03.jpg', '/static/images/photos/herb/panicum-urvilleanum_kelsodunes_sanbernardinoco_04-13_01.jpg', '/static/images/photos/herb/panicum-urvilleanum_kelsodunes_sanbernardinoco_04-13_02.jpg', '/static/images/photos/herb/dicoria-canescens_abronia-villosa_hesperocallis-nearpalenlake_04-12_01.jpg', '/static/images/photos/herb/dicoria-canescens_abronia-villosa_hesperocallis-nearpalenlake_04-12_02.jpg', '/static/images/photos/herb/dicoria-canescens_abronia-villosa_nearpalenlake_04-12_01.jpg', '/static/images/photos/herb/dicoria-canescens_abronia-villosa_nearpalenlake_04-12_02.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Abronia</i> <i>villosa</i>, <i>Dicoria</i> <i>canescens</i>, <i>Panicum</i> <i>urvilleanum</i> and/or <i>Swallenia</i> <i>alexandrae</i> is characteristically present in the herbaceous and subshrub layers with <i>Achnatherum</i> <i>hymenoides</i>, <i>Aliciella</i> <i>latifolia</i> ssp. <i>latifolia</i>, <i>Argemone</i> <i>corymbosa</i>, <i>Astragalus</i> <i>lentiginosus</i>, <i>Camissonia</i> <i>claviformis</i>, <i>Cleome</i> <i>sparsifolia</i>, <i>Croton</i> <i>californicus</i>, <i>Cryptantha</i> spp., <i>Eriogonum</i> spp., <i>Geraea</i> <i>canescens</i>, <i>Helianthus</i> <i>annuus</i>, <i>Oenothera</i> <i>californica</i> ssp. <i>eurekensis</i>, <i>Oenothera</i> <i>deltoides</i>, <i>Palafoxia</i> <i>arida</i>, <i>Pleuraphis</i> <i>jamesii</i>, <i>Pleuraphis</i> <i>rigida</i>, <i>Rumex</i> <i>hymenosepalus</i>, <i>Salsola</i> <i>tragus</i>, <i>Schismus</i> spp., <i>Tiquilia</i> <i>plicata</i> and/or <i>Wislizenia</i> <i>refracta</i>. Emergent shrubs may be present at low cover, including <i>Ambrosia</i> <i>dumosa</i>, <i>Atriplex</i> <i>canescens</i>, <i>Atriplex</i> <i>polycarpa</i>, <i>Eriogonum</i> <i>deserticola</i>, <i>Larrea</i> <i>tridentata</i>, <i>Penstemon</i> <i>thurberi</i>, <i>Petalonyx</i> <i>thurberi</i> or <i>Suaeda</i> <i>moquinii</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Herbs and subshrubs < 1 m; cover is sparse to intermittent with seasonal annuals and scattered perennials. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li>Scattered plants with a combined absolute cover of usually > 2% and < 10% in the herbaceous layer; <i>Achnatherum hymenoides, Ambrosia dumosa, Larrea tridentata, Pleuraphis rigida</i> < 2% absolute cover (cf. Thomas et al. 2004).</li>
+		
+		<li><i>Swallenia alexandrae</i> characteristically present in the herbaceous layer (Thomas et al. 2004, Evens et al. 2014).</li>
+		
+		<li><i>Panicum urvilleanum</i> > 2% absolute cover (Thomas et al. 2004).</li>
+		
+		<li>Plants sparse to abundant, depending on annual rainfall, and characterized by grasses, such as <i>Panicum urvilleanum</i> or <i>Swallenia alexandrae</i>, or annual and perennial forbs such as <i>Dicoria canescens, Abronia villosa, Croton californicus, Oenothera deltoides, </i>or others (Evens et al. 2014).</li>
+		
+		<li><i>Petalonyx thurberi</i> > 50% relative cover in an open shrub canopy (Evens et al. 2014).</li>
+		
+		<li><i>Wislizenia refracta</i> > 50% relative cover in the herbaceous layer (Evens and Hartman 2007, VegCAMP and AIS 2013).</li>
+		
+		<li><i>Dicoria canescens, Cleomella obtusifolia, Cleome sparsifolia, Oenothera deltoides, Petalonyx thurberi, Psathyrotes </i>spp. or other forbs characteristically present at variable cover in the herbaceous layer (Reyes et al. 2020a).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Active dunes, partially stabilized dunes, stabilized dunes, sand fields. Soils are fine to moderately coarse sand.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Desert sand-verbena series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Abronia villosa sparsely vegetated alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Dunes
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Active desert dunes, Stabilized and partially stabilized dunes, Stabilized and partially stabilized desert sand fields
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Creosote bush scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Desert scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>22.105.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Lithomorphic Vegetation (Nonvascular and Sparse Vascular Rock Vegetation)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Semi-Desert Nonvascular and Sparse Vascular Vegetation
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Warm Semi-Desert Cliff, Scree, and Rock Vegetation
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>North American Warm Semi-Desert Cliff, Scree, and Rock Vegetation
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>North American Warm Semi-Desert Cliff, Scree, and Other Rock Vegetation
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>North American warm desert dunes and sand flats
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> The occurrence of stabilized sand sheets and sand dunes characterize the alliance more reliably than does any single set of species. Eighteen dune areas are scattered throughout the deserts of transmontane California, each with its own set of plant species (Pavlik 1980, 1985). Species found on dunes and sand flats have their peculiar adaptations to growing in sand, aridity, and rainfall variability. Psammophytic grasses each have different tolerances and tend to arrange themselves accordingly within a dune system. Annual psammophytes tend to rearrange themselves based on varying annual rainfall and temperature conditions, as well as seasonality. <br/>
+<br/>
+This dune alliance primarily contains broad-leaved herbs and sparse perennial grasses. <i>Dicoria canescens </i>is most characteristic and present in summer and fall; this herb attained highest frequency across nine different dune systems (Pavlik 1980). <i>D. canescens </i> has many branching stems with gray or white hairs across the plant that deflect sunlight. Plants can grow to 1 m in height, and can flower year-round with good rainfall. Other summer ephemerals include <i>Boerhavia </i>spp. and <i>Allionia incarnata. Astragalus lentiginosus, Abronia villosa, Oenothera deltoides, </i>and many others occur as early spring species. <br/>
+<br/>
+Other alliances found on these dunes include the <i>Achnatherum hymenoides, Larrea tridentata - Ambrosia dumosa, Pleuraphis jamesii, </i>and <i>Pleuraphis rigida </i>alliances, which are usually closer to the edges of dune systems and experience less shifting sand (Thomas et al. 2004). Previously defined as separate alliances by Thomas et al. (2004), dunes with sparse grass cover, including the special stands of <i>Swallenia alexandrae </i>and those of <i>Panicum urvilleanum, </i>are now combined in this alliance (Evens et al. 2014, NatureServe 2015). <br/>
+<br/>
+<i>Panicum urvilleanum </i>is a grass with wiry culms to 1 m in height, occurring as tufts or solitary sprigs along long, creeping rhizomes. Although perennial, cover varies annually based on seasonal precipitation. Flowers are in rather long and narrow panicles with hairy spikelets. The species occurs in the Mojave and Sonoran deserts of California and Arizona, and in Argentina and Chile. It forms a sparse cover on open dunes and other deep sand deposits. It usually occurs in the core of the large dune systems on the deepest sand, and may occupy tall, active dunes with relatively steep faces. In those settings, <i>P. urvilleanum </i>can occur as the sole dominant species or co-occur with <i>Dicoria canescens</i>. <br/>
+<br/>
+<i>Swallenia alexandrae </i>(a CNPS list 1B.2 plant) is a perennial grass that forms hummocks with ascending branches and rhizomes that spread across relatively steep dune slopes. It forms loose panicles of florets that set seed in May to July (USFWS 2007). It was federally listed as endangered in 1978. It has only four occurrences in southern Eureka Valley (CNPS 2007) in Inyo Co. The dunes also support <i>Oenothera californica </i>ssp. <i>eurekensis </i>and <i>Astragalus lentiginosus </i>var. <i>micans, </i>other CNPS list 1B.2 and federally endangered plants. Stands are small, consisting of several grass clumps separated by open and shifting expanses of sand. These stands can ascend to at least half-way up the tallest dunes, and may include the only perennial species found on the upper parts of the dunes. In high-rainfall years, stands can include <i>Dicoria canescens</i> and other annual herbs. Seeds of both <i>Panicum urvilleanum </i> and <i>Swallenia alexandrae </i> are heavy with long hairs that limit gliding and instead ensure surface rolling dispersal on sand (Danin 1996). </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Abronia villosa</th>
+			
+		
+			
+			<th>Dicoria canescens</th>
+			
+		
+			
+			<th>Panicum urvilleanum</th>
+			
+		
+			
+			<th>Swallenia alexandrae</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Annual; herb</td>
+			
+		
+			
+			<td>Annual; herb</td>
+			
+		
+			
+			<td>Polycarpic perennial; herb; stoloniferous</td>
+			
+		
+			
+			<td>Polycarpic perennial; herb; stoloniferous</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td>Transient</td>
+			
+		
+			
+			<td>Transient</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Long</td>
+			
+		
+			
+			<td>Long</td>
+			
+		
+			
+			<td>Short</td>
+			
+		
+			
+			<td>Short</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal? Wind</td>
+			
+		
+			
+			<td>Wind</td>
+			
+		
+			
+			<td>Animal; gravity</td>
+			
+		
+			
+			<td>Animal; gravity</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Sufficient moisture</td>
+			
+		
+			
+			<td>Sufficient moisture</td>
+			
+		
+			
+			<td>Warm, moist conditions</td>
+			
+		
+			
+			<td>Warm, moist conditions</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>Rhizomes; tillers</td>
+			
+		
+			
+			<td>Stolons; tillers</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>Fire-hardy</td>
+			
+		
+			
+			<td>Fire-sensitive</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>A season</td>
+			
+		
+			
+			<td>A season</td>
+			
+		
+			
+			<td>Life of plant</td>
+			
+		
+			
+			<td>Life of plant</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Variable</td>
+			
+		
+			
+			<td>Variable</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Aeolian processes rather than fire primarily disturb stands. Because of the harsh, open environment and the seasonal nature of herbs, fire is unlikely in all but the wettest and densest situations.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+            <p><b>Floras of individual dune systems</b>. Algodones Dunes (Beauchamp 1977), Ballarat Dunes (Pavlik 1985), Borrego Dunes (Beauchamp 1986), Cadiz, Chuckwalla Valley, and Death Valley dunes (DeDecker 1979, 1984), Deep Springs Dunes (Pavlik 1985), Dumont and Eureka dunes (DeDecker 1984), Kelso Dunes (Thorne 1982), Mono Dunes (Pavlik 1985), Olancha Dunes (Pavlik 1985), Panamint Valley, Rice Valley, and Saline Valley dunes (DeDecker 1984), and Saratoga Dunes (Pavlik 1985).</p>
+        
+
+        <ul class="text">
+        
+            <li><b>Colorado Desert</b> (322Ca-b, Cd). This is the most widespread alliance of the Algodones Dunes, the most extensive dune system in California. Other stands exist at Anza-Borrego Desert State Park (Spolsky 1979) and the Coachella Dunes north of the Salton Sea (Schoenherr and Burk 2007).</li>
+        
+            <li><b>Mojave Desert</b> (322Aa-c, Ae-i, Al, An-p). Stands exist at Ballarat, Death Valley, Dumont, Kelso, Olancha, and Panamint Valley dunes in this section (Thomas et al. 2004). Stands of <i>Panicum urvilleanum</i> at Kelso Dunes and Devil’s Playground (Thomas et al. 2004) associate with those of the <i>Pleuraphis rigida</i> alliance.</li>
+        
+            <li><b>Mono</b> (341Df). Stands at Mono Dunes are the northernmost in the state.</li>
+        
+            <li><b>Sonoran Desert</b> (322Ba-d). Stands are most extensive at Cadiz, Chuckwalla Valley, and Rice Valley Dunes with varied plant species composition, though other stands are scattered along sandy areas in the section.</li>
+        
+            <li><b>Southeastern Great Basin</b> (341Fc). Stands of this alliance occur at Deep Springs, Eureka, and Saline Valley where dunes are extensive. Special stands of <i>Swallenia alexandrae</i> and <i>Oenothera californica</i> ssp. <i>eurekensis</i> (CNPS 1B.2 plants) exist only at Eureka Dunes (Bagley 1986, DeDecker 1982). Threats to these stands include invasive plants (including a hybrid of <i>Salsola tragus</i>), variable and/or low precipitation, and visitor usage, which warrant further study (Cipra and Fuhrmann 2012).</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Bj). Dunes occur near Colton. It is unclear whether this alliance still exists at this location.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Sand dunes in California deserts are influenced in many ways beyond passive recreation. Grazing continues on Kelso Dunes and sandboarding occurs at Eureka Dunes. Parts of Algodones and Dumont Dunes are open to ORV recreation. The contrast between the parts of Algodones Dunes that are open and closed to motorized recreation is striking in years with abundant rainfall. Large expanses of native annual flowers cover the closed areas in the spring and summer. Beyond these active and passive recreation impacts, other factors such as climate change, competition from invasive species, and plant-animal interactions may be additional stressors for this alliance. In particular, <i>Swallenia alexandrae</i> populations have been reduced significantly over 25 years as measured in long-term transects (Slaton 2008) and estimated from repeat photography (Cipra and Fuhrmann 2012). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Cleomella obtusifolia - Cleome sparsifolia - Psathyrotes spp. [7]</li>
+                
+                    <li>Dicoria canescens [1], [4], [7]</li>
+                
+                    <li>(Dicoria canescens) - Salsola tragus [7]</li>
+                
+                    <li>Oenothera deltoides - Cryptantha spp. [4], [7]</li>
+                
+                    <li>Panicum urvilleanum [2], [4], [7]</li>
+                
+                    <li>Petalonyx thurberi [4], [7]</li>
+                
+                    <li>Rumex hymenosepalus [6]</li>
+                
+                    <li>Swallenia alexandrae [2], [4]</li>
+                
+                    <li>Wislizenia refracta [3], [5], [8]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Pavlik, B.M. 1980a</li>
+		
+		<li>[2] Thomas, K.;Franklin, J.;Keeler-Wolf, T.;Stine, P. 2004</li>
+		
+		<li>[3] Evens, J.M.;Hartman, S. 2007</li>
+		
+		<li>[4] Evens, J.M.;Sikes, K.;Hastings, D.;Ratchford,J.S. 2014</li>
+		
+		<li>[5] VegCAMP (CDFW Vegetation Classification and Mapping Program);AIS, 2013</li>
+		
+		<li>[6] Evens, J.M.;Klein, A.;Taylor, J.;Hickson, D.;Keeler-Wolf, T. 2006</li>
+		
+		<li>[7] Reyes, E.;Evens, J.;Fulton, J.;Sikes, K.; Johnson, D.;Keeler-Wolf, T.;Vu, S.;LaFever-Jackson, A. 2023 (in progress)</li>
+		
+		<li>[8] Menke, J.;Reyes, E.;Hepburn, A.;Johnson, D.;Reyes, J. 2013</li>
+		
+		<li>Cipra, J.;Fuhrmann, K. 2012</li>
+		
+		<li>Danin, A. 1996</li>
+		
+		<li>Evens, J.M.;Roach-McIntosh, D.;Stout, D. 2012</li>
+		
+		<li>Henry, M.A. 1979</li>
+		
+		<li>Keeler-Wolf, T. 2007b</li>
+		
+		<li>Pavlik, B.M. 1980b</li>
+		
+		<li>Pavlik, B.M. 1985</li>
+		
+		<li>Pavlik, B.M.;Barbour, M.G. 1988</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Black, H.;Bleich, V.C.;Mincks, J.W. 1980</li>
+		
+		<li>Schoenherr, A.A.;Burk, J.H. 2007</li>
+		
+		<li>Slaton, M. 2008</li>
+		
+		<li>Thorne, R.F. 1982</li>
+		
+		<li>USFWS (United States Fish and Wildlife Service), 2007</li>
+		
+		<li>Vasek, F.C.;Barbour, M.G. 1977</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/553/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

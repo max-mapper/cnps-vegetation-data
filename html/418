@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Layia fremontii - Achyrachaena mollis</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Layia</i> <i>fremontii</i> - <i>Achyrachaena</i> <i>mollis</i></span> Herbaceous Alliance <br/>
+        <span class="subtitle">Fremont’s tidy-tips - blow wives vernal pools</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Herb
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>15-710 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3?
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G3
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>CAN: BC. USA: CA, OR, WA (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2009/09/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/herb/layia-fremontii_flyingmranch_04-10_01.jpg', '/static/images/photos/herb/layia-fremontii_flyingmranch_04-10_02.jpg', '/static/images/photos/herb/layia-fremontii_shellcynrd_04-10_01.jpg', '/static/images/photos/herb/layia-fremontii_shellcynrd_04-10_02.jpg', '/static/images/photos/herb/layia-fremontii_shellcynrd_04-10_03.jpg', '/static/images/photos/herb/layia-fremontii_shellcynrd_04-10_04.jpg', '/static/images/photos/herb/layia-fremontii_neardaleslake_tehamaco_04-2011_01.jpg', '/static/images/photos/herb/layia-fremontii_neardaleslake_tehamaco_04-2011_02.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Achyrachaena</i> <i>mollis</i> and/or <i>Layia</i> <i>fremontii</i> are characteristically present in the herbaceous layer with <i>Blennosperma</i> <i>nanum</i>, <i>Brodiaea</i> <i>minor</i>, <i>Centromadia</i> <i>fitchii</i>, <i>Chlorogalum</i> <i>angustifolium</i>, <i>Cicendia</i> <i>quadrangularis</i>, <i>Clarkia</i> <i>purpurea</i>, <i>Dodecatheon</i> <i>clevelandii</i> ssp. <i>patulum</i>, <i>Downingia</i> <i>cuspidata</i>, <i>Downingia</i> <i>ornatissima</i>, <i>Lasthenia</i> <i>californica</i>, <i>Lasthenia</i> <i>fremontii</i>, <i>Lepidium</i> <i>nitidum</i>, <i>Leptosiphon</i> <i>parviflorus</i>, <i>Limnanthes</i> <i>douglasii</i> ssp. <i>rosea</i>, <i>Microseris</i> <i>acuminata</i>, <i>Navarretia</i> <i>tagetina</i>, <i>Plagiobothrys</i> <i>austiniae</i>, <i>Plagiobothrys</i> <i>greenei</i>, <i>Plantago</i> <i>erecta</i>, <i>Taeniatherum</i> <i>caput</i>-<i>medusae</i>, <i>Trifolium</i> <i>depauperatum</i>, <i>Triphysaria</i> <i>eriantha</i> ssp. <i>eriantha</i>, <i>Vulpia</i> <i>microstachys</i> and <i>Zigadenus</i> <i>fremontii</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Herbs < 50 cm; cover is intermittent to continuous. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Achyrachaena mollis, Clarkia purpurea, Layia fremontii, Taeniatherum caput-medusae</i>, and/or <i>Triphysaria eriantha</i> ssp. <i>eriantha</i> are present as diagnostic species in the herbaceous layer; other diagnostic vernal pool species may be present such as <i>Lasthenia fremontii</i>(Barbour et al. 2007).</li>
+		
+		<li><i>Zigadenus fremontii</i> is characteristic in the herbaceous layer with non-native species such as <i>Lolium perenne</i> and <i>Achyrachaena mollis.</i></li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Short-inundated, shallow, flashy vernal hardpan pools; mesic meadows with subsurface waterflow in winter and early spring. Soils are shallow and rocky. The USFWS Wetland Inventory (1996 national list) recognizes <i>Achyrachaena mollis</i> as a FAC* plant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Northern hardpan vernal pool habitat
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>North Pacific hardpan vernal pool, Northern California volcanic vernal pool
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Annual grasses and forbs, Vernal pool
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Northern hardpan vernal pool
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Valley grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Annual grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>42.002.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate and Boreal Shrubland and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate and Boreal Freshwater Marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North American Freshwater Marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Western North America Vernal Pool
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Californian mixed annual/perennial freshwater vernal pool / swale bottomland
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Layia fremontii </i>is common in heavy soil grasslands of central California and the North Coast Ranges, where it has showy yellow ray flowers that have lobed white tips. It presents an abundance of creamy color in vernally wet grasslands during early spring. <i>Achyrachaena mollis </i>is a common composite of grassy areas of the California Floristic Province, where its papery, shiny white scales atop the disk flowers and fruits are more conspicuous than are the short rays (UCB 2006). <br/>
+<br/>
+Barbour et al. (2003, 2007b) recognized the <i>Downingia-Lasthenia </i>class for California vernal pool vegetation on all geomorphic surfaces, landscapes, and soil types in the Central Valley and adjacent foothills. Within that class, they recognized this alliance for vegetation of comparative shallow vernal pools and of pool edges. <br/>
+<br/>
+This alliance has a similar inundation pattern to the <i>Montia fontana-Sidalcea calycosa </i>and <i>Trifolium variegatum </i>alliances and commonly occurs on substrates derived from metamorphic or volcanic material. However, it is not found on basalt flows of table mountains. Some of these stands are just slightly moister than the surrounding uplands and occupy the transition between vernal pools or swales and uplands. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Achyrachaena mollis</th>
+			
+		
+			
+			<th>Layia fremontii</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Annual; herb</td>
+			
+		
+			
+			<td>Annual; herb</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Long</td>
+			
+		
+			
+			<td>Long</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; wind</td>
+			
+		
+			
+			<td>Animal; wind</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>N/A</td>
+			
+		
+			
+			<td>N/A</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-sensitive; thin epidermis</td>
+			
+		
+			
+			<td>Fire-sensitive; thin epidermis</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>One growing season</td>
+			
+		
+			
+			<td>One growing season</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Low to high</td>
+			
+		
+			
+			<td>Low to high</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Fire in vernal pool systems is not understood well historically. Although the likelihood of frequent fire is high in most cismontane grasslands of the state, the lower fuel volumes and the wetter condition of the plants in vernal pools with respect to surrounding grasslands may minimize fire spread in vernal pools (Wills 2006). Late summer to fall season fire is likely to have largely neutral to positive effects on the native, seed-banking annuals and geophytes.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Great Valley</b> (262Aa-b). Stands of the <i>Layia fremontii-Achyrachaena mollis</i> association occur in the northern Sacramento Valley (Barbour et al. 2007b, Klein et al. 2007). Stands of the <i>Plagiobothrys austiniae-Achyrachaena mollis</i> association occur in volcanic rock vernal pools in the northeastern Sacramento Valley (Barbour et al. 2007b).</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fa-b). Stands with <i>Plagiobothrys greenei</i> occur in the central Sacramento Valley, such as the Deer Creek Hills area of Sacramento Co., whereas stands with <i>Achyraechaena mollis</i> and <i>Plagiobothrys austiniae</i> occur in the northern Sacramento Valley on Tuscan flows of Butte and Tehama Cos. (Klein et al. 2007).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Threats are primarily from loss of habitat due to conversion to agriculture and development. Short inundation leads to a higher number of non-natives, especially <i>Hordeum marinum, Lolium perenne, </i>and <i>Taeniatherum caput-medusae, </i>as compared to the <i>Lasthenia glaberrima </i>and <i>Lasthenia fremontii-Downingia </i>(<i>bicornuta</i>) alliances. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Layia fremontii - Achyrachaena mollis [1], [3], [4], [5]</li>
+                
+                    <li>Layia fremontii - Lasthenia californica - Achyrachaena mollis [2]</li>
+                
+                    <li>Layia fremontii - Leontodon saxatilis - Plagiobothrys greenei [2]</li>
+                
+                    <li>Plagiobothrys austiniae - Achyrachaena mollis [1], [2], [3]</li>
+                
+                    <li>Zigadenus fremontii - Lolium perenne [2], [3]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Barbour, M.G.;Solomeshch, A.I.;Buck, J.J. 2007b</li>
+		
+		<li>[2] Klein, A.;Crawford, J.;Evens, J.;Keeler-Wolf, T.;Hickson, D. 2007</li>
+		
+		<li>[3] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>[4] Buck-Diaz, J.;Harbert, B.;Evens, J. 2011</li>
+		
+		<li>[5] Buck-Diaz, J.;Ratchford, J.;Evens, J. 2013</li>
+		
+		<li>Barbour, M.G.;Solomeshch, A.;Holland, R.;Witham, C.;MacDonald, R.;Cilliers, S.;Molina, J.A.;Buck, J.;Hillman, J. 2005</li>
+		
+		<li>Barbour, M.G.;Solomeshch, A.;Witham, C.;Holland, R.;MacDonald, R.;Cilliers, S.;Molina, J.A.;Buck, J.;Hillman, J. 2003</li>
+		
+		<li>Holland, R.F. 1976</li>
+		
+		<li>Keeler-Wolf, T.;Elam, D.R.;Lewis, K.;Flint, S.A. 1998a</li>
+		
+		<li>Sawyer, J.O.;Keeler-Wolf, T. 1995</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/418/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Ceratophyllum demersum Aquatic</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+	<div class="allianceHeader">
+		<span class="scientificName"><i>Ceratophyllum</i> <i>demersum</i> Aquatic</span> Provisional Herbaceous Alliance <br/>
+		<span class="subtitle">Raccoon&#39;s tail mats</span>
+	</div>
+
+	<div class="mainAllianceInfo">
+
+		<div class="allianceSideInfo">
+			<div class="quickInfoList">
+				<h4>Summary Information</h4>
+				<ul>
+					<li>
+						<span class="category">Primary Life Form</span>Herb
+					</li>
+					<li>
+						<span class="category">Elevation</span>0-1800 m
+					</li>
+					<li>
+						<span class="category">State Rarity</span>S4
+					</li>
+					<li>
+						<span class="category">Global Rarity</span>G5
+					</li>
+					<li>
+						<span class="category">Distribution</span>CAN: BC. USA: CA, ID, OR, WA (NatureServe). Native to all continents except Antarctica.
+					</li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2016/12/14
+                    </li>
+				</ul>
+			</div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/herb/ceratophyllum-demersum_thegeysers_08-2013_01.jpg', '/static/images/photos/herb/ceratophyllum-demersum_thegeysers_08-2013_02.jpg', '/static/images/photos/herb/ceratophyllum-demersum_pore_08-2018_marin134.jpg']
+            </script>
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+		</div>
+
+		
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Ceratophyllum</i> <i>demersum</i> is dominant or co-dominant in the herbaceous layer with <i>Myriophyllum</i> spp. or <i>Polygonum</i> <i>amphibium</i>. </div>
+</div>
+
+		
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Herbaceous layer is open to continuous; submerged. </div>
+</div>
+
+		
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Slow-moving streams and rivers, ponds, lakes, and sloughs. The USFWS Wetland Inventory (1996 national list) recognizes <i>Ceratophyllum demersum</i>  as an OBL plant. </div>
+</div>
+
+		
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance, and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Pondweeds with submerged leaves series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Potamogeton spp.-Ceratophyllum spp.-Elodea spp permanently flooded herbaceous alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Tule-Cattail, Rivers and streams, Perennial Lakes or Ponds
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Freshwater marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Freshwater marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Fresh emergent wetland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>52.126.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+	</div>
+
+
+	<!-- collapsable content below -->
+
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Ceratophyllum demersum</i> is an aquatic plant with brittle, whorled, forked leaves on stems that are generally 1 to 3 meters long. It can form a dense subsurface canopy in still or slow-moving water. <br/>
+<br/>
+<i>Ceratophyllum demersum</i> occurs throughout much of California, with the exceptions of the desert mountains, White and Inyo mountains, Channel Islands, Tehachapi Mountains, and Cascade Range foothills. Stands are found in water that is fresh to brackish and usually alkaline, with medium to high nutrient levels (Les 2017). Despite its widespread distribution in California, few samples have been collected.<br/>
+<br/>
+This Provisional Alliance is a name reassignment from the <i>Potamogeton</i> spp. - <i>Ceratophyllum</i> spp. - <i>Elodea</i> spp. Provisional Alliance in Buck et al. (2012). </div>
+</div>
+
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Observations</h4>
+	<div class="text"> In natural areas, <i>Ceratophyllum demersum</i> is a desirable component of aquatic habitats, providing food and shelter for wildlife. However, mats can inhibit water flow, block intake screens of water pumps, and interfere with recreational activities (DiTomaso et al. 2013).
+
+High nutrient conditions favored by this alliance may be enhanced by enriched runoff in agricultural or urban landscapes (NatureServe 2015). <i>C. demersum</i> has been spread throughout the world through the aquarium and pond trade and is considered a weed in many places, where it can dominate waterways (IUCN Species Survival Commission 2017).
+
+The alliance has a worldwide distribution in low gradient streams and eutrophic ponds and small lakes. It is assumed widely distributed in California in these habitats, based on known observations of the species in almost all ecological sections of the state; but further study and observations would be beneficial. The alliance was first described in the Great Valley (M262A; Buck-Diaz et al. 2012), based on a survey done near San Luis Island. Stands also likely occur in all subsections with small fresh water bodies within the Great Valley. Stands are known from the Northern California Coast Ranges (M261B) in Sonoma County (Klein et al. 2015). Currently, a <i>Ceratophyllum demersum </i>association [1], [2] is recognized. </div>
+</div>
+
+	
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>[2] Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>[3] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>Christy, J.A. 2004</li>
+		
+		<li>IUCN Species Survival Commission, 2017+</li>
+		
+		<li>Keskinkan, O.;Goksu, M.Z.L.;Basibuyuk, M.;Forster, C.F. 2004</li>
+		
+		<li>Les, D.H. 2017</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+	<script src="/static/javascript/alliance_page.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

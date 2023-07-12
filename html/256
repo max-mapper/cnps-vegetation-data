@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Quercus garryana (shrub)</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Quercus</i> <i>garryana</i> (<i>shrub</i><span style="padding-left: .2em">)</span></span> Shrubland Alliance <br/>
+        <span class="subtitle">Brewer oak scrub</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>450-1800 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S4
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G4
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>CAN: BC. USA: CA, OR, WA (USDA Plants)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/quercus-garryana_baldshillsredwoodnp_02.jpg', '/static/images/photos/shrub/quercus-garryana_baldshillsredwoodnp_01.jpg', '/static/images/photos/shrub/quercus-garryana_burneyfalls_08-09_01.jpg', '/static/images/photos/shrub/quercus-garryana_eelriver.jpg', '/static/images/photos/shrub/quercus-garryana_mendocinopass_01.jpg', '/static/images/photos/shrub/quercus-garryana_redwoodnp_01.jpg', '/static/images/photos/shrub/quercus-garryana_redwoodnp_02.jpg', '/static/images/photos/shrub/quercus-garryana-shrub_fh7-yollabollymtns_06-2013_01.jpg', '/static/images/photos/shrub/quercus-garryana-shrub_fh7-yollabollymtns_06-2013_02.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Quercus</i> <i>garryana</i> is dominant or co-dominant in the shrub canopy with <i>Amelanchier</i> <i>utahensis</i>, <i>Arctostaphylos</i> <i>nevadensis</i>, <i>Arctostaphylos</i> <i>patula</i>, <i>Ceanothus</i> <i>cordulatus</i>, <i>Ceanothus</i> <i>cuneatus</i>, <i>Ceanothus</i> <i>integerrimus</i>, <i>Ceanothus</i> <i>velutinus</i>, <i>Cercis</i> <i>occidentalis</i>, <i>Cercocarpus</i> <i>montanus</i>, <i>Clematis</i> <i>lasiantha</i>, <i>Fraxinus</i> <i>dipetala</i>, <i>Prunus</i> <i>emarginata</i>, <i>Prunus</i> <i>subcordata</i>, <i>Quercus</i> <i>berberidifolia</i>, <i>Quercus</i> <i>vacciniifolia</i> and <i>Toxicodendron</i> <i>diversilobum</i>. Emergent trees may be present at low cover, including <i>Pinus</i> <i>sabiniana</i>, <i>Quercus</i> <i>chrysolepis</i>, <i>Quercus</i> <i>kelloggii</i> or <i>Quercus</i> <i>wislizeni</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 5 m; canopy is intermittent to continuous. Herbaceous layer is usually open and grassy. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li>Shrubby <i>Quercus garryana</i> > 50% relative cover in the shrub layer (Keeler-Wolf et al. 2003b, Lee 2004).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Ridges, upper slopes, may be steep, rocky. The USFWS Wetland Inventory (1996 national list) recognizes <i>Quercus garryana</i> as a NI plant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Brewer oak series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Quercus garryana var. breweri shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Brewer oak
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Shin oak brush
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Montane chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>37.411.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate and Boreal Shrubland and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate Grassland, Meadow, and Shrubland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Vancouverian and Rocky Mountain Grassland and Shrubland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Western Cordilleran Montane Shrubland and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Southern Vancouverian montane deciduous scrub
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Quercus garryana </i>has two growth forms: as a tree (var. <i>garryana</i>) with plants to 15 m in height with usually a solitary trunk, and as a shrub or small tree, (var. <i>fruticosa </i>[var. <i>breweri</i>] and var. <i>semota</i>) with many, spreading trunks less than 5 m in height. The shrubby varieties differ in pubescence characters (Nixon and Muller 1997). The shrubby forms grow in thin soils, commonly at higher elevations than the woodlands of var. <i>garryana</i>. Var. <i>semota </i>is common on the west slope of the Sierra Nevada and the Tehachapi Mountains; var. <i>fruticosa </i>occurs in the Klamath Mountains and northern Sierra Nevada. Specimens from the northern Coast Ranges are probably shrubby forms of var. <i>garryana </i>or hybrids with <i>Q. durata </i>(Nixon and Muller 1997). The <i>Jepson Manual </i>(Hickman 1993) does not recognize var. <i>semota, </i>but the others (Nixon and Muller 1997, USDA-NRCS 2008) do. Govaerts and Frodin (1998) showed that the name var. <i>fruticosa </i>has priority over var. <i>breweri, </i>the name found in the ecological literature. We recognize the <i>Quercus garryana </i>alliance for stands of trees, and we place all shrubby forms in this alliance.<br/>
+<br/>
+ <i>Quercus garryana </i>var. <i>fruticosa </i>is a deciduous shrub or small, clonal tree. It has heavy acorn crops irregularly, and acorns develop in 1 year. Birds and small mammals disperse and cache the fruit. Acorn production is high, and often animals consume the entire mast. Seed viability is high for fresh acorns, and seedling recruitment is highest on mineral soil. Over most of its range, reproduction mainly appears vegetative. Since most stands are on thin soils, they tend to be invaded by conifers slowly, if at all (Gucker 2007c). </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Quercus garryana</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Shrub; winter deciduous</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Transient</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short </td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; gravity</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Buds on large branches or trunks; underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>5 years to age of plants</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Episodic</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text"><i>Quercus garryana </i>var. <i>fruticosa </i>sprouts from root crowns and rhizomes after burning or other disturbance such as browsing and cutting. Sprouts grow far more rapidly than do seedlings (Gucker 2007c).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Medium (25 to 50+ years)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Summer-early fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Medium to large—up to and beyond stand
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low to moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Moderate to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>High
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Active-independent crown fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>North Coast
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Klamath Mountains</b> (M261Aa, Ac-n, Ap-u). Stands occur over a range of substrates throughout the section including shale, limestone, and metavolcanic rocks at Indian Creek Brewer Spruce Botanical Area (Sawyer et al. 1978b), Devil’s Rock Hosselkus RNA (Cheng 2004), and Whiskeytown National Recreation Area (Lee 2004).</li>
+        
+            <li><b>Modoc Plateau</b> (M261Gn). Stands are sporadic on western portions of the section on basalt flows.</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Ba-f). Stands are widespread in the section, and some are extensive. Dense stands are associated with greywacke sandstone, while more open, and dwarfed ones occur on shale. They occur at Doll Basin and Ruth RNAs (Cheng 2004), in the Yolla Bolly Mountains (Keeler-Wolf and Keeler-Wolf 1974), and generally in the section (Jimerson 1993). One stand is associated with an isolated stand of <i>Juniperus grandis.</i></li>
+        
+            <li><b>Sierra Nevada</b> (M261Eg, Ep, Es). Stands exist low on the western slope adjacent to <i>Pinus ponderosa, Quercus chrysolepis, Q. kelloggii,</i> and <i>Q. wislizeni</i> forests. Stands are sporadic and local in the central and southern Sierra, commonly on granitic soils, as at Long Canyon cRNA (Cheng 2004). Stands have been observed as far south as the Tehachapi Mountains.</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fa-c). Stands in the foothills occur on volcanic and metamorphic rocks, especially with stands of the <i>Ceanothus integerrimus, Cercocarpus montanus,</i> and <i>Pinus sabinianaK/i> alliances at Indian Creek rRNA (Cheng 2004) and in the northern subsections (Klein et al. 2007).</li>
+        
+            <li><b>Southern Cascades</b> (M261Da, Dh, Dj, Dl). Small stands in the eastern portion of the section are associated with lava outcrops and rims at the Iron Mountain cRNA (Cheng 2004). The shrublands occupy steep rocky slopes at the outer edge of the deeper soil and gentler slopes of the oak and pine woodlands.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Managers should allow fires to burn through oak thickets. However, relatively high-frequency, high-intensity fires may lead to stand decline because of the reduction in sprouting ability of older individuals. It appears that a combination of sexual and asexual reproduction is necessary for long-term persistence of the type. In addition, sprouting plants may succumb to heavy browsing by black-tailed deer (Gucker 2007c). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Quercus garryana - Arctostaphylos patula [4]</li>
+                
+                    <li>Quercus garryana - Cercocarpus montanus [3], [5]</li>
+                
+                    <li>Quercus garryana / Festuca californica [1]</li>
+                
+                    <li>Quercus garryana shrub [2], [5]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Jimerson, T.M. 1993</li>
+		
+		<li>[2] Klein, A.;Crawford, J.;Evens, J.;Keeler-Wolf, T.;Hickson, D. 2007</li>
+		
+		<li>[3] Lee, C. 2004</li>
+		
+		<li>[4] Sawyer, J.O. 1981b</li>
+		
+		<li>[5] NPS-SEKI, 2009</li>
+		
+		<li>Gucker, C.L. 2007c</li>
+		
+		<li>Nixon, K.C.;Muller, C.H. 1997</li>
+		
+		<li>Sawyer, J.O. 1981a</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/256/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

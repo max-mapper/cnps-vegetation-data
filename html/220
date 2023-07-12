@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Keckiella antirrhinoides</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Keckiella</i> <i>antirrhinoides</i></span> Shrubland Alliance <br/>
+        <span class="subtitle">Bush penstemon scrub</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>270-1125 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G3
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: AZ, CA, NV. Mexico (TJM2) (USDA Plants)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2009/09/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/keckiella-antirrhinoides_sandiegoco_06-09_01.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Keckiella</i> <i>antirrhinoides</i> is dominant or co-dominant in the shrub canopy with <i>Adenostoma</i> <i>fasciculatum</i>, <i>Artemisia</i> <i>californica</i>, <i>Cneoridium</i> <i>dumosum</i>, <i>Eriodictyon</i> <i>crassifolium</i>, <i>Eriogonum</i> <i>fasciculatum</i>, <i>Hesperoyucca</i> <i>whipplei</i>, <i>Malosma</i> <i>laurina</i>, <i>Quercus</i> <i>berberidifolia</i>, <i>Rhus</i> <i>ovata</i>, <i>Salvia</i> <i>apiana</i>, <i>Salvia</i> <i>mellifera</i>, <i>Tetradymia</i> <i>comosa</i> and <i>Xylococcus</i> <i>bicolor</i>. Emergent trees may be present at low cover, including <i>Quercus</i> <i>engelmannii</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 2 m; canopy is open to continuous and two tiered. Herbaceous layer is open to intermittent. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Keckiella antirrhinoides</i> > 30% in the shrub canopy as a dominant or co-dominant with other shrubs (Evens and San 2005, Klein and Evens 2005).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Variable topography, though well developed on north-facing hillsides. Soils are loams and clays derived from granitic or gabbro substrates.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>California sagebrush series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Diegan coastal sage scrub, Coastal sage-chaparral scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Coastal sage scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Coastal scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>32.065.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Mediterranean Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Mediterranean Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>California Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>California Coastal Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Central and South Coastal Californian coastal sage scrub
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Keckiella antirrhinoides </i>is a drought deciduous shrub to 1.5 m with wand-like stems. Its yellow flowers are showy fragrant, and they are pollinated by hummingbirds (Freeman et al. 1984). Plants are cold tolerant to at least 0 °F. This species has the characteristics of both chaparral and coastal scrub species. It has a chaparrallike growth form (Weaver 1998) and dark green, somewhat thickened, non-hairy leaves, but these leaves are partially drought-deciduous. Little is known about the species’s life history. <br/>
+<br/>
+<i>Keckiella antirrhinoides </i>is a component of many chaparral and coastal sage types, and the alliance occupies transitional sites between chaparral and coastal scrub vegetation. In some cases, stands can closely mirror the environmental characteristics in the <i>Adenostoma fasciculatum-Eriogonum fasciculatum </i>association (J. Menke, pers. comm. 2005). Stands in San Diego and western Riverside Cos. often occur on concave slopes or on north-facing hills (Klein and Evens 2005), in sites ecologically related to the <i>Artemisia californica </i>alliance. The alliance appears to be restricted to the Peninsular Ranges of southern California and adjacent Baja California. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Keckiella antirrhinoides</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Shrub; drought-deciduous </td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Unknown</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Unknown</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Unknown</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-sensitive; high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>Unknown</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>Unknown</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>?Medium to high (postburn seedlings) </td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Minnich and Bahre (1995) discussed post fire ecology and seed germination.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Medium (20-100 years)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Late summer-fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Small to medium
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>High
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>High
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Low
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Surface-passive crown fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>San Bernardino Mountains; Peninsular Ranges
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Southern California Coast</b> (261Bi). Stands have been sampled in the San Dieguito River drainage near Lake Hodges (Evens and San 2005).</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Bf, Bk-l, Bn). Stands from western Riverside Co. (Gordon and White 1994, Klein and Evens 2005) and central San Diego Co. (Evens and San 2005) characterize the alliance. Weaver (1998) noted that dense stands of the alliance occur in a fairly limited area, primarily on steep north-facing slopes within the San Luis Rey and San Dieguito river valleys, 32-40 km from the coast in San Diego Co.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> The “cross-formation” ecological position of this alliance provides it as an excellent candidate for monitoring in a regional setting. Shifts in its abundance and geographic positions could be associated with shifts in management, human disturbance, fire characteristics, and climate. The species is an excellent native, drought-resistant garden plant used successfully in restoration of type-converted coastal scrub (Cione et al. 2002). Apparently, dense stands strongly dominated by <i>Keckiella antirrhinoides </i>are not good habitat for the California gnatcatcher (Weaver 1998). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Keckiella antirrhinoides [3]</li>
+                
+                    <li>Keckiella antirrhinoides - Artemisia californica [1], [2], [3], [4], [6]</li>
+                
+                    <li>Keckiella antirrhinoides - Eriogonum fasciculatum [3]</li>
+                
+                    <li>Keckiella antirrhinoides - Mixed Chaparral [1], [3], [5]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Evens, J.;San, S. 2005</li>
+		
+		<li>[2] Gordon, H.J.;White, T.C. 1994</li>
+		
+		<li>[3] Klein, A.;Evens, J. 2005</li>
+		
+		<li>[4] Sproul, F.;Keeler-Wolf, T.;Gordon-Reedy, P.;Dunn, J.;Klein, A.;Harper, K. 2011</li>
+		
+		<li>[5] Buck-Diaz, J.;Evens, J. 2011a</li>
+		
+		<li>[6] AECOM, 2013</li>
+		
+		<li>Cione, N.K.;Padgett, P.E.;Allen, E.B. 2002</li>
+		
+		<li>Minnich, R.A.;Bahre, C.J. 1995</li>
+		
+		<li>Peinado, M.;Alcaraz, F.;Aguirre, J.L.;Delgadillo, J.;Aguado, I. 1995</li>
+		
+		<li>Weaver, K.L. 1998</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/220/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

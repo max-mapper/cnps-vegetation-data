@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Eriogonum fasciculatum</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Eriogonum</i> <i>fasciculatum</i></span> Shrubland Alliance <br/>
+        <span class="subtitle">California buckwheat scrub</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-1200 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S5
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G5
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA, NV. Mexico (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/eriogonum-fasciculataum_pinnaclesnm_0106_01.jpg', '/static/images/photos/shrub/eriogonum-fasciculataum_pinnaclesnm_0106_02.jpg', '/static/images/photos/shrub/eriogonum-fasciculatum_blmpotrerocynrd_03-10_01.jpg', '/static/images/photos/shrub/eriogonum-fasciculatum_chimineas_03-09_01.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Eriogonum</i> <i>fasciculatum</i> or <i>Hesperoyucca</i> <i>whipplei</i> is dominant or co-dominant in the shrub canopy in cismontane stands with <i>Artemisia</i> <i>californica</i>, <i>Baccharis</i> <i>pilularis</i>, <i>Diplacus</i> <i>aurantiacus</i>, <i>Encelia</i> <i>californica</i>, <i>Encelia</i> <i>farinosa</i>, <i>Isocoma</i> <i>menziesii</i>, <i>Lotus</i> <i>scoparius</i>, <i>Malacothamnus</i> <i>fasciculatus</i>, <i>Salvia</i> <i>apiana</i> or <i>Salvia</i> <i>mellifera</i>. Emergent trees may be present at low cover including <i>Juniperus</i> <i>californica</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 2 m; canopy is continuous or intermittent. Herbaceous layer is variable and may be grassy. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Eriogonum fasciculatum</i> > 50% relative cover in the shrub canopy; other shrubs, if present, < 50% relative cover (Evens and San 2005, Keeler-Wolf and Evens 2006).</li>
+		
+		<li><i>Eriogonum fasciculatum</i> > 50% relative cover, or > 30% with <i>Encelia farinosa</i> in the shrub canopy (Klein and Evens 2005).</li>
+		
+		<li><i>Eriogonum fasciculatum</i> > 50% relative cover in the shrub layer (Buck-Diaz et al. 2012).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Upland slopes, intermittently flooded arroyos, channels and washes; rarely flooded low-gradient deposits. Soils coarse, well drained, and moderately acidic to slightly saline.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>California buckwheat series, Birchleaf mountain-mahogany-California buckwheat series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Eriogonum fasciculatum shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>California buckwheat, Chaparral yucca
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Southern coastal bluff scrub, Central (Lucian) coastal scrub, Venturan coastal sage scrub, Diegan coastal sage scrub, Diablan sage scrub, Riversidian sage scrub, Alluvial fan chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Coastal sage scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Coastal scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>32.040.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Mediterranean Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Mediterranean Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>California Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>California Coastal Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Central and South Coastal Californian coastal sage scrub
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Eriogonum fasciculatum </i>is a semi-woody, many-branching shrub with woody, many-branched roots that penetrate to 1.5 m. Plants lose some leaves in the dry season and most in severe drought. Plants flower from early spring through summer. Ants, wind, and water disperse the seeds. Seed germination requires light, and seedling success is high in wet years (Montalvo 2002b). <br/>
+<br/>
+The varieties of <i>E. fasciculatum </i>vary in a combination of traits, especially color, chromosome number, leaf shape, leaf margins, and pubescence. They also show some geographic separation. Var. <i>foliolosum </i>grows along the Central Coast and mountains; var. <i>polifolium </i>grows inland mostly in southern California; var. <i>fasciculatum </i>is sympatric with the others (Axelrod 1978). These three varieties are included in this alliance.  <i>E. fasciculatum </i>var. <i>flavoviride </i> grows in the Colorado, Mojave, Sonoran deserts and southeastern Great Basin and is therefore only included in the <i>Eriogonum fasciculatum - Viguiera parishii</i> Alliance.<br/>
+<br/>
+<i>Hesperoyucca whipplei </i>produces a stemless cluster of long, rigid leaves which end in a sharp point. The plant typically takes 5-10 years to reach maturity, which results in the rapid growth of a flower spike of  10-15 feet in about 2 weeks. The spikes bear a spectacular display of hundreds of bell-shaped white to purplish flowers. The fruit is a dry winged capsule. It is pollinated specifically by the California yucca moth (<i>Tegeticula maculata</i>), an exclusive relationship which is a classic example of symbiosis. Working at night, the female yucca moth collects pollen grains and forms them into a massive ball. She then flies to another plant, lays a single egg inside the ovary wall of the flower, and rubs her pollen mass on the correct spot to ensure pollination. The pollinated ovary will now produce many seeds and an ample food supply for the moth larva (Calscape 2021a). After the flowers have been pollinated, the plant dies, though the stalk will typically stay upright for several more years (Gucker 2012).<br/>
+<br/>
+Stands do well on rocky sites and in shallow soils, and they establish after disturbance by fire or flood or after heavy grazing. In southern coastal California, this alliance is usually one of the first of the coastal scrubs to establish in mechanically disturbed areas, such as road cuts or slope failures, and it persists in areas with light to moderate grazing.<br/>
+<br/>
+In the 2009 book, <i>A Manual of California Vegetation, second edition</i>, all stands of <i>Eriogonum fasciculatum </i>throughout California were included in this alliance.  With additional surveys and analysis in desert regions, transmontane stands are included within an expanded <i>Eriogonum fasciculatum - Viguiera parishii</i> Alliance (Evens et al. 2014). </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Eriogonum fasciculatum</th>
+			
+		
+			
+			<th>Hesperoyucca whipplei</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Shrub; evergreen, (semi-) drought deciduous</td>
+			
+		
+			
+			<td>Perennial; shrub</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Medium</td>
+			
+		
+			
+			<td>Long</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; water/hydrological; wind</td>
+			
+		
+			
+			<td>Gravity</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Underground structures (weak)</td>
+			
+		
+			
+			<td>Underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-sensitive; thin epidermis; no/low sprouter; canopy architecture susceptible</td>
+			
+		
+			
+			<td>Fire-hardy</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>Yes</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>5-50+ years</td>
+			
+		
+			
+			<td>5-20 years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Low to medium</td>
+			
+		
+			
+			<td>Variable</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text"><i>Eriogonum fasciculatum </i>sprouts after fire, but most shrub regeneration is from buried seed (Keeley 1998a). Stands usually return after low-intensity and lower-frequency fires. Frequent fires can deplete the seed bank at a time when those for non-native species are increasing (Giessow and Zedler 1996, Minnich 1988), making the coastal scrub stand species vulnerable to local extinction.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>South/Central Coast: medium (15-30+ years); desert: long (50-200 years)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>South/Central coast: Late summer-fall; desert: spring-summer-fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Medium to large—up to or beyond stand size
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low to moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Moderate to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Moderate to very high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Surface-passive crown to active-independent crown fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Central Coast; hot deserts; South Coast
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Aj-k). Stands in the Santa Lucia Mountains, as at the Cone Peak RNA (Cheng 2004), inhabit a broad elevation range and extend inland on xeric slopes above the summer inversion zone (Borchert et al. 2004).</li>
+        
+            <li><b>Central California Coast Ranges</b> (M262Ab-f, Ah-k). Stands in the Diablo Range, including those San Benito Mountain and Joaquin Ridge (Evens et al. 2006), occupy more xeric and unstable slopes than do those of the <i>Salvia mellifera</i> and <i>Artemisia californica</i> alliances.</li>
+        
+            <li><b>Great Valley</b> (262Ag, Aq, Ax-z). Stands are located on the edges of the Great Valley ecoregion, adjacent to foothill regions of the Sierra Nevada and Coast Ranges. Stands were mapped in the southern parts of subsections 262Ag and 262Aq although the subsections extend farther to the north (Buck-Diaz, et al. 2012). In subsection 262Ay, stands were found only in a very small portion in the southeast, adjacent to subsection M261Fd, possibly due to an error in the subsection boundary line.</li>
+        
+            <li><b>Sierra Nevada</b> (M261Es). Stands in the Tehachapi Mountains may be considered better part of the <i>Eriogonum fasciculatum - Viguiera parishii</i> alliance, though more sampling is needed to determine affinities.</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fc-e). Stands occur from the lower granitic foothills south and east into the lower Kern River canyon, and into the San Emigdio Mountains; many contain <i>Hesperoyucca whipplei.</i></li>
+        
+            <li><b>Southern California Coast</b> (261Ba-b, Bd-g, Bi-j). Stands are extensive in the section on the mainland, including in San Diego Co. (Evens and San 2005) and the Santa Monica Mountains (Keeler-Wolf and Evens 2006). Stands established following fires and floods in Anza-Borrego Desert State Park are now placed in the <i>Eriogonum fasciculatum - Viguiera parishii </i> alliance (Keeler-Wolf et al. 1998b).</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Ba-g, Bj-p). Stands occur throughout the section (Gordon and White 1994, Hanes et al. 1989, Kirkpatrick and Hutchinson 1977), including western Riverside Co. (Klein and Evens 2005, S. White 1994b). Stands established following fires and floods in Anza-Borrego Desert State Park (Keeler-Wolf et al. 1998b)  have primarily been moved to the <i>Eriogonum fasciculatum - Viguiera parishii </i> alliance.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> <i>Eriogonum fasciculatum </i>establishes after disturbance by fire, flooding, or livestock use. It rarely sprouts, and longer-living species replace it in areas with long periods between disturbances. <i>E. fasciculatum </i>has been widely established along state and federal highways in much of California. The northernmost stands in the Klamath Mountains are a result from highway plantings. 
+
+<i>E. fasciculatum </i>has decreased in southern California since the 1940s, especially on alluvial soils. Minnich and Dezzani (1998) attributed these decreases to more frequent fire and increased nitrogen deposition, conditions that favor invasive annual grasses. Successful restoration requires stable conditions where shrubs can establish, mature, and develop seed banks (Montalvo 2002b).
+
+Fiber from the leaves of <i>Hesperoyucca </i>has been used extensively by Native Americans for sandals, cloth, and rope. The stalk of the plant and flowers have been eaten. Fruits can be eaten raw, roasted, or pounded into meal. Seeds were roasted and eaten whole or ground into flour. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+                <p>Cismontane Associations with Co-Dominance</p>
+            
+            <ul class="text">
+                
+                    <li>Eriogonum fasciculatum - Artemisia tridentata [3]</li>
+                
+                    <li>Eriogonum fasciculatum - Bebbia juncea [8], [12]</li>
+                
+                    <li>Eriogonum fasciculatum - Cylindropuntia californica [8]</li>
+                
+                    <li>Eriogonum fasciculatum - Encelia farinosa [8]</li>
+                
+                    <li>Eriogonum fasciculatum - Ephedra californica [11], [18]</li>
+                
+                    <li>Eriogonum fasciculatum - Gutierrezia sarothrae [8]</li>
+                
+                    <li>Eriogonum fasciculatum - Rhus ovata [8], [10]</li>
+                
+                    <li>Eriogonum fasciculatum - Salvia mellifera [1], [3], [7]</li>
+                
+                    <li>Eriogonum fasciculatum - Salvia mellifera - Malosma laurina [5]</li>
+                
+                    <li>Eriogonum fasciculatum - Simmondsia chinensis - Cylindropuntia californica [8]</li>
+                
+                    <li>Eriogonum fasciculatum var. foliolosum - Hesperoyucca whipplei [2], [11], [18], [19], [20], [21]</li>
+                
+                    <li>Eriogonum fasciculatum var. foliolosum - Juniperus californica [2]</li>
+                
+            </ul>
+        
+            
+                <p>Cismontane Associations with Dominance</p>
+            
+            <ul class="text">
+                
+                    <li>Eriogonum fasciculatum [2], [3], [5], [8], [9], [10], [11], [12], [13], [14], [15], [18], [20], [21]</li>
+                
+                    <li>Eriogonum fasciculatum / Salvia columbariae - Mirabilis laevis [4], [12]</li>
+                
+                    <li>Eriogonum fasciculatum - Scrophularia californica - Phacelia ramosissima [7]</li>
+                
+                    <li>Eriogonum fasciculatum var. polifolium / Eriastrum pluriflorum [2]</li>
+                
+                    <li>Hesperoyucca whipplei [15], [21], [22]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] DeSimone, S.A.;Burk, J.H. 1992</li>
+		
+		<li>[2] Evens, J.M.;Klein, A.;Taylor, J.;Hickson, D.;Keeler-Wolf, T. 2006</li>
+		
+		<li>[3] Gordon, H.J.;White, T.C. 1994</li>
+		
+		<li>[4] AECOM, 2013</li>
+		
+		<li>[5] Keeler-Wolf, T.;Evens, J. 2006</li>
+		
+		<li>[7] Kirkpatrick, J.B.;Hutchinson, C.F. 1977</li>
+		
+		<li>[8] Klein, A.;Evens, J. 2005</li>
+		
+		<li>[9] Kittel, G.;Reyes, E.;Evens, J.;Buck, J.;Johnson, D. 2012</li>
+		
+		<li>[10] Evens, J.;San, S. 2005</li>
+		
+		<li>[11] Buck-Diaz, J.;Evens, J. 2011b</li>
+		
+		<li>[12] Sproul, F.;Keeler-Wolf, T.;Gordon-Reedy, P.;Dunn, J.;Klein, A.;Harper, K. 2011</li>
+		
+		<li>[13] Verdone, L.;Evens, J. 2010</li>
+		
+		<li>[14] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>[15] VegCAMP (CDFW Vegetation Classification and Mapping Program), 2015a</li>
+		
+		<li>[18] CNPS Vegetation Program, 2015</li>
+		
+		<li>[19] Stillwater Sciences and URS, 2007</li>
+		
+		<li>[20] Reyes, E.;Johnson, D.;Glass, A. 2019</li>
+		
+		<li>[21] Reyes, E.;Evens, J.;Glass, A.;Sikes, K.;Keeler-Wolf., T.;Winitsky, S.;Johnson, D.;Menke, J.;Hepburn, A. 2020a</li>
+		
+		<li>[22] NPS-SEKI, 2009</li>
+		
+		<li>Axelrod, D.I. 1978</li>
+		
+		<li>Barbour, M.G. 1994a</li>
+		
+		<li>Barbour, M.G. 1994b</li>
+		
+		<li>Calscape, 2021a</li>
+		
+		<li>Cole, N.H. 1967</li>
+		
+		<li>Gucker, C.L. 2012</li>
+		
+		<li>Keeley, J.E. 1998a</li>
+		
+		<li>Keeley, J.E.;Keeley, S.C. 1988</li>
+		
+		<li>Kummerow, J.;Krause, D.;Jow, W. 1977</li>
+		
+		<li>Malanson, G.P. 1984</li>
+		
+		<li>Minnich, R.A.;Dezzani, R.J. 1998</li>
+		
+		<li>Montalvo, A.M. 2002b</li>
+		
+		<li>Mooney, H.A. 1977</li>
+		
+		<li>O'Leary, J.F. 1990</li>
+		
+		<li>Pase, C.P.;Brown, D.E. 1982</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Black, H.;Bleich, V.C.;Mincks, J.W. 1980</li>
+		
+		<li>Westman, W.E. 1983</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/203/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

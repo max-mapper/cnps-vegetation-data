@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Arctostaphylos pumila</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+	<div class="allianceHeader">
+		<span class="scientificName"><i>Arctostaphylos</i> <i>pumila</i></span> Provisional Shrubland Alliance <br/>
+		<span class="subtitle">Sandmat manzanita chaparral</span>
+	</div>
+
+	<div class="mainAllianceInfo">
+
+		<div class="allianceSideInfo">
+			<div class="quickInfoList">
+				<h4>Summary Information</h4>
+				<ul>
+					<li>
+						<span class="category">Primary Life Form</span>Shrub
+					</li>
+					<li>
+						<span class="category">Elevation</span>3-350 m
+					</li>
+					<li>
+						<span class="category">State Rarity</span>S1
+					</li>
+					<li>
+						<span class="category">Global Rarity</span>G1
+					</li>
+					<li>
+						<span class="category">Distribution</span>USA: CA (NatureServe) (Calflora)
+					</li>
+                    <li>
+                        <span class="category">Endemic to California</span>Yes
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>Yes
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2009/09/01
+                    </li>
+				</ul>
+			</div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/arctostaphylos-pumila_ftord_09-07_01.jpg']
+            </script>
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+		</div>
+
+		
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Arctostaphylos</i> <i>pumila</i> is dominant or co-dominant in the shrub canopy with <i>Adenostoma</i> <i>fasciculatum</i>, <i>Arctostaphylos</i> <i>hookeri</i> ssp. <i>hookeri</i>, <i>Arctostaphylos</i> <i>tomentosa</i> ssp. <i>bracteosa</i>, <i>Arctostaphylos</i> <i>tomentosa</i> ssp. <i>tomentosa</i>, <i>Artemisia</i> <i>californica</i>, <i>Ceanothus</i> <i>cuneatus</i> var. <i>rigidus</i>, <i>Ceanothus</i> <i>dentatus</i>, <i>Diplacus</i> <i>aurantiacus</i>, <i>Eriogonum</i> <i>fasciculatum</i>, <i>Frangula</i> <i>californica</i>, <i>Heteromeles</i> <i>arbutifolia</i> and <i>Salvia</i> <i>mellifera</i>. Emergent trees may be present at low cover, including <i>Quercus</i> <i>agrifolia</i>. </div>
+</div>
+
+		
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 3 m; canopy is intermittent to continuous. Herbaceous layer is sparse. </div>
+</div>
+
+		
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Stabilized sand dunes. Soils are thin to deep, excessively drained, loams derived from old sand dunes.  </div>
+</div>
+
+		
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance, and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Woolly leaf manzanita series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Arctostaphylos tomentosa shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Manzanita chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Central maritime chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Mixed chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>37.318.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+	</div>
+
+
+	<!-- collapsable content below -->
+
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Arctostaphylos pumila </i>is a prostrate to mounded, evergreen, sclerophyllous shrub. Leaves are spreading from the stems, and they have upper shiny-green, convex surfaces and lower gray-tomentose surfaces. They have wedge-shaped bases. Plants lack lignotubers, but branches touching the ground readily root. Seeds collect in a seed bank as stones. Seeds germinate after heat scarification, though heat is not required for germination. <br/>
+<br/>
+The species is adapted to moderately long fire return intervals (around 100 years). Stands require periodic fire to maintain current species composition. Infrequent fire results in shrubs being replaced by trees and in decreased seed bank quality, whereas frequent fire tends to convert the stands to coastal scrub or grassland. Maritime chaparral stands have a historic fire cycle of 10-100 years (Greenlee and Langenheim 1990, Van Dyke et al. 2001); however, the lower end of this range is more likely 40-50 years for this alliance (M. Vasey, pers. com 2007). Prescribed burns are recommended to reduce tree invasion (Greenlee and Langenheim 1990, Van Dyke et al. 2001). <br/>
+<br/>
+<i>Arctostaphylos pumila </i>(a CNPS list 1B plant) creates stands that support at least five rare plants. <i>Arctostaphylos hookeri </i>ssp. <i>hookeri, Chorizanthe pungens </i>var. <i>pungens, Ericameria fasciculata, </i>and <i>Piperia yadonii </i>are CNPS list 1B plants <i>. Ceanothus cuneatus </i>var. <i>rigidus </i>is a CNPS list 4 plant. <i>Chorizanthe pungens </i>var. <i>pungens </i>is federally listed as threatened, and <i>P. yadonii </i>is listed as endangered. Stands may also include <i>Gilia tenuiflora </i>ssp. <i>arenaria </i>(a CNPS list 1B plant) (M. Vasey, pers. comm. 2007). </div>
+</div>
+
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Observations</h4>
+	<div class="text"> Stands occur in the Central California Coast (261B) as at Fort Ord Military Reservation on Bureau of Land Management lands. They tend to occur on sandy soil closer to the coast than adjacent stands of the <i>Arctostaphylos hookeri</i> and <i>Arctostaphylos</i> (<i>crustacea, tomentosa</i>) alliances. </div>
+</div>
+
+	
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>Griffin, J.R. 1978</li>
+		
+		<li>Van Dyke, E.;Holl, K.D.;Griffin, J.R. 2001</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+	<script src="/static/javascript/alliance_page.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

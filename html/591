@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Hesperocyparis (sargentii, macnabiana)</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Hesperocyparis</i> (<i>sargentii</i>, <i>macnabiana</i><span style="padding-left: .2em">)</span></span> Woodland Alliance <br/>
+        <span class="subtitle">Ultramafic cypress woodland</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Tree
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>200-1100 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G3
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA, OR (USDA Plants)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>Yes
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2021/08/30
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/tree/hesperocyparis-macnabiana_mclaughlinreserve_09-02_01.jpg', '/static/images/photos/tree/hesperocyparis-macnabiana_nonserparsanvocan_09-02.jpg', '/static/images/photos/tree/hesperocyparis-macnabiana_serpentine_knoxville_05-03.jpg', '/static/images/photos/tree/hesperocyparis-sargentii_frenzelcreeknra.jpg', '/static/images/photos/tree/hesperocyparis-sargentii_garygiacominipreserve_05-10_01.jpg', '/static/images/photos/tree/hesperocyparis-sargentii_garygiacominipreserve_05-10_02.jpg', '/static/images/photos/tree/hesperocyparis-sargentii_garygiacominipreserve_05-10_03.jpg', '/static/images/photos/tree/hesperocyparis-sargentii_garygiacominipreserve_05-10_04.jpg', '/static/images/photos/tree/hesperocyparis-sargentii_garygiacominipreserve_05-10_05.jpg', '/static/images/photos/tree/hesperocyparis-sargentii_harrisongrade_07-06_01.jpg', '/static/images/photos/tree/hesperocyparis-sargentii_harrisongrade_07-06_02.jpg', '/static/images/photos/tree/hesperocyparis-sargentii_oldtollrd_01.jpg', '/static/images/photos/tree/hesperocyparis-sargentii_oldtollrd_02.jpg', '/static/images/photos/tree/hesperocyparis-sargentii-a-montana_carsonridge_2_9-2018.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Hesperocyparis</i> <i>macnabiana</i> and/or <i>Hesperocyparis</i> <i>sargentii</i> is dominant in the tree canopy with <i>Pinus</i> <i>attenuata</i>, <i>Pinus</i> <i>sabiniana</i>, <i>Pseudotsuga</i> <i>menziesii</i>, <i>Quercus</i> <i>wislizeni</i> and <i>Umbellularia</i> <i>californica</i>. Shrubs may include <i>Arctostaphylos</i> <i>viscida</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text"> Trees < 15 m; canopy is open to continuous. Shrub layer is sparse to intermittent. Herbaceous layer is variable. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Hesperocyparis macnabiana</i> > 50% cover in the tree or shrub layer (Klein et al. 2007, C. Malleck, pers. comm. 2009, Wolf 1948).</li>
+		
+		<li><i>Hesperocyparis sargentii</i> > 50% relative cover in the tree canopy (Evens and Kentner 2006, Buck-Diaz et al. 2021).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Stream benches and terraces, open slopes, and ridges. Soils are generally sterile and derived from basalt, conglomerate, gabbro, greenstone, serpentine or other ultramafic substrates.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>McNab cypress series, Sargent cypress series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Cupressus macnabiana forest alliance, Cupressus sargentii woodland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>McNab cypress, Sargent cypress
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Northern interior cypress forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Closed-cone pine forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Closed-cone pine-cypress
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>81.550.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Tree Vegetation (Forest and Woodland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Warm Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Madrean Forest and Woodland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>California Forest and Woodland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Californian evergreen coniferous forest and woodland
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Hesperocyparis sargentii </i>is a conifer that attains a height of 20 m and an age of at least 100 years. The plants begin bearing cones by 3-7 years of age. <i>Hesperocyparis macnabiana </i> is a conifer that typically attains a height of 3-6 m. Trees start bearing cones by 6-14 years of age. Trees of both species produce abundant cone crops that require 2 years to mature. The serotinous cones remain closed on the tree until opened by the heat of a fire or from desiccation due to age. Seeds establish best in bare mineral soil. Seedling mortality is high on shaded sites with abundant litter because of damping-off fungi (Barbour 2007, Esser 1994g).<br/>
+<br/>
+ <i>Hesperocyparis macnabiana </i> is the most abundant and widespread cypress in the state (Griffin and Critchfield 1972). Several large stands are scattered throughout northern California mostly on serpentine or volcanic rocks (Alexander et al. 2007, Barbour 2007). <i> Hesperocyparis sargentii </i>is also an abundant and widespread cypress with two centers of distribution. The northern stands of <i> H. sargentii</i>, centered in the San Francisco Bay area and southern North Coast Ranges, often contain <i>H. macnabiana</i> which tends to grow on upper slopes, while <i>H. sargentii </i> favors lower slopes and ravines. Upland stands of <i>H. sargentii </i> found in the North Coast Ranges are associated with shallow water tables or impeded drainage (Alexander et al. 2007).  The southern stands of <i>H. sargentii </i>, centered in the Santa Lucia Mountains, form purer stands. There are genetic differences between the two population centers of <i>H. sargentii </i> (Bartel et al. 2003). <br/>
+<br/>
+Since 2006, cypress species in California have undergone multiple taxonomic changes. The genus <i>Cupressus, </i>now considered restricted to the Old World, was changed to <i>Callitropsis</i> (Bartel et al. 2003, Little 2006). Then in 2009, <i>Callitropsis</i> in California were transferred to the new genus <i>Hesperocyparis </i>(Adams et al. 2009, Terry et al. 2012).<br/>
+<br/>
+Stands of these two cypresses have overlapping ranges and occur on ultramafic (serpentine, volcanic) soils. Due to their similarities the two single alliances, <i>Callitropsis sargentii </i>and <i>C. macnabiana</i> Alliances, described in the 2009 publication of <i>A Manual of California Vegetation, second edition</i>, have been combined. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Hesperocyparis macnabiana</th>
+			
+		
+			
+			<th>Hesperocyparis sargentii</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Tree, shrub; evergreen</td>
+			
+		
+			
+			<td>Tree; evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Canopy </td>
+			
+		
+			
+			<td>Canopy </td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Long; short (after dispersal)</td>
+			
+		
+			
+			<td>Long; short (after dispersal)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Wind</td>
+			
+		
+			
+			<td>Water/hydrological; wind</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Heat</td>
+			
+		
+			
+			<td>Heat (fire)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>none</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-sensitive; canopy architecture susceptible</td>
+			
+		
+			
+			<td>Fire-sensitive; thin epidermis; high flammability; no-low sprouter; canopy architecture susceptible</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>10 years to age of the plant</td>
+			
+		
+			
+			<td>3-100+ years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Low; episodic (disturbance dependent)</td>
+			
+		
+			
+			<td>Episodic (disturbance dependent)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text"><i>Hesperocyparis sargentii </i>and <i>H. macnabiana </i>are fire-adapted, fire-dependent species (Stuart and Stephens 2007). Cones are serotinous and burned trees usually release large quantities of seed after fire, and thus seedlings often establish as dense thickets. To maintain stands, fire return intervals need to be long enough to allow a new cone crop to develop (Esser 1994e, 1994g), more than 7 years for <i>H. sargentii </i> and 15 years for <i>H. macnabiana</i>, but short enough to assure that viable seed crops are present on aging trees. C. Mallek (pers. comm. 2009) provided fire table information for <i>H. macnabiana</i>.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Medium to long (40-200 years)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Spring-summer-fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Medium to large; up to or beyond stand size
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>High to very high; low at riparian stands
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Moderate to very high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Active-independent crown fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Central Valley, Central Coast ranges, North Coast, Santa Lucia Mountains
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+            <p>Much of the range of this alliance has burned since 2015.  Though both <i>Hesperocyparis sargentii </i>and <i>Hesperocyparis macnabiana </i> are fire adapted, the alliance has likely been reduced at least temporally by more than half. It would be good to monitor known stands for recovery.</p>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Ak). A well-known stand of <i>Hesperocyparis sargentii </i>at Cuesta Ridge Botanical Area is just west of U.S. 101. This stand is regenerating following the 1994 fire (Barbour 2007, Davis and Borchert 2006). Another <i>H. sargentii </i>stand in the southern Santa Lucia Mountains was described by Crespi when the Portola expedition (1769-1770) descended the crest of the range east of Arroyo Carpoforo. An additional stand was surveyed in 2009 at the Lion Den Botanical Area of the Santa Lucias (Vasey 2012).</li>
+        
+            <li><b>Central California Coast Ranges</b> (M262Ac, Ae). The <i>H. sargentii</i> stands at Cedar Mountain in Alameda Co. are some distance from the cluster of stands that occur on the Monterey and San Luis Obispo Co. line (which may have been impacted by the Chimney fire of 2016).</li>
+        
+            <li><b>Klamath Mountains</b> (M261Ai). Stands dominated by <i>Hesperocyparis macnabiana</i> may occur in the southeastern portion of the section. The creation of Whiskeytown Reservoir destroyed two of them (Griffin and Critchfield 1972). Only a few individuals outplanted from these stands remain (G. Ring, pers. comm. 2007). More research in this area is needed to see if this is still part of the range, particularly after the Carr fire of 2018 burned most of the area where previous stands were thought to have occurred.</li>
+        
+            <li><b>Northern California Coast</b> (263Ag, Al-m). Stands dominated by <i>H. sargentii</i> occur scattered in the southern portions of the section, including Marin and Sonoma Cos. Upland and riparian associations on Mount Tamalpais are experiencing <i>Pseudotsuga menziesii</i> encroachment (Evens and Kentner 2006). Similar <i>H. sargentii</i> stands exist at the Harrison Grade Ecological Reserve, at the Cedars (though some of these may have burned in the LNU Complex fire in 2020), near Camp Meeker, and on Hood Mountain in Sonoma Co. (though some of these may have burned in the Nunns fire of 2017). Stands of <i>H. macnabiana</i> are less frequent in this section, though a known stand occurs in Hooker Canyon of southwestern Sonoma Co.</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Ba-f). Stands dominated by <i>H. sargentii </i>have been surveyed and mapped in the Mayacamas Mountains (between peaks above Geysers Resort and Mt. St. Helena) and elsewhere in eastern Sonoma County (Tukman Geospatial and Kass Green and Associates 2019, Klein et al 2015), but many of these were within the perimeter of either the Kincade fire of 2019 or the LNU Complex of 2020.  An Eden Valley stand in central Mendocino Co.,  dominated by <i>H. sargentii</i>, is extensive and separate from other stands. 
+A cluster of stands dominated by <i>H. macnabiana </i>were known to surround Clear Lake, but these could have been impacted by the Ranch or River fires of 2018. There are also <i>H. macnabiana </i> stands on Walker Ridge and in the Cedar Roughs near Knoxville (Safford and Harrison 2004), but some of the stands near Knoxville may have burned in the LNU Complex fire of 2020. There are similar stands in the foothills north to Stonyford and in the Frenzel Creek RNA (Keeler-Wolf 1983, see Cheng 2004), but some of these may have burned in the Mendocino Complex fire of 2018.
+Stands dominated by either <i>H. sargentii </i> or <i>H. macnabiana </i> occur in Napa County, where Thorne et al. (2004) mapped 217 stands covering approximately 2268 ha. These stands contained understory shrubs such as <i>Adenostoma fasciculatum</i> and <i>Arctostaphylos viscida</i> (CNPS 2006), but 1628 hectares were in the perimeter of the LNU Complex fire (2020).</li>
+        
+            <li><b>Sierra Nevada</b> (M261Ef-g). <i>Hesperocyparis macnabiana</i> stands are scattered in Yuba and Nevada Cos. on serpentine substrates. The southernmost stand of <i>H. macnabiana</i>, also on serpentine, is near River Pines in Amador Co. (Alexander et al. 2007). Many stands have intermittent understory of <i>Carex brainerdii</i> (C. Malleck, pers. comm. 2009).</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fa-b). Griffin and Critchfield (1972) report <i>H. macnabiana</i> stands on basalt in the northern potions of the section. Klein et al. (2007) report stands on serpentine and gabbro in the north-central foothills.</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Ba). The southernmost <i>H. sargentii</i> stand is on Zaca Peak of the San Rafael Mountains in Santa Barbara Co.</li>
+        
+            <li><b>Southern Cascades</b> (M261Dl). Seven stands dominated by <i>H. macnabiana</i> described (Griffin and Critchfield 1972) at lower montane elevations in this section are small and little studied.  Two stands near Magalia in Butte Co. may have burned in the Camp fire of 2018.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> To maintain a cypress stand, the fire return intervals should be long enough to allow a cone crop to develop, but short enough to maintain a viable seed bank in the trees. A recommended preservation strategy for <i>Hesperocyparis sargentii </i>is to maintain the maximum number of mature stands in its two population centers (Bartel et al. 2003).
+
+Little study has been made of floristic and ecological differences between serpentine and nonserpentine stands. Work to characterize floristic and ecological characteristics of the alliance is forthcoming (C. Mallek, pers. comm. 2009).
+
+This type was ranked as rare (S3) in March 2021 using the NatureServe Rank Calculator.  Key rank factors are its limited area of occupancy, its limited ability to migrate with shifting climates as a result of its soil requirements, and an increase in fire severity and fire intervals throughout its entire range. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Hesperocyparis macnabiana / Arctostaphylos viscida [1], [2]</li>
+                
+                    <li>Hesperocyparis sargentii [3], [4]</li>
+                
+                    <li>Hesperocyparis sargentii / Ceanothus jepsonii - Arctostaphylos spp. [2], [3], [4]</li>
+                
+                    <li>Hesperocyparis sargentii / Quercus durata (Mesic) [2]</li>
+                
+                    <li>Hesperocyparis sargentii / Rhododendron occidentale [2], [3], [4]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Klein, A.;Crawford, J.;Evens, J.;Keeler-Wolf, T.;Hickson, D. 2007</li>
+		
+		<li>[2] Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>[3] Evens, J.M.;Kentner, E. 2006</li>
+		
+		<li>[4] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>Adams, R.P.;Bartel, J.A.;Price, R.A. 2009</li>
+		
+		<li>Alexander, E.B.;Coleman, R.G.;Keeler-Wolf, T.;Harrison, S. 2007</li>
+		
+		<li>Barbour, M.G. 2007</li>
+		
+		<li>Bartel, J.A.;Adams, R.P.;James, S.A.;Mumba, L.E.;Pandey, R.N. 2003</li>
+		
+		<li>CNPS (California Native Plant Society), 2006</li>
+		
+		<li>Davis, F.W.;Borchert, M.L. 2006</li>
+		
+		<li>Esser, L.L. 1994e</li>
+		
+		<li>Esser, L.L. 1994g</li>
+		
+		<li>Griffin, J.R.;Critchfield, W.B. 1972</li>
+		
+		<li>Griffin, J.R.;Stone, C.O. 1967</li>
+		
+		<li>Keeler-Wolf, T. 1983</li>
+		
+		<li>Kruckeberg, A.R. 1984</li>
+		
+		<li>Little, D.P. 2006</li>
+		
+		<li>Mendocino National Forest, 1987</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Black, H.;Bleich, V.C.;Mincks, J.W. 1980</li>
+		
+		<li>Safford, H.D.;Harrison, S. 2004</li>
+		
+		<li>Stuart, J.D.;Stephens, S.I. 2006</li>
+		
+		<li>Terry, R.G.;Bartel, J.A.;Adams, R.P. 2012</li>
+		
+		<li>Thorne, J.H.;Kennedy, J.;Quinn, J.F.;McCoy, M.;Keeler-Wolf, T.;Menke, J. 2004</li>
+		
+		<li>Tukman Geospatial,;Kass Green & Associates, 2019</li>
+		
+		<li>Vasey, M.C. 2012</li>
+		
+		<li>Vogl, R.J.;Armstrong, W.P.;White, K.L.;Cole, K.L. 1977</li>
+		
+		<li>Wolf, C.B. 1948</li>
+		
+		<li>Wolf, C.B.;Wagener, W.W. 1948</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/591/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

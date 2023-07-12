@@ -1,0 +1,1004 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Cytisus scoparius - Genista monspessulana - Cotoneaster spp.</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Cytisus</i> <i>scoparius</i> - <i>Genista</i> <i>monspessulana</i> - <i>Cotoneaster</i> spp.</span> Shrubland Semi-Natural Alliance <br/>
+        <span class="subtitle">Broom patches</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-1000 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>SNA
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>GNA
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>CAN: BC. USA: CA, OR, WA (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                        <li>
+                            <span class="category">Invasive species rank</span>
+                            See remarks
+                        </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/broom_cytisus-scoparius_andothersshrublandsemi-naturalstands_oaklandhills_04-04_02.jpg', '/static/images/photos/shrub/broom_cytisus-scoparius_andothersshrublandsemi-naturalstands_oaklandhills_04-04_01.jpg', '/static/images/photos/shrub/broom_cytisus-scoparius_andothersshrublandsemi-naturalstands_oaklandhills_04-04_03.jpg', '/static/images/photos/shrub/cytisus_genista_cotoneaster_smat030_ulex_sanbrunomtn_04-19.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Cistus</i> spp., <i>Cotoneaster</i> spp., <i>Cytisus</i> <i>scoparius</i>, <i>Erica</i> spp., <i>Genista</i> <i>monspessulana</i>, <i>Hypericum</i> <i>canariense</i>, <i>Spartium</i> <i>junceum</i>, <i>Ulex</i> <i>europaeus</i> or other broom species are dominant in the shrub canopy. Emergent trees may be present at low cover. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 5 m; canopy is open to continuous. Herbaceous layer is open to intermittent. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Genista monspessulana</i> or other <i>Genista</i> sp. > 15% absolute cover and > 60% relative cover in the shrub canopy (Evens and Kentner 2006).</li>
+		
+		<li><i>Spartium junceum</i> is > 15% absolute cover and > 60% relative cover in the shrub canopy (Keeler-Wolf and Evens 2006).</li>
+		
+		<li><i>Cistus </i>spp., <i>Cotoneaster</i> spp.,<i> Cytisus scoparius, Genista monspessulana, Hypericum canariense, Ulex europaeus</i>, or other broom species/hybrids > 50% relative cover in the shrub overstory (Buck-Diaz et al. 2021, Sikes et al. 2021).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Roadsides, disturbed places, eroding slopes, riverbanks, disturbed grasslands, shrublands, forest openings.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Broom series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Cytisus scoparius semi-natural shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Non-native/ornamental shrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Coastal scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Coastal sage scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Coastal scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>32.180.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Mediterranean Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Mediterranean Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>California Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>California Coastal Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Naturalized non-native Mediterranean scrub
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> DiTomaso and Healy (2007) consider six species of broom and gorse as major weeds in California. These long-lived legumes have showy, yellow flowers, and they produce abundant seed that collect in long-lived seed banks. Plants sprout from their rootstocks after cutting and fire (Alvarez 2000, Bossard 2000a, Hoshovsky 2000b, Nilsen 2000). The first four brooms listed are the most conspicuous of the 12 broom species naturalizing in the state. Many forms exist in the horticultural trade. <br/>
+<br/>
+<i>Cytisus scoparius, </i>Scotch broom, has a Cal-IPC rank of High and a CDFA list of C. It has 5-angled stems, few leaves, and bright yellow to maroon flowers. Stands occur throughout northern cismontane California. The typical variety with yellow flowers (var. <i>scoparius</i>) is joined along the Northern California Coast (263A) with var. <i>andreanus, </i>with brownish-red wing petals and yellow standard (DiTomaso and Healy 2007). <br/>
+<br/>
+<i>Cytisus striatus, </i>Portuguese broom, has a Cal-IPC rank of Moderate. It is easily confused with <i>C. scoparius, </i>but the stems of this broom are 8- to 10-angled, and the calyx is pubescent. It grows in the San Francisco Bay area (261Ac), Southern California Coast (261B) and Peninsular Ranges (M262Bb). <br/>
+<br/>
+<i>Genista monspessulana, </i>French broom, has a Cal-IPC rank of High and a CDFA list of C. It has 8-10-ridged stems, leafy branches, and small clusters of yellow flowers. Stands occur throughout cismontane California. Many stands on the Central California Coast (261A) are hybrids with <i>G. canariensis </i>or <i>G. stenopetala </i>(DiTomaso and Healy 2007). <br/>
+<br/>
+<i>Retama monosperma, </i>Bridal broom, has a Cal-IPC rank of Moderate alert. It has white flowers and drooping branches (DiTomaso and Healy 2007). Botanical literature also uses the name <i>Genista monosperma</i>. <br/>
+<br/>
+<i>Spartium junceum, </i>Spanish broom, has a Cal-IPC rank of High and a CDFA list of C. It has round, fine-ridged stems; ephemeral, simple leaves; and large yellow flowers. It is the most drought resistant of the brooms and establishes throughout cismontane California in areas with full sun, limited water, and infertile soils (DiTomaso and Healy 2007). <br/>
+<br/>
+<i>Ulex europaeus, </i>gorse, has a Cal-IPC rank of High and a CDFA list of B. It has stout, thorny branches and yellow flowers. The mature, modified leaves are stiff spines. Stands are mainly in northern parts of cismontane California (DiTomaso and Healy 2007). <br/>
+<br/>
+Other naturalized broom species in California have more localized ranges. <i>Chamaecytisus prolifera </i>is local in the San Francisco Bay area (261Ad, Al). <i>Cytisus multiflorus </i>grows along the Central Coast. <i>Genista canariensis </i>occurs on the Central Coast and in southern California (261B, M262B). <i>G. linifolia </i>exists in Humboldt Co. (263Ae) and southern California. <i>G. maderensis </i>and <i>G. stenopetala </i>are found on the Central Coast (Hickman 1993). <br/>
+<br/>
+Especially <i>Cytisus scoparius, G. monspessulana, </i>and <i>U. europaeus </i>frequently invade disturbed areas and grasslands along the North Coast (Alexander and D’Antonio 2003, D’Antonio et al. 2007, Keeley 2006). Fire promotes broom invasions because a flush of germination results in grassland and forest openings adjacent to broom patches (Odion and Haubensak 2002). However, broom invasions occur in coastal grasslands even without fire (Tyler et al. 2007).<br/>
+<br/>
+<i>Cotoneaster </i>species including <i>C. franchetii, C. lacteus, </i>and <i>C. pannosa </i>have a Cal-IPC rank of Moderate alert. Similar to broom species, they have invaded along the California coast due their wide tolerance of environmental conditions and high reproductive success. The leaves of <i>Cotoneaster </i>can be variable, with shaded leaves reaching a larger size than leaves exposed to full sun. Their white to pink flower clusters produce orange to red fruits, in which each plant can produce thousands of fruits every year (Cal-IPC 2021). <br/>
+<br/>
+<i>Cistus </i>species, or rockrose, are evergreens with profuse and attractive white or pink blooms, including <i>C. incanus </i>and <i>C. ladanifer </i>. These species are cultivated and highly appreciated as ornamentals, originally being brought to Southern California from the Mediterranean in the 1950s. They have a unique resistance to adverse weather conditions and are particularly drought tolerant, allowing them to thrive in California.<br/>
+<br/>
+This alliance has been expanded since 2009 to include other non-native, primarily Mediterranean scrub species including <i>Cistus, Cotoneaster</i>, and <i>Erica </i>spp. as well as <i>Hypericum canariense</i> which can form dense stands. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Cistus spp.</th>
+			
+		
+			
+			<th>Cotoneaster spp.</th>
+			
+		
+			
+			<th>Cytisus scoparius</th>
+			
+		
+			
+			<th>Erica spp.</th>
+			
+		
+			
+			<th>Genista monspessulana</th>
+			
+		
+			
+			<th>Hypericum canariense</th>
+			
+		
+			
+			<th>Spartium junceum</th>
+			
+		
+			
+			<th>Ulex europaeus</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Perennial; shrub</td>
+			
+		
+			
+			<td>Perennial; shrub; evergreen</td>
+			
+		
+			
+			<td>Perennial; shrub</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Perennial; shrub</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Perennial; shrub</td>
+			
+		
+			
+			<td>Perennial; shrub</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Soil stored</td>
+			
+		
+			
+			<td>Soil stored</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Long</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td>Medium to long</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Medium</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Medium</td>
+			
+		
+			
+			<td>Long</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Gravity</td>
+			
+		
+			
+			<td>Animal; gravity</td>
+			
+		
+			
+			<td>Expulsion from capsule; animal; water</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Expulsion from capsule; animal; water</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Wind; gravity; water</td>
+			
+		
+			
+			<td>Gravity; expulsion from capsule</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Heat; scarification</td>
+			
+		
+			
+			<td>Inundation (seasonal rain)</td>
+			
+		
+			
+			<td>Scarification; possibly heat</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Heat; scarification</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Scarification (possibly)</td>
+			
+		
+			
+			<td>Scarification</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Buds on small branches (layering)</td>
+			
+		
+			
+			<td>Underground structures</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Underground structures</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Underground structures</td>
+			
+		
+			
+			<td>Underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+			
+			<td>Fire-hardy</td>
+			
+		
+			
+			<td>Fire-hardy</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>High sprouter; high flammability</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Fire-hardy; high sprouter (in low severity fires)</td>
+			
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>Yes</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>2 to 13 years</td>
+			
+		
+			
+			<td>2-3 to 24 years</td>
+			
+		
+			
+			<td>2-3 to 24 years</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>2-3 to 15 years</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>2-3 to ? Years</td>
+			
+		
+			
+			<td>2-3 to ? Years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>High</td>
+			
+		
+			
+			<td>High</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Medium</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Medium (depends)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Although brooms are usually top-killed with fire, they sprout from stems, and seeds easily germinate with high seedling densities (Zouhar 2005a, 2005b). Mature plants of brooms and gorse form dense patches that pose a fire hazard, and burning scarifies seed for active germination (Bossard 2000a, Hoshovsky 2000b, Nilsen 2000, Zouhar 2005a, 2005b). They change the soil conditions and increase fire frequency and intensity. However, high-severity fires and repeat fires in some seasons may kill and prevent post-fire sprouting of brooms, so fire may be an effective management tool in certain situations (Zouhar 2005b).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Ac, Ah-j). <i>Genista monspessulana </i>forms stands in the East Bay Hills, often adjacent to <i>Eucalyptus </i>plantings or those of <i>Pinus radiata</i>. <i>G. monspessulana </i>invades disturbed areas in maritime chaparral stands from San Mateo Co. on around to the Monterey Bay, where several rare native species grow (Van Dyke et al. 2001). Stands of <i>Ulex europaeus </i>infest open space north of Mount San Bruno State Park, and at least two stands of <i>Hypericum canariense </i>occur as dense patches as well in San Mateo Co.</li>
+        
+            <li><b>Great Valley</b> (262Aa-z). No description available</li>
+        
+            <li><b>Klamath Mountains</b> (M261Aa-c, Af, Ai). Probable stands based on multiple CCH and Calflora records of both <i>Genista monspessulana </i>and  <i>Cytisus scoparius</i>, including records with high numbers of plants or percent cover (Consortium of California Herbaria 2018; Calflora 2021).</li>
+        
+            <li><b>Northern California Coast</b> (263Aa-m). Stands of <i>Genista monspessulana </i>mapped at Point Reyes and Golden Gate National Recreation Area (Keeler-Wolf et al. 2003a) and at Marin Municipal Watershed lands (Evens and Kentner 2006) have had active removal programs for over ten years. Stands of other non-native Mediterranean scrub including <i>Cytisus scoparius, Cistus, </i> and <i>Cotoneaster, </i>spp. also occur in Marin Co. (Buck-Diaz et al. 2021). Associated species include <i>Baccharis pilularis, Ceanothus thyrsiflorus, </i>and <i>Toxicodendron diversilobum. </i>Dense <i>G. monspessulana </i>stands also occur in other areas of Marin Co. (Alexander and D’Antonio 2003), including China Camp State Park (Parker and Haubensak 2002), with a variety of other invasive plants. <i>Ulex europaea </i>and <i>G. monspessulana </i>are common along the coast and often invade coastal grasslands in Sonoma and Mendocino Cos.; <i>Erica lusitanica, G. monspessulana </i>and <i>Cytisus scoparius </i>form dense stands along roadways adjacent to redwood forests in Humboldt Co. (Sawyer et al. 2000b).</li>
+        
+            <li><b>Sierra Nevada</b> (M261Ed, Ef-g). Probable stands based on multiple CCH and Calflora records of both <i>Genista monspessulana </i>and  <i>Cytisus scoparius</i>, including records with high numbers of plants or percent cover (Consortium of California Herbaria 2018; Calflora 2021).</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fb). Stands of <i>G. monspessulana </i>occur along roadsides in the northern foothills.</li>
+        
+            <li><b>Southern California Coast</b> (261Ba-j). Stands of <i>Spartium junceum </i>in the Santa Monica Mountains (Keeler-Wolf and Evens 2006) contain coastal scrub species and emergent <i>Quercus agrifolia </i>trees. <i>Retama monosperma </i>is quickly spreading in San Diego Co.</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Bg, Bn-o). Stands of <i>Spartium junceum, </i>planted in road cuts, are spreading in the San Bernardino Mountains.</li>
+        
+            <li><b>Southern Cascades</b> (M261Dm). Probable stands based on multiple CCH and Calflora records of both <i>Genista monspessulana </i>and  <i>Cytisus scoparius</i>, including records with high numbers of plants or percent cover (Consortium of California Herbaria 2018; Calflora 2021).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> All these shrubs displace natives and make restoration difficult. Methods of removal and control are discussed by various researchers (DiTomaso and Healy 2007, Haubensak and D’Antonio 2006, Hoshovsky 2000b, Nilsen 2000, Zouhar 2005a, 2005b, 2005d). Brooms are nitrogen fixers and enhance soil nitrogen levels (Haubensak et al. 2004). They can alter soil conditions that initially support this non-native shrubland, and invasions may favor other non-natives, including exotic herbs, even when these shrubs are removed or die (Haubensak et al. 2004). Seed banks develop with stand establishment, requiring a long-term commitment for effective eradication (J. Klein pers. Comm. 2005). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Cotoneaster (lacteus, pannosus) [3]</li>
+                
+                    <li>Cytisus scoparius [3]</li>
+                
+                    <li>Genista monspessulana [1], [3], [4]</li>
+                
+                    <li>Hypericum canariense [4]</li>
+                
+                    <li>Spartium junceum [2]</li>
+                
+                    <li>Ulex europaeus [3], [4]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Evens, J.M.;Kentner, E. 2006</li>
+		
+		<li>[2] Keeler-Wolf, T.;Evens, J. 2006</li>
+		
+		<li>[3] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>[4] Sikes, K.;Buck-Diaz, J.;Evens, J. 2021</li>
+		
+		<li>Alexander, J.M.;D'Antonio, C.M. 2003</li>
+		
+		<li>Alvarez, M.C. 2000</li>
+		
+		<li>Bastida, F.;Talavera, S. 2002</li>
+		
+		<li>Bossard, C.C. 2000a</li>
+		
+		<li>Cal-IPC, 2002+</li>
+		
+		<li>D'Antonio, C.M.;Malmstrom, C.;Reynolds, S.A.;Gerlach, J. 2007</li>
+		
+		<li>Dias, L.S.;Pereira, I.P.;Dias, A.S. 2019</li>
+		
+		<li>DiTomaso, J.M.;Healy, E.A. 2007</li>
+		
+		<li>Flora of North America Editorial Committee, 1993+</li>
+		
+		<li>Haubensak, K.;D’Antonio, C.M. 2006</li>
+		
+		<li>Haubensak, K.;D'Antonio, C.M.;Alexander, J. 2004</li>
+		
+		<li>Hickman, J.C. 1993</li>
+		
+		<li>Hoshovsky, M.C. 2000b</li>
+		
+		<li>Jepson Flora Project, 2004-present</li>
+		
+		<li>Keeler-Wolf, T .;Schirokauer, D.;Meinke, J.;van derLeeden, P. 2003a</li>
+		
+		<li>Keeley, J.E. 2006</li>
+		
+		<li>Müller, M.;Siles, L.;Cela, J.;Munné-Bosch, S. 2014</li>
+		
+		<li>Nilsen, E. 2000</li>
+		
+		<li>Odion, D.C.;Haubensak, K.A. 2002</li>
+		
+		<li>Parker, I.M.;Haubensak, K.A. 2002</li>
+		
+		<li>Sawyer, J.O.;Sillett, S.C.;Libby, W.J.;Dawson, T.E.;Popenoe, J.H.;Largent, D.L.;Van Pelt, R.;Veires, S.D.;Noss, R.F.;Thornburgh, D.A.;Del Tredici, P. 2000b</li>
+		
+		<li>Scuderi, D.;Di Gregorio, R.;Toscano, S.;Cassaniti, C.;Romano, D. 2010</li>
+		
+		<li>Thieret, J.W.;McClintock, E. 2012</li>
+		
+		<li>Tyler, C.M;Odion, D.C.;Callaway, R.M. 2007</li>
+		
+		<li>Van Dyke, E.;Holl, K.D.;Griffin, J.R. 2001</li>
+		
+		<li>Zouhar, K. 2005a</li>
+		
+		<li>Zouhar, K. 2005b</li>
+		
+		<li>Zouhar, K. 2005c</li>
+		
+		<li>Zouhar, K. 2005d</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/156/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

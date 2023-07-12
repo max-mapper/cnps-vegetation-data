@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Eriogonum wrightii - Eriogonum heermannii - Buddleja utahensis</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Eriogonum</i> <i>wrightii</i> - <i>Eriogonum</i> <i>heermannii</i> - <i>Buddleja</i> <i>utahensis</i></span> Shrubland Alliance <br/>
+        <span class="subtitle">Wright&#39;s buckwheat - Heermann&#39;s buckwheat - Utah butterfly-bush scrub</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>500-2500 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G3
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: AZ, CA, NM, NV, TX, UT. Mexico (TJM2) (USDA Plants)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2016/11/21
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/eriogonum-wrightii_cnymtns_09-09_01.jpg', '/static/images/photos/shrub/eriogonum-wrightii_cnymtns_09-09_02.jpg', '/static/images/photos/shrub/eriogonum-wrightii_cnymtns_09-09_03.jpg', '/static/images/photos/shrub/eriogonum-wrightii_joaquinridge_01.jpg', '/static/images/photos/shrub/eriogonum-wrightii_joaquinridge_02.jpg', '/static/images/photos/shrub/eriogonum-wrightii_uticareservoir_2002_01.jpg', '/static/images/photos/shrub/eriogonum-heermannii_deva9468-s_04-11.jpg', '/static/images/photos/shrub/eriogonum-heermannii_deva9468-n_04-11.jpg', '/static/images/photos/shrub/eriogonum-wrightii_e-herrmannii_buddleja-utahensis_calienterange_04-2010_01.jpg', '/static/images/photos/shrub/eriogonum-wrightii_e-herrmannii_buddleja-utahensis_calienterange_04-2010_02.jpg', '/static/images/photos/shrub/eriogonum-wrightii_e-herrmannii_buddleja-utahensis_nopahrange_2012.jpg', '/static/images/photos/shrub/eriogonum-wrightii_e-herrmannii_buddleja-utahensis_wtehama_2012_01.jpg', '/static/images/photos/shrub/eriogonum-wrightii_e-herrmannii_buddleja-utahensis_wtehama_2012_02.jpg', '/static/images/photos/shrub/eriogonum-wrightii_e-herrmannii_buddleja-utahensis_rand_wmojave_%202012_01.jpg', '/static/images/photos/shrub/eriogonum-wrightii_e-herrmannii_buddleja-utahensis_rand_wmojave_%202012_02.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Buddleja</i> <i>utahensis</i>, <i>Eriogonum</i> <i>heermannii</i> and/or <i>Eriogonum</i> <i>wrightii</i> is/are dominant, co-dominant, or characteristically present in the shrub canopy with <i>Arctostaphylos</i> <i>glauca</i>, <i>Artemisia</i> <i>tridentata</i>, <i>Corethrogyne</i> <i>filaginifolia</i>, <i>Dedeckera</i> <i>eurekensis</i>, <i>Ericameria</i> <i>nauseosa</i>, <i>Ericameria</i> <i>teretifolia</i>, <i>Eriogonum</i> <i>fasciculatum</i>, <i>Eriogonum</i> <i>prattenianum</i>, <i>Eriophyllum</i> <i>confertiflorum</i>, <i>Grayia</i> <i>spinosa</i>, <i>Gutierrezia</i> spp., <i>Hecastocleis</i> <i>shockleyi</i>, <i>Hesperoyucca</i> <i>whipplei</i>, <i>Lupinus</i> <i>albifrons</i> and <i>Rhus</i> <i>trilobata</i>. Emergent trees may be present at low cover, including <i>Juniperus</i> <i>californica</i>, <i>Juniperus</i> <i>osteosperma</i>, <i>Pinus</i> <i>sabiniana</i>, <i>Quercus</i> ×<i>alvordiana</i> and <i>Quercus</i> <i>douglasii</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 1 m; canopy is open to intermittent. Herbaceous layer is open to intermittent. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Eriogonum wrightii, Eriogonum heermannii, </i>and/or <i>Buddleja utahensis </i>dominant, co-dominant, or characteristically present in the shrub layer with other plants such as <i>Dedeckera eurekensis, Eriogonum fasciculatum, Scopulophila rixfordii, </i>and <i>Gutierrezia </i>spp. (Evens et al. 2014).</li>
+		
+		<li><i>Eriogonum wrightii</i> > 50% relative cover in the shrub canopy; herbaceous cover may be as high or higher than the shrub cover (Buck-Diaz et al. 2012, Evens and San 2005, Klein and Evens 2005).</li>
+		
+		<li><i>Eriogonum heermannii</i> > 50% relative cover in the shrub canopy (Evens et al. 2006).</li>
+		
+		<li><i>Eriogonum wrightii</i> > 50% relative cover in the shrub canopy, or it is > 30% relative cover with other sub-shrubs (Evens et al. 2006).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Flats, ridgetops, and stony slopes that are typically nutrient poor and derived from granitic, volcanic, sedimentary, or serpentine substrates. Soils are loams or clays.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>California juniper series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>California juniper (shrub), California buckwheat
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Mojave mixed woody scrub, Upper Sonoran subshrub scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Coastal sage scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Coastal scrub, Desert scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>32.046.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Xeromorphic Scrub and Herb Vegetation (Semi-Desert)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Warm Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Warm Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Sonoran and Chihuahuan Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Mojavean-Sonoran Desert Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Mojavean upper desert scrub
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Eriogonum wrightii </i>is an intricate branched low shrub with gray leaves. Small clusters of white to pink flowers develop along inflorescence stalks. The species is morphologically variable and widespread in much of California and the Southwest. The species includes six varieties that vary from small, matted perennials to small shrubs; all occupy open habitats: var. <i>membranaceum </i>grows in southern California from 300 to 2200 m; var. <i>nodosum </i>grows in hot deserts and Peninsular Ranges from 150 to 1600 m; var. <i>olanchense </i>(a CNPS list 1B.3 plant) grows in Olancha Peak in the southern Sierra Nevada at 3500 m; var. <i>subscaposum </i>grows in the mountains of much of California from 200 to 3400 m; var. <i>trachygonum </i>grows in the mountains of northern California from 50 to 800 m; and var. <i>wrightii </i>grows in the Mojave Desert from 30 to 2300 m. <br/>
+<br/>
+<i>Eriogonum heermannii </i>is an intricate branched shrub with small clusters of white to rose flowers. The species is morphologically variable and widespread in the Sierra Nevada, Mojave Desert, Great Basin, and the mountain ranges of central and southern California. Six of the 10 varieties of <i>E. heermannii </i>grow in California; var. <i>occidentale </i>(a CNPS list 4.2 plant) has scattered populations in Fresno,  San Benito, and San Luis Obispo Cos. in the Central Coast Ranges often on serpentine gravels. Var. <i>heermannii </i>also occurs in the Central Coast but is also more widespread in southern California. Var. <i>argense, floccosum, </i> and  <i>sulcatum </i>grow in Great Basin and Mojave Desert mountains from 800 to 2800 m, while var. <i>humilius </i>occurs in the eastern Sierra Nevada and northern desert mountains from 1000 to 2800 m. Many of these varieties occur on calcareous substrates, but, overall, the species occupies many open substrates. <br/>
+<br/>
+<i>Buddleja utahensis </i>is an intricate branched shrub with gray-green, linear leaves and small clusters of cream-white flowers. The species occurs sporadically, though widespread in the Mojave Desert from southeastern California, southern Nevada, northwestern Arizona, and southwestern Utah. It is found primarily on calcareous rock outcrops.  Other sub-shrubs may also be characteristic and co-dominant in stands of this alliance, including <i>Hecastocleis shockleyi, Mortonia utahensis, </i>and <i>Dedeckera eurekensis</i>.<br/>
+<br/>
+<i>Eriogonum wrightii </i> and <i>Eriogonum heermannii </i>were treated in separate alliances in the 2009 book, <i>A Manual of California Vegetation, second edition</i>, and have since been combined in this alliance with <i>Buddleja utahensis</i>; stands are typically on gravelly and/or rocky, nutrient-poor substrates (Evens et al. 2014, NatureServe 2016). The sampled stands of <i>E. wrightii </i>var. <i>subscaposum </i>in the inner Coast Ranges are relatively small (usually < 1 ha) and have a similar range as the <i>Juniperus californica </i>alliance. The studies in southern California did not typically distinguish plants to the variety level. Future sampling should identify plants completely. Varieties overlap in elevation and range, but they may vary in habitat conditions. We include all varieties in this alliance at this time. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Buddleja utahensis</th>
+			
+		
+			
+			<th>Eriogonum heermannii</th>
+			
+		
+			
+			<th>Eriogonum wrightii</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Shrub</td>
+			
+		
+			
+			<td>Subshrub, shrub</td>
+			
+		
+			
+			<td>Shrub, herb</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Medium</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Animal; wind</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Fire-sensitive; thin epidermis; no/low sprouter; canopy architecture susceptible</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>?3-50? years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>High</td>
+			
+		
+			
+			<td>High</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">The fire history is unclear and varies between open, rocky desert stands, to denser stands with higher cover of grasses and herbs. Stands on shallow and rocky soil are expected to have lower fire intensity and frequency compared to stands with flashy fuels including annual non-native grasses.  Such conditions appear to exist more in the Inner Coast Ranges and the eastern slopes of the Sierra than elsewhere through the range of the alliance. These stands may be experiencing higher fire frequencies now than prior to the introduction of these grasses. It is unlikely that short fire return intervals are adaptive for this alliance.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Unknown
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Late summer-fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Small
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Low
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Low
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Surface
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Southern California
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+            <p>Current understanding of the California distribution of the alliance suggests <i>Eriogonum wrightii</i> is the most widespread and constant indicator of the alliance, while <i>E. heermannii</i> is less widely distributed. <i>Buddleja</i> is the most geographically limited of the alliance indicators, restricted to the calcareous mountains of the Eastern Mojave Desert.</p>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast Ranges</b> (M262Ac, Af, Aj). Stands of <i>Eriogonum wrightii</i> have been found in the San Benito Mountain area of the Diablo Range (Evens et al. 2006) occur on and off serpentine substrates on convex ridges adjacent to stands of <i>Quercus john-tuckeri</i> on north-facing aspects and annual grasslands or adjacent to open <i>Juniperus californica</i> woodlands on south-facing aspects. <i>Monardella antonina</i> ssp. <i>benitensis</i> and <i>Calystegia collina</i> ssp. <i>venusta</i> (CNPS list 4 plants) grow in the Clear Creek area (Evens et al. 2006). Stands are found on volcanic outcrops at Pinnacles National Monument (NatureServe 2007b). Stands of <i>Eriogonum heermannii</i> have been sampled at Clear Creek watershed on sandy serpentine-derived alluvium in the San Benito area of the Diablo Range (Evens et al. 2006) and have been observed elsewhere in the Central Coast Ranges.</li>
+        
+            <li><b>Mojave Desert</b> (322Aa-p). The <i>Eriogonum wrightii</i> association is known from the mountains of the eastern subsections, and stands of <i>Eriogonum heermannii</i> were found in the central and eastern Mojave Desert. In the Rand Mountains of the western Mojave stands locally dominate steep canyon slopes and occur with other desert shrubs such as <i>Grayia spinosa</i> near the summits.</li>
+        
+            <li><b>Mono</b> (341Dj). Stands of <i>Eriogonum wrightii</i> occur in the White Mountains.</li>
+        
+            <li><b>Northern California Interior Coast Ranges</b> (M261Ca-b). Stands of <i>Eriogonum wrightii</i> var. <i>trachygonum</i> in the Walker Ridge-Bear Valley area (Alexander et al. 2007) are on serpentine alluvium. Off serpentine, they associate with low-elevation stands of <i>Juniperus californica</i> near Stony Gorge Reservoir in Glenn Co., and on sparsely vegetated steep shale slopes as near Paskenta, western Tehama Co. Others in western Shasta Co. are in association with annual grasslands (Buck-Diaz et al. 2012).</li>
+        
+            <li><b>Sierra Nevada</b> (M261Eg, Em, Eo-s). We know of stands of <i>Eriogonum wrightii</i> ssp. <i>subscaposum</i> at mid-elevations that occupy skeletal soils or crevices of granitic bedrock. Related stands of <i>Eriogonum prattenianum </i>occur in similar habitats and are likely part of this alliance.</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fd-e). Stands of <i>Eriogonum wrightii</i> occur in the southern foothills near Lake Isabella; stands are likely elsewhere.</li>
+        
+            <li><b>Southeastern Great Basin</b> (341Fb-d, Ff). Stands of <i>Eriogonum wrightii</i> occur in the Inyo and Panamint mountains. In the southeastern Great Basin stands of <i>Eriogonum heermannii</i> occur on limestone associated with <i>Atriplex confertifolia, Ephedra nevadensis</i> and <i>Lycium andersonii</i>.</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Bb, Bd-e, Bg-i, Bk-m, Bo-p). Stands of <i>Eriogonum wrightii</i> exist in western Riverside Co. (Klein and Evens 2005) and in central San Diego Co. (Evens and San 2005). Stands in San Diego Co. commonly associate with those of the <i>Aristida purpurea</i> and <i>Gutierrezia sarothrae</i> alliances (Moran 2004a, b). Some stands in the upper elevations of Anza-Borrego Desert State Park occupy small valley margins and associate with stands of the <i>Eriogonum fasciculatum</i> and <i>Artemisia tridentata</i> alliances (Keeler-Wolf et al. 1998b). Pebble plains sites in the San Bernardino Mountains dominated by <i>Eriogonum wrightii</i> ssp. <i>subscaposum</i> often have <i>E. kennedyi</i> var. <i>austromontanum</i> (a CNPS list 1B.2 plant; S. White, pers. comm. 2007).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> We are lacking information about the ecology of the species of the alliance. The alliance appears to occur in harsher sites than the surrounding vegetation and may be somewhat naturally resistant to invasion by non-native species. However, many stands in southern California and inner Central Coast have invasive grasses, and increases in fire frequencies may have a negative effect overall on this and related vegetation. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>(Buddleja utahensis - Eriogonum heermannii) - Gutierrezia spp. limestone [4], [7]</li>
+                
+                    <li>Eriogonum heermannii [4]</li>
+                
+                    <li>Eriogonum wrightii - Corethrogyne filaginifolia [2], [3]</li>
+                
+                    <li>Eriogonum wrightii - Eriophyllum confertiflorum / Monardella antonina ssp. benitensis [1]</li>
+                
+                    <li>Eriogonum wrightii - Juniperus californica [1]</li>
+                
+                    <li>Eriogonum wrightii (ssp. subscaposum, ssp. wrightii) [4], [6], [7]</li>
+                
+                    <li>Hecastocleis shockleyi [4], [5]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Evens, J.M.;Klein, A.;Taylor, J.;Hickson, D.;Keeler-Wolf, T. 2006</li>
+		
+		<li>[2] Evens, J.;San, S. 2005</li>
+		
+		<li>[3] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>[4] Evens, J.M.;Sikes, K.;Hastings, D.;Ratchford,J.S. 2014</li>
+		
+		<li>[5] Thomas, K.;Franklin, J.;Keeler-Wolf, T.;Stine, P. 2004</li>
+		
+		<li>[6] Reyes, E.;Evens, J.;Glass, A.;Sikes, K.;Keeler-Wolf., T.;Winitsky, S.;Johnson, D.;Menke, J.;Hepburn, A. 2020a</li>
+		
+		<li>[7] Reyes, E.;Evens, J.;Fulton, J.;Sikes, K.; Johnson, D.;Keeler-Wolf, T.;Vu, S.;LaFever-Jackson, A. 2023 (in progress)</li>
+		
+		<li>Buck-Diaz, J.;Harbert, B.;Evens, J. 2011</li>
+		
+		<li>Buck-Diaz, J.;Ratchford, J.;Evens, J. 2013</li>
+		
+		<li>Keeler-Wolf, T.;Roye, C.;Lewis, K. 1998b</li>
+		
+		<li>Klein, A.;Evens, J. 2005</li>
+		
+		<li>Menke, J.;Reyes, E.;Hepburn, A.;Johnson, D.;Reyes, J. 2013</li>
+		
+		<li>Moran, V. 2004a</li>
+		
+		<li>Moran, V. 2004b</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program), 2015a</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program);AIS, 2013</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/528/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Eriogonum spp. / Poa secunda</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Eriogonum</i> spp. / <i>Poa</i> <i>secunda</i></span> Dwarf Shrubland Alliance <br/>
+        <span class="subtitle">Buckwheat / pine bluegrass dwarf-shrubland</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>1300-2050 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>GNR
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA, ID, OR, WA, WY (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2019/10/02
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/eriogonum-spp_poa-secunda_mola_06_2016_01.jpg', '/static/images/photos/shrub/eriogonum-spp_poa-secunda_mola_06_2016_02.jpg', '/static/images/photos/shrub/eriogonum-spp_poa-secunda_mola_06_2016_03.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Eriogonum</i> <i>douglasii</i>, <i>Eriogonum</i> <i>prociduum</i>, <i>Eriogonum</i> <i>sphaerocephalum</i>, <i>Eriogonum</i> <i>strictum</i>, <i>Eriogonum</i> <i>umbellatum</i> and/or <i>Poa</i> <i>secunda</i> are characteristic of the alliance with <i>Artemisia</i> <i>arbuscula</i>, <i>Artemisia</i> <i>tridentata</i> and/or <i>Purshia</i> <i>tridentata</i>. Associated herbs include <i>Blepharipappus</i> <i>scaber</i>, <i>Bromus</i> <i>tectorum</i>, <i>Elymus</i> <i>elymoides</i>, <i>Epilobium</i> <i>brachycarpum</i> and <i>Eriogonum</i> <i>vimineum</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 0.5 m; canopy is open. Herbaceous layer is sparse to intermittent and/or grassy. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li>Dwarf-shrub <i>Eriogonum</i> spp. (<i>E. sphaerocephalum</i>, <i>E. prociduum</i>, <i>E. umbellatum</i>) are characteristically present even as low as < 1% cover and usually no other shrubs are present with greater cover (Boul et al. 2021b).</li>
+		
+		<li>One or more <i>Eriogonum</i> dwarf-shrub species 2-40% cover with 10-60% herbaceous cover dominated by <i>Poa secunda</i> (NatureServe 2019).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> All slopes and exposures, but most common on southern slopes and flat to undulating ridgetops and plateaus. Soils are shallow with a high percentage of rock fragments and exposed rock. The USFWS Wetland Inventory (2012 national list) recognizes <i>Poa secunda</i> as a FACU plant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>One-sided bluegrass series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>None
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Perennial grasses and forbs
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Great Basin grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Sagebrush scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Perennial grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>32.037.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Xeromorphic Scrub and Herb Vegetation (Semi-Desert)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Cool Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Cool Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North American Cool Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Western North America Dwarf Sage Shrubland and Steppe
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Intermountain low sage shrubland and steppe
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> In California, this alliance is characterized by the presence of one or more <i>Eriogonum</i> dwarf-shrub species including <i>E. douglasii, E. prociduum, E. sphaerocephalum, E. strictum, </i>and/or <i>E. umbellatum</i>. <br/>
+<br/>
+<i>Eriogonum douglasii</i> is a perennial mat-forming herb or subshrub usually under 60 cm tall. Leaves are densely tomentose. Inflorescenses are head-like with yellow to rose-red flowers (Jepson Flora Project 2020). <br/>
+<br/>
+<i>Eriogonum prociduum</i> is a small (under 10 cm) mat-forming perennial. Leaves are silvery, tomentose and ovate to narrowly lanceolate. The erect inflorescence stalks bear rounded clusters of bright yellow flowers (Jepson Flora Project 2020). <i>E. prociduum</i> grows from the Modoc Plateau to northwestern Nevada and southern Oregon in clay and exposed volcanic soils. It has a CNPS rare plant rank of 1B.2. <br/>
+<br/>
+<i>Eriogonum sphaerocephalum</i> is a small shrub or subshrub (approximately 50 cm tall and wide). Tomentose leaves grow in basal rosettes around a woody caudex. Flowers are borne in head-like clusters or umbels on bracted stalks. Two varieties are recognized based on flower size and color: var. <i>halimioides</i> has pale yellow to cream flowers while var. <i>sphaerocephalum</i> has bright yellow flowers. Both varieties are found in the Modoc Plateau and typically grow in sand or gravel (Jepson Flora Project 2020). <br/>
+<br/>
+<i>Eriogonum strictum</i> is a perennial or subshrub. Leaves are generally tomentose. Inflorescence is umbel-like and flowers can be white or yellow to rose or purple (Jepson Flora Project 2020). <br/>
+<br/>
+<i>Eriogonum umbellatum</i> is a perennial herb to subshrub. There are 25 variaties recognized in California and the varieties vary greatly by ecological settings and physical characteristics. The varieties found within this alliance are low growing subshrubs typically under 50 cm. Leaves can be tomentose or glabrous and infloresences are umbel-like. Flowers are white, yellow, or red (Jepson Flora Project 2020).<br/>
+<br/>
+<i>Poa secunda </i>is a native, cool-season, perennial bunchgrass that is shallowly rooted. It regenerates by tillers, by seed, and by facultatively apomictic seed. It is not shade tolerant. It produces little litter, and its small size along with its sparse litter reduces the amount of heat transferred to perennating buds in the soil (Howard 1997c). The species occurs throughout California, but the habitats of the two subspecies differ; ssp. <i>juncifolia </i> is associated with mesic flood plains and internally drained basins and is not covered by this alliance, whereas ssp. <i>secunda </i> grows on ridges, plateaus, and benches on steep canyon slopes (Soreng 2007). <br/>
+<br/>
+This alliance occurs on flats or exposed hilltops with significant volcanic cobble and/or gravel covering the soil surface. These xeric sites have shallow rocky soils with limited water-holding capacity. Winter precipitation wets the soil, but they typically dry out completely by mid-summer (Daubenmire 1970). <br/>
+<br/>
+The above species are characteristic of this alliance in California with <i>Eriogonum</i> spp. having as low as < 1% cover and usually no other shrubs are present with greater cover. Total vegetation cover is usually < 10% and often < 5% (VegCAMP 2020). The herbaceous layer is typically dominated by perennial bunchgrasses, with sparse to moderate cover of perennial forbs. Annual forbs and grasses may be seasonally abundant. Moss and lichen cover in undisturbed stands is often high (NatureServe 2019). <br/>
+<br/>
+This alliance is related to the <i>Artemisia arbuscula - Eriogonum (microthecum, sphaerocephalum)</i> Association (of the <i>Artemisia arbuscula</i> alliance), but occurs on harsher sites where an evenly-distributed shrub layer dominated by <i>Artemisia arbuscula</i> is unlikely (VegCAMP 2020). </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Eriogonum douglasii</th>
+			
+		
+			
+			<th>Eriogonum prociduum</th>
+			
+		
+			
+			<th>Eriogonum sphaerocephalum</th>
+			
+		
+			
+			<th>Eriogonum strictum</th>
+			
+		
+			
+			<th>Eriogonum umbellatum</th>
+			
+		
+			
+			<th>Poa secunda</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Perennial herb; shrub</td>
+			
+		
+			
+			<td>Perennial herb</td>
+			
+		
+			
+			<td>Perennial herb; shrub; subshrub</td>
+			
+		
+			
+			<td>Subshrub, Forb/herb</td>
+			
+		
+			
+			<td>Perennial herb, shrub</td>
+			
+		
+			
+			<td>Polycarpic perennial; herb</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Soil stored</td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Moderate</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Gravity</td>
+			
+		
+			
+			<td>Animal; gravity; wind</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Stratification-Winter</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Buds on large branches or trunks (basal buds, tillers)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Fire-sensitive</td>
+			
+		
+			
+			<td>Fire-sensitive; no/low  sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Life of plant</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Low to high</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>High</td>
+			
+		
+			
+			<td>By subspecies</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text"></div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+            <p>The highest concentration of stands in this alliance occurs on lower slopes and foothills in the Modoc Plateau (Geographical Information Center, in progress). Smaller stands are scattered throughout northeastern California, and the probability of stands occurring in areas where they have not been observed is supported by records from Calflora and CCH.</p>
+        
+
+        <ul class="text">
+        
+            <li><b>Modoc Plateau</b> (M261Gb-p). Many stands have been sampled throughout this section, and large stands have been mapped in the hills east of California Pines, near Ash Valley, and near Whitefinger Mountain.</li>
+        
+            <li><b>Mono</b> (341Db, Dk). Stands occur around the edges of Slinkard Valley (Boul et al. 2021a).</li>
+        
+            <li><b>Northwestern Basin and Range</b> (342Ba-e). Stands occur on the middle to lower slopes of Shaffer Mountain, Five Springs Mountain, and Snowstorm Mountain.</li>
+        
+            <li><b>Sierra Nevada</b> (M261Ea-d, Ei-j, En). Stands have been sampled between the Diamond Mountains and Red Clover Valley as well as near Martis Creek Lake.</li>
+        
+            <li><b>Southern Cascades</b> (M261Dh, Dj). Stands are expected to occur in this section based on CCH and Calflora records.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Stands of <i>Eriogonum prociduum</i> are possibly threatened by trampling, grazing and non-native plant invasion (CNPS 2020). 
+
+Stands of this alliance are generally considered to be late-seral with species composition controlled by the harsh edaphic conditions of the site. Disturbances such as grazing and trampling by livestock cause  increased erosion and bare ground with a decrease in moss cover (Daubenmire 1970). Frost heaving causes local soil disturbance when the thin, saturated soils freeze and push plants out of the ground in winter. 
+
+Non-native plants have invaded many stands, especially stands that have already been disturbed. Common non-natives include annual grasses such as <i>Bromus arvensis</i> and <i>B. tectorum</i> and forbs such as <i>Erodium cicutarium, Lactuca serriola,</i> and <i>Tragopogon dubius</i>. Fire is not considered a common disturbance in these stands because it is unlikely that the sparse vegetation will carry fire (NatureServe 2019). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Eriogonum douglasii / Poa secunda [2]</li>
+                
+                    <li>Eriogonum sphaerocephalum / Poa secunda [1]</li>
+                
+                    <li>Eriogonum strictum / Poa secunda [2]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Boul, R.;Keeler-Wolf, T.;Ratchford, J.;Haynes, T.;Hickson, D.;Yacoub, R.;Harbert, B.;Evens, J. 2021b</li>
+		
+		<li>[2] Ratchford, J.;Boul, R.;Keeler-Wolf ,T.;Evens, J. 2022b (in progress)</li>
+		
+		<li>CNPS (California Native Plant Society), 2007+</li>
+		
+		<li>Daubenmire, R. 1970</li>
+		
+		<li>Howard, J.L. 1997c</li>
+		
+		<li>Jepson Flora Project, 2004-present</li>
+		
+		<li>Love, B.;Cane, J. 2018</li>
+		
+		<li>NatureServe, 2014+</li>
+		
+		<li>Soreng, R.J. 2007</li>
+		
+		<li>UCB (University of California Berkeley), 2004-present</li>
+		
+		<li>Young-Mathews, A. 2012</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/574/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

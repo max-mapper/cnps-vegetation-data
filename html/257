@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Quercus john-tuckeri</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Quercus</i> <i>john</i>-<i>tuckeri</i></span> Shrubland Alliance <br/>
+        <span class="subtitle">Tucker oak chaparral</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>300-1500 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S4
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G4
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>Yes
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>Yes
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2009/09/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/quercus-john-tuckeri_blmpotrerocynrd_03.jpg', '/static/images/photos/shrub/quercus-john-tuckeri_blmpotrerocynrd_03-10_01.jpg', '/static/images/photos/shrub/quercus-john-tuckeri_blmpotrerocynrd_03-10_02.jpg', '/static/images/photos/shrub/quercus-john-tuckeri_blmpotrerocynrd_03-10_04.jpg', '/static/images/photos/shrub/quercus-john-tuckeri_blmpotrerocynrd_03-10_05.jpg', '/static/images/photos/shrub/quercus-john-tuckeri_chimineas_03-09_01.jpg', '/static/images/photos/shrub/quercus-john-tuckeri_chimineas_03-09_02.jpg', '/static/images/photos/shrub/quercus-john-tuckeri_chimineas_03-09_03.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Quercus</i> <i>john</i>-<i>tuckeri</i> is dominant or co-dominant in the shrub canopy with <i>Adenostoma</i> <i>fasciculatum</i>, <i>Arctostaphylos</i> <i>glauca</i>, <i>Ceanothus</i> <i>cuneatus</i>, <i>Cercocarpus</i> <i>montanus</i>, <i>Ericameria</i> <i>linearifolia</i>, <i>Ericameria</i> <i>nauseosa</i>, <i>Eriogonum</i> <i>fasciculatum</i>, <i>Fraxinus</i> <i>dipetala</i>, <i>Garrya</i> <i>flavescens</i>, <i>Juniperus</i> <i>californica</i>, <i>Quercus</i> <i>wislizeni</i> and <i>Symphoricarpos</i> <i>mollis</i>. Emergent trees may be present at low cover, including <i>Pinus</i> <i>monophylla</i>, <i>Pinus</i> <i>sabiniana</i>, <i>Quercus</i> <i>chrysolepis</i> or <i>Quercus</i> <i>douglasii</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 6 m; canopy is open to continuous. Herbaceous layer is intermittent to sparse. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Quercus john-tuckeri</i> > 50% relative cover in the shrub canopy (Borchert et al. 2004, Evens et al. 2006).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Upper slopes and ridge tops. Soils are well to extensively drained over bedrock or colluvium.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Cupleaf ceanothus-fremontia-oak series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Quercus john-tuckeri shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Scrub oak, Muller-Tucker scrub oak
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Northern north slope chaparral, Southern north slope chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Mixed chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>37.418.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate and Boreal Shrubland and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate Grassland, Meadow, and Shrubland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North America Interior Sclerophyllous Shrubland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Warm Interior Chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Western Mojave and Western Sonoran Desert borderland chaparral
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Quercus john-tuckeri </i>is a slow-growing, evergreen shrub that grows to 6 m in height. Leaves are dull gray green with stellate hairs on the upper and especially on the lower leaf surfaces. Shrubs produce large acorn crops at irregular intervals. Seeds germinate without stratification. California ground squirrels and scrub jays cache the acorns, which livestock and wildlife also eat. Plants sprout from swollen root crowns and root suckers after damage to their trunks. Other trees and shrubs act as nurse plants, moderating environmental conditions and offering seedlings and saplings protection. Shrubs are shade tolerant (Nixon and Muller 1997). <br/>
+<br/>
+Careful oak identification is necessary in correctly assigning stands to this alliance. See the <i>Q. berberidifolia </i>alliance for general taxonomic considerations of scrub oaks. <i>Q. john-tuckeri </i>hybridizes regularly with <i>Q. berberidifolia </i>and with <i>Q douglasii</i>. The <i>Q. douglasii </i>hybrid, <I>Q. </i>x<i>alvordiana, </i>provides the basis for the name “Alvord oak woodland” (Holland 1986), describing short-stature tree-dominated stands in the inner south Coast Ranges that exhibit leaf characteristics of both parent species (see the <i>Quercus douglasii </i>alliance). Borchert et al. (2004) considers <i>Quercus john-tuckeri </i>alliance in the Los Padres National Forest to be the upper elevation, inland equivalent of the more coastal <i>Quercus berberidifolia </i>alliance. Evens et al. (2006) observed this relationship in the Diablo Range. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Quercus john-tuckeri</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Shrub; evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Transient</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; gravity </td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy;  high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>20-100+ years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Episodic </td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Fire information for this alliance is scant. <i>Quercus john-tuckeri </i>likely responds to fire similarly to <i>Q. berberidifolia </i>(Borchert et al. 2004). However, <i>Q. john-tuckeri </i>occurs in more inland areas of lower rainfall and sparser vegetation, and it probably has less frequent fire and slower recovery rates than typical cismontane chaparral types.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Medium (30 to 100+ years)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Summer-early fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Medium to large—up to and beyond stand
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low to moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Multiple (low or high)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Multiple (low or very high)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Multiple (surface or active-independent crown fire)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Southwestern California
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast Ranges</b> (M262Ac-e, Ag-k). Stands occupy upper slopes and ridge tops of the Sierra Madre Mountains overlooking the Cuyama Valley (Borchert et al. 2004) and in the Diablo Range in Fresno Co. (Evens et al. 2006). Stands inhabit more mesic settings adjacent <i>Quercus douglasii, Eriogonum fasciculatum, Juniperus californica,</i> or <i>Ericameria nauseosa</i> alliances, and slightly less mesic settings than those of the <i>Cercocarpus montanus, Quercus chrysolepis,</i> or <i>Q. wislizeni alliances.</i> Twisselmann (1956, 1967) discussed extensive scrub oak woodlands in the southern subsections.</li>
+        
+            <li><b>Great Valley</b> (262Az). Stands occur along the Eastern and Southern edges of Elk Hills and Southern Valley Terraces.</li>
+        
+            <li><b>Mojave Desert</b> (322Ag). Stands occur on the western edge of the Mojave Desert along the foothills of the San Gabriel and San Emigdio Mountains.</li>
+        
+            <li><b>Sierra Nevada</b> (M261Er-s). Stands occur on the eastern slopes of the Tehachapi Mountains (Holland 1986).</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fe). Stands are present in the San Emigdio Mountains.</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Ba-d). Stands exist in the Transverse Ranges in the western and northeastern San Gabriel Mountains (Gordon and White 1994). The species is reported as far south as San Diego Co. (Hickman 1993), however, most stands with scrub oaks on the desert margin of the Peninsular Ranges are dominated by <i>Q. cornelius-mulleri.</i></li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> The interior, rain-shadow setting of many <i>Quercus john-tuckeri </i>stands brings a high proportion of non-native annual grasses in good rainfall years, which may carry fire into the shrub canopy. A risk of increased fire frequency and stand reduction through type conversion is a likely possibility throughout the range of this alliance. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Quercus john-tuckeri [1], [3], [4], [5]</li>
+                
+                    <li>Quercus john-tuckeri - Adenostoma fasciculatum [2]</li>
+                
+                    <li>Quercus john-tuckeri - Juniperus californica - Ericameria linearifolia [2], [4], [5]</li>
+                
+                    <li>Quercus john-tuckeri - Juniperus californica - Fraxinus dipetala [2]</li>
+                
+                    <li>Quercus john-tuckeri - Quercus wislizeni - Garrya flavescens [2]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Borchert, M.;Lopez, A.;Bauer, C.;Knowd, T. 2004</li>
+		
+		<li>[2] Evens, J.M.;Klein, A.;Taylor, J.;Hickson, D.;Keeler-Wolf, T. 2006</li>
+		
+		<li>[3] Gordon, H.J.;White, T.C. 1994</li>
+		
+		<li>[4] Buck-Diaz, J.;Evens, J. 2011b</li>
+		
+		<li>[5] Reyes, E.;Evens, J.;Glass, A.;Sikes, K.;Keeler-Wolf., T.;Winitsky, S.;Johnson, D.;Menke, J.;Hepburn, A. 2020a</li>
+		
+		<li>Menke, J.;Reyes, E.;Hepburn, A.;Johnson, D.;Reyes, J. 2013</li>
+		
+		<li>Nixon, K.C. 2002</li>
+		
+		<li>Nixon, K.C.;Muller, C.H. 1997</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program);AIS, 2013</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/257/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Frankenia salina</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Frankenia</i> <i>salina</i></span> Herbaceous Alliance <br/>
+        <span class="subtitle">Alkali heath marsh</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Herb
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-300 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G4
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>CAN: BC. USA: CA, WA (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2009/09/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/herb/frankenia-salina_collinsville_08-05_01.jpg', '/static/images/photos/herb/frankenia-salina_collinsville_08-05_02.jpg', '/static/images/photos/herb/frankenia-salina_shermanisland_09-05_01.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Frankenia</i> <i>salina</i> is dominant or co-dominant in the herbaceous and subshrub layers with <i>Agrostis</i> <i>avenacea</i>, <i>Arthrocnemum</i> <i>subterminale</i>, <i>Atriplex</i> spp., <i>Batis</i> <i>maritima</i>, <i>Cressa</i> <i>truxillensis</i>, <i>Distichlis</i> <i>spicata</i>, <i>Hordeum</i> <i>murinum</i>, <i>Lasthenia</i> spp., <i>Lepidium</i> spp., <i>Limonium</i> <i>californicum</i>, <i>Monanthochloe</i> <i>littoralis</i>, <i>Sarcocornia</i> <i>pacifica</i> and <i>Suaeda</i> <i>taxifolia</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Herbs and subshrubs < 60 cm; cover is open to continuous. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Frankenia salina</i> > 30% relative cover in the herbaceous layer, sometimes co-dominant with <i>Distichlis spicata</i> or other herbs and subshrubs (Keeler-Wolf and Vaghti 2000).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Coastal salt marshes, brackish marshes, alkali meadows, alkali playas. Soils are saline, sandy to clayey alluvium. The USFWS Wetland Inventory (1996 national list) recognizes <i>Frankenia salina</i> as a FACW+ plant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Pickleweed series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Salicornia virginica tidal herbaceous alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Pickleweed-Cordgrass
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Alkali meadow, Northern coastal salt marsh, Southern coastal salt marsh, Cismontane alkali marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Alkali sink, Coastal salt marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Saline emergent wetland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>52.500.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate and Boreal Shrubland and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate and Boreal Salt Marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North American Interior Alkali-Saline Wetland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Warm Semi-Desert/Mediterranean Alkali-Saline Wetland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Southwestern North American salt basin and high marsh group
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Frankenia salina </i>is a perennial or subshrub with pink-purple flowers. It secretes salt from its silvery-gray stems and succulent leaves. The species occurs commonly along the coast of California, inland in the Central Valley, and in the central Mojave Desert. <br/>
+<br/>
+Stands occur in seasonally moist or intermittently flooded, clayey, saline soils in association with salt marsh and other halophytic vegetation types. In coastal salt marshes or brackish marshes, stands are part of the high marsh vegetation; inland they occur on alkaline flats. The salinity tends to concentrate in the upper soil horizons because of capillary action from intermittent flooding by salty or brackish waters and long periods of drying in hot sun. <br/>
+<br/>
+Adjacent stands typically include those of the <i>Distichlis spicata, Juncus arcticus</i> (var. <i>balticus, mexicanus</i>), and <i>Sarcocornia pacifica</i> (<i>Salicornia depressa</i>) alliances and the <i>Atriplex prostrata-Cotula coronopifolia </i>and <i>Lepidium latifolium </i>semi-natural stands. Relationships are complex, often altered by active marsh management. Keeler-Wolf et al. (2003a) took a broad view at Point Reyes National Seashore, where stands with <i>Frankenia salina, Jaumea carnosa, Limonium californicum, Triglochin martima </i>were placed in the <i>Distichlis spicata </i>alliance. If <i>S. pacifica </i>was at least 15% absolute cover along with these species, stands were placed in the <i>Sarcocornia pacifica</i> (<i>Salicornia depressa</i>) alliance. We need more sampling and analysis of salt marshes and alkali meadows to understand halophytic vegetation patterns better. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Frankenia salina</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Polycarpic perennial; shrub (sub-shrub)</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Unknown</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Water/hydrological</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Unknown</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Unknown</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>Life of plant</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>High</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Unknown</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text"></div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Aa-d, Af, Ah-l). Stands are widespread in coastal settings from San Francisco Bay south to Santa Maria. Stands often occur in high salt marsh areas adjacent to stands of <i>Distichlis spicata,</i> and may occur in disturbed settings.</li>
+        
+            <li><b>Central California Coast Ranges</b> (M262Ad, Ag-i, Ak). Stands occur in alkali sinks of the Carrizo Plain and the Temblor Range with <i>Atriplex</i> spp., <i>D. spicata,</i> and many herb species (Twisselmann 1956). Some of these stands are regularly grazed.</li>
+        
+            <li><b>Great Valley</b> (262Ad, Ak-l, Aq, At, Av-z). Stands at Suisun Marsh in Solano Co. have high cover of <i>D. spicata</i> or annual grasses (Keeler-Wolf and Vaghti 2000). Those in the Sacramento-San Joaquin River delta contain <i>Bromus</i> spp., <i>D. spicata,</i> and <i>Lepidium latifolium</i> (Keeler-Wolf and Hickson 2007). Stands in alkali sinks of the Buena Vista-Tulare Basin (Twisselmann 1956), in alkali claypan vernal pools of the southern Solano-Colusa region, and in playas of the San Joaquin Valley (Twisselmann 1967) include <i>Lasthenia</i> spp., <i>Lepidium dictyotum</i> var. <i>acutidens,</i> and <i>Arthrocnemum subterminale</i> (Barbour et al. 2007b).</li>
+        
+            <li><b>Northern California Coast</b> (263Ac, Ak-l). Stands occur in high salt marshes at Point Reyes, Tomales Bay, and San Pablo Bay.</li>
+        
+            <li><b>Southern California Coast</b> (261Bb-c, Bg, Bj). On the mainland, stands in tidal marshes at Magu Lagoon in Ventura Co. have <i>D. spicata, Monanthochloe littoralis, Sarcocornia pacifica,</i> and <i>Suaeda taxifolia</i> (Keeler- Wolf and Evens 2006). On most of the Channel Islands, coastal wetlands of <i>Frankenia salina</i> and <i>Sarcocornia pacifica</i> occur with <i>Atriplex</i> spp., <i>D. spicata, Suaeda calceoliformis,</i> and <i>S. taxifolia</i> (Halvorson et al. 1996, Junak et al. 2007, Thorne 1967). On Santa Barbara and Anacapa Islands, stands of <i>S. taxifolia</i> occur with <i>F. salina, Hordeum murinum, Mesembryanthemum </i>spp., and other non-natives (Junak et al. 2007, Philbrick 1972).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text">  </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Frankenia salina [4], [7], [8], [9], [10], [11], [12]</li>
+                
+                    <li>Frankenia salina / Agrostis avenacea [4]</li>
+                
+                    <li>Frankenia salina - Atriplex californica [6]</li>
+                
+                    <li>Frankenia salina - Distichlis spicata [4], [5], [6], [7], [8], [9], [10]</li>
+                
+                    <li>Lasthenia ferrisiae - Lasthenia conjugens [1]</li>
+                
+                    <li>Suaeda taxifolia - Hordeum murinum [2], [6], [13]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Barbour, M.G.;Solomeshch, A.I.;Buck, J.J. 2007b</li>
+		
+		<li>[2] Junak, S.;Knapp, D.A.;Haller, J.R.;Philbrick, R.;Schoenherr, A.;Keeler-Wolf, T. 2007</li>
+		
+		<li>[4] Keeler-Wolf, T.;Vaghti, M. 2000</li>
+		
+		<li>[5] Sproul, F.;Keeler-Wolf, T.;Gordon-Reedy, P.;Dunn, J.;Klein, A.;Harper, K. 2011</li>
+		
+		<li>[6] Rodriguez, D.;Sikes, K.;Keeler-Wolf, T.;Kittel, G.;Curtis, J.;Curley, C.;Evens, J. 2017</li>
+		
+		<li>[7] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>[8] Buck-Diaz, J.;Harbert, B.;Evens, J. 2011</li>
+		
+		<li>[9] Buck-Diaz, J.;Ratchford, J.;Evens, J. 2013</li>
+		
+		<li>[10] HDR, 2014b</li>
+		
+		<li>[11] CNPS Vegetation Program, 2015</li>
+		
+		<li>[12] VegCAMP (CDFW Vegetation Classification and Mapping Program), 2015a</li>
+		
+		<li>[13] Rodriguez, D. 2015</li>
+		
+		<li>Buck-Diaz, J.;Evens, J. 2011b</li>
+		
+		<li>Grewell, B.J.;Callaway, J.C.;Ferren, W.C. 2007</li>
+		
+		<li>Menke, J.;Reyes, E.;Hepburn, A.;Johnson, D.;Reyes, J. 2013</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program);AIS, 2013</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/396/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

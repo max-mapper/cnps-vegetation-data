@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Heterotheca (oregona, sessiliflora)</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Heterotheca</i> (<i>oregona</i>, <i>sessiliflora</i><span style="padding-left: .2em">)</span></span> Herbaceous Alliance <br/>
+        <span class="subtitle">Goldenaster patches</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Herb
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-550 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G3
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA, OR, WA (TJM2)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2014/12/30
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/herb/heterotheca-oregona_indianfisheries_06-2011.jpg', '/static/images/photos/herb/heterotheca-oregona_hamiltoncity_06-2011.jpg', '/static/images/photos/herb/heterotheca-oregona_glenn_06-2011.jpg', '/static/images/photos/herb/heterotheca-oregona_millcreek_07-2011.jpg', '/static/images/photos/herb/heterotheca-oregona_vina_06-2011.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Heterotheca</i> <i>oregona</i> or <i>Heterotheca</i> <i>sessiliflora</i> is dominant or co-dominant in the herbaceous layer with <i>Avena</i> <i>barbata</i>, <i>Brassica</i> <i>nigra</i>, <i>Bromus</i> <i>diandrus</i>, <i>Bromus</i> <i>hordeaceus</i>, <i>Clarkia</i> <i>purpurea</i>, <i>Croton</i> <i>setigerus</i>, <i>Erodium</i> spp., <i>Hypochaeris</i> <i>glabra</i>, <i>Lotus</i> <i>unifoliolatus</i> or <i>Vulpia</i> <i>myuros</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Herbs < 1 m; cover is sparse to intermittent. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Heterotheca oregona</i> or <i>H. sessiliflora</i> > 30% relative cover in the herbaceous layer (Klein et al. 2015, Buck-Diaz et al. 2012).</li>
+		
+		<li><i>Heterotheca sessiliflora</i> > 50% relative cover, typically co-dominant with <i>Bromus hordeaceus</i>, in the herbaceous layer (Kittel et al. 2012).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Sandy and cobbled gravel bars in floodplains, along riparian terraces and stream banks, flats or slopes adjacent to riparian areas, dunes and headlands near the coast, and other seasonally disturbed areas.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Wet grasses and forbs, North coastal scrub, Riparian mixed shrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Coastal scrub, North Coast riparian scrub, Central Coast riparian scrub, Great Valley riparian scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Coastal sage scrub, Valley grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Annual grassland, Coastal scrub, Wet meadow
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>42.230.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Tree Vegetation (Forest and Woodland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate Flooded and Swamp Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North America Warm Temperate Flooded and Swamp Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Southwestern North American Riparian, Flooded and Swamp Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Southwestern North American riparian/wash scrub
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Heterotheca oregona</i> and <i>H. sessiliflora</i> are perennial herbs in the sunflower family that act like short-lived shrubs. They are generally between 2-10 dm tall. Plants can be bristly and/or glandular and produce many flower heads. <i>H. oregona</i> produces only discoid heads while <i>H. sessiliflora</i>  produces heads with ray and disk flowers.<br/>
+<br/>
+<i>Heterotheca oregona</i> occurs from British Columbia to California. It is found in low-elevation mountain forests and chaparral, often near water or seasonally dry streambeds. There are four varieties found in California that can be somewhat indistinct from one another.<br/>
+<br/>
+<i>Heterotheca sessiliflora</i> is native to California and Baja California and Sonora, Mexico. It is quite variable in appearance and its four subspecies may merge where ranges overlap. It is found at low elevations near the coast on beaches, dunes, headlands, headland, and coastal slopes. It can also be found further inland at low to moderate elevations in creek banks, grasslands, scrub, woodlands, and disturbed sites. <br/>
+<br/>
+This alliance occurs on sandy and cobbled gravel bars in floodplains, along riparian terraces and stream banks, moist flats or slopes adjacent to riparian areas, and other seasonally disturbed areas. Stands dominated by <i>H. oregona</i>  have been identified within the northern Great Valley and North Coast Ranges (Buck Diaz et al. 2012, Klein et al. 2015), while stands in the Central Coast Ranges include <i>H. sessiliflora</i> as the dominant (Kittel et al. 2012). Further sampling and analysis are needed across the state to determine other associations and relationships to related alliances. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Heterotheca oregona</th>
+			
+		
+			
+			<th>Heterotheca sessiliflora</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Perennial; herb; subshrub</td>
+			
+		
+			
+			<td>Perennial; herb</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Long</td>
+			
+		
+			
+			<td>Long</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Wind</td>
+			
+		
+			
+			<td>Wind</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Underground structures, rhizomes</td>
+			
+		
+			
+			<td>Underground structures, rhizomes</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>Yes</td>
+			
+		
+			
+			<td>Yes</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>Long-lived</td>
+			
+		
+			
+			<td>Long-lived</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Medium</td>
+			
+		
+			
+			<td>Medium</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Fluvial processes rather than fire are the primary disturbance of the alliance.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+            <p><i>Heterotheca </i>spp. occur widely across the state. More sampling is needed as the species have been collected along banks of rivers, creeks, and adjacent canyon slopes (UCB 2017) in many sections, including the Southern California Mountains and Valleys (M262B), Southern California Coast (261B) and otherwise.</p>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast Ranges</b> (M262Af). Stands of <i>Heterotheca sessiliflora</i> ssp. <i>echinoides </i>often occur on creek banks and sometimes on disturbed flats to steep slopes in Pinnacles National Monument (Kittel et al. 2012). However, stands in other subsections need documentation.</li>
+        
+            <li><b>Great Valley</b> (262Aa, Af-h, Ao). Stands occur on flat to moderately steep slopes in upland and riparian settings (Buck-Diaz et al. 2012). Stands are mapped along the Sacramento River, Feather River, American River, and Cache Creek (VegCAMP and GIC 2013).</li>
+        
+            <li><b>Northern California Coast</b> (263Ag). Stands occur on riparian gravel and sand bars along rivers and creeks (Klein et al. 2015).</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Bb). Stands occur on upper gravel bars in openings between <i> Salix exigua </i>stands or riparian tree stands such as along the Russian River and Dry Creek in Sonoma County (Klein et al. 2015).</li>
+        
+            <li><b>Northern California Interior Coast Ranges</b> (M261Cb). Stands of <i>Heterotheca oregona </i>are mapped on sandy and cobble gravel bars along the banks of the Sacramento River (VegCAMP and GIC 2013).</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fc-e). Stands occur along the Kern River and Deer Creek in the southeastern Sierra Nevada Foothills and in Fort Tejon State Historic Park in the southern Sierra Nevada Foothills.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> <i>Heterotheca oregona </i>and <i>H. sessiliflora </i>occur in riparian and coastal areas throughout California that may have been impacted by development, invasive species, grazing, etc.  Annual invasive plant species present a significant impact to <i>Heterotheca (oregona, sessiliflora)</i> stands and the removal of annual plants at the landscape scale greatly enhances the populations of  <i>Heterotheca</i> spp. (McGraw 2004a).  Because these species tend to occur in or near the edge of floodplains, these stands can also be impacted by altered flood regimes.
+ 
+<i>Heterotheca (oregona, sessiliflora)</i> stands provide habitat for many organisms, including rare and endangered species. For instance, in the Santa Cruz Mountains, <i>H. sessiliflora </i>provides food for the Zayante band-winged grasshopper, a rare insect. <i>H. sessiliflora </i>makes up a good portion of this grasshopper's diet (McGraw 2004b). Also, the Lesser Nighthawk was found to be nesting in several stands of <i>Heterotheca (oregona, sessiliflora) </i>in the Great Valley ecoregion. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Heterotheca oregona [1], [2]</li>
+                
+                    <li>Heterotheca sessiliflora [3], [4]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>[2] Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>[3] Kittel, G.;Reyes, E.;Evens, J.;Buck, J.;Johnson, D. 2012</li>
+		
+		<li>[4] Reyes, E.;Johnson, D.;Glass, A. 2019</li>
+		
+		<li>CAB International, 2019</li>
+		
+		<li>Jepson Flora Project, 2004-present</li>
+		
+		<li>McGraw, J.M. 2004a</li>
+		
+		<li>McGraw, J.M. 2004b</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/498/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Leymus cinereus - Leymus triticoides</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Leymus</i> <i>cinereus</i> - <i>Leymus</i> <i>triticoides</i></span> Herbaceous Alliance <br/>
+        <span class="subtitle">Ashy ryegrass - Creeping wildrye turfs</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Herb
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-3000 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G3
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA, ID, MT, NV, OR, WA, WY (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2016/12/14
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/herb/leymus-triticoides_elkhornslough_07-06_01.jpg', '/static/images/photos/herb/leymus-triticoides_gerlach.jpg', '/static/images/photos/herb/leymus-triticoides_groverhotsprings_09-09_01.jpg', '/static/images/photos/herb/leymus-triticoides_lolium-multiflorum_cr009_ss.jpg', '/static/images/photos/herb/leymus-cinereus_inyo%20co_04-2004.jpg', '/static/images/photos/herb/leymus-cinereus_l-triticoides_modocplateau_06%20-2017_01.jpg', '/static/images/photos/herb/leymus-cinereus_l-triticoides_modocplateau_06%20-2017_02.jpg', '/static/images/photos/herb/leymus-cinereus-leymus-triticoides_n-scruz-co_05-2021.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Leymus</i> <i>cinereus</i> and/or <i>Leymus</i> <i>triticoides</i> is dominant or co-dominant in the herbaceous layer with <i>Ambrosia</i> <i>psilostachya</i>, <i>Anemopsis</i> <i>californica</i>, <i>Aristida</i> <i>purpurea</i>, <i>Avena</i> <i>fatua</i>, <i>Bromus</i> spp., <i>Danthonia</i> <i>unispicata</i>, <i>Distichlis</i> <i>spicata</i>, <i>Elymus</i> <i>elymoides</i>, <i>Hordeum</i> spp., <i>Juncus</i> <i>arcticus</i>, <i>Lolium</i> <i>perenne</i>, <i>Poa</i> <i>secunda</i> or <i>Triglochin</i> <i>maritima</i>. Emergent trees and shrubs may be present at low cover. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Herbs < 1.5 m; cover is open to continuous. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Leymus cinereus</i> > 50% relative cover in the herbaceous layer (CNDDB 2008).</li>
+		
+		<li><i>Leymus triticoides</i> > 50% relative cover in the herbaceous layer (Keeler-Wolf and Vaghti 2000, Evens and San 2004).</li>
+		
+		<li><i>Leymus triticoides</i> > 30% relative cover in the herbaceous layer (Buck-Diaz et al. 2012).</li>
+		
+		<li><i>Leymus cinereus</i> or <i>Leymus triticoides</i> >30% relative cover in the herbaceous layer (Boul et al. 2021b).</li>
+		
+		<li><i>Leymus triticoides</i> > 50% relative cover in the herbaceous layer, or > 30% relative cover with <i>Lolium perenne</i> or other non-native grasses or forbs (Buck-Diaz et al. 2021, Sikes et al. 2021).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Poorly drained floodplains, playas, drainage and valley bottoms, mesic flat to sloping topography, and marsh margins. Soils are clays and loams, often alkaline or saline. The USFWS Wetland Inventory (2012 national list) recognizes both <i>Leymus cinereus</i> and <i>Leymus triticoides</i> as FAC plants. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Ashy ryegrass series, Creeping ryegrass series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Leymus cinereus herbaceous alliance, Leymus cinereus intermittently flooded herbaceous alliance, Leymus triticoides temporarily flooded herbaceous alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Perennial grasses and forbs
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Valley wildrye grassland, Great Basin grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Alkali sink, Valley grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Perennial grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>41.081.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate and Boreal Shrubland and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate and Boreal Salt Marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North American Interior Alkali-Saline Wetland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Warm Semi-Desert/Mediterranean Alkali-Saline Wetland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Southwestern North American alkali marsh/seep vegetation
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Leymus triticoides </i>is a native, cool-season, sod-forming, long-lived perennial grass. Seeds are generally sterile, and the plant reproduces by underground runners, which bind the soil into strong turf. <i>L. triticoides </i>is adapted to a wide variety of sub-irrigated soils and is extremely alkaline and saline tolerant (Dyer 2005a). This widespread species is also a component of many alliances and is a common understory plant in riparian forests. <i>L. triticoides </i>hybridizes with the Eurasian <i>L. multicaulis </i>forming highly fertile hybrids. In addition, a cultivar of <i>L. multicaulis, </i>“Shoshone,” thought to be strain of <i>L. triticoides, </i>is widely planted as forage (Barkworth and Anderton 2007). Much of the botanical literature uses the name <i>Elymus triticoides</i>. <br/>
+<br/>
+Holstein (2001) argued that <i>L. triticoides </i>dominated central California in pre-agricultural times on heavy clay or loam soils, flat to sloping topography, and in transitional areas between riparian and marsh habitats. <br/>
+<br/>
+<i>Leymus cinereus </i>is a long-lived bunchgrass that may have short rhizomes, but typically lacks them. It forms dense clumps with thick stems and coarse, scabrous leaf blades. Seed viability and germination are often low, but established plants grow quickly and can successfully replace other species. The botanical literature often refers to this species as <i>Elymus cinereus</i>. <br/>
+<br/>
+Many regional descriptions include the alliance in an alkali meadow category. Stands often occur in a fine mosaic with upland shrublands, including <i>Artemisia tridentata </i>and <i>Sarcobatus vermiculatus </i>alliances. Soils are influenced by accumulations of coarse to fine volcanic tephra (Young et al. 2007).<br/>
+<br/>
+The two primary species in this alliance were treated separately in the 2009 book, <i>A Manual of California Vegetation, second edition. Leymus cinereus</i> and <i>L. triticoides</i> may hybridize when they  co-occur.  <i>Leymus triticoides</i> also hybridizes with another large California species,<i> L. condensatus</i> in the western Mojave and in the southern Sierra Nevada Foothills.  The resulting species complexes are often difficult to identify and may be ecologically overlapping. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Leymus cinereus</th>
+			
+		
+			
+			<th>Leymus triticoides</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Polycarpic perennial; herb; rhizomatous or tussock</td>
+			
+		
+			
+			<td>Polycarpic perennial; herb; rhizomatous</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td>Transient</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Medium</td>
+			
+		
+			
+			<td>Short</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; wind</td>
+			
+		
+			
+			<td>Animal; wind; gravity</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Underground structures (rhizomes)</td>
+			
+		
+			
+			<td>Underground structures (rhizomes)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>1 year to life of the plant?</td>
+			
+		
+			
+			<td>Long-lived</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>High</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td>High</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Both <i>Leymus cinereus </i>and <i>L. triticoides </i>are well adapted to fire. <i>L. triticoides </i>regenerates from rhizomes, and if soil moisture is adequate, plants will green in the late summer after a fire.  The coarse stems of <i>L. cinereus </i> tend to burn without killing the buds in tussocks and rhizomes. Plants vigorously sprout, and many stands are self-perpetuating. Plant production is enhanced by burning in any season, but plants respond better to burning in the fall (Anderson 2002a).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Short to medium
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Early fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Up to and beyond stand size
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low to medium
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Moderate to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Low to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Surface fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Central Coast, Great Valley, Great Basin, Modoc Plateau
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+            <p>Probable stands mentioned for each region are based on CCH and Calflora records (Consortium of California Herbaria 2018; Calflora 2018).</p>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Aa-j, Al). Stands form narrow bands between wetland stands of <i>Distichlis spicata</i> and upland grassland types at Suisun Marsh (Keeler-Wolf and Vaghti 2000). Non-natives, such as <i>Lepidium latifolium</i> and <i>Lotus corniculatus</i>, often invade these stands. Stands form narrow stringers between stands of the <i>Baccharis pilularis, Distichlis spicata, </i> and <i>Sarcocornia pacifica (Salicornia depressa)</i> alliances at Elkhorn Slough in Monterey Co. Recorded stands near Half Moon Bay (Sikes et al. 2021).</li>
+        
+            <li><b>Central California Coast Ranges</b> (M262Aa-b, Ad, Af, Ai-j). Hill slope stands occur in northwestern Contra Costa Co. (Holstein 2001) and on mesic flats adjacent to a serpentine outcrop at Coyote Ridge in Santa Clara Co. (Evens and San 2004). Stands in alkali meadows form a patchwork with those of <i>D. spicata</i> near Soda Lake on the Carrizo Plain, San Luis Obispo Co.</li>
+        
+            <li><b>Great Valley</b> (262Aa, Ac, Af-g, Ai, Ak-m, Aq-v, Ay-z). Stands of <i>Leymus triticoides</i> exist at Stone Lakes National Wildlife (Holstein 2001) and at Great Valley Grasslands State Park (Solomeshch and Barbour 2006). Stands at Suisun Marsh often follow the upper margin of the marsh adjacent to stands of the <i>Juncus arcticus (var. balticus, mexicanus)</i> alliance and may be invaded with <i>Lepidium latifolium</i>.  Stands of <i>Leymus cinereus</i> have been sampled at Wind Wolves Preserve at the southern end of the Great Valley (Buck-Diaz et al. 2012).</li>
+        
+            <li><b>Klamath Mountains</b> (M261Ae, Al). Probable stands in the Klamath Mountains.</li>
+        
+            <li><b>Modoc Plateau</b> (M261Ga-d, Gg-i, Gk-m, Go). Mapped and recorded stands throughout ecoregion (Boul et al. 2021b; DiPaolo et al. 2015). Hickson et al. (2007) identified stands in the Pine and Fitzhugh Creek Wildlife Areas. Following the extensive Rush Fire (2012), a number of seral upland stands have grown on mesic slopes and appear to be slowly colonized by non-sprouting species such as <i>Artemisia tridentata</i> and <i>Juniperus occidentalis.</i></li>
+        
+            <li><b>Mojave Desert</b> (322Aa, Ag). Along the Mojave River, between Victorville and Barstow, small stands occur adjacent to, and may become a turf understory to, woody riparian stands of <i>Populus fremontii</i> alliance.</li>
+        
+            <li><b>Mono</b> (341Db-f, Dh-j, Dl). Stands at Fish Slough (Odion et al. 1992a) and in Owens Valley (S. Manning, pers. comm. 2007) occur in alkali meadows.  Stands probable in other subsections.</li>
+        
+            <li><b>Northern California Coast</b> (263Ac-e, Ag, Aj-l). Stands occur at the upper edges of salt marshes where freshwater moistens the subsoil during the growing season as near Humboldt, Tomales, and San Pablo bays (Klein et al. 2015).  Recorded stands elsewhere in Marin County (Buck-Diaz et al. 2021).</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Bb-c). Probable stands in some areas of the Northern California Coast Ranges.</li>
+        
+            <li><b>Northwestern Basin and Range</b> (342Ba, Bc-e). Mapped and recorded stands throughout the Cottonwood-Skedaddle Mountains subsection; some mapped stands at the edge of the Madeleine Plain (Boul et al. 2021b).  Probable stands in the Honey Lake Basin and Surprise Valley. CNDDB (2008) has plot data on file for Modoc Co. from the Madeline Plain area and for Sheldon National Antelope Refuge in adjacent Nevada, where post-fire <i>Leymus cinereus</i> stands form a matrix with those of <i>Artemisia tridentata</i> ssp. <i>tridentata</i> on steep north-facing slopes.</li>
+        
+            <li><b>Sierra Nevada</b> (M261Eb, En-o, Er-s, Eu). Mapped occurrences near Tehachapi Valley (VegCAMP 2015a).  Stands probable in other subsections.</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fd-e). Mapped near Lake Isabella  as well as in the Wind Wolves Preserve (Ratchford et al. 2016).</li>
+        
+            <li><b>Southeastern Great Basin</b> (341Fb). Recorded stand in Cowhorn Valley.</li>
+        
+            <li><b>Southern California Coast</b> (261Ba-j). Stands in the Santa Monica Mountains (Keeler-Wolf and Evens 2006), along Santa Clara River (Stillwater Sciences and URS 2007), and atop ocean bluffs are adjacent to stands of <i>Artemisia californica</i> and <i>Nassella pulchra</i> alliances. Other stands occur on Santa Cruz Island (Junak et al. 2007).</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Bb, Bg, Bl, Bn-p). Mapped stands in Boulder Oaks Open Space Preserve (Sproul et al. 2011).  Stands of <i>Leymus cinereus</i> have been sampled in Bitter Creek National Wildlife Refuge (Buck-Diaz et al. 2013).</li>
+        
+            <li><b>Southern Cascades</b> (M261Dc, Df, Dh). Stands probable in some areas of the Southern Cascades with one recorded stand of Leymus cinereus within region in Lava Beds NM (DiPaolo et al. 2015).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Because plants are tolerant of flooding, inundation, and other disturbances, managers use <i>Leymus triticoides </i>to stabilize slopes along streams, river slopes, and levees and to restore mine lands, roads, and ranges. Livestock use the grass in wet saline-alkaline meadows as forage; it resists trampling and recovers well from grazing (Dyer 2005a). Many stands in the Central Valley are small due to agriculture or development (Holstein 2001). Though <i>L. triticoides </i>can persist on saline-alkaline soils, groundwater pumping has affected stands negatively, such as in the Owens Valley (Elmore et al. 2006). 
+
+Sizable stands of <i>Leymus cinereus </i>are rare in the state. Most are small (< 1 ha) and are limited to fine-textured, poorly drained soils. <i>L. cinereus </i>provides valuable forage throughout the Great Basin. Range-wide reductions in stands have been caused by overgrazing and crop cultivation. The species was cut historically for hay or used as standing cured forage for wintering livestock. It does not tolerate heavy grazing or close mowing, and it is sensitive to spring grazing (Anderson 2002a).
+
+Stands in the Modoc Plateau are thought to have increased in recent years due to the reduction in shrub cover following fires (Boul et al. 2021b). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Leymus cinereus [13], [15], [18], [19], [21], [23]</li>
+                
+                    <li>Leymus triticoides [2], [4], [5], [6], [9], [11], [12], [13], [14], [16], [17], [18], [19], [20], [24], [25]</li>
+                
+                    <li>Leymus triticoides - Anemopsis californica [10]</li>
+                
+                    <li>Leymus triticoides - Bromus spp. - Avena spp. [3], [12], [13], [18], [19]</li>
+                
+                    <li>Leymus triticoides - Carduus pycnocephalus - Geranium dissectum [7]</li>
+                
+                    <li>Leymus triticoides - Lolium perenne [1], [14]</li>
+                
+                    <li>Leymus triticoides - Poa secunda [8], [21]</li>
+                
+                    <li>Leymus triticoides - Sporobolus airoides [22]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Evens, J.;San, S. 2004</li>
+		
+		<li>[2] Holstein, G. 2001</li>
+		
+		<li>[3] Junak, S.;Knapp, D.A.;Haller, J.R.;Philbrick, R.;Schoenherr, A.;Keeler-Wolf, T. 2007</li>
+		
+		<li>[4] Keeler-Wolf, T.;Evens, J. 2006</li>
+		
+		<li>[5] Keeler-Wolf, T.;Vaghti, M. 2000</li>
+		
+		<li>[6] NatureServe, 2007</li>
+		
+		<li>[7] O’Neil, S.;Egan, S. 2004</li>
+		
+		<li>[8] Odion, D.C.;Callaway, R.M.;Ferren, W.R.;Davis, F.W. 1992a</li>
+		
+		<li>[9] Solomeshch, A.;Barbour, M. 2006</li>
+		
+		<li>[10] Stillwater Sciences and URS, 2007</li>
+		
+		<li>[11] Sproul, F.;Keeler-Wolf, T.;Gordon-Reedy, P.;Dunn, J.;Klein, A.;Harper, K. 2011</li>
+		
+		<li>[12] Rodriguez, D.;Sikes, K.;Keeler-Wolf, T.;Kittel, G.;Curtis, J.;Curley, C.;Evens, J. 2017</li>
+		
+		<li>[13] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>[14] Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>[15] Hickson, D.;Boul, R.;Keeler-Wolf, T. 2008</li>
+		
+		<li>[16] Buck-Diaz, J.;Evens, J. 2011b</li>
+		
+		<li>[17] Kittel, G.;Reyes, E.;Evens, J.;Buck, J.;Johnson, D. 2012</li>
+		
+		<li>[18] Buck-Diaz, J.;Ratchford, J.;Evens, J. 2013</li>
+		
+		<li>[19] Buck-Diaz, J.;Harbert, B.;Evens, J. 2011</li>
+		
+		<li>[20] VegCAMP (CDFW Vegetation Classification and Mapping Program), 2015a</li>
+		
+		<li>[21] Boul, R.;Keeler-Wolf, T.;Ratchford, J.;Haynes, T.;Hickson, D.;Yacoub, R.;Harbert, B.;Evens, J. 2021b</li>
+		
+		<li>[22] Slaton, M. 2018</li>
+		
+		<li>[23] DiPaolo, D.A.;Smith, S.B.;Odion, D.C.;Ives, J.H.;Sarr, D.A. 2015</li>
+		
+		<li>[24] Sikes, K.;Buck-Diaz, J.;Evens, J. 2021</li>
+		
+		<li>[25] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>Anderson, M.D. 2002a</li>
+		
+		<li>Barry, W.J. 1989a</li>
+		
+		<li>Barry, W.J. 1989b</li>
+		
+		<li>Blackburn, W.H.;Tueller, P.T.;Eckert, R.E. 1969a</li>
+		
+		<li>Blackburn, W.H.;Tueller, P.T.;Eckert, R.E. 1969b</li>
+		
+		<li>Dyer, D. 2005a</li>
+		
+		<li>Easterday, J.C.;Mamone, M.S. 1980</li>
+		
+		<li>Elmore, A.J.;Manning, S.J.;Mustard, J.F.;Craine, J.M. 2006</li>
+		
+		<li>Heady, H.F. 1977</li>
+		
+		<li>Keeler-Wolf, T.;Evens, J.M.;Solomeshch, A.I.;Holland, V.L.;Barbour, M.G. 2007</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Black, H.;Bleich, V.C.;Mincks, J.W. 1980</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Conrad, C.E. 1982</li>
+		
+		<li>Ratchford, J.;Buck-Diaz, J.;Evens, J. 2016</li>
+		
+		<li>Young, J.A.;Clements, C.D.;Jansen, H.C. 2007</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/543/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

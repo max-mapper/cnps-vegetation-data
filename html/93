@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Sequoia sempervirens</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Sequoia</i> <i>sempervirens</i></span> Forest &amp; Woodland Alliance <br/>
+        <span class="subtitle">Redwood forest and woodland</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Tree
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>10-975 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3.2
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G3
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA, OR (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>Yes
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/tree/sequoia-sempervirens_130yrs_arcata.jpg', '/static/images/photos/tree/sequoia-sempervirens_bigsurcoast.jpg', '/static/images/photos/tree/sequoia-sempervirens_bigsurcoast_06-05_01.jpg', '/static/images/photos/tree/sequoia-sempervirens_delnortersp.jpg', '/static/images/photos/tree/sequoia-sempervirens_humboldtrsp.jpg', '/static/images/photos/tree/sequoia-sempervirens_muirwoods_01-09_01.jpg', '/static/images/photos/tree/sequoia-sempervirens_napaco_2003_01.jpg', '/static/images/photos/tree/sequoia-sempervirens_prairieckrsp.jpg', '/static/images/photos/tree/sequoia-sempervirens_santacruzmtns_10-04_01.jpg', '/static/images/photos/tree/sequoia-sempervirens_santacruzmtns_10-04_02.jpg', '/static/images/photos/tree/sequoia-sempervirens_santacruzmtns_10-04_03.jpg', '/static/images/photos/tree/sequoia-sempervirens_mmwd0172_riparian_offnailtrail_06-05.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Sequoia</i> <i>sempervirens</i> is dominant or co-dominant in the tree canopy with <i>Abies</i> <i>grandis</i>, <i>Acer</i> <i>macrophyllum</i>, <i>Alnus</i> <i>rubra</i>, <i>Arbutus</i> <i>menziesii</i>, <i>Chrysolepis</i> <i>chrysophylla</i>, <i>Notholithocarpus</i> <i>densiflorus</i>, <i>Picea</i> <i>sitchensis</i>, <i>Pseudotsuga</i> <i>menziesii</i>, <i>Tsuga</i> <i>heterophylla</i> and <i>Umbellularia</i> <i>californica</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text"> Trees < 120 m tall; canopy is intermittent or continuous; it may be two tiered. Shrubs are infrequent or common. Herbaceous layer is absent or abundant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Sequoia sempervirens</i> > 50% relative cover in the tree canopy, or > 30% relative cover with other conifers such as <i>Pseudotsuga menziesii</i> or with a lower tier of hardwood trees such as <i>Notholithocarpus densiflorus</i> (Keeler-Wolf et al. 2003a, Evens and Kentner 2006).</li>
+		
+		<li><i>Sequoia sempervirens</i> is characteristic in the tree canopy, rarely with as little as 5% absolute cover (Buck-Diaz et al. 2021, Sikes et al. 2021).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Raised stream terraces, benches, all slopes and aspects, ridges.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Redwood series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Sequoia sempervirens forest alliance, Sequoia sempervirens-Pseudotsuga menziesii forest alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Redwood-Douglas-fir, Redwood
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>North Coast alluvial redwood forest, Upland redwood forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Redwood forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Redwood
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>86.100.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Tree Vegetation (Forest and Woodland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Cool Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North America Cool Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Vancouverian  Rainforest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Vancouverian hypermaritime lowland rainforest
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Sequoia sempervirens </i>attains a height of 120 m, and an age of at least 2200 years (Fritz 1957). Roots are shallow without a taproot. Trees begin bearing cones by 5 to 15 years of age. Seed production is generally high, and seed viability is low. Wind and gravity disperse the seeds, with most falling within 120 m of the parent tree. Seedling establishment is best on moist soil lacking litter but can occur on duff or logs. Plants are moderately shade tolerant, but they grow faster in higher light levels if soil moisture is present (Griffith 1992d, Olson et al. 1990, Sawyer et al. 2000b, c). <br/>
+<br/>
+<i>Sequoia sempervirens </i>occurs in moist coastal areas with heavy summer fog. Stands generally occur below 600 m from southern Oregon to the Santa Lucia Mountains in central California. Scattered stands also occur along streams, springs, seeps, and sheltered moist locations up to about 975 m, where they usually occur as mixed hardwood forests (Sawyer 2006, 2007). <i>S. sempervirens </i>is probably limited in its northern extent by freezing temperatures and in its southern extent by low winter rainfall (Lanner 1999). <br/>
+<br/>
+Ecologists differentiate forests on alluvial streamside terraces, where <i>S. sempervirens </i>is usually the dominant canopy tree, from those on upland settings, where <i>S. sempervirens </i>shares the canopy with other conifer and with hardwood trees (NatureServe 2007a). However, these differences are best understood when the associations are placed in three geographic regions (Sawyer et al. 2000b). <i>Tsuga heterophylla </i>plays an important role in the northern forest region, and it is absent from the other two regions where <i>Notholithocarpus densiflorus </i>plays an important role. Redwood genetics in the southern forest region differs from that in the other regions (Sawyer et al. 2000a, b). Precipitation varies significantly between northern and southern regions with fog-drip playing an increasingly important role in the southern portion of the range (Olsen et al. 1990). </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Sequoia sempervirens</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Tree; evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Transient</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Gravity; wind</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Buds on large branches or trunk; underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>25-2200+ years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Fire is the principal disturbance agent in both young-growth and old-growth stands. Fire scars are abundant throughout old-growth stands. <i>Sequoia sempervirens </i>has the ability to sprout if damaged from trunks, branches, stumps, and roots. The aboveground portions of trees can be killed outright by ground fire, but they sprout. The ability to survive fire increases with age, as tree bark thickens and becomes protective with age. In addition, young stands have more litter that is flammable on the ground, and their microclimate is drier than under older forests (Olson et al. 1990, Stuart and Stephens 2006). 
+
+The mean fire interval is quite variable, depending on environmental site conditions. Old-growth stands show evidence of three or more severe fires each century, and the distribution of fires appears as a natural pattern of several short intervals between fires followed by one or more long interval (Stuart 1987, Jacobs et al. 1985). Estimates from more recent work show fire intervals being relatively short from six to 27 years (Stephens and Fry 2005, Stuart and Stephens 2006).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Short to long
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Summer-early fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Small to medium
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Low
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Surface-passive crown fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Central and North Coast ranges
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Ac-d, Af-h, Aj-k). Stands of the southern region exist in the Santa Cruz and Santa Lucia mountains including those in the Cone Gradient RNA (Cheng 2004) and generally in the section (Borchert et al. 1988). Stands have been mapped in some state parks and in areas managed by the Mid-Peninsula Open Space District (AIS 2005).</li>
+        
+            <li><b>Klamath Mountains</b> (M261Aa-b). The disjunct stand along French Hill near the town of Gasquet has been logged. Isolated trees and small groves grace the western reaches of the Smith River.</li>
+        
+            <li><b>Northern California Coast</b> (263Ab, Ad-m). Stands are generally present through most of the section (Sawyer 2000c). Those in Redwood National Park, Yurok RNA, and associated state parks (Cheng 2004, Combs 1984, Keeler-Wolf 1990d, Lenihan 1990, Mahoney 1999) offer detailed description of forests of the northern region. Those in Humboldt Redwoods State Park (Matthew 1986a, b) and in Muir Woods north to southern portion of Bolinas ridge and the Lagunitas Creek watershed in Marin Co. (Keeler-Wolf et al. 2003b, Evens and Kentner 2006) offer detailed description of the forests of the central region. Those in Marin Co. are redwood-hardwood forests.</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Bb, Bf). Stands occur as far inland as Pepperwood near the Napa/Lake Co. border. In Napa Co., Thorne et al. (2004) have mapped stands that mostly occur west of Napa Valley in riparian draws.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> <i>Sequoia sempervirens </i>is one of the signature trees of California, with 95% of its range existing within the state. Years of logging have left less than 90% of the original forest (Sawyer et al. 2000b). Old-growth stands exist mainly in protected areas including parks, experimental forests, and private reserves. Asexual regeneration is prolific and many stands of younger trees exist, but many areas are on the third cycle of regeneration with collateral impacts of erosion, streambed siltation, and alteration to watershed and wildlife values. Residential development is an increasing concern. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+                <p>Slope Forests of the Central Region</p>
+            
+            <ul class="text">
+                
+                    <li>Sequoia sempervirens - Chrysolepis chrysophylla / Arctostaphylos glandulosa [2], [14], [15]</li>
+                
+                    <li>Sequoia sempervirens - Notholithocarpus densiflorus / Vaccinium ovatum [2], [3], [9], [13], [14], [15]</li>
+                
+                    <li>Sequoia sempervirens - Pseudotsuga menziesii - Notholithocarpus densiflorus [9], [13], [14], [15]</li>
+                
+                    <li>Sequoia sempervirens - Pseudotsuga menziesii - Umbellularia californica [2], [3], [9], [14], [15]</li>
+                
+                    <li>Sequoia sempervirens - Umbellularia californica [2], [9], [14], [15]</li>
+                
+            </ul>
+        
+            
+                <p>Slope Forests of the Northern Region</p>
+            
+            <ul class="text">
+                
+                    <li>Sequoia sempervirens - Arbutus menziesii / Vaccinium ovatum [2], [4], [14], [15]</li>
+                
+                    <li>Sequoia sempervirens / Mahonia nervosa [4]</li>
+                
+                    <li>Sequoia sempervirens / Polystichum munitum [4], [7], [10], [12], [13], [14], [15]</li>
+                
+                    <li>Sequoia sempervirens - Pseudotsuga menziesii - Arbutus menziesii [6]</li>
+                
+                    <li>Sequoia sempervirens - Pseudotsuga menziesii / Gaultheria shallon [6]</li>
+                
+                    <li>Sequoia sempervirens - Pseudotsuga menziesii - Notholithocarpus densiflorus - Chamaecyparis lawsoniana / Vaccinium ovatum [8]</li>
+                
+                    <li>Sequoia sempervirens - Pseudotsuga menziesii / Rhododendron macrophyllum [12]</li>
+                
+                    <li>Sequoia sempervirens - Pseudotsuga menziesii / Vaccinium ovatum [6]</li>
+                
+                    <li>Sequoia sempervirens - Tsuga heterophylla / Polystichum munitum [5], [12]</li>
+                
+                    <li>Sequoia sempervirens - Tsuga heterophylla / Vaccinium ovatum [12]</li>
+                
+            </ul>
+        
+            
+                <p>Slope Forests of the Southern Region</p>
+            
+            <ul class="text">
+                
+                    <li>Sequoia sempervirens [1]</li>
+                
+                    <li>Sequoia sempervirens / Marah fabaceus - Vicia sativa ssp. nigra [1]</li>
+                
+                    <li>Sequoia sempervirens - Notholithocarpus densiflorus / Carex globosa - Iris douglasiana [1]</li>
+                
+                    <li>Sequoia sempervirens / Polystichum munitum - Trillium ovatum [1]</li>
+                
+            </ul>
+        
+            
+                <p>Terrace Forests of the Central Region</p>
+            
+            <ul class="text">
+                
+                    <li>Sequoia sempervirens - Acer macrophyllum - Umbellularia californica [1], [2], [9], [13], [14], [15]</li>
+                
+                    <li>Sequoia sempervirens - Hesperocyparis pigmaea [11]</li>
+                
+                    <li>Sequoia sempervirens / Oxalis oregana [6], [9]</li>
+                
+                    <li>Sequoia sempervirens - Pinus muricata [11]</li>
+                
+                    <li>Sequoia sempervirens / (Pteridium aquilinum) - Woodwardia fimbriata [1], [2], [9], [14], [15]</li>
+                
+            </ul>
+        
+            
+                <p>Terrace Forests of the Northern Region</p>
+            
+            <ul class="text">
+                
+                    <li>Sequoia sempervirens - Alnus rubra / Rubus spectabilis [5], [12]</li>
+                
+                    <li>Sequoia sempervirens / Oxalis oregana [6], [9]</li>
+                
+                    <li>Sequoia sempervirens - Tsuga heterophylla / Rubus spectabilis [5], [12]</li>
+                
+            </ul>
+        
+            
+                <p>Terrace Forests of the Southern Region</p>
+            
+            <ul class="text">
+                
+                    <li>Sequoia sempervirens - Acer macrophyllum - Umbellularia californica [1], [2], [9], [13], [14], [15]</li>
+                
+                    <li>Sequoia sempervirens / (Pteridium aquilinum) - Woodwardia fimbriata [1], [2], [9], [14], [15]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Borchert, M.;Segotta, D.;Purser, M.D. 1988</li>
+		
+		<li>[2] Evens, J.M.;Kentner, E. 2006</li>
+		
+		<li>[3] Keeler-Wolf, T .;Schirokauer, D.;Meinke, J.;van derLeeden, P. 2003a</li>
+		
+		<li>[4] Lenihan, J.M. 1990</li>
+		
+		<li>[5] Mahony, T.M. 1999</li>
+		
+		<li>[6] Matthews, S.C. 1986a</li>
+		
+		<li>[7] Taylor, D.W. 1982</li>
+		
+		<li>[8] Jimerson, T.M. 1994, 1999</li>
+		
+		<li>[9] Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>[10] Buck, J.;Evens, J. 2010</li>
+		
+		<li>[11] VegCAMP (CDFW Vegetation Classification and Mapping Program), 2019</li>
+		
+		<li>[12] Mahony, T.M.;Stuart, J.D. 2000</li>
+		
+		<li>[13] Stumpf, K. 2017</li>
+		
+		<li>[14] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>[15] Sikes, K.;Buck-Diaz, J.;Evens, J. 2021</li>
+		
+		<li>Azevedo, J.;Morgan, D.L. 1974</li>
+		
+		<li>Franklin, J.F. 1988</li>
+		
+		<li>Griffin, J.R.;Critchfield, W.B. 1972</li>
+		
+		<li>Griffith, R.S. 1992d</li>
+		
+		<li>Noss, R.F. 2000</li>
+		
+		<li>Olson, D.F. 1983</li>
+		
+		<li>Olson, D.F.;Roy, D.F.;Walters, G.A. 1990</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Black, H.;Bleich, V.C.;Mincks, J.W. 1980</li>
+		
+		<li>Pillers, M.D.;Stuart, J.D. 1993</li>
+		
+		<li>Roy, D.F. 1980</li>
+		
+		<li>Sawyer, J.O. 2004</li>
+		
+		<li>Sawyer, J.O. 2006</li>
+		
+		<li>Sawyer, J.O. 2007</li>
+		
+		<li>Sawyer, J.O.;Gray, J.;West, G.J.;Thornburgh, D.A.;Noss, R.F.;Engbeck, J.H.;Marcot, B.G.;Raymond, R. 2000a</li>
+		
+		<li>Sawyer, J.O.;Sillett, S.C.;Libby, W.J.;Dawson, T.E.;Popenoe, J.H.;Largent, D.L.;Van Pelt, R.;Veires, S.D.;Noss, R.F.;Thornburgh, D.A.;Del Tredici, P. 2000b</li>
+		
+		<li>Sawyer, J.O.;Sillett, S.C.;Popenoe, J.H.;LaBanca, A.;Sholars, T.;Largent, D.L.;Euphrat, F.;Noss, R.F.;Van Pelt, R. 2000c</li>
+		
+		<li>Stuart, J.D.;Stephens, S.I. 2006</li>
+		
+		<li>Viers, S.D. 1982</li>
+		
+		<li>Zinke, P.J. 1977</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/93/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

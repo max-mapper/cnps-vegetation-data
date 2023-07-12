@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Quercus durata</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Quercus</i> <i>durata</i></span> Shrubland Alliance <br/>
+        <span class="subtitle">Leather oak chaparral</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>150-1500 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S4
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G4
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA (NatureServe) (Calflora)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>Yes
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>Yes
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/quercus-durata_clearcreekma_06-04_01.jpg', '/static/images/photos/shrub/quercus-durata_clearcreekma_06-04_02.jpg', '/static/images/photos/shrub/quercus-durata_mmwd_03.jpg', '/static/images/photos/shrub/quercus-durata_mmwd_09-07_01.jpg', '/static/images/photos/shrub/quercus-durata_mmwd_09-07_02.jpg', '/static/images/photos/shrub/quercus-durata_pepperwood_05-10_01.jpg', '/static/images/photos/shrub/quercus-durata_pepperwood_05-10_02.jpg', '/static/images/photos/shrub/quercus-durata_vacamtn_05-03_01.jpg', '/static/images/photos/shrub/quercus-durata_nearmagalia_04-13_01.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Quercus</i> <i>durata</i> is dominant or co-dominant in the shrub canopy with <i>Adenostoma</i> <i>fasciculatum</i>, <i>Arctostaphylos</i> <i>glandulosa</i>, <i>Arctostaphylos</i> <i>glauca</i>, <i>Arctostaphylos</i> <i>pungens</i>, <i>Arctostaphylos</i> <i>viscida</i>, <i>Ceanothus</i> <i>jepsonii</i>, <i>Cercocarpus</i> <i>montanus</i>, <i>Eriodictyon</i> <i>californicum</i>, <i>Fremontodendron</i> <i>californicum</i>, <i>Garrya</i> <i>congdonii</i>, <i>Heteromeles</i> <i>arbutifolia</i>, <i>Quercus</i> <i>berberidifolia</i>, <i>Quercus</i> <i>wislizeni</i> and <i>Umbellularia</i> <i>californica</i>. Emergent trees may be present at low cover, including <i>Hesperocyparis</i> <i>macnabiana</i>, <i>Hesperocyparis</i> <i>sargentii</i>, <i>Juniperus</i> <i>californica</i>, <i>Pinus</i> <i>attenuata</i> or <i>Pinus</i> <i>sabiniana</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 3 m; canopy is open to continuous. Herbaceous layer is sparse to intermittent. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Quercus durata</i> > 30% relative cover in the shrub canopy as a dominant or co-dominant (Evens and San 2004, Evens et al. 2006).</li>
+		
+		<li><i>Quercus durata</i> > 50% relative cover in the shrub canopy (Keeler-Wolf et al. 2003a).</li>
+		
+		<li><i>Quercus durata</i> > 50% relative cover in the shrub canopy, or > 30% relative cover with <i>Adenostoma fasciculatum, Arctostaphylos glandulosa</i> or <i>Ceanothus jepsonii</i> on ultramafic soils (Buck-Diaz et al. 2021, Sikes et al. 2021).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Varied topography. Soils are shallow, rocky, and derived from ultramafic substrates.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Leather oak series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Quercus durata shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Ultramafic mixed shrub, Scrub oak
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Mixed serpentine chaparral, Leather oak chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Mixed chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>37.405.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Mediterranean Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Mediterranean Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>California Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>California Chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Californian serpentine chaparral
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Quercus durata </i>is a slow-growing, evergreen shrub that grows to 3 m in height. Leaves are a dull dark green, convex, pubescent above, and densely hairy below. Shrubs produce large acorn crops at irregular intervals. Seeds germinate without stratification. Small mammals and jays cache acorns, which other wildlife also eat. Plants sprout from swollen root crowns and root suckers after damage to their trunks. Shrubs are shade tolerant. Other trees and shrubs act as nurse plants, moderating environmental conditions and offering seedlings and saplings protection (Nixon and Muller 1997). <br/>
+<br/>
+<i>Quercus durata </i>includes two subspecies. This alliance mainly involves var. <i>durata, </i>which grows on serpentine in the Coastal Ranges and foothills of the Sierra Nevada. The southern variety, var. <i>gabrielensis, </i> occupies barren gneiss-derived soils in the San Gabriel Mountains. Serpentine substrates are famous for rare species and endemics, including the following CNPS list 1B plants: <i>Arctostaphylos bakeri </i>ssp. <i>sublaevis, A. stanfordiana </i>ssp. <i>raichei, </i>and <i>Ceanothus ferrisiae</i>. <br/>
+<br/>
+Stands of this alliance have high fidelity to serpentine or other ultramafic substrates (Alexander et al. 2007, Kruckeberg 1984). Others (O’Geen et al. 2007, Rivas- Martinez 1997) refer to this alliance as the <i>“Quercetum duratae.” </i>It is typically dominant or co-dominant in mesic sites, including north-facing slopes. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Quercus durata</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Shrub; evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Transient</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; gravity </td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Buds on large branches or trunks; underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>20-100+ years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Low; episodic </td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text"><i>Quercus durata </i>sprouts rapidly following fire, and <i>Ceanothus cuneatus </i>and <i>C. jepsonii </i>seeds germinate from the seed bank. Safford and Harrison (2004) found that few species on serpentine depended on fire for germination. In contrast, many of the shrubs and herbs on sandstone are fire obligates. Fires are more frequent, severe, and uniform on sandstone than serpentine substrates.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Medium (30-100+ years)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Summer-early fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Medium to large—up to and beyond stand
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low to moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Moderate to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>High
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Active-independent crown fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Northwestern California
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Ac, Af-g, Aj-k). Stands occur in the Santa Lucia Mountains of Monterey and San Luis Obispo Cos. (Alexander et al. 2007). Small stands occur in the Santa Cruz Mountains.</li>
+        
+            <li><b>Central California Coast Ranges</b> (M262Aa-c, Ae, Ah). Stands are diverse and patchy, including those on Mount Diablo (Ertter and Bowerman 2002), Coyote Ridge (Evens and San 2004), on the eastern crest of the Red Mountain area in the Mount Hamilton Range (Sharsmith 1982), and south to Figueroa Mountain in Santa Barbara Co. (Alexander et al. 2007). Some stands in the Diablo Range occupy transition zones between sedimentary and serpentine substrates, and contain <i>Quercus wislizeni</i> or <i>Cercocarpus montanus</i> (Evens et al. 2006).</li>
+        
+            <li><b>Northern California Coast</b> (263Ag, Al-m). Stands exist on Mount Tamalpais (Keeler-Wolf et al. 2003a, Evens and Kentner 2006).</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Ba-f). Stands are common in the serpentine chaparral of Napa and Yolo Cos. Some stands occur on Franciscan formation and volcanic substrate in this section as at Hale Ridge RNA (Cheng 2004).</li>
+        
+            <li><b>Northern California Interior Coast Ranges</b> (M261Ca). Stands are widespread on the North Coast ophiolite at Frenzel Creek RNA (Cheng 2004), at the McLaughlin Natural Reserve and surrounding areas (Harrison 1997, 1999), and in Napa Co. (Thorne et al. 2004).</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fb). Stands are common near the Melones fault zone from Magalia in Butte Co. south to Eldorado Co. (Alexander et al. 2007). Several stands in the vicinity of Nevada City associate with stands of the <i>Hesperocyparis macnabiana</i> alliance and on more mesic settings and with others of the <i>Adenostoma fasciculatum</i> and <i>Arctostaphylos viscida</i> alliances on more xeric sites and gabbroic soils (Klein et al. 2007).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Many <i>Quercus durata </i>stands have suffered from mining, clearing, or other development activities. <i>Ericameria nauseosa </i>colonizes disturbed sites easily, so managers used it in restoration projects. Because shrubs on serpentine are more fire sensitive and may recruit slowly, they may be especially susceptible to excessively frequent or poorly timed fires (Parker 1990a). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Quercus durata [5], [8]</li>
+                
+                    <li>Quercus durata - Adenostoma fasciculatum [6], [7], [8], [9]</li>
+                
+                    <li>Quercus durata - Adenostoma fasciculatum - Quercus wislizeni [1]</li>
+                
+                    <li>Quercus durata - Adenostoma fasciculatum / Salvia sonomensis [5]</li>
+                
+                    <li>Quercus durata - Arctostaphylos glandulosa [2], [4], [9]</li>
+                
+                    <li>Quercus durata - Arctostaphylos glauca - Artemisia californica / Grass [3]</li>
+                
+                    <li>Quercus durata - Arctostaphylos glauca - Garrya congdonii / Melica torreyana [1], [3]</li>
+                
+                    <li>Quercus durata - Arctostaphylos glauca / Pinus sabiniana [1]</li>
+                
+                    <li>Quercus durata - Arctostaphylos pungens / Pinus sabiniana [1]</li>
+                
+                    <li>Quercus durata - Ceanothus jepsonii [6]</li>
+                
+                    <li>Quercus durata - Cercocarpus montanus [1]</li>
+                
+                    <li>Quercus durata - Frangula californica ssp. tomentella - Arctostaphylos glauca [3]</li>
+                
+                    <li>Quercus durata - Heteromeles arbutifolia - Umbellularia californica [3], [6]</li>
+                
+                    <li>Quercus durata / Pinus sabiniana [1]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Evens, J.M.;Klein, A.;Taylor, J.;Hickson, D.;Keeler-Wolf, T. 2006</li>
+		
+		<li>[2] Evens, J.M.;Kentner, E. 2006</li>
+		
+		<li>[3] Evens, J.;San, S. 2004</li>
+		
+		<li>[4] Keeler-Wolf, T .;Schirokauer, D.;Meinke, J.;van derLeeden, P. 2003a</li>
+		
+		<li>[5] Klein, A.;Crawford, J.;Evens, J.;Keeler-Wolf, T.;Hickson, D. 2007</li>
+		
+		<li>[6] Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>[7] Buck, J.;Evens, J. 2010</li>
+		
+		<li>[8] Sikes, K.;Buck-Diaz, J.;Evens, J. 2021</li>
+		
+		<li>[9] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>Alexander, E.B.;Coleman, R.G.;Keeler-Wolf, T.;Harrison, S. 2007</li>
+		
+		<li>Hanes, T.L. 1977</li>
+		
+		<li>Hanes, T.L. 1981</li>
+		
+		<li>Harrison, S. 1997</li>
+		
+		<li>Harrison, S. 1999</li>
+		
+		<li>Keeley, J.E.;Keeley, S.C. 1988</li>
+		
+		<li>Kruckeberg, A.R. 1951</li>
+		
+		<li>Kruckeberg, A.R. 1984</li>
+		
+		<li>Kruckeberg, A.R. 2006</li>
+		
+		<li>Nixon, K.C. 2002</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/255/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

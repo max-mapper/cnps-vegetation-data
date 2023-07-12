@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Malosma laurina</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Malosma</i> <i>laurina</i></span> Shrubland Alliance <br/>
+        <span class="subtitle">Laurel sumac scrub</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>5-400 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S4
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G4
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA. Baja California, Mexico (TJM2)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>Yes
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2009/09/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/malosma-laurina_04-03_01.jpg', '/static/images/photos/shrub/malosma-laurina_04-03_02.jpg', '/static/images/photos/shrub/malosma-laurina_ironmtn_04-09_01.jpg', '/static/images/photos/shrub/malosma-laurina_ramona_02-10_01.jpg', '/static/images/photos/shrub/malosma-laurina_santamonicamtns_03-02_01.jpg', '/static/images/photos/shrub/malosma-laurina_santamonicamtns_03-02_02.jpg', '/static/images/photos/shrub/malosma-laurina_santamonicamtns_03-02_03.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Malosma</i> <i>laurina</i> is dominant or co-dominant in the shrub canopy with <i>Artemisia</i> <i>californica</i>, <i>Ceanothus</i> <i>megacarpus</i>, <i>Diplacus</i> <i>aurantiacus</i>, <i>Encelia</i> <i>californica</i>, <i>Eriogonum</i> <i>cinereum</i>, <i>Eriogonum</i> <i>fasciculatum</i>, <i>Hesperoyucca</i> <i>whipplei</i>, <i>Heteromeles</i> <i>arbutifolia</i>, <i>Keckiella</i> <i>antirrhinoides</i>, <i>Rhamnus</i> <i>ilicifolia</i>, <i>Rhus</i> <i>integrifolia</i>, <i>Rhus</i> <i>ovata</i>, <i>Salvia</i> <i>leucophylla</i>, <i>Salvia</i> <i>mellifera</i>, <i>Tetracoccus</i> <i>dioicus</i> and <i>Toxicodendron</i> <i>diversilobum</i>. Emergent trees or tall shrubs may be present at low cover, including <i>Juglans</i> <i>californica</i>, <i>Platanus</i> <i>racemosa</i>, <i>Quercus</i> <i>agrifolia</i> or <i>Sambucus</i> <i>nigra</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 5 m; canopy is open or continuous. Herbaceous layer is sparse or grassy. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Malosma laurina</i> is > 50% or is > 30% relative cover if co-dominant with <i>Eriogonum fasciculatum</i> or <i>Salvia mellifera</i> in the shrub canopy (Keeler-Wolf and Evens 2006).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Slopes often steep. Soils are shallow and fine textured.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Sumac series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Malosma laurina shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Riversidean alluvial scrub, Sumac shrub, California sagebrush
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Diegan coastal sage scrub, Granitic southern mixed chaparral, Mafic southern mixed chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Coastal scrub, Mixed chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>45.455.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Mediterranean Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Mediterranean Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>California Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>California Chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Californian maritime chaparral
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Malosma laurina </i>is a large, large-leaved sclerophyllous shrub that grows to 5 m in height. Shrubs produce low, but consistent crops of fleshy drupes. Birds and small mammals dispersed the seeds. The stones accumulate in duff and soil as a seed bank. Seedlings establish in full sun or shade, but survive better in the shade of established shrubs. Seedlings and leaves are sensitive to frost. The species increases in importance in stands as they age (Howard 1992f). <br/>
+<br/>
+This alliance is often overlooked by combining it with other chaparral or coastal scrub types. Many characteristic chaparral genera (<i>Adenostoma, Arctostaphylos, Ceanothus, Quercus</i>) are absent or occur only uncommonly (Rundel 2007). Miller and Poole (1979) described water use of sumacs and other shrubs. The abundance and cover of <i>M. laurina </i>increase with decreasing soil moisture water holding capacity and with higher absolute minimum temperatures (Westman 1981b). Stands at the uppermost elevations and inland relate to the plant’s frost sensitivity (Davis et al. 2007). </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Malosma laurina</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Shrub; evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Medium</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Heat; chemical</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Buds on large branches or trunks; underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>10-100+ years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Unknown</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text"><i>Malosma laurina </i>produces large lignotubers, especially with age, which sprout prodigiously when plants are top-killed by fire. Seeds geminate after being scarified by heat and chemicals. Seed germination is moderate in the post-fire conditions as the shrubs renew their crowns (Howard 1992f ). <i>M. laurina </i>has an advantage over coastal sage scrub species that are not stimulated by fire to germinate. However, it is unclear what the natural fire return interval is for this alliance. The shorter fire return intervals in the past 50 years in southern California may account for its dominance in the shrub canopy and the highly variable species composition among stands.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Short to medium (10-60 years)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Late summer-fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Small—stand size or smaller
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>High
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Low to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Low to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Surface-passive crown fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Southern California
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+            <p>The range of <i>Malosma laurina</i> includes the Central California Coast (261A) to San Luis Obispo Co.</p>
+        
+
+        <ul class="text">
+        
+            <li><b>Southern California Coast</b> (261Bb, Bd-j). Stands occur on the mainland in San Monica Mountains (Keeler-Wolf and Evens 2006) and throughout most of the section where stands have increased in recent decades (S. Davis, pers. comm. 2003, Taylor 2004). The species is known from the southern Channel Islands and stands have been sampled on Santa Catalina Island (Dixon et al. 2019).</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Bf, Bj, Bn). Stands exist in the Puente Hills (S. White 1994c), in central San Diego Co. (Evens and San 2005), and in western Riverside Co. (Klein and Evens 2005).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> <i>Schinus molle </i>and <i>S. terebinthifolius </i>are increasingly naturalizing in stands of this alliance. Stands of <i>Malosma laurina </i>in San Diego Co. have been removed to make way for viticulture.  Brush clearing and frequent fire favor <i>M. laurina </i>and herbs in stands historically dominated by <i>Artemisia californica </i>or <i>Salvia leucophylla</i>. 
+
+Between 2012 to 2016, southern California experienced unprecedented drought, which has caused shrub dieback of <i>M. laurina </i>. Dieback has been severe in coastal exposures of the Santa Monica Mountains, leading to plant mortality exceeding 50% at some sites. Dieback appears to be from drought stress coupled with invasion of an endophytic fungus,<i> Botryosphaeria dothidea</i>, which blocks water transport of xylem leading to branch dieback and eventual whole plant mortality (Sauer et al. 2016, Aguirre et al. 2017). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Malosma laurina [2], [6], [7]</li>
+                
+                    <li>Malosma laurina - Artemisia californica - Eriogonum fasciculatum [8]</li>
+                
+                    <li>Malosma laurina - Eriogonum cinereum [2]</li>
+                
+                    <li>Malosma laurina - Eriogonum fasciculatum - Salvia apiana [3]</li>
+                
+                    <li>Malosma laurina - Eriogonum fasciculatum - Salvia mellifera [1], [2], [3], [5]</li>
+                
+                    <li>Malosma laurina - Lotus scoparius [4], [6]</li>
+                
+                    <li>Malosma laurina - Rhus ovata [2]</li>
+                
+                    <li>Malosma laurina - Tetracoccus dioicus [3]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Brown, D.E.;Lowe, C.H.;Pase, C.P. 1980</li>
+		
+		<li>[2] Keeler-Wolf, T.;Evens, J. 2006</li>
+		
+		<li>[3] Klein, A.;Evens, J. 2005</li>
+		
+		<li>[4] Sproul, F.;Keeler-Wolf, T.;Gordon-Reedy, P.;Dunn, J.;Klein, A.;Harper, K. 2011</li>
+		
+		<li>[5] Evens, J.;San, S. 2005</li>
+		
+		<li>[6] AECOM, 2013</li>
+		
+		<li>[7] Dixon, P. 2019</li>
+		
+		<li>[8] Reyes, E.;Johnson, D.;Glass, A. 2019</li>
+		
+		<li>Aguirre, N.M.;Ochoa, M.E.;Holmlund, H.I.;Ewers, F.W.;Davis, S.D. 2017</li>
+		
+		<li>Howard, J.L. 1992f</li>
+		
+		<li>Keeley, J.E.;Keeley, S.C. 1988</li>
+		
+		<li>Minnich, R.A. 1982</li>
+		
+		<li>Pratt, R.B.;Ewers, F.W.;Lawson, M.C.;Jacobsen, A.L.;Brediger, M.M.;Davis, S.D. 2005</li>
+		
+		<li>Saruwatari, M.W.;Davis, S.D. 1989</li>
+		
+		<li>Sauer, K.E.;Holmlund, H.I.;Reese, S.;Palmeri, G.N. 2016</li>
+		
+		<li>Stillwater Sciences and URS, 2007</li>
+		
+		<li>Westman, W.E. 1981a</li>
+		
+		<li>Westman, W.E. 1981b</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/235/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

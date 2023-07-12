@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Salvia apiana</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Salvia</i> <i>apiana</i></span> Shrubland Alliance <br/>
+        <span class="subtitle">White sage scrub</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>300-1600 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G4
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA. Mexico (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/salvia-apiana_ramona_sandiegoco_02-10_01.jpg', '/static/images/photos/shrub/salvia-apiana_ramona_sandiegoco_02-10_02.jpg', '/static/images/photos/shrub/salvia-apiana_santaysabelranch_01.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Salvia</i> <i>apiana</i> is dominant or co-dominant in the shrub canopy with <i>Artemisia</i> <i>californica</i>, <i>Diplacus</i> <i>aurantiacus</i>, <i>Encelia</i> <i>farinosa</i>, <i>Ericameria</i> spp., <i>Eriogonum</i> <i>fasciculatum</i>, <i>Hesperoyucca</i> <i>whipplei</i>, <i>Isocoma</i> <i>menziesii</i>, <i>Malacothamnus</i> <i>fasciculatus</i>, <i>Malosma</i> <i>laurina</i> and <i>Rhus</i> spp. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Most shrubs < 2 m, some < 0.5 m; canopy is intermittent to continuous and two tiered.
+Herbaceous layer is variable. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Salvia apiana</i> > 50% relative cover in the shrub canopy (Evens and San 2005, Klein and Evens 2005, Dixon et al. 2019).</li>
+		
+		<li><i>Salvia apiana</i> and <i>Artemisia californica</i> occur together as the two most important shrub species in the stand (Dixon et al. 2019).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Dry slopes, benches, and rarely flooded low-gradient deposits along streams. Soils are shallow, coarse loams.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>White sage series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Salvia apiana shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Sage, California sagebrush
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Venturan coastal sage scrub, Diegan coastal sage scrub, Riversidian upland sage scrub, Alluvial fan chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Coastal sage scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Coastal scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>32.030.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Mediterranean Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Mediterranean Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>California Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>California Coastal Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Central and South Coastal Californian coastal sage scrub
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Salvia apiana </i>is an aromatic, rounded, or rangy shrub with a canopy to about 2 m tall, the inflorescences to about 1.5 m above the foliage, and roots to 1.5 m in depth (Montalvo 2002c). Shrubs have aromatic, whitish to pale gray-green leaves, some of which persist throughout the year. Held vertically, leaves fold up during drought, and many drop late in the dry season. Leaves may contain essential oils and other chemicals that deter herbivores. Flowers bloom in the cool season, and they are a rich source of nectar for native and introduced bees. Gravity, harvester ants, and seed caching rodents disperse the seeds. Seedlings emerge in the cool season and take 2 years or more to reach maturity. Seedling establishment occurs in gaps among the shrubs (Montalvo 2002c). <br/>
+<br/>
+<i>Salvia apiana </i>hybridizes with other shrubby <i>Salvia </i>species within its range, and the <i>S. apiana </i>x <i>S. mellifera </i>hybrid occurs now and then, but never enough to dominate a stand. Where their ranges overlap, <i>S. mellifera </i>tends to occur in flatter and wetter microsites, whereas <i>S. apiana </i>takes on drier, well-drained slopes. Hybrids also occur in recently disturbed areas. <br/>
+<br/>
+Stands of <i>Salvia apiana </i>alliance occur on coastal mountain slopes and benches, sometimes on alluvial fans, well inland in the Peninsular and Transverse ranges. Rundel (2007) uses the term “interior sage scrub” to categorize the vegetation commonly including this alliance. At semi-desert localities or extremely xeric, well-drained sites, stands shift to the <i>Eriogonum fasciculatum </i>alliance and may also be associated with the <i>Encelia farinosa </i>alliance. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Salvia apiana</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Shrub; drought deciduous </td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Long</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; gravity</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-sensitive to fire-hardy; no/low sprouter to high sprouter (varies geographically)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>2-50 years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Variable</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>High</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Shrubs often sprout following fire from lignotubers, but fire kills year-old seedlings. Seedlings emerge from the seed bank in the first season after fire, but reported densities are low. However, high-intensity fires kill seeds, and repeated burning kills mature plants (Montalvo 2002c).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Medium (15-70+ years)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Late summer-fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Medium to large; up to or beyond stand size
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low to moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Low to moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>High to very high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Active-independent crown fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Southern California
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast Ranges</b> (M262A). None</li>
+        
+            <li><b>Southern California Coast</b> (261Bb, Be-i). Stands in the Santa Monica Mountains (Keeler-Wolf and Evens 2006) and in San Diego Co. (Evens and San 2005) are either pure or mixed with <i>Eriogonum fasciculatum.</i> Stands are common on Santa Catalina Island (Dixon et al. 2019).</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Ba-d, Bf-g, Bj-l, Bn-p). Stands at Cahuilla Mountain, King Creek, and Millard Canyon RNAs (Cheng 2004), Etiwanda Canyon, the upper Santa Ana River (Hanes et al. 1989), northern San Diego Co. (Evens and San 2005), and western Riverside Co. (Klein and Evens 2005) are from the Transverse and Peninsular ranges.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> <i>Salvia apiana </i>is decreasing in the wildlands (Minnich and Dezzani 1998) with the presence of invasive nonnative grasses and the resulting increased fire frequencies. Successful restoration must create conditions where shrubs can establish, mature, and develop seed banks (Montalvo 2002c). Because this alliance occurs at relatively low slope positions at lower elevations, it has been cleared from many alluvial fans and bajadas throughout its geographic range. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Salvia apiana [4], [5], [6], [7], [8]</li>
+                
+                    <li>Salvia apiana - Artemisia californica [1], [2], [3], [5], [6], [7]</li>
+                
+                    <li>Salvia apiana - Hesperoyucca whipplei [2]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] DeSimone, S.A.;Burk, J.H. 1992</li>
+		
+		<li>[2] Evens, J.;San, S. 2005</li>
+		
+		<li>[3] AECOM, 2013</li>
+		
+		<li>[4] Buck-Diaz, J.;Evens, J.M. 2015</li>
+		
+		<li>[5] Klein, A.;Evens, J. 2005</li>
+		
+		<li>[6] Sproul, F.;Keeler-Wolf, T.;Gordon-Reedy, P.;Dunn, J.;Klein, A.;Harper, K. 2011</li>
+		
+		<li>[7] Dixon, P. 2019</li>
+		
+		<li>[8] Reyes, E.;Johnson, D.;Glass, A. 2019</li>
+		
+		<li>Gordon, H.J.;White, T.C. 1994</li>
+		
+		<li>Keeler-Wolf, T.;Evens, J. 2006</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/290/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

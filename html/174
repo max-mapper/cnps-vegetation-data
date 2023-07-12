@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Cercocarpus ledifolius</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Cercocarpus</i> <i>ledifolius</i></span> Shrubland Alliance <br/>
+        <span class="subtitle">Curlleaf mountain mahogany scrub</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>1200-3200 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S4
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G5
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: AZ, CA, CO, ID, MT, NV, OR, UT (NatureServe 2019)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/cercocarpus-ledifolius_cratercrlookingnorth.jpg', '/static/images/photos/shrub/cercocarpus-ledifolius_leeviningcyn_09-09_01.jpg', '/static/images/photos/shrub/cercocarpus-ledifolius_markleeville_09-09_01.jpg', '/static/images/photos/shrub/cercocarpus-ledifolius_warrenbench_09-09_01.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Cercocarpus</i> <i>ledifolius</i> is dominant or co-dominant in the shrub canopy with <i>Amelanchier</i> <i>alnifolia</i>, <i>Arctostaphylos</i> <i>patula</i>, <i>Artemisia</i> <i>tridentata</i>, <i>Chamaebatiaria</i> <i>millefolium</i>, <i>Chrysothamnus</i> <i>viscidiflorus</i>, <i>Eriogonum</i> <i>umbellatum</i>, <i>Holodiscus</i> <i>discolor</i>, <i>Prunus</i> <i>virginiana</i>, <i>Purshia</i> <i>tridentata</i>, <i>Ribes</i> <i>cereum</i> and <i>Ribes</i> <i>velutinum</i>. Emergent trees may be present at low cover, including <i>Juniperus</i> <i>occidentalis</i>, <i>Juniperus</i> <i>osteosperma</i>, <i>Pinus</i> <i>albicaulis</i>, <i>Pinus</i> <i>balfouriana</i>, <i>Pinus</i> <i>contorta</i> ssp. <i>murrayana</i>, <i>Pinus</i> <i>flexilis</i>, <i>Pinus</i> <i>jeffreyi</i> or <i>Pinus</i> <i>monophylla</i>. The herbaceous layer is typically grassy and associated species include <i>Bromus</i> <i>tectorum</i>, <i>Elymus</i> <i>elymoides</i> and <i>Poa</i> <i>secunda</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text"> Emergent trees may be present. Shrubs < 5 m; canopy is intermittent to open. Herbaceous layer is sparse to intermittent and commonly grassy. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Cercocarpus ledifolius</i> > 50% relative cover in the tall shrub or short tree canopy (Keeler-Wolf et al. 2003b, Thomas et al. 2004).</li>
+		
+		<li><i>Cercocarpus ledifolius</i> is >30% relative cover in the shrub layer. <i>Juniperus occidentalis</i> and <i>Pinus ponderosa</i> may be emergent in the tree layer (Boul et al. 2021b).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Ridges, upper slopes. Soils are shallow, and substrates are usually rocky, dry, and well drained.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Curl leaf mountain mahogany series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Cercocarpus ledifolius shrubland alliance, Cercocarpus ledifolius woodland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Curlleaf mountain mahogany (shrub form), Curlleaf mountain mahogany (tree form)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Great Basin scrub, Big sagebrush scrub, Northern juniper woodland, Great Basin piñon and juniper woodlands, Mojavean piñon woodland, Lower montane coniferous forest, Upper montane coniferous forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Pinyon-juniper woodland, Sagebrush scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Pinyon-juniper, Sagebrush
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>76.200.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Xeromorphic Scrub and Herb Vegetation (Semi-Desert)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Cool Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Cool Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North American Cool Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Inter-Mountain Dry Shrubland and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Intermountain shallow/calcareous soil scrub
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Cercocarpus ledifolius </i>is a long-lived, tall shrub to small tree that is characteristic of nutrient and water deficient environments. Plants mainly reproduce by seed and the wind-dispersed seeds germinate best on well-lighted mineral soil. Seedling survivorship increases under the protection of older plants (Marshall 1995a), while browsing contributes to high seedling mortality.<br/>
+<br/>
+Taxonomic consensus has not been reached on the number of varieties of this taxon. The Jepson Manual recognizes three varieties: var. <i>intermontanus</i>, var. <i>intricatus</i>, and var. <i>ledifolius</i> (Jepson Flora Project 2019). Under this taxonomy, varieties <i>intermontanus</i> and <i>ledifolius</i> are included in this alliance, with var. <i>ledifolius</i> being relatively uncommon compared to var. <i>intermontanus</i>. The USDA PLANTS database recognizes only the two varieties included in this alliance: var. <i>intercedens</i> (a synonym of var. <i>intermontanus</i>) and var. <i>ledifolius</i>. As such, var. <i>intricatus</i> is recognized at the species level as <i>C. intricatus</i> (USDA PLANTS 2001). <i>C. intricatus</i> is included in the <i>Amelanchier utahensis - Cercocarpus montanus - Cercocarpus intricatus</i> alliance (VegCAMP 2020). <br/>
+<br/>
+The alliance occurs in semi-arid, mountainous habitats of the interior western United States, ranging through the high deserts and mountains of California. Species composition and associated alliances vary regionally. Stands are typically small and patchy and occur on sites with immature, coarse soils such as dry ridges, rocky outcrops, and steep slopes. These sites are often unsuitable for the adjacent coniferous woodlands or forests (NatureServe 2019). </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Cercocarpus ledifolius</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Shrub, tree; evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Medium</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; wind</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Stratification—winter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>None (weak sprouting)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-sensitive; high flammability; no/low sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>5-1,000+ years (1350)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">The role of fire on <i>Cercocarpus ledifolius </i>stand establishment and maintenance is unclear in California. Arno and Wilson (1986) reported a 13- to 22-year mean fire return interval for stands of <i>Cercocarpus ledifolius </i>in Idaho. While Schultz et al. (1990) reported all age distributions in a study of <i>C. ledifolius</i> stands in Nevada, which is characteristic of tree-by-tree replacement rather than stand replacing fire. Fire easily kills <i>Cercocarpus ledifolius </i>plants, after which most stand replacement occurs from seed.  Fire suppression has increased fuel loading in east-side stands (Johnson and Smathers 1974). However, increased fuel loading and post-fire stand replacement is ostensibly variable, probably depending on favorable weather for seedling germination and growth. Marshall (1995a) reported both multi-aged and even-aged stands, indicative of variable post-fire response of <i>C. ledifoius </i>. When <i>Cercocarpus ledifolius </i>occurs in other alliances, it usually plays a seral role.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Long
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Summer-early fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Small
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>High
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Low
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Low to moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Surface to passive crown fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Transmontane California
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Klamath Mountains</b> (M261Ac, Ae, Ag, Ai-j, Al, At). Stands are local at montane and subalpine elevations in the central and eastern subsections, including Sugar Creek and Crater Creek cRNAs (Cheng 2004).</li>
+        
+            <li><b>Modoc Plateau</b> (M261Ga-d, Gf-p). Stands are widespread in the Warner Mountains, on escarpments and outcrops throughout Devils Garden, and at Raider Basin cRNA (Jensen and Schierenbeck 1990, see Cheng 2004), and are described generally in the section (Young et al. 1977, 2007).</li>
+        
+            <li><b>Mono</b> (341Da-e, Dh, Dj-l). This alliance is widespread in the rocky highlands of the section. Stands are common on the eastern escarpment of the Sierra Nevada associated with <i>Juniperus grandis</i> and pine alliances (Keeler-Wolf et al. 2003b). Stands in the Lee Vining Canyon area that burned in the past decade show moderate seedling establishment.</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Ba). Stands occupy localized ultramafic substrates, exposed ridges at montane elevations in the section, and on greywacke sandstones in the Yolla Bolly Mountains (Keeler-Wolf and Keeler-Wolf 1976).</li>
+        
+            <li><b>Northwestern Basin and Range</b> (342Bb, Bd). Stands are scattered at higher-elevation ranges as isolated patches among <i>Artemisia</i> steppe types (Young et al. 1977, 2007).</li>
+        
+            <li><b>Sierra Nevada</b> (M261Ea, Ec, Ej-k, En-o, Eq-r, Et). Stands on the eastern slopes and crest are adjacent to those of <i>Pinus jeffreyi, Artemisia tridentata,</i> and <i>Purshia tridentata</i> alliances in Kings Canyon, Sequoia, and Yosemite national parks (Keeler- Wolf et al. 2003b, S. Haultain, pers. comm. 2002), including isolated stands on the western side in the Kern and Kings River drainages on calcareous substrates. Stands are also known near crests above Slinkard Valley (Boul et al. 2021a)</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fe). Stands occur on the upper slopes of the San Emigdio Range.</li>
+        
+            <li><b>Southeastern Great Basin</b> (341Fb-f). Stands are common in the Inyo, Panamint, and White mountains (Thomas et al. 2004), including noncalcareous sites at Whippoorwill Flat RNA (Cheng 2004). Stands are sporadic in the Argus Range at the highest elevations.</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Bb, Bd-e, Bg-h, Bm, Bp). Stands are common on the northern slopes of the San Bernardino and San Gabriel mountains and on the eastern escarpment of the San Jacinto Mountains. The southernmost stands in the state occupy upper, dry slopes on Villager Peak in the Santa Rosa Mountains in Anza-Borrego Desert State Park (Keeler-Wolf et al. 1998b).</li>
+        
+            <li><b>Southern Cascades</b> (M261Da, Dd, Df-m). We know of stands from Goosenest, Medicine Lake Highlands, Mount McGee, and Whaleback Mountain.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> <i>Cercocarpus ledifolius </i>is a slow growing, drought-tolerant species that can inhabit nutrient poor sites. It does not sprout under most conditions and is not well adapted to recovery following high-intensity and extensive fire (Marshall 1995a). Growing in small and clumped stands near ridgetops and on nutrient-poor sites that do not support dense vegetation may provide some protection from fire. Stands in the Great Basin do not exhibit successful seedling recruitment (Schultz et al. 1991), and many stands are being lost in wildfires (Young et al. 2007).  <i>C. ledifolius</i> is valued by native ungulates and is often heavily grazed, especially in winter (NatureServe 2019). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Cercocarpus ledifolius [2], [6]</li>
+                
+                    <li>Cercocarpus ledifolius - Artemisia tridentata [3], [4]</li>
+                
+                    <li>Cercocarpus ledifolius - Artemisia tridentata ssp. vaseyana [6]</li>
+                
+                    <li>Cercocarpus ledifolius / Symphoricarpos rotundifolius [1]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Keeler-Wolf, T.;Schindel, M.;San, S.;Moore, P.;Hickson, D. 2003b</li>
+		
+		<li>[2] Keeler-Wolf, T.;Keeler-Wolf, V. 1976</li>
+		
+		<li>[3] Keeler-Wolf, T.;Thomas, K. 2000</li>
+		
+		<li>[4] Evens, J.M.;Sikes, K.;Hastings, D.;Ratchford,J.S. 2014</li>
+		
+		<li>[6] Boul, R.;Keeler-Wolf, T.;Ratchford, J.;Haynes, T.;Hickson, D.;Yacoub, R.;Harbert, B.;Evens, J. 2021b</li>
+		
+		<li>Arno, S.F.;Wilson, A.E. 1986</li>
+		
+		<li>Cheng, S. 2004</li>
+		
+		<li>Davis, J.N. 1994a</li>
+		
+		<li>Davis, J.N. 1994b</li>
+		
+		<li>Gucker, C.L. 2006a</li>
+		
+		<li>Jepson Flora Project, 2004-present</li>
+		
+		<li>Johnson, A. H.;Smathers, G.A. 1974</li>
+		
+		<li>Keeler-Wolf, T.;Roye, C.;Lewis, K. 1998b</li>
+		
+		<li>Menke, J.;Reyes, E.;Hepburn, A.;Johnson, D.;Reyes, J. 2013</li>
+		
+		<li>NatureServe, 2014+</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Black, H.;Bleich, V.C.;Mincks, J.W. 1980</li>
+		
+		<li>Schultz, B.W.;Tausch, R.J.;Tueller, P.T. 1991</li>
+		
+		<li>Schultz, B.W.;Tueller, P.T.;Tausch, R.J. 1990</li>
+		
+		<li>Thomas, K.;Franklin, J.;Keeler-Wolf, T.;Stine, P. 2004</li>
+		
+		<li>USDA-NRCS (US Department of Agriculture - Natural Resource Conservation Service), Various dates (1999-2021)</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program);AIS, 2013</li>
+		
+		<li>West, N.E. 1988</li>
+		
+		<li>Young, J.A.;Clements, C.D.;Jansen, H.C. 2007</li>
+		
+		<li>Young, J.A.;Evans, R.A.;Major, J. 1977</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/174/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

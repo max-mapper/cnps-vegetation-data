@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Equisetum (arvense, variegatum, hyemale)</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Equisetum</i> (<i>arvense</i>, <i>variegatum</i>, <i>hyemale</i><span style="padding-left: .2em">)</span></span> Herbaceous Alliance <br/>
+        <span class="subtitle">Field horsetail - scouringrush horsetail - variegated scouringrush wet meadow</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Herb
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-3000 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3S4
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>GNR
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>None
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2017/02/22
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/herb/equisetum-hyemale_featherriver_07-2011_01.jpg', '/static/images/photos/herb/equisetum-hyemale_featherriver_07-2011_02.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Equisetum</i> <i>arvense</i>, <i>Equisetum</i> ×<i>ferrissii</i> or <i>Equisetum</i> <i>hyemale</i> is dominant or co-dominant in the herbaceous layer with <i>Avena</i> <i>barbata</i>, <i>Bromus</i> <i>diandrus</i>, <i>Cynodon</i> <i>dactylon</i> or <i>Vulpia</i> <i>myuros</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Herbs < 1.5 m; cover is intermittent to continuous. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Equisetum </i>spp. > 50% relative cover in the herbaceous layer (Buck-Diaz et al. 2012).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Riparian areas, including streambanks, floodplains, edges of levees, seeps, ponds, and riparian forest openings. Soils are alluvial, may be seasonally and/or intermittently flooded. The USFWS Wetland Inventory (1996 national list) recognizes <i>Equisetum arvense </i>as FAC, <i>E. hyemale, E. laevigatum </i>and <i>E.  palustre </i>as FACW, and <i>E. telmateia </i>as OBL plants. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Equisetum (arvense, variegatum, hyemale) semipermanently flooded herbaceous alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Wet grasses and forbs
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Freshwater marsh, Coastal and valley freshwater marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Freshwater marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Fresh emergent wetland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>52.070.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate and Boreal Shrubland and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate and Boreal Freshwater Marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North American Freshwater Marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Western North America Wet Meadow and Low Shrub Carr
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Californian warm temperate marsh/seep
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Equisetum </i> spp. are erect reed-like, perennial, rhizomatous herbs that can reach 3 ft (0.9 m) tall. Their evergreen stems are cylindrical, jointed, hollow, usually unbranched, and have rough longitudinal ridges. The tiny leaves are joined together around the stem, forming a narrow black-green band or sheath at each joint. Like other Pteridophytes (ferns and their relatives), horsetails do not produce flowers or seeds, but reproduce through spores. <i>Equisetum arvense </i> also produces sterile non-reproductive stems while <i>Equisetum hyemale </i> has only fertile spore-producing stems.<br/>
+<br/>
+<i>Equisetum variegatum </i> does not occur in California. <i>Equisetum arvense, E. hyemale </i>, and other <i>Equisetum </i>spp. are widespread throughout California except in the deserts and southern Great Valley. They often produces large colonies of green stems that persist through the winter. These plants are native to California but are considered to be potentially weedy or invasive according to some (Whitson, et al. 1996). The Jepson Manual recognizes <i>Equisetum hyemale </i> ssp. <i>affine </i> with <i>E. hyemale</i> var. <i>californicum</i> and <i>E. hyemale</i> var. <i>robustum</i> as synonyms.<br/>
+<br/>
+Species in the genus <i>Equisetum </i> concentrate silica in their tissue, so that pioneers found the stems suitable for scouring pots and pans. The genus <i>Equisetum </i>has been studied often as a means to understand the evolution of vascular plants. It is the single surviving genus of a class of land-dominating primitive vascular plants that dates back to the mid-Devonian period (350 + million years ago).<br/>
+<br/>
+Although we have little data on this alliance in California, the alliance occurs broadly in the western United States to Canada in wet meadows, streambanks, and ditches (NatureServe 2015). While one association is noted from the Great Valley (<i>Equisetum hyemale</i>), it is expected to be more common in California. More study is needed to understand this alliance in the state. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Equisetum arvense</th>
+			
+		
+			
+			<th>Equisetum ×ferrissii</th>
+			
+		
+			
+			<th>Equisetum hyemale</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Perennial; herb; rhizomatous</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Transient</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Wind; Water</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Moisture</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Underground structures</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Episodic</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Fluvial processes rather than fire primarily disturb the alliance.  However, plants are expected to generate from rhizomes after fire.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Ac-d, Af, Ah, Aj). Small stands observed throughout these subsections.</li>
+        
+            <li><b>Great Valley</b> (262Aa-z). Stands occur in riparian areas within the valley, including streambanks, floodplains, edges of levees, seeps, ponds, and riparian forest openings. Soils may be seasonally and/or intermittently flooded (Buck-Diaz et al. 2012). One stand of <i>Equisetum hyemale</i> observed on the egde of the levee along the Feather River (VegCAMP & GIC 2013).</li>
+        
+            <li><b>Mono</b> (341Da-b, Dh, Dl). Stands observed throughout these subsections.</li>
+        
+            <li><b>Northern California Coast</b> (263Al). Stands expected, based on plant observations in the Consortium of California Herbaria (2018).</li>
+        
+            <li><b>Sierra Nevada</b> (M261Eb, Ed-h, Ej-u). Stands observed throughout these subsections.</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fa-d). Stands are probable throughout these subsections.</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Bd-e, Bg-h). Stands of <i>Equisetum arvense</i> and <i>Equisetum hyemale</i> have been observed along rivers and creeks in the San Gabriel and San Bernardino Moutains.</li>
+        
+            <li><b>Southern Cascades</b> (M261Dl-m). Stands expected, based on plant observations in the Consortium of California Herbaria (2018).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Stands of this and related riparian types have continued impacts including human development, agriculture, transportation corridors, water usage, hydrologic modifications, and changes in climate/weather. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Equisetum hyemale [1]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>NatureServe, 2014+</li>
+		
+		<li>Sullivan, J. 1993c</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program),;GIC, 2013</li>
+		
+		<li>Whitson, T.D.;Burrill, L.C.;Dewey, S.A.;Cudney, D.W.;Nelson, B.E.;Lee, R.D.;Parker, R. 1996</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/557/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

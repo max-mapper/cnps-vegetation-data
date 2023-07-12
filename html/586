@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Adenostoma fasciculatum - Salvia spp.</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Adenostoma</i> <i>fasciculatum</i> - <i>Salvia</i> spp.</span> Shrubland Alliance <br/>
+        <span class="subtitle">Chamise - Sage chaparral</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>10-1700 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S4
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G4
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA. Baja Californica, Mexico (TJM2)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>Yes
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2020/01/31
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/adenostoma-fasciculatum_salvia-mellifera_coyot024_ss.jpg', '/static/images/photos/shrub/adenostoma-fasciculatum_salvia-apiana_ramona_02-10_01.jpg', '/static/images/photos/shrub/adenostoma-fasciculatum_salvia-apiana_ramona_02-10_02.jpg', '/static/images/photos/shrub/adenostoma-fasciculatum_salvia-apiana_ramona_02-10_03.jpg', '/static/images/photos/shrub/adenostoma-fasciculatum_salvia-mellifera_lastrampas_03-02_01.jpg', '/static/images/photos/shrub/adenostoma-fasciculatum_salvia-mellifera_lastrampas_03-02_02.jpg', '/static/images/photos/shrub/adenostoma-fasciculatum_salvia-mellifera_pinnaclesnm_01-06_01.jpg', '/static/images/photos/shrub/adenostoma-fasciculatum_salvia-mellifera_pinnaclesnm_01-06_02.jpg', '/static/images/photos/shrub/adenostoma-fasciculatum-salvia-mellifera_woolseycynsimihills_03-03_01.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Adenostoma</i> <i>fasciculatum</i>, <i>Salvia</i> <i>apiana</i> and <i>Salvia</i> <i>mellifera</i> are co-dominant in the shrub canopy with <i>Arctostaphylos</i> spp., <i>Artemisia</i> <i>californica</i>, <i>Ceanothus</i> spp., <i>Encelia</i> <i>farinosa</i>, <i>Eriodictyon</i> spp., <i>Eriogonum</i> <i>fasciculatum</i>, <i>Hesperoyucca</i> <i>whipplei</i>, <i>Lotus</i> <i>scoparius</i>, <i>Malosma</i> <i>laurina</i>, <i>Quercus</i> <i>berberidifolia</i>, <i>Rhamnus</i> <i>ilicifolia</i>, <i>Rhus</i> <i>ovata</i> and <i>Xylococcus</i> <i>bicolor</i>. Emergent trees may be present at low cover, including <i>Juglans</i> <i>californica</i> or <i>Quercus</i> <i>agrifolia</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 3 m; canopy is open to continuous. Herbaceous layer is sparse to intermittent. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li>Both <i>Adenostoma fasciculatum</i> and <i>Salvia apiana</i> have 30-60% relative cover in the shrub canopy (Gordon and White 1994, Klein and Evens 2005).</li>
+		
+		<li><i>Adenostoma fasciculatum</i> and <i>Salvia mellifera</i> have between 30% and 60% relative cover in the shrub canopy (Gordon and White 1994, Borchert et al. 2004, Keeler-Wolf and Evens 2006).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Lower to upper slopes of all aspects, but especially south to east-facing slopes. Soils are shallow with loamy sand or sandy loam texture and may be rocky.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Chamise-black sage series, Chamise-white sage series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Adenostoma fasciculatum shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Chamise, Lower montane mixed chaparral, Sage
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Chamise chaparral, Coastal sage-chaparral scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Chamise-redshank chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>37.110.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Mediterranean Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Mediterranean Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>California Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>California Chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Californian xeric chaparral
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Adenostoma fasciculatum</i> is a long-lived, shade-intolerant shrub that may grow to 3.5 m on productive sites. Shrubs produce dimorphic seeds after 3 years of age. Some seeds are dormant and others readily germinate, though viability is low. Seeds disperse during the summer and collect near the parent plant and seedlings may emerge during the next rainy season. Dormant seeds accumulate in the soil and are not subject to heavy predation. <i>A. fasciculatum</i> rejuvenates between fires by continually producing new sprouts from a semi-buried lignotuber (McMurray 1990a).<br/>
+<br/>
+<i>Salvia apiana</i> is a rounded or rangy shrub with its canopy to about 1 m tall, the inflorescences to about 1.5 m above the foliage, and roots to 1.5 m in depth. Shrubs have aromatic, whitish to pale gray-green leaves, some of which persist throughout the year. They fold up during drought and many leaves drop late in the dry season. Leaves contain essential oils and other chemicals that deter herbivores. Flowers bloom in the cool season; they are a rich source of nectar for bees. Gravity, harvester ants, and seed-caching rodents disperse the seeds. Seedlings emerge in the cool season and take 2 years or more to reach maturity. Seedling establishment in shrublands occurs in gaps among the shrubs (Montalvo 2002c).<br/>
+<br/>
+<i>Salvia mellifera</i> is an open, shallow-rooted shrub that grows to 2 m in height. Twigs and leaves are glandular and highly aromatic. Plants produce numerous volatile compounds that may be important in herbivore or pathogen defense. They are drought tolerant by leaf curling rather than through leaf drop (Gill and Hanlon 1998) but are still considered to have a suite of drought-deciduous characteristics (Rundel 2007). Winter- and spring-blooming flowers are a rich source of nectar for native and introduced bees. Gravity and ants disperse seeds, which collect in the soil as a seed bank. Seeds often have low germination rates unless exposed to light or components of fire, but heat from fire may reduce germination rates (Keeley and Fotheringham 1998). Seedlings establish in clearings among older shrubs when soils are moist. Plants take two or more growing seasons to reach maturity. Plants sometimes sprout from the base, but recruitment is primarily by seed (Montalvo and McMillan 2002b).<br/>
+<br/>
+Stands have relatively open canopies with a structure and species composition intermediate between chaparral and coastal sage scrub. They occupy warm, well-drained slopes of coastal southern California. Conditions include stabilized alluvium, colluvium, and crystalline basement rocks including granite and gabbro. Holland (1986) used the name “alluvial fan chaparral” for those on alluvium. Recent fires have burned many stands of this alliance. <br/>
+<br/>
+In the <i>A Manual of California Vegetation, Second Edition</i>, stands co-dominated by <i>Adenostoma fasciculatum</i> and <i>Salvia apiana</i> were treated under a separate alliance from stands co-dominated by <i>Adenostoma fasciculatum</i> and <i>Salvia mellifera</i>. With an ecoregion-wide classification analysis done for Southern California (VegCAMP 2020, in progress), we have deemed them to be ecologically similar enough to merge them into a single alliance. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Adenostoma fasciculatum</th>
+			
+		
+			
+			<th>Salvia apiana</th>
+			
+		
+			
+			<th>Salvia mellifera</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Shrub; evergreen</td>
+			
+		
+			
+			<td>Shrub; drought deciduous </td>
+			
+		
+			
+			<td>Shrub; drought deciduous, evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil; transient (dimorphic)</td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short to long</td>
+			
+		
+			
+			<td>Long</td>
+			
+		
+			
+			<td>Long</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; gravity</td>
+			
+		
+			
+			<td>Animal; gravity</td>
+			
+		
+			
+			<td>Animal; gravity; wind</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Chemical; heat (photoperiod/insulation)</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Buds on large branches or trunks; buds on small branches; underground structures</td>
+			
+		
+			
+			<td>Underground structures</td>
+			
+		
+			
+			<td>Underground structures (variable by geography and by age of plant)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; high flammability; high sprouter; canopy architecture susceptible</td>
+			
+		
+			
+			<td>Fire-sensitive to fire-hardy; no/low sprouter to high sprouter (varies geographically)</td>
+			
+		
+			
+			<td>Fire-sensitive; high flammability; no/low sprouter to fire-hardy; high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>3-150+ years</td>
+			
+		
+			
+			<td>2-50 years</td>
+			
+		
+			
+			<td>2-50 years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Episodic</td>
+			
+		
+			
+			<td>Variable</td>
+			
+		
+			
+			<td>Episodic? (variable)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>High</td>
+			
+		
+			
+			<td>Soil; sprouting ability varies with coastal vs. inland populations</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text"><i>Adenostoma fasciculatum </i>is less sensitive to fire; recruitment is from adventitious buds sprouting from semi-buried lignotubers (McMurray 1990a) and from the seed bank. Heat and charcoal stimulate the dormant seeds to germinate during the first rainy season (Keeley and Fotheringham 1998). Seedling production can be high but extremely variable, and seedling losses are usually high in the first few years (Horton and Kraebel 1955, Keeley and Soderstrom 1986, Moreno and Oechel 1991, 1992). In addition, seedling growth rates are much slower than those of the sprouts (Mills 1983). 
+<i>Salvia apiana </i>sprouts differently after a fire depending on location (Kirkpatrick and Hutchinson 1977). Seedlings emerge from the seed bank in the first season after fire, but reported densities are low. In addition, high-intensity fires kill seeds, and repeated burning kills mature plants (Montalvo 2002c).
+<i>Salvia mellifera </i>is particularly sensitive to fire; recruitment is primarily from seed after fires and during intervals between fires (Horton and Kraebel 1955, Montalvo and McMillan 2002b). Seeds have low germination rates unless exposed to light, but heat of fire reduces germination rates. Shrubs of <i>S. mellifera </i>sometimes sprout at root crowns following a fire. The youngest plants have a higher sprouting success than older plants (Keeley 2006).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Medium (30-60 years)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Late summer-fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Medium to large—up to and beyond stand
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>High to very high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>High to very high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Active-independent crown fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Throughout range
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Ac, Af-g, Aj-l). Stands exist in the foothills and mountains such as in the Santa Lucia Mountains (Borchert et al. 2004; Hepburn et al 2013) and as far north as Mount Diablo and the East Bay Hills in Contra Costa Co. (Ertter and Bowerman 2002). This alliance was sampled in Las Trampas Regional Park in Contra Costa County, Toro County Park in Monterey County, and Morro Rock State Park in San Luis Obispo County.</li>
+        
+            <li><b>Central California Coast Ranges</b> (M262Aa-f, Ah, Aj). Stands were sampled and mapped in the Caliente Range (VegCAMP 2015b) and likely extend to the upper Cuyama Valley.
+Stands have been described in the Diablo Range including the Coyote Ridge (Evens and San 2004) and the San Benito Mountain areas (Evens et al. 2006). Stands have been mapped in the Gabilan Range (Aerial Information Systems 2006). Stands were sampled in Pinnacles National Park (Kittel et al 2009).</li>
+        
+            <li><b>Southern California Coast</b> (261Ba-b, Bd-g, Bi-j). Stands with <i>Salvia mellifera</i> in the Santa Monica Mountains (Keeler-Wolf and Evens 2006) and throughout the section have <i>Malosma laurina</i> as the differential species at high constancy values. Many stands are seral and have <i>Hazardia squarrosa</i> and <i>Lotus scoparius.</i>  Stands with <i>Salvia apiana</i> occur in inland portions of the northern Los Angeles Basin, Simi Valley, and have been mapped in the Santa Susana Mountains (Reyes et al. 2019). Stands have been classified and mapped in Laguna Hills and the Santa Ana Mountains in Orange County (AECOM 2013) and sampled east of Encinitas in San Diego County (Sproul et al 2011).</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Ba-d, Bf-g, Bj-l, Bn-o). Stands of the <i>Adenostoma fasciculatum-Salvia mellifera</i> association are common in the section (Gordon and White 1994). Seral stands reported for the inland Santa Monica Mountains (Keeler-Wolf and Evens 2006) are similar to those in westernmost Riverside Co. (Klein and Evens 2005). The more inland stands tend to have a higher proportion of chaparral species. Stands are known from the Canada de San Vicente CDFW property in eastern San Diego County, which tend to be small and often mixed.
+
+Stands co-dominated with <i>Salvia apiana</i> are uncommon throughout the section, and stands are absent from the higher elevations of the mountains. For example, CDFW (2005) mapped only 11 stands covering about 275 ha in all of western Riverside Co. Descriptions come from the Transverse and Peninsular ranges (Gordon and White 1994), in the Santa Ana Mountains (Klein and Evens 2005), and in central San Diego Co. (Evens and San 2005).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Stands co-dominated by <i>Adenostoma fasciculatum</i> and <i>Salvia apiana</i> are decreasing in wildlands (Minnich and Dezzani 1998) with the presence of invasive grasses and the resulting increased fire frequencies. Successful restoration needs to create conditions where shrubs can establish, mature, and develop seed banks. Because stands often exist on relatively low slope positions at lower elevations, development has destroyed stands throughout the greater Los Angeles Basin and the rest of southern California.
+
+<i>Adenostoma fasciculatum </i>is adapted to intense, fast-spreading, potentially large fires, the probability of which increases as stands mature. Stands develop sufficient fuel loadings within 15 years for intense fires, and many stands occur in the urban-wildland interface; <i>Salvia mellifera </i>populations are declining in wildland settings in south coast California. The invasion of annual grasses has increased fire frequency and reduced native seed banks. <i>Lolium perenne, </i>a grass commonly used for revegetation following fire, inhibits <i>A. fasciculatum </i>growth and seedling establishment. Fires occurring at short intervals have the potential to cause significant changes in species density and stand composition. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Adenostoma fasciculatum - (Eriogonum fasciculatum - Salvia mellifera) [3], [12], [13]</li>
+                
+                    <li>Adenostoma fasciculatum - Salvia apiana [2]</li>
+                
+                    <li>Adenostoma fasciculatum - Salvia apiana - Artemisia californica [1], [5], [9]</li>
+                
+                    <li>Adenostoma fasciculatum - Salvia mellifera [2], [3], [4], [5], [6], [7], [8], [10], [11]</li>
+                
+                    <li>Adenostoma fasciculatum - Salvia mellifera - Artemisia californica [5]</li>
+                
+                    <li>Adenostoma fasciculatum - Salvia mellifera - Ceanothus crassifolius [5]</li>
+                
+                    <li>Adenostoma fasciculatum - Salvia mellifera - Malosma laurina [4]</li>
+                
+                    <li>Adenostoma fasciculatum - Salvia mellifera - Rhus ovata [4]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Evens, J.;San, S. 2005</li>
+		
+		<li>[2] Gordon, H.J.;White, T.C. 1994</li>
+		
+		<li>[3] Hogan, D.C.;Sawyer, J.O.;Saunders, C. 1996</li>
+		
+		<li>[4] Keeler-Wolf, T.;Evens, J. 2006</li>
+		
+		<li>[5] Klein, A.;Evens, J. 2005</li>
+		
+		<li>[6] Evens, J.M.;Klein, A.;Taylor, J.;Hickson, D.;Keeler-Wolf, T. 2006</li>
+		
+		<li>[7] Kittel, G.;Reyes, E.;Evens, J.;Buck, J.;Johnson, D. 2012</li>
+		
+		<li>[8] Buck-Diaz, J.;Evens, J. 2011b</li>
+		
+		<li>[9] Buck-Diaz, J.;Evens, J. 2011a</li>
+		
+		<li>[10] Reyes, E.;Johnson, D.;Glass, A. 2019</li>
+		
+		<li>[11] Evens, J.;San, S. 2004</li>
+		
+		<li>[12] Sproul, F.;Keeler-Wolf, T.;Gordon-Reedy, P.;Dunn, J.;Klein, A.;Harper, K. 2011</li>
+		
+		<li>[13] AECOM, 2013</li>
+		
+		<li>Gray, J.T. 1982</li>
+		
+		<li>Gray, J.T. 1983b</li>
+		
+		<li>Hanes, T.L. 1977</li>
+		
+		<li>Hanes, T.L. 1981</li>
+		
+		<li>Hanes, T.L. 1994</li>
+		
+		<li>Horton, J.S. 1960</li>
+		
+		<li>Keeley, J.E. 1993a</li>
+		
+		<li>Keeley, J.E. 1993b</li>
+		
+		<li>Keeley, J.E. 2006</li>
+		
+		<li>Keeley, J.E.;Keeley, S.C. 1977</li>
+		
+		<li>Keeley, J.E.;Keeley, S.C. 1988</li>
+		
+		<li>McMurray, N. 1990a</li>
+		
+		<li>Menke, J.;Reyes, E.;Hepburn, A.;Johnson, D.;Reyes, J. 2013</li>
+		
+		<li>Montalvo, A.M. 2002c</li>
+		
+		<li>Montalvo, A.M.;McMillan, P.A. 2002b</li>
+		
+		<li>Pase, C.P. 1982a</li>
+		
+		<li>Patric, J.H.;Hanes, T.L. 1964</li>
+		
+		<li>Schmida, A.;Whittaker, R.H. 1981</li>
+		
+		<li>Shiflet, T.N. 1994</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program);AIS, 2013</li>
+		
+		<li>Vogl, R.J.;Schorr, P.K. 1972</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/586/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

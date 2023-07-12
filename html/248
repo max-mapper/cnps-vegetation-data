@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Prunus virginiana</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Prunus</i> <i>virginiana</i></span> Shrubland Alliance <br/>
+        <span class="subtitle">Choke cherry thickets</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>100-2700 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S4
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G4
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>CAN. USA: CO, ID, MT, NM, NV, OR, SD, UT, WA, WY (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2009/09/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/prunus-virginiana_klamathnf-neartaylorlake_07-13_01.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Prunus</i> <i>subcordata</i> and/or <i>Prunus</i> <i>virginiana</i> is dominant or co-dominant in the shrub canopy with <i>Ericameria</i> <i>nauseosa</i>, <i>Eriogonum</i> <i>fasciculatum</i>, <i>Frangula</i> <i>californica</i>, <i>Rhus</i> <i>trilobata</i>, <i>Ribes</i> <i>cereum</i>, <i>Ribes</i> <i>velutinum</i>, <i>Rosa</i> <i>californica</i>, <i>Rosa</i> <i>woodsii</i>, <i>Sambucus</i> <i>nigra</i>, <i>Symphoricarpos</i> <i>mollis</i> and <i>Toxicodendron</i> <i>diversilobum</i>. Associated herbs include <i>Bromus</i> <i>tectorum</i>, <i>Elymus</i> <i>elymoides</i> and <i>Leymus</i> <i>cinereus</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 8 m; canopy is open to continuous. Herbaceous layer is sparse. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Prunus virginiana</i> >30% relative cover in the shrub layer (Boul et al. 2021b).</li>
+		
+		<li><i>Prunus virginiana</i> >50% relative cover in the shrub layer; found in moist draws and dry ravines, sometimes on serpentinite (Buck-Diaz et al. 2012).</li>
+		
+		<li><i>Prunus virginiana</i> >50% relative cover in the shrub overstory. Other shrubs may be present at lower cover including <i>Rhamnus</i> spp., <i>Rosa californica, Sambucus nigra, Symphoricarpos mollis</i>, etc. (Evens and San 2005).</li>
+		
+		<li><i>Prunus subcordata</i> >60% relative cover in the shrub layer with <i>Ericameria nauseosa, Prunus virginiana</i>, and/or <i>Ribes velutinum</i> (Boul et al. 2021b).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Rock outcrops, draws, stream terraces. Typically found on rocky, moderately steep to steep north-facing slopes. The USACE Wetland Inventory (2018 national list) recognizes <i>Prunus virginiana</i> as a FAC plant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Prunus virginiana shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Great Basin mixed scrub, Great Basin-Mixed chaparral transition, Lower montane mixed chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Montane chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Mixed conifer forest, Sagebrush scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Mixed chaparral, Montane chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>37.905.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate and Boreal Shrubland and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate Grassland, Meadow, and Shrubland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Vancouverian and Rocky Mountain Grassland and Shrubland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Western Cordilleran Montane Shrubland and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Western Cordilleran montane deciduous scrub
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Prunus virginiana </i>is a deciduous, thicket-forming erect shrub or small tree to 8 m tall. Plants have a network of rhizomes and a deep root system. The inflorecences are showy, sometimes pendent, racemes of white flowers. Birds and mammals eat the fleshy drupes and may disperse seeds long distances. Plants often grow along fencerows. Two varieties of <i>Prunus virginiana</i> are known in North America: <i>P. virginiana</i> var. <i>virginiana</i> grows in the eastern US and Canada. The western variety, <i>P. virginiana</i> var. <i>demissa</i> is found along the west coast North America, and in the southwestern US. The western variety (var. <i>demissa</i>) is less treelike than the eastern variety (var. <i>virginiana</i> , and the fruits are dark red instead of blackish (Johnson 2000c, Welch 2002). Although <i>P. virginiana</i> var. <i>demissa</i> is native to California, var. <i>virginiana</i> is sometimes cultivated (The Jepson Manual 2012).<br/>
+<br/>
+In California, <i>Prunus virginiana</i> typically grows on rocky slopes, in canyons, scrubland, oak or pine woodlands and conifer forests. In San Diego county, <i>P. virginiana</i> is associated with other cold-deciduous shrubs such as <i>Rhamnus</i> spp., <i>Rosa californica, Sambucus nigra,</i> and <i>Symphoricarpos mollis</i> (Evens and San 2005). In central California, stands of this alliance are primarily found in moist draws and dry ravines, particularly in the coast ranges adjacent to the central valley (Buck-Diaz et al. 2012). In the Modoc region, stands of <i>P. virginiana</i> are typically found on rocky, moderately steep to steep, north-facing slopes (Boul et al. 2021b). <br/>
+<br/>
+<i>Prunus subcordata</i> is a deciduous, thicket-forming shrub or small tree which may reach 2 to 7.5 meters in height, with stiff branches sometimes ending in thorny points. The inflorescences consist of showy, white to pink flowers in clusters of 1 to 7. Fruits are red to reddish purple or occasionally yellow, fleshy or dry drupes (Stuart and Sawyer 2001). Several varieties have been separated based primarily on variability in the fruit: var. <i>kelloggii</i> bears large, sweet, yellow fruits; var. <i>rubicunda</i> bears smaller, bright red, bitter fruits; and var. <i>oregana</i> bears puberulent fruits from densely hairy ovaries. Study is needed to determine if these varieties merit recognition, herbaria specimen are few and collections are lacking (Flora of North America 1993+).<br/>
+<br/>
+The distribution of <i>Prunus subcordata</i> is restricted to California and southern Oregon. In California, it grows on rocky slopes or stream banks, in chaparral, pine-oak woodlands, or juniper-oak woodlands. Only a small number of <i>P. subcordata</i> stands have been sampled. In the Modoc region, stands of <i>P. subcordata</i> were found on the middle to upper portions of rocky, moderately steep, northeast-facing slopes. Associated species in these stands were typically sparse in cover and included <i>Juniperus occidentalis, Ericameria nauseosa, Prunus virginiana,</i> and<i> Ribes velutinum</i> (Boul et al. 2021b). </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Prunus subcordata</th>
+			
+		
+			
+			<th>Prunus virginiana</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Polycarpic perennial; tree, shrub; deciduous</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Soil stored</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Short (?)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Animal</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Scarification; Heat</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Fire-hardy</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Medium</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text"><i>Prunus virginiana</i> can be top-killed by fire but will resprout prolifically. Seed germination is also improved by heat, which may add to postfire regeneration. Following fire, <i>P. virginiana</i> shrubs appear to generally increase in number and density before returning to prefire condition after a number of years (Johnson 2000c).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+            <p>Since sampling and mapping projects have not been completed for the entire state, probable or expected stands mentioned in a given region are based on CCH and Calflora records (Consortium of California Herbaria 2018; Calflora 2018) paired with the known presence of habitat conditions suitable for stands to form.</p>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast Ranges</b> (M262Ac, Ae). Probable stands in limited areas of this region.</li>
+        
+            <li><b>Klamath Mountains</b> (M261Ae, Ag, Aj-l, At). Expected stands.</li>
+        
+            <li><b>Modoc Plateau</b> (M261Ga-p). Stands have been sampled and mapped all throughout this region.  Typically found on north-facing, rocky, and steep slopes.  (Boul et al. 2021b).</li>
+        
+            <li><b>Mono</b> (341Da-b). Probable stands.</li>
+        
+            <li><b>Northwestern Basin and Range</b> (342Ba-b, Bd-e). Mapped and recorded stands are present in mountainous areas throughout the region (Boul et al. 2021b).  A few mapped stands fell within the bounds of the Madeleine Plain.</li>
+        
+            <li><b>Sierra Nevada</b> (M261Ea, Ec-d, Eg, Ej, Em-n, Ep, Es-t). Expected stands throughout region.  Sampled stands in the Doyle-Loyalton project area, with stands expected to be mapped upon completion (Ratchford et al. 2021b, in progress).</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fc-e). Some recorded stands throughout the region, including within Sequoia National Forest and the Wind Wolves Preserve (Ratchford et al. 2021a, in progress).</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Ba, Bd-e, Bg-h, Bo). Evens and San (2005) described the alliance as disjunct stands at Volcan Mountain in the Palomar-Cuyamaca Peak region.  Expected stands in other subsections.</li>
+        
+            <li><b>Southern Cascades</b> (M261Df-h, Dj). Expected stands throughout this region;  recorded stands in Lava Beds National Monument (DiPaolo et al. 2015).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> <i>Prunus virginiana</i> foliage can be used as browse by large mammals, including occasionally by livestock such as cattle and sheep. Fresh foliage can cause poisoning in livestock, but consumption of fatal quantities is rare. The fruits are eaten by small mammals and are an important resource for several species of birds. Plants can act as habitat and/or cover for birds, mammals and livestock as well as providing erosion control and thermal cover in fisheries (Johnson 200c).
+
+<i>Prunus virginiana</i> can be top-killed by fire but will resprout prolifically. Seed germination is also improved by heat, which may add to postfire regeneration. Following fire, <i>P. virginiana</i> shrubs appear to generally increase in number and density before returning to prefire condition after a number of years (Johnson 2000c). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Prunus subcordata [2]</li>
+                
+                    <li>Prunus virginiana [1]</li>
+                
+                    <li>Prunus virginiana - Symphoricarpos rotundifolius [2], [3]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>[2] Boul, R.;Keeler-Wolf, T.;Ratchford, J.;Haynes, T.;Hickson, D.;Yacoub, R.;Harbert, B.;Evens, J. 2021b</li>
+		
+		<li>[3] DiPaolo, D.A.;Smith, S.B.;Odion, D.C.;Ives, J.H.;Sarr, D.A. 2015</li>
+		
+		<li>Evens, J.;San, S. 2005</li>
+		
+		<li>Flora of North America Editorial Committee, 1993+</li>
+		
+		<li>Jepson Flora Project, 2004-present</li>
+		
+		<li>Johnson, K.A. 2000</li>
+		
+		<li>Johnson, K.A. 2000c</li>
+		
+		<li>Ratchford, J.;Boul, R.;Keeler-Wolf ,T.;Evens, J. 2022b (in progress)</li>
+		
+		<li>Ratchford, J.;Boul, R.;Keeler-Wolf, T.;Evens, J. 2022a (in progress)</li>
+		
+		<li>Stuart, J.D.;Sawyer, J.O. 2001</li>
+		
+		<li>UCB (University of California Berkeley), 2004-present</li>
+		
+		<li>Welch, B.L. 2002</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/248/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

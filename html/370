@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Centromadia (pungens)</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Centromadia</i> (<i>pungens</i><span style="padding-left: .2em">)</span></span> Herbaceous Alliance <br/>
+        <span class="subtitle">Tar plant fields</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Herb
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-900 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S2
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G2
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA (CNPS data) (TJM2)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>Yes
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2009/09/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/herb/centromadia-%28pungens%29_semitropicridge_semi0504-1186_03-10.jpg', '/static/images/photos/herb/centromadia-%28pungens%29_semitropicridge_semi0509-963_03-10.jpg', '/static/images/photos/herb/centromadia-%28pungens%29_semitropicridge_semi0509-969_03-10.jpg', '/static/images/photos/herb/centromadia-%28pungens%29_pixleynwr_c04291152-4283_04-08.jpg', '/static/images/photos/herb/centromadia-%28pungens%29_pixleynwf_j04291108_04-08.jpg', '/static/images/photos/herb/centromadia-%28pungens%29_mdra0019_04-11.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Centromadia</i> <i>pungens</i> and/or another <i>Centromadia</i> species is conspicuous to dominant in the herbaceous layer with <i>Atriplex</i> spp., <i>Bromus</i> spp., <i>Deschampsia</i> <i>danthonioides</i>, <i>Downingia</i> <i>bella</i>, <i>Erodium</i> <i>cicutarium</i>, <i>Frankenia</i> <i>salina</i>, <i>Hirschfeldia</i> <i>incana</i>, <i>Hordeum</i> <i>murinum</i>, <i>Lasthenia</i> <i>californica</i>, <i>Lasthenia</i> <i>fremontii</i>, <i>Trifolium</i> <i>depauperatum</i> and <i>Trifolium</i> <i>variegatum</i>. Emergent shrubs may be present at low cover, including <i>Suaeda</i> <i>moquinii</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Herbs < 1 m; cover is intermittent. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Centromadia pungens</i> > 30% relative cover in the herbaceous layer (Klein and Evens 2005).</li>
+		
+		<li><i>Centromadia pungens, Deschampsia danthonioides, Trifolium</i> spp., <i>Phalaris lemmonii, Medicago polymorpha,</i> and <i>Downingia bella</i> present in the herbaceous layer (Barbour et al. 2007).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Vernally wet habitats, including edges of alkaline pools, bottoms of shallow pools, and alkaline flats with periodic or intermittent inundation. Soils are fine-textured alluvium, sometimes underlain by claypan or another impervious layer, poorly drained. The USFWS Wetland Inventory (1996 national list) recognizes <i>Centromadia (Hemizonia) pungens</i> as a FAC plant and other <i>Centromadia</i> spp. as FAC or FACU plants. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Northern claypan vernal pool habitat, San Jacinto Valley vernal pool habitat
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Annual grasses and forbs, Wet grasses and forbs, Vernal pool
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Wildflower field, Northern claypan vernal pool, San Diego Mesa claypan vernal pool
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Valley grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Annual grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>44.160.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate and Boreal Shrubland and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate and Boreal Freshwater Marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North American Freshwater Marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Western North America Vernal Pool
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Californian mixed annual/perennial freshwater vernal pool / swale bottomland
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Centromadia pungens </i>is a late-flowering summer annual that germinates in the spring, not winter, and blooms and fruits after many of the spring annuals have gone to seed. Plants tend to occur in heavy or poorly drained soils. <i>Centromadia </i>is one of six genera segregated from <i>Hemizonia </i>(Baldwin 2000). These genera are adapted particularly to seasonal climates in western North America. <br/>
+<br/>
+The range of <i>C. pungens </i>includes the lowlands of cismontane California. The species includes eight subspecies that may have similar ecologies. Five are rare, CNPS 1B list 4 plants. <i>C. pungens </i>ssp. <i>leavis </i>is a CNPS list 1B.1 plant. Sampled stands include one of the several vernal pool and playa alliances that occupy the claypan vernal pool habitat (Holland 1986) in California. <br/>
+<br/>
+<i>Centromadia pungens </i>is indicative of fine-textured clay soils, which are usually associated with seasonal saturation or flooding and alkalinity. These conditions typically occur in alkali vernal pools or swales, but may also occur on broad flats underlain by fine alkaline soils. Barbour et al. (2007b) defined stands of <i>C. pungens </i>in a recent regional treatment of vernal pools as part of the <i>Lasthenia fremontii</i>-<i>Distichlis spicata </i>(<i>Frankenia salina</i>) alliance, restricted to alkaline or saline pools in the southern Sierra Nevada foothills. However, <i>C. pungens </i>stands on vernal flats of southern California (Klein and Evens 2005), stands in vernal pools of the southern foothills, and stands in high marshes of the San Francisco Bay (Baye et al. 2000) can lack the strong presence of <i>D. spicata </i>and <i>Frankenia salina</i>. We consider the <i>Centromadia</i> (<i>pungens</i>) alliance as appropriately distinct from the other vernal pool and salt marsh alliances. <br/>
+<br/>
+Another tar plant, <i>C. fitchii, </i>occurs commonly throughout cismontane California. Barbour et al. (2007b) considered it a moderately present vernal pool plant indicator of the <i>Downingia bicornuta-Lasthenia fremontii </i>order, but not a strong indicator at the alliance or association levels. <i>C. fitchii </i>also occurs regularly in grasslands with clay soils, including serpentine areas. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Centromadia pungens</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Annual; herb</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Unknown</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; gravity</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-sensitive; high flammability</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>One year</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Low to high (variable)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text"></div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Short
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Early fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Up to stand size
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Moderate to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Moderate to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Surface fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Southern California
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Ab, Ad). Stands occur scattered along edges of salt marshes in natural and restored sites around the San Francisco Bay and in high tidal brackish marshes of San Pablo Bay and Suisun Marsh. <i>Centromadia pungens</i> ssp. <i>maritima</i> is dominant with <i>Baccharis douglasii, Euthamia occidentalis, Symphyotrichum chilense,</i> and <i>S. subulatum</i> (Baye et al. 2000). Stands with <i>C. parryi</i> ssp. <i>parryi</i> and ssp. <i>congdonii</i> were locally common in the South Bay salt marshes in the past (Munz 1959), as were stands of <i>C. pungens</i> ssp. <i>maritima,</i> but they are scarce today.</li>
+        
+            <li><b>Great Valley</b> (262Ag, Au-z). Observations from the southern San Joaquin Valley include reports of summer flowering <i>C. pungens,</i> covering parts of the section (Webster 1981); they occur on alkaline flats.</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fc-d). Stands include a relatively uncommon association of small (< 200 m2), shallow, claypan vernal pools in the southern subsections (Barbour et al. 2007b). The pools have <i>Medicago polymorpha, Phalaris lemmonii,</i> and <i>Trifolium</i> spp. on low-terrace landforms on the Riverbank geomorphic surface.</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Bf, Bk). Stands occupy edges of vernal flats in western Riverside Co.; they have an assortment of nonnative and native species, including <i>Croton setigerus</i> and <i>Lasthenia californica.</i></li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text">  </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Centromadia pungens - Downingia bella [1]</li>
+                
+                    <li>Centromadia pungens - Lepidium dictyotum [3], [4], [5]</li>
+                
+                    <li>Centromadia pungens ssp. laevis [2]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Barbour, M.G.;Solomeshch, A.I.;Buck, J.J. 2007b</li>
+		
+		<li>[2] Klein, A.;Evens, J. 2005</li>
+		
+		<li>[3] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>[4] Buck-Diaz, J.;Ratchford, J.;Evens, J. 2013</li>
+		
+		<li>[5] Buck-Diaz, J.;Harbert, B.;Evens, J. 2011</li>
+		
+		<li>Baldwin, B.G. 2000</li>
+		
+		<li>Baye, P.R.;Faber, P.M.;Grewell, B. 2000</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/370/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

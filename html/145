@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Atriplex confertifolia</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Atriplex</i> <i>confertifolia</i></span> Shrubland Alliance <br/>
+        <span class="subtitle">Shadscale scrub</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>450-2500 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S4.2
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G5
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: AZ, CA, CO, ID, MT, NV, OR, UT, WY (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/atriplex-confertifolia_amargosadesert_10-99.jpg', '/static/images/photos/shrub/atriplex-confertifolia_dantesview_10-99_01.jpg', '/static/images/photos/shrub/atriplex-confertifolia_dantesview_10-99_02.jpg', '/static/images/photos/shrub/atriplex-confertifolia_a-canescens_assocarmagosadesert_10_99.jpg', '/static/images/photos/shrub/atriplex-confertifolia_achnatherum-hymenoides_lowercentennialflat.jpg', '/static/images/photos/shrub/atriplex-confertifolia_leeflat_01-98_01.jpg', '/static/images/photos/shrub/atriplex-confertifolia_menodoraassn_dantesview_10-99_02.jpg', '/static/images/photos/shrub/atriplex-confertifolia_menodoraassn_dantesview_10-99_01.jpg', '/static/images/photos/shrub/atriplex-confertifolia_polycarpa_hymenelytra_tecopa_10-99.jpg', '/static/images/photos/shrub/atriplex-confertifolia_redrockcynsp_04-93_01.jpg', '/static/images/photos/shrub/atriplex-confertifolia_redrockcynsp_04-93_02.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Atriplex</i> <i>confertifolia</i> is dominant or co-dominant in the shrub canopy with <i>Ambrosia</i> <i>dumosa</i>, <i>Atriplex</i> <i>polycarpa</i>, <i>Atriplex</i> <i>spinifera</i>, <i>Chrysothamnus</i> <i>viscidiflorus</i>, <i>Coleogyne</i> <i>ramosissima</i>, <i>Encelia</i> <i>actonii</i>, <i>Encelia</i> <i>virginensis</i>, <i>Ephedra</i> <i>nevadensis</i>, <i>Eriogonum</i> <i>heermannii</i>, <i>Grayia</i> <i>spinosa</i>, <i>Gutierrezia</i> <i>microcephala</i>, <i>Krascheninnikovia</i> <i>lanata</i>, <i>Larrea</i> <i>tridentata</i>, <i>Lycium</i> <i>andersonii</i>, <i>Picrothamnus</i> <i>desertorum</i>, <i>Sarcobatus</i> <i>vermiculatus</i> and <i>Tetradymia</i> <i>axillaris</i>. Emergent, taller shrubs may be present at low cover. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 1 m; canopy is open to continuous. Herbaceous layer is sparse to abundant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Atriplex confertifolia</i> ≥ 2% absolute cover in the shrub canopy; no other species with greater cover, with the exception of woody subshrubs such as <i>Krameria</i> spp. (Thomas et al. 2004).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Bajadas, flats, lower slopes, rocky hills, exposed bedrock, erosional highlands, valleys, minor rills, washes, and edges of playas. Soils are variable: may be carbonate rich, clay rich, or have a high sand content, and may be covered with desert pavement. The USFWS Wetland Inventory (1996 national list) recognizes <i>Atriplex confertifolia</i> as a UPL plant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Shadscale series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Atriplex confertifolia shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Shadscale, Alkaline mixed scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Shadscale scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Shadscale scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Alkali desert scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>36.320.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Xeromorphic Scrub and Herb Vegetation (Semi-Desert)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Cool Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Cool Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North American Cool Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Cool Semi-Desert Alkali-Saline Flats
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Shadscale-saltbush cool semi-desert scrub
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Atriplex confertifolia </i>is a dioecious shrub that reproduces by seed that collects in a seed bank. The mechanisms behind seed germination are unclear, but seed bracts appear to be a mechanical barrier and must break down before seeds can germinate. Shrubs are not typically long-lived. Prolonged drought tends to kill the most mature shrubs. However, following rain, seedlings establish, and stands tend to wax and wane with precipitation patterns. Plants establish readily following mechanical treatments (Simonin 2001a). <br/>
+<br/>
+Stands make up one of the major regional vegetation types of the Great Basin, and the alliance ranges widely in California. Shrubs exist in low alkali basins, across extensive intermountain flats, and on rocky, upland soils. Plants prefer well-drained, moderately saline soils where groundwater is below the rooting zone. A high chromosomal variation may enable plants to occupy a variety of ecological settings. Diploid individuals grow in rocky uplands; tetraploids typically occur in basins as nearly pure stands. Male plants are much more common on harsher sites than female ones (Simonin 2001a). </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Atriplex confertifolia</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Shrub; evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Medium</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Wind</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; low flammability</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>5-100+ years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>High</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Moderate</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Historically, fire did not affect open stands. However, <i>Bromus tectorum </i>and other non-native annual grasses have invaded sites with <i>Atriplex confertifolia, </i>and these grasses readily carry fire through many stands. <i>A. confertifolia </i>is fire intolerant and does not readily recover from fire, except for establishment through seed. Slow post-fire recovery of <i>A. confertifolia </i>allows for easy invasion and subsequent replacement by <i>B. tectorum </i>(Simonin 2001a).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Long
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Spring-summer-fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Medium to large
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Multiple
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Moderate to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Passive-active crown fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Southeastern California deserts
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast Ranges</b> (M262Ai). Stands occur at Carrizo Plain National Monument.</li>
+        
+            <li><b>Great Valley</b> (262Ag, Ax, Az). Agricultural development has limited stands to small, scattered sites in the south subsections as a valley sink scrub (Holland 1986).</li>
+        
+            <li><b>Mojave Desert</b> (322Aa, Ac-d, Af-h, Aj, Al). Stands include both upland and basin settings in this section. In northern subsections, stands occur on upland rocky hills, intermixed with those of <i>Ambrosia dumosa, Ephedra nevadensis, Larrea tridentata, Menodora spinescens, Yucca brevifolia,</i> and <i>Yucca schidigera</i> alliances. Stands also occur in valleys, on low dunes, and on flats surrounding and the edges of alkali basins and playas. Most stands in the southern areas are in valleys adjacent to <i>Atriplex polycarpa</i> stands and below other upland stands of <i>Larrea tridentata</i> and <i>Ambrosia dumosa.</i> The alliance ranges up to the <i>Artemisia tridentata-Pinus monophylla</i> zone at higher elevations (Thomas et al. 2004) and to shallow, eroded sand fields adjacent to the playas of Edwards Air Force Base (Charlton 2000a).</li>
+        
+            <li><b>Mono</b> (341De-f, Dh-j). Stands are around Mono Lake and upper Chalfant Valley and on flats near Crowley Lake.</li>
+        
+            <li><b>Northwestern Basin and Range</b> (342Ba-d). Large stands exist in the Surprise Valley, east of the Alkali Lakes area, and on the north shore of Honey Lake. They mix with those of the <i>Sarcobatus vermiculatus</i> and <i>Suaeda moquinii</i> alliances near the margins of playas. Monospecific stands occur on lower and middle bajadas.</li>
+        
+            <li><b>Sierra Nevada</b> (M261Es). Scattered stands occupy basins of the Piute and Tehachapi mountains.</li>
+        
+            <li><b>Southeastern Great Basin</b> (341Fa-f). Upland stands are extensive in northern subsections where they mix with stands of the <i>Artemisia tridentata, Grayia spinosa, Larrea tridentata-Ambrosia dumosa,</i> and <i>Yucca brevifolia</i> alliances. Upland stands in Saline Valley area show a recent decline (Thomas et al. 2004).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> <i>Atriplex confertifolia </i>stands occupy a broad spectrum of environmental situations. They may be seral and invasive, short-lived, or natural and persistent. In many parts of its range, <i>A. confertifolia </i>may tolerate moderate to heavy grazing because of its spinescent habit, except in years of lower than average precipitation. Increases in <i>A. confertifolia </i>relative to other desert shrubs in grazed sites are generally the result of decreased competition from more heavily browsed associates. However, the overall presence of non-native annuals may also increase in these grazed sites (Simonin 2001a). We need further information to understand the alliance’s ecology in California, especially in terms of the presence of non-native grasses and response to fire. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+                <p>Associations with a Single Shrub Canopy</p>
+            
+            <ul class="text">
+                
+                    <li>Atriplex confertifolia Great Basin [1], [2], [3], [5]</li>
+                
+            </ul>
+        
+            
+                <p>Associations with a Two-Species Shrub Canopy</p>
+            
+            <ul class="text">
+                
+                    <li>Atriplex confertifolia - Ambrosia dumosa [2], [3], [6]</li>
+                
+                    <li>Atriplex confertifolia - Atriplex canescens [2], [3]</li>
+                
+                    <li>Atriplex confertifolia - Atriplex polycarpa [3], [4]</li>
+                
+                    <li>Atriplex confertifolia - Ephedra nevadensis [2], [3]</li>
+                
+                    <li>Atriplex confertifolia - Krascheninnikovia lanata [2], [3], [5], [6]</li>
+                
+                    <li>Atriplex confertifolia - Lepidium fremontii [3], [6]</li>
+                
+                    <li>Atriplex confertifolia - Lycium andersonii [2], [3], [6]</li>
+                
+                    <li>Atriplex confertifolia - Picrothamnus desertorum [3], [5], [6]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Annable, C.R. 1985</li>
+		
+		<li>[2] Keeler-Wolf, T.;Thomas, K. 2000</li>
+		
+		<li>[3] Evens, J.M.;Sikes, K.;Hastings, D.;Ratchford,J.S. 2014</li>
+		
+		<li>[4] Yoder, V.;Barbour, M.G.;Boyd, R.S.;Woodward, R.A. 1983</li>
+		
+		<li>[5] Reyes, E.;Evens, J.;Glass, A.;Sikes, K.;Keeler-Wolf., T.;Winitsky, S.;Johnson, D.;Menke, J.;Hepburn, A. 2020a</li>
+		
+		<li>[6] Reyes, E.;Evens, J.;Fulton, J.;Sikes, K.; Johnson, D.;Keeler-Wolf, T.;Vu, S.;LaFever-Jackson, A. 2023 (in progress)</li>
+		
+		<li>Beatley, J.C. 1976</li>
+		
+		<li>Burk, J.H. 1977</li>
+		
+		<li>MacMahon, J.A. 1988</li>
+		
+		<li>MacMahon, J.A.;Wagner, F.H. 1985</li>
+		
+		<li>McHargue, L.T. 1973</li>
+		
+		<li>Menke, J.;Reyes, E.;Hepburn, A.;Johnson, D.;Reyes, J. 2013</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Black, H.;Bleich, V.C.;Mincks, J.W. 1980</li>
+		
+		<li>Peterson, P.M. 1984a</li>
+		
+		<li>Peterson, P.M. 1984b</li>
+		
+		<li>Reid, M.S.;Schulz, K.A.;Cormer, P.J.;Schindel, M.H.;Culver, D.R.;Sarr, D.A.;Damm, M.C. 1999</li>
+		
+		<li>Simonin, K.A. 2001a</li>
+		
+		<li>Thomas, K.;Franklin, J.;Keeler-Wolf, T.;Stine, P. 2004</li>
+		
+		<li>Thorne, R.F. 1982</li>
+		
+		<li>Turner, R.M. 1982b</li>
+		
+		<li>Vasek, F.C.;Barbour, M.G. 1977</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program);AIS, 2013</li>
+		
+		<li>Young, J.A.;Evans, R.A.;Major, J. 1977</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/145/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

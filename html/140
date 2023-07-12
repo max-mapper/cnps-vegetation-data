@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Artemisia nova</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Artemisia</i> <i>nova</i></span> Shrubland Alliance <br/>
+        <span class="subtitle">Black sagebrush scrub</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>1300-2800 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G4
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA, CO, ID, MT, NM, NV, OR, UT, WY (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/artemisia-nova_inyonf-deathvalleyrd_05-10_01.jpg', '/static/images/photos/shrub/artemisia-nova_inyonf-deathvalleyrd_05-10_02.jpg', '/static/images/photos/shrub/artemisia-nova_inyonf-deathvalleyrd_05-10_03.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Artemisia</i> <i>nova</i> is dominant or co-dominant in the shrub canopy with <i>Ambrosia</i> <i>salsola</i>, <i>Artemisia</i> <i>arbuscula</i>, <i>Atriplex</i> <i>confertifolia</i>, <i>Echinocactus</i> <i>polycephalus</i>, <i>Echinocereus</i> <i>engelmannii</i>, <i>Ephedra</i> spp., <i>Grayia</i> <i>spinosa</i>, <i>Krascheninnikovia</i> <i>lanata</i>, <i>Lycium</i> <i>andersonii</i>, <i>Menodora</i> <i>spinescens</i>, <i>Mortonia</i> <i>utahensis</i> or <i>Purshia</i> <i>tridentata</i>. Emergent trees may be present at low cover, including <i>Juniperus</i> <i>osteosperma</i>, <i>Pinus</i> <i>jeffreyi</i> or <i>Pinus</i> <i>monophylla</i>. The herbaceous layer is typically dominated by grasses and forbs such as <i>Blepharipappus</i> <i>scaber</i>, <i>Bromus</i> <i>tectorum</i>, <i>Elymus</i> <i>elymoides</i> and <i>Poa</i> <i>secunda</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 0.5 m; canopy is open to continuous. Herbaceous layer is sparse and/or grassy. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Artemisia nova</i> > 2% absolute cover in the shrub canopy; no other species with higher cover (Thomas et al. 2004).</li>
+		
+		<li><i>Artemisia nova</i> is >30% relative cover in the shrub layer with <i>Artemisia arbuscula</i> (Boul et al. 2021b).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Flats, depressions, rocky slopes and ridges of basalt or limestone. Soils are shallow and poorly drained over bedrock or with clay layer (or caliche) that restricts rooting at depth.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Big sagebrush series, Black sagebrush series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Artemisia nova shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Low sagebrush, Black sagebrush
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Subalpine sagebrush scrub, Pebble plain community
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Sagebrush scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Sagebrush
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>35.130.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Xeromorphic Scrub and Herb Vegetation (Semi-Desert)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Cool Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Cool Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North American Cool Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Western North America Dwarf Sage Shrubland and Steppe
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Intermountain low sage shrubland and steppe
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Artemisia nova </i>is a dwarf evergreen shrub with low, spreading branches. The plants are flat-topped and strongly aromatic. It reproduces by light, wind-dispersed seeds.  <i>A. nova </i>may be confused with <i>A. arbuscula </i>when plants lack flowers or fruits, but the dark green glands on the leaf surface are a helpful characteristic for identification. <br/>
+<br/>
+This shrubland alliance is associated with shallow, rocky soils which experience extreme drought in summer. Soils are typically young, shallow, and coarse-textured. In California, stands of <i>A. nova</i> usually occur on substrates with some calcareous component (Thomas et al. 2004). <i>Artemisia nova</i> dwarf shrublands are the driest habitats of all the <i>Artemisia</i>-dominated alliances. Stands typically grow on well-drained slopes and ridges; often adjacent to other <i>Artemisia</i> spp. Associations on deeper soils. (NatureServe 2019). <br/>
+<br/>
+Stands in the desert mountains occupy rocky uplands and are usually open, with bare soil between sparse shrubs. Some stands in the San Bernardino Mountains receive sufficient moisture from springs to be seasonally flooded; these areas have high shrub density. In the Modoc region, <i>Artemisia nova</i> is dominant to co-dominant in the shrub layer with <i>A. arbuscula</i> (Boul et al. 2021b). </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Artemisia nova</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Shrub; evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil; transient</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short to medium</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Wind</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-sensitive; no/low sprouter (?) (ability to sprout varies with populations) </td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>3-60 years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Low to medium</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>High</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text"><i>Artemisia nova </i>is fire sensitive; fire is not a regular component of the alliance’s disturbance regime.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Long (100-200 years)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Summer-early fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Small
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Low to moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>High to very high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Surface to passive crown fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Transmontane (Modoc Plateau, Mojave Desert)
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+            <p>The range of <i>Artemisia nova</i> includes the Southern Cascades (M261D), Modoc Plateau (M261G), and the Northwestern Basin and Range (342B).</p>
+        
+
+        <ul class="text">
+        
+            <li><b>Modoc Plateau</b> (M261Gh, Gm). Stands exist at the western edge of Horse Lake and in the southeastern corner of the Likely Tableland (Boul et al. 2021b).</li>
+        
+            <li><b>Mojave Desert</b> (322Ad, Aj, Al). Stands occur on calcareous alluvium in the Clark Mountains (Thomas et al. 2004). They associate with other calciphile alliances dominated by <i>Ephedra funerea, Purshia stansburiana,</i> or <i>Viguiera reticulata.</i> Stands also occur typically on calcareous substrates in the Funeral Mountains (Peterson 1984a, b).</li>
+        
+            <li><b>Mono</b> (341Dd-f, Dh, Dj). Stands occur in the White Mountains (Thomas et al. 2004). The description of stands in the Lahontan Basin in Nevada (Young et al. 1977) is similar to those in this section.</li>
+        
+            <li><b>Northwestern Basin and Range</b> (342Bd). Stands are scattered on lower slopes in the areas of Snowstorm and Shinn Mountains (Boul et al. 2021b).</li>
+        
+            <li><b>Southeastern Great Basin</b> (341Fb-f). Stands occur typically on calcareous substrates in the Cottonwood,  Last Chance, and Panamint mountains (Peterson 1984a, b), and they are similar to those in the Inyo and White mountains (Peterson 1984a, 1984b, Thomas et al. 2004). They may contain other shrubs, including <i>Atriplex confertifolia</i> and <i>Mortonia utahensis.</i></li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Bh). Stands in the San Bernardino Mountains in the Big Bear Valley, called pebble plains (Derby and Wilson 1978, 1979, Krantz 1983, 1988), occupy small basins with deep alluvial soils adjacent to vernally moist valley bottoms. They contain <i>Eriogonum kennedyi</i> var. <i>austromontanum, Thelypodium stenopetalum,</i> and other rare (CNPS 1B) species. Adjacent stands have <i>Artemisia tridentata</i> and <i>Chrysothamnus viscidiflorus.</i></li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> <i>Artemisia nova </i>is an important browse species for livestock and wildlife, especially during winter months (McMurray 1986). <i>A. nova</i> does not resprout after disturbances. Stands in the San Bernardino National Forest with rare species need continued protection from trampling and grazing.
+
+Fire is uncommon for this alliance, since plants are generally low-growing and widely spaced (NatureServe 2019). The ability of <i>A. nova</i> to sprout following fire events varies among populations, but seeds from unburned plants readily colonize burned areas (McMurray 1986). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Artemisia nova [1], [3]</li>
+                
+                    <li>Artemisia nova - Ambrosia salsola [2]</li>
+                
+                    <li>Artemisia nova / Poa secunda [5]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Peterson, P.M. 1984a</li>
+		
+		<li>[2] Thomas, K.;Franklin, J.;Keeler-Wolf, T.;Stine, P. 2004</li>
+		
+		<li>[3] Evens, J.M.;Sikes, K.;Hastings, D.;Ratchford,J.S. 2014</li>
+		
+		<li>[5] Boul, R.;Keeler-Wolf, T.;Ratchford, J.;Haynes, T.;Hickson, D.;Yacoub, R.;Harbert, B.;Evens, J. 2021b</li>
+		
+		<li>Barry, W.J. 1989a</li>
+		
+		<li>Barry, W.J. 1989b</li>
+		
+		<li>Cheatham, N.H.;Haller, J.R. 1975</li>
+		
+		<li>Derby, J.A.;Wilson, R.C. 1978</li>
+		
+		<li>Derby, J.A.;Wilson, R.C. 1979</li>
+		
+		<li>Krantz, T. 1983</li>
+		
+		<li>Krantz, T. 1988</li>
+		
+		<li>Milton, N.M.;Purdy, T.L. 1983</li>
+		
+		<li>NatureServe, 2014+</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Black, H.;Bleich, V.C.;Mincks, J.W. 1980</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Conrad, C.E. 1982</li>
+		
+		<li>Peterson, P.M. 1984b</li>
+		
+		<li>Reid, M.S.;Schulz, K.A.;Cormer, P.J.;Schindel, M.H.;Culver, D.R.;Sarr, D.A.;Damm, M.C. 1999</li>
+		
+		<li>Rickard, W.H.;Beatley, J.C. 1965</li>
+		
+		<li>Shiflet, T.N. 1994</li>
+		
+		<li>Thorne, R.F. 1976</li>
+		
+		<li>Tisdale, E.W. 1994b</li>
+		
+		<li>Turner, R.M. 1982a</li>
+		
+		<li>West, N.E. 1988</li>
+		
+		<li>Young, J.A.;Clements, C.D.;Jansen, H.C. 2007</li>
+		
+		<li>Young, J.A.;Evans, R.A.;Major, J. 1977</li>
+		
+		<li>Zamora, B.;Tueller, P.T. 1973</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/140/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

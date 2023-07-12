@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Pinus albicaulis</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Pinus</i> <i>albicaulis</i></span> Forest &amp; Woodland Alliance <br/>
+        <span class="subtitle">Whitebark pine forest and woodland</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Tree
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>2220-3660 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S4
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G5
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>CAN: AB. USA: CA, ID, MT, NV, OR, WA, WY (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/tree/pinus-albicaulis_crestnoftiogapass_06-02_01.jpg', '/static/images/photos/tree/pinus-albicaulis_crestnoftiogapass_06-02_02.jpg', '/static/images/photos/tree/pinus-albicaulis_danaplateau_09-09_01.jpg', '/static/images/photos/tree/pinus-albicaulis_danaplateau_09-09_02.jpg', '/static/images/photos/tree/pinus-albicaulis_danaplateau_09-09_03.jpg', '/static/images/photos/tree/pinus-albicaulis_ebbettspass_09-09_01.jpg', '/static/images/photos/tree/pinus-albicaulis_ebbettspass_09-09_02.jpg', '/static/images/photos/tree/pinus-albicaulis_lassennf_09-06_01.jpg', '/static/images/photos/tree/pinus-albicaulis_monopass_09-04.jpg', '/static/images/photos/tree/pinus-albicaulis_mtrose_06-09_01.jpg', '/static/images/photos/tree/pinus-albicaulis_papooselake.jpg', '/static/images/photos/tree/pinus-albicaulis_sonorapass_09-03.jpg', '/static/images/photos/tree/pinus-albicaulis_tiogalake_09-09_01.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Pinus</i> <i>albicaulis</i> is dominant or co-dominant in the tree canopy with <i>Abies</i> <i>magnifica</i>, <i>Cercocarpus</i> <i>ledifolius</i>, <i>Pinus</i> <i>balfouriana</i>, <i>Pinus</i> <i>contorta</i> ssp. <i>murrayana</i>, <i>Pinus</i> <i>flexilis</i>, <i>Pinus</i> <i>monticola</i> and <i>Tsuga</i> <i>mertensiana</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text"> Trees < 30 m; canopy is open to intermittent. Shrub layer is open to intermittent. Herbaceous layer is sparse or abundant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Pinus albicaulis</i> > 50 % relative cover or conspicuous species in the tree canopy. <i>Tsuga mertensiana</i> may codominate; <i>P. contorta</i> usually < 1% absolute cover (Keeler-Wolf et al. 2003b).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Most extensive on upper slopes, crests, ridges, summits, and upper slopes to and above timberline. Soils are loose, well drained, and may be rocky.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Whitebark pine series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Pinus albicaulis forest alliance, Pinus albicaulis woodland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Whitebark pine
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Whitebark pine-mountain hemlock forest, Whitebark pine-lodgepole pine forest, Whitebark pine forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Subalpine forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Subalpine conifer
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>87.180.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Tree Vegetation (Forest and Woodland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Cool Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North America Cool Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Rocky Mountain Subalpine and High Montane Conifer Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Western Cordilleran xeric subalpine coniferous forest and woodland
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Pinus albicaulis </i>is a conifer that attains a height of 20 m and an age of 700 years. Trees produce cones after 20-80 years, and large cone crops occur in 3- to 5-year cycles. Clark’s nutcrackers and red squirrels collect and often cache the seeds near trees and in rocks. Clark’s nutcrackers primarily disperse the seeds. Trees are shade intolerant. Trees commonly have two or more trunks partially fused at the base, which may be one genetic individual with stems arising by layering, or several individuals arising from cached seeds (Arno and Hoff 1990, Howard 2002b, Tomback et al. 2001). <br/>
+<br/>
+<i>Pinus albicaulis </i>typically grows in high-elevation environments and at timberline in the Sierra Nevada, north to British Columbia, and east to the Rocky Mountains. Stands in California tend to be open where <i>P. albicaulis </i>grows alone or mixed with other conifers (Fites-Kaufman et al. 2007). Stands of <i>P. albicaulis </i>range from moderately tall, upright trees with multibranched stems, or they form tree islands and krummholz of shrubs and mats at and above timberline (Sawyer and Keeler-Wolf 2007). <br/>
+<br/>
+<i>Pinus albicaulis </i>can be a late-seral tree on a broad range of cold, dry, windy sites because it is hardier and more durable than many other conifers. It is also a pioneer species in disturbed sites, playing an important role in tree establishment at high-elevation sites by stabilizing snow, soil, and rocks on steep terrain (Arno and Hoff 1990), and an early- to mid-seral species on more moist and productive sites in the Rocky Mountains (Arno 1986). Fire Characteristics <i>Pinus albicaulis </i>is moderately fire resistant. Most fires are ignited by lightning and do not spread beyond one or a few trees. Fires typically occur at long intervals and at low severity. In the Rocky Moun-tains before fire exclusion, the average stand burned every 50-300 years (Kendall 1995). However, fires are important in opening stands for and removing shade-tolerant <i>Abies lasiocarpa </i>and <i>Picea engelmannii, </i>(Arno 1986, Arno and Hoff 1990). In the Sierra Nevada, van Wagtendonk and Fites-Kaufman (2006) report lightning occurs regularly at timberline with few resulting fires. Mixed stands with <i>Tsuga mertensiana </i>occur on glaciated granitic bedrock in the Klamath Mountains and Sierra Nevada, and tree canopies are open (Fites-Kaufman et al. 2007, Sawyer 2007). </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Pinus albicaulis</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Tree; evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Transient; soil</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Medium</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Stratification—winter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-sensitive; thin epidermis; high flammability; no/low sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>20-700 years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Episodic</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text"><i>Pinus albicaulis </i>is moderately fire resistant. Most fires are ignited by lightning and do not spread beyond one or a few trees. Fires typically occur at long intervals and at low severity. In the Rocky Mountains before fire exclusion, the average stand burned every 50-300 years (Kendall 1995). However, fires are important in opening stands for and removing shade-tolerant <i>Abies lasiocarpa </i>and <i>Picea engelmannii, </i>(Arno 1986, Arno and Hoff 1990). In the Sierra Nevada, van Wagtendonk and Fites-Kaufman (2006) report lightning occurs regularly at timberline with few resulting fires. Mixed stands with <i>Tsuga mertensiana </i>occur on glaciated granitic bedrock in the Klamath Mountains and Sierra Nevada, and tree canopies are open (Fites-Kaufman et al. 2007, Sawyer 2007).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Long
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Summer-early fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Small
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low to moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Low
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Multiple
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Surface to passive crown
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Klamath Mountains, southern Cascades, Sierra Nevada subalpine
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Klamath Mountains</b> (M261Ag, Aj, At). Extensive stands are few. Instead, individual trees or small groves grow along the highest ridges in the Marble, Salmon, and Scott mountains, and in the Trinity Alps. A large stand occurs on the west side of Thompson Peak in the Trinity Alps, and others at Crater Creek, Mount Eddy, and Sugar Creek RNAs (Cheng 2004). <i>Pinus albicaulis</i> mixes with <i>P. balfouriana</i> and up to three other conifers in the Duck Lake and Sugar Creek watersheds (Sawyer 2006, 2007).</li>
+        
+            <li><b>Modoc Plateau</b> (M261Gf). An extensive stand occurs in the southern Warner Mountains from Warren Peak to Eagle Peak (Figura 1997, Riegel et al. 1990, 2006).</li>
+        
+            <li><b>Mono</b> (341Dd, Dl). Stands occur in the Sentinel Meadow RNA (Talley 1978, see Cheng 2004). Stands occur in the Sweetwater Mountains near to, but segregated from <i>P. flexilis</i> stands.</li>
+        
+            <li><b>Sierra Nevada</b> (M261Ee, Eh, Ej-k, Em, Eo, Eq, Et-u). Extensive stands occur from south of Mount Rose northeast of Lake Tahoe along the crest south to the headwaters of the Kern River (Fites-Kaufman et al. 2007). Those at Harvey Monroe Hall RNA (Taylor 1984, see Cheng 2004) and Yosemite National Park (Tomback 1986, Keeler-Wolf et al. 2003b) are pure and mixed. Stands in the southern subsections may contain <i>P. balfouriana.</i></li>
+        
+            <li><b>Southern Cascades</b> (M261Df, Dm). Large stands exist on Mount Lassen, McGee Peak, and Mount Shasta. Those on Mount Shasta contain shade-tolerant <i>Abies magnifica</i> and <i>Tsuga mertensiana,</i> but stands are open. A description exists for Antelope Creek cRNA (Keeler-Wolf 1989c, see Cheng 2004).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> <i>Pinus albicaulis </i>has declined across its entire range: the major causes include fire exclusion, mountain pine beetles, introduced white pine blister rust (<i>Cronartium ribicola</i>), and climate change (Kendall 1995, Cox 2000). White pine blister rust has affected some stands in California (Weaver 2001), and it has notably killed many trees in moister parts of its range (Kendall 1995). The rust infection has generally been at low levels in California, where dry summers in much of the subalpine region have limited its spread. However, weather with abundant moisture and cool temperatures favor heavy waves of rust infection in the state’s white pines (Kinloch and Dulitz 1990, Kliejunas and Adams 2003). This infection involved less than 1% of trees sampled in the mid-1990s in Sequoia and Kings Canyon national parks (Duriscoe 1995). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Pinus albicaulis / Achnatherum occidentale ssp. californicum [2]</li>
+                
+                    <li>Pinus albicaulis / Arenaria aculeata [2]</li>
+                
+                    <li>Pinus albicaulis / Artemisia tridentata ssp. vaseyana [7]</li>
+                
+                    <li>Pinus albicaulis / Carex filifolia [1], [5]</li>
+                
+                    <li>Pinus albicaulis / Carex rossii [1], [5]</li>
+                
+                    <li>Pinus albicaulis / Holodiscus discolor [3]</li>
+                
+                    <li>Pinus albicaulis / Juniperus communis [6]</li>
+                
+                    <li>Pinus albicaulis / Penstemon davidsonii [1], [4]</li>
+                
+                    <li>Pinus albicaulis / Penstemon gracilentus [2]</li>
+                
+                    <li>Pinus albicaulis / Poa wheeleri [4]</li>
+                
+                    <li>Pinus albicaulis - Tsuga mertensiana [1], [5]</li>
+                
+                    <li>Pinus contorta ssp. murrayana - Pinus albicaulis / Carex (filifollia, rossii) [1], [5]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Keeler-Wolf, T.;Schindel, M.;San, S.;Moore, P.;Hickson, D. 2003b</li>
+		
+		<li>[2] Riegel, G.M.;Thornburgh, D.A.;Sawyer, J.O. 1990</li>
+		
+		<li>[3] Sawyer, J.O.;Thornburgh, D.A. 1977</li>
+		
+		<li>[4] Taylor, D.W. 1984</li>
+		
+		<li>[5] NPS-SEKI, 2009</li>
+		
+		<li>[6] Ratchford, J.;Boul, R.;Keeler-Wolf ,T.;Evens, J. 2022b (in progress)</li>
+		
+		<li>[7] USDA Forest Service (USFS), 2019</li>
+		
+		<li>Arno, S.F. 1980</li>
+		
+		<li>Arno, S.F. 1986</li>
+		
+		<li>Arno, S.F.;Hoff, R.J. 1990</li>
+		
+		<li>Barbour, M.G. 1988</li>
+		
+		<li>Cheng, S. 2004</li>
+		
+		<li>Cox, S. 2000</li>
+		
+		<li>Duriscoe, D. 1995</li>
+		
+		<li>Figura, P.J. 1997</li>
+		
+		<li>Fites-Kauffman, J.A.;Rundel, P.;Stephenson, N.;Weixelman, D. 2007</li>
+		
+		<li>Franklin, J.F. 1980a</li>
+		
+		<li>Griffin, J.R.;Critchfield, W.B. 1972</li>
+		
+		<li>Howard, J.L. 2002b</li>
+		
+		<li>Keeler-Wolf, T. 1989c</li>
+		
+		<li>Kendall, K.C. 1995</li>
+		
+		<li>Kinloch, B.B.;Dulitz, D. 1990</li>
+		
+		<li>Kliejunas, J.;Adams, D. 2003</li>
+		
+		<li>Riegel, G.M.;Miller, R.F.;Skinner, C.N.;Smith, S.E. 2006</li>
+		
+		<li>Rundel, P.W.;Parsons, D.J.;Gordon, D.T. 1977</li>
+		
+		<li>Sawyer, J.O. 2006</li>
+		
+		<li>Sawyer, J.O. 2007</li>
+		
+		<li>Sawyer, J.O.;Keeler-Wolf, T. 2007</li>
+		
+		<li>Talley, S.N. 1978</li>
+		
+		<li>Tomback, D.F. 1986</li>
+		
+		<li>Tomback, D.F.;Arno, S.F.;Keane, R.E. 2001</li>
+		
+		<li>van Wagtendonk, J.W.;Fites-Kauffman, J. 2006</li>
+		
+		<li>Weaver, T. 2001</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/45/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

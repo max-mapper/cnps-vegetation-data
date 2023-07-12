@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Zostera (marina, pacifica) Pacific Aquatic</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Zostera</i> (<i>marina</i>, <i>pacifica</i><span style="padding-left: .2em">)</span> Pacific Aquatic</span> Herbaceous Alliance <br/>
+        <span class="subtitle">Eelgrass beds</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Herb
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>-17--1 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>GNR
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>CAN. USA: AK, CA, OR,  WA. (NatureServe); Baja California, Mexico (SEIN)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2019/10/25
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/herb/z-marina_humb-bay_07_2015.jpg', '/static/images/photos/herb/z-marina_salt-river-humboldt-co_07_2016.jpg', '/static/images/photos/herb/z-marina_albianr_mendoco2_06-2017.jpg', '/static/images/photos/herb/z-marina_albianr_mendoco3_06-2017.jpg', '/static/images/photos/herb/z-marina_albianr_mendoco4_06-2017.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Zostera</i> <i>marina</i> or <i>Zostera</i> <i>pacifica</i> is dominant and occurs most often in monotypic stands, with no other vascular plants. Occasionally co-occurring with algae including <i>Sargassum</i> <i>muticum</i> and <i>Ulva</i> <i>intestinalis</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Herbs < 1 m; cover is open to continuous. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Zostera marina </i>or <i>Z. pacifica</i> > 30% relative cover (Leppig and Garwood 2018).</li>
+		
+		<li><i>Zostera marina </i>or <i>Z. pacifica</i> > 50% relative cover (Buck-Diaz et al. 2021).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Subtidal marine and estuarine habitats. Most commonly occurring on unconsolidated soft-bottomed mudflats in bays, estuaries, and river mouths. Also occurs on sand, silt, and gravel substrates in saline tidally influenced slough channels, and ditches. The USFWS Wetland Inventory (2012 national list) recognize <i>Zostera marina</i> and <i>Z. pacifica</i> as OBL plants. Eel-grass meadows meet the 2020 SWRCB definition of a wetland (SWRCB 2020). </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Ocean
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>None
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>None
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>52.710.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Hydromorphic Vegetation (Aquatic Vegetation)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Saltwater Aquatic Vegetation
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Marine and Estuarine Saltwater Aquatic Vegetation
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Temperate Pacific Saltwater Aquatic Vegetation
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Temperate Pacific Seagrass Intertidal Vegetation
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Temperate Pacific seagrass bed
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Zostera marina</i>, a rhizomatous herb, is the most widespread marine angiosperm, occurring in both the North Atlantic and North Pacific oceans.  The plant has a long stem with thin green leaves that can reach over 1 meter long. It has separate male and female flowers occurring on the same plant in alternating clusters. The plant produces seeds within a transparent nutlet, and can also reproduce vegetatively by sprouting from its rhizome. The oldest <i>Zostera marina</i> clonal meadow, also known as a genet, was found to be 3000 years old. <br/>
+<br/>
+In cooler habitats, <i>Z. marina </i>is known to be perennial (Kim et al. 2014). It grows mainly in the sublittoral zone on soft mud or firm sand. In the Pacific, <i>Z. marina</i> extends south along the west coast to the Gulf of California where it has adopted an annual life history: flowering and fruiting in the spring and dying back due to the heat of the summer months (Meling-Lopez and Ibarra-Obando 1999). In the summer, the plant is dislodged from the substrate and the fruits float within the vegetation for a time before falling from the shoots to the substrate. Seeds can disperse long distances if the fertile stems are carried by the currents. Perpendicular ripple marks along the sand provide a natural shelter for the fruits when they settle on the substrate.<br/>
+<br/>
+It can be challenging to morphologically differentiate <i>Z. marina</i> and <i>Z. pacifica</i> individuals (see Thorne et al. 2020). The state-wide distribution and abundance of <i>Z. pacifica</i>, as well as its general ecology is not as well documented as <i>Z. marina</i>.<br/>
+<br/>
+<i>Zostera</i> spp. can form dense clonal mats and occur nearly exclusively in monotypic stands, known as beds or meadows, with no other vascular plants. Occurrences can be small sporadic patches of less than a square meter to large dense meadows of tens of hectares such as in Humboldt Bay, Humboldt County, and in Drakes Estero and Tomales Bay, Marin County. Occasionally co-occurring with the invasive brown algae, Japanese wireweed (<i>Sargassum muticum</i>), the green algae, sea lettuce (<i>Ulva intestinalis</i>), and the introduced red beard sponge (<i>Clathria prolifera</i>).  In upper tidal sloughs, <i>Z. maritima</i> can co-occur directly adjacent to ditch-grass (<i>Ruppia maritima</i>), but the taxa do not appear to occur in mixed stands and are separated by slight differences in salinity, substrate, or water velocity.  In open ocean locations such as in Monterey Bay and on the Southern Bight and Channel Islands, <i>Z. pacifica</i> can occur directly adjacent to but not intermixed with giant kelp (<i>Macrocystis pyrifera</i>) forests, however the populations are segregated by water depth (steep seafloor drop off that eliminates <i>Z. pacifica</i>), and rocky substrate, which is required by giant kelp. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Zostera marina</th>
+			
+		
+			
+			<th>Zostera pacifica</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>annual, perennial</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Water/hydrological, possibly animal</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Chemical, heat, inundation</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>High</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Since this type occurs as a subtidal habitat, dynamic ecological processes other than fire (including tidal influence) are important to stands.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+            <p>Widely distributed on marine coasts at higher latitudes across the northern hemisphere, including both coasts of the North Atlantic and North Pacific Oceans, in the Mediterranean and Black Seas, and sporadically in the European Arctic Ocean. See also Sherman and DeBruyckere 2018, NOAA 2020.</p>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Aa-e, Ah-k). Stands of eel-grass have been documented in the San Francisco Bay, Elkhorn Slough in Monterey Co., and in Morro Bay in San Luis Obispo Co. (Sherman and DeBruyckere 2018).</li>
+        
+            <li><b>Great Valley</b> (262Al). Populations have been documented on the margins of Suisun Bay (Sherman and DeBruyckere 2018).</li>
+        
+            <li><b>Northern California Coast</b> (263Aa-b, Ae, Ag-h, Aj-l). Approximately 40% of California’s eel-grass meadows occur in Humboldt Bay, Humboldt County, where it appears secure (CDFW unpublished data; Leppig and Garwood 2018). Humboldt Bay has an eel-grass management plan (Gilkerson and Merkel 2017). The exotic <i>Zostera japonica</i> has been documented in Humboldt Bay and the lower Eel River estuary (Schlosser and Eicher 2007). <i>Z. japonica</i> occurrences were generally at a higher tidal elevation, (between 0.9 to 1.2 MLLW) than <i>Z. marina</i> occurrences, but some occurrences were mixed <i>Z. japonica</i> and <i>Z. marina</i> (Schlosser and Eicher 2007). The Eel River <i>Z. japonica</i> occurrence and most documented occurrences in Humboldt Bay have not persisted and only one occurrence is known to persist (CDFW unpublished monitoring data). Tomales Bay and Drakes Estero in Marin County also have large areas of eel-grass meadows (Buck-Diaz et al. 2021).</li>
+        
+            <li><b>Southern California Coast</b> (261Bb-d, Bf-h, Bj). The largest documented populations on the southern coast include Santa Cruz Island; Anaheim Bay in Orange Co.; Batiquitos Lagoon, Mission Bay, and San Diego Bay in San Diego Co. (Sherman and DeBruyckere 2018).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Eel-grass meadows provide a complex ecosystem structure that is utilized by hundreds of other marine species for food, hiding, resting, rearing young, and foraging. As such they provide vital nursery habitat for numerous ecologically, recreationally, and commercially important species such as Dungeness crab, Pacific herring, and rockfishes. In addition, eel-grass beds provide several ecological and economic benefits, including oxygenation of waters and sediments, atmospheric carbon sequestration, trapping and cycling of nutrients, sediment stabilization, wave energy attenuation, and Shoreline erosion protection (Duarte 2002).
+
+Eel-grass beds require clear water to capture sunlight and the deeper it grows the clearer and cleaner the water must be, making the species vulnerable to turbidity and sediment inputs (Zimmerman 2006). In California, populations are threatened by stormwater and agricultural runoff, increased nutrient loading and decreased light levels on the seafloor through eutrophication and algal blooms. Eel-grass beds are vulnerable to port development, dredging harbors, oil spills, and off-shore oil and natural gas exploitation.  Eel-grass beds are also vulnerable to sea level rise if sediment sources are not sufficient to maintain bed elevation at appropriate depths, or if shoreline armoring prevents the landward migration of estuarine habitats. Introduced species are a major threat to sea-grass ecosystems worldwide (Williams 2007).
+
+The eel-grass wasting disease caused by a marine slime mold (<I>Labyrinthula zosterae</I>) is a major threat to <I>Zostera marina</I> and has caused significant die offs globally and a 90% decline in the last century along the Atlantic coast of the United States and Europe (Bockelmann et al. 2013). From 2007 to 2013, Morro Bay lost 96% of its eelgrass meadows   eel-grass wasting disease is the suspected culprit. Since the decline, a series of eel-grass reestablishment efforts have been attempted in Morro Bay, many of which have failed or only had limited success.  
+
+California has an eel-grass mitigation policy and implementation guidelines (NOAA 2014).  Mitigation projects attempting to establish eel-grass beds where none exist typically fail. Because eel-grass beds meet the State definition of Wetland, they typically meet the California Coastal Conservancy criteria of also being an Environmentally Sensitive Habitat Area, pursuant to the California Coastal Act.  Eel-grass is also designated by NOAA as “Essential Fish Habitat,” typically requiring mitigation for loss or degradation during the federal permitting process. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Zostera marina [1], [2]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>[2] NatureServe, 2014+</li>
+		
+		<li>Bockelmann, A.-C.;Tams, V.;Ploog, J.;Schubert, P.R.;Reusch, T.B.H. 2013</li>
+		
+		<li>Coyer, J.A.; Miller, K.A.; Engle, J.M.;Veldsink, J.;Cabello-Pasini, A.;Stam, W.T.;Olsen, J.L. 2008</li>
+		
+		<li>Cullen-Unsworth, L.C.;Unsworth, R.K.F. 2016</li>
+		
+		<li>Duarte, C.M. 2002</li>
+		
+		<li>Flora of North America Editorial Committee, 1993+</li>
+		
+		<li>Gilkerson, W.A.;Merkel, K.W. 2017</li>
+		
+		<li>Green, E.P.;Short, F.T. 2003</li>
+		
+		<li>Kim, S.H.;Kim, J-H.;Park, S.R.;Lee, K.-S. 2014</li>
+		
+		<li>Leppig, G.;Garwood, R. 2018</li>
+		
+		<li>Meling-Lopez, A.E.;Ibarra-Obando, S.E. 1999</li>
+		
+		<li>NOAA, 2014</li>
+		
+		<li>NOAA, 2020</li>
+		
+		<li>Schlosser, S.;Eicher, A. 2007</li>
+		
+		<li>Sherman, K.;DeBruyckere, L.A. 2018</li>
+		
+		<li>SWRCB (State Water Resources Control Board), 2020</li>
+		
+		<li>Thorne, R.F.;Haynes, R.R.;Hellquist, C.B.;Leppig, G. 2012</li>
+		
+		<li>Williams, S.L. 2007</li>
+		
+		<li>Zimmerman, R. 2006</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/577/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

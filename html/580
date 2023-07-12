@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Festuca idahoensis - Danthonia californica</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Festuca</i> <i>idahoensis</i> - <i>Danthonia</i> <i>californica</i></span> Herbaceous Alliance <br/>
+        <span class="subtitle">Idaho fescue - California oatgrass grassland</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Herb
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>2-770 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>GNR
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA, OR, WA. (NatureServe).
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2020/01/07
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/herb/festuca-idahoensis_nearoceansong_05-10_01.jpg', '/static/images/photos/herb/festuca-idahoensis_nearoceansong_05-10_02.jpg', '/static/images/photos/herb/festuca-idahoensis_nearoceansong_05-10_03.jpg', '/static/images/photos/herb/festuca-idahoensis_oceansong_03-05_01.jpg', '/static/images/photos/herb/festuca-idahoensis_oceansong_03-05_02.jpg', '/static/images/photos/herb/festuca-idahoensis_oceansong_03-05_03.jpg', '/static/images/photos/herb/festuca-idahoensis_yollabollymtns_1973_01.jpg', '/static/images/photos/herb/festuca-rubra_abronia-latifolia_ambrosia-chamissonis_lanpheredunes_01.jpg', '/static/images/photos/herb/festuca-rubra_gentiana-affinis_%20pttomtomalesbay_06-93.jpg', '/static/images/photos/herb/festuca-rubra_lanpheredunes_02.jpg', '/static/images/photos/herb/festuca-rubra_tomalesbay_06-93_01.jpg', '/static/images/photos/herb/festuca-rubra_tomalesbay_06-93_02.jpg', '/static/images/photos/herb/danthonia-californica_pomponiostbeach_05-09_01.jpg', '/static/images/photos/herb/danthonia-californica_pomponiostbeach_05-09_02.jpg', '/static/images/photos/herb/danthonia-californica_pomponiostbeach_05-09_03.jpg', '/static/images/photos/herb/danthonia-californica_pore_2002_01.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Danthonia</i> <i>californica</i>, <i>Festuca</i> <i>idahoensis</i> and/or <i>Festuca</i> <i>rubra</i> is dominant or co-dominant in the herbaceous layer with <i>Achillea</i> <i>millefolium</i>, <i>Aira</i> <i>caryophyllea</i>, <i>Anagallis</i> <i>arvensis</i>, <i>Arrhenatherum</i> <i>elatius</i>, <i>Avena</i> spp., <i>Briza</i> <i>maxima</i>, <i>Briza</i> <i>minor</i>, <i>Bromus</i> <i>carinatus</i>, <i>Bromus</i> <i>diandrus</i>, <i>Bromus</i> <i>hordeaceus</i>, <i>Chlorogalum</i> <i>pomeridianum</i>, <i>Cynosurus</i> <i>echinatus</i>, <i>Hypochaeris</i> <i>radicata</i>, <i>Koeleria</i> <i>macrantha</i>, <i>Lolium</i> <i>perenne</i> ssp. <i>multiflorum</i>, <i>Nassella</i> <i>pulchra</i>, <i>Plantago</i> <i>lanceolata</i>, <i>Rumex</i> <i>acetosella</i>, <i>Sisyrinchium</i> <i>bellum</i> and <i>Vulpia</i> <i>bromoides</i>. Emergent trees or shrubs may be present at low cover, including <i>Baccharis</i> <i>pilularis</i>, <i>Elymus</i> <i>glaucus</i>, <i>Pseudotsuga</i> <i>menziesii</i>, <i>Rubus</i> <i>ursinus</i> or <i>Toxicodendron</i> <i>diversilobum</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Herbs < 1 m; cover is intermittent to continuous. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Festuca idahoensis</i> is characteristically present and usually > 30% relative cover with other perennial grasses in the herbaceous layer (Evens and Kentner 2006).</li>
+		
+		<li><i>Danthonia californica</i> > 50% relative cover in the herbaceous canopy (Keeler-Wolf et al. 2003a).</li>
+		
+		<li><i>Festuca californica, Festuca idahoensis, Festuca rubra, </i>or <i>Danthonia californica</i> at least 10% relative cover and often > 30% relative cover in the herbaceous layer with a variety of other herbs in upland settings (Buck-Diaz et al. 2021).</li>
+		
+		<li><i>Festuca rubra</i> > 50% relative cover or most conspicuous native grass in the herbaceous layer in upland settings (Keeler-Wolf et al. 2003a).</li>
+		
+		<li><i>Festuca idahoensis, F. californica, F. rubra, Heterotheca sessiliflora</i>, and/or <i>Danthonia californica</i> > 50% relative cover in the herbaceous layer. <i>Bromus carinatus, Elymus glaucus, Nassella pulchra, Plantago erecta</i>, and a variety of native and non-native forbs and grasses may be < 30% relative cover (Buck-Diaz et al. 2021, Sikes et al. 2021).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Coastal bluffs, headlands, terraces, slopes, balds, and ridgetops. The USFWS Wetland Inventory (2012 national list) recognizes <i>Festuca idahoensis</i> as a FACU plant, and <i>Danthonia californica</i> as a FAC plant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>California oat grass series, Idaho fescue series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Danthonia californica herbaceous alliance, Festuca idahoensis herbaceous alliance, Festuca rubra herbaceous alliance, Festuca rubra intermittently flooded herbaceous alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Wet grasses and forbs, Perennial grasses and forbs
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Coastal terrace prairie, Bald Hills prairie, Serpentine bunchgrass
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Coastal prairie
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Perennial grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>41.251.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate and Boreal Shrubland and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate Grassland, Meadow, and Shrubland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Vancouverian and Rocky Mountain Grassland and Shrubland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Vancouverian Lowland Grassland and Shrubland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Vancouverian coastal grassland
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Festuca idahoensis</i> is a long-lived, densely clumped, perennial bunchgrass. Plants are strongly cespitose with extensive root systems. Roots are associated with mycorrhizae, which allow plants to thrive on nutrient-poor soils (Zouhar 2000b). Leaves are narrow, scabrous, and rolled. From July to September, inflorescences are spike-like with appressed spikelet branches.  It commonly grows in dry, open or shady places across western North America. In California, it can be found in many plant communities across the state (The Jepson Manual 2012). <br/>
+<br/>
+<i>Danthonia californica</i> is an erect perennial bunchgrass with loosely clustered culms. Seedlings establish on bare soil and the plants are tolerant of moderate grazing (Heady et al. 1963). Inflorescences are raceme-like from April to August. It generally occurs in moist meadows and open woodlands, in coastal and inland habitats and at both low and montane elevations. It’s range extends across western North America and is also native to Chile in an amphitropical distribution (The Jepson Manual 2012). <br/>
+<br/>
+<i>Festuca rubra </i>is a cool-season, perennial, loosely to densely tufted grass. Plants produce abundant seed. Plants spread by strong rhizomes, sometimes forming a turf. Some plants lack rhizomes, forming only tufts, or plants may have short rhizomes. This circumpolar species occurs in much of California, and includes three subspecies and widely planted introduced cultivars (Walsh 1995b). <br/>
+<br/>
+Although these three character species exist in a variety of habitats across California, this alliance describes coastal prairie grasslands along the central coast to northwestern California. On the North Coast (north of Marin County), this coastal prairie occurs in two settings: terrace prairie along the coastline at low and maritime elevations, and bald hills prairie on inland ridges and hilltops. In either phase, shrubs and trees are generally absent. Native perennial bunchgrasses mix with annual and perennial forbs creating a colorful display in late spring (Ornduff et al. 2003).<br/>
+<br/>
+Coastal prairie occurs sporadically along the near coast of central and northern California from the Monterey and San Francisco Bay areas to the Oregon border. These perennial grasslands have rich, moist soils (Ford and Hayes 2007). Typical prairie soils indicate that these areas have been occupied by prairie for hundreds to thousands of years and are not of recent origin. Coastal prairie can be considered a climax vegetation type in California (Ornduff et al. 2003). However, similar expressions of these grasslands occur as bald hill prairies along northern California coastal hills that may be several miles from the ocean. Ecologists (Franklin and Dyrness 1973, Heady et al. 1977) considered that heavy or infertile soils, historical high fire frequencies, sustained salt laden winds, and windy ridge tops inhibit forest development in areas with humid climates creating this vegetation pattern. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Danthonia californica</th>
+			
+		
+			
+			<th>Festuca idahoensis</th>
+			
+		
+			
+			<th>Festuca rubra</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Polycarpic perennial; herb</td>
+			
+		
+			
+			<td>Polycarpic perennial; herb</td>
+			
+		
+			
+			<td>Polycarpic perennial; grass; rhizomatous</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Transient</td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td>Transient</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+			
+			<td>Moderate</td>
+			
+		
+			
+			<td>Short</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; wind</td>
+			
+		
+			
+			<td>Animal; gravity</td>
+			
+		
+			
+			<td>Animal; wind</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Underground structures (culms)</td>
+			
+		
+			
+			<td>Buds on large branches or trunks (buds, tillers)</td>
+			
+		
+			
+			<td>Underground structures (rhizomes)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+			
+			<td>Fire-sensitive; low sprouter</td>
+			
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>Life of plant</td>
+			
+		
+			
+			<td>Life of plant</td>
+			
+		
+			
+			<td>Life of plant</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Medium</td>
+			
+		
+			
+			<td>Low to high</td>
+			
+		
+			
+			<td>Moderate</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Fluctuation in dominance by woody species and grasses is historically related to fire intervals and other disturbances. With the cessation of livestock grazing in the Redwood National Park, <i>Arrhenatherum elatius </i>spread rapidly, becoming a dominant prairie species (Hektner et al. 1983). The staff then used dry-season burns to reduce <i>A. elatius </i>and promote <i>Danthonia californica </i> and <i>Festuca idahoensis </i>(USDI 1992, 2000). Arguello (1994) found that <i>D. californica </i>is tolerant of dry-season but not of early-season burning. He attributed the dramatic reductions in cover and frequency after spring burns to the grass’s crown morphology and the exposure of the active buds to fire during green-up.
+
+<i>Festuca rubra </i>sprouts from rhizomes if burned (Walsh 1995b). Traditionally, as with many other coastal prairie types, Native Americans burned stands to enhance seed and bulb production (Anderson 2005).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Short to medium (5 to 30 years)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Summer-early fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Up to stand size
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Low to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Low to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Surface fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Central Coast; North Coast; North Coast Ranges
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Ac-d, Af, Ah-k). Stands with <i>Danthonia californica</i> occur in coastal prairies from San Francisco and the Carquinez Straight south at least to San Simeon State Park in San Luis Obispo Co. (Bartolome et al. 2007a, Stromberg et al. 2001). Southernmost stands of <i>Festuca idahoensis</i> are currently known to occur on the eastern side of San Bruno Mountain.</li>
+        
+            <li><b>Northern California Coast</b> (263Aa-m). Stands of <i>Danthonia californica </i>are scattered throughout the section. Stands in coastal prairies in Marin Co. often occur adjacent to stands of the <i>Nassella pulchra </i>; they tend to occur on deeper and less well-drained sites. Colonization by <i>Baccharis pilularis </i>and other woody plants is common in all but the windiest sites (Keeler-Wolf et al. 2003a). Terrace prairies in Sonoma Co. (Heady et al. 1977, CNDDB 2003) and the extensive Bald Hill prairies in Humboldt Co., including Redwood National Park (Grenier 1989) and private ranch lands (Bartolome 1994) in Mendocino Co. from MacKerricher State Park to Gualala often on flat ridge tops (CNPS unpublished data 2020). Stands of <i>Festuca idahoensis</i> in coastal terraces in Mendocino and Sonoma Cos. Often contain <i>Anthoxanthum odoratum</i> and <i>Holcus lanata</i> as co-dominants (Heady et al. 1977). Stands in Marin Co. incude varied mixes of perennials (Buck-Diaz et al. 2021, Evens and Kentner 2006). Stands in Sonoma Co. also are on serpentine (CNPS 2006, Klein et al. 2015).</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Ba-b, Bd). Stands are rare in the Bald Hills sections of Redwood National Park and adjacent areas in Humboldt and Mendocino Cos. Stands of the <i>Quercus garryana</i> woodland alliance are associated with <i>F. idahoensis</i> stands throughout the section. Inland stands in Six River National Forest (Jimerson 1993) characterize the alliance. The work on Bald Hill prairies in Redwood National Park (Arguello 1994, Hektner et al. 1983, Saenz 1983, Saenz and Sawyer 1986, USDI 1992, 2000) focused on restoration. Stands in the Yolla Bolly-Middle Eel Wilderness Area usually associate with small (< 2 ha) glades and have many native herbs (Keeler-Wolf and Keeler-Wolf 1974).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Coastal prairies and bald hills were traditionally maintained by native California tribes through burning in late summer or fall. This practice was used to produce more food (edible seed plants), reduce brush or trees, produce new grass for thatch, discourage insect pests, encourage the growth of cordage materials, and increase forage for game animals. This burning regime increased the cover of fire adapted species and expanded the grassland/prairie vegetation type. The fires may also have increased the productivity of the soil (Anderson 2005). 
+
+Since the settlement of California, burning practices have been largely discontinued and the majority of the area occupied by coastal prairie vegetation has been subjected to sheep and cattle grazing. With the absence of fire and/or grazing, shrubs and other woody plants have colonized previously open landscapes. Terrace prairies in Redwood National Park and associated state parks are being lost to <i>Rubus armeniacus </i>and other woody plants. Known stands in Marin Co. are in Point Reyes National Seashore and the Audubon Canyon Ranch reserve. As with other types of coastal prairie, fire, grazing, and clearing maintain stands away from the immediate coast. Shrubs such as <i>Baccharis pilularis, </i>or trees such as <i>Pinus muricata </i>and <i>Pseudotsuga menziesii, </i>regularly colonize these stands. Many areas along the coast that once hosted native grasslands also have been developed for housing (Ornduff et al. 2003).  
+
+<i>Danthonia californica</i> dominated many coastal prairies historically (Burtt-Davey 1902), but today these sites contain many non-native perennial grasses such as <i>Anthoxanthum odoratum, Arrhenatherum elatius, Rytidosperma penicillatum</i> (or <i>Danthonia pilosa</i> misapplied), and <i>Holcus lanatus</i> as well as non-native annual grasses such as <i>Bromus hordeaceus, Cynosurus echinatus, Lolium perenne</i>, and <i>Taeniatherum caput-medusae</i> (Saenz 1983, Saenz and Sawyer 1986). 
+
+Sawyer (2006) discussed the changes in the Bald Hills prairies in Redwood National Park from the time when Native Americans used fire, through the ranching period, to the current time of restoration practices. In the Bald Hills and elsewhere in the Pacific Northwest, managers can utilize frequent, low intensity fire as a management tool to enhance the prairie ecosystem, especially to limit native conifer encroachment (Engber and Varner 2012, Engber et al. 2011). However, some perennial grasses have infested this ecosystem such as <i>Arrhenatherum elatius </i>; this grass in particular may have a dampening effect on prescribed fire because of its high moisture content (Livingston and Varner 2016). Thus, complex management actions including specific invasive species eradication may be needed to successfully utlize prescribed fire. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Danthonia californica - Arrhenatherum elatius [3]</li>
+                
+                    <li>Danthonia californica coastal [1], [5], [6], [8]</li>
+                
+                    <li>Danthonia californica - Nassella pulchra [1], [6], [8]</li>
+                
+                    <li>Festuca californica [1], [2], [6], [8]</li>
+                
+                    <li>Festuca idahoensis - (Danthonia californica - Koeleria macrantha) [1], [2], [4], [6], [8]</li>
+                
+                    <li>Festuca idahoensis - Nassella pulchra [1], [8]</li>
+                
+                    <li>Festuca idahoensis Ultramafic [1], [6]</li>
+                
+                    <li>Festuca rubra [1], [5], [7]</li>
+                
+                    <li>Heterotheca sessiliflora - Danthonia californica [1]</li>
+                
+                    <li>Perideridia kelloggii - Danthonia californica [1], [8]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>[2] Evens, J.M.;Kentner, E. 2006</li>
+		
+		<li>[3] Grenier, K.H. 1989</li>
+		
+		<li>[4] Jimerson, T.M. 1993</li>
+		
+		<li>[5] Keeler-Wolf, T .;Schirokauer, D.;Meinke, J.;van derLeeden, P. 2003a</li>
+		
+		<li>[6] Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>[7] Michaels, C.L. 2004</li>
+		
+		<li>[8] Sikes, K.;Buck-Diaz, J.;Evens, J. 2021</li>
+		
+		<li>Anderson, M.K. 2005</li>
+		
+		<li>Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2020</li>
+		
+		<li>Burtt-Davy, J. 1902</li>
+		
+		<li>Ford, L.;Hayes, G. 2007</li>
+		
+		<li>Franklin, J.F.;Dyrness, C.T. 1973</li>
+		
+		<li>Heady, H.F.;Cooper, D.W.;Rible, J.W.;Hooper, J.E. 1963</li>
+		
+		<li>Jepson Flora Project, 2004-present</li>
+		
+		<li>Keeler-Wolf, T.;Evens, J.M.;Solomeshch, A.I.;Holland, V.L.;Barbour, M.G. 2007</li>
+		
+		<li>Ornduff, R.;Faber, P.M.;Keeler-Wolf, T. 2003</li>
+		
+		<li>Saenz, L. 1983</li>
+		
+		<li>Saenz, L.;Sawyer, J.O. 1986</li>
+		
+		<li>Sawyer, J.O. 2006</li>
+		
+		<li>UCB (University of California Berkeley), 2004-present</li>
+		
+		<li>Walsh, R.A. 1995b</li>
+		
+		<li>Zouhar, K. 2000b</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/580/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

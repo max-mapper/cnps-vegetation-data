@@ -1,0 +1,950 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Lotus scoparius - Lupinus albifrons - Eriodictyon spp.</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Lotus</i> <i>scoparius</i> - <i>Lupinus</i> <i>albifrons</i> - <i>Eriodictyon</i> spp.</span> Shrubland Alliance <br/>
+        <span class="subtitle">Deerweed - silver lupine - yerba santa scrub</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-1800 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S5
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G5
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: AZ, CA, OR. Mexico (TJM2) (USDA Plants) (Calflora)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2021/08/30
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/dendromecon-rigida_sfvw054-1483_03-05.jpg', '/static/images/photos/shrub/eriodictyon-californicum_lassenfoothills-snnr2077-e_10-07.jpg', '/static/images/photos/shrub/eriodictyon-crassifolium_oakgroveer_05-10_01.jpg', '/static/images/photos/shrub/eriodictyon-crassifolium_oakgroveer_05-10_02.jpg', '/static/images/photos/shrub/eriodictyon-crassifolium_oakgroveer_05-10_03.jpg', '/static/images/photos/shrub/eriodictyon-crassifolium_potrerowla_01-11.jpg', '/static/images/photos/shrub/lotus-scoparius_bigcreekreserve_06-05_02.jpg', '/static/images/photos/shrub/lotus-scoparius_bigcreekreserve_06-05_01.jpg', '/static/images/photos/shrub/lotus-scoparius_canadasanvicentewla_04-09_01.jpg', '/static/images/photos/shrub/lotus-scoparius_oshaunnessydam_05-03_01.jpg', '/static/images/photos/shrub/lotus-scoparius_oshaunnessydam_05-03_02.jpg', '/static/images/photos/shrub/lotus-scoparius_ramona_02-10_01.jpg', '/static/images/photos/shrub/lotus-scoparius_ramona_02-10_02.jpg', '/static/images/photos/shrub/lupinus-albifrons_cascades.jpg', '/static/images/photos/shrub/lupinus-albifrons_napaco_05-02_01.jpg', '/static/images/photos/shrub/lupinus-albifrons_napaco_05-02_02.jpg', '/static/images/photos/shrub/lupinus-albifrons_shellcrrd_04-10_01.jpg', '/static/images/photos/shrub/lupinus-albifrons_shellcrrd_04-10_02.jpg', '/static/images/photos/shrub/lupinus-albifrons_shellcrrd_04-10_03.jpg', '/static/images/photos/shrub/lupinus-albifrons_ssnf_04-10_01.jpg', '/static/images/photos/shrub/lupinus-albifrons_ssnf_04-10_02.jpg', '/static/images/photos/shrub/lupinus-albifrons_ssnf_04-10_03.jpg', '/static/images/photos/shrub/lupinus-albifrons_ssnf_04-10_04.jpg', '/static/images/photos/shrub/lupinus-albifrons_tildenpark_04-02_01.jpg', '/static/images/photos/shrub/lupinus-albifrons_tildenpark_04-02_02.jpg', '/static/images/photos/shrub/lupinus-albifrons_tildenpark_04-02_03.jpg', '/static/images/photos/shrub/lupinus-albifrons_tildenpark_04-02_04.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Dendromecon</i> <i>rigida</i>, <i>Eriodictyon</i> <i>californicum</i>, <i>Eriodictyon</i> <i>crassifolium</i>, <i>Eriodictyon</i> <i>parryi</i>, <i>Lotus</i> <i>scoparius</i> and/or <i>Lupinus</i> <i>albifrons</i> is dominant in the shrub canopy with <i>Adenostoma</i> <i>fasciculatum</i>, <i>Artemisia</i> <i>californica</i>, <i>Baccharis</i> <i>pilularis</i>, <i>Ceanothus</i> <i>cuneatus</i>, <i>Ceanothus</i> <i>greggii</i>, <i>Corethrogyne</i> <i>filaginifolia</i>, <i>Dicentra</i> <i>chrysantha</i>, <i>Diplacus</i> <i>aurantiacus</i>, <i>Ephedra</i> <i>californica</i>, <i>Ericameria</i> <i>linearifolia</i>, <i>Eriogonum</i> <i>fasciculatum</i>, <i>Eriophyllum</i> <i>confertiflorum</i>, <i>Hazardia</i> <i>squarrosa</i>, <i>Helianthus</i> <i>gracilentus</i>, <i>Hesperoyucca</i> <i>whipplei</i>, <i>Malacothamnus</i> <i>densiflorus</i>, <i>Prunus</i> <i>fremontii</i>, <i>Rhus</i> <i>ovata</i>, <i>Ribes</i> <i>quercetorum</i>, <i>Salvia</i> <i>apiana</i>, <i>Sambucus</i> <i>nigra</i>, <i>Senecio</i> <i>flaccidus</i> var. <i>douglasii</i>, <i>Toxicodendron</i> <i>diversilobum</i> and <i>Trichostema</i> <i>parishii</i>. Emergent trees may be present at low cover, including <i>Pinus</i> <i>sabiniana</i>, <i>Quercus</i> <i>douglasii</i> and <i>Quercus</i> <i>wislizeni</i> </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 3 m; canopy is open to intermittent and can be two tiered. Herbaceous layer is sparse to intermittent. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Dendromecon rigida</i> > 50% relative cover in the shrub canopy (Evens and San 2005, Keeler-Wolf and Evens 2006).</li>
+		
+		<li><i>Eriodictyon californicum</i> or <i>E. crassifolium</i>> 50% relative cover the shrub canopy with low to moderate cover (Klein et al. 2007, Ratchford et al. 2022a).</li>
+		
+		<li><i>Lotus scoparius</i> > 50% relative cover in the shrub canopy (Evens and San 2005, Keeler-Wolf and Evens 2006, Klein and Evens 2005, Ratchford et al. 2022a).</li>
+		
+		<li><i>Lupinus albifrons</i> > 50% relative cover in the shrub canopy (Keeler-Wolf et al. 2003b, Evens et al. 2006, Ratchford et al. 2022a).</li>
+		
+		<li><i>Eriodictyon californicum, Lotus scoparius, Pickeringia montana,</i> or <i>Lupinus albifrons</i> > 50% relative cover in the shrub canopy, or > 30% relative cover with other seral shrubs (Buck-Diaz et al. 2021, Sikes et al. 2021).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Lower to upper slopes and ridges, typically exposed, somewhat steep open settings. Areas often with recent disturbance, such as through clearing, fire, or intermittent flooding.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Lower montane mixed chaparral, Soft scrub-Mixed chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Chamise chaparral, Semi-desert chaparral, Coastal sage-chaparral scrub, Alluvial fan chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Chaparral, Coastal sage scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Coastal scrub, Mixed chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>37.070.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Mediterranean Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Mediterranean Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>California Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>California Coastal Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Central and south coastal California seral scrub
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Lotus scoparius </i>is a short-lived shrub that can reach 20 years of age. This legume is a nitrogen fixer. The thin, sparsely leaved stems form open rounded plants that bloom from spring through summer with yellow flowers. Fruits are indehiscent and dispersed passively short distances. Forming a seed bank, seeds germinate with disturbance (Montalvo 2003).<br/>
+<br/>
+<i>Lupinus albifrons </i>is a large shrubby lupine with silvery leaves. The flowers are loosely whorled, and the bi-colored purple and white flowers are large and showy. The eight varieties vary in habit and leaf characters and are somewhat isolated geographically. Var. <i>abramsii </i>(a CNPS 3.2 plant) and vars. <i>austromontanus, douglasii, hallii, johnstonii</i>and <i>medius </i>are restricted; var. <i>albifrons </i>and var. <i>collinus </i>are common. Sampling over the entire range of the species is needed to understand their role in the state’s vegetation. <br/>
+<br/>
+<i>Eriodictyon californicum </i>is a much-branched, evergreen shrub that attains 2.5 m. Branches are resinous, and leaves are glutinous and lanceolate. A sooty fungus often blackens mature leaves of <i>E. californicum</i>. Seeds collect near plants, forming a seed bank, and they germinate following a disturbance. Seedlings are sensitive to the presence of emerging herbs, which competitively replace most emerging <i>E. californicum </i>seedlings. Plants regenerate asexually through rhizomes, and roots are shallow (Howard 1992e). <br/>
+<br/>
+<i>Eriodictyon crassifolium </i>is a much-branched, evergreen shrub that attains 3 m in height. Branches are tomentose, and the lanceolate leaves are entire to toothed, sparsely hairy to white-tomentose. Plants probably have a similar ecology to that of <i>E. californicum, </i>whereby seeds collect near plants and form a seed bank; they germinate following disturbance such as fire, and plants die after 20 to 30 years (Howard 1992e). Then other chaparral shrubs such as <i>Adenostoma fasciculatum </i>become dominant.<br/>
+<br/>
+<i>Dendromecon rigida </i>is a short-lived shrub that grows to 3 m in height. Seeds are scattered from the plant by violently dehiscing capsules and then transported further by ants (Berg 1966). Ants cache and discard the seeds on open sites providing uphill, downhill, and interdrainage dispersal (Bullock 1989). Seedlings establish after fire or other disturbances. Plants are ephemeral and replaced by longer-lived chaparral species in time.<br/>
+<br/>
+The diagnostic species of this alliance are early colonizers of disturbed sites throughout cismontane-California. Stands represent a natural phase of post-fire regeneration in California chaparral, as do those of the <i>Malacothamnus fasciculatus - Malacothamnus </i>spp. Alliance.  For example, <i>Lotus scoparius </i>dominates recently burned patches of chaparral and coastal scrub (e.g., <i>Adenostoma fasciculatum, Artemisia californica - (Salvia leucophylla), </i>and <i>Eriogonum fasciculatum </i>alliances).<br/>
+ <br/>
+<i>Lupinus albifrons </i>is relatively short-lived and tends to colonize regularly disturbed, steep and unstable slopes and shifting sands. Stands are typically open and regularly occur on rocky surfaces with little soil development, including road cuts and active alluvium as well as relatively long-persisting stands on rock outcrops. They occur in the central Sierra Nevada foothills on exposed, steep slopes including limestone. Stands also occur in the central Coast Ranges on rocky, alluvial surfaces, and on the Channel Islands on unstable sandy substrates.<br/>
+<br/>
+<i>Eriodictyon californicum </i> regularly forms stands in recently burned chaparral, in grazed or cleared shrublands, or other disturbed areas. In the Sierra Nevada foothills, these seral stands become invaded by other shrubs or trees as they age, and stands transition to shrublands, such as <i>Ceanothus cuneatus </i> or <i>Adenostoma fasciculatum </i>Alliances, or woodlands, such as <i>Quercus douglasii </i>or <i>Q. wislizeni </i>Aliances, with lack of disturbance (Klein et al. 2007). <i>E. crassifolium</i> also germinates after fire and represents this alliance in warmer regions of southern California where it is otherwise uncommon. Other related species, such as <i>Eriodictyon parryi</i>occur in similar habitats as well.<br/>
+<br/>
+In the 2009 book, <i>A Manual of California Vegetation, second edition</i>, <i>Lotus scoparius, Lupinus albifrons, Eriodictyon californicum, E. crassifolium, </i>and <i>Dendromecon rigida </i>were treated separately in their own respective alliances. More recent analyses have expanded our understanding of these disturbance-related vegetation types and demonstrated their close similarity to one another. This merger of alliances also reflects a broader alliance treatment, which is a general trend for the revised USNVC (NatureServe 2020). </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Dendromecon rigida</th>
+			
+		
+			
+			<th>Eriodictyon californicum</th>
+			
+		
+			
+			<th>Eriodictyon crassifolium</th>
+			
+		
+			
+			<th>Eriodictyon parryi</th>
+			
+		
+			
+			<th>Lotus scoparius</th>
+			
+		
+			
+			<th>Lupinus albifrons</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Shrub; evergreen</td>
+			
+		
+			
+			<td>Shrub; evergreen; rhizomatous </td>
+			
+		
+			
+			<td>Evergreen shrub, Polycarpic perennial</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Shrub; drought-deciduous </td>
+			
+		
+			
+			<td>Shrub; evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Transient</td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Soil </td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Long</td>
+			
+		
+			
+			<td>Long</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Long</td>
+			
+		
+			
+			<td>Long</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal (ants); expulsion from capsule; gravity</td>
+			
+		
+			
+			<td>Gravity; wind</td>
+			
+		
+			
+			<td>Gravity; wind</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Gravity</td>
+			
+		
+			
+			<td>Animal; expulsion from capsule; gravity</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Heat? (improves germination)</td>
+			
+		
+			
+			<td>Heat (fire); scarification; none (light)</td>
+			
+		
+			
+			<td>Heat (fire); scarification; none (light)</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Heat scarification (fire)</td>
+			
+		
+			
+			<td>None; scarification </td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Underground structures (weak stump sprout)</td>
+			
+		
+			
+			<td>Underground structures (rhizomes)</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>Buds on small branches and Underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-sensitive; no/low sprouter</td>
+			
+		
+			
+			<td>Fire-sensitive; no/low sprouter to high sprouter; high flammability </td>
+			
+		
+			
+			<td>Fire-sensitive; no/low sprouter to high sprouter; high flammability</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Fire-sensitive; thin epidermis; no/low sprouter (non-sprouting); canopy architecture susceptible</td>
+			
+		
+			
+			<td>Fire-sensitive</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>Unknown </td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>No (maybe stimulated by grazing)</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>Short-lived</td>
+			
+		
+			
+			<td>Life of plant</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>1-10 (20) years</td>
+			
+		
+			
+			<td>2 years to life of plant?</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>High</td>
+			
+		
+			
+			<td>Low to high (sensitive to competition)</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Coastal and interior stands</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">The alliance is a disturbance-stimulated type. <i>Eriodictyon californicum </i>establishes after low to moderate severity fires by sprouting from rhizomes. <i>Lotus scoparius </i>or <i>Lupinus albifrons</i> does not sprout after fire (Keeley and Keeley 1984). Generally, they are obligate seeders. <i>Eriodictyon californicum </i>also readily germinates after fire from seeds that lie dormant in the soil for decades. Fire scarifies seeds with heat stimulating germination, burns off the litter layer, and exposes seeds to sufficient light to allow germination. Seedlings rapidly grow within the first few years after fire. Plants can flower with seedlings establishing within the second year (Montalvo and Ellstrand 2001). <i>L. scoparius </i>seedlings are notably larger than other shrub seedlings in the second season after fire (Keeley and Keeley 1984), and dense stands can occur within 2-3 years after fire. This early seral, short-lived shrub relinquishes dominance to longer-lived shrubs usually 5-10 years after fire (Montalvo 2003) and some stands persist in areas with repeated fires (Howard 1992e).
+
+We know little about optimum conditions for <i>Dendromecon rigida </i>stands. Stands are usually small (< 2 ha) and occur in openings in chaparral. Stands may be associated with largely sprouting or obligate-seeding chaparral shrubs. <i>Dicentra chrysantha, Helianthus gracilentus, </i>or other fire followers are often present.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Short (5-50 years)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Summer-fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Small to large
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Low to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Low to very high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Passive-independent crown fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Cismontane California; Sonoran Desert; Baja California
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Aa, Ac-l). Stands generally intermix with coastal scrub and grasslands throughout the section an become established after fire and along fire lines and road cuts, including those at the Big Creek Reserve in Monterey Co. (UC Natural Reserve System 2003), which are dense.  Recorded stands in San Mateo County (Sikes et al. 2021) and expected stands along the central coast (CCH 2017).</li>
+        
+            <li><b>Central California Coast Ranges</b> (M262Aa-f, Ah-k). Mapped and recorded stands in Pinnacles National Park (Kittel et al. 2012), Carrizo National Monument (Buck-Diaz and Evens 2011a), and the Clear Creek Management Area (Evens et al. 2006).</li>
+        
+            <li><b>Colorado Desert</b> (322Cb). Stands of <i>Lotus scoparius</i> occur at Anza- Borrego Desert State Park where it occurs adjacent to both desert scrub and chaparral stands in the western portions of the park (Keeler-Wolf et al. 1998b).</li>
+        
+            <li><b>Great Valley</b> (262Ae, Ag-h, Ak-l, Ao, Aq, As, Au, Az). Recorded stands exist in sandy areas in the Sacramento-San Joaquin Delta area, including the Antioch Dunes.  Recorded and mapped stands around the edges of the Great Valley of Eriodictyon californicum in the Sacramento Valley and Lupinus albifrons in the San Joaquin Valley, including stands along the San Joaquin River (Buck-Diaz et al. 2012). Expected stands on the slopes of Sutter Buttes (CCH 2017).</li>
+        
+            <li><b>Klamath Mountains</b> (M261Ai). Expected stands occur near Lake Shasta occur in recently burned areas on south-facing slopes and have also been observed at Whiskeytown Reservoir.</li>
+        
+            <li><b>Mojave Desert</b> (322Ag, An). Mapped stands of Eriodictyon crassifolium and Dendromecon rigida just at the southern edge of these subsections, on the northern feet of the San Gabriel and San Bernadino Mountain ranges (Menke et al. 2013).</li>
+        
+            <li><b>Northern California Coast</b> (263Ac, Af-g, Aj, Al-m). Stands occur on roadbanks and steep eroded slopes through the central and southern subsections. In the southern subsections, stands also occur in chaparral.  Mapped and recorded stands in both Marin and Sonoma Counties (Buck-Diaz et al. 2021; Klein et al. 2015).  Expected stands farther north based on CCH records (CCH 2017).</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Ba-f). Stands occur in and adjacent to chaparral throughout the section.
+Stands have been observed in the Yolla Bolly Mountains (Be) below 1500 m and in eastern Napa Co. (Bf) on steep southwest-facing slopes surrounded by <i>Adenostoma fasciculatum</i> and <i>Ceanothus cuneatus</i> alliance.  Recorded and mapped stands in both Sonoma and Napa Counties (Klein et al. 2015; Thorne et al. 2004; VegCAMP 2014c).  Expected stands in northern areas of subsections based on CCH records (CCH 2017).</li>
+        
+            <li><b>Northern California Interior Coast Ranges</b> (M261Ca-c). Mapped stands in Napa County, including the Knoxville Wildlife Area (Thorne et al. 2004; VegCAMP 2014c).  Expected stands in northern areas of subsections based on CCH records (CCH 2017).</li>
+        
+            <li><b>Sierra Nevada</b> (M261Ef-g, Ep, Er-s). Recorded and mapped stands of Lupinus albifrons near Yosemite National Park and in Tehachapi (Keeler-Wolf et al. 2003b; VegCAMP 2015a).  Expected stands in other subsections based on CCH records (CCH 2017).</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fa-e). Mapped and recorded stands throughout region (Klein et al. 2007; Ratchford et al. 2021a; VegCAMP 2015a).</li>
+        
+            <li><b>Southern California Coast</b> (261Ba-j). Stands exist after disturbance in the section, including in the Santa Monica Mountains (Keeler-Wolf and Evens 2006), along the Santa Clara River and Sespe Creek (Stillwater Sciences and URS 2007), and coastal terraces south to the Mexican border (Evens and San 2005). Stands also occur on coastal dunes and steep banks. Stands of <i>Lupinus albifrons </i> in the northern Channel Islands (Johnson and Rodriguez 2001, Junak et al. 2007) occupy stabilized dunes and coastal bluffs.  Stands in the Santa Monica Mountains (Keeler-Wolf and Evens 2006) are similar to those across the section, occurring on moderately steep slopes largely associated with sprouting shrubs of <i>Adenostoma fasciculatum, Heteromeles arbutifolia, Rhus ovata,</i> and <i>Quercus berberidifolia.</i></li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Ba-d, Bf-g, Bi-p). Mapped and recorded stands throughout region (Klein and Evens 2005; Sproul et al. 2011; Keeler-Wolf et al. 1998b).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Although stands are often a natural phase post-disturbance in California, <i>Eriodictyon californicum </i>can become dominant on heavily used rangelands, particularly in areas of chaparral converted to grassland (Howard 1992e). Similarly, <i>Lotus scoparius </i> and <i>Lupinus albifrons </i>are able to establish quickly in disturbed areas from seed. Thus, they can be useful for post-fire recovery, erosion control, and habitat restoration in California. In choosing seed source for restoration, seeds have a higher fitness and success at establishing when they come from local or nearby sources populations (Montalvo and Ellstrand 2001). Further, <i>L. scoparius </i>provides important forage for deer, especially in drought years (Dale 2000). 
+
+A fungal pathogen impacts the long-term health of <i>Lupinus albifrons </i>in some parts of its range. This fungus has raised concern due to the reliance of the endangered mission blue butterfly (<i>Icaricia icarioides missionensis</i>) on <i>L. albifrons </i>as a larval food plant. Studies currently being undertaken at Point Reyes National Seashore will determine the significance of the disease on the plant and butterfly (see Point Reyes National Seashore website). 
+
+The characteristic species of this alliance are seed-banking species, therefore abnormally high fire frequencies would eliminate seed banks of this and later seral chaparral species. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Dendromecon rigida [1], [2], [20], [23]</li>
+                
+                    <li>Eriodictyon californicum / herbaceous [5], [6], [13], [16], [19], [21], [24], [25]</li>
+                
+                    <li>Eriodictyon crassifolium [17], [20], [21]</li>
+                
+                    <li>Eriodictyon parryi [21]</li>
+                
+                    <li>Lotus scoparius [1], [2], [3], [5], [6], [7], [8], [17], [21], [23], [24]</li>
+                
+                    <li>Lupinus albifrons [4], [5], [7], [9], [10], [11], [15], [19], [21], [25]</li>
+                
+                    <li>Lupinus albifrons coastal [12], [14], [22]</li>
+                
+                    <li>Lupinus albifrons - Senecio flaccidus var. douglasii [3], [21]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Evens, J.;San, S. 2005</li>
+		
+		<li>[2] Keeler-Wolf, T.;Evens, J. 2006</li>
+		
+		<li>[3] Kittel, G.;Reyes, E.;Evens, J.;Buck, J.;Johnson, D. 2012</li>
+		
+		<li>[4] Buck-Diaz, J.;Evens, J. 2011b</li>
+		
+		<li>[5] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>[6] Buck-Diaz, J.;Evens, J. 2011a</li>
+		
+		<li>[7] Evens, J.M.;Klein, A.;Taylor, J.;Hickson, D.;Keeler-Wolf, T. 2006</li>
+		
+		<li>[8] AECOM, 2013</li>
+		
+		<li>[9] Buck-Diaz, J.;Harbert, B.;Evens, J. 2011</li>
+		
+		<li>[10] Buck-Diaz, J.;Ratchford, J.;Evens, J. 2013</li>
+		
+		<li>[11] CNPS Vegetation Program, 2015</li>
+		
+		<li>[12] HDR, 2014b</li>
+		
+		<li>[13] Evens, J.M.;San, S.;Taylor, J. 2004</li>
+		
+		<li>[14] Junak, S.;Knapp, D.A.;Haller, J.R.;Philbrick, R.;Schoenherr, A.;Keeler-Wolf, T. 2007</li>
+		
+		<li>[15] Keeler-Wolf, T.;Schindel, M.;San, S.;Moore, P.;Hickson, D. 2003b</li>
+		
+		<li>[16] Klein, A.;Crawford, J.;Evens, J.;Keeler-Wolf, T.;Hickson, D. 2007</li>
+		
+		<li>[17] Klein, A.;Evens, J. 2005</li>
+		
+		<li>[19] Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>[20] Reyes, E.;Johnson, D.;Glass, A. 2019</li>
+		
+		<li>[21] Ratchford, J.;Boul, R.;Keeler-Wolf, T.;Evens, J. 2022a (in progress)</li>
+		
+		<li>[22] Rodriguez, D.;Sikes, K.;Keeler-Wolf, T.;Kittel, G.;Curtis, J.;Curley, C.;Evens, J. 2017</li>
+		
+		<li>[23] Sproul, F.;Keeler-Wolf, T.;Gordon-Reedy, P.;Dunn, J.;Klein, A.;Harper, K. 2011</li>
+		
+		<li>[24] Sikes, K.;Buck-Diaz, J.;Evens, J. 2021</li>
+		
+		<li>[25] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>Berg, R.Y. 1966</li>
+		
+		<li>Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2020</li>
+		
+		<li>Buck, J.;Evens, J. 2010</li>
+		
+		<li>Bullock, S.H. 1989</li>
+		
+		<li>CCH (Consortium of California Herbaria), 2017+</li>
+		
+		<li>Dale, N. 2000</li>
+		
+		<li>Howard, J.L. 1992e</li>
+		
+		<li>Johnson, L.;Rodriguez, D. 2001</li>
+		
+		<li>Keeler-Wolf, T.;Roye, C.;Lewis, K. 1998b</li>
+		
+		<li>Keeley, J.E.;Keeley, S.C. 1984</li>
+		
+		<li>Menke, J.;Reyes, E.;Hepburn, A.;Johnson, D.;Reyes, J. 2013</li>
+		
+		<li>Montalvo, A.;Beyers, J. 2010</li>
+		
+		<li>Montalvo, A.M. 2003</li>
+		
+		<li>Montalvo, A.M.;Ellstrand, N.C. 2001</li>
+		
+		<li>NatureServe, 2014+</li>
+		
+		<li>Royal Botanic Gardens Kew, 2016</li>
+		
+		<li>Stillwater Sciences and URS, 2007</li>
+		
+		<li>Thorne, J.H.;Kennedy, J.;Quinn, J.F.;McCoy, M.;Keeler-Wolf, T.;Menke, J. 2004</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program), 2014c</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program), 2015a</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/567/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

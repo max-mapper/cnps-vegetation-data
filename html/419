@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Lemna (minor) and Relatives</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+	<div class="allianceHeader">
+		<span class="scientificName"><i>Lemna</i> (<i>minor</i><span style="padding-left: .2em">)</span> and Relatives</span> Provisional Herbaceous Alliance <br/>
+		<span class="subtitle">Duckweed blooms</span>
+	</div>
+
+	<div class="mainAllianceInfo">
+
+		<div class="allianceSideInfo">
+			<div class="quickInfoList">
+				<h4>Summary Information</h4>
+				<ul>
+					<li>
+						<span class="category">Primary Life Form</span>Herb
+					</li>
+					<li>
+						<span class="category">Elevation</span>0-2300 m
+					</li>
+					<li>
+						<span class="category">State Rarity</span>S4?
+					</li>
+					<li>
+						<span class="category">Global Rarity</span>G5
+					</li>
+					<li>
+						<span class="category">Distribution</span>CAN: QC. USA: AK, AL, AR, AZ, CA, CO, CT, DE, FL, GA, IA, ID, IL, IN, KS, KY, LA, MA, MD, ME, MI, MN, MO, MS, MT, NC, ND, NE, NH, NJ, NM, NV, NY, OH, OK, OR, PA, RI, SC, SD, TN, TX, UT, VA, VT, WA, WV, WY (NatureServe)
+					</li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+				</ul>
+			</div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = []
+            </script>
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+		</div>
+
+		
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Lemna</i> spp., <i>Spirodela</i> spp., <i>Wolffia</i> spp. or <i>Wolffiella</i> spp. are dominant herbs on the water surface or characteristically present in the herbaceous layer with <i>Azolla</i> <i>filiculoides</i>, <i>Azolla</i> <i>mexicana</i> and <i>Egeria</i> <i>densa</i>. Emergent plants may be present at low cover, including <i>Myriophyllum</i> <i>aquaticum</i> or <i>Scirpus</i> spp. </div>
+</div>
+
+		
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Herbs 0.3-8mm in size; cover is intermittent to continuous. </div>
+</div>
+
+		
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Seasonal and perennial freshwater habitats with still water or on ground surfaces after water levels have dropped. The USFWS Wetland Inventory (1996 national list) recognizes <i>Lemna aequinoctialis, L. minor, L. trisulca, Spirodela polyrrhiza, S. punctata, Wolffia globosa, Wolffiella lingulata,</i> and <i>W. oblonga</i> as OBL plants. </div>
+</div>
+
+		
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance, and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Duckweed series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Lemna spp permanently flooded herbaceous alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Tule-Cattail, Water
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Coastal and valley freshwater marsh, Transmontane freshwater marsh, Montane freshwater marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Freshwater marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Fresh emergent wetland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>52.105.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+	</div>
+
+
+	<!-- collapsable content below -->
+
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> Duckweed blooms, or clusters of dense colonies, cover the surface of quiet bodies of water enriched with nutrients. Actively growing plants are sensitive to freezing and drought, and they tolerate low levels of salinity. Species survive harsh conditions as turions or seeds, which overwinter in sediments. All species are important food sources for wildlife, especially waterfowl (DiTomaso and Healy 2003). Duckweeds remove nutrients from sewage effluent (e.g., Arcata Marsh in Humboldt Co.), and they feed fish and livestock. Manual and mechanical removal can reduce blooms (DiTomaso and Healy 2003). <br/>
+<br/>
+<i>The Jepson Manual </i>(Hickman 1993) lists 13 duckweed species in <i>Lemna, Spirodela, Wolffia, </i>and <i>Wolffiella</i>. Individual tolerances vary little among the species. <i>L. gibba, L. minor, L. minuscula, </i>and <i>L. turionifera </i>grow statewide. <i>L. aequinoctialis </i>grows in transmontane California. <i>L. trisulca </i>and <i>L. valdiviana </i>form tangled masses below the water surface or under other plants in the mountains. <i>S. polyrrhiza </i>occurs throughout the state. Most species of <i>Wolffia, </i>except <i>W. globosa, </i>are uncommon. <i>Wolffiella lingulata </i>is more common than <i>W. oblonga</i>. </div>
+</div>
+
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Observations</h4>
+	<div class="text"> Duckweeds occur throughout California where conditions are favorable. <i>Lemna gibba</i> and <i>L. minor</i> are noted as important species of deep freshwater habitats with <i>Azolla filiculoides, Egeria densa</i>, and <i>Myriophyllum aquaticum</i> in the San Francisco Bay estuary (Holstein 2000) of the Central California Coast (261A). <i>L. trisulca</i> is noted as an important species in deep standing water with <i>Veronica americana</i> in the Golden Trout Wilderness (Fites-Kaufman et al. 2007) of the Sierra Nevada (M261E). Dense patches of <i>L. aequinoctialis</i> occurred among the <i>Scirpus</i> plants and along the edge of the Lake Los Carneros (McLay 1976) of the Southern California Coast (261B). We need more sampling and analysis to determine associations and to understand fully the ecological relationships of this and related freshwater wetland alliances. </div>
+</div>
+
+	
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>Armstrong, W.P. 1982</li>
+		
+		<li>Armstrong, W.P.;Thorne, R.F. 1984</li>
+		
+		<li>Barry, W.J. 1989a</li>
+		
+		<li>Barry, W.J. 1989b</li>
+		
+		<li>Cheatham, N.H.;Haller, J.R. 1975</li>
+		
+		<li>DiTomaso, J.M.;Healy, E.A. 2003</li>
+		
+		<li>Mason, H.L. 1957</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+	<script src="/static/javascript/alliance_page.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

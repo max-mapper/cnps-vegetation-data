@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Pseudotsuga macrocarpa</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Pseudotsuga</i> <i>macrocarpa</i></span> Forest Alliance <br/>
+        <span class="subtitle">Bigcone Douglas fir forest</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Tree
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>275-2400 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3.2
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G3
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA (NatureServe) (Calflora)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>Yes
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>Yes
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/tree/pseudotsuga-macrocarpa_sangabrielriver.jpg', '/static/images/photos/tree/pseudotsuga-macrocarpa_traverserangers.jpg', '/static/images/photos/tree/pseudotsuga-macrocarpa_vulcanmtn_04-05_01.jpg', '/static/images/photos/tree/pseudotsuga-macrocarpa_vulcanmtn_04-05_02.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Pseudotsuga</i> <i>macrocarpa</i> is dominant or co-dominant in the tree canopy with <i>Arbutus</i> <i>menziesii</i>, <i>Notholithocarpus</i> <i>densiflorus</i>, <i>Pinus</i> <i>coulteri</i>, <i>Pinus</i> <i>jeffreyi</i>, <i>Quercus</i> <i>agrifolia</i>, <i>Quercus</i> <i>chrysolepis</i>, <i>Quercus</i> <i>wislizeni</i> and <i>Umbellularia</i> <i>californica</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text"> Trees < 30 m; canopy is continuous or two tiered in older stands. Shrub layer is sparse to intermittent. Herbaceous layer is sparse. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Pseudotsuga macrocarpa</i> > 30% relative cover in the tree canopy (Evens and San 2005, Klein and Evens 2005, Buck-Diaz and Evens 2015).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Deep, convex canyons, draws, benches, hillsides, and cliff faces favoring rapidly eroding, north-facing slopes. Soils are shallow and well drained.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Bigcone Douglas fir series, Bigcone Douglas fir-canyon live oak series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Pseudotsuga macrocarpa forest alliance, Pseudotsuga macrocarpa-Quercus chrysolepis forest alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Bigcone Douglas-fir
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Bigcone spruce-canyon oak forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Mixed evergreen forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Montane hardwood-conifer
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>82.100.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Tree Vegetation (Forest and Woodland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Cool Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North America Cool Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Californian-Vancouverian Montane and Foothill Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Californian montane conifer forest
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Pseudotsuga macrocarpa </i>is a conifer that reaches 30 (-50) m in height and 700 years of age. Plants begin producing cones at about 20 years of age. Heavy seed crops are rare. Most seeds fall under the parent tree, but wind, rodents, and birds further disperse seeds. Seeds germinate on bare mineral soil and litter, but seedling mortality occurs on litter from damping-off fungi. Seedlings are shade tolerant and can grow under shrub and tree canopies. Plants can penetrate shrub or tree canopies after decades of growth (Howard 1992h, McDonald 1990a). <br/>
+<br/>
+<i>Pseudotsuga macrocarpa </i>favors sites with topography that impedes a fire’s momentum and intensity. Stands usually lack well-developed understory or litter layers, unless they are regenerating from a burn, where shrubs are abundant. Stands are often monospecific; however, some contain a lower tier of <i>Quercus chrysolepis. </i>The first edition recognized a separate <i>Pseudotsuga macrocarpa-Quercus chrysolepis </i>series, but the variance in stand structure does not warrant two alliances. Stands often mingle with stands of many chaparral alliances (Minnich 2007). </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Pseudotsuga macrocarpa</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Tree; evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Transient</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; wind</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Stratification—winter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Buds on large branches or trunks</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>20-600+years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text"><i>Pseudotsuga macrocarpa </i>is adapted to long fire-free intervals. Fire kills seeds, seedlings, and most saplings. Most sprouting occurs on trees scorched by surface fire. Mature plants can sprout from the bole and branches after a fire and grow new crowns; however, trees subjected to crown fire rarely sprout. Regeneration in moderately burned stands takes several decades; however, it is less probable after stand-replacing fires because most seed trees are lost, and long distance dispersal is not probable (Howard 1992h, McDonald 1990a).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Long (70-200+ years)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Summer-early fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Small—up to and beyond stand size (stands are usually about 100 acres)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Multiple
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Multiple
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Multiple
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Multiple
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Central Coast, southern California
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast Ranges</b> (M262A). The northernmost stands are in the eastern Sierra Madre Mountains in the extreme southeastern portion of the section.</li>
+        
+            <li><b>Mojave Desert</b> (322A). Stands are mapped along the southern boundary of this subsection, at the edge of the Transverse Ranges (Calveg 2008).</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261F). Isolated stands exist north and west of Frazier Park in the San Emigdio Mountains along north facing slopes and draws (Calveg 2005).</li>
+        
+            <li><b>Southern California Coast</b> (261B). Stands exist sporadically in the section on north facing slopes and canyons, including along Santa Paula Ridge, Santa Susana Mountains, and Santa Ana Mountains (Calveg 2010).</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262B). Stands in the Transverse Ranges, including those in Cleghorn Canyon cRNA, Fern Canyon and Millard Canyon RNAs (Cheng 2004), in the Peninsular Ranges at Falls Canyon RNA (Sproul 1981, see Cheng 2004), Rouse Ridge in San Bernardino NF and Agua Tibia Mountain in Cleveland NF (Klein and Evens 2005), as well as more generally in the section (McDonald and Littrell 1976, Minnich 1976, 1980a, 1982, Minnich and Everett 2001) help to describe the alliance. The southernmost occur in the Volcan Mountain-Banner Grade vicinity of San Diego Co. (Evens and San 2005). Many stands have suffered crown fires in the past decade (Minnich 1999, Evens and San 2005, Kauffmann et al. 2017).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Low-elevation stands were logged heavily during the settlement period (Keeley 2007). Elevated ozone exposure due to air pollution has reduced tree vigor (Arbaugh et al. 1999). Stands in the San Bernardino and eastern San Gabriel mountains have experienced extensive stand replacement burns, most during extreme weather (Minnich 1999). Individual trees and stands that survive fires act as seed sources during fire-free intervals, so local populations can contract and expand during differing fire regimes (Keeley 2007). Short fire return intervals (< 70 years) are a threat in local populations as frequent fires convert stands to chaparral. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Pseudotsuga macrocarpa - Quercus agrifolia [1], [3], [6]</li>
+                
+                    <li>Pseudotsuga macrocarpa - Quercus chrysolepis [1], [2], [3], [5]</li>
+                
+                    <li>Pseudotsuga macrocarpa - Quercus chrysolepis - Abies concolor - Pinus spp. [4]</li>
+                
+                    <li>Pseudotsuga macrocarpa - Quercus chrysolepis - Acer macrophyllum [4]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Evens, J.;San, S. 2005</li>
+		
+		<li>[2] Klein, A.;Evens, J. 2005</li>
+		
+		<li>[3] AECOM, 2013</li>
+		
+		<li>[4] Kauffmann, M.;Ratchford, J.;Evens, J.;Lindke, K.;Barnes, J. 2017</li>
+		
+		<li>[5] White, S.D. 1994a</li>
+		
+		<li>[6] Reyes, E.;Johnson, D.;Glass, A. 2019</li>
+		
+		<li>Barbour, M.G. 1988</li>
+		
+		<li>Barry, W.J. 1989a</li>
+		
+		<li>Barry, W.J. 1989b</li>
+		
+		<li>Bolton, R.B.;Vogl, R.J. 1969</li>
+		
+		<li>Buck-Diaz, J.;Evens, J.M. 2015</li>
+		
+		<li>Cheatham, N.H.;Haller, J.R. 1975</li>
+		
+		<li>Gause, G.W. 1966</li>
+		
+		<li>Griffin, J.R.;Critchfield, W.B. 1972</li>
+		
+		<li>Howard, J.L. 1992h</li>
+		
+		<li>McDonald, P.M. 1990a</li>
+		
+		<li>McDonald, P.M.;Littrell, E.E. 1976</li>
+		
+		<li>Menke, J.;Reyes, E.;Hepburn, A.;Johnson, D.;Reyes, J. 2013</li>
+		
+		<li>Minnich, R.A. 1976</li>
+		
+		<li>Minnich, R.A. 1980a</li>
+		
+		<li>Minnich, R.A. 1982</li>
+		
+		<li>Minnich, R.A. 1987</li>
+		
+		<li>Minnich, R.A. 2007</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Black, H.;Bleich, V.C.;Mincks, J.W. 1980</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Conrad, C.E. 1982</li>
+		
+		<li>Sawyer, J.O.;Thornburgh, D.A.;Griffin, J.R. 1977</li>
+		
+		<li>Thorne, R.F. 1976</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program);AIS, 2013</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/73/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

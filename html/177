@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Chrysolepis sempervirens</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Chrysolepis</i> <i>sempervirens</i></span> Shrubland Alliance <br/>
+        <span class="subtitle">Bush chinquapin chaparral</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>800-3300 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3.3
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G4
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA, OR (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>Yes
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/chrysolepis-sempervirens_lassennp_08-09_01.jpg', '/static/images/photos/shrub/chrysolepis_sempervirens_seki.012_07-2000.jpg', '/static/images/photos/shrub/chrysolepis_sempervirens-withprunus_emarginata_seki.045_07-2000.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Chrysolepis</i> <i>sempervirens</i> is dominant in the shrub canopy with <i>Amelanchier</i> <i>alnifolia</i>, <i>Arctostaphylos</i> <i>nevadensis</i>, <i>Arctostaphylos</i> <i>patula</i>, <i>Ceanothus</i> <i>cordulatus</i>, <i>Ceanothus</i> <i>velutinus</i>, <i>Garrya</i> <i>fremontii</i>, <i>Holodiscus</i> <i>discolor</i>, <i>Prunus</i> <i>emarginata</i>, <i>Quercus</i> <i>sadleriana</i>, <i>Quercus</i> <i>vacciniifolia</i> and <i>Symphoricarpos</i> <i>mollis</i>. Emergent conifer trees may be present at low cover. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 3 m; canopy is intermittent to continuous. Herbaceous layer is sparse. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Chrysolepis sempervirens</i> > 50% relative cover (Keeler-Wolf et al. 2003b).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Ridges and steep upper slopes. Soils are shallow, commonly granitic, and rocky.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Bush chinquapin series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Castanopsis sempervirens shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Bush chinquapin, Upper montane mixed chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Mixed montane chaparral, Bush chinquapin chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Montane chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>37.700.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate and Boreal Shrubland and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate Grassland, Meadow, and Shrubland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North America Interior Sclerophyllous Shrubland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Western North American Cool/Montane Sclerophyllous Evergreen Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Californian montane chaparral
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Chrysolepis sempervirens </i>is an evergreen spreading shrub that grows to 2.5 m in height. This oak relative masts, producing seed crops periodically. Birds and rodents disperse the nuts, and seed predation is high. Cached seeds are viable for five years under cold, dry conditions. Shrubs may both facilitate seedling establishment of conifers and suppress their growth (Howard 1992d). <br/>
+<br/>
+<i>Chrysolepis sempervirens </i>can dominate stands of montane chaparral or form an understory layer in coniferous forests. Stands are most extensive in the subalpine belt. Self-perpetuating stands exist on shallow soils; transitional stands to <i>Abies concolor </i>and <i>A. magnifica </i>forests occupy deeper soils more commonly in the montane belt. Stands are regularly adjacent to or embedded within stands of the <i>Quercus vacciniifolia </i>alliance from the central Sierra Nevada to the Klamath Mountains. Stands tend to become more common relative to those of <i>Quercus vacciniifolia </i>in the central and southern Sierra Nevada. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Chrysolepis sempervirens</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Shrub; evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil; transient</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short to medium</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; gravity</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Buds on small branches; buds on large branches or trunks; underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>?-100+ years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Medium</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Plants sprout following disturbances, such as fire and cutting (Howard 1992d), though the history of fires in this alliance is not well known. Stands in the subalpine portions of the state are not fire prone and experience natural disturbances, such as snow inundation and minor rock falls.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Medium (5-50 years)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Summer-early fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Medium to large; up to and beyond stand
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Low to moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Multiple (low or high)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Surface to active-independent crown fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Sierra Nevada
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Klamath Mountains</b> (M261Ae, Ag, Aj, An, Aq-t). Stands are local and infrequent at subalpine elevations; <i>Quercus vacciniifolia</i> stands are more common in this section. Montane stands include <i>Ceanothus velutinus</i> and <i>Q. sadleriana. Chrysolepis sempervirens</i> is a common understory plant in open, pine-dominated stands in the eastern portions of the section at montane elevations.</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Ba). Occasional small stands occur in the higher elevations in the section. Stands on South Fork Mountain are transitional to those of <i>Chrysolepis chrysophylla</i> and are surrounded by young, post-fire <i>Abies concolor</i> forest stands.</li>
+        
+            <li><b>Sierra Nevada</b> (M261Ea-b, Ed, Eh, Em, Eo-r, Eu). Stands occur at upper elevations (montane to subalpine) throughout the section. Stands at Church Dome and Moses Mountain RNAs (Cheng 2004), in Sierra Co. (Conard and Radosevich 1982), on the eastern slope of the Sierra Nevada (Mozingo 1987), throughout much of Kings Canyon and Sequoia national parks (S. Haultain, pers. comm. 2003), and in Yosemite National Park (Keeler-Wolf et al. 2003b) are characteristic of the alliance. Stands of the alliance replace those of the <i>Quercus vacciniifolia</i> alliance south of Yosemite National Park; they are particularly common on the Kern Plateau. Isolated stands adjacent to <i>Pinus albicaulis, P. monticola,</i> and <i>P. contorta</i> ssp. <i>murrayana</i> forests occur above 3000 m east of the crest.</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Bb, Bd-e, Bh, Bm). Occasional stands occur in the high Transverse Range and near Mount San Jacinto. These stands associate with <i>Abies concolor, P. contorta</i> ssp. <i>murrayana, P. flexilis,</i> and<i> P. jeffreyi</i> forests.</li>
+        
+            <li><b>Southern Cascades</b> (M261Dd, Df-j). Stands in the Medicine Lake Highlands area and at the Shasta Mudflow and Mud Lake RNAs (Cheng 2004) have emergent conifers. They exist adjacent to stands of the <i>Artemisia tridentata</i> and <i>Ceanothus velutinus</i> alliances.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Many stands in the northern half of the state are transitory to coniferous forest. Stands in the southern half tend to be subalpine and are generally not subject to the effects of timber harvest. Stands on the edge of the Great Basin may show relatively short-term effects of climate change. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Chrysolepis sempervirens [1], [2], [3]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Howard, J.L. 1992d</li>
+		
+		<li>[2] Keeler-Wolf, T.;Schindel, M.;San, S.;Moore, P.;Hickson, D. 2003b</li>
+		
+		<li>[3] Boul, R.;Keeler-Wolf, T.;Ratchford, J.;Haynes, T.;Hickson, D.;Yacoub, R.;Harbert, B.;Evens, J. 2021b</li>
+		
+		<li>NPS-SEKI, 2009</li>
+		
+		<li>Pase, C.P. 1982a</li>
+		
+		<li>Solinas, P.;Spycher, G.;Topik, C. 1985</li>
+		
+		<li>Vankat, J.L.;Major, J. 1978</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/177/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

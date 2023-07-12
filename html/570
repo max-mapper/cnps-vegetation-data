@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Prunus emarginata - Holodiscus discolor</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Prunus</i> <i>emarginata</i> - <i>Holodiscus</i> <i>discolor</i></span> Shrubland Alliance <br/>
+        <span class="subtitle">Bitter Cherry - Ocean Spray Brush</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>700-2800 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S4
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G4
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>CAN: BC. USA: AZ, CA, CO, ID, MO, NM, NV, OR, UT, WA, WY. (USDA Plants) Baja California, Mexico. (TJM2)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2019/03/19
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/prunus-emarginata_pct-hwy80_tahoenf_08-10_01.jpg', '/static/images/photos/shrub/prunus-emarginata_pct-hwy80_tahoenf_08-10_02.jpg', '/static/images/photos/shrub/prunus-emarginata_pct-hwy80_tahoenf_08-10_03.jpg', '/static/images/photos/shrub/prunus-emarginata_uticareservoir_2006.jpg', '/static/images/photos/shrub/prunus-emarginata_blackbutte_yollabollymtns_06-13_01.jpg', '/static/images/photos/shrub/prunus-emarginata_belowblackbutte_yollabollymtns_06-2013_01.jpg', '/static/images/photos/shrub/holodiscus-discolor_lassenvnp_08-10_01.jpg', '/static/images/photos/shrub/holodiscus-discolor_lassenvnp_08-10_02.jpg', '/static/images/photos/shrub/holodiscus-discolor_lassenvnp_08-10_03.jpg', '/static/images/photos/shrub/holodiscus-discolor_uticareservoir_2006_01.jpg', '/static/images/photos/shrub/holodiscus-discolor_blackbutte_yollabollymtns_06-13_01.jpg', '/static/images/photos/shrub/holodiscus-discolor_blackbutte_yollabollymtns_06-13_02.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Holodiscus</i> <i>discolor</i>, <i>Prunus</i> <i>emarginata</i> and/or <i>Ribes</i> <i>velutinum</i> is dominant or co-dominant in the shrub canopy with <i>Amelanchier</i> <i>alnifolia</i>, <i>Arctostaphylos</i> <i>patula</i>, <i>Artemisia</i> <i>tridentata</i>, <i>Ceanothus</i> <i>cordulatus</i>, <i>Ceanothus</i> <i>cuneatus</i>, <i>Ceanothus</i> <i>integerrimus</i>, <i>Ceanothus</i> <i>velutinus</i>, <i>Cercocarpus</i> <i>ledifolius</i>, <i>Chrysolepis</i> <i>sempervirens</i>, <i>Chrysothamnus</i> <i>viscidiflorus</i>, <i>Ephedra</i> <i>viridis</i>, <i>Ericameria</i> <i>nauseosa</i>, <i>Garrya</i> <i>fremontii</i>, <i>Keckiella</i> <i>corymbosa</i>, <i>Prunus</i> <i>andersonii</i>, <i>Quercus</i> <i>sadleriana</i>, <i>Quercus</i> <i>vacciniifolia</i>, <i>Ribes</i> <i>cereum</i>, <i>Sambucus</i> <i>racemosa</i>, <i>Symphoricarpos</i> <i>mollis</i> and <i>Symphoricarpos</i> <i>rotundifolius</i>. Emergent conifers may be present at low cover. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 6 m; canopy is open to continuous. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Prunus emarginata, Holodiscus discolor,</i> and/or <i>Ribes velutinum</i> dominate with > 50% relative cover in the shrub layer (Boul et al. 2021b).</li>
+		
+		<li><i>Holodiscus discolor</i> > 50% relative cover in the shrub layer (Keeler-Wolf et al. 2003b).</li>
+		
+		<li><i>Prunus emarginata</i> > 50% relative cover in the shrub layer (Keeler-Wolf et al. 2003b).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Rocky ridges, slopes, and outcrops including steep, montane slopes moraines, talus, and rocky chutes. Soils are skeletal and may be rocky, loamy, or sandy. The USFWS Wetland Inventory (2012 national list) recognizes both <i>Prunus emarginata</i> and <i>Holodiscus discolor</i> as FACU plants. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Holodiscus series, Tobacco brush series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Holodiscus discolor shrubland alliance, Prunus emarginata shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Upper montane mixed shrub, Lower montane mixed chaparral, Snowbrush, Upper montane mixed chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Mixed montane chaparral, Northern north slope chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Chaparral, Mixed conifer forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Mixed chaparral, Montane chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>37.970.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate and Boreal Shrubland and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate Grassland, Meadow, and Shrubland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Vancouverian and Rocky Mountain Grassland and Shrubland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Western Cordilleran Montane Shrubland and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Southern Vancouverian montane deciduous scrub
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Prunus emarginata</i> is a deciduous shrub or small tree to 6 m with spreading to ascending branches that forms dense thickets. Fruits are bright red, fleshy drupes. Birds and mammals eat the fruit and may disperse the seeds over long distances (Esser 1995a). Most plants in California are var. <i>emarginata</i>. The tree-sized <i>P. emarginata</i> var. <i>mollis</i> of Oregon grows on the coastal plain in Del Norte Co. <br/>
+<br/>
+<i>Prunus emarginata</i> is a common member of montane chaparral that dominates locally under certain conditions. When compared to surrounding mountain chaparral stands of <i>Arctostaphylos patula - Arctostaphylos nevadensis, Chrysolepis sempervirens,</i> or <i>Quercus vacciniifolia</i> alliances, stands of <i>P. emarginata</i> are usually more mesic. They occur on concave or northerly facing slopes or in rocky outcrop areas that accumulate more surface runoff than surrounding areas. On the eastern slopes of the Sierra Nevada, stands intermesh with stands of the <i>Ceanothus velutinus</i> alliance in snow accumulation sites such as northeast-facing upper slopes, adjacent to more exposed stands of the <i>Artemisia arbuscula</i> ssp. <i>arbuscula</i> and <i>Purshia tridentata - Artemisia tridentata</i> alliances.<br/>
+<br/>
+<i>Holodiscus discolor</i> is a spreading, deciduous shrub that grows to 6 m in height. Shrubs produce abundant, wind-dispersed achenes. Seeds germinate after cold stratification; heat enhances germination (Morgan and Neuenschwander 1988). Achenes collect in duff and soil as a seed bank. Plants sprout from root crowns after damage to the branches and are easily top-killed by fire. Shrubs are shade tolerant (Archer 2000b). <br/>
+<br/>
+<i>Holodiscus discolor</i> is a morphologically variable shrub throughout its extensive range. Treatment of the genus varies among floras. <i>The Jepson Manual</i> recognizes three varieties of <i>H. discolor</i>: var. <i>discolor</i>, var. <i>glabrescens</i>, and var. <i>microphyllus</i>. It does not give taxonomic merit to <i>H. boursieri</i>. Kartesz and Meacham (1999), USDA-NRCS (2005), which places up to 14 combinations into synonymy under <i>H. discolor</i> and does not recognize varieties. Plants fitting the description of <i>H. discolor sensu stricto</i> occur most commonly at low elevations where plants grow in forests and woodlands (Allen et al. 1991), but plants also make stands in rocky outcrops and forest openings. <i>H. discolor</i> var. <i>microphyllus</i> occupies high elevations as localized shrublands in sunny habitats. We include stands at montane elevations in this alliance. <br/>
+<br/>
+Montane to subalpine stands of <i>H. discolor</i> form fine mosaics typically associated with rock outcrops and steep talus where shrubs establish in rock crevices and other openings between rocks, in similar settings as <i>P. emarginata</i> where these two species sometimes co-dominate. Stands with individual shrubs scattered under tree canopies are assigned to appropriate forest and woodland alliances. Some low elevation stands of <i>H. discolor </i>exist along the coast on outcrops or sites related to logging and other human disturbances but are included in other alliances.<br/>
+<br/>
+This alliance was formed by merging the <i>Prunus emarginata</i> Provisional Shrubland Alliance and the <i>Holodiscus discolor</i> Shrubland Alliance. Classification analyses and surveys, including from the Modoc Plateau (VegCAMP, in progress), have expanded our understanding of the combined alliance to include additional characteristic species and a new association for <i>Ribes velutinum</i>. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Holodiscus discolor</th>
+			
+		
+			
+			<th>Prunus emarginata</th>
+			
+		
+			
+			<th>Ribes velutinum</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Shrub</td>
+			
+		
+			
+			<td>Polycarpic perennial; tree, shrub; deciduous</td>
+			
+		
+			
+			<td>Perennial; shrub</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td>Soil stored</td>
+			
+		
+			
+			<td>Soil stored</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Long</td>
+			
+		
+			
+			<td>Medium/Long (?)</td>
+			
+		
+			
+			<td>Medium to Long</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; wind</td>
+			
+		
+			
+			<td>Animal</td>
+			
+		
+			
+			<td>Animal; Gravity</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Stratification—winter </td>
+			
+		
+			
+			<td>Stratification - Winter</td>
+			
+		
+			
+			<td>Scarification</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Underground structures</td>
+			
+		
+			
+			<td>Underground structures</td>
+			
+		
+			
+			<td>Underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+			
+			<td>Fire-hardy</td>
+			
+		
+			
+			<td>Fire-hardy; low sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>? -30+ years</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td>3 years old - ?</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Episodic</td>
+			
+		
+			
+			<td>Medium</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>In vegetative characteristics</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text"><i>Holodiscus discolor</i> and <i>Prunus emarginata </i>can sprout vigorously after fire. Since stands are often small and/or in mosaic with other montane chaparral, fire return intervals and intensities depend on surrounding vegetation types. Stands adjacent to dense shrublands or forests have a greater propensity to burn, though they may not burn intensely since stands are relatively open.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Medium
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Late summer-fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>To and beyond stand size
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Low to moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Low
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Dependent crown fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Sierra Nevada
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Af, Aj-k). Stands of <i>Holodiscus discolor</i> occur in the Santa Cruz (Aerial Information Systems Inc. 2007b) and the northern Santa Lucia mountains. However, more study is needed to determine if these should be included in this alliance.</li>
+        
+            <li><b>Central California Coast Ranges</b> (M262Ae-f). Stands of <i>Holodiscus discolor</i> seen on Fremont Peak occupy steep north-facing limestone outcrops (M262Af). Small stands are also likely to occur in the inner Santa Lucia Mountains (M262Ae).</li>
+        
+            <li><b>Klamath Mountains</b> (M261Aa-u). Stands of <i>Holodiscus discolor</i> occur throughout the section, as at Cedar Basin and Manzanita Creek RNAs (Cheng 2004), and in the Salmon Mountains (Sawyer and Thornburgh 1977) at montane elevations. Stands of <i>Prunus emarginata</i> have been observed in the Trinity Alps and are likely to occur throughout the section.</li>
+        
+            <li><b>Modoc Plateau</b> (M261Ga-c, Gf-m). Stands of <i>Prunus emarginata</i> and <i>Holodiscus discolor </i>are scattered across the southeast portion of this section, on the upper slopes of mountains around Madeline Plains and north to Warm Springs Valley (Geographical Information Center, in progress). Stands have also been observed at the north end of the section around Clear Lake Reservoir and south of Renner Lake. Stands of <i>Prunus emarginata</i> or other associations are also likely in the Tule Lake Basin, Warner Mountains, and Horsehead Mountain subsections based on observations from CCH and Calflora.</li>
+        
+            <li><b>Mono</b> (341Dj-k). Stands of <i>Holodiscus discolor</i> exist on the western slope of the White Mountains (Slaton 2018) and Seven Lakes Mountain (Boul et al. 2021a).</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Ba-b). Stands of <i>Prunus emarginata </i> and of <i>Holodiscus discolor</i> in the Yolla Bolly Mountains (Keeler-Wolf and Keeler-Wolf 1974) exist up to 2400 m.</li>
+        
+            <li><b>Northwestern Basin and Range</b> (342Bd). Stands of <i>Prunus emarginata</i> exist in the Cottonwood and Skedaddle Mountains (Geographical Information Center, in progress).</li>
+        
+            <li><b>Sierra Nevada</b> (M261Ea-e, Eh, Ej-l, Eo, Eq-r, Eu). Stands of <i>Holodiscus discolor</i> exist in the Rae Lakes area (Burke 1982), Yosemite National Park (Keeler-Wolf et al. 2003b), and Sequoia and Kings Canyon National Parks (NPS 2009). Some of these stands are at the high elevation limits of the association. Stands are likely further distributed throughout much of the section on glaciated, granitic, and volcanic sites. Stands of <i>Prunus emarginata</i> occur on eastern slopes in Yosemite National Park (Keeler-Wolf et al. 2003b) and are scattered throughout Sequoia and Kings Canyon National Parks (NPS 2009). With stands observed from the Wright's Lake area to the west side of Lake Tahoe, and in the Doyle-Loyalton area north of Lake Tahoe (Ratchford et al. 2021b, in progress) it is likely to occur in many more locations throughout the section.  Stands of <i>Ribes velutinum</i> are also likely to occur in the eastern and southern portions of the section based on records from Calflora and CCH.</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Bb, Bd-e, Bg-h). Stands of <i>Holodiscus discolor</i>, <i>Prunus emarginata</i>, and/or <i>Ribes velutinum</i> are expected to occur in this section based on Calflora and CCH records.</li>
+        
+            <li><b>Southern Cascades</b> (M261Da, Dc-d, Df-j, Dl-m). Stands of <i>Holodiscus discolor</i> occur in the higher mountains as at Antelope Creek Lakes (Cheng 2004), in Lava Beds National Monument (DiPaolo et al. 2015), and Lassen Volcanic National Park (Solomeshch et al. 2013). Stands are likely to occur in other higher elevation rocky sites in the section. Stands of <i>Prunus emarginata</i> are likely to occur in similar conditions throughout the section, based on observations from Calflora and CCH records.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Unlike most chaparral types, this alliance can form self-perpetuating stands, which can be of continuous shrub cover or have an intermittent canopy (NatureServe 2019). For example, <i>Holodiscus discolor</i> stands are often small and/or in mosaics with <i>Prunus emarginata </i> and other shrubs, usually associated with rocky outcrops and steep rocky slopes at montane and subalpine elevations. They are not typically threatened by human disturbance. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Holodiscus discolor [5]</li>
+                
+                    <li>Holodiscus discolor / Achnatherum occidentale - Eriogonum nudum [1]</li>
+                
+                    <li>Holodiscus discolor - Arctostaphylos patula [3]</li>
+                
+                    <li>Holodiscus discolor - Keckiella corymbosa [4]</li>
+                
+                    <li>Holodiscus discolor / Mimulus suksdorfii [1]</li>
+                
+                    <li>Holodiscus discolor - Sambucus racemosa [2]</li>
+                
+                    <li>Holodiscus discolor / Sedum obtusatum ssp. boreale - Cryptogramma acrostichoides [2]</li>
+                
+                    <li>Prunus emarginata Sierran [5]</li>
+                
+                    <li>Ribes velutinum [5]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Burke, M.T. 1982</li>
+		
+		<li>[2] Keeler-Wolf, T.;Schindel, M.;San, S.;Moore, P.;Hickson, D. 2003b</li>
+		
+		<li>[3] Sawyer, J.O.;Thornburgh, D.A. 1977</li>
+		
+		<li>[4] Taylor, D.W.;Teare, K.A. 1979a</li>
+		
+		<li>[5] Boul, R.;Keeler-Wolf, T.;Ratchford, J.;Haynes, T.;Hickson, D.;Yacoub, R.;Harbert, B.;Evens, J. 2021b</li>
+		
+		<li>Allen, B.H.;Holzman, B.A.;Evett, R.R. 1991</li>
+		
+		<li>Archer, A.J. 2000b</li>
+		
+		<li>Barry, W.J. 1989a</li>
+		
+		<li>Barry, W.J. 1989b</li>
+		
+		<li>Esser, L.L. 1995a</li>
+		
+		<li>Morgan, P.;Neuenschwander, L.F. 1988</li>
+		
+		<li>NatureServe, 2014+</li>
+		
+		<li>NPS (National Park Service), 2014</li>
+		
+		<li>NPS-SEKI, 2009</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/570/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Hesperocyparis (pigmaea, abramsiana, macrocarpa, goveniana)</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Hesperocyparis</i> (<i>pigmaea</i>, <i>abramsiana</i>, <i>macrocarpa</i>, <i>goveniana</i><span style="padding-left: .2em">)</span></span> Woodland Alliance <br/>
+        <span class="subtitle">California coastal cypress woodland</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Tree
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>10-800 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S2
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G2
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA (NatureServe) (Calflora)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>Yes
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>Yes
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2022/07/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/tree/hesperocyparis-abramsiana_bonnydooner_06-04_01.jpg', '/static/images/photos/tree/hesperocyparis-goveniana_aboveptlobos_09-07_01.jpg', '/static/images/photos/tree/hesperocyparis-goveniana_aboveptlobos_09-07_02.jpg', '/static/images/photos/tree/hesperocyparis-goveniana_aboveptlobos_09-07_03.jpg', '/static/images/photos/tree/hesperocyparis-goveniana_aboveptlobos_09-07_04.jpg', '/static/images/photos/tree/hesperocyparis-macrocarpa.jpg', '/static/images/photos/tree/hesperocyparis-macrocarpa_cypresspoint.jpg', '/static/images/photos/tree/hesperocyparis-macrocarpa_ptlobos_07-06_01.jpg', '/static/images/photos/tree/hesperocyparis-macrocarpa_ptlobos_07-06_02.jpg', '/static/images/photos/tree/hesperocyparis-macrocarpa_ptlobos_07-09_01.jpg', '/static/images/photos/tree/hesperocyparis-macrocarpa_ptlobos_07-09_02.jpg', '/static/images/photos/tree/hesperocyparis-pigmaea_albionlittleriverrd_09-10_01.jpg', '/static/images/photos/tree/hesperocyparis-pigmaea_albionlittleriverrd_09-10_02.jpg', '/static/images/photos/tree/hesperocyparis-pigmaea_albionlittleriverrd_09-10_03.jpg', '/static/images/photos/tree/hesperocyparis-pigmaea_gualala_01-04_01.jpg', '/static/images/photos/tree/hesperocyparis-pigmaea_gualala_01-04_02.jpg', '/static/images/photos/tree/hesperocyparis-pigmaea_understory_albionlittleriverrd_09-10_01.jpg', '/static/images/photos/tree/hesperocyparis-pigmaea_understory_vandammebsp_09-10_01.jpg', '/static/images/photos/tree/hesperocyparis-pigmaea_vandammebsp_09-10_01.jpg', '/static/images/photos/tree/hesperocyparis-pigmaea_vandammebsp_09-10_02.jpg', '/static/images/photos/tree/hesperocyparis-pigmaea_vandammebsp_09-10_03.jpg', '/static/images/photos/tree/hesperocyparis-pigmaea_vandammebsp_09-10_04.jpg', '/static/images/photos/tree/hesperocyparis-abramsiana_bonny-doon_scz-co_8-2009.jpg', '/static/images/photos/tree/hesperocyparis-abramsiana_bracken-brae_scz-co_10-2009_3.jpg', '/static/images/photos/tree/hesperocyparis-abramsiana_bracken-brae_scz-co_10-2009_5.jpg', '/static/images/photos/tree/hesperocyparis-abramsiana-butanoensis_butano-ridge_sm-co_10-2009.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Hesperocyparis</i> <i>abramsiana</i>, <i>Hesperocyparis</i> <i>goveniana</i>, <i>Hesperocyparis</i> <i>macrocarpa</i> and/or <i>Hesperocyparis</i> <i>pigmaea</i> is dominant or co-dominant in the tree canopy with <i>Arbutus</i> <i>menziesii</i>, <i>Pinus</i> <i>attenuata</i>, <i>Pinus</i> <i>muricata</i>, <i>Pinus</i> <i>radiata</i>, <i>Pseudotsuga</i> <i>menziesii</i>, <i>Quercus</i> <i>agrifolia</i> and <i>Sequoia</i> <i>sempervirens</i>. Shrubs may include <i>Adenostoma</i> <i>fasciculatum</i>, <i>Arctostaphylos</i> <i>andersonii</i>, <i>Arctostaphylos</i> <i>columbiana</i>, <i>Arctostaphylos</i> <i>crustacea</i>, <i>Arctostaphylos</i> <i>hookeri</i>, <i>Arctostaphylos</i> <i>nummularia</i>, <i>Arctostaphylos</i> <i>sensitiva</i>, <i>Arctostaphylos</i> <i>silvicola</i>, <i>Arctostaphylos</i> <i>tomentosa</i>, <i>Ceanothus</i> <i>cuneatus</i> var. <i>rigidus</i>, <i>Ceanothus</i> <i>thyrsiflorus</i>, <i>Rhododendron</i> <i>macrophyllum</i> or <i>Vaccinium</i> <i>ovatum</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text"> Trees < 2 m or 15 m (depending on site conditions); canopy is open to continuous. Shrub layer is open to continuous. Herbaceous layer is sparse. Lichens and mosses occur on the soil surface and on the woody plants as epiphytes. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Hesperocyparis pigmaea</i> > 30% relative cover in the tree canopy (VegCAMP 2019).</li>
+		
+		<li><i>Hesperocyparis pigmaea</i> dominates the tree canopy (Westman 1975).</li>
+		
+		<li><i>Hesperocyparis abramsiana</i> > 30% relative cover in the tree canopy (Sikes et al. 2021).</li>
+		
+		<li>Stands > 50% relative cover of endemic tree taxa <i>Hesperocyparis macrocarpa, H. goveniana</i>, and/or <i>H. abramsiana</i> that occur in scattered groves along the coast (NatureServe 2021)</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Uplifted marine terraces, sandstone, and granitic outcrops. Soils are often acidic spodosols with hardpans or nutrient-deficient soils; some sites are seasonally flooded.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Monterey cypress stands, Pygmy cypress series, Santa Cruz cypress stands
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Cupressus goveniana shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Gowen cypress, Monterey cypress, Pygmy cypress, Santa Cruz cypress
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Monterey cypress forest, Mendocino pygmy cypress forest, Monterey pygmy cypress forest, Northern interior cypress forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Close-cone pine forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Closed-cone pine-cypress
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>81.450.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Tree Vegetation (Forest and Woodland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Warm Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Madrean Forest and Woodland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>California Forest and Woodland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Californian evergreen coniferous forest and woodland
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Hesperocyparis pigmaea </i>trees grow to 2 m in height on sterile soils and to 50 m in height on more fertile soils. Cone production is abundant on dwarfed, mature trees. The closed cones persist on the tree until opened by heat, desiccation, or age. Seeds fall gradually over several months after cones open. Seed germination and seedling establishment are best on bare mineral soil. Seedling mortality is high with shade and litter because of damping-off fungi (Barbour 2007, Vogl et al. 1977). Botanists have considered <i>H. pigmaea </i>a subspecies <i>H. goveniana </i>(Hickman 1993), but recent genetic study (Bartel et al. 2003) showed <i>H. pigmaea </i>to be closer to <i>H. sargentii </i>than to <i>H. goveniana.</i> Both <i>H. pigmaea</i> and <i>H. goveniana</i> are rare and appear as CNPS list 1B.2 plants. <br/>
+<br/>
+<i>Hesperocyparis abramsiana </i>is a fast-growing evergreen tree to 15 m in height that lives to 200 years. Trees begin bearing cones in the first decade of age. The serotinous cones usually remain closed on the plants after maturity. Seed dispersal can occur without fire, but many open and disperse seeds when heated by fire. Seedling establishment is best on bare soil. Seedling mortality is high on shaded sites with abundant litter because of damping-off fungi. Developing plants create dense thickets or individual plants with other tree and shrub species. Plants are intolerant of shade, and groves tend to be single aged. On extreme sites, scattered plants are highly stunted (USFWS 1987).  <i>H. abramsiana </i>is a CNPS list 1B.2 plant that is also state and federally listed as endangered, and two subspecies have been recognized: var. <i> abramsiana</i> and var. <i>butanoensis</i> (Adams and Bartel 2009).<br/>
+<br/>
+<i>Hesperocyparis macrocarpa </i>is a coastal conifer that attains a height of 25 m. Only two native groves exist on the Monterey Peninsula. It is shaped or distorted by salt and wind blasting directly along the coastline, but a short distance inland, it is erect. Estimates of maximum plant age are 200-300 years (Esser 1994f). Descriptions (Barbour 2007, Vogl et al. 1977) suggest that <i>H. macrocarpa </i>associates with other alliances rather than forming its own. <i>H. macrocarpa </i>is a rare, CNPS list 1B.2 plant.<br/>
+<br/>
+<i>Hesperocyparis goveniana </i>is an endemic cypress on the Monterey Peninsula, which is dwarfed by acidic, shallow terrace soils that flood in the winter and desiccate in the summer. Trees grow to 5 m in height on sterile soils and to 50 m in height on fertile ones. Cone production is abundant on dwarfed and mature trees, but it is rare or absent on young vigorous trees. Cones are closed; they persist on the tree until opened by the heat of a fire or from desiccation due to age (Esser 1994d). <br/>
+<br/>
+The genus <i>Cupressus </i>is now restricted to the Old World; cypresses in California belong to the genus <i>Hesperocyparis </i>(Bartel et al. 2003, Little 2006, Adams et al. 2009, Terry et al. 2012).<br/>
+<br/>
+The four rare species <i>Hesperocyparis</i> included in this alliance are restricted to coastal habitats.  Due to their similarity of habitat and associates, they are combined here in a single alliance.  Because of the rarity of the trees, stands of three of the species were treated as Special Stands rather than Alliances in the 2009 publication of <i>The Manual of California Vegetation, second edition</i>, under the genus <i>Callitropsis.</i>  Only stands of <i>Hesperocyparis pigmaea</i> were previously described at the alliance level, and VegCAMP (2019) has since evaluated and redefined the associations characterized by this taxon.  <br/>
+<br/>
+The plant/soil relations are striking on the marine terraces in Mendocino Co. (Jenny et al. 1969) where belts of tall forests containing <i>Picea sitchensis, Pinus muricata, Pseudotsuga menziesii, </i>and <i>Sequoia sempervirens </i>surround some 20 irregular patches of stunted, cane-like <i>Hesperocyparis pigmaea </i>on the older terraces. These patches of pygmy-sized trees occur in areas of soils with cemented hardpans that are extremely acidic and nutrient deficient. Stands of tall forest trees occur less frequently on these terraces and are restricted to less acidic, more nutrient-rich areas lacking hardpans. Water accumulates above the hardpans throughout the rainy season and floods the entire soil surface, creating anoxic conditions. Soils, however, remain wet during the dry season in the rooting zone, not desiccated above the hardpan as long thought (Sholars 1984). Stands of <i>H. goveniana </i>in Monterey Co. occur in similar site conditions, though even more localized, with both pygmy-sized trees and taller stature trees.<br/>
+<br/>
+<i>Hesperocyparis abramsiana </i>grows in San Mateo and Santa Cruz Cos. mostly on well-drained ridgelines above the <i>Sequoia sempervirens </i>forests on the slopes, canyons, and basins below. Individual trees and groves, both pure and with mixed composition, form a fine vegetation mosaic with other forest and chaparral types, variously described as coastal closed-pine forest, maritime Coast Range ponderosa pine forest, maritime chaparral, mixed chaparral, and mixed evergreen forest. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Hesperocyparis abramsiana</th>
+			
+		
+			
+			<th>Hesperocyparis goveniana</th>
+			
+		
+			
+			<th>Hesperocyparis macrocarpa</th>
+			
+		
+			
+			<th>Hesperocyparis pigmaea</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Perennial; shrub; tree; evergreen</td>
+			
+		
+			
+			<td>Perennial; tree; evergreen</td>
+			
+		
+			
+			<td>Tree; evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Canopy stored</td>
+			
+		
+			
+			<td>Canopy stored</td>
+			
+		
+			
+			<td>Canopy</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Medium</td>
+			
+		
+			
+			<td>Medium</td>
+			
+		
+			
+			<td>Long; short (after dispersal) </td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Wind; Water; Gravity</td>
+			
+		
+			
+			<td>Wind; Water</td>
+			
+		
+			
+			<td>Wind; water/hydrological</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Heat; Chemical</td>
+			
+		
+			
+			<td>Heat; Chemical</td>
+			
+		
+			
+			<td>Heat (fire); none (age, desiccation, light)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Fire-sensitive</td>
+			
+		
+			
+			<td>Fire-sensitive</td>
+			
+		
+			
+			<td>Fire-sensitive</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>4 to 7 years old - ?</td>
+			
+		
+			
+			<td>6 to 7 years old - ?</td>
+			
+		
+			
+			<td>4 years to life of the plant</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Low to Medium</td>
+			
+		
+			
+			<td>Low to Medium?</td>
+			
+		
+			
+			<td>Episodic (disturbance dependent); medium</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text"><i>Hesperocyparis pigmaea </i>is fire adapted with serotinous cones; successful seeding establishment is generally restricted to recently burned sites. Its low-branching habit makes it susceptible to crown fires. Fires kill most or all low-stature trees; large trees may survive. Cones persist on the branches and open when exposed to heat, releasing large quantities of seeds (Stuart and Stephens 2006, Vogl et al. 1977). Most seed falls in the first few months following a fire (Zedler 1986). 
+
+<i>H. abramsiana <i>responds similarly to fire in that mature trees are killed by fire, and seeds require light and bare mineral soil to germinate. Post-fire recruitment can be vigorous, and self-thinning can occur over time. Lacking fire, trees will senesce (USFWS 2013). While little information on fire return intervals exists for the alliance, stands may have a historic fire cycle of 35-100 years that is similar to maritime chaparral types (Van Dyke et al. 2001). <i>H. abramsiana <i> has experienced recent fire due to a recent 2008 Martin Road fire that covered half of the Bonny Doon population (USFWS 2013), and due to the 2020 CZU complex fire that spread across the populations, where long-term monitoring will be necessary to determine stand regeneration.
+
+<i>H. macrocarpa</i> is easily killed by fire, and it typically regenerates from seed in serotinous cones as do other California cypresses. <i>H. macrocarpa</i> is capable of seedling establishment with or without crown fire because cones can open on warm days and shed seed without the aid of fire. However, fire provides optimum site conditions for regeneration. Large trees may survive surface fire; however, cypress thickets are conducive to crown fires, and most trees are killed (Esser 1994f). Although no information is available on fire return intervals, the current intervals may be too long to perpetuate existing stands.
+
+<i>H. goveniana </i>is also a fire-adapted, fire-dependent species. Seeds banked in the abundant cones persistent on the branches will open when heated. Most seed falls in the first few months following fire. Trees make thickets with low branches that are conducive to crown fires, which usually kill almost all trees in the stand (Barbour 2007, Vogl et al. 1977).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Medium to long
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Late summer-early fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Small to medium (stand size)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low
+Multiple
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Multiple
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>High to very high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Multiple; crown fire (especially in thickets)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>North and Central Coasts
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+            <p>Scattered stands throughout the Central and Northern California Coast.</p>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Af, Ah, Aj). Stands of <i>H. abramsiana </i>var. <i>butanoensis </i>occur only in San Mateo Co. on Butano Ridge with maritime chaparral endemic shrubs (e.g., <i>Arctostaphylos andersonii </i>and <i>A. crustacea</i>; Sikes et al. 2021).  Stands of <i>H. abramsiana </i>var. <i>abramsiana </i>occur in four locations in Santa Cruz Co. with <i>A. silvicola </i>and </i>A. sensitiva</i>. 
+
+<i>H. goveniana </i> has two or three occurrences in Monterey Co., often called the Huckleberry Hill and Gibson Creek stands. It also occurs as scattered trees on shallow, poorly drained soils surrounded by <i>Pinus radiata </i>stands on deeper soils (Holland 1986). Associated shrubs include <i>A. hookeri, A. tomentosa, Ceanothus thyrsiflorus, </i>among others. Two native stands of <i>H. macrocarpa </i>occur along the Monterey Peninsula either as a sculpted woodland or with a grassy understory.</li>
+        
+            <li><b>Northern California Coast</b> (263Ag-i). Stands with <i>Hesperocyparis pigmaea</i> and <i>Pinus contorta</i> ssp. <i>bolanderi</i> occur between Pudding Creek and the Navarro River primarily in Mendocino Co. and scattered in northern Sonoma Co. Associated shrubs include <i>Arctostaphylos columbiana, A. nummularia, Rhododendron </i> spp., <i>Vaccinium ovatum</i>, among others. Other stands lacking the cypress south of the Navarro River are placed in the <i>Pinus muricata</i> alliance. Stands of <i>H. pigmaea</i> may include other rare plants including <i>Arctostaphylos nummularia</i> ssp. <i>mendocinoensis, Carex californica, Juncus supiniformis, Lilium maritimum, </i>and <i>Rhynchospora alba (VegCAMP 2019).</i></li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Residential development threatens the cypresses, especially for the <i>H. pigmaea </i>stands. Two associations including this species have been ranked as S1, <i>Hesperocyparis pigmaea - Pinus contorta</i> ssp. <i>bolanderi / Rhododendron columbianum</i> and <i>Hesperocyparis pigmaea - Pinus muricata / Arctostaphylos nummularia</i> Associations. Lichens, especially <i>Cladina portentosa </i>ssp. <i>pacifica, </i>create cryptogamic crusts in older stands, which are easily destroyed by foot traffic, fire, and air pollution. Ditches change the local hydrology, and leach lines from homes add nutrients. Both these changes, over time, impact the species composition and compromise community integrity. To maintain a stand, the fire return intervals should be long enough to allow a cone crop to develop, but short enough to maintain a viable seed bank in the trees (Sugihara et al. 2006). In this case, it would be better to consider ways to maintain the maximum number of mature stands as a preservation strategy for this species and the alliance.
+
+Similarly for <i>H. abramsiana </i>, habitat loss through agriculture conversion, residential development, alteration of the natural fire frequency, and vandalism threaten the species. Also, genetic introgression from <i>Hesperocyparis macrocarpa </i>is of concern (Van Dyke et al. 2001).  High-level threat is due in part to lower levels of regeneration because of altered fire regimes, combined with lack of management that encourages recruitment (USFWS 2013). Other threats include reproductive isolation, climate change and invasive species (USFWS 2013).  The <i>Hesperocyparis abramsiana / Arctostaphylos </i>spp.<i> - Adenostoma fasciculatum</i> has been ranked as S1.
+
+The <i>Hesperocyparis macrocarpa</i> Association has been ranked as S1, as has the <i>Hesperocyparis goveniana</i> Association. Suburban expansion has historically encroached upon the Cypress Point stand of <i>H. macrocarpa </i>in Pebble Beach. The other and largest native stand of <i>H. macrocarpa </i>at Point Lobos has an understory dominated by invasives, in which most of its understory is composed of the shade-tolerant, invasive grass <i>Ehrharta erecta.</i> Planted and naturalized stands of this species are common along the California coast, but are treated under a separate <i>Hesperocyparis macrocarpa - Pinus radiata</i> Semi-Natural Alliance. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Hesperocyparis abramsiana / Arctostaphylos spp. - Adenostoma fasciculatum [4]</li>
+                
+                    <li>Hesperocyparis goveniana [5]</li>
+                
+                    <li>Hesperocyparis macrocarpa [5]</li>
+                
+                    <li>Hesperocyparis pigmaea - Pinus contorta ssp. bolanderi - Pinus muricata / Rhododendron macrophyllum [3]</li>
+                
+                    <li>Hesperocyparis pigmaea - Pinus contorta ssp. bolanderi / Rhododendron columbianum [3]</li>
+                
+                    <li>Hesperocyparis pigmaea - Pinus muricata / Arctostaphylos nummularia [3]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Westman, W.E. 1975</li>
+		
+		<li>[2] Westman, W.E.;Whittaker, R.H. 1975</li>
+		
+		<li>[3] VegCAMP (CDFW Vegetation Classification and Mapping Program), 2019</li>
+		
+		<li>[4] Sikes, K.;Buck-Diaz, J.;Evens, J. 2021</li>
+		
+		<li>[5] Barbour, M.G. 2007</li>
+		
+		<li>Adams, R.P.;Bartel, J.A. 2009</li>
+		
+		<li>Adams, R.P.;Bartel, J.A.;Price, R.A. 2009</li>
+		
+		<li>Bartel, J.A.;Adams, R.P.;James, S.A.;Mumba, L.E.;Pandey, R.N. 2003</li>
+		
+		<li>Esser, L.L. 1994c</li>
+		
+		<li>Esser, L.L. 1994d</li>
+		
+		<li>Esser, L.L. 1994f</li>
+		
+		<li>Fox, W.W. 1976</li>
+		
+		<li>Green, H.A. 1929</li>
+		
+		<li>Griffin, J.R.;Critchfield, W.B. 1972</li>
+		
+		<li>Hayes, G.F.;Taylor, D.W.;Neubauer, D. 2006</li>
+		
+		<li>Hickman, J.C. 1993</li>
+		
+		<li>Holland, R.F. 1986</li>
+		
+		<li>Howard, A.Q. 1992</li>
+		
+		<li>Jenny, H.;Arkley, R.J.;Schultz, A.M. 1969</li>
+		
+		<li>Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>Kuhlmann, H. 1986</li>
+		
+		<li>Little, D.P. 2006</li>
+		
+		<li>McMillan, C. 1952</li>
+		
+		<li>NatureServe, 2014+</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Black, H.;Bleich, V.C.;Mincks, J.W. 1980</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Conrad, C.E. 1982</li>
+		
+		<li>Sholars, R.E. 1979</li>
+		
+		<li>Sholars, R.E. 1982</li>
+		
+		<li>Sholars, R.E. 1984</li>
+		
+		<li>Sposito, G. 1992</li>
+		
+		<li>Stuart, J.D.;Stephens, S.I. 2006</li>
+		
+		<li>Sugihara, N.G.;van Wagtendonk, J.W.;Shaffer, K.E.;Fites-Kaufman, J.;Thode, A.E. 2006</li>
+		
+		<li>Terry, R.G.;Bartel, J.A.;Adams, R.P. 2012</li>
+		
+		<li>USFWS (United States Fish and Wildlife Service), 1987</li>
+		
+		<li>USFWS (United States Fish and Wildlife Service), 2013</li>
+		
+		<li>Van Dyke, E.;Holl, K.D.;Griffin, J.R. 2001</li>
+		
+		<li>Vogl, R.J.;Armstrong, W.P.;White, K.L.;Cole, K.L. 1977</li>
+		
+		<li>Wolf, C.B. 1948</li>
+		
+		<li>Wolf, C.B.;Wagener, W.W. 1948</li>
+		
+		<li>Zedler, P.H. 1986</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/590/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

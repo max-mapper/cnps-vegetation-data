@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Arctostaphylos glandulosa</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Arctostaphylos</i> <i>glandulosa</i></span> Shrubland Alliance <br/>
+        <span class="subtitle">Eastwood manzanita chaparral</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>200-2200 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G4
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA. Baja California, Mexico (TJM2)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>Yes
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/arctostaphylos-glandulosa_mcgintymtn_05-09_01.jpg', '/static/images/photos/shrub/arctostaphylos-glandulosa_mttamalpais_09-09_01.jpg', '/static/images/photos/shrub/arctostaphylos-glandulosa_mttamalpais_09-09_02.jpg', '/static/images/photos/shrub/arctostaphylos-glandulosa_santaanamtns_06-09_01.jpg', '/static/images/photos/shrub/arctostaphylos-glandulosa_santaanamtns_06-09_02.jpg', '/static/images/photos/shrub/arctostaphylos-glandulosa_santaanamtns_06-09_03.jpg', '/static/images/photos/shrub/arctostaphylos-glandulosa_viejasmtn_01-10_01.jpg', '/static/images/photos/shrub/arctostaphylos-glandulosa_viejasmtn_01-10_02.jpg', '/static/images/photos/shrub/arctostaphylos-glandulosa_viejasmtn_01-10_03.jpg', '/static/images/photos/shrub/arcto-glandulosa-chamise-chaparral_marinheadlands_06-2009.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Arctostaphylos</i> <i>glandulosa</i> is dominant or co-dominant in the shrub canopy with <i>Adenostoma</i> <i>fasciculatum</i>, <i>Arctostaphylos</i> <i>glauca</i>, <i>Baccharis</i> <i>pilularis</i>, <i>Ceanothus</i> <i>crassifolius</i>, <i>Ceanothus</i> <i>cuneatus</i>, <i>Ceanothus</i> <i>greggii</i>, <i>Ceanothus</i> <i>leucodermis</i>, <i>Cercocarpus</i> <i>montanus</i>, <i>Eriogonum</i> <i>fasciculatum</i>, <i>Hesperoyucca</i> <i>whipplei</i>, <i>Heteromeles</i> <i>arbutifolia</i>, <i>Quercus</i> <i>berberidifolia</i>, <i>Quercus</i> <i>wislizeni</i> and <i>Rhus</i> <i>ovata</i>. Emergent trees may be present at low cover, including <i>Pinus</i> <i>attenuata</i>, <i>Pinus</i> <i>coulteri</i> or <i>Quercus</i> <i>agrifolia</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 3 m; canopy is continuous and it may be two tiered. Herbaceous layer is sparse or absent. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Arctostaphylos glandulosa</i> > 60% relative cover in the shrub canopy (Gordon and White 1994, Borchert et al. 2004, Klein and Evens 2005, Keeler-Wolf and Evens 2006, Ratchford et al. 2022a).</li>
+		
+		<li>Both <i>Adenostoma fasciculatum</i> and <i>Arctostaphylos glandulosa</i> have between 30% and 60% relative cover (Gordon and White 1994, Borchert et al. 2004, Evens and San 2005, Klein and Evens 2005, Keeler-Wolf and Evens 2006).</li>
+		
+		<li><i>Arctostaphylos glandulosa</i> > 50% relative cover in the shrub canopy, or > 30% with <i>Adenostoma fasciculatum</i> and/or <i>Quercus wislizeni</i> (Buck-Diaz et al. 2021, Sikes et al. 2021).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Outcrops, ridges, and north- and east-facing slopes. Soils are shallow and are often rocky, and may be gabbro- or serpentine-derived.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Chamise-Eastwood manzanita series, Eastwood manzanita series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Arctostaphylos glandulosa shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Chamise, Manzanita chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Northern mixed chaparral, Mafic southern mixed chaparral, Chamise chaparral, Upper Sonoran manzanita chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Chamise-redshank chaparral, Mixed chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>37.302.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Mediterranean Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Mediterranean Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>California Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>California Chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Californian pre-montane chaparral
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Arctostaphylos glandulosa </i>is a long-lived, erect, spreading evergreen shrub that grows to 2.5 m in height. Plants have large lignotubers up to 2.5 m in diameter. Seeds collect in a seed bank, although predation rates can be high. Seedling success is low in the first year (Howard 1992b). <br/>
+<br/>
+Seven of the nine subspecies of <i>A. glandulosa </i>grow in California (Keeley et al. 2007): (1) ssp. <i>glandulosa </i>in interior and maritime chaparral from Baja California to Oregon, (2) ssp. <i>leucophylla </i>in interior chaparral on basaltic and gabbro substrates in southern California, (3) ssp. <i>cushingiana </i>in interior chaparral from Baja California to Oregon, (4) ssp. <i>crassifolia </i>(a CNPS list 1B.1 plant) in coastal chaparral San Diego Co., (5) ssp <i>. adamsii </i>in interior chaparral in San Diego Co., (6) ssp. <i>gabrielensis, </i>(a CNPS list 1B.1 plant) in interior chaparral in the San Gabriel and Sierra Madre mountains, and (7) ssp. <i>mollis </i>in chaparral in the southern California. Over much of the northern part of its range, the species occurs only as scattered shrubs, not as stands. <br/>
+<br/>
+We include all forms of <i>A. glandulosa </i>in the alliance. Mixed stands formerly considered as members of the <i>Adenostoma fasciciulatum-Arctostaphylos glandulosa </i>alliance (Gordon and White 1994, Sawyer and Keeler-Wolf 1995, Borchert et al. 2004) are now considered as part of this alliance. This placement is based on ecological similarities between pure and mixed stands, which include slope position, elevation, and fire history. <br/>
+<br/>
+This alliance tends to occur at middle or moderately high elevations in the northern, central, and southern Coast Ranges that regularly experience winter freezes. Stands often occur on upper hill slopes, and they are particularly common on ridges in very well-drained, rocky settings. Stands at higher elevations and on ridges tend to be of short stature and weather-beaten. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Arctostaphylos glandulosa</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Shrub; evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Long</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; gravity</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Chemical; heat</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>10-100 (200) years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Low to medium</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Stands have a natural fire cycle of 30 to 100 years, and fall or winter prescribed burns are recommended in that interval (Howard 1992b). <i>Arctostaphylos glandulosa </i>readily sprouts from a lignotuber after fire, and shrub mortality is relatively low even when fire consumes most of the above-ground parts. With rapid sprouting, canopy cover can return to pre-burn levels within five years. Seedlings also develop from refractory seeds that germinate when an oligosaccharin is leached from charred wood during the next wet season (Keeley 1987b). Despite the large seed bank, post-fire seedling establishment is usually low (Gordon and White 1994, Howard 1992b). Aboveground portions of individuals may survive over 100 years in the absence of fire, and lignotubers of some individuals may be exceptionally old, having withstood many fires.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Medium (30-100+ years)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Late summer-fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Medium to large—up to and beyond stand
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low to moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>High to very high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>High to very high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Active-independent crown fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Southern California
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+            <p>The range of <i>Arctostaphylos glandulosa</i> includes the Klamath Mountains (M261A) and Northern California Interior Coast Ranges (M261C).</p>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Af, Aj-k). Stands occur in the Santa Lucia Mountains above 600 m in elevation, including the top of Junipero Serra Peak (Cheng 2004). They commonly occur on steep sedimentary slopes (Borchert et al. 2004). Wieslander Vegetation database confirms the presence of stands with <i>A. glandulosa</i> in the Santa Cruz Mountains (UCB 2005). Low elevation outlier stands may extend to 400 m.</li>
+        
+            <li><b>Central California Coast Ranges</b> (M262Ab, Ae). Stands exist above 600 m in the Santa Lucia Mountains on steep, sedimentary slopes (Borchert et al. 2004).</li>
+        
+            <li><b>Mojave Desert</b> (322Ag). Stand occur along the north side of the San Gabriel Mountains.</li>
+        
+            <li><b>Northern California Coast</b> (263Ag, Ak-m). Stands in the Kings Range in Humboldt Co., and those in Marin Co. (Parker 1990b, Keeler-Wolf et al. 2003a, Evens et al. 2006) and Napa Co., grow on sedimentary, serpentine, and granitic substrates.</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Ba-b). Stands observed in the westernmost portions of Colusa, Glenn, and Lake Cos. occur on weakly metamorphosed Franciscan sediments.</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fe). Stands exist sporadic in the southern foothills including San Emigdio Mountains and within Tejon Ranch (Ratchford et al. 2022a).</li>
+        
+            <li><b>Southern California Coast</b> (261Ba-b, Be-g, Bi-j). Stands in Santa Monica Mountains exist principally at high elevations, but low-elevation stands may occur on exposed ridges as low as 300 m (Keeler-Wolf and Evens 2006). Stands in Los Padres National Forest are particularly common above 600 m on ridge tops (Borchert et al. 2004). Individual shrubs and small stands of ssp. crassifolia occur in San Diego Co., where they are associated with coastal chaparral types and stands of Pinus torreyana (CNPS 2001).</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Ba-g, Bl-p). Stands of ssp. <i>mollis</i> occur in the western Transverse Ranges (Gordon and White 1994); stands of ssp. <i>adamsii</i> in the Peninsular Ranges exist to elevations of least 2080 m (Gordon and White 1994, Keeler-Wolf et al. 1998b, Evens and San 2005, Klein and Evens 2005). Stands of both subspecies often occur on ridge tops and upper slopes in the Transverse Ranges (Keeley and Keeley 1988) and Santa Ana Mountains (Wilson and Vogl 1965). Stands that occur at Cahuilla Mountain, Millard Canyon, King Creek, and Organ Valley RNAs (Cheng 2004) are sometimes on gabbro soils.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> <i>Arctostaphylos glandulosa </i>creates more ground litter than most chaparral shrubs (Kittredge 1955), but the species also grows in unproductive sites. Fires in pure <i>A. glandulosa </i>stands are often severe in the Peninsular and Transverse ranges because of the continuous litter cover and large-diameter fuels; however, shrubs typically sprout after the fires (Gordon and White 1994). Fires at short intervals (< 20 years) will likely create stands of pure <i>Adenostoma fasciculatum </i>with the elimination of <i>Arctostaphylos glandulosa. </i>Even though both species sprout and seed in after fire, <i>A. glandulosa </i>produces fewer viable seeds (M. Borchert, pers. comm. 2007). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+                <p>Associations with <i>Arctostaphylos glandulosa</i> Dominance or Co-Dominance</p>
+            
+            <ul class="text">
+                
+                    <li>Arctostaphylos glandulosa [1], [2], [4], [5], [8], [9], [13], [14], [15], [18]</li>
+                
+                    <li>Arctostaphylos glandulosa - Adenostoma fasciculatum - Chamaebatia australis [12]</li>
+                
+                    <li>Arctostaphylos glandulosa - Adenostoma fasciculatum - Quercus wislizeni [3], [7], [18]</li>
+                
+                    <li>Arctostaphylos glandulosa - Arctostaphylos pringlei [9]</li>
+                
+                    <li>Arctostaphylos glandulosa - Cercocarpus montanus [6]</li>
+                
+                    <li>Arctostaphylos glandulosa ssp. adamsii [6]</li>
+                
+            </ul>
+        
+            
+                <p>Mixed Associations with <i>Adenostoma fasciculatum</i></p>
+            
+            <ul class="text">
+                
+                    <li>Arctostaphylos glandulosa - Adenostoma fasciculatum [3], [4], [8], [9], [10], [12], [13], [14], [17], [18]</li>
+                
+                    <li>Arctostaphylos glandulosa - Adenostoma fasciculatum - Arctostaphylos glauca [5]</li>
+                
+                    <li>Arctostaphylos glandulosa - Adenostoma fasciculatum - Ceanothus crassifolius [5], [9]</li>
+                
+                    <li>Arctostaphylos glandulosa - Adenostoma fasciculatum - Ceanothus cuneatus [5]</li>
+                
+                    <li>Arctostaphylos glandulosa - Adenostoma fasciculatum - Ceanothus greggii [5]</li>
+                
+                    <li>Arctostaphylos glandulosa - Adenostoma fasciculatum - Ceanothus leucodermis [5], [9], [11], [16]</li>
+                
+                    <li>Arctostaphylos glandulosa - Adenostoma fasciculatum - Cercocarpus montanus [5]</li>
+                
+                    <li>Arctostaphylos glandulosa - Adenostoma fasciculatum / mafic soils [5], [9]</li>
+                
+                    <li>Arctostaphylos glandulosa - Adenostoma fasciculatum - Quercus berberidifolia [4]</li>
+                
+                    <li>Arctostaphylos glandulosa - Quercus wislizeni [7]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Borchert, M.;Lopez, A.;Bauer, C.;Knowd, T. 2004</li>
+		
+		<li>[2] Evens, J.M.;Klein, A.;Taylor, J.;Hickson, D.;Keeler-Wolf, T. 2006</li>
+		
+		<li>[3] Evens, J.M.;Kentner, E. 2006</li>
+		
+		<li>[4] Evens, J.;San, S. 2005</li>
+		
+		<li>[5] Gordon, H.J.;White, T.C. 1994</li>
+		
+		<li>[6] Keeler-Wolf, T.;Roye, C.;Lewis, K. 1998b</li>
+		
+		<li>[7] Keeler-Wolf, T .;Schirokauer, D.;Meinke, J.;van derLeeden, P. 2003a</li>
+		
+		<li>[8] Keeler-Wolf, T.;Evens, J. 2006</li>
+		
+		<li>[9] Klein, A.;Evens, J. 2005</li>
+		
+		<li>[10] Parker, V.T. 1990b</li>
+		
+		<li>[11] White, S.D. 1994b</li>
+		
+		<li>[12] Sproul, F.;Keeler-Wolf, T.;Gordon-Reedy, P.;Dunn, J.;Klein, A.;Harper, K. 2011</li>
+		
+		<li>[13] Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>[14] AECOM, 2013</li>
+		
+		<li>[15] Buck, J.;Evens, J. 2010</li>
+		
+		<li>[16] White, S.D. 1994a</li>
+		
+		<li>[17] Ratchford, J.;Boul, R.;Keeler-Wolf, T.;Evens, J. 2022a (in progress)</li>
+		
+		<li>[18] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>Gray, J.T. 1983a</li>
+		
+		<li>Hanes, T.L. 1977</li>
+		
+		<li>Hanes, T.L. 1981</li>
+		
+		<li>Hanes, T.L. 1994</li>
+		
+		<li>Horton, J.S. 1960</li>
+		
+		<li>Horton, J.S.;Kraebel, C.J. 1955</li>
+		
+		<li>Howard, J.L. 1992b</li>
+		
+		<li>Keeler-Wolf, T. 1990d</li>
+		
+		<li>Keeley, J.E. 1977</li>
+		
+		<li>Keeley, J.E. 1991</li>
+		
+		<li>Keeley, J.E. 1993a</li>
+		
+		<li>Keeley, J.E.;Keeley, S.C. 1988</li>
+		
+		<li>Keeley, J.E.;Soderstrom, T.J. 1986</li>
+		
+		<li>Keeley, J.E.;Zedler, P.H. 1978</li>
+		
+		<li>Kelly, V.R.;Parker, V.T. 1990</li>
+		
+		<li>Kelly, V.R.;Parker, V.T. 1991</li>
+		
+		<li>Kittredge, J. 1955</li>
+		
+		<li>McMurray, N. 1990a</li>
+		
+		<li>Menke, J.;Reyes, E.;Hepburn, A.;Johnson, D.;Reyes, J. 2013</li>
+		
+		<li>Mills, J.N. 1983</li>
+		
+		<li>Moreno, J.M.;Oechel, W.C. 1991</li>
+		
+		<li>Moreno, J.M.;Oechel, W.C. 1992</li>
+		
+		<li>Moreno, J.M.;Oechel, W.C. 1993</li>
+		
+		<li>Pase, C.P. 1982a</li>
+		
+		<li>Patric, J.H.;Hanes, T.L. 1964</li>
+		
+		<li>Shiflet, T.N. 1994</li>
+		
+		<li>Sweeney, J.R. 1956</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program);AIS, 2013</li>
+		
+		<li>Vogl, R.J. 1976</li>
+		
+		<li>Vogl, R.J.;Schorr, P.K. 1972</li>
+		
+		<li>Wells, P.V. 1987</li>
+		
+		<li>Wilson, R.C.;Vogl, R.J. 1965</li>
+		
+		<li>Zammit, C.A.;Zedler, P.H. 1988</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/116/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

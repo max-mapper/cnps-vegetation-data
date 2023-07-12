@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Pinus monticola</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Pinus</i> <i>monticola</i></span> Forest &amp; Woodland Alliance <br/>
+        <span class="subtitle">Western white pine forest and woodland</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Tree
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>200-2300 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S4
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G5
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>CAN: BC. USA: CA, ID, MT, OR, WA (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/tree/pinus-monticola_canyoncreek.jpg', '/static/images/photos/tree/pinus-monticola_elkvalley.jpg', '/static/images/photos/tree/pinus-monticola_trinityalps_07-04_01.jpg', '/static/images/photos/tree/pinus-monticola_trinityalps_08-05_01.jpg', '/static/images/photos/tree/pinus-monticola_trinityalps_08-05_02.jpg', '/static/images/photos/tree/pinus-monticola_trinityalps_08-05_03.jpg', '/static/images/photos/tree/pinus-monticola_winter.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Pinus</i> <i>monticola</i> is dominant or co-dominant in the tree canopy with <i>Abies</i> <i>concolor</i>, <i>Abies</i> <i>magnifica</i>, <i>Abies</i> ×<i>shastensis</i>, <i>Pinus</i> <i>attenuata</i>, <i>Pinus</i> <i>balfouriana</i>, <i>Pinus</i> <i>contorta</i> ssp. <i>murrayana</i>, <i>Pinus</i> <i>jeffreyi</i>, <i>Pinus</i> <i>ponderosa</i> var. <i>washoensis</i>, <i>Pseudotsuga</i> <i>menziesii</i> and <i>Tsuga</i> <i>mertensiana</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text"> Trees < 70 m; canopy is open to intermittent. Shrub layer is sparse to intermittent. Herbaceous layer is sparse or abundant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Pinus monticola</i> > 30% relative cover in the tree layer (Keeler-Wolf et al. 2003b).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Raised stream benches and terraces, all slopes, but most extensive above subalpine lake margins, on plateaus, and on upper elevation slopes and ridgetops. Soils are granitic, ultramafic, or volcanic derived. The USFWS Wetland Inventory (1996 national list) recognizes <i>Pinus monticola</i> as a FACU plant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Western white pine series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Pinus monticola forest alliance, Pinus monticola woodland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Western white pine
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Ultramafic white pine forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Subalpine forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Subalpine conifer
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>87.170.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Tree Vegetation (Forest and Woodland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Cool Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North America Cool Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Vancouverian Subalpine Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Vancouverian mesic montane coniferous forest and woodland
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Pinus monticola </i>grows to 60 m in height and attains 400 years in age. Trees develop cones after 7 years. Seeds remain viable in the duff for up to 4 years and germinate after cold stratification. Seedlings germinate on mineral soil and duff. Seedling mortality is high in the first year because of snow mold (<i>Neopeckia coulteri</i>), rodents, late-season drought, and high soil temperatures. On dry sites, partial shade favors seedling establishment. Trees attain their greatest size on deep, fertile soils, but they are more common on unfertile soils. <i>P. monticola </i>is shade intolerant and does not respond after release from 30 years of suppression (Griffith 1992c). <br/>
+<br/>
+<i>Pinus monticola </i>grows in a wide range of mountain settings throughout the state, and it is a common sec-ondary species in several alliances, especially at subalpine elevations. In the Klamath Mountains, it grows as low as 200 m in elevation on ultramafic substrates, where it associates with <i>P. contorta </i>ssp. <i>contorta </i>(<i>sensu lato</i>) and <i>P. attenuata</i>. See the <i>Pinus contorta </i>ssp. <i>contorta </i>alliance for discussion on the taxonomic status of <i>Pinus contorta </i>in the western Siskiyou Mountains. See also Sawyer (2006, 2007) for a regional description of Klamath Mountains. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Pinus monticola</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Tree; evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil </td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Medium</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Wind</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Stratification—winter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; thick epidermis; canopy architecture resistant</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>2-400+ years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Trees have thin bark and can be killed or scarred by cool fires. Most open subalpine stands have discontinuous surface fuel, which limits fire spread to a small area. Scars provide vectors for butt rots to enter trees (Sugihara et al. 2007).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Long (200+ years)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Late summer (short)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Small to medium
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Low
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Low
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Surface to passive crown
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Klamath Mountains; Sierra Nevada
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Klamath Mountains</b> (M261Aa-b, Ad, Ag, Aj-k, Ap, At). Self-replacing stands occur on deep, partially serpentinized peridotite in western Del Norte Co. (Duebendorfer 1987). These <i>Pinus monticola woodlands,</i> first described by Whittaker (1960), mix in a patchy mosaic with <i>P. jeffreyi</i> woodlands and shrublands. Soil differences and history cause the mosaic. The shrublands occupy forest sites disturbed by fire or white pine bluster rust (<i>Cronartium ribicola</i>) in the 1990s. Less-undisturbed sites find <i>P. monticola</i> mixed with <i>Pseudotsuga menziesii.</i> Stands also occur at subalpine elevations in the Marble, Salmon, and Scott mountains, and in the Trinity Alps. Common associates are <i>Pinus balfouriana, P. contorta</i> ssp. <i>murrayana,</i> and <i>P. jeffreyi</i> (Sawyer 2006, 2007).</li>
+        
+            <li><b>Modoc Plateau</b> (M261Gf). Stands are extensive in the northern Warner Mountains above the <i>Abies concolor</i> zone. Perhaps because of the absence of <i>A. magnifica,</i> this pine may have expanded into ecological conditions normally occupied by other firs elsewhere in northern California’s mountains (Fites-Kaufman et al. 2007).</li>
+        
+            <li><b>Sierra Nevada</b> (M261Ed, Eh, Ej-k, Eo, Eq). Stands exist at subalpine elevations throughout all but the southernmost parts of the section (Fites-Kaufman et al. 2007). Stands described for Yosemite National Park (Keeler-Wolf et al. 2003b) contain <i>A. magnifica</i> and<i> P. contorta.</i> Stands in Babbitt Peak RNA include <i>P. ponderosa </i>var. <i>washoensis.</i> Those in South Mountaineer Creek cRNA represent the southern expression of the alliance (Keeler-Wolf 1991b, see Cheng 2004). Stands appear to be larger and better developed on the eastern side of the central and northern Sierra Nevada, particularly in the Carson Range in both California and adjacent Nevada.</li>
+        
+            <li><b>Southern Cascades</b> (M261Df, Dj, Dm). Stands exist with <i>Tsuga mertensiana</i> at higher subalpine elevations near Mount Lassen and along lake margins in the section (Fites-Kaufman et al. 2007).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> White pine blister rust has affected stands greatly in the wetter climates of the western Klamath Mountains. Disease and fire are less important at subalpine elevations, where stands are commonly small and the trees scattered. Stands in the Sierra Nevada are less affected. Sierra Nevada stands are typically limited to a narrow ecological range between the <i>Abies magnifica </i>alliance and true subalpine alliances. Changing climate may compress and restrict these stands in some parts of this tree’s California range (van Wagtendonk and Fites-Kaufman 2007). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Pinus monticola / Achnatherum occidentale [4], [8]</li>
+                
+                    <li>Pinus monticola / Arctostaphylos nevadensis [5], [7]</li>
+                
+                    <li>Pinus monticola - Pinus contorta ssp. murrayana [4], [8]</li>
+                
+                    <li>Pinus monticola - Pinus contorta ssp. murrayana / Notholithocarpus densiflorus var. echinoides [1], [2], [3]</li>
+                
+                    <li>Pinus monticola - Pseudotsuga menziesii / Quercus vacciniifolia - Notholithocarpus densiflorus var. echinoides [2]</li>
+                
+                    <li>Pinus monticola / Xerophyllum tenax [6]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Duebendorfer, T.E. 1987</li>
+		
+		<li>[2] Jimerson, T.M.;Hoover, L.D.;McGee, E.A.;DeNitto, G.;Creasy, R.M. 1995</li>
+		
+		<li>[3] Keeler-Wolf, T. 1986e</li>
+		
+		<li>[4] Keeler-Wolf, T.;Schindel, M.;San, S.;Moore, P.;Hickson, D. 2003b</li>
+		
+		<li>[5] Sawyer, J.O.;Thornburgh, D.A. 1977</li>
+		
+		<li>[6] Simpson, L.G. 1980</li>
+		
+		<li>[7] Whipple, J.;Cope, E. 1979</li>
+		
+		<li>[8] NPS-SEKI, 2009</li>
+		
+		<li>Barry, W.J. 1989a</li>
+		
+		<li>Barry, W.J. 1989b</li>
+		
+		<li>Boyd, R.J. 1980b</li>
+		
+		<li>Cheatham, N.H.;Haller, J.R. 1975</li>
+		
+		<li>Fites-Kauffman, J.A.;Rundel, P.;Stephenson, N.;Weixelman, D. 2007</li>
+		
+		<li>Graham, R.T. 1990</li>
+		
+		<li>Griffin, J.R.;Critchfield, W.B. 1972</li>
+		
+		<li>Griffith, R.S. 1992c</li>
+		
+		<li>Kruckeberg, A.R. 1984</li>
+		
+		<li>Sawyer, J.O. 2006</li>
+		
+		<li>Sawyer, J.O. 2007</li>
+		
+		<li>van Wagtendonk, J.W.;Fites-Kauffman, J. 2006</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/57/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

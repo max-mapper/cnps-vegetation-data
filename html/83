@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Quercus kelloggii</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Quercus</i> <i>kelloggii</i></span> Forest &amp; Woodland Alliance <br/>
+        <span class="subtitle">California black oak forest and woodland</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Tree
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>60-2500 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S4
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G4
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA, OR?. Baja California, Mexico? (NatureServe) (TJM2)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>Yes
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/tree/quercus-kelloggii_vacapk_05-03_01.jpg', '/static/images/photos/tree/quercus-kelloggii_vacapk_05-03_02.jpg', '/static/images/photos/tree/quercus-kelloggii_vacapk_05-03_03.jpg', '/static/images/photos/tree/quercus-kelloggii_mmwd0411_w_mttamwatershed_07-05.jpg', '/static/images/photos/tree/quercus-kelloggii_mmwd0412_w_mttamwatershed_07-05.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Quercus</i> <i>kelloggii</i> is dominant or co-dominant in the tree canopy with <i>Abies</i> <i>concolor</i>, <i>Arbutus</i> <i>menziesii</i>, <i>Calocedrus</i> <i>decurrens</i>, <i>Pinus</i> <i>attenuata</i>, <i>Pinus</i> <i>ponderosa</i>, <i>Pseudotsuga</i> <i>menziesii</i>, <i>Quercus</i> <i>agrifolia</i>, <i>Quercus</i> <i>chrysolepis</i>, <i>Quercus</i> <i>garryana</i>, <i>Quercus</i> <i>lobata</i> and <i>Umbellularia</i> <i>californica</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text"> Trees < 40 m; canopy is open (greater than 10%) to continuous, or savanna-like (less than 10%, but evenly distributed). Shrub layer is open to intermittent. Herbaceous layer is sparse or grassy. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Quercus kelloggii</i> > 50% relative cover in overstory, and conifers are not conspicuous; or <i>Q. kelloggii</i> > 30% relative cover in the overstory and <i>Pinus ponderosa</i> may co-dominate (Klein et al. 2007).</li>
+		
+		<li><i>Quercus kelloggii</i> > 50% relative cover in the tree canopy; emergent conifers < 10% relative cover (Keeler-Wolf et al. 2003b, Evens and San 2005).</li>
+		
+		<li><i>Quercus kelloggii</i> and <i>Pinus ponderosa</i> 30-60% relative cover in the overstory (cf. Keeler-Wolf et al. 2003b).</li>
+		
+		<li><i>Quercus kelloggii</i> or <i>Quercus × morehus</i> > 50% relative cover in the tree canopy, or > 30% relative cover with <i>Pseudotsuga menziesii, Q. agrifolia,</i> and/or <i>Umbellularia californica</i> (Buck-Diaz et al. 2021, Sikes et al. 2021).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> All aspects and topographic settings. Soils are moderately to excessively drained.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Black oak series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Quercus kelloggii forest alliance, Quercus kelloggii temporarily flooded woodland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>California black oak
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Black oak woodland, Black oak forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Mixed evergreen forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Montane hardwood
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>71.010.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Tree Vegetation (Forest and Woodland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Warm Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Madrean Forest and Woodland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>California Forest and Woodland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Californian broadleaf forest and woodland
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Quercus kelloggii </i>grows to 25 m in height and lives to 500 years in age. Its winter deciduous leaves produce copious litter. Trees form mast sporadically after they reach 30 years in age. Birds and small mammals cache the acorns, which are susceptible to fungal and insect damage. Seedlings establish in soils with little or no duff. Drought often kills seedlings. Plants are moderately shade tolerant in early life but shade intolerant with age (Howard 1992l). <i>Q. agrifolia </i>and <i>Q. kelloggii </i>often form hybrids when they come into contact, which tends to be at the lower elevation limits of <i>Q. kelloggii </i>(Nixon 2002). <br/>
+<br/>
+The range of <i>Q. kelloggii </i>is sufficiently wide that it mixes with many species in many alliances (Gaman and Casey 2002), though it 000tends to occur in higher elevations than other oaks other than <i>Q. chrysolepis</i>. As an alliance, <i>Q. kelloggii </i>occurs from the foothill to the mid montane elevations from the Coast Ranges to the Klamath Mountains and the western Sierra Nevada (Barbour et al. 2007a). Conifers replace <i>Q. kelloggii </i>on productive sites in the absence of fire. Replacement is slower or lacking on unproductive sites (Howard 1992l). Stands commonly have <i>Pinus ponderosa, P. sabiniana, </i>and less commonly <i>P. jeffreyi</i>. Mixed cismontane stands with <i>P. ponderosa </i>are currently placed in this alliance, despite the conifer’s greater height. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Quercus kelloggii</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Tree; winter deciduous</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Transient; soil</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; gravity</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Buds on large branches or trunks; underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy to fire-sensitive; thin epidermis; high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>30-500 years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Medium</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Following fire, most surviving and top-killed trees sprout from the root crown and undamaged portions of the trunk. Sprouting is vigorous in saplings and young trees. Very old trees may fail to sprout, but they can coppice. Trees are usually top-killed following crown fires regardless of tree size. Fire regimes characterized by low- to moderate-severity surface fires with intervals averaging 3.5 years create open canopies for seedling establishment and sprout growth (Kauffman and Martin 1987, Kilgore 1981, Sugihara et al. 2006, Warner 1980). Fire intensity in <i>Quercus kelloggii </i>stands tends to be lower than in surrounding chaparral because of relatively low volatility of foliage and bark (e.g., Graham Pinery RNA; Cheng 2004).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Short
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Summer-early fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Medium to large—up to stand size
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Low to moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Low to moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Surface-passive crown
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Fire characteristics with setting
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Af-g, Aj-k). Individual trees, groves, and stands mix with conifer and hardwood alliances in the Santa Cruz and Santa Lucia mountains (Allen et al. 1991, Allen-Diaz et al. 2007). Those in the Santa Cruz Mountains mix with <i>Arbutus menziesii</i> and <i>Quercus agrifolia</i> stands.</li>
+        
+            <li><b>Central California Coast Ranges</b> (M262Aa-f, Aj). Individual trees, groves, and stands occur on northerly-facing slopes in the Diablo Range and in the upper elevations of the Santa Lucia Mountains (Allen et al. 1991, Allen-Diaz et al. 2007).</li>
+        
+            <li><b>Klamath Mountains</b> (M261Aa, Ac-f, Ah-n, Ap-u). Stands are most extensive in the western portion of the canyon lands of the Klamath and Trinity rivers and throughout the Sacramento River watershed (Sawyer 2006). Stands described for Devil’s Rock-Hosselkus RNA (Keeler- Wolf and Keeler-Wolf 1975, see Cheng 2004) and Whiskeytown National Recreation Area (Lee 2004) often contain conifers.</li>
+        
+            <li><b>Modoc Plateau</b> (M261Gj-n, Gp). Stands experiencing long fire intervals occur in basalt islands. Stands exist as far east as the Adin Mountains (Smith and Davidson 2003).</li>
+        
+            <li><b>Northern California Coast</b> (263Af-g, Aj, Al-m). Groves and stands mix with <i>Pseudotsuga menziesii-Lithocarpus densiflorus</i> forests, <i>Q. garryana</i> woodlands, chaparral, and grassland at low elevations (Sawyer 2006). Stands have been mapped in Marin Co. (Evens and Kentner 2006) and in the Atlas Peak region of Napa Co. (Thorne et al. 2004).</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Ba-f). Stands mix with other forest types in the eastern subsections at montane elevations (Sawyer 2006). Stands at Devil’s Basin and Ruth RNAs (Cheng 2004) and in the Yolla Bolly-Middle Eel Wilderness (Keeler-Wolf and Keeler-Wolf 1974) are extensive.</li>
+        
+            <li><b>Northern California Interior Coast Ranges</b> (M261Ca). Small stands occur atop Mt. Vaca adjacent to <i>Quercus wislizeni</i> and <i>Ceanothus oliganthus</i> chaparral.</li>
+        
+            <li><b>Northwestern Basin and Range</b> (342Bc). Stands adjacent to <i>Purshia tridentata</i> and <i>Artemisia tridentata</i> stands occur south of Honey Lake at the base of the Diamond Mountains.</li>
+        
+            <li><b>Sierra Nevada</b> (M261Ea-d, Ef-g, Ej-m, Ep-s). <i>Quercus kelloggii</i> is a common, secondary species in mixed conifer forest alliances at montane elevations (Fites-Kaufman et al. 2007). Groves and stands include those at Sugar Pine Point RNA (Palmer 1981, see Cheng 2004), in Nevada Co. (Palmer 1981), and in Yosemite National Park (Keeler-Wolf et al. 2003b). Garrison et al. (2002) have studied the stand age structure in detail.</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fa-c, Fe). Individual trees, groves, and stands mix with chaparral and with other tree alliances (Allen et al. 1991, Allen-Diaz et al. 2007). Stands with <i>Q. wislizeni</i> occur below 600 m along north-facing slopes at Peoria Wildlife Area in Tuolumne Co. (Evens et al. 2004). Klein et al. (2007) reported nine different associations (three characterized by conifer co-dominance) in the northern and central sections.</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Ba-b, Bd-e, Bg-h, Bm, Bo). Individual trees, groves, and stands occur especially in the San Bernardino Mountains and southern Peninsula Ranges, where stands include <i>Q. agrifolia, Q. chrysolepis,</i> and <i>Pinus coulteri.</i> Stands having co-dominance by <i>Q. kelloggii</i> and <i>P. jeffreyi</i> are members of <i>Pinus jeffreyi</i> alliance. Many of the San Diego Co. stands at Cuyamaca Rancho State Park and on Volcan Mountain (Evens and San 2005) have experienced severe fires in the past decade (Minnich 2007).</li>
+        
+            <li><b>Southern Cascades</b> (M261Da, Dd, Df-h, Dj, Dl-m). <i>Quercus kelloggii</i> is a common, secondary species in mixed conifer forest alliances at montane elevations (Fites-Kaufman et al. 2007). Groves and stands are scattered in these forest types, including those at Indian Creek rRNA (Keeler- Wolf 1986d, see Cheng 2004).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> A number of issues revolve around management of <i>Quercus kelloggii</i>. Proceedings of the Fifth Sympo-sium on Oak Woodlands (Standiford et al. 2002) address many current management issues. They include silvicultural practices used to promote conifer growth and to reduce <i>Q. kelloggii </i>density. The use of herbicides to kill regenerating <i>Q. kelloggii </i>stands after fire has been especially controversial in the central Sierra Nevada. Garrison et al. (2005) have found that increasing relative cover of <i>Q. kelloggii </i>stands in the Sierra Nevada has positive effects for many native bird species. California Indians typically chose <i>Q. kelloggii </i>acorns as the highest quality of any in the state (Anderson 2005). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+                <p>Stands with a Mixed Tree Canopy</p>
+            
+            <ul class="text">
+                
+                    <li>Quercus kelloggii - Arbutus menziesii - Quercus agrifolia [1], [14], [15], [20], [21]</li>
+                
+                    <li>Quercus kelloggii - Calocedrus decurrens [2], [8]</li>
+                
+                    <li>Quercus kelloggii - Pinus coulteri [5], [7]</li>
+                
+                    <li>Quercus kelloggii - Pinus coulteri / Arctostaphylos glandulosa [9]</li>
+                
+                    <li>Quercus kelloggii - Pinus coulteri / Arctostaphylos pringlei [9]</li>
+                
+                    <li>Quercus kelloggii - Pinus ponderosa [10]</li>
+                
+                    <li>Quercus kelloggii - Pinus ponderosa / Arctostaphylos viscida [8], [10], [11]</li>
+                
+                    <li>Quercus kelloggii - Pseudotsuga menziesii [4], [12], [13]</li>
+                
+                    <li>Quercus kelloggii - Pseudotsuga menziesii - Acer macrophyllum [3]</li>
+                
+                    <li>Quercus kelloggii - Pseudotsuga menziesii - Umbellularia californica [10], [15], [20]</li>
+                
+                    <li>Quercus kelloggii - Quercus agrifolia - pine / Holodiscus discolor [1]</li>
+                
+                    <li>Quercus kelloggii - Quercus chrysolepis [1], [2]</li>
+                
+                    <li>Quercus kelloggii - Quercus chrysolepis / Toxicodendron diversilobum [1], [10], [11]</li>
+                
+                    <li>Quercus kelloggii - Quercus lobata / grass [1]</li>
+                
+                    <li>Quercus wislizeni - Quercus kelloggii / Heteromeles arbutifolia - Toxicodendron diversilobum [10], [19]</li>
+                
+            </ul>
+        
+            
+                <p>Stands with a Simple Tree Canopy</p>
+            
+            <ul class="text">
+                
+                    <li>Quercus kelloggii / Arctostaphylos mewukka / Chamaebatia foliolosa [8], [16]</li>
+                
+                    <li>Quercus kelloggii / Arctostaphylos patula [1], [8], [16]</li>
+                
+                    <li>Quercus kelloggii / Ceanothus integerrimus [1], [10]</li>
+                
+                    <li>Quercus kelloggii / grass - herb [1], [2], [16], [17]</li>
+                
+                    <li>Quercus kelloggii / Heteromeles arbutifolia - Toxicodendron diversilobum [11]</li>
+                
+                    <li>Quercus kelloggii / Ribes roezlii [18]</li>
+                
+                    <li>Quercus kelloggii / Toxicodendron diversilobum [1], [6], [10], [11]</li>
+                
+                    <li>Quercus kelloggii / Toxicodendron diversilobum - Styrax redivivus / Triteleia laxa [1], [10], [11]</li>
+                
+                    <li>Quercus kelloggii / Triteleia spp. [1]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Allen, B.H.;Holzman, B.A.;Evett, R.R. 1991</li>
+		
+		<li>[2] Evens, J.;San, S. 2005</li>
+		
+		<li>[3] Jimerson, T.M. 1993</li>
+		
+		<li>[4] Jimerson, T.M.;McGee, E.A.;Jones, D.W.;Svilich, R.J.;Hotalen, E.;DeNitto, G.;Laurent, T.;Tenpas, J.D.;Smith, M.E.;Hefner-McClelland, K.;Mattison, J. 1996</li>
+		
+		<li>[5] Keeler-Wolf, T. 1986d</li>
+		
+		<li>[6] Keeler-Wolf, T. 1987a</li>
+		
+		<li>[7] Keeler-Wolf, T. 1990c</li>
+		
+		<li>[8] Keeler-Wolf, T.;Schindel, M.;San, S.;Moore, P.;Hickson, D. 2003b</li>
+		
+		<li>[9] Klein, A.;Evens, J. 2005</li>
+		
+		<li>[10] Klein, A.;Crawford, J.;Evens, J.;Keeler-Wolf, T.;Hickson, D. 2007</li>
+		
+		<li>[11] Lee, C. 2004</li>
+		
+		<li>[12] Stuart, J.D.;Worley, T.;Buell, A.C. 1992</li>
+		
+		<li>[13] Wainwright, T.C.;Barbour, M.G. 1984</li>
+		
+		<li>[14] Evens, J.M.;Kentner, E. 2006</li>
+		
+		<li>[15] Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>[16] NPS-SEKI, 2009</li>
+		
+		<li>[17] Reyes, E.;Evens, J.;Glass, A.;Sikes, K.;Keeler-Wolf., T.;Winitsky, S.;Johnson, D.;Menke, J.;Hepburn, A. 2020a</li>
+		
+		<li>[18] Ratchford, J.;Boul, R.;Keeler-Wolf, T.;Evens, J. 2022a (in progress)</li>
+		
+		<li>[19] Evens, J.M.;San, S.;Taylor, J. 2004</li>
+		
+		<li>[20] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>[21] Sikes, K.;Buck-Diaz, J.;Evens, J. 2021</li>
+		
+		<li>Allen, B.H.;Evett, R.R. ;Holzman, B.A.;Martin, A.J. 1989</li>
+		
+		<li>Allen-Diaz, B.H.;Holtzman, B.A. 1991</li>
+		
+		<li>Barbour, M.G. 1988</li>
+		
+		<li>Barry, W.J. 1989a</li>
+		
+		<li>Barry, W.J. 1989b</li>
+		
+		<li>Boul, R.;Keeler-Wolf, T.;Ratchford, J.;Haynes, T.;Hickson, D.;Yacoub, R.;Harbert, B.;Evens, J. 2021b</li>
+		
+		<li>Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>Buck, J.;Evens, J. 2010</li>
+		
+		<li>Cheatham, N.H.;Haller, J.R. 1975</li>
+		
+		<li>Gaman, T.;Casey, K. 2002</li>
+		
+		<li>Garrison, B.A.;Otahal, C.D.;Triggs, M.L. 2002</li>
+		
+		<li>Gemmill, B. 1980</li>
+		
+		<li>Griffin, J.R. 1967</li>
+		
+		<li>Griffin, J.R. 1977</li>
+		
+		<li>Griffin, J.R.;Critchfield, W.B. 1972</li>
+		
+		<li>Howard, J.L. 1992k</li>
+		
+		<li>Kauffman, J.B.;Martin, R.E. 1987</li>
+		
+		<li>Kilgore, B.M. 1981</li>
+		
+		<li>McDonald, P.M. 1980a</li>
+		
+		<li>McDonald, P.M. 1990c</li>
+		
+		<li>Minnich, R.A. 1976</li>
+		
+		<li>Pavlik, B.M.;Muick, P.C.;Johnson, S.G.;Popper, M. 1991</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Black, H.;Bleich, V.C.;Mincks, J.W. 1980</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Conrad, C.E. 1982</li>
+		
+		<li>Plumb, T.R.;Gomez, A.P. 1983</li>
+		
+		<li>Sweitzer, R.A.;VanVuren, D.H. 2002</li>
+		
+		<li>Thorne, R.F. 1976</li>
+		
+		<li>Vogl, R.J. 1976</li>
+		
+		<li>Warner, T.E. 1980</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/83/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

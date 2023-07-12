@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Coleogyne ramosissima</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Coleogyne</i> <i>ramosissima</i></span> Shrubland Alliance <br/>
+        <span class="subtitle">Black brush scrub</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>1200-1850 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S4
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G5
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: AZ, CA, CO, NV, UT, WY (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/coleogyne_under_y-brevifolia_cimadome_04-09.jpg', '/static/images/photos/shrub/coleogyne-ramosissima_buttermilkcountry_09-94_01.jpg', '/static/images/photos/shrub/coleogyne-ramosissima_buttermilkcountry_09-94_02.jpg', '/static/images/photos/shrub/coleogyne-ramosissima_granitemtns_03-07_01.jpg', '/static/images/photos/shrub/coleogyne-ramosissima_sherwinsummit_09-94_01.jpg', '/static/images/photos/shrub/coleogyne-ramossisima_jtnp_1997_01.jpg', '/static/images/photos/shrub/coleogyne-ramossisima_sanbernardinomtns_11-94_01.jpg', '/static/images/photos/shrub/coleogyne-ramossisima_wildrosecyn-dvnp_10-99_01.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Coleogyne</i> <i>ramosissima</i> is dominant or co-dominant in the shrub canopy with <i>Artemisia</i> <i>tridentata</i>, <i>Atriplex</i> <i>confertifolia</i>, <i>Ephedra</i> spp., <i>Ericameria</i> <i>teretifolia</i>, <i>Eriogonum</i> <i>fasciculatum</i>, <i>Grayia</i> <i>spinosa</i>, <i>Krascheninnikovia</i> <i>lanata</i>, <i>Larrea</i> <i>tridentata</i>, <i>Menodora</i> <i>spinescens</i>, <i>Picrothamnus</i> <i>desertorum</i>, <i>Purshia</i> <i>stansburiana</i>, <i>Salazaria</i> <i>mexicana</i>, <i>Thamnosma</i> <i>montana</i> and <i>Yucca</i> <i>schidigera</i>. Emergent trees may be present at low cover, including <i>Juniperus</i> <i>californica</i>, <i>Juniperus</i> <i>osteosperma</i>, <i>Pinus</i> <i>monophylla</i> or <i>Yucca</i> <i>brevifolia</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 2 m; canopy is open to continuous. Herbaceous layer is sparse to open with cryptogrammic crusts. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Coleogyne ramosissima</i> ≥ 2% absolute cover in the shrub canopy; <i>Ephedra nevadensis</i> and/or <i>Krameria grayi</i> may be two times the cover of <i>C. ramosissima;</i> the cover of <i>Ambrosia  salsola, Salazaria mexicana, Ericameria</i> spp., or <i>Eriogonum fasciculatum</i> may exceed that of <i>C. ramosissima</i> on disturbed sites (Thomas et al. 2004).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Alluvial fans bordering intermountain basins, slopes, upper bajadas, rocky highlands. Thin, sandy soils with abundant exposed rock from mixed alluvium and colluvium, often with a shallow caliche layer, moderate alkalinity and a low tolerance of salinity.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Black bush series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Coleogyne ramosissima shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Blackbush, High desert mixed scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Blackbush scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Sagebrush scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Sagebrush
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>33.020.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Xeromorphic Scrub and Herb Vegetation (Semi-Desert)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Cool Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Cool Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North American Cool Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Inter-Mountain Dry Shrubland and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Intermountain shallow/calcareous soil scrub
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Coleogyne ramosissima </i>is an aromatic, manybranched shrub with diffuse, shallow roots. Plants are drought deciduous. Small mammals disperse and cache seeds. A scarcity of seedlings indicates that reproduction occurs infrequently, with seed and seedling mortality caused by seed predation, herbivore browsing, and limited soil moisture in the summer. Seed germination requires a period of cold stratification; successful seedling establishment follows heavy, early spring rains (Anderson 2001c). <br/>
+<br/>
+<i>Coleogyne ramosissima </i>has a long lifespan. Stands are generally simple and monotypic, sometimes with closely spaced shrubs (Webb et al. 1987). Typical stands have shallow soils with caliche layers and welldeveloped cryptogamic crusts between shrubs (West 1988). Stands occur abundantly on old geologic soils but are lacking on young basalt flows, and their cover and density increase with the age of the soils (Webb et al. 1988, 1987). Stands are on the least disturbed geomorphic surfaces in an area; they persist longer than do other plant assemblages on these surfaces (Tueller et al. 1991, Webb et al.1987). <i>C. ramosissima </i>can invade grasslands following overgrazing (Wells 1961). Low soil moisture or cold air drainage set the lower elevation limit, and cold air temperatures set the upper limit of the type (Lei and Walker 1994, 1995). </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Coleogyne ramosissima</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Shrub; evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Medium</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Stratification—winter </td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-sensitive; high flammability; no/low sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>Long-lived </td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Fire spreads quickly and easily in closely spaced stands. Stands with an abundant cover of non-native annual grasses are most fire prone. The species does not sprout and is slow to invade sites once burned. The return of shrub dominance may require hundreds of years, and frequent, large fires have eliminated <i>Coleogyne ramosissima </i>in some areas (Anderson 2001c, Webb and Esque pers. comm. 2001). <i>Bromus rubens </i>and <i>B. tectorum </i>act as principal fuels for fires, although following years of high rainfall, <i>Schismus </i>spp. may also carry fire. Succession after fire includes a phase where <i>Stipa speciosa </i>or <i>Pleuraphis rigida </i>dominates for several years before <i>C. ramossisma </i>establishes in the Great Basin and Mojave Desert (M. Brooks, pers. comm. 2004).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Medium
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Late summer-fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Medium
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>High
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Very high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Surface to passive crown fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Unknown
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Mojave Desert</b> (322Aa, Ad, Af-h, Aj, Al, An, Ap). Stands are common above 1000 m, especially on alluvium underlain by pediments where stands mix with those of the <i>Artemisia tridentata, Atriplex confertifolia, Ephedra nevadensis, Juniperus californica, Juniperus osteosperma, Pinus monophylla,</i> and <i>Yucca brevifolia</i> alliances. Stands recovering from fire and grazing have <i>Gutierrezia microcephala</i> or <i>Salazaria mexicana.</i> Stands cover over 35,500 ha in the eastern and northern subsections (Thomas et al. 2004).</li>
+        
+            <li><b>Mono</b> (341Dh-j). Easily apparent stands occur in upper Owens Valley, on adjacent slopes west of U.S. 395 from Rovana to Bishop, and on the lower slopes of the White Mountains.</li>
+        
+            <li><b>Sierra Nevada</b> (M261Er). Stands occur on the eastern escarpment of the range from the Paiute Mountains north to the Buttermilk Country west of Bishop.</li>
+        
+            <li><b>Southeastern Great Basin</b> (341Fb-f). Stands in the Argus, Coso, Grapevine, Last Chance, and Panamint mountains are adjacent to those of the <i>Artemisia tridentata, Grayia spinosa, Larrea tridentata-Ambrosia dumosa, Menodora spinescens,</i> and <i>Yucca brevifolia</i> alliances (Thomas et al. 2004).</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Bi, Bp). Desert slopes from the northern San Bernardino Mountains as far south as Anza-Borrego Desert State Park and adjacent lands have intermittent stands among those of the <i>Juniperus californica, Pinus monophylla,</i> and <i>Yucca schidigera</i> alliances (Spolsky 1979, Keeler-Wolf et al. 1998b).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Fires in stands with non-native annual grasses, especially with <i>Bromus rubens </i>and <i>B. tectorum, </i>are a significant threat to this alliance. The prospects of maintaining old-growth stands are low unless we identify and manage them as weed-free areas. Isolated, extralimital, relictual stands (Stebbins and Major 1965) are of special interest. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Coleogyne ramosissima [1], [2], [5], [7], [9]</li>
+                
+                    <li>Coleogyne ramosissima - Ephedra spp. [2], [3], [6], [7], [8], [9]</li>
+                
+                    <li>Coleogyne ramosissima - Ericameria teretifolia [7], [9]</li>
+                
+                    <li>Coleogyne ramosissima - Eriogonum fasciculatum [2], [4], [7], [8], [9]</li>
+                
+                    <li>Coleogyne ramosissima - Larrea tridentata [2], [7], [9]</li>
+                
+                    <li>Coleogyne ramosissima - Lycium andersonii [2], [7], [9]</li>
+                
+                    <li>Coleogyne ramosissima / Pleuraphis jamesii [7], [9]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Annable, C.R. 1985</li>
+		
+		<li>[2] Keeler-Wolf, T.;Thomas, K. 2000</li>
+		
+		<li>[3] Peterson, P.M. 1984a</li>
+		
+		<li>[4] Shiflet, T.N. 1994</li>
+		
+		<li>[5] Spolsky, A.M. 1979</li>
+		
+		<li>[6] Evens, J.M.;Roach-McIntosh, D.;Stout, D. 2012</li>
+		
+		<li>[7] Evens, J.M.;Sikes, K.;Hastings, D.;Ratchford,J.S. 2014</li>
+		
+		<li>[8] Reyes, E.;Evens, J.;Glass, A.;Sikes, K.;Keeler-Wolf., T.;Winitsky, S.;Johnson, D.;Menke, J.;Hepburn, A. 2020a</li>
+		
+		<li>[9] Reyes, E.;Evens, J.;Fulton, J.;Sikes, K.; Johnson, D.;Keeler-Wolf, T.;Vu, S.;LaFever-Jackson, A. 2023 (in progress)</li>
+		
+		<li>Anderson, M.D. 2001c</li>
+		
+		<li>Bates, P.C. 1984</li>
+		
+		<li>Callison, J.;Brotherson, J.D. 1985</li>
+		
+		<li>Callison, J.;Brotherson, J.D.;Bowns, J.E. 1985</li>
+		
+		<li>DeDecker, M. 1984</li>
+		
+		<li>Evens, J.;San, S. 2005</li>
+		
+		<li>Lei, S.A. 2001a</li>
+		
+		<li>Lei, S.A. 2001b</li>
+		
+		<li>Lei, S.A.;Walker, L.R. 1994</li>
+		
+		<li>Lei, S.A.;Walker, L.R. 1995</li>
+		
+		<li>MacMahon, J.A. 1988</li>
+		
+		<li>Martin, R.E. 1994</li>
+		
+		<li>Menke, J.;Reyes, E.;Hepburn, A.;Johnson, D.;Reyes, J. 2013</li>
+		
+		<li>Mozingo, H.N. 1987</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Black, H.;Bleich, V.C.;Mincks, J.W. 1980</li>
+		
+		<li>Peterson, P.M. 1984b</li>
+		
+		<li>Sampson, A.W.;Jespersen, B.S. 1963</li>
+		
+		<li>Thomas, K.;Franklin, J.;Keeler-Wolf, T.;Stine, P. 2004</li>
+		
+		<li>Thorne, R.F. 1982</li>
+		
+		<li>Turner, R.M. 1982b</li>
+		
+		<li>Vasek, F.C.;Barbour, M.G. 1977</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program);AIS, 2013</li>
+		
+		<li>Webb, R.H.;Steiger, J.W.;Tuner, R.M. 1987</li>
+		
+		<li>West, N.E. 1983a</li>
+		
+		<li>West, N.E. 1983b</li>
+		
+		<li>West, N.E. 1988</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/178/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

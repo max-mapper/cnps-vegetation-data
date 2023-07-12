@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Carex barbarae</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Carex</i> <i>barbarae</i></span> Herbaceous Alliance <br/>
+        <span class="subtitle">White-root beds</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Herb
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-900 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S2?
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G2?
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA, OR (TJM2)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2009/09/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/herb/carex-barbarae_oldriversacramentodelta_06-05_01.jpg', '/static/images/photos/herb/carex-barbarae_oldriversacramentodelta_06-05_02.jpg', '/static/images/photos/herb/carex-barbarae_oldriversacramentodelta_06-05_03.jpg', '/static/images/photos/herb/carex-barbarae_oldriversacramentodelta_06-05_04.jpg', '/static/images/photos/herb/carex-barbarae_sacriverwoodsonbrdgsra_2006.jpg', '/static/images/photos/herb/carex-barbarae_marin020_chinacampsp_06-18.jpg', '/static/images/photos/herb/carex-barbarae_marin057_ggnra_07-18.jpg', '/static/images/photos/herb/carex-barbarae_pescadero-beach_05-2009.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Carex</i> <i>barbarae</i> is dominant or co-dominant in the herbaceous layer with <i>Asclepias</i> <i>fascicularis</i>, <i>Carex</i> <i>praegracilis</i>, <i>Eleocharis</i> spp., <i>Epilobium</i> <i>ciliatum</i>, <i>Euthamia</i> <i>occidentalis</i>, <i>Juncus</i> spp., <i>Perideridia</i> <i>kelloggii</i>, <i>Senecio</i> <i>minimus</i>, <i>Solidago</i> spp. and <i>Urtica</i> <i>dioica</i>. Emergent trees and shrubs may be present at low cover, including trees <i>Fraxinus</i> <i>latifolia</i>, <i>Platanus</i> <i>racemosa</i>, <i>Quercus</i> <i>agrifolia</i> or <i>Quercus</i> <i>lobata</i> and shrubs:<i>Cephalanthus</i> <i>occidentalis</i> and <i>Rubus</i> spp. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Herbs < 1 m; cover is intermittent to continuous. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Carex barbarae</i> > 50% relative cover in the herbaceous layer (Evens and Kentner 2006, Hickson and Keeler-Wolf 2007, Klein et al. 2007, Buck-Diaz et al. 2021).</li>
+		
+		<li><i>Carex barbarae</i> > 50% relative cover in seasonally or intermittently saturated wetlands (Buck-Diaz et al. 2021).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Stream beds, river terraces, levees. Soils are silts to sands and are seasonally or intermittently saturated. The USACE Wetland Inventory (2018 national list) recognizes <i>Carex barbarae</i> as FAC. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Wet grasses and forbs
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Great Valley valley oak riparian forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Freshwater marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Wet meadow
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>45.142.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate and Boreal Shrubland and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate and Boreal Freshwater Marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North American Freshwater Marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Western North America Wet Meadow and Low Shrub Carr
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Californian warm temperate marsh/seep
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Carex barbarae </i>grows in cismontane California and southern Oregon in seasonally wet riparian sites. Its leathery leaves are not usually tufted, and they have shredding leaf sheath fronts. Its inflorescences are large and pendent (often 3-8 cm long) with well-developed pistillate spikelets and usually staminate tips. <br/>
+<br/>
+<i>Carex barbarae </i>is tolerant of shade and occurs in winter-deciduous gallery woodlands (Holland 1986). In the Central Valley and central Coast Ranges, it occurs regularly as an understory in <i>Quercus lobata </i>stands but does form stands without tree canopies. In some areas, it may be replaced by aggressive non-native woody species, such as <i>Rubus armeniacus</i> though in other areas native species such as <i>R. ursinus </i> may be present. In similar soil-moisture settings, it can occur away from trees, where perhaps they have been cleared or where more frequently flooding occurs, fostering patches of this alliance. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Carex barbarae</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Polycarpic perennial; herb; rhizomatous</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Long</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; gravity; water/hydrological</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Inundation; stratification—winter </td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Buds on large branches or trunks (culms, tillers)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>Life of plant</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>High</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Fluvial processes and mechanical clearing rather than fire primarily disturb stands. However, stands may be fostered by frequent surface fires.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Short to medium
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Early fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Up to stand size
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Low
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Surface fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Great Valley
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+            <p>The range of <i>Carex barbarae</i> includes low elevations of the Klamath Mountains (M261A), Northern California Coast Ranges (M261B), Northern California Interior Coast Ranges (M261C), Southern California Coast (261B), and Southern California Mountains and Valleys (M261B).</p>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast Ranges</b> (M262Ac, Af). Patches associated with <i>Quercus lobata</i> woodlands are scattered in the section.</li>
+        
+            <li><b>Great Valley</b> (262Ac, Af, Ai, Al-m, Aq-r). Hickson and Keeler-Wolf (2007) sampled a stand in the Sacramento-San Joaquin River delta in San Joaquin Co. Large colonies of <i>C. barbarae</i> occur occasionally in association with riparian forests of the Kaweah River in Tulare Co. (Urtecho et al. 2002).</li>
+        
+            <li><b>Northern California Coast</b> (263Aj, Al). Stands at Mount Tamalpais (Evens and Kentner 2006) and elsewhere in Marin Co. exist in active creek channels. In Sonoma Co., the alliance has been documented at Laguna de Santa Rosa (Klein et al. 2015).</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fa-b). Klein et al. (2007) sampled stands in the northern subsections in El Dorado and Placer Cos. Small stands are also associated with riparian woodlands along Big Chico Creek. Stands appear to occur at least as far south as the Kings River.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> <i>Carex barbarae, </i>commonly called white-root, has white, long, fibrous rhizomes used in basketry. It has cultural significance for Native Americans of the Central Valley and the Coast Ranges with recorded historic use by 22 tribes (Stevens 2004). These tribes maintained large beds of <i>C. barbarae </i>(Stevens 1999, 2003). <i>C. barbarae </i>is difficult for basket weavers to obtain currently because of the elimination of traditional gathering sites, especially with the destruction of most valley oak woodlands and the difficulty of access to existing stands (Stevens 2000c). 
+
+<i>Carex barbarae </i>is useful in riparian restoration, stream bank stabilization, and erosion control. Plants readily establish under a wide variety of environmental conditions, and mature plants have well-developed, deep root systems that are resilient to low-intensity fire (Stevens 2000c). However, stands have been impacted by agricultural and urban expansion, hydrologic modification, and cessation of traditional management practices. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Carex barbarae [1], [2], [3], [4], [5]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Evens, J.M.;Kentner, E. 2006</li>
+		
+		<li>[2] Klein, A.;Crawford, J.;Evens, J.;Keeler-Wolf, T.;Hickson, D. 2007</li>
+		
+		<li>[3] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>[4] Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>[5] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>Hickson, D.;Keeler-Wolf, T. 2007</li>
+		
+		<li>Holland, R.F. 1986</li>
+		
+		<li>Stevens, M. 2000c</li>
+		
+		<li>Stevens, M.L. 1999</li>
+		
+		<li>Stevens, M.L. 2003</li>
+		
+		<li>Stevens, M.L. 2004</li>
+		
+		<li>Urtecho, R.;Bravin, R.;Anaya, M.;Benoy, C. 2002</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/341/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

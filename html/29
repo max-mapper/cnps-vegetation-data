@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Chamaecyparis lawsoniana</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Chamaecyparis</i> <i>lawsoniana</i></span> Forest &amp; Woodland Alliance <br/>
+        <span class="subtitle">Port Orford cedar forest and woodland</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Tree
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>800-1400 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3.1
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G3
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA, OR (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>Yes
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/tree/chamaecyparis-lawsoniana_cedarbasin.jpg', '/static/images/photos/tree/chamaecyparis-lawsoniana_eforktrinityriver_1964.jpg', '/static/images/photos/tree/chamaecyparis-lawsoniana_rattlesnakemeadow.jpg', '/static/images/photos/tree/chamaecyparis-lawsoniana_siskiyouwilderness.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Chamaecyparis</i> <i>lawsoniana</i> is dominant or co-dominant in the tree canopy with <i>Abies</i> <i>concolor</i>, <i>Abies</i> <i>procera</i>, <i>Abies</i> ×<i>shastensis</i>, <i>Alnus</i> <i>rhombifolia</i>, <i>Calocedrus</i> <i>decurrens</i>, <i>Pinus</i> <i>jeffreyi</i>, <i>Pinus</i> <i>lambertiana</i>, <i>Pinus</i> <i>monticola</i> and <i>Pseudotsuga</i> <i>menziesii</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text"> Trees < 60 m; canopy is open to continuous. Shrub layer is sparse to continuous. Herbaceous layer is sparse or grassy. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Chamaecyparis lawsoniana</i> > 50% relative cover in tree canopy (Jimerson et al. 1995).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Low-gradient depositions along rivers, concave slopes, raised stream benches, and terraces with perched water tables. Soils are typically a mixture of alluvial or colluvial material, including serpentine substrates. The USFWS Wetland Inventory (1996 national list) recognizes <i>Chamaecyparis lawsoniana</i> as a FACU plant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Port Orford cedar series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Chamaecyparis lawsoniana forest alliance, Chamaecyparis lawsoniana temporarily flooded forest alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Port Orford-cedar
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Port Orford cedar forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>North Coast coniferous forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Douglas fir
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>81.100.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Tree Vegetation (Forest and Woodland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Cool Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North America Cool Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Vancouverian  Rainforest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Vancouverian hypermaritime lowland rainforest
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Chamaecyparis lawsoniana </i>is a conifer that attains a height of 60 m and an age of > 600 years. Trees begin producing seed between 5 and 20 years. Mature trees mast at about 4-5 year intervals. Wind and water dis-perse the winged seeds. Most germination is best on mineral soil in the following spring, when seedlings vigorously colonize recently disturbed sites. Established seedlings are moderately tolerant of shade. Vegetative regeneration is limited to layering of buried or toppled trees. <i>C. lawsoniana </i>is a shade-tolerant tree, and all ages are extremely susceptible to a fatal root rot caused by <i>Phytophthora lateralis </i>(Uchytil 1990d, Zobel 1990). <br/>
+<br/>
+Most stands of <i>C. lawsoniana </i>are associated with wet meadow, fen, or riparian sites on ultramafic sub-strates, including gabbro, peridotite, and serpentine. Stands span a wide elevation range and may be associated with low-elevation stands of the <i>Pseudotsuga menziesii </i>alliance up to those of <i>Abies </i>x <i>shastensis </i>or even <i>Tsuga mertensiana </i>at highest elevation, inland occurrences. Only in the westernmost stands at low elevations does <i>C. lawsoniana </i>occupy nonserpentine sedimentary substrates (Alexander et al. 2007, Sawyer 2007). <br/>
+<br/>
+Bingham (1999) developed a region-wide alliance-level classification for late-seral-stage forests based on relationships between species composition and major environmental gradients. Stands dominated by <i>C. lawsoniana </i>segregated signif icantly from the other alliances. This alliance is mainly at middle to high elevations. Stands with <i>Notholithocarpus densiflorus </i>in the tree canopy are included in the <i>Pseudotsuga menziesii- Notholithocarpus densiflorus </i>alliance at lower elevations (Sawyer 2006, 2007). </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Chamaecyparis lawsoniana</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Tree; evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Transient</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Water/hydrological; wind</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Stratification—winter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; thick epidermis; low flammability</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>5-600+ years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Medium to high</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Mature <i>Chamaecyparis lawsoniana </i>individuals have thick, fire-resistant bark that allows trees to persist through repeated fires (Uchytil 1990d). Stands appear to withstand low- to high-intensity fires, which mainly depend on the understory components and adjacent stand components, at a moderate fire return interval (Skinner et al. 2006).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Medium (25-80 years)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Summer-early fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Medium to large
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>High
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Low to moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Low to moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Surface to passive crown
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Klamath Mountains
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Klamath Mountains</b> (M261Aa-d, Aj-k, An). <i>Chamaecyparis lawsoniana</i> grows in two isolated parts of the section. A western population encompasses the Smith, nearby Klamath, and lower Trinity river watersheds centering on the Siskiyou Mountains. The eastern population centers on the headwaters of the Sacramento and Trinity rivers in the Trinity Mountains (Griffin and Critchfield 1972). Stands at Adorni, L. E. Horton, Cedar Basin, and Upper Goose Creek rRNAs (Cheng 2004), in the Siskiyou Mountains (Sawyer and Thornburgh 1969, Simpson 1980), and generally in the Six Rivers National Forest (Jimerson 1994, Jimerson et al. 1995, Sawyer 2007) offer descriptions of the alliance.</li>
+        
+            <li><b>Northern California Coast</b> (263Ab). Individuals of <i>C. lawsoniana</i> exist in Del Norte and Humboldt Cos. These are categorized mostly as components of <i>Sequoia sempervirens</i> stands, as at Yurok RNA (Taylor 1982, see Cheng 2004).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> The water-borne root rot <i>Phytophthora lateralis </i>has severely affected stands in the Smith River drainage (Zobel 1990) and in the northern parts of its range in southwestern Oregon. Recent infections exist in the Klamath River drainage at Fish Lake and at high elevations in the Sacramento River drainage. A substantial decline in population size is conceivable for this endemic tree because mud on vehicle tires is the main method of dispersal (Jules et al. 2002). A different RNA (Scott Camp Creek) in the upper Sacramento River drainage was recommended recently because this location is expected to be a more protected site from root rot infection than the previously nominated Cedar Basin RNA (H. Safford and J. Nelson pers. comm. 2006). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+                <p>Mixed Stands</p>
+            
+            <ul class="text">
+                
+                    <li>Chamaecyparis lawsoniana - Abies concolor / Acer circinatum [3]</li>
+                
+                    <li>Chamaecyparis lawsoniana - Abies concolor / Alnus viridis [3]</li>
+                
+                    <li>Chamaecyparis lawsoniana - Abies concolor / Chrysolepis sempervirens - (Rhododendron occidentale - Leucothoe davisiae) [3]</li>
+                
+                    <li>Chamaecyparis lawsoniana - Abies concolor / herb [2]</li>
+                
+                    <li>Chamaecyparis lawsoniana - Abies concolor / Quercus sadleriana [2]</li>
+                
+                    <li>Chamaecyparis lawsoniana - Abies concolor / Quercus vacciniifolia [2]</li>
+                
+                    <li>Chamaecyparis lawsoniana - Abies concolor / Rhododendron occidentale [2]</li>
+                
+                    <li>Chamaecyparis lawsoniana - Abies procera / Quercus sadleriana - Vaccinium membranaceum [3]</li>
+                
+                    <li>Chamaecyparis lawsoniana - Abies ×shastensis / Alnus viridis / Darlingtonia californica [3]</li>
+                
+                    <li>Chamaecyparis lawsoniana - Abies ×shastensis / Alnus viridis - Quercus sadleriana [3]</li>
+                
+                    <li>Chamaecyparis lawsoniana - Abies ×shastensis - Picea breweriana / Quercus sadleriana - Quercus vacciniifolia [3]</li>
+                
+                    <li>Chamaecyparis lawsoniana - Calocedrus decurrens - Alnus rhombifolia [2]</li>
+                
+                    <li>Chamaecyparis lawsoniana - Calocedrus decurrens / Quercus vacciniifolia [2]</li>
+                
+                    <li>Chamaecyparis lawsoniana - Pinus monticola / Alnus viridis [3]</li>
+                
+                    <li>Chamaecyparis lawsoniana - Pinus monticola / dry herb complex [3]</li>
+                
+                    <li>Chamaecyparis lawsoniana - Pinus monticola / Quercus vacciniifolia [2]</li>
+                
+                    <li>Chamaecyparis lawsoniana - Pinus monticola / Rhododendron columbianum / Darlingtonia californica [3]</li>
+                
+                    <li>Chamaecyparis lawsoniana - Pinus monticola / Rhododendron occidentale - Notholithocarpus densiflorus var. echinoides - Rhododendron columbianum [3]</li>
+                
+                    <li>Chamaecyparis lawsoniana - Pinus monticola / Vaccinium membranaceum [3]</li>
+                
+                    <li>Chamaecyparis lawsoniana - Pinus monticola / wet herb complex [3]</li>
+                
+                    <li>Chamaecyparis lawsoniana - Pseudotsuga menziesii - Alnus rubra / Acer circinatum - Mahonia nervosa [3]</li>
+                
+                    <li>Chamaecyparis lawsoniana - Pseudotsuga menziesii / Calycanthus occidentalis [3]</li>
+                
+                    <li>Chamaecyparis lawsoniana - Pseudotsuga menziesii / Corylus cornuta var. californica [3]</li>
+                
+                    <li>Chamaecyparis lawsoniana - Pseudotsuga menziesii - Notholithocarpus densiflorus / Quercus vacciniifolia [3]</li>
+                
+                    <li>Chamaecyparis lawsoniana - Pseudotsuga menziesii - Notholithocarpus densiflorus / Rhododendron macrophyllum [3]</li>
+                
+                    <li>Chamaecyparis lawsoniana - Pseudotsuga menziesii / Quercus vacciniifolia [2]</li>
+                
+                    <li>Chamaecyparis lawsoniana - Tsuga heterophylla / Chrysolepis sempervirens [3]</li>
+                
+                    <li>Chamaecyparis lawsoniana - Tsuga heterophylla / Leucothoe davisiae [3]</li>
+                
+                    <li>Chamaecyparis lawsoniana - Tsuga heterophylla / Rhododendron columbianum [3]</li>
+                
+            </ul>
+        
+            
+                <p>Pure Stands</p>
+            
+            <ul class="text">
+                
+                    <li>Chamaecyparis lawsoniana / Gaultheria shallon [2]</li>
+                
+                    <li>Chamaecyparis lawsoniana / Quercus vacciniifolia - Rhododendron occidentale [3]</li>
+                
+                    <li>Chamaecyparis lawsoniana / Rhododendron macrophyllum - Gaultheria shallon [2]</li>
+                
+                    <li>Chamaecyparis lawsoniana / Rhododendron occidentale [2], [4]</li>
+                
+                    <li>Chamaecyparis lawsoniana / Rhododendron occidentale - Notholithocarpus densiflorus var. echinoides [3]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[2] Jimerson, T.M.;Hoover, L.D.;McGee, E.A.;DeNitto, G.;Creasy, R.M. 1995</li>
+		
+		<li>[3] Jimerson, T.M. 1994, 1999</li>
+		
+		<li>[4] Simpson, L.G. 1980</li>
+		
+		<li>Alexander, E.B.;Coleman, R.G.;Keeler-Wolf, T.;Harrison, S. 2007</li>
+		
+		<li>Franklin, J.F. 1988</li>
+		
+		<li>Jules, E.S.;Kauffman, M.J.;Ritts, W.D.;Carroll, A.L. 2002</li>
+		
+		<li>Kruckeberg, A.R. 1984</li>
+		
+		<li>Sawyer, J.O. 2006</li>
+		
+		<li>Sawyer, J.O. 2007</li>
+		
+		<li>Stein, W.I. 1980a</li>
+		
+		<li>Uchytil, R.J. 1990d</li>
+		
+		<li>Zobel, D.B. 1990</li>
+		
+		<li>Zobel, D.B.;Hawk, G.M. 1980</li>
+		
+		<li>Zobel, D.B.;Roth, L.F.;Hawk, G.M. 1985</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/29/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

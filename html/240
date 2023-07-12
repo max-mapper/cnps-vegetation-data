@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Carnegiea gigantea - Parkinsonia microphylla - Prosopis velutina</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+	<div class="allianceHeader">
+		<span class="scientificName"><i>Carnegiea</i> <i>gigantea</i> - <i>Parkinsonia</i> <i>microphylla</i> - <i>Prosopis</i> <i>velutina</i></span> Provisional Shrubland Alliance <br/>
+		<span class="subtitle">Saguaro - foothill palo verde - velvet mesquite desert scrub</span>
+	</div>
+
+	<div class="mainAllianceInfo">
+
+		<div class="allianceSideInfo">
+			<div class="quickInfoList">
+				<h4>Summary Information</h4>
+				<ul>
+					<li>
+						<span class="category">Primary Life Form</span>Shrub
+					</li>
+					<li>
+						<span class="category">Elevation</span>150-1100 m
+					</li>
+					<li>
+						<span class="category">State Rarity</span>S2.2
+					</li>
+					<li>
+						<span class="category">Global Rarity</span>G4
+					</li>
+					<li>
+						<span class="category">Distribution</span>USA: AZ, CA. Mexico (NatureServe)
+					</li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2009/09/01
+                    </li>
+				</ul>
+			</div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/parkinsonia-microphylla_whipplemtns_03-95.jpg', '/static/images/photos/shrub/parkinsonia-microphylla_whipplemtns_08-95_01.jpg', '/static/images/photos/shrub/parkinsonia-microphylla_whipplemtns_08-95_02.jpg']
+            </script>
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+		</div>
+
+		
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Parkinsonia</i> <i>microphylla</i> is co-dominant in the shrub or small tree canopy with <i>Cylindropuntia</i> <i>bigelovii</i>, <i>Encelia</i> <i>farinosa</i>, <i>Fagonia</i> <i>laevis</i>, <i>Larrea</i> <i>tridentata</i> and <i>Tetracoccus</i> <i>hallii</i>. Emergent trees may be present at low cover, including <i>Carnegiea</i> <i>gigantea</i> or <i>Olneya</i> <i>tesota</i>. </div>
+</div>
+
+		
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs or small trees < 8 m; canopy is open to intermittent. Herbaceous layer is usually sparse, yet may have spectacular annual blooms. </div>
+</div>
+
+		
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Metavolcanic and sedimentary outcrops, mesas, foothill slopes, and washes. Soils are thin, often with a caliche layer.  </div>
+</div>
+
+		
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance, and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Foothill paloverde-saguaro series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Parkinsonia microphylla shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Palo verde
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Arizonan woodland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Creosote bush scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Desert succulent shrub, Desert wash
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>33.150.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+	</div>
+
+
+	<!-- collapsable content below -->
+
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Parkinsonia microphylla </i>is a spiny, phanerophytic shrub or small tree to 8 m in height. Its pinnately compound leaves with minute leaflets are drought deciduous. The bark is thin and photosynthetic. Seeds germinate during a rainy season after a year in the soil. Unpredictable water availability causes low, erratic seedling establishment. Seedlings are highly susceptible to drought during the first 2 to 3 months following germination. Small shrubs, such as <i>Ambrosia dumosa </i>may act as nurse plants in seedling establishment. Plants feebly sprout from the root crown following top-kill (Pavek 1994b). Haston et al. (2005) placed <i>Cercidium microphyllum </i>in the genus <i>Parkinsonia</i>. <br/>
+<br/>
+<i>Parkinsonia microphylla </i>(a CNPS list 4 plant) grows in the Whipple Mountains with <i>Carnegiea gigantea </i>(a rare CNPS list 2 plant), the largest of the columnar cacti in the United States (3 to 16 m).  <i>P. microphylla </i>is important as a nurse plant for the cactus’s seedling establishment. In California, as on other margins of its range, fruit production and recruitment have not kept pace with mortality caused by freezing temperatures and drought. Recruitment appears to occur in pulses correlated with above-normal precipitation (Pavek 1993a). Both plants are common in Arizona, where <i>C. gigantea </i>is highly safeguarded. <br/>
+<br/>
+This alliance usually has a diversity of shrubs and dwarf shrubs, and it typically contains <i>Larrea tridentata </i>as a co-dominant (NatureServe 2007a). It is extensive in the Arizona upland region of the Sonoran Desert (Shreve and Wiggins 1964). In the past, fires were generally infrequent (> 200-year intervals) and of low severity, but the presence of non-native annuals has increased both fire frequency and severity in Arizona. Fire frequencies of less than 30 years eliminate <i>C. gigantea </i>(Pavek 1993a, 1994b). California stands have low fuel loads because of less rainfall and rocky substrates. We know little about the disturbance patterns of this alliance. Plants are top-killed and may sprout weakly from the base after fires. Stands appear to take over 20 years to regain dominance post-fire (Pavek 1994b).<br/>
+<br/>
+This alliance name has been updated from the <i>Parkinsonia microphylla</i> Provisional Shrubland Alliance that appeared in the 2009 book, <i>A Manual of California Vegetation, second edition</i>. </div>
+</div>
+
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Observations</h4>
+	<div class="text"> Stands of <i>Parkinsonia microphylla</i> reach their westernmost limit in the vicinity of the Whipple Mountains in the Parker Dam area (322Am, 322Ba), which is the easternmost part of California. They are scattered on rocky foothill slopes and in small washes (De Groot 2007, Menke et al. 2016). Some of the best-developed stands have emergent <i>Carnegiea gigantea</i>. They are restricted to land surrounding the Metropolitan Water District’s off-stream storage at Copper Basin and Gene Wash reservoirs. Both species grow in other California locations along the Colorado River. Currently, a <i>Parkinsonia microphylla - Larrea tridentata </i>association [1] is recognized. We need to sample all the stands to understand their role in the state’s vegetation. We also need to monitor the Whipple Mountain stands for long-term climatic changes. </div>
+</div>
+
+	
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Menke, J.;Reyes, E.;Hepburn, A.;Johnson, D.;Reyes, J. 2016</li>
+		
+		<li>Brown, D.E. 1994</li>
+		
+		<li>De Groot, S.J. 2007</li>
+		
+		<li>Pavek, D.S. 1993a</li>
+		
+		<li>Pavek, D.S. 1994b</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+	<script src="/static/javascript/alliance_page.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

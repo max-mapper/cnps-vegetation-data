@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Pinus sabiniana</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Pinus</i> <i>sabiniana</i></span> Woodland Alliance <br/>
+        <span class="subtitle">Foothill pine woodland</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Tree
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>300-2100 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S4
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G4
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA (NatureServe) (FEIS)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>Yes
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>Yes
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/tree/pinus-sabiniana_2003.jpg', '/static/images/photos/tree/pinus-sabiniana_frenzelcreekrna.jpg', '/static/images/photos/tree/pinus-sabiniana_napaco_05-02_01.jpg', '/static/images/photos/tree/pinus-sabiniana_napaco_2003_01.jpg', '/static/images/photos/tree/pinus-sabiniana_pinnaclesnm_01-06_01.jpg', '/static/images/photos/tree/pinus-sabiniana_pinnaclesnm_01-06_02.jpg', '/static/images/photos/tree/pinus-sabiniana_trinityalps.jpg', '/static/images/photos/tree/pinus-sabiniana_nearmagalia_jme_04-13_01.jpg', '/static/images/photos/tree/pinus-sabiniana_nearmagalia_jme_04-13_02.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Pinus</i> <i>sabiniana</i> is dominant or co-dominant in the tree canopy with <i>Aesculus</i> <i>californica</i>, <i>Juniperus</i> <i>californica</i>, <i>Juniperus</i> <i>occidentalis</i>, <i>Pinus</i> <i>coulteri</i>, <i>Quercus</i> <i>chrysolepis</i> and <i>Quercus</i> <i>wislizeni</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text"> Trees < 20 m; canopy open to intermittent and one or two tiered. Shrubs are common or infrequent. Herbaceous layer is sparse or grassy. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Pinus sabiniana</i> > 10% absolute cover and dominant in the tree canopy (Klein et al. 2007).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Streamside terraces, valleys, slopes, and ridges. Soils are shallow, often stony, infertile, and moderately to excessively drained.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Foothill pine series, Stands on San Benito Mountain
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Pinus sabiniana woodland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Gray pine
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Serpentine digger pine-chaparral woodland, Non-serpentine digger pine-chaparral woodland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Foothill woodland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Blue oak-foothill pine
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>87.130.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Tree Vegetation (Forest and Woodland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Warm Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Madrean Forest and Woodland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>California Forest and Woodland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Californian evergreen coniferous forest and woodland
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Pinus sabiniana </i>is a drought-tolerant conifer that attains a height of 25 m. Seed dispersal is inconsistent with high seed production every 2-3 years. Cones are among the most massive in the genus. Seed dispersal has been studied by Johnson et al. (2003). Seedlings establish on bare soil with partial shade. Growth rates are among the most rapid of all conifers with young trees partially shade tolerant, and mature trees shade intolerant. Today’s stands on alluvium are rare due to systematic removal of <i>P. sabiniana </i>in the past to increase pastureland (Howard 1992g, Powers 1990). <br/>
+<br/>
+This extensive alliance occupies rough, foothill slopes intermixed with stands of chaparral (Allen-Diaz et al. 2007, Sawyer 2007). The northernmost California stand of this widespread species on serpentine is along the Salmon River in the Klamath Mountains (Griffin and Critchfield 1972); the range of the species extends into southern Oregon. <i>P. sabiniana </i>is also a common and important member of stands of the <i>Quercus douglasii </i>alliance; <i>Q. douglasii </i>may be present only at low cover in stands of this alliance. Mixed stands are placed in the <i>Q. douglasii </i>alliance. Another common place for <i>P. sabiniana </i>is as an emergent over chaparral in many shrubland alliances. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Pinus sabiniana</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Tree; evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Canopy; transient </td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Medium to long</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; gravity; water/hydrological; wind</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Heat; stratification—winter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-sensitive; high flammability; no/low sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>25-200 years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Medium to high</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text"><i>Pinus sabiniana </i>is fire sensitive (Borchert et al. 2002) despite the relative thick bark on mature individuals. <i>P. sabiniana </i>stands develop with long intervals between fires, after a history of relatively low-intensity fire in stands with grassy, open understories, or on rocky sites. Densities of <i>P. sabiniana </i>trees typically increase with longer intervals between fires, as shown with repeat photography (Gruell 2001). However, the survival of some individuals following fire appears to be higher than other pines typical of chaparral or oak woodland interfaces. Compared with <i>P. coulteri, P. sabiniana </i>is more likely to survive crown scorch but is slower to recover. Mature individuals survive bole charring at a higher rate than does <i>P. coulteri</i>. Historically, surface fire was influential in maintaining stands with open canopies (Sugihara et al. 2006).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Medium
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Summer-early fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Medium to large
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low to moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Low to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Moderate to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Surface to passive crown
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Klamath Mountains, Cascades, Sierra Nevada, Central Coast, North Coast
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Aa, Ac, Af-g, Aj-k). Stands occur in the Santa Cruz and Santa Lucia Mountains at higher and less-maritime settings adjacent to several chaparral alliances, and they also occur further north to Alameda and Contra Costa Cos. in hills adjacent to chaparral.</li>
+        
+            <li><b>Central California Coast Ranges</b> (M262Aa-f, Ah). Stands in the San Benito Mountain (Evens et al. 2006) and Coyote Ridge (Evens and San 2004) areas in the Diablo Range are both on and off serpentine substrates, and off serpentine at Pinnacles National Monument (Nature- Serve 2007b). See also Allen-Diaz et al. (2007). In 1830 David Douglas was the first to observe <i>Pinus sabiniana</i> in the Gabilan Range near Mission San Juan Bautista (Peattie 1950).</li>
+        
+            <li><b>Great Valley</b> (262Aa-b, Ag-h, An-o). Individuals and small stands with <i>Quercus douglasii</i> and <i>Q. lobata</i> exist along some intermittent creeks flowing into the Sacramento River.</li>
+        
+            <li><b>Klamath Mountains</b> (M261Ac, Ai, Am, Ar, Au). Stands are common in Hayfork Valley, in the canyons of the Sacramento and Trinity rivers, at Manzanita Creek RNA, and in Whiskeytown National Recreation Area (Cheng 2004, Lee 2004, Sawyer 2006, 2007).</li>
+        
+            <li><b>Modoc Plateau</b> (M261Gj, Gn). Stands occur in the southwesternmost mountainous subsections adjacent to the Pit River drainage (Griffin and Critchfield 1972).</li>
+        
+            <li><b>Northern California Coast</b> (263Am). Stands occur on volcanics E of Calistoga, adjacent to <i>Quercus douglasii</i> stands, and  in vicinity of Sugarloaf Ridge State Park intermixed with <i>Adenostoma fasciculatum</i> and <i>Quercus garryana</i> stands.</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Ba-f). Extensive stands occur in the Eel River watershed inland from the summer fog belt (Sawyer 2006, 2007). A vegetation map of Napa Co. (Thorne et al. 2004) underestimated the extent of the alliance. <i>P. sabiniana</i> is difficult to interpret with the available imagery.</li>
+        
+            <li><b>Northern California Interior Coast Ranges</b> (M261Ca-c). Stands are common in the foothills of the section both on and off serpentine substrates (Allen- Diaz et al. 2007, Sawyer 2006, 2007). The ones in the Frenzel Creek RNA (Keeler-Wolf 1983, see Cheng 2004) are sandstone substrates (Cheng 2004).</li>
+        
+            <li><b>Sierra Nevada</b> (M261Ef-g, Em, Ep, Er-s, Eu). Stands occur on xeric sites at lower elevations on the western side of the range. Stands in the Scodie Mountains contain desert species such as <i>P. monophyll</i> and even <i>Yucca brevifolia.</i></li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fa-e). Stands in Yosemite National Park (Keeler-Wolf et al. 2003b) and generally in the northern subsections (Klein et al. 2007) occur both on and off serpentine over chaparral shrubs or occasionally with grassy understories (Allen-Diaz 2007). Stands are absent from much of the southern foothills. This may have to do with fire history in this area (Schwilk and Keeley 2006).</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Ba-b). The southernmost stands in the Liebre Mountains contain <i>Q. wislizeni</i> and the southernmost populations contain <i>Aesculus californica</i> (Minnich 2007).</li>
+        
+            <li><b>Southern Cascades</b> (M261Dj, Dl). Disjunct stands in the Hat Creek Rim at montane elevations (Griffin 1966) contain <i>Juniperus occidentalis.</i></li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Anderson (2005) discusses the value of <i>Pinus sabiniana </i>to Native American tribes and gives evidence of widespread management through pruning and regular ground fire. Seeds were an important food source for many Indian groups (Kral 1993). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Pinus sabiniana / Adenostoma fasciculatum [6]</li>
+                
+                    <li>Pinus sabiniana / Arctostaphylos viscida [6]</li>
+                
+                    <li>Pinus sabiniana / Artemisia californica - Ceanothus ferrisiae - Heteromeles arbutifolia [3]</li>
+                
+                    <li>Pinus sabiniana / Ceanothus cuneatus / Plantago erecta [1], [6]</li>
+                
+                    <li>Pinus sabiniana / Ceanothus cuneatus - (Rhamnus ilicifolia) [1], [6], [8], [11]</li>
+                
+                    <li>Pinus sabiniana / Cercis occidentalis [9]</li>
+                
+                    <li>Pinus sabiniana / Eriogonum fasciculatum [8]</li>
+                
+                    <li>Pinus sabiniana / Frangula californica ssp. tomentella [6], [11]</li>
+                
+                    <li>Pinus sabiniana / herbaceous [3], [10], [11]</li>
+                
+                    <li>Pinus sabiniana - Juniperus californica / grass [2], [13]</li>
+                
+                    <li>Pinus sabiniana / Quercus durata [12]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Evens, J.M.;San, S.;Taylor, J. 2004</li>
+		
+		<li>[2] Evens, J.M.;Klein, A.;Taylor, J.;Hickson, D.;Keeler-Wolf, T. 2006</li>
+		
+		<li>[3] Evens, J.;San, S. 2004</li>
+		
+		<li>[5] Keeler-Wolf, T.;Schindel, M.;San, S.;Moore, P.;Hickson, D. 2003b</li>
+		
+		<li>[6] Klein, A.;Crawford, J.;Evens, J.;Keeler-Wolf, T.;Hickson, D. 2007</li>
+		
+		<li>[8] Kittel, G.;Reyes, E.;Evens, J.;Buck, J.;Johnson, D. 2012</li>
+		
+		<li>[9] Taylor, D.W.;Teare, K.A. 1979b</li>
+		
+		<li>[10] Roach, D.;Harmon, S.;Evens, J. 2011</li>
+		
+		<li>[11] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>[12] Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>[13] Reyes, E.;Evens, J.;Glass, A.;Sikes, K.;Keeler-Wolf., T.;Winitsky, S.;Johnson, D.;Menke, J.;Hepburn, A. 2020a</li>
+		
+		<li>Anderson, M.K. 2005</li>
+		
+		<li>Barbour, M.G. 1988</li>
+		
+		<li>Barbour, M.G.;Keeler-Wolf, T.;Schoenherr, A.A. 2007a</li>
+		
+		<li>Graves, G.W. 1932</li>
+		
+		<li>Griffin, J.R. 1965</li>
+		
+		<li>Griffin, J.R. 1966</li>
+		
+		<li>Hanes, T.L. 1977</li>
+		
+		<li>Howard, J.L. 1992gg</li>
+		
+		<li>Keeler-Wolf, T .;Schirokauer, D.;Meinke, J.;van derLeeden, P. 2003a</li>
+		
+		<li>Klyver, F.D. 1931</li>
+		
+		<li>Kral, R. 1993</li>
+		
+		<li>Kruckeberg, A.R. 1984</li>
+		
+		<li>Lee, C. 2004</li>
+		
+		<li>Menke, J.;Reyes, E.;Hepburn, A.;Johnson, D.;Reyes, J. 2013</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Black, H.;Bleich, V.C.;Mincks, J.W. 1980</li>
+		
+		<li>Peattie, D.C. 1950</li>
+		
+		<li>Powers, R.F. 1990</li>
+		
+		<li>Sawyer, J.O. 2006</li>
+		
+		<li>Sawyer, J.O. 2007</li>
+		
+		<li>Sugihara, N.G.;van Wagtendonk, J.W.;Shaffer, K.E.;Fites-Kaufman, J.;Thode, A.E. 2006</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program);AIS, 2013</li>
+		
+		<li>Yeaton, R.I.;Yeaton, R.W.;Horenstein, J.E. 1980</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/64/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

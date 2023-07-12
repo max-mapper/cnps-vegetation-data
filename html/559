@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Encelia (actonii, virginensis) - Viguiera reticulata</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Encelia</i> (<i>actonii</i>, <i>virginensis</i><span style="padding-left: .2em">)</span> - <i>Viguiera</i> <i>reticulata</i></span> Shrubland Alliance <br/>
+        <span class="subtitle">Acton&#39;s and Virgin River brittle brush - net-veined goldeneye scrub</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>300-1900 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G3
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA, NV
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2017/02/27
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/encelia-virginensis-actoni_lastchancerng_05-10_03.jpg', '/static/images/photos/shrub/encelia-virginensis-actoni_lastchancerng_05-10_02.jpg', '/static/images/photos/shrub/encelia-virginensis-actoni_lastchancerng_05-10_01.jpg', '/static/images/photos/shrub/encelia-virginensis_lastchancerange_05-00_03.jpg', '/static/images/photos/shrub/encelia-virginensis_lastchancerange_05-00_02.jpg', '/static/images/photos/shrub/encelia-virginensis_lastchancerange_05-00_01.jpg', '/static/images/photos/shrub/encelia-virginensis_clarkmtns_03.jpg', '/static/images/photos/shrub/encelia-virginensis_clarkmtns_02.jpg', '/static/images/photos/shrub/encelia-virginensis_clarkmtns_01.jpg', '/static/images/photos/shrub/viguiera-reticulata_marblebath_05-00_01.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Encelia</i> <i>actonii</i>, <i>Encelia</i> <i>virginensis</i> or <i>Viguiera</i> <i>reticulata</i> is dominant or co-dominant in the shrub canopy with <i>Ambrosia</i> <i>dumosa</i>, <i>Ambrosia</i> <i>salsola</i>, <i>Croton</i> <i>californicus</i>, <i>Ephedra</i> <i>nevadensis</i>, <i>Eriogonum</i> <i>fasciculatum</i>, <i>Gutierrezia</i> <i>microcephala</i>, <i>Larrea</i> <i>tridentata</i>, <i>Lepidospartum</i> <i>squamatum</i>, <i>Psorothamnus</i> <i>arborescens</i>, <i>Salazaria</i> <i>mexicana</i>, <i>Salvia</i> <i>dorrii</i> or <i>Stephanomeria</i> <i>pauciflora</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 2 m; canopy is open to intermittent. Herbaceous layer is sparse to intermittent with annuals seasonally present. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Encelia virginensis</i> ≥ 2% absolute cover in the shrub canopy; <i>Salvia dorrii</i> may have equal or greater cover (Evens 2000).</li>
+		
+		<li><i>Encelia virginensis</i> ≥ 2% absolute cover in the shrub canopy; no other species with greater or equal cover (LaDoux et al. 2013, Thomas et al. 2004).</li>
+		
+		<li><i>Viguiera reticulata</i> ≥ 2% absolute cover and other shrubs = or < cover in the shrub canopy (Thomas et al. 2004).</li>
+		
+		<li><i>Encelia actonii, E. virginensis</i>, or <i>Viguiera reticulata</i> > 30% relative cover in the shrub canopy (Evens et al. 2014).</li>
+		
+		<li><i>Encelia actonii</i> > 30% relative cover in the shrub canopy (Buck-Diaz and Evens 2011).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Intermittently flooded arroyos, canyons, alluvial fans, road cuts, and other substrates with recent disturbance. Soils are alluvial with cobble and gravel; found particularly on cobbled calcareous substrates in transmontane settings.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Catclaw acacia series, Scalebroom series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Encelia virginensis shrubland alliance, Viguiera reticulata shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Desert mixed wash scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Sonoran creosote bush scrub, Mojave creosote bush scrub, Mojave desert wash scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Creosote bush scrub, Pinyon-juniper woodland, Shadscale scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Desert scrub, Desert wash
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>33.037.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Xeromorphic Scrub and Herb Vegetation (Semi-Desert)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Warm Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Warm Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Sonoran and Chihuahuan Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Madrean Warm Semi-Desert Wash Woodland/Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Mojavean semi-desert wash scrub
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Encelia virginensis</i> and <i>E. actonii</i> are short-lived, drought-deciduous shrubs that grow to 1.5 m tall. Plants reproduce by seeds that are well adapted to wind dispersal. The plants seed in well after wet years, and are early colonizers of sites such as washes, road cuts, recently cleared or burned land, or other disturbances. They depend on off-site seed sources to reestablish after disturbances. Populations increase with disturbance and are replaced in areas lacking recurring disturbance. They are common on rocky uplands and in gravelly or cobbled washes with slow internal drainage or where the water table is near the soil surface. The soils can be encrusted with salt. <i>E. frutescens </i> is closely related and has been considered a variety of <i>E. virginensis </i>(Esser 1993a). Also, <i>E. virginensis </i>ssp. <i>actoni </i>has been used in older botanical manuals for <i> E. actonii</i>.<br/>
+<br/>
+<i>Viguiera reticulata </i>is a perennial suffrutescent shrub, usually with several stems from the base. The leaves are net-veined and significantly larger than the related <i>V. parishii</i>. Its life history is not well-known, though it likely does not live for long periods and appears to respond favorably to disturbance. It seeds well after wet years and occupies recently disturbed ground such as in washes or road cuts. Recent taxonomic literature considers this taxon a synonym of <i>Bahiopsis reticulata </i>(UCB 2017).<br/>
+<br/>
+This alliance is locally common in washes where irregular flooding occurs, particularly on cobbled calcareous substrates. Stands typically occur in medium-gradient, rocky arroyos in the desert mountains of the southeastern portions of state. <i>Encelia virginensis </i> and <i>E. actonii</i> commonly occur as associates on uplands in several alliances at middle and upper elevations in California’s hot deserts. Stands are usually on small terraces within or adjacent to the most active parts of washes, especially on calcareous substrates (though not exclusively to them). Stands in the late spring and summer have spectacular shows of their full golden flowers, lining the washes as they radiate from the mountain ranges. <i>Viguiera reticulata </i> stands are typically small (under 0.5 ha) and appear restricted to calcareous substrates (dolomite, limestone, and marble) where irregular flooding occurs, including on small wash terraces. <br/>
+<br/>
+This alliance was previously two separate alliances in the 2009 version of this manual that have been combined because of overlapping environmental and floristic characteristics (Evens et al. 2014, NatureServe 2016). </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Encelia actonii</th>
+			
+		
+			
+			<th>Encelia virginensis</th>
+			
+		
+			
+			<th>Viguiera reticulata</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Shrub; drought deciduous</td>
+			
+		
+			
+			<td>Shrub; drought deciduous</td>
+			
+		
+			
+			<td>Shrub</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Transient</td>
+			
+		
+			
+			<td>Transient</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+			
+			<td>Short</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Wind; hydrological</td>
+			
+		
+			
+			<td>Wind</td>
+			
+		
+			
+			<td>Animal; wind</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Buds on large branches or trunks (stem; weak)</td>
+			
+		
+			
+			<td>Buds on large branches or trunks (stem; weak)</td>
+			
+		
+			
+			<td>Underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-sensitive</td>
+			
+		
+			
+			<td>Fire-sensitive</td>
+			
+		
+			
+			<td>Fire-sensitive; no/low sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>3-30 years</td>
+			
+		
+			
+			<td>3-30 years</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>High</td>
+			
+		
+			
+			<td>High</td>
+			
+		
+			
+			<td>Episodic; high?</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Fluvial processes rather than fire primarily disturb this alliance. Most stands are open and rocky; however, fire could affect them in years in which introduced or native annuals form dense cover and sufficient flashy fuels. <i>Encelia virginensis </i> and <i>Viguiera reticulata </i>may sprout after fire or other disturbances.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Long
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Summer-early fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Small to medium
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>High
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>High to very high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Passive-active crown fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Low
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Colorado Desert</b> (322Cb). Small seral stands occur in this section in Anza-Borrego Desert State Park.</li>
+        
+            <li><b>Great Valley</b> (262Ag). The alliance has been documented in the Great Valley at Sand Ridge Preserve with <i>Encelia actonii </i>(CNPS unpublished survey data).</li>
+        
+            <li><b>Mojave Desert</b> (322Ab, Ad, Af, Ah, Aj, Al, An-o). Stands are common in the northeastern subsections, including those on rocky calcareous alluvium. Stands occur in the Clark Mountains (Evens 2000) and generally in the central and eastern subsections (Thomas et al. 2004), in Death Valley National Park, Mojave Desert National Preserve (Evens et al. 2014), and Joshua Tree National Park (LaDoux et al. 2013).</li>
+        
+            <li><b>Mono</b> (341Dj). Stands occur in washes in the lower portions of the White Mountains.</li>
+        
+            <li><b>Sierra Nevada</b> (M261Er). The alliance has been observed on the eastern slopes of the Sierra Nevada near Tehachapi Pass (VegCAMP 2015a).</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fd). Stands have been surveyed near Lake Isabella with <i>Encelia actonii </i>(CNPS unpublished survey data).</li>
+        
+            <li><b>Southeastern Great Basin</b> (341Fb-f). Stands are well developed on the the east side of the Last Chance Range and in the Cottonwood, Funeral, and Panamint mountains, which drain into Death Valley (Thomas et al. 2004, Evens et al. 2014). Wash communities in the Cottonwood Mountains have relatively high cover and density of <i>E. virginensis </i>(Peterson 1984a, 1984b).</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Bi, Bl, Bp). Stands occur along washes and on well-drained soils that have been disturbed recently (e.g., along cleared or burned areas including road cuts) in San Jacinto River drainage near Hemet (Buck-Diaz and Evens 2011) and in the western portions of Anza-Borrego Desert State Park (CNPS unpublished survey data).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> <i>Encelia virginensis </i>is important forage for desert tortoise and provides a nectar source for native bees and butterflies. It has been used in revegetation projects in disturbed areas (Esser 1993a). OHV activity occurs in some washes where this alliance grows. However, many of the stands in the eastern portion of its range are in remote canyons that receive little recreational activity. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Encelia actonii [2], [3], [4], [5], [6], [7]</li>
+                
+                    <li>Encelia virginensis [1], [5], [7]</li>
+                
+                    <li>Viguiera reticulata [1], [5], [7]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Keeler-Wolf, T.;Thomas, K. 2000</li>
+		
+		<li>[2] Buck-Diaz, J.;Evens, J. 2011a</li>
+		
+		<li>[3] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>[4] Evens, J.M.;Roach-McIntosh, D.;Stout, D. 2012</li>
+		
+		<li>[5] Evens, J.M.;Sikes, K.;Hastings, D.;Ratchford,J.S. 2014</li>
+		
+		<li>[6] Reyes, E.;Evens, J.;Glass, A.;Sikes, K.;Keeler-Wolf., T.;Winitsky, S.;Johnson, D.;Menke, J.;Hepburn, A. 2020a</li>
+		
+		<li>[7] Reyes, E.;Evens, J.;Fulton, J.;Sikes, K.; Johnson, D.;Keeler-Wolf, T.;Vu, S.;LaFever-Jackson, A. 2023 (in progress)</li>
+		
+		<li>Esser, L.L. 1993a</li>
+		
+		<li>Evens, J.M. 2000</li>
+		
+		<li>Menke, J.;Reyes, E.;Hepburn, A.;Johnson, D.;Reyes, J. 2013</li>
+		
+		<li>Peterson, P.M. 1984a</li>
+		
+		<li>Peterson, P.M. 1984b</li>
+		
+		<li>Reid, M.S.;Schulz, K.A.;Cormer, P.J.;Schindel, M.H.;Culver, D.R.;Sarr, D.A.;Damm, M.C. 1999</li>
+		
+		<li>Thomas, K.;Franklin, J.;Keeler-Wolf, T.;Stine, P. 2004</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program), 2014a</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program), 2015a</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program);AIS, 2013</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/559/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

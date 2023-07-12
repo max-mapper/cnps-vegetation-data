@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Lycium californicum</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Lycium</i> <i>californicum</i></span> Shrubland Alliance <br/>
+        <span class="subtitle">California desert-thorn scrub</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>5-150 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G4
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA. Mexico (TJM2)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2009/09/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/lycium-californicum_torreypinessp_07-09_01.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Lycium</i> <i>californicum</i> is dominant or co-dominant in the shrub canopy with <i>Artemisia</i> <i>californica</i>, <i>Artemisia</i> <i>nesiotica</i>, <i>Arthrocnemum</i> <i>subterminale</i>, <i>Bergerocactus</i> <i>emoryi</i>, <i>Coreopsis</i> <i>gigantea</i>, <i>Cylindropuntia</i> <i>prolifera</i>, <i>Encelia</i> <i>californica</i>, <i>Eriogonum</i> <i>fasciculatum</i>, <i>Eriogonum</i> <i>giganteum</i>, <i>Eriogonum</i> <i>grande</i> var. <i>timorum</i>, <i>Isocoma</i> <i>menziesii</i>, <i>Opuntia</i> <i>oricola</i> and <i>Rhus</i> <i>integrifolia</i>. Herbs occur at varying cover including <i>Amblyopappus</i> <i>pusillus</i>, <i>Amsinckia</i> <i>menziesii</i> var. <i>intermedia</i>, <i>Bromus</i> <i>diandrus</i>, <i>Dichelostemma</i> <i>capitatum</i>, <i>Distichlis</i> <i>spicata</i>, <i>Erodium</i> spp., <i>Frankenia</i> <i>salina</i> or <i>Mesembryanthemum</i> <i>crystallinum</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 4 m; canopy is open to intermittent. Herbaceous layer is open to continuous. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Lycium californicum</i> > 30% relative cover or characteristically present in the shrub canopy with a mixture of other shrubs including <i>Rhus integrifolia, Encelia californica, Cylindropuntia prolifera,</i> and <i>Suaeda taxifolia </i>(Buck-Diaz and Evens 2015, Sproul et al. 2011, Verdone and Evens 2010).</li>
+		
+		<li><i>Lycium californicum </i>> 50% relative cover in the shrub canopy (Rodriguez et al. 2017).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Coastal bluffs and terraces. Soils are sandy or gravelly.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Coastal bluff scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Southern coastal bluff scrub, Maritime succulent scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Coastal sage scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Coastal scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>33.365.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Xeromorphic Scrub and Herb Vegetation (Semi-Desert)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Warm Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Warm Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Sonoran and Chihuahuan Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Viscaino-Baja California Desert Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Coastal Baja California Norte maritime succulent scrub
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Lycium californicum </i>is a spreading, deciduous shrub to 4 m. The clustered, fleshy leaves are glabrous. The flower tube is the length of the calyx. The fruits are red and fleshy, and seed longevity is short (Barton et al. 2016). Plants grow in southern California, including the Channel Islands, coastal San Diego and Los Angeles counties, Arizona, and in Mexico. <i>L. californicum </i>is a CNPS list 4.2 plant.<br/>
+<br/>
+A mix of coastal shrubs and succulents occur in the stands of this maritime, succulent scrub alliance. Stands are rare on the northern Channel Islands (isolated patches on Santa Rosa Island), and they are relatively more common on the southern Channel Islands. Stands are also scattered on the mainland from Los Angeles County south to Baja California and its islands, as well as Mexico's north and central Gulf Coast. On the islands, a number of rare, threatened or endangered species also occur in this scrub alliance. <br/>
+<br/>
+This alliance was cited as <i>Lycium californicum</i> Provisional Shrubland Alliance in the 2009 book, <i>A Manual of California Vegetation, second edition</i>. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Lycium californicum</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Shrub; drought deciduous</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>Unknown</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">While <i>Lycium californicum </i> is able to tolerate fire by resprouting, fire is likely infrequent in stands of this maritime succulent alliance. A study on San Clemente Island used prescribed burning to evaluate fire effects in this alliance, yet was limited to degraded stands, with the following results: <i>Lycium californicum</i> cover markedly decreased after fire but exhibited resprouting, <i>Lycium</i> did not show postfire seedling recruitment, no obviously fire-dependent species occurred in this community, and fire favored non-native species at the expense of native species, although the effect was not substantial (Keeley and Brennan 2015).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Unknown
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Late summer-early fall (except during anomalous drought years)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Unknown
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Unknown
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Unknown
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Unknown
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Unknown
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Southern California Coast</b> (261Bc, Bg-h, Bj). Dunkle (1950) mapped stands on the eastern and western terraces and along sea cliffs of the Channel Islands, and Corry (2006) distinguished between <i>Lycium</i> scrub and <i>Lycium</i>/sea cliff scrub on Santa Barbara Island. Others (Johnson and Rodriguez 2001, HDR 2014b, Junak et al. 2007) described <i>L. californicum</i> stands as maritime succulent scrub on Santa Catalina and San Clemente islands. Stands on the mainland with<i> Euphorbia misera </i>(CNPS list 2.2) and possibly introduced individuals of <i>Agave shawii </i>(CNPS list 2) occupy the coastal bluffs on Point Loma, San Diego Co. Other stands on the mainland include those along the Palos Verdes Peninsula (Verdone and Evens 2010) in Los Angeles Co.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Stands are extremely scattered on the mainland with impacts of development and non-native plants. Stands on the Channel Islands have fluctuated upon European settlement, which brought non-native plants, goats, and rabbits. These animals grazed heavily on native vegetation, restricting shrublands of both <i>Lycium californicum </i>and <i>Coreopsis gigantea </i>to progressively smaller and more isolated patches (Corry 2006). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Lycium californicum [1], [3], [4]</li>
+                
+                    <li>Lycium californicum - Artemisia nesiotica [5], [6]</li>
+                
+                    <li>Lycium californicum - Encelia californica [2]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Sproul, F.;Keeler-Wolf, T.;Gordon-Reedy, P.;Dunn, J.;Klein, A.;Harper, K. 2011</li>
+		
+		<li>[2] Verdone, L.;Evens, J. 2010</li>
+		
+		<li>[3] Rodriguez, D.;Sikes, K.;Keeler-Wolf, T.;Kittel, G.;Curtis, J.;Curley, C.;Evens, J. 2017</li>
+		
+		<li>[4] AECOM, 2013</li>
+		
+		<li>[5] Rodriguez, D. 2015</li>
+		
+		<li>[6] HDR, 2014a</li>
+		
+		<li>Barton, M.L.;Medel, I.D.;Johnston K.K.;Whitcraft, C.R. 2016</li>
+		
+		<li>Corry, P.M. 2006</li>
+		
+		<li>Dunkle, M.B. 1950</li>
+		
+		<li>HDR, 2014b</li>
+		
+		<li>Johnson, L.;Rodriguez, D. 2001</li>
+		
+		<li>Junak, S.;Knapp, D.A.;Haller, J.R.;Philbrick, R.;Schoenherr, A.;Keeler-Wolf, T. 2007</li>
+		
+		<li>Keeley, J.E.;Brennan, T.J. 2015</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/233/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

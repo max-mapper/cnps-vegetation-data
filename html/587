@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Deschampsia cespitosa - Hordeum brachyantherum - Danthonia californica</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Deschampsia</i> <i>cespitosa</i> - <i>Hordeum</i> <i>brachyantherum</i> - <i>Danthonia</i> <i>californica</i></span> Herbaceous Alliance <br/>
+        <span class="subtitle">Coastal tufted hair grass - Meadow barley - California oatgrass meadow</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Herb
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-1500 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>GNR
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>CAN: BC. USA: CA, OR, WA (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2020/01/31
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/herb/hordeum-brachyantherum_napaco_05-03_01.jpg', '/static/images/photos/herb/hordeum-brachyantherum_napaco_05-03_02.jpg', '/static/images/photos/herb/deschampsia-caespitosa_pore_12-02_01.jpg', '/static/images/photos/herb/deschampsia-caespitosa_pore_12-02_02.jpg', '/static/images/photos/herb/deschampsia-caespitosa_ptlobossp_07-09_01.jpg', '/static/images/photos/herb/deschampsia_cespitosa_sanluisobispoco.jpg', '/static/images/photos/herb/eryngium-armatum_coastal-prairie-s-mateo_2009.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Deschampsia</i> <i>cespitosa</i> or <i>Hordeum</i> <i>brachyantherum</i> is dominant or co-dominant in the herbaceous layer with <i>Achillea</i> <i>millefolium</i>, <i>Agrostis</i> <i>stolonifera</i>, <i>Aira</i> <i>caryophyllea</i>, <i>Anthoxanthum</i> <i>odoratum</i>, <i>Argentina</i> <i>egedii</i>, <i>Carex</i> spp., <i>Cirsium</i> <i>vulgare</i>, <i>Danthonia</i> <i>californica</i>, <i>Deschampsia</i> <i>danthonioides</i>, <i>Distichlis</i> <i>spicata</i>, <i>Eleocharis</i> <i>acicularis</i>, <i>Eleocharis</i> <i>macrostachya</i>, <i>Epilobium</i> <i>ciliatum</i>, <i>Eryngium</i> <i>armatum</i>, <i>Holcus</i> <i>lanatus</i>, <i>Horkelia</i> <i>marinensis</i>, <i>Hypochaeris</i> <i>radicata</i>, <i>Iris</i> <i>douglasiana</i>, <i>Juncus</i> <i>arcticus</i>, <i>Juncus</i> <i>phaeocephalus</i>, <i>Lilaeopsis</i> <i>masonii</i>, <i>Lolium</i> <i>perenne</i>, <i>Lotus</i> spp., <i>Lupinus</i> <i>versicolor</i>, <i>Medicago</i> <i>polymorpha</i>, <i>Plantago</i> <i>lanceolata</i>, <i>Potentilla</i> <i>gracilis</i>, <i>Ranunculus</i> <i>californicus</i>, <i>Ranunculus</i> <i>flammula</i>, <i>Rumex</i> <i>acetosella</i>, <i>Senecio</i> <i>hydrophiloides</i>, <i>Sisyrinchium</i> <i>bellum</i>, <i>Trifolium</i> spp. and <i>Triglochin</i> <i>striata</i>. Emergent shrubs may be present at low cover, including <i>Baccharis</i> <i>pilularis</i>, <i>Rosa</i> <i>nutkana</i>, <i>Rubus</i> spp. and <i>Rubus</i> <i>ursinus</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Herbs < 1 m; cover is continuous. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Deschampsia caespitosa</i> > 50% relative cover in the herbaceous layer; <i>Baccharis pilularis</i> ≤ 20% absolute cover, and no taller than the tallest grasses (Keeler-Wolf et al. 2003a).</li>
+		
+		<li><i>Deschampsia cespitosa, Iris douglasiana,</i> and/or <i>Eryngium armatum </i>has > 30% relative cover with other wet meadow herbs; if <i>Holcus lanatus </i>has highest cover, these native species may have as low as 10% combined cover (Buck-Diaz et al. 2021).</li>
+		
+		<li><i>Hordeum brachyantherum</i> > 30% relative cover in the herbaceous layer (Buck-Diaz et al. 2021, Evens and Kentner 2006).</li>
+		
+		<li><i>Hordeum brachyantherum</i> is characteristically present, usually with other wetland plants that may be at high cover (Klein et al. 2007).</li>
+		
+		<li><i>Deschampsia cespitosa, Danthonia californica, Iris douglasiana</i>, and/or <i>Eryngium armatum</i> > 30% relative cover individually or share > 50% relative cover in the herbaceous layer (Buck-Diaz et al. 2021, Sikes et al. 2021).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Moist to wet meadows on coastal bluffs, coastal terrace prairies, swales, stream terraces, sand dunes, and seasonally flooded areas. Soils are typically derived from alluvium, but can be slightly alkaline to moderately saline. The USFWS Wetland Inventory (2012 national list) recognizes <i>Deschampsia cespitosa</i> and <i>Hordeum brachyantherum</i> as FACW plants. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Tufted hair grass series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Deschampsia caespitosa saturated herbaceous alliance, Deschampsia caespitosa seasonally flooded herbaceous alliance, Deschampsia caespitosa temporarily flooded herbaceous alliance, Deschampsia caespitosa tidal herbaceous alliance, Hordeum brachyantherum temporarily flooded herbaceous alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Wet grasses and forbs
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Coastal terrace prairie, Freshwater seep, Freshwater marsh, Coastal and valley freshwater marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Coastal prairie, Freshwater marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Fresh emergent wetland, Perennial grassland, Wet meadow
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>41.221.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate and Boreal Shrubland and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate and Boreal Freshwater Marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North American Freshwater Marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Western North American Freshwater Marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Vancouverian coastal/tidal marsh and meadow
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Deschampsia cespitosa </i>is a perennial bunchgrass with slender leaves growing to 120 cm in height. In winter, dead leaves protect the immature green leaves. Inflorescences are open panicles having small, awned lemmas. Seed accumulates in the soil as stands age. Light and cold stratification enhance germination. <i>D. cespitosa </i>is an aggressive colonizer on disturbed sites and stands are maintained by disturbance in most environments (Walsh 1995a). Disturbance in California coastal and riparian stands traditionally came from both fire and flooding events. <br/>
+<br/>
+<i>Hordeum brachyantherum </i>is a loosely to densely tufted grass with culms to 1 m tall. The species occurs in temperate Eurasia and North America. It involves two subspecies; the larger is <i>H. brachyantherum </i>ssp. <i>brachyantherum </i>, which is widespread. A less robust subspecies is <i>H. brachyantherum </i> ssp. <i>californicum </i>, which grows below 500 m only in California on and off serpentine (Von Bothmer et al. 2007). We include both forms in this alliance. <br/>
+<br/>
+<i>Deschampsia cespitosa </i>is a complex circumpolar species with three subspecies (ssp. <i>beringensis, </i>ssp. <i>cespitosa, </i>ssp. <i>holciformis</i>) reported from California (Hickman 1993). Together they encompass stands ranging from sea level to alpine elevations. We now consider the treatment of two alliances for <i>D. cespitosa </i>, separating the coastal and lowland stands from those in higher-elevation mountain meadows. Stands along the coast and at lower elevations occur in moist, maritime climates on soils with high moisture-holding capacity or on perched water tables, whereby the associations included in this alliance have a lush growth of <i>Deschampsia cespitosa, Danthonia californica, Hordeum brachyantherum, </i> and other perennial herbs (NatureServe 2020).  <br/>
+<br/>
+Similar to <i>D. cespitosa, H. brachyantherum </i>has a broad temperature tolerance, enabling stands to exist adjacent to a divergent array of wetland alliances. Directly along the coast, associations of this alliance interdigitate on a fine scale with herbaceous stands of the <i>Calamagrostis nutkaensis, Festuca idahoensis - Danthonia californica, Carex obnupta, </i>and <i>Juncus </i>spp. alliances; and woody stands of <i>Baccharis pilularis, Pinus muricata </i>and <i>Pseudotsuga menziesii </i>alliances; and non-native types. Typical associated herbs include <i>Eleocharis macrostachya, Juncus balticus,</i> and <i>J. nevadensis</i>. <br/>
+<br/>
+Stands of <i>Deschampsia cespitosa, Danthonia californica, Hordeum brachyantherum, </i> in montane meadows fall under the <i>Danthonia californica - Deschampsia cespitosa - Camassia quamash </i>Alliance. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Deschampsia cespitosa</th>
+			
+		
+			
+			<th>Hordeum brachyantherum</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Polycarpic perennial; herb</td>
+			
+		
+			
+			<td>Polycarpic perennial; herb</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td>Transient</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Long</td>
+			
+		
+			
+			<td>Short</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Water/hydrological</td>
+			
+		
+			
+			<td>Animal; gravity; wind</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Stratification—winter; none (light) </td>
+			
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Underground structures (root crown)</td>
+			
+		
+			
+			<td>Underground structures; rhizomes </td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy</td>
+			
+		
+			
+			<td>Fire-hardy;  high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>2 to ? years</td>
+			
+		
+			
+			<td>Life of plant</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>High</td>
+			
+		
+			
+			<td>Medium</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Traditionally, as with many other coastal prairie types, Native Americans burned stands to enhance seed and bulb production (Anderson 2005). Plants generally survive fire as the mass of living and dead leaves protect the basal buds. Burned plants sprout from the root crowns. Seedlings establish after fire from soil-stored seed (Walsh 1995a). However, Fluvial processes rather than fire primarily disturb stands.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Short to medium (5 to 100 years)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Late summer-early fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Large
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low to moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Low
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Low to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Surface-crown
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+            <p><i>Deschampsia cespitosa</i> stands that fit under this alliance are found in the Northern California Coast Ranges (M261B) as well as most low elevation sections throughout the state. Stands of <i>Hordeum brachyantherum</i> are found in all sections of the state, except the Colorado Desert (322C), Mojave Desert (322A), and Sonoran Desert (322B), although only the low-land and coastal stands fit this alliance.</p>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Aa, Ac-f, Ah-l). Stands occur along coastal bluffs and terraces as far south as the vicinity of Cambria and the Hearst Ranch (Stromberg et al. 2001). Ford and Hayes (2007) describe moist native perennial grassland and prairies types from San Luis Obispo to Mendocino Cos. with <i>Deschampsia cespitosa, Danthonia californica, H. brachyantherum, Juncus phaeocephalus,</i> and various sedges.</li>
+        
+            <li><b>Central California Coast Ranges</b> (M262Aa). Evens and San (2004) recognized an association of the <i>Cirsium fontinale</i> alliance in which <i>H. brachyantherum</i> was a significant component. The association occurs in serpentine seeps in the Coyote Ridge area of Santa Clara Co.</li>
+        
+            <li><b>Great Valley</b> (262Al). Narrow tidally influenced <i>H. brachyantherum </i>stands occur adjacent to the brackish estuaries of the Sacramento-San Joaquin River delta (Hickson and Keeler-Wolf 2007). These stands exist on peat and usually occur immediately adjacent to water, backed by <i>Schoenoplectus californicus</i> stands.</li>
+        
+            <li><b>Northern California Coast</b> (263Aa-m). Stands exist at Point Reyes National Seashore (Elliott and Wehausen 1974, Heady et al. 1977, Keeler-Wolf et al. 2003a, CNDDB 2003), on dunes (Keeler-Wolf et al. 2003b), and along the uppermost edge of salt marshes at Humboldt Bay National Refuge (Pickart 2006) and around Humboldt Bay north of Eureka. Stands occur in Mendocino Co. at MacKerricher State Park, Navarro Point Preserve, and in Sonoma Co. at Salt Point State Park (CNPS unpublished data 2020). Samples with <i>H. brachyantherum</i> dominance at Point Reyes National Seashore occur in bottomlands adjacent to <i>Carex obnupta</i> and <i>Rubus spectabilis</i> stands (Keeler-Wolf et al. 2003a). Other stands (Evens and Kentner 2006) were on Marin Municipal Watershed lands in Marin Co.</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Bb, Bf). Stands of <i>H. brachyantherum </i>observed in Marin, Napa, and Lake Cos. are associated with wet meadows and serpentine seeps.</li>
+        
+            <li><b>Southern California Coast</b> (261Bc, Bh). Grassland stands on the Channel Islands include stands of <i>H. brachyantherum</i> with abundant non-native <i>Avena</i> and <i>Bromus</i> species present (Junak et al. 2007).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> <i>Deschampsia cespitosa </i>and <i>Hordeum brachyantherum </i>are susceptible to heavy livestock use and overuse through compaction and loss of structure when sites are wet. Some stands have been invaded by non-native grasses such as <i>Aira caryophyllea, Anthoxanthum odoratum, Avena, Bromus, Briza maxima, B. minor, Holcus lanatus, Lolium perenne</i>, and <i>Vulpia bromoides</i>.
+
+However, coastal stands with <i>Deschampsia cespitosa </i>that are not modified by grazing or mechanical disturbance are restricted to the immediate coast. They persist most regularly on steep coastal bluffs or at the edge of estuaries where conditions inhibit the growth of woody species. Grazing and mechanical clearing can mitigate successional shifts of <i>D. cespitosa </i>stands to woody alliances.
+
+Restoration of coastal stands, however, is challenging; the colonizing shrubs reduce herb diversity, and grazing and clearing encourages non-natives. Increased stream downcutting caused by interactions of timber harvest, livestock grazing, road building, and culverts impacts stands both directly and indirectly. With continued disturbance, stands can convert to dry meadows. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Deschampsia cespitosa - Anthoxanthum odoratum [3]</li>
+                
+                    <li>Deschampsia cespitosa - Danthonia californica [1], [5], [14], [16]</li>
+                
+                    <li>Deschampsia cespitosa - Eryngium armatum [1], [14], [15], [16]</li>
+                
+                    <li>Deschampsia (cespitosa, holciformis) [15]</li>
+                
+                    <li>Deschampsia cespitosa - Horkelia marinensis [1], [5]</li>
+                
+                    <li>Deschampsia cespitosa - Iris douglasiana [1]</li>
+                
+                    <li>Deschampsia cespitosa - Lilaeopsis masonii [4], [13]</li>
+                
+                    <li>Deschampsia cespitosa / Rosa nutkana [1], [15]</li>
+                
+                    <li>Hordeum brachyantherum Lowland [1], [7], [10], [11], [12], [13], [14], [16]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>[3] Heady, H.F.;Foin, T.C.;Hektner, M.M.;Taylor, D.W.;Barbour, M.G.;Barry, W.J. 1977</li>
+		
+		<li>[4] Hickson, D.;Keeler-Wolf, T. 2007</li>
+		
+		<li>[5] Keeler-Wolf, T .;Schirokauer, D.;Meinke, J.;van derLeeden, P. 2003a</li>
+		
+		<li>[7] Rodriguez, D.;Sikes, K.;Keeler-Wolf, T.;Kittel, G.;Curtis, J.;Curley, C.;Evens, J. 2017</li>
+		
+		<li>[10] Buck-Diaz, J.;Harbert, B.;Evens, J. 2011</li>
+		
+		<li>[11] Kittel, G.;Reyes, E.;Evens, J.;Buck, J.;Johnson, D. 2012</li>
+		
+		<li>[12] Buck-Diaz, J.;Ratchford, J.;Evens, J. 2013</li>
+		
+		<li>[13] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>[14] Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>[15] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2020</li>
+		
+		<li>[16] Sikes, K.;Buck-Diaz, J.;Evens, J. 2021</li>
+		
+		<li>Evens, J.M.;Kentner, E. 2006</li>
+		
+		<li>Ford, L.;Hayes, G. 2007</li>
+		
+		<li>Hickman, J.C. 1993</li>
+		
+		<li>Walsh, R.A. 1995a</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/587/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

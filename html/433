@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Muhlenbergia rigens</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Muhlenbergia</i> <i>rigens</i></span> Herbaceous Alliance <br/>
+        <span class="subtitle">Deer grass beds</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Herb
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>50-1600 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S2?
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G3
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA (NatureServe), AZ?, NV?, NM?, UT?, TX?. Mexico? (TJM2, BONAP)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2009/09/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/herb/muhlenbergia-rigens_bigchicocr_04-06_01.jpg', '/static/images/photos/herb/muhlenbergia-rigens_indians_04-09.jpg', '/static/images/photos/herb/muhlenbergia-rigens_mccabecyn-pinnaclesnm_01-07_01.jpg', '/static/images/photos/herb/muhlenbergia-rigens_mccabecyn-pinnaclesnm_01-07_02.jpg', '/static/images/photos/herb/muhlenbergia-rigens_theindians_04-09_01.jpg', '/static/images/photos/herb/muhlenbergia-rigens_wagoncaves_04-04_01.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Muhlenbergia</i> <i>rigens</i> is dominant or co-dominant in the herbaceous layer with <i>Aira</i> <i>caryophyllea</i>, <i>Artemisia</i> <i>dracunculus</i>, <i>Bromus</i> <i>diandrus</i>, <i>Bromus</i> <i>hordeaceus</i>, <i>Bromus</i> <i>rubens</i>, <i>Carex</i> spp., <i>Centaurium</i> <i>muehlenbergii</i>, <i>Galium</i> <i>parisiense</i>, <i>Hypericum</i> <i>perforatum</i>, <i>Hypochaeris</i> <i>glabra</i>, <i>Juncus</i> spp., <i>Leymus</i> <i>triticoides</i>, <i>Logfia</i> <i>gallica</i>, <i>Lolium</i> <i>perenne</i>, <i>Lotus</i> <i>purshianus</i>, <i>Petrorhagia</i> <i>dubia</i>, <i>Solidago</i> <i>californica</i>, <i>Trifolium</i> <i>dubium</i> and <i>Trifolium</i> <i>hirtum</i>. Emergent shrubs may be present at low cover, including <i>Eriogonum</i> <i>fasciculatum</i>, <i>Rubus</i> <i>armeniacus</i>, <i>Senecio</i> <i>flaccidus</i> or <i>Toxicodendron</i> <i>diversilobum</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Herbs < 2 m; cover is intermittent to continuous. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Muhlenbergia rigens</i> > 30% relative cover in the herbaceous layer (Klein and Evens 2005).</li>
+		
+		<li><i>Muhlenbergia rigens</i> > 5% absolute or > 30% relative cover in the herbaceous layer (Klein et al. 2007).</li>
+		
+		<li><i>Muhlenbergia rigens</i> > 50% relative cover in the herbaceous canopy (Klein and Evens 2005, Nature- Serve 2007a).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Benches, lower slopes, river and stream terraces, seeps, swales, and moist slopes and moist meadow margins. Soils are well drained sands to sandy loams; they may be temporarily flooded or saturated. The USFWS Wetland Inventory (1996 national list) recognizes <i>Muhlenbergia rigens</i> as a FACW plant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Muhlenbergia rigens herbaceous alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Wet grasses and forbs, Perennial grasses and forbs
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Native grassland, Freshwater seep
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Valley grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Perennial grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>41.278.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate and Boreal Shrubland and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate and Boreal Freshwater Marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North American Freshwater Marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Western North America Wet Meadow and Low Shrub Carr
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Californian warm temperate marsh/seep
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Muhlenbergia rigens </i>is a large perennial bunchgrass that forms tussocks up to 2 m tall. It occurs in California and from southern Nevada to Texas. It is associated with moist environments in arid or Mediterranean climates. <br/>
+<br/>
+Stands are typically small and widely scattered. They occur in settings with periodic disturbance, and stands can withstand periodic f looding and burning. Ecologically, they are typically less moist than <i>Juncus</i>- or <i>Carex</i>-dominated meadows, but more mesic than most other grasslands away from the immediate coast of California. The largest inventoried are approximately 0.5 ha. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Muhlenbergia rigens</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Polycarpic perennial; herb</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Transient</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; gravity; wind</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Buds on large branches or trunks (basal buds, tillers)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>Long-lived</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>High</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text"><i>Muhlenbergia rigens </i>increases greatly in productivity after most fires by rapid growth from the basal buds and seedling establishment. In addition, dead material is cleared away, and nutrients are recycled (Anderson 2005). 
+
+In San Diego Co., <i>M. rigens </i>regained 51% to 145% more live foliage within 3-15 months after prescribed burns than did unburned controls, and over three times more <i>M. rigens </i>clumps in one burn area than in the control. It appeared that f lower and seed production increased and plants recovered better after spring burning than after late fall burning (Fryer 2007).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Short
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Spring-summer-fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Up to stand size
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Low
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Surface fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Central and Southern Coasts
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Aj). Stands line intermittent streams in the upper San Antonio River drainage and in moist meadows between rock outcrops near “The Indians.”</li>
+        
+            <li><b>Central California Coast Ranges</b> (M262Ac, Ae-f, Ah, Aj). Stands occur on sandy alluvium adjacent to streams and swales in Pinnacles National Monument (Nature- Serve 2007b) and in Wagon Caves cRNA (Keeler-Wolf 1989b, see Cheng 2004) in the Santa Lucia Mountains. They are adjacent to stands of other grassland and <i>Quercus agrifolia</i> and <i>Quercus lobata</i> alliances.</li>
+        
+            <li><b>Mojave Desert</b> (322Al). Small stands in drainages in the Granite Mountains and perhaps other mountains of the eastern sections associate with stands of the <i>Baccharis sergiloides</i> and <i>Pinus monophylla</i> alliances.</li>
+        
+            <li><b>Sierra Nevada</b> (M261Eg, Ep, Er-s). Stands in Yosemite National Park at lower montane elevations are surrounded by stands of the <i>Pinus ponderosa- Calocedrus decurrens</i> and <i>Quercus kelloggii</i> alliances (Anderson 1996).</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fa-e). Stands throughout the northern two subsections (Klein et al. 2007) are mostly small (< 0.5 ha) and adjacent to streams and rivers, although some are on terraces and moist slopes associated with stands of <i>Quercus douglasii, Quercus lobata,</i> and <i>Quercus wislizeni</i> alliances. Unsampled stands exist in the southern subsections.</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Ba-d, Bf, Bj-l, Bn-o). Stands occur in low to mid elevation settings in western Riverside (Klein and Evens 2005) and San Diego Cos. (Fryer 2007, Moran 2004a, b, Sproul 2001). Some of the largest occur in Cuymaca Rancho State Park, many of which burned in 2003 (Fryer 2007). Stands typically are adjacent to other grassland alliances and stands of <i>Adenostoma sparsifolium, Ceanothus greggii, Quercus cornelius-mulleri,</i> and <i>Quercus wislizeni</i> chaparral, or <i>Pinus jeffreyi</i> and <i>Quercus kelloggii</i> woodlands.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> <i>Muhlenbergia rigens </i>has been important to at least 20 California tribes (Anderson 1996). It is one of the mainstays of Native American basketry, and substantial literature exists on traditional tribal usage and special tending of this species. Native Americans gathered culms in late spring to early fall and used thousands of f lower stalks in individual baskets. They tended dense patches of the grass with fall burning of stands every 2-5 years (Anderson 1996, 2003). However, Martin (1981) recommended spring prescribed burning to increase plant productivity. 
+
+California tribes and other land managers are concerned about the current management of <i>M. rigens </i>stands; they deteriorate and are overtaken by woody plants, especially the highly invasive <i>Rubus armeniacus, </i>when they are not managed (Anderson 1996, 2005). Pinnacles National Monument personnel initiated a pilot program to encourage traditional Native American management and harvest (C. Striplen, pers. comm. 2007) that includes monitoring stand extent and condition. 
+
+<i>Muhlenbergia rigens </i>is a handsome, large grass that has ornamental value. It is planted in both public and private water-conserving gardens. However, we know little about the genetic and evolutionary consequences of such actions upon natural stands. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Muhlenbergia rigens [1], [2], [3], [4], [5], [6], [7]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Klein, A.;Crawford, J.;Evens, J.;Keeler-Wolf, T.;Hickson, D. 2007</li>
+		
+		<li>[2] Kittel, G.;Reyes, E.;Evens, J.;Buck, J.;Johnson, D. 2012</li>
+		
+		<li>[3] Sproul, F.;Keeler-Wolf, T.;Gordon-Reedy, P.;Dunn, J.;Klein, A.;Harper, K. 2011</li>
+		
+		<li>[4] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>[5] Buck-Diaz, J.;Harbert, B.;Evens, J. 2011</li>
+		
+		<li>[6] Buck-Diaz, J.;Ratchford, J.;Evens, J. 2013</li>
+		
+		<li>[7] AECOM, 2013</li>
+		
+		<li>Anderson, M.K. 1996</li>
+		
+		<li>Anderson, M.K. 2003a</li>
+		
+		<li>Anderson, M.K. 2005</li>
+		
+		<li>Fryer, J.L. 2007</li>
+		
+		<li>Klein, A.;Evens, J. 2005</li>
+		
+		<li>Martin, B.D. 1981</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/433/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

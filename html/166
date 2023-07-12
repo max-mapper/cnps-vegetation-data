@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Ceanothus (oliganthus, tomentosus)</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Ceanothus</i> (<i>oliganthus</i>, <i>tomentosus</i><span style="padding-left: .2em">)</span></span> Shrubland Alliance <br/>
+        <span class="subtitle">Hairy leaf - woolly leaf ceanothus chaparral</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>40-1500 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G3
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA (NatureServe) (Calflora), Baja California, Mexico (TJM2)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>Yes
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/ceanothus-oliganthus_conepeakrna_6-05_01.jpg', '/static/images/photos/shrub/ceanothus-oliganthus_conepeakrna_6-05_02.jpg', '/static/images/photos/shrub/ceanothus-oliganthus_ironmtntrail_01-10_02.jpg', '/static/images/photos/shrub/ceanothus-oliganthus_simihills_03-03.jpg', '/static/images/photos/shrub/ceanothus-oliganthus_vacamtn_05-03_01.jpg', '/static/images/photos/shrub/ceanothus-oliganthus_woolseycyn-simihills_03-03_01.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Ceanothus</i> <i>oliganthus</i> or <i>Ceanothus</i> <i>tomentosus</i> is dominant or co-dominant in the shrub canopy with <i>Adenostoma</i> <i>fasciculatum</i>, <i>Adenostoma</i> <i>sparsifolium</i>, <i>Arctostaphylos</i> <i>glandulosa</i>, <i>Ceanothus</i> <i>megacarpus</i>, <i>Heteromeles</i> <i>arbutifolia</i>, <i>Quercus</i> <i>berberidifolia</i>, <i>Rhus</i> <i>ovata</i>, <i>Salvia</i> <i>mellifera</i>, <i>Toxicodendron</i> <i>diversilobum</i> or <i>Xylococcus</i> <i>bicolor</i>. Emergent trees may be present at low cover, including <i>Calocedrus</i> <i>decurrens</i>, <i>Juglans</i> <i>californica</i>, <i>Pseudotsuga</i> <i>macrocarpa</i>, <i>Quercus</i> <i>agrifolia</i>, <i>Quercus</i> <i>chrysolepis</i>, <i>Quercus</i> <i>wislizeni</i> or <i>Umbellularia</i> <i>californica</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 4 m; canopy is continuous to intermittent. Herbaceous layer is sparse. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Ceanothus oliganthus</i> > 60% relative cover in shrub canopy (Borchert et al. 2004, Evens and San 2005, Klein and Evens 2005).</li>
+		
+		<li><i>Ceanothus tomentosus</i> > 30% relative cover in the shrub canopy with <i>Malosma laurina</i>, <i>Adenostoma fasciculatum</i>,
+and <i>Xylococcus bicolor</i> subdominant if present (Sproul et al. 2011).</li>
+		
+		<li><i>Ceanothus cyaneus</i> > 50% relative cover in the shrub canopy, or > 30% relative cover with > 50% <i>Ceanothus </i>spp. (Sproul et al. 2011).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Variable topography. Soils are moderately deep and well drained.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Hairyleaf ceanothus series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Ceanothus oliganthus shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Ceanothus chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Northern mixed chaparral, Southern mixed chaparral, Mixed montane chaparral, Upper Sonoran ceanothus chaparral, Mesic north slope chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Mixed chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>37.207.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Mediterranean Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Mediterranean Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>California Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>California Chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Californian pre-montane chaparral
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Ceanothus oliganthus </i>is an evergreen shrub with rigid branches that grows to 6 m in height. At 5 years, shrubs begin producing seed, which is explosively cast from plants as their capsules break. Most of the seed drops beneath the crowns of the shrubs. Seed predation by small mammals and insects may be severe, but with time, seeds collect in the duff and soil as a seed bank. <i>Ceanothus oliganthus </i>rapidly sprouts from root crowns when branches are removed. <br/>
+<br/>
+<i>Ceanothus oliganthus </i>includes three varieties. Var. <i>orcuttii</i> is limited to the Peninsular Ranges of southern California and adjacent Baja California.  It is distinguished from the other varieties by its short-hairy flower parts and wrinkled fruits (Wilken and Burge 2016). The other two varieties are separated on stem and leaf pubescence: var. <i>oliganthus </i>is called hairy leaf ceanothus and var. <i>sorediatus </i>is called Jim brush. Jim brush has a more northern range, but ranges overlap in the Los Padres National Forest (Borchert et al. 2004) and further south. The species is ecologically and morphologically similar to <i>C. tomentosus</i> and therefore they are included in a single alliance. <br/>
+<br/>
+<i>Ceanothus tomentosus</i> is an evergreen shrub that grows to nearly 3 m in height. The leaves are dark green adaxially and typically woolly underneath. This species typically grows at lower elevations with less winter frost than does <i>C. oliganthus</i>.<br/>
+<br/>
+Stands of <i>C. oliganthus </i>or <i>C. tomentosus </i>tend to occur as small, localized patches after recent fire disturbance, and they senesce after about 30-40 years. Stands occur on northerly slopes and adjacent to riparian areas in southern California, and they occur on a wide range of slopes and exposures in central California.<br/>
+<br/>
+This alliance has been expanded to include additional <i>Ceanothus </i>species of the subgenus <i>Ceanothus </i>since the 2009 publication of <i>A Manual of California Vegetation, second edition.</i> </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Ceanothus oliganthus</th>
+			
+		
+			
+			<th>Ceanothus tomentosus</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Shrub; evergreen</td>
+			
+		
+			
+			<td>Shrub; evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Long</td>
+			
+		
+			
+			<td>Long</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; expulsion from capsule</td>
+			
+		
+			
+			<td>Animal; Expulsion from capsule</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Heat</td>
+			
+		
+			
+			<td>Heat</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Buds on large branches or trunks; underground structures (root crown)</td>
+			
+		
+			
+			<td>Buds on small branches; Underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+			
+			<td>Fire-sensitive</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>?(40?)-100? years (to life of plant?)</td>
+			
+		
+			
+			<td>4? - 50 years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Episodic</td>
+			
+		
+			
+			<td>Episodic</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text"><i>Ceanothus oliganthus </i>is an obligate seeder, in which large numbers of seedlings establish from the seed bank after fire. Heat stimulates seed germination by increasing permeability to water. Dense, monotypic stands can develop and then self-thin with > 50% of the shrubs dying, especially the smaller ones (Riggan et al. 1988). Mortality continues with stand senescence within 40 years after fire (Hanes 1971). An average fire cycle of 25-50 years should promote <i>C. oliganthus</i>.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Medium (25-100 years)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Summer-early fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Medium to large; up to and beyond stand
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>High
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Very high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Active-independent crown fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Central California
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Ac, Af-g, Aj-k). Small, isolated stands occur at Cone Peak Gradient RNA (Cheng 2004) and elsewhere in the Santa Lucia Mountains (Borchert et al. 2004). Many of these are the result of crown fires in the past several decades.</li>
+        
+            <li><b>Central California Coast Ranges</b> (M262Aa-b, Ae-f). Small, isolated stands occur in the interior Santa Lucia Mountains and Gabilan Range (Borchert et al. 2004). Stands have also been observed in the East Bay Hills of Alameda and Contra Costa Cos.</li>
+        
+            <li><b>Northern California Coast</b> (263Af-g, Al-m). Stands occur from Marin and Sonoma Cos. north to Humboldt Co.</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Ba-b, Bd-f). Stands have been observed from Napa north to Humboldt Co.</li>
+        
+            <li><b>Northern California Interior Coast Ranges</b> (M261Ca). Stands are common in the Vaca Mountains and in Napa and Yolo Cos.</li>
+        
+            <li><b>Southern California Coast</b> (261Ba-b, Be-f, Bi). Small, isolated stands are found in the Santa Ynez Mountains on all aspects up to 1200 m (Borchert et al. 2004). In the Santa Monica Mountains (Keeler-Wolf and Evens 2006), stands are typically restricted to concave, north-facing slopes above 800 m.</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Ba-d, Bf-g, Bk-l, Bn-o). Stands are widely distributed but usually localized. Stands in the San Gabriel Mountains (Gordon and White 1994), the western Transverse Ranges (Borchert et al. 2004), San Diego Co. (Evens and San 2005), and western Riverside Co. (Klein and Evens 2005) are typically restricted to north-facing slopes above 350 m. Stands in the Volcan Mountain area formed a dense canopy of young shrubs upon 3 years after the 2002 Pines fire. Most are associated with burned stands of <i>Pseudotsuga macrocarpa-Quercus chrysolepis</i> alliance. Prior to the fire, <i>C. oliganthus</i> was not apparent in the understory of most of these stands.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Repeated short-interval fires (of < 25 years) deplete the seed bank. The genus is well suited for use in rehabilitation because of rapid growth rates and an ability to improve soil fertility through fixing nitrogen. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Ceanothus cyaneus [6]</li>
+                
+                    <li>Ceanothus oliganthus [1], [3], [4], [7], [9]</li>
+                
+                    <li>Ceanothus oliganthus - Adenostoma fasciculatum [5]</li>
+                
+                    <li>Ceanothus oliganthus - Adenostoma fasciculatum - Xylococcus bicolor [2]</li>
+                
+                    <li>Ceanothus oliganthus - Adenostoma sparsifolium [4]</li>
+                
+                    <li>Ceanothus oliganthus - Arctostaphylos glandulosa [5]</li>
+                
+                    <li>Ceanothus oliganthus - Eriodictyon crassifolium [5]</li>
+                
+                    <li>Ceanothus oliganthus - Heteromeles arbutifolia - Rhus ovata [4]</li>
+                
+                    <li>Ceanothus oliganthus - Quercus berberidifolia [4]</li>
+                
+                    <li>Ceanothus tomentosus [3], [6], [8]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Borchert, M.;Lopez, A.;Bauer, C.;Knowd, T. 2004</li>
+		
+		<li>[2] Evens, J.;San, S. 2005</li>
+		
+		<li>[3] Gordon, H.J.;White, T.C. 1994</li>
+		
+		<li>[4] Keeler-Wolf, T.;Evens, J. 2006</li>
+		
+		<li>[5] Klein, A.;Evens, J. 2005</li>
+		
+		<li>[6] Sproul, F.;Keeler-Wolf, T.;Gordon-Reedy, P.;Dunn, J.;Klein, A.;Harper, K. 2011</li>
+		
+		<li>[7] Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>[8] AECOM, 2013</li>
+		
+		<li>[9] Reyes, E.;Johnson, D.;Glass, A. 2019</li>
+		
+		<li>Barry, W.J. 1989a</li>
+		
+		<li>Barry, W.J. 1989b</li>
+		
+		<li>Hanes, T.L. 1977</li>
+		
+		<li>Hanes, T.L. 1981</li>
+		
+		<li>Keeley, J.E.;Keeley, S.C. 1988</li>
+		
+		<li>Pase, C.P. 1982a</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Black, H.;Bleich, V.C.;Mincks, J.W. 1980</li>
+		
+		<li>Shiflet, T.N. 1994</li>
+		
+		<li>Thorne, R.F. 1976</li>
+		
+		<li>White, S.D. 1994c</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/166/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

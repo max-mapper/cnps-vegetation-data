@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Fraxinus latifolia</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Fraxinus</i> <i>latifolia</i></span> Forest &amp; Woodland Alliance <br/>
+        <span class="subtitle">Oregon ash groves</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Tree
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-1700 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3.2
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G4
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>CAN: BC. USA: CA, OR, WA (NatureServe) (USDA Plants)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2009/09/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/tree/fraxinus-latifolia_burneyfalls_08-09_01.jpg', '/static/images/photos/tree/fraxinus%20latifolia_sono0802.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Fraxinus</i> <i>latifolia</i> is dominant or co-dominant in the tree canopy with <i>Acer</i> <i>macrophyllum</i>, <i>Alnus</i> <i>rhombifolia</i>, <i>Calocedrus</i> <i>decurrens</i>, <i>Pinus</i> <i>ponderosa</i>, <i>Quercus</i> <i>kelloggii</i>, <i>Quercus</i> <i>wislizeni</i> and <i>Salix</i> <i>laevigata</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text"> Trees < 25 m; canopy is open to continuous. Shrub layer is sparse to intermittent. Herbaceous layer is variable. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Fraxinus latifolia</i> > 5% absolute cover and > 30% relative cover in the tree canopy (Klein et al. 2007).</li>
+		
+		<li><i>Fraxinus latifolia</i> > 5% absolute cover in the tree canopy (Potter 2005).</li>
+		
+		<li><i>Fraxinus latifolia</i> > 50% relative cover in the tree canopy, or > 30% relative cover with <i>Alnus rhombifolia</i> or <i>Umbellularia californica</i> (Buck-Diaz et al. 2021).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Riparian corridors, incised canyons, seeps, stream banks, terraces. Soils are alluvial. The USFWS Wetland Inventory (1996 national list) recognizes <i>Fraxinus latifolia</i> as a FACW plant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>White alder series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Fraxinus latifolia temporarily flooded forest alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Riparian mixed hardwood, White alder
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>North Coast riparian forests, Great Valley mixed riparian forest, White alder riparian forest, Southern sycamore-alder riparian woodland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Foothill woodland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Montane riparian
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>61.960.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Tree Vegetation (Forest and Woodland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate Flooded and Swamp Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North America Flooded and Swamp Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Western Cordilleran montane-boreal riparian scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Vancouverian riparian deciduous forest
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Fraxinus latifolia</i> is a deciduous hardwood that attains a height of 25 m and an age of 250 years. Tree root systems are shallow. Plants produce large crops in 3- to 5-year intervals. Seeds are shed in the autumn and dis-persed by wind and water. Seedlings establish on moist soils rich in organic matter after the seeds have been cold scarified. Trees easily stump sprout (Owston 1990). South of the Kern River, <i>F. latifolia </i>is similar to <i>Fraxinus velutina, </i>suggesting hybridization between the two species (Munz and Laudermilk 1949). <br/>
+<br/>
+In California, the alliance appears most commonly in the western Sierra Nevada, where it occurs adjacent to stands of the riparian <i>Populus fremontii </i>and <i>Salix laevigata </i>alliances or adjacent to stands of the upland <i>Pinus ponderosa </i>and <i>Quercus chrysolepis </i>alliances (Potter 2005). Larger, extensive, bottomlands stands occur in the North Coast Ranges from Sonoma County north; however, these have been poorly described. Otherwise, the alliance is scattered in riparian locations across northern California. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Fraxinus latifolia</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Tree; winter deciduous</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Long</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Water/hydrological; wind</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Inundation (moisture); stratification—winter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Underground structures </td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; high sprouter (especially after flooding)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No?</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>30 years to life of plant</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Medium to high</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Fluvial processes rather than fire primarily disturb the alliance. Plants sprout and easily establish by seed after disturbances including flooding (and sometimes fire). None of the many stands sampled by Potter (2005) had recent fire evidence. Potter (2005) suggests that small, fluvial patch disturbance is the norm, with stand-replacing events being unusual.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+            <p>The range of <i>Fraxinus latifolia</i> includes the Klamath Mountains (M261A), Modoc Plateau (M261G), Northern California Coast (263A), and Northern California Interior Coast Ranges (M261C).</p>
+        
+
+        <ul class="text">
+        
+            <li><b>Great Valley</b> (262Aa, Ac-d, Af-i, Ak-m, Ao-p, Ar-s, Au). Planted stands occur at Suisun Marsh (Keeler-Wolf and Vaghti 2000). Stands in the Sacramento-San Joaquin River delta are rare (Hickson and Keeler-Wolf 2007). Vaghti and Greco (2007) describe <i>F. latifolia</i> as a component of several forest types.</li>
+        
+            <li><b>Northern California Coast</b> (263Ag, Am). Stands occur in the Eel River, Russian River, and other drainages inland from the immediate coastal fog zone.</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Bb). Large stands occur along Outlet Creek just north of Willits and east of U.S. 101.</li>
+        
+            <li><b>Sierra Nevada</b> (M261Eg, Ep, Eu). Stands occur mainly on stream banks and floodplains with <i>Alnus rhombifolia</i> and a variety of shrubs (Potter 2005, Klein et al. 2007).</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fa-d). Stands occur intermixed with <i>A. rhombifolia, Populus fremontii, Quercus lobata, Salix laevigata,</i> and other riparian woodland alliances throughout most of the foothills (Klein et al. 2007, Potter 2005). There is a tendency for more individuals in the southern foothills to have characteristics intermediate between <i>F. latifolia</i> and <i>F. velutina.</i></li>
+        
+            <li><b>Southern Cascades</b> (M261Dj). Stands occur at low-montane elevations with <i>Cornus sericea</i> (S. Smith 1998b).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> <i>Fraxinus latifolia </i>is well adapted to many flood regimes, though stands of the alliance usually occupy intermittently flooded locations (Potter 2005). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Fraxinus latifolia [1], [2], [4], [6], [7]</li>
+                
+                    <li>Fraxinus latifolia - Alnus rhombifolia [3], [4], [6], [7]</li>
+                
+                    <li>Fraxinus latifolia / Cornus sericea [5]</li>
+                
+                    <li>Fraxinus latifolia - Salix laevigata [8]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Hickson, D.;Keeler-Wolf, T. 2007</li>
+		
+		<li>[2] Keeler-Wolf, T.;Vaghti, M. 2000</li>
+		
+		<li>[3] Klein, A.;Crawford, J.;Evens, J.;Keeler-Wolf, T.;Hickson, D. 2007</li>
+		
+		<li>[4] Potter, D.A. 2005</li>
+		
+		<li>[5] Smith, S. 1998b</li>
+		
+		<li>[6] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>[7] Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>[8] Ratchford, J.;Boul, R.;Keeler-Wolf, T.;Evens, J. 2022a (in progress)</li>
+		
+		<li>Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>Owston, P.W. 1990</li>
+		
+		<li>Vaghti, M. ;Greco, S. 2007</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/32/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

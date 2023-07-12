@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Celtis laevigata var. reticulata - Rhus trilobata</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+	<div class="allianceHeader">
+		<span class="scientificName"><i>Celtis</i> <i>laevigata</i> var. <i>reticulata</i> - <i>Rhus</i> <i>trilobata</i></span> Provisional Shrubland Alliance <br/>
+		<span class="subtitle">Sugarberry - skunkbush sumac scrub</span>
+	</div>
+
+	<div class="mainAllianceInfo">
+
+		<div class="allianceSideInfo">
+			<div class="quickInfoList">
+				<h4>Summary Information</h4>
+				<ul>
+					<li>
+						<span class="category">Primary Life Form</span>Shrub
+					</li>
+					<li>
+						<span class="category">Elevation</span>300-1500 m
+					</li>
+					<li>
+						<span class="category">State Rarity</span>S1
+					</li>
+					<li>
+						<span class="category">Global Rarity</span>G3
+					</li>
+					<li>
+						<span class="category">Distribution</span>USA: AZ, CA, NM, UT. (NatureServe)
+					</li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2016/06/10
+                    </li>
+				</ul>
+			</div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/celtis-laevigata-reticulata_06-14_01.jpg']
+            </script>
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+		</div>
+
+		
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Celtis</i> <i>laevigata</i> var. <i>reticulata</i> is dominant in the shrub canopy or low tree canopy with <i>Baccharis</i> <i>sergiloides</i>, <i>Brickellia</i> spp., <i>Rhus</i> <i>trilobata</i>, <i>Rosa</i> <i>woodsii</i>, <i>Salix</i> <i>exigua</i> and <i>Senegalia</i> <i>greggii</i>. </div>
+</div>
+
+		
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 6 m; canopy is intermittent to continuous and may be two tiered. Herbaceous layer is sparse to intermittent. </div>
+</div>
+
+		
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Stream banks and terraces, springs, washes, or shallow valleys. Soils are rocky coarse sands to sandy loams. The USFWS Wetland Inventory (2012 national list) recognizes <i>Celtis reticulata</i> as a FAC plant and <i>Rhus trilobata</i> as a FACU plant in the Arid West, and they are respectively listed as FACU and UPL in the W Mountains, Valleys and Coast. </div>
+</div>
+
+		
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance, and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Celtis laevigata var. reticulata shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Desert mixed wash scrub, Riparian mixed shrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Desert dry wash woodland, Mojave desert wash scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Desert riparian, Desert wash
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>61.565.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+	</div>
+
+
+	<!-- collapsable content below -->
+
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Celtis laevigata </i>var. <i>reticulata </i> is a tall shrub to small tree that can grow close to 25 m tall but is usually between 2 and 6 m. Its leaves are pale green with conspicuous net-like veins, and its stems are grayish and can become netlike or corky (Tirmenstein 1990c). <i>Celtis reticulata </i> is a synonym for this taxon.<br/>
+<br/>
+This alliance contains riparian shrublands dominated by a single species, <i>Celtis laevigata </i>var. <i>reticulata </i>.  Other shrubs in stands can include <i>Baccharis sergiloides, Brickellia </i>spp., <i>Rosa </i>spp., and <i>Salix exigua</i>. Stands typically occur as narrow bands between the high-water line and the upland slopes in moderately wide canyons or low valleys, and along narrow reaches of larger streams or washes that are spring-fed. Other upland to sub-riparian stands dominated by <i>Rhus trilobata</i> in California are currently placed in the <i>Rhus trilobata - Crataegus rivularis - Forestiera pubescens </i>Alliance. Further work is needed to expand the concept of this alliance to fully determine associations and diagnostic species in California. </div>
+</div>
+
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Observations</h4>
+	<div class="text"> The small stand size and rarity of this type makes it difficult to detect. Mapping efforts and sampling may overlook the presence of this arid, stream and seep fed vegetation type. Accordingly, the range of <i>Celtis reticulata </i> is wider than that of the alliance, including occurrences in the Southern Mountains and Valleys (M262B), where other stands may be possible along springs and washes. 
+
+Stands occurs at low elevations of Tehachapi Mountains in Tejon Ranch, and on slopes in Devil Canyon (VegCAMP 2015a). It was sampled once within MOJA at the headwaters of Cornfield Spring in the Providence Mountains at mid elevation. It also occurs sporadically in other mountains of MOJA, such as in the New York Mountains and Clark Mountains (Evens et al. 2014). </div>
+</div>
+
+	
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] VegCAMP (CDFW Vegetation Classification and Mapping Program), 2015a</li>
+		
+		<li>Evens, J.M.;Sikes, K.;Hastings, D.;Ratchford,J.S. 2014</li>
+		
+		<li>Houck, M.;Anderson, M.K. 2009</li>
+		
+		<li>Tirmenstein, D. 1990c</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+	<script src="/static/javascript/alliance_page.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

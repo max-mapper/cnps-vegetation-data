@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Quercus vacciniifolia</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Quercus</i> <i>vacciniifolia</i></span> Shrubland Alliance <br/>
+        <span class="subtitle">Huckleberry oak chaparral</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>700-2800 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S4
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G4
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA, OR (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/quercus-vaccinifolia_billyspk_10-03_01.jpg', '/static/images/photos/shrub/quercus-vaccinifolia_nearfloralaketahoenf_08-10_01.jpg', '/static/images/photos/shrub/quercus-vaccinifolia_nearfloralaketahoenf_08-10_02.jpg', '/static/images/photos/shrub/quercus-vaccinifolia_nearfloralaketahoenf_08-10_03.jpg', '/static/images/photos/shrub/quercus-vaccinifolia_nearfloralaketahoenf_08-10_04.jpg', '/static/images/photos/shrub/quercus-vaccinifolia_nearfloralaketahoenf_08-10_05.jpg', '/static/images/photos/shrub/quercus-vaccinifolia_nearfloralaketahoenf_08-10_06.jpg', '/static/images/photos/shrub/quercus-vaccinifolia_withceanothus_wlaketahoebasin_06-09_01.jpg', '/static/images/photos/shrub/quercus-vaccinifolia-gabbro_cedarbasin_2000.jpg', '/static/images/photos/shrub/quercus-vacciniifolia_calaverasco_09-09_01.jpg', '/static/images/photos/shrub/quercus-vacciniifolia_trinityalps.jpg', '/static/images/photos/shrub/quercus-vacciniifolia_trinitymtns_10-03_01.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Quercus</i> <i>vacciniifolia</i> is dominant or co-dominant in the shrub canopy with <i>Amelanchier</i> <i>alnifolia</i>, <i>Arctostaphylos</i> <i>nevadensis</i>, <i>Arctostaphylos</i> <i>patula</i>, <i>Ceanothus</i> <i>cordulatus</i>, <i>Ceanothus</i> <i>velutinus</i>, <i>Chrysolepis</i> <i>sempervirens</i>, <i>Garrya</i> <i>fremontii</i>, <i>Holodiscus</i> <i>discolor</i>, <i>Prunus</i> <i>emarginata</i>, <i>Quercus</i> <i>sadleriana</i> and <i>Symphoricarpos</i> <i>mollis</i>. Emergent conifers may be present at low cover, including <i>Abies</i> <i>concolor</i>, <i>Abies</i> <i>magnifica</i>, <i>Pinus</i> <i>jeffreyi</i>, <i>Pinus</i> <i>lambertiana</i>, <i>Pinus</i> <i>monticola</i>, <i>Pinus</i> <i>ponderosa</i> or <i>Pseudotsuga</i> <i>menziesii</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 2 m; canopy is intermittent to continuous. Herbaceous layer is sparse. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Quercus vacciniifolia</i> > 30% relative cover in the shrub canopy (Keeler-Wolf et al. 2003b).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Ridges and upper slopes that may be steep. Soils are skeletal over many substrates and usually rocky.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Huckleberry oak series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Quercus vacciniifolia shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Ultramafic mixed shrub, Huckleberry oak, Upper montane mixed shrub, Scrub oak, Upper montane mixed chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Mixed montane chaparral, Huckleberry oak chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Montane chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>37.414.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate and Boreal Shrubland and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate Grassland, Meadow, and Shrubland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North America Interior Sclerophyllous Shrubland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Western North American Cool/Montane Sclerophyllous Evergreen Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Californian montane chaparral
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Quercus vacciniifolia </i>is a long-lived, evergreen shrub that grows to 1.5 m in height. Leaves are oblong, mostly entire to low serrate, and glabrous. Shrubs produce large acorn crops at irregular intervals. Seeds germinate without stratification. Small animals cache the acorns, which other wildlife eat also. Plants sprout from swollen root crowns after damage to their trunks. Species also reproduces by layering (Howard 1992m).The shrubs act as nurse plants, moderating environmental conditions and offering seedlings protection. Shrubs are moderately shade tolerant (Nixon and Muller 1997). <br/>
+<br/>
+<i>Quercus vacciniifolia </i>hybridizes with <i>Q. chrysolepis </i>at lower montane elevations (Nixon 2002). The hybrid is shrubby. Leaves are similar to those of both parents, and the stems and twigs are thick and stiff as in <i>Q. chrysolepis</i>. In contrast, the stems and twigs are thin and pliable in <i>Q. vacciniifolia, </i>allowing them to bend easily under heavy winter snow loads; it is easy to walk through stands of <i>Q. vacciniifolia</i>. <br/>
+<br/>
+This is one of the most common of the montane chaparral types from lower montane to subalpine elevations in the central and northern Sierra Nevada and the Klamath Mountains. It frequently occupies glacially scoured landscapes, where it may occur in patchy stands on thin soil over bedrock. <i>Q. vacciniifolia </i>occurs on a variety of substrates, especially granitic, mafic, and ultramafic ones. These conditions can restrict the conifer growth. Individuals of <i>Q. vacciniifolia </i>also occur in the other montane chaparral types, as a dominant in open forest understories, and as scattered shrubs in dense forests. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Quercus vacciniifolia</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Shrub; evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Transient</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; gravity </td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>20-100+ years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Episodic </td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text"><i>Quercus vacciniifolia </i>sprouts from the root crown after fire. It has resinous, flammable leaves, an unusual character for an oak. Its low, spreading growth form encourages surface fire in open forest stands, where it acts as a ladder fuel (Howard 1992m). In burned forested sites, <i>Q. vacciniifolia </i>may dominate for 10-50 years until conifers establish and overtop the shrubs. It also persists as a montane chaparral type on a variety of rocky sites with shallow soils. <i>Arctostaphylos nevadensis </i>is the typical associate (Fites-Kaufman et al. 2007).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Medium (25-75+ years)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Summer-early fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Medium to large—up to and beyond stand
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Moderate to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Moderate to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Passive-active crown fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Sierra Nevada
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Klamath Mountains</b> (M261Aa-u). Persistent stands exist on all substrates at lower montane and subalpine elevation in the section as at Cedar Basin RNA, Manzanita Creek cRNA, Rock Creek Butte cRNA, Pearch Creek study area (Cheng 2004), and in the Salmon Mountains (Sawyer and Thornburgh 1977).</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Ba-b). Persistent stands are relatively uncommon to the section. They mix with stands of <i>Q. garryana</i> var. <i>fruticosa</i> in the Yolla Bolly Mountains or occur as pure stands on high elevation ridges on Franciscan metamorphic and on ultramafic substrates on Red Mountain in Mendocino Co.</li>
+        
+            <li><b>Sierra Nevada</b> (M261Ed-h, Ej-q, Et). Persistent stands form commonly north of Fresno Co. on the western slope at Bell Meadow, Mount Pleasant, and Sugar Pine Point RNAs, Clark Fork cRNA, Green Island Lake (where stands occur on ultramafic rocks), and Onion Creek study areas (Cheng 2004), and in Yosemite National Park (Keeler-Wolf et al. 2003b). South of the San Joaquin River drainage, stands become rare and replaced by those of the <i>Chrysolepis sempervirens, Arctostaphylos nevadensis,</i> or <i>Arctostaphylos patula</i> alliances. Where long-persisting stands of montane chaparral occur, stands of <i>Q. vacciniifolia</i> tend to occupy slightly more mesic settings with higher precipitation or deeper winter snow than those of the <i>A. patula</i> alliance. Moister sites have stands of <i>Prunus emarginata</i> alliance.</li>
+        
+            <li><b>Southern Cascades</b> (M261Da-c, Df-g, Dj, Dm). Transitional stands found in Lassen National Park occur with the true fir forest types. They are uncommon around Mount Shasta or the mountains to the north and east, but they occur at Cub Creek, Green Island Lake, and Soda Ridge RNAs (Cheng 2004).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> <i>Quercus vacciniifolia </i>aids in the spread of fires; dense shrublands or undergrowth can be a fire hazard. Many timber and fire safety managers suggest thinning stands by removing every other shrub, creating islands of the scrub oak, and/or pruning shrubs to less than 45 cm in height. However, many stands are long persisting, naturally dense, and a normal component of the fire cycle in montane and subalpine landscapes of northern California (Howard 1992m). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Quercus vacciniifolia [1]</li>
+                
+                    <li>Quercus vacciniifolia - Arctostaphylos patula [1], [2]</li>
+                
+                    <li>Quercus vacciniifolia - Chrysolepis sempervirens [1]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Keeler-Wolf, T.;Schindel, M.;San, S.;Moore, P.;Hickson, D. 2003b</li>
+		
+		<li>[2] Sawyer, J.O.;Thornburgh, D.A. 1977</li>
+		
+		<li>Howard, J.L. 1992m</li>
+		
+		<li>Reid, M.S.;Schulz, K.A.;Cormer, P.J.;Schindel, M.H.;Culver, D.R.;Sarr, D.A.;Damm, M.C. 1999</li>
+		
+		<li>Riser, R.J.;Fry, M. 1994</li>
+		
+		<li>Vankat, J.L.;Major, J. 1978</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/262/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

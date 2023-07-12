@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Cynosurus echinatus - Arrhenatherum elatius</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Cynosurus</i> <i>echinatus</i> - <i>Arrhenatherum</i> <i>elatius</i></span> Herbaceous Semi-Natural Alliance <br/>
+        <span class="subtitle">Annual dogtail and tall oatgrass grasslands</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Herb
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-1000 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>SNA
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>GNA
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>CAN: BC. USA: CA, MT, OR, WA, WV (USDA Plants)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                        <li>
+                            <span class="category">Invasive species rank</span>
+                            Cal-IPC: See Remarks
+                        </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2009/09/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/herb/cynosurus-echinatus_lostcoast_%2008-03_01.jpg', '/static/images/photos/herb/cynosurus-echinatus_lostcoast_%2008-03_02.jpg', '/static/images/photos/herb/cynosurus-echinatus_arrhenatherum-elatius_prvtland-blackmtranch_05-2019_marin281.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Arrhenatherum</i> <i>elatius</i>, <i>Cynosurus</i> <i>echinatus</i>, <i>Danthonia</i> <i>pilosa</i> and/or <i>Nassella</i> <i>manicata</i> is dominant or co-dominant with other non-natives in the herbaceous layer. Emergent trees and shrubs may be present at low cover. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Herbs < 50cm; cover is intermittent to continuous. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Cynosurus echinatus</i> or <i>Arrhenatherum elatius</i> > 50% relative cover in the herbaceous layer (Jimerson et al. 2000).</li>
+		
+		<li><i>Cynosurus echinatus, </i> and/or <i>Nassella manicata</i> >60% relative cover in the herbaceous layer (Klein et al. 2015).</li>
+		
+		<li>With non-native plants > 90% relative cover overall, <i>Cynosurus echinatus, Danthonia pilosa (Rytidosperma penicillatum), </i>and/or <i>Nassella manicata</i> > 50% relative cover in the herbaceous layer, or two of these species > 60% relative cover combined (Buck-Diaz et al. 2021).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> All slopes and aspects.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>California annual grassland series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Bromus (diandrus, hordeaceus, madritensis) herbaceous alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Annual grasses and forbs, Non-native/ornamental grass
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Non-native grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Valley grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Annual grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>42.044.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Mediterranean Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Mediterranean Grassland and Forb Meadow
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>California Grassland and  Meadow
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>California Annual and Perennial Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Mediterranean California naturalized annual and perennial grassland
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Cynosurus echinatus </i>is a non-native annual grass from Europe and has a Cal-IPC rating of Moderate. Seeds germinate in the fall and plants survive the winter as small seedlings. Plants flower early the following spring and set seed in early summer. They produce a large number of seeds that do not persist in a seed bank (Clark and Wilson 2001, DiTomaso and Healy 2007).<br/>
+<br/>
+<i>Arrhenatherum elatius </i>is a non-native perennial grass, from Europe. Basal stems may have bulbous internodes that can propagate vegetatively. Plants have been grown as forage, and they readily escape in meadows and disturbed areas (Flora of North America 2021). <br/>
+<br/>
+Stands of this alliance occur on moderately warm exposures in areas where annual precipitation tends to be > 8 cm and temperature is relatively low, especially compared to many other annual grass types. <i>C. echinatus </i>is also common in the understory in low-elevation hardwood and conifer woodlands in the mountains of northern California (Klein et al. 2007). However, most information about this type comes from the northern Coast Ranges, where these two non-native grasses among others have been increasing and invading many areas formerly dominated by native grasses. Other mesic non-native grasses have been documented invading coastal bunchgrass prairies, such as <i>Nassella manicata</i> and <i>Danthonia pilosa (= Rytidosperma penicillatum)</i> (Buck-Diaz et al. 2021), and are included in this alliance.<br/>
+<br/>
+Current vegetation studies assign stands to semi-natural stands categories only if they have high nonnative cover, and few natives are present at low cover (see Chapter 7). Jimerson et al. (2000) defined two series (of <i>Arrhenatherum elatius </i>and <i>Cynosurus echinatus </i>), which we have since combined together, with associations based on overall species composition. Some 27% of their plots lacked native grasses; the remainder had at least one native grass species present. Using the membership rules of recent surveys (e.g., Klein et al. 2007), we would place some of their stands in the <i>Festuca californica - Danthonia californica, Bromus carinatus - Elymus glaucus, </i>and other grassland alliances if we could make stand-by-stand individual determinations. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Arrhenatherum elatius</th>
+			
+		
+			
+			<th>Cynosurus echinatus</th>
+			
+		
+			
+			<th>Danthonia pilosa</th>
+			
+		
+			
+			<th>Nassella manicata</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Polycarpic perennial; herb</td>
+			
+		
+			
+			<td>Annual; herb</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+			
+			<td>Short</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>None; corm</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Fluctuation in dominance by woody species and grasses in the northern Coast Ranges relates historically to fire intervals. However, intervals between fires before pre-European contact are very difficult to calculate. Because non-native grasses such as <i>Arrhenatherum elatius </i>and <i>Cynosurus echinatus </i>are now abundant, many of these calculations are unobtainable according to many experts (Young et al. 2007).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+            <p>The range of <i>Cynosurus echinatus</i> includes Central California Coast (261A), Central California Coast Ranges (M262A), Northern California Coast (263A), Sierra Nevada Foothills (M261F), and Southern California Mountains and Valleys (M262Ba-Bb).</p>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Aa-l). No description available</li>
+        
+            <li><b>Central California Coast Ranges</b> (M262Aa-k). No description available</li>
+        
+            <li><b>Klamath Mountains</b> (M261Aa-u). Stands in the section have <i>Avena fatua, Bromus hordeaceus, Lotus micranthus,</i> and <i>Taraxacum officinale </i>(Jimerson et al. 2000).</li>
+        
+            <li><b>Northern California Coast</b> (263Aa-m). Stands occurring coastally include a variety of non-native herbs, such as <i>Avena, Danthonia pilosa, Hypochaeris radicata, Linum bienne, Nassella manicata, Plantago lanceolata, </i>and <i>Rumex acetosella. </i>(Buck-Diaz et al. 2021, Klein et al. 2015). They have invaded native stands of <i>Danthonia californica, Festuca idahoensis, Elymus glaucus, Nassella pulchra, Lotus,</i>among other herbs.</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Ba-f). Pure and mixed stands from throughout the section (Jimerson et al. 2000) depict the type. They recognized six stand types differing in species composition, litter cover and thickness, elevation, coarse fragments, slope, annual temperature, and precipitation. Native plants found in the survey included <i>Achnatherum lemmonii, Bromus carinatus, Danthonia californica, Elymus glaucus, Eschscholzia californica, Hemizonia congesta, Lotus micranthus, Lupinus bicolor, </i>and <i>Madia </i>spp. Non-native plants included <i>Aira caryophyllea, Avena </i>spp<i>.</i>, <i>Bromus hordeaceus, B. tectorum, Erodium </i>spp., <i>Poa pratensis, Rumex acetosella, Taeniatherum caput-medusae, </i>and <i>Taraxacum officinale.</i></li>
+        
+            <li><b>Northern California Interior Coast Ranges</b> (M261Ca-c). The Jimerson et al. (2000) survey included some samples from this section.</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fa-e). No description available</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Ba-b). No description available</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Sawyer (2006) discussed the historic role of Native American burning, ranching, and restoration practices in the Bald Hill prairies of the northern Coast Ranges, many currently dominated by <i>Arrhenatherum elatius, Cynosurus echinatus, </i>and other non-natives. </i>According to Jimerson et al. (2000), the presence of <i>C. echinatus </i>indicates range deterioration because the grass matures later than most annual grasses, tolerates early and heavy grazing, and develops high cover when other plants have low cover. They place its disturbance indicator value as immediately between <i>Bromus hordeaceus </i>(highest) and <i>Arrhenatherum elatius </i>(lowest), suggesting that most stands have an intermediate level of grazing, fire, and other short-term disturbances compared to other annual grasslands in northwest California. Some stands of <i>C. echinatus </i>do, however, contain <i>Centaurea solstitialis, Hypericum perforatum, </i>and <i>Taeniatherum caput-medusae, </i>which CDFA (2003) considers noxious weeds, also suggesting poor range conditions. 
+
+Stands strongly dominated by <i>A. elatius </i>and/or <i>C. echinatus </i>often have plants of conservation value since they have invaded areas formerly dominated by native species, e.g. <i>Danthonia californica, Festuca idahoensis, </i>as well as rare species such as <i>Astragalus agnicidus </i>(a CNPS list 1B.1 plant) and <i>Tracyina rostrata </i>(a CNPS list 1B.2 plant). Restoration activities can include prescribed grazing, summer to fall burning, post-fire herbicide application, and other techniques to reduce the impacts of the non-natives (Arguello 1994, Jimerson et al. 2000). However, the non-native annual <i>C. echinatus </i>has low moisture content by mid-summer, as compared to other non-native and native grasses, whereby some non-native species have the capacity to alter fire behavior by either increasing or decreasing fire intensity and rare of spread, which can complicate restoration of the fire-dependent native grasslands and oak woodlands (Linvingston and Varner 2016). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Cynosurus echinatus - Arrhenatherum elatius / Dichelostemma capitatum [1]</li>
+                
+                    <li>Cynosurus echinatus - Bromus hordeaceus - Madia elegans [1]</li>
+                
+                    <li>Cynosurus echinatus - Bromus hordeaceus - Taeniatherum caput-medusae [1]</li>
+                
+                    <li>Cynosurus echinatus - Bromus hordeaceus - Taraxacum officinale [1]</li>
+                
+                    <li>Cynosurus echinatus - (Danthonia pilosa - Nassella manicata) [1], [2], [3], [4]</li>
+                
+                    <li>Cynosurus echinatus - Lagophylla ramosissima [1]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Jimerson, T.M.;Menke, J.W.;Carothers, S.K.;Murray, M.P.;VanSickle, V.;McClellan, K.H. 2000</li>
+		
+		<li>[2] Evens, J.M.;Kentner, E. 2006</li>
+		
+		<li>[3] Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>[4] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>Arguello, L.A. 1994</li>
+		
+		<li>Livingston, A.C.; Varner, J.M. 2016</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/376/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

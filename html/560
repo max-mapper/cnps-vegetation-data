@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Hydrilla verticillata - Myriophyllum spicatum</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Hydrilla</i> <i>verticillata</i> - <i>Myriophyllum</i> <i>spicatum</i></span> Herbaceous Semi-Natural Alliance <br/>
+        <span class="subtitle">Ruderal water-thyme - Eurasian water-milfoil aquatic</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Herb
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>-3-1900 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>SNR
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>GNR
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>CA, AL, CT, DE, FL, GA, IA, IL, IN, KS, KY, LA, MA, ME, MI, MN, MO, MS, NC, ND, NE, NH, NJ, NY, OH, OK, ON, PA, QC, SC, TN, TX, VA, VT, WI, WV
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                        <li>
+                            <span class="category">Invasive species rank</span>
+                            Cal-IPC: High
+                        </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2017/02/28
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/herb/myriophyllum-spp_egeria-densa_snodgrassslough_07-2005.jpg', '/static/images/photos/herb/myriophyllum-spp_egeria-densa_deltameadow_07-2005.jpg', '/static/images/photos/herb/myriophyllum-spp_egeria-densa_uppergeorgianaslough_08-2005.jpg', '/static/images/photos/herb/myriophyllum-spp_egeria-densa_hammongrovepark_08-2010.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Cabomba</i> <i>caroliniana</i>, <i>Egeria</i> <i>densa</i>, <i>Hydrilla</i> <i>verticillata</i>, <i>Myriophyllum</i> <i>spicatum</i> or other non-native submersed aquatic plant is dominant or co-dominant in the aquatic herb layer with other aquatics including <i>Azolla</i> <i>filiculoides</i>, <i>Ceratophyllum</i> <i>demersum</i>, <i>Eichhornia</i> <i>crassipes</i>, <i>Elodea</i> <i>canadensis</i>, <i>Ludwigia</i> <i>peploides</i>, <i>Myriophyllum</i> <i>aquaticum</i> or <i>Potamogeton</i> <i>crispus</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Herbaceous layer is open to continuous; submerged. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Myriophyllum </i>spp. <i>Egeria densa, </i>and/or<i> Cabomba </i>spp. > 90% relative cover; native plants such as <i>Ceratophyllum demersum</i> and <i>Azolla filiculoides</i> < 10% abosolute and relative cover if present (Buck-Diaz et al. 2012).</li>
+		
+		<li><i>Egeria densa, Cabomba caroliniana, Myriophyllum </i> sp.</i>, and/or floating mats of alglae dominate (Hickson and Keeler-Wolf 2007).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Aquatic herbs 0-0.5 m tall (or underwater); cover is intermittent to dense. The USFWS Wetland Inventory (1996, 2012 and 2016 national lists) recognizes <i>Hydrilla verticillata</i> and <i>Myriophyllum spicatum</i> as OBL plants. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Pondweeds with submerged leaves series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Tule-Cattail, Rivers and streams, Perennial Lakes or Ponds
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Freshwater marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Freshwater marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Fresh emergent wetland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>52.127.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Hydromorphic Vegetation (Aquatic Vegetation)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Freshwater Aquatic Vegetation
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Freshwater Aquatic Vegetation
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>North American Freshwater Aquatic Vegetation
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Western North American Freshwater Aquatic Vegetation
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Naturalized temperate Pacific freshwater vegetation
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Hydrilla verticillata</i> and <i>Myriophyllum spicatum</i>  are invasive, non-native freshwater aquatic plants in California.  These species, along with <i>Egeria densa</i> and <i>Cabomba caroliniana</i> can form dense submerged stands which have impacts to native fish and aquatic plants, water chemistry, drainage systems, and recreational water use.<br/>
+<br/>
+<i>H. verticillata</i>  can grow at lower light intensities than many other plants, and absorbs carbon from water more efficiently than other plants and can continue to thrive during the summer when carbon can become limiting. It stores extra phosphorus, thrives in flowing and still water, and tolerates salinity of up to 10 ppt, encroaching upon outer limits of estuaries (Cal-IPC 2002+). It reproduces quickly from vegetative propagules, whereby it can double its biomass every two weeks in good conditions. It is a very invasive, problematic weed and is under an active detection and eradication effort in California, with all known stands monitored and under some form of control (Kratville 2013).<br/>
+<br/>
+<i>Myriophyllum spicatum</i> is a significantly harmful invasive aquatic species in California (Morey and Volkoff 2016). It is a submeged, perennial macrophyte growing extensive, dense canopies of tangled stems which can impede navigation, reduce oxygen exchange, and increase nutrient loading.  It is known to displace native species by out competing other plants for resources including light, including several rare <i>Potomogeton</i> species (Morey and Volkoff 2016).  Its vines can quadruple in size in a single season (Cal-IPC 2002+).  It has a wide range in California, and is only under active control in a portion of that range, according to the Weedmapper site (Cal-IPC 2018+). <i>Myriophyllum</i> stands were classified and mapped both in the Delta and Great Valley vegetation mapping projects (Hickson and Keeler-Wolf 2007 and Buck-Diaz et al 2012), but more study and fieldwork is needed to understand the distribution of <i>M. spicatum</i>  as compared to other, native species of <i>Myriophyllum</i>, and related ruderal aquatics. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Cabomba caroliniana</th>
+			
+		
+			
+			<th>Egeria densa</th>
+			
+		
+			
+			<th>Hydrilla verticillata</th>
+			
+		
+			
+			<th>Myriophyllum spicatum</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Perennial herb; submerged</td>
+			
+		
+			
+			<td>Perennial herb; submerged</td>
+			
+		
+			
+			<td>Perennial herb; submerged</td>
+			
+		
+			
+			<td>Perennial herb; submerged</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Tubers can survive 5-10 years</td>
+			
+		
+			
+			<td>Medium (7 Years)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Water/Hydrological; reproduces mainly from stem fragments</td>
+			
+		
+			
+			<td>Water/Hydrological</td>
+			
+		
+			
+			<td>Water/Hydrological, but primarily asexual reproduction.</td>
+			
+		
+			
+			<td>Water/Hydrological, but primarily asexual reproduction</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Processes other than fire primarily disturb stands. Flooding and anthropogenic alteration are the primary processes involved in modifying stands.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+            <p>The range of <i>Hydrilla verticillata - Myriophyllum spicatum</i> includes the Central California Coast (261A), Great Valley (262A), Northern California Coast (263A) and Coast Ranges (M261B and C), the Sonoran and Colorado Deserts (322 B and C), the Klamath Mountains (M261A), the Southern Cascades (M261D), the Sierra Nevada and Foothills (M261E and F), the Modoc Plateau (M261G), the Central California Coast Ranges (M262A), and the Southern California Coast (261B).</p>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Aa, Ac-d, Af-g, Ak). Regional experts noted that  low to medium levels  infestation of <i>Myriophyllum spicatum </i>were present and increasing in the area around Lopez Lake in San Luis Obispo County; in the southern peninsula of the San Francisco bay around Montara Mtn., San Mateo, Woodside and Portola Valley; north of San Francisco Bay between San Rafael and Tiburon; east and north of Oakland; and close to Pittsburg (Cal-IPC 2018+).</li>
+        
+            <li><b>Central California Coast Ranges</b> (M262Aa, Ae). Regional experts noted that medium levels  infestation of <i>M. spicatum </i>were present and increasing in the area around Livermore in Alameda County and Lopez Lake in San Luis Obispo County, with confirmed observations (Cal-IPC 2018+).</li>
+        
+            <li><b>Colorado Desert</b> (322Ca, Cc). Multiple, confirmed observations of the <i>M. spicatum </i>are from the canals and streams surrounding the Salton Sea. Current levels of infestation (if any) are not known (Cal-IPC, 2018+).</li>
+        
+            <li><b>Great Valley</b> (262Af-i, Al-q, At-u). Regional experts noted that  low to medium levels  infestation of <i>M. spicatum </i>and other non-native submersed aquatic vegetation were present and increasing in the area between Dos Palos and Mendota, areas north of Stockton, and surrounding Dixon, Davis, Winters, and Woodland.  High levels of infestation exist in most of Sacramento County. Regional experts noted that in watersheds north of Sacramento County  near Wheatland and Yuba City the infestations are under active control, and thought to be decreasing (Cal-IPC, 2018+). Stands were sampled in the Delta (Hickson et al 2007) and Great Valley project (Buck-Diaz 2012).</li>
+        
+            <li><b>Klamath Mountains</b> (M261Ae). <i>M. spicatum </i>is thought to be at low levels, but increasing in an area west of Fort Jones, along the Scott River, and it has been observed as recently as 2018 (Cal-IPC, 2018).</li>
+        
+            <li><b>Modoc Plateau</b> (M261Gp). Regional experts noted that medium levels  infestation of <i>M. spicatum </i>were present and increasing in an area that includes part of the Little Tule River and Big Lake (Cal-IPC 2018).</li>
+        
+            <li><b>Northern California Coast</b> (263Al). Regional experts noted that  low to medium levels  infestation of <i>M. spicatum </i>were present and increasing in areas between San Rafael and Tiburon (Cal-IPC 2018+).</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Bd). Both <i>Hydrilla verticillata </i>and <i>M. spicatum </i>are under active weed management in Clear Lake, although better species determination is needed for <i>Myriophyllum </i>(Kratville 2013, Cal-IPC 2018+)</li>
+        
+            <li><b>Northern California Interior Coast Ranges</b> (M261Ca). Regional experts noted that  medium levels  infestation of <i>M. spicatum </i>were present and increasing in Lake Berreyessa, and there has been species confirmation for at least one observation (Cal-IPC 2018+)</li>
+        
+            <li><b>Sierra Nevada</b> (M261Ed, Eg, Ej, El). <i>M. spicatum </i>is thought to be at low levels and decreasing due to managment in an area near Quincy and Twain Harte, and has been observed in Phoenix Lake. However, it has impacted various areas of Lake Tahoe along with other non-native submersed aquatics (Kamerath et al. 2008).</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fb-c). Regional experts noted that  low  infestation of <i>M. spicatum </i>were present  in areas north of Eastman Lake. Low to medium levels of increasing infestation were noted in areas around Jackson and Latrobe, amongst others (Cal-IPC 2018+). Myriophyllum was sampled near Browns Valley in Yuba County (Buck-Diaz et al 2012).  <i>H. verticillata</i> has infested ponds and a length of canal near Oregon House in Yuba County (Kratville, 2013).</li>
+        
+            <li><b>Sonoran Desert</b> (322Ba, Bd-e). Regional experts noted that  low to high levels  infestation of <i>M. spicatum </i>were present and increasing in the watershed of the lower Colorado River (Cal-IPC 2018+),</li>
+        
+            <li><b>Southern California Coast</b> (261Bi). There have been multiple, species-confirmed observations of <i>M. spicatum</i> in El Capitain and San Vicente Reservoirs (Cal-IPC 2018+).</li>
+        
+            <li><b>Southern Cascades</b> (M261Dj). Regional experts noted that low levels  infestation of <i>M. spicatum </i>were present and increasing in an area near Burney (Cal-IPC 2018).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> <i>Hydrilla verticillata</i> displaces native aquatic vegetation by forming dense stands or large subsurface mats, eliminating or degrading layers below  (Cal-IPC 2002+). It reproduces by stolons, stem fragments, stem turions, and subterranean turions (tubers) (CDFA 2003+). The turions break off the stems 
+in the fall and can drift for long distances before sinking to start a new plant, and one turion can lead to the production of more than 100 others in the course of a single season. Removal, herbicides, and triploid carp have all been used to control infestations of <i>Hydrilla verticillata</i> in California.  Preventing the movement of plants by boats and through the nursery trade are also important (Kratville 2013).
+
+<i>Myriophyllum spicatum</i>  reproduces primarily vegetatively by rhizomes, stem fragments, and axillary buds.  Seeds can survive at least seven years under dry conditions, but in California, seed reproduction is much less important than vegetative reproduction  (Cal-IPC 2002+). Some populations produce many seeds, but seedlings are rarely observed.  It most easily invades disturbed areas or previously unvegetated areas.  It has been introduced by aquarium dumping and spreads on the propellers of boats, by portions of the plant breaking off and moving downstream, and on aquatic waterfowl.  It is treated with herbicides and mechanical removal, including suction dredging (Morey andVolkoff 2016). 
+
+Non-native invasive fish are correlated with areas where non-native submersed aquatic vegetation prevail, including Eurasian water-milfoil (<i>M. spicatum </i>) and curly leaf pondweed (<i>Potamogeton crispus</i>), such as in the Tahoe Keys and Taylor Creek lagoon of Lake Tahoe (Kamerath et al. 2008) and in the Sacramento-San Joaquin River Delta (Brown and Michniuk 2007, Hestir 2010). The spread of non-native aquatic vegetation in conjuction with altered physical environments (including decreased turbidity and salinity) are associated with increases in non-native fish and  declines in native fish (Brown and Michniuk 2007, Hestir 2010, Young et al. 2018). Habitat restoration which favors native species includes reduction of non-native submersed aquatic vegetation and fostering brackish, dynamic environments (Young et al. 2018). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Myriophyllum spp. - Egeria densa [1], [2]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>[2] Hickson, D.;Keeler-Wolf, T. 2007</li>
+		
+		<li>Brown, L.R.;Michniuk, D. 2007</li>
+		
+		<li>California Department of Fish and Wildlife, 2016</li>
+		
+		<li>Cal-IPC, 2002+</li>
+		
+		<li>Cal-IPC, 2018+</li>
+		
+		<li>CDFA (California Department of Food and Agriculture), 2003+</li>
+		
+		<li>Hestir, E.L. 2010</li>
+		
+		<li>Kamerath, M.;Chandra, S.;Allen, B. 2008</li>
+		
+		<li>Kratville, D. 2013</li>
+		
+		<li>Morey, S;Volkoff, M. 2016</li>
+		
+		<li>Young, M.J.;Feyrer, F.V.;Colombano, D.D.;Conrad, J.L.;Sih, A. 2018</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/560/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

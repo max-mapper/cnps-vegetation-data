@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Populus fremontii - Fraxinus velutina - Salix gooddingii</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Populus</i> <i>fremontii</i> - <i>Fraxinus</i> <i>velutina</i> - <i>Salix</i> <i>gooddingii</i></span> Forest &amp; Woodland Alliance <br/>
+        <span class="subtitle">Fremont cottonwood forest and woodland</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Tree
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-2400 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3.2
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G4
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: AZ, CA, CO, NM, NV, TX, UT, WY. Mexico (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/tree/populus-fremontii_bigrockwash_11-94_01.jpg', '/static/images/photos/tree/populus-fremontii_bigrockwash_1993_01.jpg', '/static/images/photos/tree/populus-fremontii_cimadome_01-97_01.jpg', '/static/images/photos/tree/populus-fremontii_kearsarge_1994_01.jpg', '/static/images/photos/tree/populus-fremontii_leymus-triticoides_mojavervictorville_04_93.jpg', '/static/images/photos/tree/populus-fremontii_littlerockwash_11-95_01.jpg', '/static/images/photos/tree/populus-fremontii_prosopis-glandulosa_sanfelipe.jpg', '/static/images/photos/tree/populus-fremontii_sacriv_06-03.jpg', '/static/images/photos/tree/populus-fremontii_sandiegoco_05-09_01.jpg', '/static/images/photos/tree/populus-fremontii_sanfelipe_01-05.jpg', '/static/images/photos/tree/populus-fremontii_sjotr_03-08_01.jpg', '/static/images/photos/tree/populus-fremontii_sjotr_03-08_02.jpg', '/static/images/photos/tree/populus-fremontii_thomescrk_06-03.jpg', '/static/images/photos/tree/populus-fremontii_thomescrk_11-04_01.jpg', '/static/images/photos/tree/populus-fremontii_thomescrk_11-04_02.jpg', '/static/images/photos/tree/populus-fremontii_thomescrk_11-05_01.jpg', '/static/images/photos/tree/populus-fremontii_thomescrk_11-05_02.jpg', '/static/images/photos/tree/populus-fremontii_flyingmranch_04-12_01.jpg', '/static/images/photos/tree/populus-fremontii_flyingmranch_04-12_02.jpg', '/static/images/photos/tree/populus-fremontii_oldtollrd_04-2011_01.jpg', '/static/images/photos/tree/populus-fremontii_oldtollrd_04-2011_02.jpg', '/static/images/photos/tree/populus-fremontii_guad01_guadalupecreek_scl-co_7-2021.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Populus</i> <i>fremontii</i> is dominant or co-dominant in the tree canopy with <i>Acer</i> <i>negundo</i>, <i>Baccharis</i> <i>sergiloides</i>, <i>Fraxinus</i> <i>latifolia</i>, <i>Fraxinus</i> <i>velutina</i>, <i>Juglans</i> <i>hindsii</i>, <i>Juglans</i> <i>hindsii</i> × <i>regia</i>, <i>Platanus</i> <i>racemosa</i>, <i>Quercus</i> <i>agrifolia</i>, <i>Salix</i> <i>exigua</i>, <i>Salix</i> <i>gooddingii</i>, <i>Salix</i> <i>laevigata</i>, <i>Salix</i> <i>lasiolepis</i>, <i>Salix</i> <i>lucida</i> ssp. <i>lasiandra</i> and <i>Salix</i> <i>lutea</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text"> Trees < 25 m; canopy is continuous to open. Shrub layer is intermittent to open. Herbaceous layer is variable. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Populus fremonitii</i> > 5% absolute cover in the tree layer (Potter 2005).</li>
+		
+		<li><i>Populus fremontii</i> > 50% relative cover in the tree layer (Keeler-Wolf et al. 1998b, Thomas et al. 2004).</li>
+		
+		<li><i>Populus fremontii</i> > 50% relative cover in the tree layer, though sometimes <i>P. fremontii</i> > 30% relative cover if <i>Salix</i> species are co-dominant (Evens and San 2005, Klein and Evens 2005, cf. Stillwater Sciences and URS 2007).</li>
+		
+		<li><i>Populus fremontii</i> > 50% relative cover, or > 30% relative cover with <i>Acer negundo, Juglans</i>, and/or <i>Salix</i>, sometimes with <i>Populus</i> having as little as 5% absolute cover (Sikes et al. 2021).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> On floodplains, along low-gradient rivers, perennial or seasonally intermittent streams, springs, in lower canyons in desert mountains, in alluvial fans, and in valleys with a dependable subsurface water supply that varies considerably during the year. The USFWS Wetland Inventory (1996 national list) recognizes <i>Populus fremontii</i> as a FACW plant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Fremont cottonwood series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Populus fremontii seasonally flooded woodland alliance, Populus fremontii temporarily flooded forest alliance, Populus fremontii temporarily flooded woodland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Fremont cottonwood
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Central Coast cottonwood-sycamore riparian forest, Southern cottonwood-willow riparian forest, Great Valley cottonwood riparian forest, Great Valley mixed riparian forest, Modoc-Great Basin cottonwood-willow riparian forest, Mojave riparian forest, Sonoran cottonwood-willow riparian forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Desert riparian, Montane riparian, Valley foothill riparian
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>61.130.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Tree Vegetation (Forest and Woodland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate Flooded and Swamp Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North America Warm Temperate Flooded and Swamp Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Southwestern North American Riparian, Flooded and Swamp Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Southwestern North American riparian evergreen and deciduous woodland
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Populus fremontii </i>is a fast-growing, short-lived tree that is shade intolerant. Trees produce copious, wind-dispersed seeds in the spring that are viable for up to 5days. Seeds germinate on moist alluvium and other recently disturbed sites. Seedlings establish successfully in areas where subsurface water is available during the growing season. Trees regenerate vegetatively from root suckers and vegetative propagules created during flood-related disturbance (Braatne et al. 1996, Tu 2000), but seed is the primary mode of reproduction. Trees damaged by cutting and fire can sprout if they are not old (Taylor 2000). <br/>
+<br/>
+<i>Populus fremontii </i>is a common plant at lower elevations, but most stands have endured negative impacts from reduced water availability (through groundwater pumping), livestock use, hydrologic alterations and irrigation schemes, competition from non-native plants, direct habitat destruction, and other human activities. <br/>
+<br/>
+<i>Populus fremontii </i>may dominate stands or mix with other trees in riparian settings. Some uncertainty exists about the proper classification of mixed stands of <i>P. fremontii </i>and <i>Salix gooddingii</i>. Vaghti (2003) places these in the <i>P. fremontii </i>alliance; Hickson and Keeler-Wolf (2007), in a larger survey from the Sacramento Delta, suggest they are better placed in the <i>Salix gooddingii </i>alliance. Furthermore, uncertainty exists about mixed stands of <i>P. fremontii </i>and <i>Platanus racemosa</i>. Klein and Evens (2005) and Evens and San (2005) place co-dominant stands in a mixed alliance, but we place them in the <i>Platanus racemosa </i>alliance. <i>Populus fremontii </i>also occurs in mixed stands with additional co-dominant species in southern California, including <i>S. laevigata </i>and other willows (<i>S. lucida </i>and <i>S. lasiolepis</i>), <i>Quercus agrifolia, </i>and <i>Juglans californica </i>(Klein and Evens 2005, Stillwater Sciences and URS 2007).<br/>
+<br/>
+This alliance was cited as <i>Populus fremontii </i> Forest Alliance in the 2009 book, <i>A Manual of California Vegetation, second edition</i>.  The name has been updated to agree with the National Vegetation Classification. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Populus fremontii</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Tree; winter deciduous</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Transient</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Gravity; water/hydrological; wind</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Buds on small branches; buds on large branches or trunks; underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-sensitive; thin epidermis to fire-hardy; no/low sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>10-130 (5-300) years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>High</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>High</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Fluvial processes of major flood events and consequent flood scour, overbank deposition of water and sediments, and stream meandering primarily disturb stands. The fire interval was probably long or moderate with a low-intensity surface fire regime in original stands. Stands invaded by <i>Tamarix </i>have short fire intervals (10-20 years) in Arizona (Ohmart and Anderson 1986) and California (Brooks and Minnich 2006). Surface fuels provided by <i>Tamarix </i>also increase fire intensity and the probability of crown fires that result in high mortality rates in <i>Populus fremontii </i>(Brooks pers. comm. 2007). Many stands in southern California and the Central Valley have been invaded by <i>Arundo donax, </i>which has a similar effect in increasing fuel load and fire intensity and in reducing fire interval, often resulting in high mortality of native cottonwoods and willows and increased post-fire dominance by <i>Arundo </i>(Coffman 2007).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Medium
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Late summer-fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Less than stand size or larger
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>High
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Low to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Low to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Passive crown fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Sierra Nevada foothills
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Aa, Ac, Ae, Ah). Gray and Greaves (1984) describe coastal stands.</li>
+        
+            <li><b>Central California Coast Ranges</b> (M262Aa-h, Aj-k). Stands occur in San Benito and western Fresno Cos. (Evens et al. 2006). Stands of <i>Populus fremontii</i> with <i>Salix gooddingii</i> also exist along the Salinas River (B. Orr pers. comm. 2008). Other stands occur at Pinnacles National Monument (Kittel et al. 2012).</li>
+        
+            <li><b>Colorado Desert</b> (322Ca-d). Small stands occur at Anza-Borrego Desert State Park (Keeler-Wolf et al. 1998b, Spolsky 1979). Stands are scattered at oases throughout the section. Several stands exist along the Colorado River and All-American Canal.</li>
+        
+            <li><b>Great Valley</b> (262Aa-d, Af-z). Mixed stands occur in the section and are generally small and fragmented. They occur in the Sacramento Valley (Bahre and Whitlow 1982, Conard and Robichaux 1980), the northern Sacramento River (Vaghti 2003), the delta (Hickson and Keeler-Wolf 2007), and the San Joaquin River and its major tributaries (McBain and Trush, Inc. 2000, Stillwater Sciences 2001, Moise and Hendrickson 2002, Stella et al. 2003).</li>
+        
+            <li><b>Klamath Mountains</b> (M261Ac, Ai, Am, Ar, Au). Small stands occur along the Sacramento and Trinity rivers.</li>
+        
+            <li><b>Mojave Desert</b> (322Aa-j, Al-p). Stands occur in the Owens Valley (Brothers 1984) and are described for the central, southern, and eastern subsections (Thomas et al. 2004, Keeler-Wolf et al. 2005).</li>
+        
+            <li><b>Mono</b> (341Df, Dh-i). Stands are common in the upper Owens Valley near Bishop. A few stands also occur at freshwater springs on the western shores of Mono Lake. Two stands are mapped in Fish Slough Ecological Reserve (VegCAMP 2014b).</li>
+        
+            <li><b>Northern California Coast</b> (263Aj, Am). Stands exist scattered such as along the Napa River. Several surveyed stands along the Russian River (Klein et al. 2015).</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Ba-f). Small stands occur in inland areas at low elevations.</li>
+        
+            <li><b>Northern California Interior Coast Ranges</b> (M261Ca-c). Small stands occur in the section such as along the Thomes, Stony, and Elder creeks. One of the largest stands is aptly along Cottonwood Creek.</li>
+        
+            <li><b>Sierra Nevada</b> (M261Er-s, Eu). Small stands exist at lower montane elevations in the southern subsections (Potter 2005).</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fa-e). Mixed stands of <i>P. fremontii</i> with <i>Alnus rhombifolia, Platanus racemosa,</i> or <i>Salix laevigata</i> are common in the section (Potter 2005). Some stands have well-developed shrubs and lianas, such as <i>Cephalanthus occidentalis, Rubus armeniacus,</i> and <i>Vitis californica</i> (Klein et al. 2007). Cottonwood forest restoration efforts in the Kern River Preserve by Audubon California have been quite successful.</li>
+        
+            <li><b>Sonoran Desert</b> (322Ba-b, Bd-e). Many stands from the Colorado River bottomlands contain <i>Tamarix</i> spp.</li>
+        
+            <li><b>Southeastern Great Basin</b> (341Fc, Fe). Stands surveyed in Cottonwood Canyon, Saline Valley, and at China Garden Spring.</li>
+        
+            <li><b>Southern California Coast</b> (261Ba-j). Stands exist scattered along the upper Ventura, Santa Clara, San Gabriel, and Los Angeles rivers. The largest occur in flood-control basins. <i>Arundo donax</i> has invaded many stands along the Santa Clara River (Stillwater Sciences and URS 2007, Coffman 2007) and other rivers in this region. <i>Tamarix</i> is also present in some stands. Junak et al. (1995, 2007) cite stands from Santa Cruz and Santa Catalina islands.</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Ba-d, Bf-g, Bi-p). Stands occur along the Santa Margarita and Santa Ana rivers (Hanes 1984, Zembal 1989), in western Riverside Co. (Klein and Evens 2005), and in central San Diego Co. (Evens and San 2005); these vary in composition.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Most of the larger stands of <i>Populus fremontii </i>exist downstream from dams. Regulating stream flows below large dams to mimic key components of natural flood regimes in terms of flood duration, peak flow, and timing appears to be critical for restoring and maintaining healthy stands with successful seedling establishment in these managed systems (McBain and Trush, Inc. 2000, Rood et al. 2003, 2005, Stillwater Sciences 2006 and 2007b). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+                <p>Stands with a Mixed Tree Canopy</p>
+            
+            <ul class="text">
+                
+                    <li>Populus fremontii / Acer negundo [9], [12], [14]</li>
+                
+                    <li>Populus fremontii / Acer negundo / Rubus armeniacus [9]</li>
+                
+                    <li>Populus fremontii - Fraxinus velutina [19]</li>
+                
+                    <li>Populus fremontii - Juglans californica [7]</li>
+                
+                    <li>Populus fremontii - Prosopis spp. [1], [2]</li>
+                
+                    <li>Populus fremontii - Quercus agrifolia [7]</li>
+                
+                    <li>Populus fremontii - Salix gooddingii [12], [13], [18], [19]</li>
+                
+                    <li>Populus fremontii - Salix gooddingii / Baccharis salicifolia [1], [5], [11]</li>
+                
+                    <li>Populus fremontii - Salix laevigata [1], [4], [5], [6], [10], [12], [13]</li>
+                
+                    <li>Populus fremontii - Salix (laevigata, lasiolepis, lucida ssp. lasiandra) [7]</li>
+                
+                    <li>Populus fremontii - Salix laevigata / Salix lasiolepis - Baccharis salicifolia [5], [7]</li>
+                
+                    <li>Populus fremontii - Salix laevigata / Salix lasiolepis / Vitis girdiana [5]</li>
+                
+                    <li>Populus fremontii - Salix lasiolepis [7], [12], [16], [19]</li>
+                
+                    <li>Populus fremontii - Salix lucida ssp. lasiandra [8]</li>
+                
+                    <li>Populus fremontii - Sambucus nigra [7]</li>
+                
+            </ul>
+        
+            
+                <p>Stands with a Simple Tree Canopy</p>
+            
+            <ul class="text">
+                
+                    <li>Populus fremontii [9], [16]</li>
+                
+                    <li>Populus fremontii / Baccharis (emoryi, salicina) [13]</li>
+                
+                    <li>Populus fremontii / Baccharis salicifolia [1], [5], [7], [10], [11], [12], [15], [17], [20]</li>
+                
+                    <li>Populus fremontii / Baccharis sergiloides [13]</li>
+                
+                    <li>Populus fremontii Great Valley [9], [12], [17]</li>
+                
+                    <li>Populus fremontii / Rubus ursinus [9]</li>
+                
+                    <li>Populus fremontii / Salix exigua [3], [12], [14], [16], [19]</li>
+                
+                    <li>Populus fremontii / Vitis californica [4], [9], [12]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Evens, J.;San, S. 2005</li>
+		
+		<li>[2] Keeler-Wolf, T.;Roye, C.;Lewis, K. 1998b</li>
+		
+		<li>[3] Keeler-Wolf, T.;Thomas, K. 2000</li>
+		
+		<li>[4] Klein, A.;Crawford, J.;Evens, J.;Keeler-Wolf, T.;Hickson, D. 2007</li>
+		
+		<li>[5] Klein, A.;Evens, J. 2005</li>
+		
+		<li>[6] Potter, D.A. 2005</li>
+		
+		<li>[7] Stillwater Sciences and URS, 2007</li>
+		
+		<li>[8] Spolsky, A.M. 1979</li>
+		
+		<li>[9] Vaghti, M.G. 2003</li>
+		
+		<li>[10] Kittel, G.;Reyes, E.;Evens, J.;Buck, J.;Johnson, D. 2012</li>
+		
+		<li>[11] Sproul, F.;Keeler-Wolf, T.;Gordon-Reedy, P.;Dunn, J.;Klein, A.;Harper, K. 2011</li>
+		
+		<li>[12] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>[13] Evens, J.M.;Sikes, K.;Hastings, D.;Ratchford,J.S. 2014</li>
+		
+		<li>[14] Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>[15] Buck-Diaz, J.;Evens, J. 2011a</li>
+		
+		<li>[16] Buck-Diaz, J.;Evens, J. 2011b</li>
+		
+		<li>[17] CNPS Vegetation Program, 2015</li>
+		
+		<li>[18] Hickson, D.;Keeler-Wolf, T. 2007</li>
+		
+		<li>[19] Reyes, E.;Evens, J.;Glass, A.;Sikes, K.;Keeler-Wolf., T.;Winitsky, S.;Johnson, D.;Menke, J.;Hepburn, A. 2020a</li>
+		
+		<li>[20] Sikes, K.;Buck-Diaz, J.;Evens, J. 2021</li>
+		
+		<li>Barry, W.J. 1989a</li>
+		
+		<li>Barry, W.J. 1989b</li>
+		
+		<li>Bowler, P.A. 1989</li>
+		
+		<li>Capelli, M.H.;Stanley, S.J. 1984</li>
+		
+		<li>Cheatham, N.H.;Haller, J.R. 1975</li>
+		
+		<li>Conard, S.G.;Robichaux, R.F. 1980</li>
+		
+		<li>Evens, J.M.;Klein, A.;Taylor, J.;Hickson, D.;Keeler-Wolf, T. 2006</li>
+		
+		<li>Faber, P.M.;Keller, E.;Sands, A.;Massey, B.M. 1989</li>
+		
+		<li>Griffin, J.R.;Critchfield, W.B. 1972</li>
+		
+		<li>Holstein, G. 1984</li>
+		
+		<li>MacMahon, J.A. 1988</li>
+		
+		<li>McBride, J.R. 1994</li>
+		
+		<li>Menke, J.;Reyes, E.;Hepburn, A.;Johnson, D.;Reyes, J. 2013</li>
+		
+		<li>Minckley, W.L.;Brown, D.E. 1982</li>
+		
+		<li>NatureServe, 2007</li>
+		
+		<li>Paysen, T.E. 1982</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Black, H.;Bleich, V.C.;Mincks, J.W. 1980</li>
+		
+		<li>Sands, A. 1980</li>
+		
+		<li>Shiflet, T.N. 1994</li>
+		
+		<li>Stromberg, J.C.;Patten, D.T.;Richter, B.D. 1991</li>
+		
+		<li>Taylor, J.L. 2000</li>
+		
+		<li>Thomas, K.;Franklin, J.;Keeler-Wolf, T.;Stine, P. 2004</li>
+		
+		<li>Thorne, R.F. 1976</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program);AIS, 2013</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/68/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Quercus (agrifolia, douglasii, garryana, kelloggii, lobata, wislizeni)</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Quercus</i> (<i>agrifolia</i>, <i>douglasii</i>, <i>garryana</i>, <i>kelloggii</i>, <i>lobata</i>, <i>wislizeni</i><span style="padding-left: .2em">)</span></span> Forest &amp; Woodland Alliance <br/>
+        <span class="subtitle">Mixed oak forest and woodland</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Tree
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>250-2000 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S4
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G4
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>Yes
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>Yes
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/tree/quercus_spp._sonomaco_rparker.jpg', '/static/images/photos/tree/quercus-agrifolia-douglasii-garryana-kelloggii-lobata-wislizeni_palo-alto_04-2021.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Quercus</i> <i>agrifolia</i>, <i>Quercus</i> <i>douglasii</i>, <i>Quercus</i> <i>garryana</i>, <i>Quercus</i> <i>kelloggii</i>, <i>Quercus</i> <i>lobata</i> and/or <i>Quercus</i> <i>wislizeni</i> are co-dominant in the tree canopy with <i>Aesculus</i> <i>californica</i>, <i>Arbutus</i> <i>menziesii</i>, <i>Pinus</i> <i>sabiniana</i>, <i>Pseudotsuga</i> <i>menziesii</i> and <i>Umbellularia</i> <i>californica</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text"> Trees < 30 m; canopy is open (greater than 10%) to continuous, and it may be two tiered. Shrubs are infrequent or common. Herbaceous layer is sparse or abundant, may be grassy. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li>Three or more <i>Quercus</i> species present at > 30% constancy and they are co-dominant in the tree canopy (Allen et al. 1989).</li>
+		
+		<li><i>Quercus agrifolia, Quercus garryana, Quercus kelloggii</i>, and/or other oaks share the tree canopy at significant cover. Typically three or more oak species co-dominate (Buck-Diaz et al. 2021).</li>
+		
+		<li><i>Quercus agrifolia, Quercus douglasii, Quercus lobata </i>, and/or other oaks share the tree canopy at significant cover. Typically three or more oak species co-dominate (Sikes et al. 2021).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Valleys, gentle to steep slopes. Soils are moderately deep.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Mixed oak series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Quercus (agrifolia, douglasii, kelloggii, lobata, wislizeni) forest alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Coastal mixed hardwood, Interior live oak
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Oak woodland, Oak forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Northern oak woodland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Coastal oak woodland, Montane hardwood
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>71.100.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Tree Vegetation (Forest and Woodland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Warm Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Madrean Forest and Woodland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>California Forest and Woodland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Californian broadleaf forest and woodland
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> Allen et al. (1989, 1991) recognized a mixed oak series with 10 subseries; they based the subseries on the species composition of the woody plants since they lacked information on the herbaceous species. We followed their definition in the 1995 edition of the manual and listed the subseries as associations. <br/>
+<br/>
+A careful study of the key in Allen et al. allowed us to place some of their subseries in other alliances where definitions allow the characteristic oak be co-dominant (see list of associations for other oak alliances). For example, “valley oak and blue oak are co-dominant; coast live oak is present” becomes the <i>Quercus lobata-Quercus douglasii </i>association in the <i>Quercus lobata </i>alliance. We assigned the <i>Quercus wislizeni-Quercus douglasii-Pinus sabiniana </i>association to the <i>Quercus wislizeni </i>alliance because the third tree is not an oak. However, some subseries remain within this alliance, specifically when three or more oaks co-dominate. <br/>
+<br/>
+How should we treat these subseries and other stands that we have observed with three equally dominant oaks? Do they constitute an alliance when viewed at the statewide level? On the other hand, do we consider this variation best within established alliances? One more way, as presented in Allen-Diaz et al. (2007), is to place the subseries into larger units: blue oak woodland, blue oak-foothill pine woodland, coast oak woodland, and montane hardwood forest. Only more sampling and study will help us to answer these questions. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Quercus agrifolia</th>
+			
+		
+			
+			<th>Quercus douglasii</th>
+			
+		
+			
+			<th>Quercus garryana</th>
+			
+		
+			
+			<th>Quercus kelloggii</th>
+			
+		
+			
+			<th>Quercus lobata</th>
+			
+		
+			
+			<th>Quercus wislizeni</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Tree; evergreen</td>
+			
+		
+			
+			<td>Tree; winter deciduous</td>
+			
+		
+			
+			<td>Shrub; winter deciduous</td>
+			
+		
+			
+			<td>Tree; winter deciduous</td>
+			
+		
+			
+			<td>Tree; winter deciduous</td>
+			
+		
+			
+			<td>Shrub; evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Transient</td>
+			
+		
+			
+			<td>Transient</td>
+			
+		
+			
+			<td>Transient</td>
+			
+		
+			
+			<td>Transient; soil</td>
+			
+		
+			
+			<td>Soil; transient</td>
+			
+		
+			
+			<td>Transient</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+			
+			<td>Short</td>
+			
+		
+			
+			<td>Short </td>
+			
+		
+			
+			<td>Short</td>
+			
+		
+			
+			<td>Short</td>
+			
+		
+			
+			<td>Short</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; gravity</td>
+			
+		
+			
+			<td>Animal; gravity</td>
+			
+		
+			
+			<td>Animal; gravity</td>
+			
+		
+			
+			<td>Animal; gravity</td>
+			
+		
+			
+			<td>Animal; gravity</td>
+			
+		
+			
+			<td>Animal; gravity </td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Buds on large branches or trunks; underground structures?</td>
+			
+		
+			
+			<td>Buds on large branches or trunks; underground structures</td>
+			
+		
+			
+			<td>Buds on large branches or trunks; underground structures</td>
+			
+		
+			
+			<td>Buds on large branches or trunks; underground structures</td>
+			
+		
+			
+			<td>Buds on large branches or trunks; underground structures</td>
+			
+		
+			
+			<td>Buds on large branches or trunks; underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; thick epidermis; low flammability; high sprouter</td>
+			
+		
+			
+			<td>Fire-hardy to fire-sensitive; low/no sprouter to high sprouter (varies among populations)</td>
+			
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+			
+			<td>Fire-hardy to fire-sensitive; thin epidermis; high sprouter</td>
+			
+		
+			
+			<td>Fire-hardy; thick epidermis; high sprouter</td>
+			
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>25-250+ years</td>
+			
+		
+			
+			<td>10-200+ years</td>
+			
+		
+			
+			<td>5 years to age of plants</td>
+			
+		
+			
+			<td>30-500 years</td>
+			
+		
+			
+			<td>10-500 years</td>
+			
+		
+			
+			<td>10-300+ years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Low to medium; episodic</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>Episodic</td>
+			
+		
+			
+			<td>Medium</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>Episodic </td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>High</td>
+			
+		
+			
+			<td>High</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>High</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Fire characteristics will depend on the specific composition and stand structure. In general, seedlings and saplings top-killed by fire may sprout during the next growing season, while seedlings have a high rate of top-kill and mortality after burns. Larger and taller trees are more resistant to fire than young or small trees because of their greater thickness of protective bark and because of their elevated crown height. However, well-developed ladder fuels may carry fire easily into both short and tall trees.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+            <p>The range of these oaks suggests that mixed stands may occur beyond the range now known for the alliance at this time.</p>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Aa, Ac, Af-h, Aj-k). Mixed stands intermix with conifer and hardwood alliances in the Santa Cruz Mountains and in Contra Costa and Alameda Cos. (Allen et al. 1989, 1991).</li>
+        
+            <li><b>Central California Coast Ranges</b> (M262Aa-c, Ae-f, Ah). Mixed stands mingle with other forest types on both the western and valley sides from Santa Clara to Santa Barbara Cos. (Allen et al. 1991).</li>
+        
+            <li><b>Northern California Coast</b> (263Aj, Al-m). Mixed stands with <i>Q. agrifolia, Q. lobata, Q. kelloggii,</i> and <i>U. californica</i> occur in Marin and Sonoma Cos.</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Bb, Be-f). Mixed stands occur in Napa and Sonoma Cos. (Allen et al. 1989, 1991).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> A number of issues revolve around management of California’s oaks. The proceedings of the Fifth Symposium on Oak Woodlands (Standiford et al. 2002) address many current management issues. Managers should consider the ecology of the oaks involved in the stands in making management decisions. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Mixed oak - Aesculus californica / grass [1], [2]</li>
+                
+                    <li>Mixed oak / Baccharis pilularis - Toxicodendron diversilobum [1], [2]</li>
+                
+                    <li>Mixed oak / grass [1], [2], [4]</li>
+                
+                    <li>Mixed oak - Pinus sabiniana / grass [1], [2]</li>
+                
+                    <li>Mixed oak - Quercus agrifolia / Toxicodendron diversilobum [1], [2]</li>
+                
+                    <li>Mixed oak - Quercus kelloggii / grass [1], [2]</li>
+                
+                    <li>Quercus agrifolia - Quercus garryana - Quercus kelloggii [3], [6]</li>
+                
+                    <li>Quercus douglasii - Quercus lobata - Quercus agrifolia / Toxicodendron diversilobum [1], [2], [5]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Allen, B.H.;Evett, R.R. ;Holzman, B.A.;Martin, A.J. 1989</li>
+		
+		<li>[2] Allen, B.H.;Holzman, B.A.;Evett, R.R. 1991</li>
+		
+		<li>[3] Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>[4] Buck, J.;Evens, J. 2010</li>
+		
+		<li>[5] Sikes, K.;Buck-Diaz, J.;Evens, J. 2021</li>
+		
+		<li>[6] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>Allen-Diaz, B.H.;Holtzman, B.A. 1991</li>
+		
+		<li>Allen-Diaz, B.H.;Standiford, R.;Jackson, R.D. 2007</li>
+		
+		<li>Barbour, M.G. 1988</li>
+		
+		<li>Cooper, W.S. 1922</li>
+		
+		<li>Griffin, J.R. 1977</li>
+		
+		<li>Hanes, T.L. 1976</li>
+		
+		<li>Minnich, R.A. 1976</li>
+		
+		<li>Pavlik, B.M.;Muick, P.C.;Johnson, S.G.;Popper, M. 1991</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Black, H.;Bleich, V.C.;Mincks, J.W. 1980</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Conrad, C.E. 1982</li>
+		
+		<li>Plumb, T.R.;Gomez, A.P. 1983</li>
+		
+		<li>Shreve, F. 1927</li>
+		
+		<li>Vogl, R.J. 1976</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/86/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

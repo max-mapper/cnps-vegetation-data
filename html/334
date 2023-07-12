@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Cakile (edentula, maritima)</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+	<div class="allianceHeader">
+		<span class="scientificName"><i>Cakile</i> (<i>edentula</i>, <i>maritima</i><span style="padding-left: .2em">)</span></span> Provisional Herbaceous Semi-Natural Alliance <br/>
+		<span class="subtitle">Sea rocket sands</span>
+	</div>
+
+	<div class="mainAllianceInfo">
+
+		<div class="allianceSideInfo">
+			<div class="quickInfoList">
+				<h4>Summary Information</h4>
+				<ul>
+					<li>
+						<span class="category">Primary Life Form</span>Herb
+					</li>
+					<li>
+						<span class="category">Elevation</span>0-5 m
+					</li>
+					<li>
+						<span class="category">State Rarity</span>SNA
+					</li>
+					<li>
+						<span class="category">Global Rarity</span>None
+					</li>
+					<li>
+						<span class="category">Distribution</span>CAN: LB, NB, NF, NS, ON, PE, QC. USA: CA, CT, DE, FL, GA, IL, IN, MA, MD, ME, MI, NC, NH, NJ, NY, OH, PA, RI, SC, VA, VT, WI (NatureServe)
+					</li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2009/09/01
+                    </li>
+				</ul>
+			</div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/herb/cakile-edentula_lagoonssp_02.jpg', '/static/images/photos/herb/cakile-edentula_lagoonssp_01.jpg', '/static/images/photos/herb/cakile_smat0264_sangregoriosb_7_2019.jpg']
+            </script>
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+		</div>
+
+		
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Cakile</i> <i>edentula</i> or <i>Cakile</i> <i>maritima</i> is dominant in the herbaceous layer. </div>
+</div>
+
+		
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Herbs < 50 cm; cover is sparse. </div>
+</div>
+
+		
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Bare sand at the leading edge of the beach, within the reach of storm tides and extreme lunar tides. The USFWS Wetland Inventory (1996 national list) recognizes <i>Cakile edentula</i> as a FACU plant and <i>Cakile maritima</i> as a FACW plant. </div>
+</div>
+
+		
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance, and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Native dune grass series, Sand verbena-beach bursage series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Cakile edentula sparsely vegetated alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Dunes, Beach sand
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Northern foredunes, Southern foredunes
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Coastal strand
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Barren, Coastal scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>21.125.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+	</div>
+
+
+	<!-- collapsable content below -->
+
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Cakile edentula </i>and <i>C. maritima </i>are succulent annual or short-lived plants; they survive several years under favorable conditions. Both species invade upper beaches and landward edges of nearshore dunes through several adaptive strategies. They possess dimorphic seeds to cope with highly variable environments, produce larger seed sizes and increase growth and biomass to cope with sand burial, and rapidly elongate roots upon germination to reach moisture and avoid desiccation (Maun 1994, 1998, Zhang 1994). Seawater and wind disperse seeds locally and longdistances; the buoyant seeds can float for long periods and distances (Cordazzo 2006). <br/>
+<br/>
+The National Vegetation Classification (NatureServe 2007a) recognizes a sparsely vegetated alliance in the United States and in Europe. <i>C. edentula </i>and <i>C. maritima </i>are not natives in California, and they are two of a very short list of species that thrive along the leading edge of the beach. Both species have similar reproductive output, but <i>C. maritima </i>has higher survivorship and more seed output on nearshore dunes, where it might live for several years<i>. C. maritima </i>is replacing <i>C. edentula </i>at southern beaches of California, whereas the more severe winter conditions at northern areas allow for their coexistence (Boyd and Barbour 1993). <i>Layia carnosa </i>and <i>Abronia umbellata </i>ssp. <i>breviflora </i>(CNPS list 1B.1 plants) grow with these species on upper beaches and landward edges of the nearshore dunes. <br/>
+<br/>
+Stands of <i>Leymus mollis </i>and <i>Abronia latifolia- Ambrosia chamissonis </i>alliances also exist on nearshore dunes, and <i>C. maritima </i>has led to the reduction and in some situations, to the extirpation of <i>Abronia umbellata </i>ssp. <i>breviflora </i>stands. However, due to the sparseness of vegetation and regularly altered nature of this environment, environmental factors primarily affect these stands (Pickart and Barbour 2007). <i>Ammophila arenaria </i>further displaces natives on the higher parts of beach where most plants exist. Pickart and Sawyer (1998) review methods of control. </div>
+</div>
+
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Observations</h4>
+	<div class="text"> Casavecchia and Biondi (2001) and Walgren et al. (2005) described <i>Cakile maritma</i> stands near the tide line from Point Arena and Morro Bay. Mixed stands on the upper beaches and landward edges of nearshore dunes along the Northern California Coast (263A) from Humboldt Bay to Point Reyes National Seashore remain unsampled. The species’ range suggests that the alliance occurs along Southern California Coast (261B) beaches including the Channel Islands. This is an easy alliance to sample. </div>
+</div>
+
+	
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>[2] Sikes, K.;Buck-Diaz, J.;Evens, J. 2021</li>
+		
+		<li>Barbour, M.G. 1972</li>
+		
+		<li>Barbour, M.G.;Rodman, J.E. 1970</li>
+		
+		<li>Boyd, R.S. 1988</li>
+		
+		<li>Boyd, R.S.;Barbour, M. G. 1993</li>
+		
+		<li>Kaye, T. 2006</li>
+		
+		<li>Maun, M.A. 1994</li>
+		
+		<li>Maun, M.A. 1998</li>
+		
+		<li>Peinado, M.;Ocana-Peinado, F.M.;Aguirre, J.L.;Delgadillo, J.;Macias, M.A.;Diaz-Santiago, G. 2011</li>
+		
+		<li>Pickart, A.J.;Barbour, M.G. 2007</li>
+		
+		<li>Pickart, A.J.;Sawyer, J.O. 1998</li>
+		
+		<li>Wiedemann, A.M. 1984</li>
+		
+		<li>Zhang, J. 1994</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+	<script src="/static/javascript/alliance_page.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

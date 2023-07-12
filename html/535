@@ -1,0 +1,1012 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Avena spp. - Bromus spp.</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Avena</i> spp. - <i>Bromus</i> spp.</span> Herbaceous Semi-Natural Alliance <br/>
+        <span class="subtitle">Wild oats and annual brome grasslands</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Herb
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-2200 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>SNA
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>GNA
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA, OR?; Mexico (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                        <li>
+                            <span class="category">Invasive species rank</span>
+                            See remarks
+                        </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2016/12/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/herb/avena-barbata-fatua_carrizoplainnm_05-12.jpg', '/static/images/photos/herb/avena-barbata-fatua_ranchojamul_05-09_01.jpg', '/static/images/photos/herb/bromus-diandrus-hordeaceus_brachypodium-distachyon_santamonicamtns_04-03.jpg', '/static/images/photos/herb/bromus-diandrus-hordeaceus_brachypodium-distachyon_sfvwla_2005.jpg', '/static/images/photos/herb/bromus-diandrus-hordeaceus_brachypodium-distachyon_sfvwla_02-05.jpg', '/static/images/photos/herb/bromus-diandrus-hordeaceus_brachypodium-distachyon_partiallyserpnapa_2003.jpg', '/static/images/photos/herb/avena-bromus_n-scruz-co_05-2021.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Avena</i> <i>barbata</i>, <i>Avena</i> <i>fatua</i>, <i>Brachypodium</i> <i>distachyon</i>, <i>Briza</i> <i>maxima</i>, <i>Bromus</i> <i>diandrus</i>, <i>Bromus</i> <i>hordeaceus</i> and/or <i>Hordeum</i> <i>murinum</i> is dominant or co-dominant with other non-natives in the herbaceous layer such as <i>Atriplex</i> <i>semibaccata</i> and <i>Hordeum</i> spp. Emergent trees and shrubs may be present at low cover. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Herbs < 1.2 m; cover is open to continuous. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Bromus diandrus</i> > 60% relative cover with other non-natives in herbaceous layer and with a variety of annuals at low cover (Klein and Evens 2005).</li>
+		
+		<li><i>Avena fatua</i> > 50% relative cover, and native herbs relatively low in cover in the herbaceous layer (Keeler-Wolf and Evens 2006).</li>
+		
+		<li><i>Avena</i> spp. > 50% relative cover, and native herbs < 10% relative cover in the herbaceous layer (Evens and Kentner 2006, Klein et al. 2007).</li>
+		
+		<li><i>Avena</i> spp. > 75% relative cover; other non-native or native plants < 5% absolute cover, if present, in the herbaceous layer (Evens and San 2004).</li>
+		
+		<li><i>Brachypodium distachyon</i> > 60% relative cover in the herbaceous layer (Keeler-Wolf et al. 2003a).</li>
+		
+		<li><i>Bromus diandrus, B. hordeaceus,</i> and/or <i>Brachypodium distachyon</i> > 80% relative cover separately or co-dominant with non-natives; natives usually with low or insignificant cover (Klein et al. 2007).</li>
+		
+		<li><i>Bromus hordeaceus</i> > 50% relative cover in the herbaceous layer (Jimerson et al. 2000).</li>
+		
+		<li><i>Avena, Brachypodium, Briza, Bromus diandrus, Bromus hordeaceus</i> and/or <i>Erodium</i> > 50% relative cover individually or in combination (Klein et al. 2015).</li>
+		
+		<li><i>Avena, Brachypodium, Briza, Bromus, Erodium</i> and/or <i>Hypochaeris</i> > 30% relative cover individually, or share > 50% relative cover in the herbaceous layer (Buck-Diaz et al. 2021, Sikes et al. 2021).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> All topographic settings in foothills, waste places, rangelands, openings in woodlands. The USFWS Wetland Inventory (2012 national list) recognizes <i>Bromus hordeaceus</i> as a FACU plant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>California annual grassland series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Avena fatua herbaceous alliance, Bromus (diandrus, hordeaceus, madritensis) herbaceous alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Annual grasses and forbs, Non-native/ornamental grass
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Valley and foothill grassland, Non-native grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Valley grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Annual grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>42.027.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Mediterranean Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Mediterranean Grassland and Forb Meadow
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>California Grassland and  Meadow
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>California Annual and Perennial Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Mediterranean California naturalized annual and perennial grassland
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Avena </i>species are cool-season, annual grasses from Eurasia. Introduction of <i>A. barbata </i>and <i>A. fatua </i>dates back to the late 1770s in California. Adaptation to the state’s many environments has led to many ecotypes. Seeds form transitory or permanent seed banks depending on the ecotype. Most seeds germinate after the first significant rain in the fall (DiTomaso and Healy 2007). <br/>
+<br/>
+<i>Avena barbata, </i>slender oat, has a Cal-IPC rank of Moderate. It has slender spikelets, long awns, and open, lax panicles that distinguish the species. <i>A. fatua, </i>wild oat, has a Cal-IPC rank of Moderate. It has round spikelets, long awns, and open, lax panicles that distinguish the species. <br/>
+<br/>
+Three other <i>Avena </i>species grow in California: <i>A. sterilis, </i>a federal noxious species, grows uncommonly in California, as do <i>A. occidentalis </i>and <i>A. sativa</i>. Reports of <i>A. strigosa </i>in the state are misidentifications (Baum 2007). The easiest oat to recognize is <i>A. sativa, </i>the cultivated oat; the glumes are generally awnless. DiTomaso and Healy (2007) offer a comparison table to help in identification. <br/>
+<br/>
+<i>Bromus diandrus, </i>ripgut brome, has a Cal-IPC rank of Moderate. It is a cool-season, annual grass from Eurasia with greenish-tan dangling inflorescences of many spikelets, sharp florets, and long awns. Most of its seeds germinate after the first significant rain in the fall. Germination is best on a seedbed of thatch. Most germinating seeds survive the sporadic wetting and drying cycles that occur though the growing season. Plants set seed and die by the end of the growing season in the spring (DiTomaso and Healy 2007). <br/>
+<br/>
+<i>Bromus hordeaceus, </i>soft brome, has a Cal-IPC rank of Limited. It is a cool-season, annual grass from Eurasia with greenish-tan plump inflorescences of many spikelets and short awns. Most of its seeds germinate after stratification and only few accumulate in a persistent seed bank. Germination is best on a seedbed of moderate mulch at warm (10-30 ºC) temperatures. Most germinating seeds survive the sporadic wetting and drying cycles that occur though the growing season. Survival is highest on clay substrates. Plants set seed and die by the end of the growing season in the spring (DiTomaso and Healy 2007). <br/>
+<br/>
+<i>Brachypodium distachyon, </i>false brome, has a Cal-IPC rank of Moderate. It is a cool-season, annual from Europe with inflorescences, often tinged purplish, of 1-6 spikelets and short awns. Plants are identified easily by their shorthairy stem nodes. Most of its seeds germinate after the first significant rain in the fall. Plants tolerate shade and thin, rocky soils (DiTomaso and Healy 2007). <br/>
+<br/>
+Wild oats, annual bromes, and annual natives occur in similar habitats. Natives in the genera <i>Clarkia, Dichelostemma, Galium, Lupinus, Plagiobothrys, </i>and <i>Trifolium </i>are often present in these stands. However, <i>Avena </i>stands have some ecological distinctions from those dominated by the annual bromes. Tall stands of <i>Avena </i>spp. dominate grasslands with years of accumulated thatch (Reiner 2007). The oats grow more slowly and produce less seed under high-frequency clipping (or grazing) regimes than do the shorter, non-native <i>Bromus rubens </i>and <i>Vulpia </i>spp. (Savelle and Heady 1970). <br/>
+<br/>
+Fall temperatures and precipitation, light intensity affected by shading from plants and litter, and differences in microtopography determine annual grassland composition the following spring (Bartolome et al. 2007a, b, Evans and Young 1989). Bartolome (1989) suggested that the fine-scale variation in temporal and spatial structure found in the California annual grasslands are unimportant to recognize and define associations. However, we find associations useful for conservation. The presence of native plants appears sufficient to identify certain alliances when they have regular constancy and cover. This is our approach here, and we need further study in ways to increase native plant populations in the California annual grassland dominated by wild oats and annual bromes.<br/>
+<br/>
+This alliance was formerly treated as two separate alliances in the 2009 publication <i>A Manual of California Vegetation, second edition</i> which cited both <i>Avena (barbata, fatua)</i> and <i>Bromus (diandrus, hordeaceus) - Brachypodium distachyon</i> Semi-natural Alliances. These two alliances were merged due to their frequent overlap in species composition.  The <i>Avena </i>spp. - <i>Bromus </i> spp. Alliance accounts for the largest acreage of non-native grassland vegetation in cismontane California. We should have more interest in the native plants with low cover in studies of annual grasslands. For example, despite the widely held notion that serpentine substrates are resistant to many non-native annual grasses, Harrison and Viers (2007) found that many serpentine stands often have high <i>Bromus hordeaceus </i>cover. The native herb dominance depended on amount of rainfall and rockiness of soil. Stands on rocky serpentine soils in areas with high rainfall include that of <i>Lasthenia californica - Plantago erecta - Vulpia microstachys </i>alliance and occur with this <i>Avena </i>spp. - <i>Bromus </i> spp. type. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Avena barbata</th>
+			
+		
+			
+			<th>Avena fatua</th>
+			
+		
+			
+			<th>Brachypodium distachyon</th>
+			
+		
+			
+			<th>Briza maxima</th>
+			
+		
+			
+			<th>Bromus diandrus</th>
+			
+		
+			
+			<th>Bromus hordeaceus</th>
+			
+		
+			
+			<th>Hordeum murinum</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Annual; herb</td>
+			
+		
+			
+			<td>Annual; herb</td>
+			
+		
+			
+			<td>Annual/perennial; herb</td>
+			
+		
+			
+			<td>Annual; herb</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Annual; herb</td>
+			
+		
+			
+			<td>Annual; herb</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Soil-stored</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Long</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Gravity</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Stratification</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Fire-hardy</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>1 year</td>
+			
+		
+			
+			<td>1 year</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>1 year</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>High</td>
+			
+		
+			
+			<td>High</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>High</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>By subspecies</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Recently, ecologists (Keeley 2006, Minnich 2008, Wills 2006) have argued that plants of the California annual grassland tolerate a wide variety of fire regimes. Prior to the European settlement, herbs probably dominated the more xeric, herbaceous landscapes of central and southern California. Areas burned at high frequencies close to Native American habitation, but they may have burned only once or twice a century elsewhere as a result of infrequent lightning strikes. 
+
+Today the dominance of wild oats and annual bromes has changed the ecology of California’s grassland landscapes. Summer and fall fires appear to have little direct effect on these grasses. Fast-burning and relatively cool fires do not kill seed (DiTomaso and Healy 2007). Some brome seeds germinate after a fire in open light conditions, but best germination occurs within a thatch layer. <i>Avena </i>has awns and bristles that “unscrew” as the seeds dry, tending to bury the seeds relatively quickly following seed maturation, allowing seeds to remain insulated from fire (Reiner 2007).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+            <p>The range of <i>Avena barbata</i> and <i>A. fatua</i> includes low elevations across California, except the Sonoran Desert (322B). The range of these bromes includes cismontane California at low elevations.</p>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Aa-l). Stands of <i>Brachypodium distachyon </i>in the Santa Cruz Mountains also contain trace cover of <i>Nassella pulchra </i>and other natives (CNPS 2005).</li>
+        
+            <li><b>Central California Coast Ranges</b> (M262Aa-k). Stands dominated by <i>Bromus hordeaceus</i> in the western Diablo Range at Coyote Ridge (Evens and San 2004) include <i>Amsinckia menziesii, Calystegia collina, Castilleja affinis </i>ssp. <i>neglecta </i>(a CNPS list 1B plant), <i>Chlorogalum pomeridianum, Cryptantha flaccida, Eschscholzia californica, Hordeum leporinum, </i>and <i>Lolium perenne. </i>Stands dominated by <i>Avena </i> spp. with <i>Bromus hordeaceus, Centaurea </i>spp., <i>Erodium </i>spp., <i>Nassella pulchra, Dichelostemma capitatum, </i>and <i>Sisyrinchium bellum </i>occur on deep, loamy soils where haying and cattle grazing continue (Evens and San 2004).</li>
+        
+            <li><b>Great Valley</b> (262Aa-z). Stands exist throughout the section adjacent to other grassland types, including the <i>Amsinckia </i>(<i>menziesii, tessellata</i>), <i>Brassica </i>(<i>nigra</i>) and other mustards, <i>Leymus triticoides </i>and <i>Quercus lobata </i>alliances. Stands are common at Great Valley Grasslands State Park (Solomeshch and Barbour 2006).</li>
+        
+            <li><b>Klamath Mountains</b> (M261Aa-f, Ah-n, Ap-r, Au). Stands in the section (Jimerson et al. 2000) contain <i>Aira caryophyllea, Dichelostemma multiflorum, Erodium botrys, Limnanthes douglasii, </i>and <i>Taeniatherum caput-medusae</i>.</li>
+        
+            <li><b>Northern California Coast</b> (263Aa-m). Stands in the Point Reyes National Seashore and environs (Keeler-Wolf et al. 2003a) contain <i>Avena fatua, Brassica rapa, Carpobrotus edulis, Cynosurus echinatus, Hypochaeris glabra, </i>and emergent <i>Baccharis pilularis </i>shrubs.</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Ba-f). Stands throughout the section (Jimerson et al. 2000) contain <i>Aira caryophyllea, Dichelostemma multiflorum, Erodium botrys, Limnanthes douglasii, </i>and <i>Taeniatherum caput-medusae</i>.</li>
+        
+            <li><b>Northern California Interior Coast Ranges</b> (M261Ca-c). Stands occur throughout the section (Jimerson et al. 2000).</li>
+        
+            <li><b>Sierra Nevada</b> (M261Ea-n, Ep-u). Stands have been sampled in Yosemite National Park (Keeler-Wolf et al. 2003b).</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fa-e). <i>Bromus hordeaceus </i>stands at Peoria Wildlife Area (Evens et al. 2004) contain <i>Clarkia purpurea, Holocarpha virgata, Lolium perenne, Lupinus nanus, Plagiobothrys nothofulvus, Taeniatherum caput-medusae, Trifolium hirtum, Vicia villosa, </i>and <i>Vulpia microstachys. Brachypodium distachyon </i>stands include <i>Amsinckia menziesii, Centaurea </i>spp., <i>P. nothofulvus, Vicia villosa, </i>emergent <i>Toxicodendron diversilobum </i>shrubs and <i>Quercus douglasii </i>trees. <i>Bromus hordeaceus </i>stands in the northern subsection (Klein et al. 2007) have <i>Daucus pusillus, Erodium botrys, Holocarpha virgata, Leontodon taraxacoides, Lupinus nanus, Plagiobothrys fulvus, P. nothofulvus, Taeniatherum caput-medusae, </i>and <i>Trifolium hirtum.</i> Stands dominated by <i>A. barbata </i>also had <i>Bromus hordeaceus, B. rubens, Clarkia purpurea, Croton setigerus, Filago gallica, Galium murale, G. parisiense, Lactuca serriola, Lupinus nanus, </i>and <i>Trifolium microcephalum </i>(Klein et al. 2007).</li>
+        
+            <li><b>Southern California Coast</b> (261Ba-j). Stands at Santa Monica Mountains (Keeler-Wolf and Evens 2006) include <i> Avena barbata, A. fatua, Asclepias fascicularis, Brassica nigra, Bromus diandrus, B. rubens, Centaurea melitensis, Dichelostemma capitatum, Hirschfeldia incana, </i>and <i>Vicia villosa.</i></li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Ba-p). <i>Bromus diandrus </i>stands in western Riverside Co. (Klein and Evens 2005) contain <i>Croton setigerus, Hirschfeldia incana, Hordeum marinum, Lactuca serriola, </i>and <i>Salsola tragus; </i>those in central San Diego Co. (Evens and San 2004) contain the following natives: <i>Ambrosia psilostachya, Elymus glaucus,Croton setigerus, Lotus </i>spp., <i>Lupinus bicolor, </i>and <i>Trichostema lanceolatum</i>.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> The role of grazing or other disturbances in the reduction of native plants in California’s annual grasslands is varied and complex. It appears that the original soil conditions, climate, fire frequency, the presence of roads, and the intensity and duration of grazing all play a role (D’Antonio et al. 2007, Gelbard and Harrison 2003, Harrison 1999, Harrison et al. 2002, Harrison and Viers 2007, Safford and Harrison 2004). Stands dominated by these non-native annual grasses often have conservation value as wildlife habitat and contain seasonal presence of native plants, many with limited ranges. The non-native grasses attain strong dominance in years of high precipitation (Bartolome et al. 2007a, Harrison and Viers 2007), and the natives are often overlooked. Restoration plans should take this variability into account. The most successful programs use integrated approaches (DiTomaso et al. 2007). Stands with a history of deep tillage and crop cultivation lack native plants (D’Antonio et al. 2007), and they are less amenable to restoration.  
+
+Depending on geographic location and soil condition, fire and grazing have variable effects on annual grasslands. In the northern Coast Ranges, Harrison et al. (2003) found that <i>A. fatua </i>increased in frequency with response to fire on non-serpentine soil but decreased after fire on serpentine soil. On both soils, however, the oats decreased with grazing. In the central Sierra Nevada foothills, Parsons and Stohlgren (1989) found that forb cover, diversity, and overall productivity increased with the removal of litter by fire, thereby enhancing the availability of nutrients, light, and space. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Atriplex semibaccata - Hordeum (murinum) [14]</li>
+                
+                    <li>Avena barbata - Avena fatua [1], [5], [12], [13], [14], [15], [16], [17], [19], [20], [21], [22], [23], [24]</li>
+                
+                    <li>Avena barbata - Bromus hordeaceus [8]</li>
+                
+                    <li>Brachypodium distachyon [6], [12], [14], [15], [16], [23], [24]</li>
+                
+                    <li>Brachypodium distachyon - Bromus diandrus / Quercus douglasii [8]</li>
+                
+                    <li>Briza maxima [15], [23]</li>
+                
+                    <li>Bromus diandrus [5], [11], [12], [13], [14], [15], [17], [18], [19], [23]</li>
+                
+                    <li>Bromus diandrus - Avena spp. [5], [14], [18]</li>
+                
+                    <li>Bromus diandrus - Mixed herbs [2], [5], [7], [20]</li>
+                
+                    <li>Bromus hordeaceus - Aira caryophyllea [4]</li>
+                
+                    <li>Bromus hordeaceus - Amsinckia menziesii - Hordeum murinum [1]</li>
+                
+                    <li>Bromus hordeaceus - Bromus tectorum [4]</li>
+                
+                    <li>Bromus hordeaceus - Dichelostemma multiflorum [4]</li>
+                
+                    <li>Bromus hordeaceus - Erodium botrys [4], [10], [14], [15], [23], [24]</li>
+                
+                    <li>Bromus hordeaceus - Erodium botrys - Plagiobothrys fulvus [8], [13], [17], [19]</li>
+                
+                    <li>Bromus hordeaceus - Hordeum spp. - Medicago polymorpha [13], [17], [19]</li>
+                
+                    <li>Bromus hordeaceus - Leontodon saxatilis [8], [13], [17], [19]</li>
+                
+                    <li>Bromus hordeaceus - Limnanthes douglasii [4]</li>
+                
+                    <li>Bromus hordeaceus - Taeniatherum caput-medusae [4], [13]</li>
+                
+                    <li>Bromus hordeaceus - (Vicia villosa - Lolium perenne) - Trifolium hirtum [3], [8], [13]</li>
+                
+                    <li>Bromus hordeaceus - Vulpia myuros var. hirsuta [9]</li>
+                
+                    <li>Hypochaeris glabra - Vulpia bromoides [13], [14], [17], [19], [23]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Evens, J.;San, S. 2004</li>
+		
+		<li>[2] Evens, J.;San, S. 2005</li>
+		
+		<li>[3] Evens, J.M.;San, S.;Taylor, J. 2004</li>
+		
+		<li>[4] Jimerson, T.M.;Menke, J.W.;Carothers, S.K.;Murray, M.P.;VanSickle, V.;McClellan, K.H. 2000</li>
+		
+		<li>[5] Keeler-Wolf, T.;Evens, J. 2006</li>
+		
+		<li>[6] Keeler-Wolf, T .;Schirokauer, D.;Meinke, J.;van derLeeden, P. 2003a</li>
+		
+		<li>[7] Klein, A.;Evens, J. 2005</li>
+		
+		<li>[8] Klein, A.;Crawford, J.;Evens, J.;Keeler-Wolf, T.;Hickson, D. 2007</li>
+		
+		<li>[9] Kopecko, K.J.;Lathrop, E.W. 1975</li>
+		
+		<li>[10] Schlising, R.A.;Sanders, E.L. 1982</li>
+		
+		<li>[11] Solomeshch, A.;Barbour, M. 2006</li>
+		
+		<li>[12] Sproul, F.;Keeler-Wolf, T.;Gordon-Reedy, P.;Dunn, J.;Klein, A.;Harper, K. 2011</li>
+		
+		<li>[13] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>[14] Rodriguez, D.;Sikes, K.;Keeler-Wolf, T.;Kittel, G.;Curtis, J.;Curley, C.;Evens, J. 2017</li>
+		
+		<li>[15] Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>[16] Verdone, L.;Evens, J. 2010</li>
+		
+		<li>[17] Buck-Diaz, J.;Harbert, B.;Evens, J. 2011</li>
+		
+		<li>[18] AECOM, 2013</li>
+		
+		<li>[19] Buck-Diaz, J.;Ratchford, J.;Evens, J. 2013</li>
+		
+		<li>[20] Buck, J.;Evens, J. 2010</li>
+		
+		<li>[21] Rodriguez, D. 2015</li>
+		
+		<li>[22] Parsons, D.J. ;Stohlgren, T.J. 1989</li>
+		
+		<li>[23] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>[24] Sikes, K.;Buck-Diaz, J.;Evens, J. 2021</li>
+		
+		<li>Bartolome, J.W.;Barry, W.J.;Griggs, T.;Hopkinson, P. 2007a</li>
+		
+		<li>Bartolome, J.W.;Hayes, G.F.;Ford, L.D. 2007b</li>
+		
+		<li>Baum, B.R. 2007</li>
+		
+		<li>D'Antonio, C.M.;Malmstrom, C.;Reynolds, S.A.;Gerlach, J. 2007</li>
+		
+		<li>DiTomaso, J.M.;Healy, E.A. 2007</li>
+		
+		<li>HDR, 2014b</li>
+		
+		<li>Heady, H.F. 1977</li>
+		
+		<li>Keeler-Wolf, T.;Evens, J.M.;Solomeshch, A.I.;Holland, V.L.;Barbour, M.G. 2007</li>
+		
+		<li>Keeler-Wolf, T.;Schindel, M.;San, S.;Moore, P.;Hickson, D. 2003b</li>
+		
+		<li>Keeley, J.E. 2006</li>
+		
+		<li>Kittel, G.;Reyes, E.;Evens, J.;Buck, J.;Johnson, D. 2012</li>
+		
+		<li>Stromberg, M.R.;Corbin, J.D.;D’Antonio, C.M. 2007</li>
+		
+		<li>Wills, R. 2006</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/535/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

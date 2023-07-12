@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Allenrolfea occidentalis</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Allenrolfea</i> <i>occidentalis</i></span> Shrubland Alliance <br/>
+        <span class="subtitle">Iodine bush scrub</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>80-1800 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3.2
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G4
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: AZ, CA, NM, NV, OR, TX, UT, WY. Mexico (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/allenrolfea-occidentalis_01_byron_04-06.jpg', '/static/images/photos/shrub/allenrolfea-occidentalis_02_byron_04-06.jpg', '/static/images/photos/shrub/allenrolfea-occidentalis_03_byron_04-06.jpg', '/static/images/photos/shrub/allenrolfea-occidentalis_badwaterdvnp_10-99_01.jpg', '/static/images/photos/shrub/allenrolfea-occidentalis_carrizo_04-05_01.jpg', '/static/images/photos/shrub/allenrolfea-occidentalis_saltcrdvnp_04-95_01.jpg', '/static/images/photos/shrub/allenrolfea-occidentalis_saltcrdvnp_04-95_02.jpg', '/static/images/photos/shrub/allenrolfea-occidentalis_alonghwy95_02-12.jpg', '/static/images/photos/shrub/allenrolfea-occidentalis_palenlake_11-12_04.jpg', '/static/images/photos/shrub/allenrolfea-occidentalis_palenlake_11-12_01.jpg', '/static/images/photos/shrub/allenrolfea-occidentalis_palenlake_11-12_02.jpg', '/static/images/photos/shrub/allenrolfea-occidentalis_palenlake_11-12_03.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Allenrolfea</i> <i>occidentalis</i> is dominant or co-dominant in the shrub and herbaceous layers with <i>Atriplex</i> <i>canescens</i>, <i>Distichlis</i> <i>spicata</i>, <i>Frankenia</i> <i>salina</i>, <i>Kochia</i> <i>californica</i>, <i>Sarcobatus</i> <i>vermiculatus</i>, <i>Sporobolus</i> <i>airoides</i> and <i>Suaeda</i> <i>moquinii</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 2 m; canopy is open to continuous. Herbaceous layer is variable. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Allenrolfea occidentalis</i> > 2% absolute cover in the shrub canopy, and no other species with greater or equal cover (Keeler-Wolf et al. 1998b, Thomas et al. 2004).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Dry lakebed margins, hummocks, playas perched above current drainages, seeps. The USFWS Wetland Inventory (1996 national list) recognizes <i>Allenrolfea occidentalis</i> as a FACW+ plant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Iodine bush series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Allenrolfea occidentalis shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Greasewood, Alkaline mixed scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Desert sink scrub, Desert greasewood scrub, Valley sink scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Alkali sink
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Alkali desert scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>36.120.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate and Boreal Shrubland and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate and Boreal Salt Marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North American Interior Alkali-Saline Wetland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Warm Semi-Desert/Mediterranean Alkali-Saline Wetland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Southwestern North American salt basin and high marsh group
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Allenrolfea occidentalis </i>is a multi-branched shrub with fleshy, jointed stems. It occurs at seasonally moist or flooded sites, where evaporation concentrates transported salts that create mineral crusts on the soil surface. Plants are tolerant of extreme salinity and heavy soils, which tend to exclude other species, and plants usually form the lowest ring of perennial vegetation around desert salt flats. In contrast to <i>Suaeda moquinii, </i>it is restricted to intermittently saturated substrates. It is more tolerant of high concentrations of salinity and inundation than are <i>Atriplex </i>species (Reid et al. 1999). <br/>
+<br/>
+In general, stands in the Mojave and Colorado deserts have small, low, and widely to intermittently spaced shrubs. San Joaquin Valley stands have shrubs up to 2 m in height and width. Based on the substantial woody bases of these shrubs, they are old. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Allenrolfea occidentalis</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Shrub, evergreen, winter deciduous; stem succulent</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Wind</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Inundation (moisture)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Buds on small branches (stem); underground structure (root crown)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>2 years to life of plant</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>High</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>By section</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Fluvial processes rather than fire primarily disturb stands. Plants sprout after fire and other disturbances, but information on fire characteristics is lacking. Because of the harsh environment and succulent nature of the plants, fire is unlikely in all but the densest and driest stands.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Truncated long
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Spring-summer-fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Small
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>High
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Low
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Surface-passive crown fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Southeastern deserts
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast Ranges</b> (M262Ad, Ai). Stands occur in Carrizo Plain around Soda Lake and range as far north as the Livermore Valley in the Diablo Ranges. Clearing stands for development threaten the northernmost stands.</li>
+        
+            <li><b>Colorado Desert</b> (322Ca-c). Stands occupy playa borders and adjacent lower bajadas, as well as alkaline terraces above washes, in Anza-Borrego Desert State Park (Keeler-Wolf et al. 1998) and in Coachella Valley (McHargue 1973), where they mix with stands of <i>Atriplex canescens, A. polycarpa,</i> and <i>Sueda moquinii</i> alliances.</li>
+        
+            <li><b>Great Valley</b> (262Aq, At-w, Ay). San Joaquin Valley stands form fine-scale mosaics with those of the <i>Atriplex polycarpa, Sporobolus airoides,</i> and <i>Suaeda moquinii</i> alliances, depending on depth to water table.</li>
+        
+            <li><b>Mojave Desert</b> (322Aa-i, Ak, Am-o). Stands exist in most subsections with descriptions from Death Valley (Bradley 1970) and from central and eastern subsections (Thomas et al. 2004). They are restricted to lowlying alkaline playas and basins.</li>
+        
+            <li><b>Mono</b> (341Di). Stands are known from the vicinity of Fish Slough near Bishop (Odion et al. 1992a).</li>
+        
+            <li><b>Northwestern Basin and Range</b> (342Ba, Bc, Be). In Surprise Valley, stands border the alkali lakes, where they mix with those of <i>Sarcobatus vermiculatus</i> and <i>Suaeda moquinii</i> alliances.</li>
+        
+            <li><b>Sonoran Desert</b> (322Ba, Bc-e). Stands occur around playas (Evens and Hartman 2007) such as Palen Dry Lake and Cadiz Dry Lake.</li>
+        
+            <li><b>Southeastern Great Basin</b> (341Fc). Stands exist in Saline Valley adjacent to Soda Lake.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Stands are floristically and structurally simple. Management concerns include direct alteration and disturbance by evaporite mining, as well as blading and scraping for road construction. The fire dynamics in high-cover stands need study. Fire is unlikely in the desert playa stands, but it could be significant in the cismontane stands with high, non-native annual grass cover. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Allenrolfea occidentalis [1], [2], [3], [4], [6], [7], [9], [11]</li>
+                
+                    <li>Allenrolfea occidentalis / Distichlis spicata [1], [6], [7], [10], [11]</li>
+                
+                    <li>Allenrolfea occidentalis / Lasthenia gracilis [8]</li>
+                
+                    <li>Allenrolfea occidentalis - Suaeda moquinii [3], [6], [7], [11]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Bradley, W.G. 1970</li>
+		
+		<li>[2] Evens, J.M.;Hartman, S. 2007</li>
+		
+		<li>[3] Keeler-Wolf, T.;Thomas, K. 2000</li>
+		
+		<li>[4] McHargue, L.T. 1973</li>
+		
+		<li>[5] Odion, D.C.;Callaway, R.M.;Ferren, W.R.;Davis, F.W. 1992a</li>
+		
+		<li>[6] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>[7] Evens, J.M.;Sikes, K.;Hastings, D.;Ratchford,J.S. 2014</li>
+		
+		<li>[8] Buck-Diaz, J.;Evens, J. 2011b</li>
+		
+		<li>[9] CNPS Vegetation Program, 2015</li>
+		
+		<li>[10] Reyes, E.;Evens, J.;Glass, A.;Sikes, K.;Keeler-Wolf., T.;Winitsky, S.;Johnson, D.;Menke, J.;Hepburn, A. 2020a</li>
+		
+		<li>[11] Reyes, E.;Evens, J.;Fulton, J.;Sikes, K.; Johnson, D.;Keeler-Wolf, T.;Vu, S.;LaFever-Jackson, A. 2023 (in progress)</li>
+		
+		<li>Bittman, R. 1985</li>
+		
+		<li>Burk, J.H. 1977</li>
+		
+		<li>Griggs, F.T. 1980b</li>
+		
+		<li>Keeler-Wolf, T.;Roye, C.;Lewis, K. 1998b</li>
+		
+		<li>MacMahon, J.A. 1988</li>
+		
+		<li>MacMahon, J.A.;Wagner, F.H. 1985</li>
+		
+		<li>Menke, J.;Reyes, E.;Hepburn, A.;Johnson, D.;Reyes, J. 2013</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Black, H.;Bleich, V.C.;Mincks, J.W. 1980</li>
+		
+		<li>Thomas, K.;Franklin, J.;Keeler-Wolf, T.;Stine, P. 2004</li>
+		
+		<li>Thorne, R.F. 1982</li>
+		
+		<li>Vasek, F.C.;Barbour, M.G. 1977</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program);AIS, 2013</li>
+		
+		<li>Werschkull, G.D.;Griggs, F.T.;Zaninovich, J.M. 1984</li>
+		
+		<li>Young, J.A.;Evans, R.A.;Major, J. 1977</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/108/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

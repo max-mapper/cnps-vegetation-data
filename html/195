@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Ericameria nauseosa</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Ericameria</i> <i>nauseosa</i></span> Shrubland Alliance <br/>
+        <span class="subtitle">Rubber rabbitbrush scrub</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-3200 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S5
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G5
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: AZ, CA, CO, ID, MT, ND, NV, SD, UT, WY (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/ericameria-nauseosa_centennialspr_10-99.jpg', '/static/images/photos/shrub/ericameria-nauseosa_cord97_modocnf_09-10_01.jpg', '/static/images/photos/shrub/ericameria-nauseosa_deathvalleynp_01.jpg', '/static/images/photos/shrub/ericameria-nauseosa_lowerklamathnwr_09-10_01.jpg', '/static/images/photos/shrub/ericameria-nauseosa_lowerklamathnwr_09-10_02.jpg', '/static/images/photos/shrub/ericameria-nauseosa_monolk_09-04_01.jpg', '/static/images/photos/shrub/ericameria-nauseosa_tejonranch_01-10_01.jpg', '/static/images/photos/shrub/ericameria-nauseosa_tejonranch_01-10_02.jpg', '/static/images/photos/shrub/ericameria-nauseosa_wildrosecyndvnp_10-99.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Ericameria</i> <i>nauseosa</i> is dominant or co-dominant in the shrub canopy with <i>Artemisia</i> <i>tridentata</i>, <i>Chrysothamnus</i> <i>viscidiflorus</i>, <i>Ephedra</i> spp., <i>Eriogonum</i> <i>fasciculatum</i>, <i>Lepidospartum</i> <i>squamatum</i> and <i>Purshia</i> <i>tridentata</i>. Emergent trees may be present at low cover, including <i>Juniperus</i> <i>californica</i>, <i>Pinus</i> <i>jeffreyi</i>, <i>Pinus</i> <i>monophylla</i> or <i>Yucca</i> <i>brevifolia</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 3 m; canopy is open to continuous. Herbaceous layer is sparse or grassy. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Ericameria nauseosa</i> > 50% relative cover in the shrub canopy (Evens et al. 2006).</li>
+		
+		<li><i>Ericameria nauseosa</i> ≥ 2% absolute cover or > 25% relative cover in the shrub canopy (Thomas et al. 2004).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> All topographic settings, especially in disturbed settings. Soils are well-drained sands and gravels.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Rubber rabbitbrush series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Ericameria nauseosa shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Rabbitbrush
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Rabbitbrush scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Sagebrush scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Sagebrush
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>35.310.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Xeromorphic Scrub and Herb Vegetation (Semi-Desert)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Cool Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Cool Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North American Cool Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Cool Semi-desert wash and disturbance scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Intermontane seral shrubland
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Ericameria nauseosa </i>is a fast-growing, early-seral shrub that establishes after disturbance. It blooms in the late summer and fruits in the fall. The wind-dispersed seeds germinate in the early spring. The ecology of <i>E. nauseosa </i>varies by subspecies and ecotype. It has numerous adaptations to arid environments including deep taproots and narrow leaves with trichomes that give it a silvery appearance (Tirmenstein 1999c). <br/>
+<br/>
+California has eight of the 26 subspecies of <i>E. nauseosa</i>. Some subspecies are local; others have extensive ranges. We do not know which subspecies are sufficiently common to characterize California’s vegetation, since few ecologists make subspecies determinations when describing vegetation. Some botanists place this species in the genus <i>Chrysothamnus</i>. <br/>
+<br/>
+Stands of this alliance exist throughout the semiarid regions in the state. They typically grow in disturbed areas, whether naturally disturbed by intermittent flooding or disturbed by overgrazing, road cuts, clearings, or old mine tailings. Plants colonize and persist for at least 10 years, including after changes in grazing regimes or after fires (Tirmenstein 1999c). </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Ericameria nauseosa</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Polycarpic perennial; shrub; winter deciduous</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Transient?</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Wind</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Buds on large branches or trunks (stem); underground structures (root crown)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; no/low sprouter to high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>2 years to life of the plant (short) </td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>High</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Unknown</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text"><i>Ericameria nauseosa </i>has resinous foliage that burns readily even with high moisture content. This fire-adapted species vigorously sprouts after fire, and wind-dispersed seed readily colonizes areas after fire from neighboring plants (Tirmenstein 1999c). Stands in northeastern California and higher elevations of the Mojave Desert develop into stands of the <i>Artemisia tridentata, A. arbuscula, Purshia tridentata, </i>and <i>Pinus monophylla </i>alliances after 10 to 50 years.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Short (7-70 years?)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Unknown
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Unknown
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Unknown
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Unknown
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Unknown
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Unknown
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Unknown
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast Ranges</b> (M262Ab-c, Aj). Stands are common on and off serpentine soils in the Mount San Benito and Joaquin Ridge areas (Evens et al. 2006).<i> Ericameria nauseosa</i> colonizes annual grassland and shrub stands following shifts in grazing regimes and on mine tailings of serpentine substrates; <i>Juniperus californica</i> or<i> Eriogonum fasciculatum</i> stands replace them. Stands also occur in the Caliente Range.</li>
+        
+            <li><b>Klamath Mountains</b> (M261Ae, Ah-l). Local stands occupy disturbed serpentine settings in the eastern subsections.</li>
+        
+            <li><b>Modoc Plateau</b> (M261Ga-p). Stands are widespread throughout the section. Stands establish commonly following fire in stands of the <i>Artemisia tridentata</i> alliance, and plants commonly colonize scraped clearings.</li>
+        
+            <li><b>Mojave Desert</b> (322Aa, Ad, Af-h, Aj, Al). Stands occur in the higher elevation and cooler parts of the section. Stands occur along intermittent watercourses in the northern and eastern subsections. In the western subsections, stands occupy fallow agricultural fields and old mine tailings (Thomas et al. 2004).</li>
+        
+            <li><b>Mono</b> (341Da-f, Dh-l). Stands are widespread in the section. Stands at Fish Sough (Ferren and Davis 1991), along road cuts, and in recent burns briefly replace stands of the <i>Artemisia tridentata, Purshia tridentata,</i> or <i>Pinus jeffreyi</i> alliances.</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Ba). Stands confined to local road cuts and other disturbed areas exist at mid to upper elevations.</li>
+        
+            <li><b>Northwestern Basin and Range</b> (342Ba-e). Stands are widespread throughout the section. Stands initiated after fire replace those of the <i>Artemisia tridentata</i> alliance, and plants commonly colonize scraped clearings.</li>
+        
+            <li><b>Sierra Nevada</b> (M261Ea-d, Eh-n, Eq-u). Stands occur commonly on the eastern escarpment. Stands are limited throughout most of the range, usually associated with broad intermittent watercourses, road cuts, and other clearings.</li>
+        
+            <li><b>Southeastern Great Basin</b> (341Fa-f). Stands initiated after fire replace those of the <i>Artemisia tridentata</i> alliance, and plants frequently colonize scraped clearings.</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Ba-e, Bg-h, Bm). Stands are associated with the higher and cooler elevations of the section. Stands frequent road cuts and clearings, usually in the upper elevations within the coniferous forest and woodland zones.</li>
+        
+            <li><b>Southern Cascades</b> (M261Da-k, Dm). Stands are widespread at mid to upper elevations in the section. Small stands appear on road cuts and other clearings at middle elevations.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> <i>Ericameria nauseosa </i>is an excellent plant to stabilize soil and control erosion. Plants have deep roots and establish rapidly, even on severe sites. Plants produce large quantities of litter that is good mulch. Plants are an important browse for livestock and wildlife, though it is variable in palatability depending on subspecies and ecotype (Tirmenstein 1999c). It has been used extensively in restoration of asbestos mining sites in the Clear Creek and Mount San Benito areas of the inner Central Coast Ranges (J. A. Delgado, pers. comm. 2005). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Ericameria nauseosa [3], [4], [5], [6]</li>
+                
+                    <li>Ericameria nauseosa - Atriplex torreyi [6]</li>
+                
+                    <li>Ericameria nauseosa / Bromus tectorum [5], [6]</li>
+                
+                    <li>Ericameria nauseosa - Juniperus californica / herb [1]</li>
+                
+                    <li>Ericameria nauseosa / Sporobolus airoides [2], [6]</li>
+                
+                    <li>Lepidospartum latisquamum [3]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Evens, J.M.;Klein, A.;Taylor, J.;Hickson, D.;Keeler-Wolf, T. 2006</li>
+		
+		<li>[2] Ferren, W.R.;Davis, F.W. 1991</li>
+		
+		<li>[3] Evens, J.M.;Sikes, K.;Hastings, D.;Ratchford,J.S. 2014</li>
+		
+		<li>[4] Buck-Diaz, J.;Evens, J. 2011b</li>
+		
+		<li>[5] Boul, R.;Keeler-Wolf, T.;Ratchford, J.;Haynes, T.;Hickson, D.;Yacoub, R.;Harbert, B.;Evens, J. 2021b</li>
+		
+		<li>[6] Reyes, E.;Evens, J.;Glass, A.;Sikes, K.;Keeler-Wolf., T.;Winitsky, S.;Johnson, D.;Menke, J.;Hepburn, A. 2020a</li>
+		
+		<li>Menke, J.;Reyes, E.;Hepburn, A.;Johnson, D.;Reyes, J. 2013</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Black, H.;Bleich, V.C.;Mincks, J.W. 1980</li>
+		
+		<li>Thomas, K.;Franklin, J.;Keeler-Wolf, T.;Stine, P. 2004</li>
+		
+		<li>Tirmenstein, D. 1999c</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program), 2015a</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program);AIS, 2013</li>
+		
+		<li>West, N.E. 1988</li>
+		
+		<li>Young, J.A.;Evans, R.A.;Major, J. 1977</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/195/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

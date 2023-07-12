@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Umbellularia californica</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Umbellularia</i> <i>californica</i></span> Forest &amp; Woodland Alliance <br/>
+        <span class="subtitle">California bay forest and woodland</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Tree
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-1200 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G4
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>Yes
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>Yes
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/tree/umbellularia-californica_garygiacominipreserve_05-10_01.jpg', '/static/images/photos/tree/umbellularia-californica_yoloco_05-03_01.jpg', '/static/images/photos/tree/umbellularia-californica_mmwd0187_mttamwatershed_06-11.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Umbellularia</i> <i>californica</i> is dominant or co-dominant in the tree or tall shrub canopy with <i>Acer</i> <i>macrophyllum</i>, <i>Aesculus</i> <i>californica</i>, <i>Alnus</i> <i>rhombifolia</i>, <i>Alnus</i> <i>rubra</i>, <i>Arbutus</i> <i>menziesii</i>, <i>Corylus</i> <i>cornuta</i>, <i>Juglans</i> <i>californica</i>, <i>Notholithocarpus</i> <i>densiflorus</i>, <i>Pinus</i> <i>sabiniana</i>, <i>Platanus</i> <i>racemosa</i>, <i>Pseudotsuga</i> <i>menziesii</i>, <i>Quercus</i> <i>agrifolia</i>, <i>Quercus</i> <i>chrysolepis</i>, <i>Quercus</i> <i>wislizeni</i> and <i>Sequoia</i> <i>sempervirens</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text"> Trees < 25 (30) m; canopy is intermittent 
+to continuous. Shrub layer open to intermittent. Herbaceous layer is sparse to abundant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li>Conifers < 30% relative cover in canopy, <i>Umbellularia californica</i> > 30% relative cover in the tree canopy (Keeler-Wolf et al. 2003a, Evens and Kentner 2006).</li>
+		
+		<li><i>Umbellularia californica</i> usually > 50% relative cover in the overstory as a tree or tall shrub; when with <i>Quercus wislizeni</i>, > 30% relative cover (Klein et al. 2007).</li>
+		
+		<li><i>Umbellularia californica</i> > 50% relative cover in the tree canopy, or > 30% relative cover with <i>Quercus agrifolia</i> (Buck-Diaz et al. 2021, Sikes et al. 2021).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Alluvial benches, streamsides, valley bottoms, coastal bluffs, inland ridges, steep north-facing slopes, rocky outcrops. Soils are shallow to deep, sandy to clay loams. The USFWS Wetland Inventory (1996 national list) recognizes <i>Umbellularia californica</i> as a FAC plant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>California bay series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Umbellularia californica forest alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Coastal mixed hardwood, California bay
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>California bay forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Mixed evergreen forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Coastal oak woodland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>74.100.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Tree Vegetation (Forest and Woodland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Warm Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Madrean Forest and Woodland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>California Forest and Woodland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Californian broadleaf forest and woodland
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Umbellularia californica </i>is an evergreen broadleaf tree that grows to 25 m in height. Trees produce abundant drupes annually. Animals, gravity, and water disperse the seeds. Seeds germinate without stratification or scarification. Buried seeds more readily germinate. Plants sprout from the bole, root crown, or from stumps when top-killed. Plants are shade tolerant, but they grow well in full light (Howard 1992n, Stein 1974). <br/>
+<br/>
+In many cases, <i>U. californica </i>is the only tree species in older stands with few shrubs and herbs present (McBride 1974). Stands occur near the coast and inland in both mesic and riparian settings, usually in a patchwork with stands of other evergreen forest or chaparral alliances. Coastal stands have characteristically wind-pruned trees or shrubs, and both coastal and inland stands typically have dense, clonally sprouted plants. The stands may be shrubby, as on ultramafic soils such as in the western Klamath Mountains, or they may be trees within a larger matrix of chaparral, as in central and southern California. Historically productive stands were cleared for agriculture and residual development (Stein 1990b). </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Umbellularia californica</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Tree; evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Transient</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; gravity; water/hydrological</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Buds on large branches or trunks; underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>5-300 yrs</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>High</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>High</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Fire regime is highly variable, depending upon whether stands occur adjacent to chaparral or evergreen or riparian forests. Stand-replacing fires typically create shrubby stands, while surface fires form tree stands. The tree’s ability to sprout after fire allows it to grow in areas of frequent fire, such as the Transverse Ranges and Santa Lucia Mountains, where <i>Umbellularia californica </i>replaces associated shrubs after 40 years without fire (Paysen et al. 1991). As the stand ages, self thinning appears to be intense, as evidenced by the accumulation of dead stems on the forest floor of 50-year-old stands in the Santa Ynez Mountains (Borchert 1985). In addition, seedlings can invade mature and old shrublands (Keeley 1992a). Large, multi-stemmed individuals in the outer Coast Ranges may indicate fires over 100 years in the past.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Medium (30-100+ years)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Summer-early fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Small to medium; up to or beyond stand size
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low to moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Low to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Moderate to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Surface-passive crown; passive-active crown
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Coastal ranges
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Aa, Ac-k). Stands are extensive in the Santa Cruz Mountains and on the western slopes of the Santa Lucia Ranges. Stands also occur in the East Bay Hills associated with draws and springfed sites in Alameda and Contra Costa Cos. (Allen- Diaz et al. 2001). Some uncommon valley bottom stands remain, such as Canada de los Osos Wildlife Area in Santa Clara Co.</li>
+        
+            <li><b>Central California Coast Ranges</b> (M262Aa-c, Ae-f). Stands are extensive on northerly exposures in the Livermore Hills and Diablo Ranges. Some occur on mesic, serpentine slopes and in drainages (Evens and San 2004); many intermix with stands of the <i>Quercus agrifolia</i> alliance.</li>
+        
+            <li><b>Great Valley</b> (262Ae). The only stands in the section may exist in the Sutter Buttes (Hickman 1993).</li>
+        
+            <li><b>Klamath Mountains</b> (M261Ab, Af, Au). The species is common in many forest types, but only as a secondary species in western subsections. We assigned most of these stands to the <i>Pseudotsuga menziesii</i> alliance. Shrubs are common on ultramafic substrates in Smith River watershed (Sawyer 2006).</li>
+        
+            <li><b>Northern California Coast</b> (263Ac, Ag, Ai-m). Stands commonly occur throughout the central and southern portions of the section. Most stands are small (< 5 ha) and intermixed with larger stands of the <i>Pseudotsuga menziesii, Pseudotsuga menziesii-Lithocarpus densiflorus,</i> or <i>Sequoia sempervirens</i> alliances. Along the coastline in Marin Co., many wind-pruned stands grace northerly slopes. The tallest trees exist in this section, with some close to 30 m.</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Bb-f). Unstudied stands are relatively widespread in the section, including shrubby ultramafic stands with emergent <i>Pinus sabiniana.</i></li>
+        
+            <li><b>Northern California Interior Coast Ranges</b> (M261Ca). Stands are largely shrubby and restricted to the westernmost subsection.</li>
+        
+            <li><b>Sierra Nevada</b> (M261Ef-g, Ep). Stands are sufficiently large to recognize this alliance in the lower montane portions of the section. Most occupy steep rocky areas intermixed with stands of the <i>Quercus chrysolepis</i> alliance.</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fa-c). Stands are scattered in the northern volcanic portion of the section; some occupy cliff bases and defiles. Small stands also occur farther south on metamorphic and granitic substrates, usually in sheltered locations. Klein et al. (2007) describe riparian stands with <i>Alnus rhombifolia</i> and upland stands with <i>Quercus wislizeni.</i></li>
+        
+            <li><b>Southern California Coast</b> (261Ba-b, Be-f). Stands in the Santa Monica (Keeler-Wolf and Evens 2006) and Santa Ynez mountains (Borchert et al. 2004) occupy either semi-riparian settings or rocky recesses on upper slopes.</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Ba, Bc-g, Bl, Bo-p). Stands scattered in western Riverside Co. (Klein and Evens 2005) and in San Diego Co. include rare ones in deep canyons on the east slope of the Peninsular Ranges near Mount Laguna overlooking Anza-Borrego Desert State Park (Keeler-Wolf et al. 1998b).</li>
+        
+            <li><b>Southern Cascades</b> (M261Dl). Stands are sufficiently large to recognize this alliance at lower montane elevations between Shingletown in Shasta Co. and Paradise in Butte Co. (Klein et al. 2007).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> In general, most stands of the <i>Umbellularia californica </i>alliance are small and occur within a matrix of several other alliances. Valley bottom stands composed of large individuals are rare and worthy of conservation. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Umbellularia californica [2], [3], [13], [14]</li>
+                
+                    <li>Umbellularia californica - Arbutus menziesii [8]</li>
+                
+                    <li>Umbellularia californica / Ceanothus oliganthus [6]</li>
+                
+                    <li>Umbellularia californica - Juglans californica / Ceanothus spinosus [6]</li>
+                
+                    <li>Umbellularia californica - Notholithocarpus densiflorus [3], [9], [11], [12], [13]</li>
+                
+                    <li>Umbellularia californica / Polystichum munitum [3], [5], [9], [10], [13], [14]</li>
+                
+                    <li>Umbellularia californica - Quercus agrifolia / Toxicodendron diversilobum [3], [5], [9], [13], [14]</li>
+                
+                    <li>Umbellularia californica - Quercus wislizeni [7], [10], [13]</li>
+                
+                    <li>Umbellularia californica / Toxicodendron diversilobum [1]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Allen-Diaz, B.H.;Jackson, R.D.;Phillips, C. 2001</li>
+		
+		<li>[2] Campbell, B. 1980</li>
+		
+		<li>[3] Evens, J.M.;Kentner, E. 2006</li>
+		
+		<li>[4] Evens, J.;San, S. 2004</li>
+		
+		<li>[5] Keeler-Wolf, T .;Schirokauer, D.;Meinke, J.;van derLeeden, P. 2003a</li>
+		
+		<li>[6] Keeler-Wolf, T.;Evens, J. 2006</li>
+		
+		<li>[7] Klein, A.;Crawford, J.;Evens, J.;Keeler-Wolf, T.;Hickson, D. 2007</li>
+		
+		<li>[8] Parker, V.T. 1990b</li>
+		
+		<li>[9] Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>[10] Buck, J.;Evens, J. 2010</li>
+		
+		<li>[11] Fiedler, P.L.;Leidy, R.A. 1987</li>
+		
+		<li>[12] Jimerson, T.M.;McGee, E.A.;Jones, D.W.;Svilich, R.J.;Hotalen, E.;DeNitto, G.;Laurent, T.;Tenpas, J.D.;Smith, M.E.;Hefner-McClelland, K.;Mattison, J. 1996</li>
+		
+		<li>[13] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>[14] Sikes, K.;Buck-Diaz, J.;Evens, J. 2021</li>
+		
+		<li>Barbour, M.G. 1988</li>
+		
+		<li>Barry, W.J. 1989a</li>
+		
+		<li>Barry, W.J. 1989b</li>
+		
+		<li>Griffin, J.R.;Critchfield, W.B. 1972</li>
+		
+		<li>Howard, J.L. 1992n</li>
+		
+		<li>McBride, J.R. 1974</li>
+		
+		<li>NPS-SEKI, 2009</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Black, H.;Bleich, V.C.;Mincks, J.W. 1980</li>
+		
+		<li>Paysen, T.E.;Narog, M.G.;Tissell, R.G.;Lardner, M.A. 1991</li>
+		
+		<li>Stein, W.I. 1990b</li>
+		
+		<li>Thorne, R.F. 1976</li>
+		
+		<li>Unsicker, J.E. 1974</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/97/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

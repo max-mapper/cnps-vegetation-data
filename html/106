@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Adenostoma sparsifolium</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Adenostoma</i> <i>sparsifolium</i></span> Shrubland Alliance <br/>
+        <span class="subtitle">Redshank chaparral</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>300-2000 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S4
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G4
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA. Baja Californica, Mexico (TJM2)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>Yes
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/adenostoma-sparsifolium_anzaborrego_06-97_01.jpg', '/static/images/photos/shrub/adenostoma-sparsifolium_mccainvalley_01-12.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Adenostoma</i> <i>sparsifolium</i> is dominant or co-dominant in the shrub canopy with <i>Adenostoma</i> <i>fasciculatum</i>, <i>Arctostaphylos</i> <i>glandulosa</i>, <i>Arctostaphylos</i> <i>glauca</i>, <i>Arctostaphylos</i> <i>pungens</i>, <i>Artemisia</i> <i>tridentata</i>, <i>Ceanothus</i> <i>crassifolius</i>, <i>Ceanothus</i> <i>cuneatus</i>, <i>Ceanothus</i> <i>greggii</i>, <i>Ceanothus</i> <i>megacarpus</i>, <i>Ceanothus</i> <i>spinosus</i>, <i>Cercocarpus</i> <i>montanus</i>, <i>Ericameria</i> <i>linearifolia</i>, <i>Eriogonum</i> <i>fasciculatum</i>, <i>Garrya</i> <i>veatchii</i>, <i>Hesperoyucca</i> <i>whipplei</i>, <i>Heteromeles</i> <i>arbutifolia</i>, <i>Malosma</i> <i>laurina</i>, <i>Opuntia</i> <i>basilaris</i>, <i>Quercus</i> <i>berberidifolia</i>, <i>Quercus</i> <i>cornelius</i>-<i>mulleri</i>, <i>Rhamnus</i> <i>ilicifolia</i>, <i>Salvia</i> <i>mellifera</i> and <i>Yucca</i> <i>schidigera</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 5 m; canopy is open to
+intermittent. Herbaceous layer is sparse. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Adenostoma sparsifolium</i> > 60% relative cover in the shrub canopy (Gordon and White 1994, Borchert et al. 2004).</li>
+		
+		<li>Both <i>Adenostoma sparsifolium</i> and <i>A. fasciculatum</i> are 30-60% relative cover in the shrub canopy (Gordon and White 1994). Other species such as <i>Ceanothus crassifolius</i> may be similar cover (Keeler-Wolf and Evens 2006).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Variable topography and slopes. Soils are shallow to deep and derived from alluvial or bedrock, often sandy loams and may be rocky.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Red shank series, Red shank-birchleaf mountain-mahogany series, Red shank-chamise series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Adenostoma sparsifolium shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Red shank chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Red shank chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Chamise-redshank chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>37.501.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate and Boreal Shrubland and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate Grassland, Meadow, and Shrubland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North America Interior Sclerophyllous Shrubland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Warm Interior Chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Western Mojave and Western Sonoran Desert borderland chaparral
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Adenostoma sparsifolium </i>is an evergreen, sclerophyllous shrub that can grow to 6 m in height. Older plants have continuous shedding of bark. Seeds disperse during the summer near the parent plant. Dormant seeds accumulate in a soil bank and are not subject to heavy predation. Shrubs rejuvenate their crowns by continually producing new sprouts from a lignotuber (Howard 1993a). <br/>
+<br/>
+Stands dominated by <i>A. sparsifolium </i>are relatively uncommon as compared to mixed ones with <i>A. fasciculatum</i>. Marion (1943) found monotypic stands of <i>A. sparsifolium </i>in just 3% of its distribution. However both variants, originally defined as separate series (Sawyer and Keeler-Wolf 1995), are now considered in this single alliance description where <i>A. sparsifolium </i>is either co-dominant to strongly dominant. Stands occupy in a variety of topographic settings from dry washes and gentle toe slopes to steep ridges. Stands may occupy frequently burned areas, and some associations appear to have desert influences (Gordon and White 1994). </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Adenostoma sparsifolium</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Shrub; evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Transient; soil</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short; long</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; gravity</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Chemical; none (maybe dimorphic)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Buds on small branches; buds on large branches or trunks; underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; high flammability; high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>5-100+ years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Low; episodic</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Stands <i>of Adenistoma sparsifolium </i>are generally more open than are those dominated by <i>A. fasciculatum, </i>but they have more standing dead fuel and deeper litter because of continuous shedding of bark and stems. The sticky leaves contain a flammable resin, so fires spread along the ground and through the shrub canopy. Heat and charcoal stimulate seed germination during the first rainy season after a fire, and plants vigorously sprout from surviving adventitious buds of the lignotuber (Howard 1993a, Marion 1943). Stands grow quickly back after fires and reach maximum canopy cover and height within approximately 25 years (Gordon and White 1994). 
+
+For both <i>Adenostoma </i>species, heat and charcoal stimulate germination from the seed bank during the first rainy season after fire (Howard 1993a, McMurray 1990a). The surviving adventitious buds in the lignotubers sprout following fire and cutting. In a study in the Santa Monica Mountains (Barton 1995), post-fire seedling establishment and survivorship was > 10% higher for <i>A. fasciculatum </i>after three years than it was for <i>A. sparsifolium. </i>
+
+This alliance usually responds quickly to low- to moderate-intensity fires via seed germination and abundant sprouting. Research on <i>A. fasciculatum </i>showed that high-intensity fires delayed sprouting and resulted in fewer sprouts compared to low-intensity fires. High-intensity fire decreased germination and seedling emergence since seeds tend be concentrated at or near the soil surface, rendering them vulnerable to heat-kill (Moreno and Oechel 1991, 1993). <i>A. sparsifolium </i>may overtop <i>A. fasciculatum </i>within 40 years, but cover of <i>A. fasciculatum </i>often remains unchanged (Gordon and White 1994).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Medium (30-100+ years)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Late summer-fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Medium to large—up to and beyond stand
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low to moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Moderate to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Moderate to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Active-independent crown fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Southern California
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast Ranges</b> (M262Ae, Aj). Stands exist in the southern Santa Lucia Mountains (Borchert et al. 2004) primarily on sandstone substrates and southerly-facing slopes.</li>
+        
+            <li><b>Southern California Coast</b> (261Be-f). Stands are uncommon in the western Transverse Ranges (Borchert et al. 2004) and Santa Monica Mountains (Keeler-Wolf and Evens 2006), where they occur on metamorphic, sedimentary, and volcanic substrates. Most mixed stands also have high cover of <i>Ceanothus crassifolius.</i></li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Ba-c, Bl-m, Bo-p). Stands are in the San Jacinto and other Peninsular mountains (Gordon and White 1994, Keeler-Wolf et al. 1998b, Klein and Evens 2005), mostly on granitic or alluvial substrates. Stands appear to occur in the western Transverse Ranges.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text">  </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+                <p>Associations with <i>Adenostoma sparsifolium-Adenostoma fasciculatum</i> Co-Dominance</p>
+            
+            <ul class="text">
+                
+                    <li>Adenostoma sparsifolium - Adenostoma fasciculatum - Arctostaphylos glauca [4]</li>
+                
+                    <li>Adenostoma sparsifolium - Adenostoma fasciculatum - Arctostaphylos pungens [2], [4]</li>
+                
+                    <li>Adenostoma sparsifolium - Adenostoma fasciculatum - Ceanothus crassifolius [3]</li>
+                
+                    <li>Adenostoma sparsifolium - Adenostoma fasciculatum - Ceanothus greggii [2], [4]</li>
+                
+                    <li>Adenostoma sparsifolium - Adenostoma fasciculatum - Cercocarpus montanus [2], [4]</li>
+                
+                    <li>Adenostoma sparsifolium - Adenostoma fasciculatum - Cylindropuntia californica var. parkeri [4]</li>
+                
+            </ul>
+        
+            
+                <p>Associations with <i>Adenostoma sparsifolium</i> Dominance</p>
+            
+            <ul class="text">
+                
+                    <li>Adenostoma sparsifolium [1], [2], [3]</li>
+                
+                    <li>Adenostoma sparsifolium - Artemisia tridentata [4]</li>
+                
+                    <li>Adenostoma sparsifolium - Ceanothus crassifolius [4]</li>
+                
+                    <li>Adenostoma sparsifolium - Ceanothus cuneatus [4]</li>
+                
+                    <li>Adenostoma sparsifolium - Cercocarpus montanus [2], [4]</li>
+                
+                    <li>Adenostoma sparsifolium - Ericameria linearifolia - Eriogonum fasciculatum - Opuntia basilaris [4]</li>
+                
+                    <li>Adenostoma sparsifolium - Eriogonum fasciculatum - Lotus scoparius [4]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Borchert, M.;Lopez, A.;Bauer, C.;Knowd, T. 2004</li>
+		
+		<li>[2] Gordon, H.J.;White, T.C. 1994</li>
+		
+		<li>[3] Keeler-Wolf, T.;Evens, J. 2006</li>
+		
+		<li>[4] Klein, A.;Evens, J. 2005</li>
+		
+		<li>Hanes, T.L. 1965</li>
+		
+		<li>Hanes, T.L. 1977</li>
+		
+		<li>Hanes, T.L. 1981</li>
+		
+		<li>Howard, J.L. 1993a</li>
+		
+		<li>Keeley, J.E.;Keeley, S.C. 1988</li>
+		
+		<li>Marion, L.H. 1943</li>
+		
+		<li>McMurray, N. 1990a</li>
+		
+		<li>Vogl, R.J. 1976</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/106/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

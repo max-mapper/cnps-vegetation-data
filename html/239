@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Opuntia littoralis - Opuntia oricola - Cylindropuntia prolifera</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Opuntia</i> <i>littoralis</i> - <i>Opuntia</i> <i>oricola</i> - <i>Cylindropuntia</i> <i>prolifera</i></span> Shrubland Alliance <br/>
+        <span class="subtitle">Coast prickly pear scrub</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-1200 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G4
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA, Mexico (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/opuntia-littoralis_conejovolcanics_03-02_01.jpg', '/static/images/photos/shrub/opuntia-littoralis_conejovolcanics_03-02_02.jpg', '/static/images/photos/shrub/opuntia-littoralis_conejovolcanics_03-02_03.jpg', '/static/images/photos/shrub/opuntia-littoralis_nearmoorparkrdsamo_03-03_01.jpg', '/static/images/photos/shrub/opuntia-littoralis_thousandoakssamo_03-04_01.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Opuntia</i> <i>littoralis</i> and/or other cacti are dominant or co-dominant in the shrub canopy with <i>Artemisia</i> <i>californica</i>, <i>Cleome</i> <i>isomeris</i>, <i>Cneoridium</i> <i>dumosum</i>, <i>Cylindropuntia</i> <i>californica</i>, <i>Cylindropuntia</i> <i>prolifera</i>, <i>Encelia</i> <i>californica</i>, <i>Eriogonum</i> <i>fasciculatum</i>, <i>Euphorbia</i> <i>misera</i>, <i>Hesperoyucca</i> <i>whipplei</i>, <i>Lycium</i> spp., <i>Malosma</i> <i>laurina</i>, <i>Mirabilis</i> <i>laevis</i> var. <i>crassifolia</i>, <i>Opuntia</i> ×<i>occidentalis</i>, <i>Opuntia</i> <i>oricola</i>, <i>Opuntia</i> <i>phaeacantha</i>, <i>Opuntia</i> ×<i>vaseyi</i>, <i>Rhus</i> <i>integrifolia</i>, <i>Salvia</i> <i>mellifera</i> and <i>Sambucus</i> <i>nigra</i>. Emergent trees may be present at low cover, including <i>Schinus</i> <i>molle</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 2 m; canopy intermittent or continuous in two tiers. Herbaceous layer is open to continuous and diverse. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Opuntia littoralis</i> and/or other cacti (such as <i>Cylindropuntia prolifera</i> and <i>O. oricola</i>) are > 50% relative cover in the shrub canopy (Keeler-Wolf and Evens 2006).</li>
+		
+		<li><i>Opuntia littoralis</i> is > 30% relative cover as a dominant or co-dominant with other coastal sage scrub species (Evens and San 2005, Klein and Evens 2005).</li>
+		
+		<li><i>Opuntia littoralis, Cylindropuntia prolifera</i> and/or <i>O. oricola</i>) are > 30% relative cover in the shrub layer, or may be as low as 20% relative cover if the absolute cover is more than one-third that of the dominant coastal scrub species (Rodriguez et al. 2017).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> South-facing slopes, headlands. Soils are shallow, loams and clays that may be rocky.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Coast prickly-pear series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Opuntia littoralis shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Coastal bluff scrub, Coastal cactus
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Southern coastal bluff scrub, Venturan coastal sage scrub, Maritime succulent scrub, Diegan coastal sage scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Coastal sage scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Coastal scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>32.150.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Xeromorphic Scrub and Herb Vegetation (Semi-Desert)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Warm Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Warm Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Sonoran and Chihuahuan Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Viscaino-Baja California Desert Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Coastal Baja California Norte maritime succulent scrub
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Opuntia littoralis </i>is a sprawling cactus that grows up to 1.5 m tall. As with other platyopuntias, plants have flattened stems with spines. Roots are shallow and laterally extensive. Fruits are fleshy and edible at maturity and are covered with barbed spines. Plants reproduce by seeds, layering, and sprouting from segments separated from the parent plant. Small mammals consume the fruits and disperse the seeds and stems (Johnson 2000b). <br/>
+<br/>
+We placed stands of various cactus taxa in this alliance due to both similarity and uncertainly of identification. The name of the alliance has been updated since the publication of the 2009 book, where it was cited as the "<i>Opuntia littoralis</i> Shrubland Alliance", to reflect this definition.  Many chollas (<i>Cylindropuntia</i>) and platyopuntias (<i>Opuntia</i>) occur along the southern California coast (Parfitt and Gibson 1993): <i>C. californica </i>var. <i>californica </i>and var. <i>parkeri, C. prolifera, O. ficus-indica, O. littoralis, O. oricola, O. xoccidentalis, </i>and <I>O. </I>x<i>vaseyi </i>(a hybrid complex involving <i>O. littoralis </i>and <i>O. phaeacantha</i>). The hybrids are morphologically variable. <I>O. </i>x<i>occidentalis </i>( <i>O. littoralis </i>x (<i>O. engelmannii</i> x  <i>O. phaeacantha</i>) and <I>O. </i>x<i>demissa </i>( <i>O. ficus-indica </i>hybrids) forms thickets that can dominate hillsides of coastal scrub and chaparral. Do not take these thickets lightly when considering sampling them. <br/>
+<br/>
+Dense stands of <i>O. littoralis </i>and <i>O. oricola </i>provide critical habitat for endemic animal and plant species on the mainland and on the Channel Islands: the coastal cactus wren (Solek and Szijj 2004), California gnatcatcher (Mock 2004), island night lizard, island sage sparrow, and several island snails (Junak 2004); <i>Castilleja grisea </i>and <i>Eriogonum crocatum </i>(CNPS list 1B plants); <i>Agave shawii, Bergerocactus emoryi, </i>and <i>Ferocactus viridescens </i>(CNPS list 2 plants); and <i>Calochortus catalinae </i>(a CNPS list 4 plant). <br/>
+<br/>
+Do not confuse stands of this alliance in San Diego Co. and on the southern Channel Islands with those with <i>Agave shawii </i>and <i>Bergerocactus emoryi. </i>They have more floristic affinities with the <i>Bergerocacto emoryi-Agavetum shawii </i>described by Peinado et al. (2007) for Baja California. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Opuntia littoralis</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Shrub; stem succulent</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Transient</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Buds on large branches or trunks; underground structures (root-crown)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-sensitive; thin epidermis; canopy architecture susceptible</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>10-100 years?</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Unknown</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Unknown</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Moderate or even low-severity fires can top-kill <i>Opuntia</i>. Although aboveground tissues easily die when burned, some fleshy stem segments usually survive low- to moderate-severity fire and resume growth. Plants regenerate by sprouting from the root crown, by the layering of unburned or partially burned pads, and from seeds dispersed to the site by animals. Frequent fires appear to reduce populations (Johnson 2000b). 
+
+Stands on the northern Channel Islands (Johnson and Rodriguez 2001) show high cover of annual non-native <i>Bromus rubens </i>and other flashy fire fuels. Stands are variable with component succulent species throughout all the Channel Islands (Junak et al. 2007). Although fire is detrimental to most cacti (Nobel 1988), stands of <I>O. </I>x<i>occidentalis </i>often survive fires because they form large thickets. Plants have weak junctions, increasing the hybrid’s ability to reproduce vegetatively (Bobich and Nobel 2001). Our observations immediately after fires in Orange Co. suggest that cacti in dense <i>Opuntia </i>thickets sprout quickly after crown fire. Moderate fire return intervals may promote an increase in stand size relative to other non-succulent coastal scrubs.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Medium (10-50 years)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Late summer-fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Medium to large—up to stand size
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Low to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Moderate to very high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Passive-active crown fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Southern California
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Southern California Coast</b> (261Bb-j). Stands occur widely south of Santa Barbara Co. Stands in the Santa Monica Mountains (Keeler-Wolf and Evens 2006) and the coastal hills in central San Diego Co. (Evens and San 2005) include <i>Opuntia</i> hybrids. The densest stands appear to be dominated by <i>O. littoralis,</i> and more open stands with <i>O. oricola.</i> These open stands are ecologically similar to the others. Stands on the Channel Islands include <i>Bergerocactus emoryi, O. littoralis, O. oricola,</i> and <i>Cylindropuntia prolifera</i> (Junak et al. 2007).</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Bf, Bj-l, Bn). Stands occur in the western foothills including central San Diego Co. (Evens and San 2005) and the Perris Valley area of western Riverside Co. (Klein and Evens 2005).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Historical accounts of vegetation on the Channel Islands (Junak 2007) suggest that cover of <i>Opuntia-</i>dominated scrubs increased with livestock browsing and grazing since the late nineteenth century. Currently, with a combination of biological control and reduced browsing intensity, these stands are relatively few today. On the mainland, stands have increased in density and number over the past several decades. These increases may be the result of shorter fire return intervals, grazing, brush clearing, or successful hybridization and vegetative reproduction of different <i>Cylindropuntia </i>and <i>Opuntia</i>. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Cylindropuntia prolifera - Mixed Coastal Scrub [3], [4], [5], [9]</li>
+                
+                    <li>Opuntia littoralis [1], [2], [4], [7], [8], [9]</li>
+                
+                    <li>Opuntia littoralis - Eriogonum fasciculatum - Malosma laurina [1], [6]</li>
+                
+                    <li>Opuntia oricola [5]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Evens, J.;San, S. 2005</li>
+		
+		<li>[2] Keeler-Wolf, T.;Evens, J. 2006</li>
+		
+		<li>[3] Rodriguez, D.;Sikes, K.;Keeler-Wolf, T.;Kittel, G.;Curtis, J.;Curley, C.;Evens, J. 2017</li>
+		
+		<li>[4] Verdone, L.;Evens, J. 2010</li>
+		
+		<li>[5] Rodriguez, D. 2015</li>
+		
+		<li>[6] AECOM, 2013</li>
+		
+		<li>[7] HDR, 2014b</li>
+		
+		<li>[8] Dixon, P. 2019</li>
+		
+		<li>[9] Reyes, E.;Johnson, D.;Glass, A. 2019</li>
+		
+		<li>Axelrod, D.I. 1978</li>
+		
+		<li>Benson, L.;Walkington, D.L. 1965</li>
+		
+		<li>Johnson, K.A. 2000b</li>
+		
+		<li>Jones and Stokes Associates, 1993</li>
+		
+		<li>Junak, S.;Knapp, D.A.;Haller, J.R.;Philbrick, R.;Schoenherr, A.;Keeler-Wolf, T. 2007</li>
+		
+		<li>Keeley, J.E.;Keeley, S.C. 1988</li>
+		
+		<li>Klein, A.;Evens, J. 2005</li>
+		
+		<li>Magney, D.L. 1992</li>
+		
+		<li>O'Leary, J.F. 1988</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/239/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

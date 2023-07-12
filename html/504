@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Allium spp. - Streptanthus spp. - Hesperolinon spp. Serpentinite</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Allium</i> spp. - <i>Streptanthus</i> spp. - <i>Hesperolinon</i> spp. Serpentinite</span> Sparsely Vegetated Alliance <br/>
+        <span class="subtitle">Onion - twistflower - dwarf-flax serpentinite rock outcrop</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Herb
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>90-1600 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S2S3
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G2G3
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>Yes
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2021/08/30
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/herb/allium-streptanthus-hesperolinon-sparse_clear%20creekma_06-2004.jpg', '/static/images/photos/herb/allium-streptanthus-hesperolinon-sparse_clear%20creekma_06-2004_02.jpg', '/static/images/photos/herb/allium-streptanthus-hesperolinon-sparse_clear%20creekma_06-2004_03.jpg', '/static/images/photos/herb/allium_strepthanthus_hesperolinon_carsonridge_03-19_01.jpg', '/static/images/photos/herb/allium_strepthanthus_hesperolinon_carsonridge_03-19_02.jpg', '/static/images/photos/herb/allium_strepthanthus_hesperolinon_carsonridge_03-19_03.jpg', '/static/images/photos/herb/allium-streptanthus-etc_marin243_mmwd-w-peak_05-2019.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Allium</i> spp., <i>Eriogonum</i> <i>luteolum</i>, <i>Hesperolinon</i> spp. and/or <i>Streptanthus</i> spp. are diagnostic herbs at sparse cover in the herbaceous layer, which is variable but commonly includes <i>Allium</i> <i>burlewii</i>, <i>Allium</i> <i>cratericola</i>, <i>Allium</i> <i>falcifolium</i>, <i>Asclepias</i> <i>cordifolia</i>, <i>Asclepias</i> <i>solanoana</i>, <i>Aspidotis</i> <i>densa</i>, <i>Chlorogalum</i> <i>pomeridianum</i>, <i>Claytonia</i> <i>exigua</i>, <i>Dudleya</i> <i>abramsii</i>, <i>Dudleya</i> <i>caespitosa</i>, <i>Eriogonum</i> spp., <i>Hesperolinon</i> <i>adenophyllum</i>, <i>Hesperolinon</i> <i>bicarpellatum</i>, <i>Hesperolinon</i> <i>breweri</i>, <i>Hesperolinon</i> <i>californicum</i>, <i>Hesperolinon</i> <i>clevelandii</i>, <i>Hesperolinon</i> <i>congestum</i>, <i>Hesperolinon</i> <i>didymocarpum</i>, <i>Hesperolinon</i> <i>disjunctum</i>, <i>Hesperolinon</i> <i>micranthum</i>, <i>Hesperolinon</i> <i>spergulinum</i>, <i>Hesperolinon</i> <i>tehamense</i>, <i>Lomatium</i> spp., <i>Nassella</i> <i>pulchra</i>, <i>Plantago</i> <i>erecta</i>, <i>Streptanthus</i> <i>batrachopus</i>, <i>Streptanthus</i> <i>breweri</i>, <i>Streptanthus</i> <i>glandulosus</i> or <i>Streptanthus</i> <i>morrisonii</i>. Sparse shrubs may be present at low cover including <i>Adenostoma</i> <i>fasciculatum</i>, <i>Arctostaphylos</i> spp., <i>Ceanothus</i> spp., <i>Eriogonum</i> spp. and <i>Quercus</i> <i>durata</i>. Emergent conifers may be present such as <i>Hesperocyparis</i> spp., <i>Pinus</i> <i>attenuata</i>, <i>Pinus</i> <i>jeffreyi</i> or <i>Pinus</i> <i>sabiniana</i>. Non-vascular lichens may have high cover in some stands. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text"> Emergent trees, if present, are sparse. Herbs < 0.5 m; herbaceous layer is sparse. Shrub canopy is open. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Allium falcifolium, Claytonia exigua, Eriogonum luteolum var. caninum, Streptanthus batrachopus, Clarkia, </i>and/or other herbs characteristically present at low cover on rocky, serpentine balds, often with a sparse overstory of shrub species (Evens and Kentner 2006).</li>
+		
+		<li><i>Allium falcifolium, Claytonia exigua, Eriogonum luteolum, E. nudum, Hesperolinon, Streptanthus batrachopus, S. glandulosus, Dudleya </i>spp. and/or other herbs characteristically present at low cover on exposed serpentine balds and barrens, often with a sparse overstory of shrub species (Buck-Diaz et al. 2021, Klein et al. 2015, Sikes et al. 2021).</li>
+		
+		<li><i>Pinus coulteri, P. sabiniana, </i> or <i>Pinus jeffreyi </i> sparse in cover on serpentine barrens with various herbs (Evens et al. 2006).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Rocky serpentine slopes, ridges, and outcrops. Soils poorly developed with coarse sandy texture.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Barren, Ultramafic mixed shrub, Annual grasses and forbs, Ultramafic mixed conifer
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Serpentine chaparral, Native grassland, Serpentine digger pine-chaparral woodland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Coastal sage scrub, Northern coastal scrub, Valley grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Barren
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>42.640.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Lithomorphic Vegetation (Nonvascular and Sparse Vascular Rock Vegetation)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Mediterranean, Temperate, and Boreal Nonvascular and Sparse Vegetation
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Mediterranean Cliff, Scree, and Rock Vegetation
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Mediterranean California Cliff, Scree &amp; Rock Vegetation
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>California Cliff, Scree, and Other Rock Vegetation
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Central California Coast Ranges cliff and canyon
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> A host of distinctive annual and perennial plants are adapted to and/or thrive on harsh, infertile peridotite and serpentine soils whereby the species composition of this alliance is variable. Often called 'serpentine barrens', they usually include one or more species of <i>Allium</i> (especially <i>A. falcifolium</i> or <i>A. cratericola</i>), <i>Streptanthus</i>, <i>Hesperolinon, Dudleya</i>, and annual or perennial <i>Eriogonum</i> spp. (Klein et al. 2015, Buck-Diaz et al. 2021) among many others. <br/>
+<br/>
+All species of <i>Allium</i> have underground bulbs, scapose stems, basal leaves, and umbel inflorescences (Jepson Flora Project 2020). There are approximately 80 <i>Allium</i> species in California, and 24 <i>Allium</i> taxa have some affinity to serpentine soils (Calflora 2020). <i>Allium cratericola</i> is a small, perennial herb with flat or widely channeled leaves and pink flowers in spring and early summer. It grows in open, serpentine, volcanic, or granitic places in mountainous regions across the state below 1800 m. Most plants in northern California have one leaf while plants in southern California typically have two. Some populations in the North Coast Ranges have a mixed number of leaves (Jepson Flora Project 2020). <i>Allium burlewii</i> is a small, perennial herb with widely channeled leaves and white flowers that turn dull purple. It grows in open, serpentine or granitic substrates in mountainous regions across the state below 2800 m (Jepson Flora Project 2020). <i>Allium falcifolium</i> has flat, sickle-shaped leaves and rose-purple or dingy white flowers in spring and summer. It is common in northwestern California to southwestern Oregon on heavy clays, including serpentine (Jepson Flora Project 2020). <br/>
+<br/>
+The genus <i>Streptanthus</i>, in the family Brassicaceae, consists of annual to perennial herbs with urn or bell-shaped flowers. There are 35 species of <i> Streptanthus</i>, many of which are rare in California, and at least 14 have some affinity to serpentine soils (Calflora 2020). Species commonly found in this alliance include <i>S. batrachopus, S. breweri, S. glandulosus,</i> and <i>S. morrisonii</i>. <i>S. batrachopus</i> is a rare annual, with white and deep purple urn-shaped inflorescences. It is restricted to serpentine barrens and chaparral, and is known primarily from Mt. Tamalpais in Marin County. <i>S. glandulosus</i> has eight recognized subspecies, seven of which occur in California, in the North and South Coast Ranges and the San Francisco Bay Area. Subspecies are distinguished by region, petiole length, and sepal color which ranges from white to yellow, rose, purple, or purple-black (Jepson Flora Project 2020). <i>S. morrisonii</i> is a biennial herb with fleshy, gray-green leaves that grows primarily in Sonoma, Napa, and Monterey counties. Flowers are urn-shaped and pale yellow to violet and bloom May to September. Though the Jepson Manual doesn’t recognize any subspecies for this taxon,  other taxonomies distinguish 3-4 subspecies, which are all considered rare by the CNPS Rare Plant Inventory (Jepson Flora Project 2020, CNPS Rare Plant Inventory 2019).  <br/>
+<br/>
+<i>Hesperolinon</i> is a genus of annual, erect plants up to 50 cm. Leaves are generally alternate, and inflorescences are an open or dense cyme of yellow, white, or pink flowers. There are 13 species recognized in California, all of which occur on serpentine (Jepson Flora Project 2020). <br/>
+<br/>
+Stands of this alliance typically have sparse cover characterized by annual and perennial herbs, with occasional low-growing subshrubs. Woody species such as <i>Quercus durata, Arctostaphylos</i> spp., and <i>Ceanothus</i> spp. (particularly <i>C. jepsonii</i> or <i>C. cuneatus</i>) may be widely scattered. Occasionally, emergent conifers can be present. Nonvascular plants, such as lichens, may also be prominent (NatureServe 2020).<br/>
+<br/>
+Stands are restricted to serpentine or other ultramafic substrates, which are characteristically high in magnesium and low in calcium and often include chemically harsh elements. The combination of a substrate toxic to most plants and a location on frequently unstable talus or scree slopes (often called barrens) creates landscapes that are poorly vegetated, but rich in serpentine-tolerant endemic plants. All major serpentine regions within the state contain such barrens. However, there is insufficient vegetation data to characterize all of them (Klein et al. 2015). This alliance is known to occupy serpentinite outcrops of the central and southern Sierra Nevada, central and northern Coast Ranges, and Klamath Mountains (NatureServe 2020). </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Allium spp.</th>
+			
+		
+			
+			<th>Eriogonum luteolum</th>
+			
+		
+			
+			<th>Hesperolinon spp.</th>
+			
+		
+			
+			<th>Streptanthus spp.</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Polycarpic perennial; herb; bulbiferous</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short (1-2 years)</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal, wind</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Gravity</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Stratification—winter</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Underground structures</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-sensitive; thin epidermis; canopy architecture susceptible</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Fire-sensitive</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Yes</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>Life of plant</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Medium</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>High</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Fire, fuels, and ignition rates are naturally low. Other disturbances, such as shifting rock, blow-outs, and erosion along cliffs and steep slopes, are typical forces of change in this alliance.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Aa-g, Ai-l). Stands occur locally on open serpentinite outcrops including in San Luis Obispo Co.; more sampling is needed to document associations.</li>
+        
+            <li><b>Central California Coast Ranges</b> (M262Aa-e, Ak). Stands in the San Benito Mountain (Evens et al. 2006) and Coyote Ridge (Evens and San 2004) areas in the Diablo Range and those in the peaks and eastern foothills of the Santa Cruz Mountains include sparse shrub cover and varied endemic herbs.</li>
+        
+            <li><b>Klamath Mountains</b> (M261Aa-u). Stands occur scattered throughout the region; more sampling is needed to document associations.</li>
+        
+            <li><b>Northern California Coast</b> (263Ac, Af-g, Aj-m). Stands are scattered on serpentinite outcrops in the section, including Marin and Sonoma Cos. (Buck-Diaz et al. 2021, Klein et al. 2015) north to Humboldt Co.</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Ba-f). Stands occur on the serpentines including on the North Coast ophiolite at Frenzel Creek (Cheng 2004), along Walker Ridge, and the University of California’s McLaughlin Reserve in Lake Co. Barrens have been mapped in Napa Co. (Thorne et al. 2004). Stands in Sonoma Co. are characterized by <i>Eriogonum luteolum</i> var. <i>luteolum</i> and <i>Streptanthus morrisonii</i>, two species found largely in the serpentine belts of the North Coast Ranges of California (Klein et al. 2015).</li>
+        
+            <li><b>Northern California Interior Coast Ranges</b> (M261Ca). Stands uncommonly occur on serpentine, including in the Yolla Bolly Mountains, though more sampling is needed to document associations.</li>
+        
+            <li><b>Sierra Nevada</b> (M261Eb, Ed-h, Em, Es). Stands are likely in the northwestern part of the section; more sampling is needed to document associations.</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fb-d). Stands occur uncommonly on serpentine barrens in the central and northern foothills.</li>
+        
+            <li><b>Southern California Coast</b> (261Ba-b). Stands may occur rarely in the Transverse Ranges, such as in the San Rafael Mountains.</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Ba, Bc). Stands occur rarely in the Transverse Ranges, including on Figueroa Mountain in the San Rafael Mountains.</li>
+        
+            <li><b>Southern Cascades</b> (M261Dl). Stands likely occur rarely north of Magalia; more sampling is needed to document associations.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> In California, this alliance is primarily threatened by resource extraction activities such as mining and geothermal energy development, as well as pollution and recreational use including disturbance from off-highway vehicles. Ultramafic soils have a long history of extraction for mercury and other heavy metals. Mining activities result in an overall loss of vegetation cover, increased disturbance, extirpation of rare taxa, and exploitation of sparse trees for mine timbers. In Sonoma and Lake counties, geothermal power infrastructure and development, including heavy equipment use and road excavation, have disturbed serpentine areas and severely increase erosion on these soils. 
+
+Serpentine barrens are important for watersheds because the faulted and fractured ultramafic rock stores large quantities of water from precipitation in the water table. The rarity and endangerment of serpentine endemics is generally the focus for preserving serpentine habitats. However, conservation of serpentine areas will need to go beyond the species level, as the unique vegetation of serpentine barrens merits its own protections (Kruckeberg 1984). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Allium falcifolium - Eriogonum luteolum - Streptanthus (batrachopus, morrisonii) [1], [2], [4]</li>
+                
+                    <li>Pinus coulteri - Pinus sabiniana Barren [3]</li>
+                
+                    <li>Pinus jeffreyi - Pinus sabiniana Barren [3]</li>
+                
+                    <li>Streptanthus glandulosus - Dudleya abramsii / Lichen - Moss [1]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>[2] Evens, J.M.;Kentner, E. 2006</li>
+		
+		<li>[3] Evens, J.M.;Klein, A.;Taylor, J.;Hickson, D.;Keeler-Wolf, T. 2006</li>
+		
+		<li>[4] Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>Calflora, 2018+</li>
+		
+		<li>CNPS (California Native Plant Society), 2007+</li>
+		
+		<li>Jepson Flora Project, 2004-present</li>
+		
+		<li>Kruckeberg, A.R. 1984</li>
+		
+		<li>NatureServe, 2014+</li>
+		
+		<li>UCB (University of California Berkeley), 2004-present</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/504/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

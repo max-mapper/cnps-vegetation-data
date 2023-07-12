@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Salix exigua</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Salix</i> <i>exigua</i></span> Shrubland Alliance <br/>
+        <span class="subtitle">Sandbar willow thickets</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-2700 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S4.2
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G5
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>CAN: AB, MB, ON, QC. USA: AR, AZ, CA, CO, IA, ID, IL, IN, KS, KY, MN, MT, ND, NE, NM, NV, OH, OK, OR, PA, SD, TN, TX, UT, WA, WI, WY. Mexico (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/salix-exigua_alliancewildrosecyndvnp_10_99.jpg', '/static/images/photos/shrub/salix-exigua_granitemtns_05-98_01.jpg', '/static/images/photos/shrub/salix-exigua_monolk_09-09_01.jpg', '/static/images/photos/shrub/salix-exigua_ssnf_04-10_01.jpg', '/static/images/photos/shrub/salix-exigua_ssnf_04-10_02.jpg', '/static/images/photos/shrub/salix-exigua_ssnf_04-10_03.jpg', '/static/images/photos/shrub/salix-exigua_ssnf_04-10_04.jpg', '/static/images/photos/shrub/salix-exigua_victorville_04-93_01.jpg', '/static/images/photos/shrub/salix-exigua_victorville_04-93_02.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Salix</i> <i>exigua</i> is dominant or co-dominant in the shrub canopy with <i>Baccharis</i> spp., <i>Brickellia</i> <i>californica</i>, <i>Rosa</i> <i>californica</i>, <i>Rubus</i> <i>armeniacus</i>, <i>Rubus</i> <i>ursinus</i>, <i>Salix</i> <i>lasiolepis</i> and <i>Salix</i> <i>melanopsis</i>. Emergent trees of many different species may be present at low cover. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 7 m; canopy is intermittent to continuous. Herbaceous layer is variable. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Salix exigua</i> > 20% absolute cover in the shrub canopy (Vaghti 2003).</li>
+		
+		<li><i>Salix exigua</i> > 50% relative cover in shrub canopy (Thomas et al. 2004, Buck-Diaz et al. 2021, Sikes et al. 2021).</li>
+		
+		<li><i>Salix exigua</i> > 50% relative cover or > 30% relative cover with <i>S. lasiolepis</i> in shrub canopy (Hickson and Keeler-Wolf 2007).</li>
+		
+		<li><i>Salix exigua</i> ≥ 5% absolute cover and dominant in the shrub canopy (Evens 2000).</li>
+		
+		<li><i>Salix exigua</i> is >30% relative cover in the shrub layer. <i>Salix lasiolepis</i> is sub-dominant if present (Boul et al. 2021b).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Temporarily flooded floodplains, depositions along rivers and streams, and at springs. The USFWS Wetland Inventory (1996 national list) recognizes <i>Salix exigua</i> as an FACW plant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Narrowleaf willow series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Salix (exigua, interior) temporarily flooded shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Riparian mixed shrub, Willow (riparian scrub)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Southern cottonwood-willow riparian forest, Modoc-Great Basin cottonwood-willow riparian forest, Mojave riparian forest, Sonoran cottonwood-willow riparian forest, North Coast riparian scrub, Central Coast riparian scrub, Southern willow scrub, Great Valley willow scrub, Modoc-Great Basin riparian scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Desert riparian, Montane riparian, Valley foothill riparian
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>61.209.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Tree Vegetation (Forest and Woodland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate Flooded and Swamp Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North America Warm Temperate Flooded and Swamp Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Southwestern North American Riparian, Flooded and Swamp Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Southwestern North American riparian/wash scrub
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Salix exigua </i>is a deciduous shrub or small tree usually 2-4 m tall. Plants produce an abundance of seeds, which require light for germination. Most seeds germinate within 24 hours, and those older than a week rarely germinate. Fresh alluvium deposited along rivers provides an ideal substrate for establishment. <i>S. exigua </i>sprouts from underground shoot buds, which occur on lateral roots, allowing clonal growth through vegetative reproduction called suckering. Old clones may be several meters in diameter. Regeneration may also occur through broken pieces of stems and roots. Clones sucker following fire and can rapidly re-colonize burned areas (Uchytil 1989g). Though thought a short-lived species, Vaghti (2003) reported 100-year clones along the Sacramento River. <br/>
+<br/>
+The alliance is widespread and common throughout California, especially along seasonally or temporarily flowing streams and at seeps. It often forms dense clonal stands, though great variation exists regionally in shrub and understory composition, ranging from Sierran mountain meadows to those in Colorado Desert oases. Plants along the Sacramento River and elsewhere in the Central Valley are the first to colonize point bars and cut banks, followed in time by <i>Populus fremontii </i>and other taller, longer-lived species (Sands 1980). Rivers with flood-control dams in place may have reduced acreage of <i>S. exigua </i>stands and attained increases in stands of longer-lived, tree willows such as <i>S. gooddingii, S. laevigata, </i>and <i>S. lucida</i>. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Salix exigua</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Shrub; winter deciduous; clonal</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Transient</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Water/hydrological; wind</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>2-50 years (short-lived)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Low to high; episodic</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Unknown</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Fluvial processes rather than fire primarily disturb the alliance. Plants sprout profligately after fires and other disturbances.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+            <p>The range of <i>Salix exigua</i> includes the entire state.</p>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Aa-l). Stands are widespread along seeps, creeks, ponds, and other bodies of freshwater throughout the section. Stands are less common along the immediate coast than those of the <i>Salix lasiolepis</i> alliance.</li>
+        
+            <li><b>Central California Coast Ranges</b> (M262Aa-k). Stands exist at Pinnacles National Monument (Kittel et al. 2012) and are common throughout the section.</li>
+        
+            <li><b>Colorado Desert</b> (322Ca-c). Stands occur in Anza- Borrego Desert State Park, some adjacent to <i>Washingtonia filifera</i> alliance stands.</li>
+        
+            <li><b>Great Valley</b> (262Aa-z). Stands on floodplains along the Sacramento River are less than 30 to 100 years old. Woody associates include <i>Acer negundo, Arundo donax, Juglans hindsii</i> and hybrids, <i>Populus fremontii, S. lasiolepis,</i> and <i>S. melanopsis</i> (Vaghti 2003). Stands in the Sacramento-San Joaquin delta region appear common on levees, often maintained by human disturbance. They have <i>S. lasiolepis</i> commonly associated with them and are frequently tangled with briars of <i>Rubus armeniacus</i> or <i>Rosa californica</i> (Hickson and Keeler-Wolf 2007).</li>
+        
+            <li><b>Klamath Mountains</b> (M261Ah-i, Ar). Stands occur in the eastern subsections at lower elevations along the Trinity River.</li>
+        
+            <li><b>Modoc Plateau</b> (M261Gg, Go-p). Stands occur along the Pit River west of Goose Lake and in several of the lower valleys of the section.</li>
+        
+            <li><b>Mojave Desert</b> (322Aa-d, Af-p). Stands occur along permanent or seasonal streams, such as the Colorado and Mojave rivers, and contain <i>Populus fremontii</i> and <i>S. gooddingii</i> trees. Stands at permanent springs, as in the Saline Valley, occur with stands of the <i>Baccharis sergiloides, B. salicifolia,</i> and <i>Prosopis glandulosa</i> alliances (Evens 2000, Thomas et al. 2004).</li>
+        
+            <li><b>Mono</b> (341De-f, Dh-l). Stands are common east of the Sierra Nevada escarpment throughout the section.</li>
+        
+            <li><b>Northern California Coast</b> (263Ac, Ag, Aj, Al-m). Stands are common along creeks and rivers in the southern subsections.</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Bb, Bd-f). Stands occur in the lower elevation areas of the sections.</li>
+        
+            <li><b>Northern California Interior Coast Ranges</b> (M261Ca-c). Stands line many of the permanent creeks in the section.</li>
+        
+            <li><b>Northwestern Basin and Range</b> (342Ba, Bc). Stands occur at freshwater springs and creeks in Surprise Valley and near Honey Lake.</li>
+        
+            <li><b>Sierra Nevada</b> (M261Er-t). Stands along the eastern slope, including Lee Vining Canyon (Keeler-Wolf et al. 2003b) are nearly pure <i>S. exigua</i> with dense understory cover of grasses and sedges. Other stands contain <i>Rosa woodsii</i> and <i>S. lutea,</i> as at Convict Lake and west of Walker Pass.</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fa-e). Stands occur along creeks and rivers and line ponds and reservoirs in all the subsections (Klein et al. 2007, Potter 2005).</li>
+        
+            <li><b>Sonoran Desert</b> (322Ba-e). Stands are extensive along the Colorado River and occur at many springs throughout the section.</li>
+        
+            <li><b>Southeastern Great Basin</b> (341Fa-f). Stands are common at springs and in well watered canyons below about 1800 m throughout the section.</li>
+        
+            <li><b>Southern California Coast</b> (261Ba-j). Stands are widespread along creeks, channels, rivers, flood basins, and other water-storage areas in the section.</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Ba-d, Bf-g, Bi-l, Bn, Bp). Stands exist along some of the major seasonal streams, including those of the eastern Los Angeles Basin, the Santa Margarita River, and streams bordering the Colorado Desert (Keeler-Wolf et al. 1998).</li>
+        
+            <li><b>Southern Cascades</b> (M261Db-c, Dh, Dj). Stands occur in the lower elevation subsections.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Because the alliance is so widespread, it is an integral part of riparian systems throughout most of the state. Its colonizing and stabilizing characteristics make it an important member in the riparian disturbance cycle, and reduced flooding regularity has diminished its representation along some streams. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Salix exigua [5], [6], [7], [8], [9], [10], [14], [15]</li>
+                
+                    <li>Salix exigua - Arundo donax [7], [11], [12]</li>
+                
+                    <li>Salix exigua / Baccharis sergiloides [1], [3], [9], [16]</li>
+                
+                    <li>Salix exigua - Brickellia californica [5]</li>
+                
+                    <li>Salix exigua / Mesic graminoids [4], [9], [13]</li>
+                
+                    <li>Salix exigua - (Salix lasiolepis) - Rubus armeniacus [2], [8]</li>
+                
+                    <li>Salix exigua - Salix melanopsis [7], [8], [10]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Evens, J.M. 2000</li>
+		
+		<li>[2] Hickson, D.;Keeler-Wolf, T. 2007</li>
+		
+		<li>[3] Keeler-Wolf, T.;Thomas, K. 2000</li>
+		
+		<li>[4] Keeler-Wolf, T.;Schindel, M.;San, S.;Moore, P.;Hickson, D. 2003b</li>
+		
+		<li>[5] Klein, A.;Crawford, J.;Evens, J.;Keeler-Wolf, T.;Hickson, D. 2007</li>
+		
+		<li>[6] Kittel, G.;Reyes, E.;Evens, J.;Buck, J.;Johnson, D. 2012</li>
+		
+		<li>[7] Vaghti, M.G. 2003</li>
+		
+		<li>[8] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>[9] Evens, J.M.;Sikes, K.;Hastings, D.;Ratchford,J.S. 2014</li>
+		
+		<li>[10] Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>[11] Stillwater Sciences and URS, 2007</li>
+		
+		<li>[12] Reyes, E.;Johnson, D.;Glass, A. 2019</li>
+		
+		<li>[13] Reyes, E.;Evens, J.;Glass, A.;Sikes, K.;Keeler-Wolf., T.;Winitsky, S.;Johnson, D.;Menke, J.;Hepburn, A. 2020a</li>
+		
+		<li>[14] Sikes, K.;Buck-Diaz, J.;Evens, J. 2021</li>
+		
+		<li>[15] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>[16] Reyes, E.;Evens, J.;Fulton, J.;Sikes, K.; Johnson, D.;Keeler-Wolf, T.;Vu, S.;LaFever-Jackson, A. 2023 (in progress)</li>
+		
+		<li>Boul, R.;Keeler-Wolf, T.;Ratchford, J.;Haynes, T.;Hickson, D.;Yacoub, R.;Harbert, B.;Evens, J. 2021b</li>
+		
+		<li>Bowler, P.A. 1989</li>
+		
+		<li>Brayshaw, T.C. 1976</li>
+		
+		<li>Evens, J.;San, S. 2005</li>
+		
+		<li>Holland, R.F. 1986</li>
+		
+		<li>Holstein, G. 1984</li>
+		
+		<li>Keeler-Wolf, T.;Evens, J. 2006</li>
+		
+		<li>Menke, J.;Reyes, E.;Hepburn, A.;Johnson, D.;Reyes, J. 2013</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Black, H.;Bleich, V.C.;Mincks, J.W. 1980</li>
+		
+		<li>Sands, A. 1980</li>
+		
+		<li>Shanfield, A.N. 1984
+1984</li>
+		
+		<li>Sproul, F.;Keeler-Wolf, T.;Gordon-Reedy, P.;Dunn, J.;Klein, A.;Harper, K. 2011</li>
+		
+		<li>Thomas, K.;Franklin, J.;Keeler-Wolf, T.;Stine, P. 2004</li>
+		
+		<li>Uchytil, R.J. 1989g</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program);AIS, 2013</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/278/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

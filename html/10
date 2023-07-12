@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Acer macrophyllum</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Acer</i> <i>macrophyllum</i></span> Forest &amp; Woodland Alliance <br/>
+        <span class="subtitle">Bigleaf maple forest and woodland</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Tree
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-1400 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G4
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>CAN: BC. USA: CA, OR, WA (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2009/09/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/tree/acer-macrophyllum_yosemitevalley_09-09_01.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Acer</i> <i>macrophyllum</i> is dominant or co-dominant in the tree canopy with <i>Abies</i> <i>concolor</i>, <i>Alnus</i> <i>rhombifolia</i>, <i>Alnus</i> <i>rubra</i>, <i>Calocedrus</i> <i>decurrens</i>, <i>Cornus</i> <i>nuttallii</i>, <i>Picea</i> <i>sitchensis</i>, <i>Pseudotsuga</i> <i>menziesii</i>, <i>Quercus</i> <i>chrysolepis</i>, <i>Quercus</i> <i>kelloggii</i>, <i>Quercus</i> <i>lobata</i>, <i>Sequoia</i> <i>sempervirens</i>, <i>Taxus</i> <i>brevifolia</i> and <i>Umbellularia</i> <i>californica</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text"> Trees < 75 m; canopy is intermittent to continuous; it may be two-tiered. Shrub layer is infrequent or well-developed. Herbaceous layer is sparse or abundant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Acer macrophyllum</i> > 25% relative cover in the tree canopy (NatureServe 2007).</li>
+		
+		<li><i>Acer macrophyllum</i> > 5% absolute cover in the tree canopy (Jimerson et al. 1996) and usually > 30% relative cover.</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Raised stream benches, terraces, and lower slopes with seeps. Soils may be rocky. The USFWS Wetland Inventory (1996 national list) recognizes <i>Acer macrophyllum</i> as a FAC plant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Douglas fir series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Acer macrophyllum forest alliance, Acer macrophyllum seasonally flooded forest alliance, Pseudotsuga menziesii-Acer macrophyllum forest alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Pacific Douglas-fir, Coastal mixed hardwood, Interior mixed hardwood, Bigleaf maple, Montane mixed hardwood
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>North Coast riparian forests, Central Coast riparian forest, Douglas-fir forest, Coast range mixed coniferous forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Douglas fir forest, North Coast coniferous forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Douglas fir, Montane hardwood-conifer
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>61.450.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Tree Vegetation (Forest and Woodland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Cool Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North America Cool Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Californian-Vancouverian Montane and Foothill Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Upland Vancouverian mixed woodland and forest
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Acer macrophyllum </i>is a deciduous hardwood that grows up to 20 m in height and lives to 300 years. The short-lived seeds, dispersed by heavy, double-winged samaras, germinate during the following winter on mineral and organic seedbeds. Moisture stress, light intensity, and predation are the primary causes of seedling mortality. Growth is slow in shade but fast in forest openings (Minore and Zasada 1990, Uchytil 1989a).<br/>
+<br/>
+This alliance occurs in habitats with different moisture regimes from moist stream terraces to dry talus, but it attains its best development on deep alluvial soils<i>. </i>The best developed stands are scattered along alluvial river terraces, in adjacent side drainages, and at springs along slopes. The species is extremely flood tolerant; it is the only hardwood encountered commonly in low elevation in Pacific Northwest coniferous forests in both steep upland slopes and riparian habitats. At the southern portion of its range, in southern and central California, it is usually riparian (Minore and Zasada 1990, Uchytil 1989a). <br/>
+<br/>
+We are including three different environmental settings in this alliance at this time. Stands surrounded by coastal forests in northwestern or central California contain a scattering of tall conifers, such as <i>Picea sitchensis </i>or <i>Sequoia sempervirens </i>(Sawyer 2006). Stands in the mountains typically contain <i>Pseudotsuga menziesii </i>as a co-dominant. Other California authors (Chambers 2003, Fites 1993, Jimerson et al. 1996) have placed their mixed associations in the <i>Pseudotsuga menziesii </i>or other conifer alliances; however, we place them in the <i>Acer macrophyllum </i>alliance, because this riparian species is a primary indicator and co-dominant in these associations. Stands on talus and other upland settings are local within a mosaic of the local alliances. Further survey throughout the range of <i>A. macrophyllum </i>will better distinguish its role in the state’s vegetation. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Acer macrophyllum</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Tree; winter deciduous</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Transient</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; gravity; wind</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Underground structures (root crown)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>10-100+ years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Unknown</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text"><i>Acer macrophyllum </i>sprouts vigorously from the root crown after disturbances, such as fire; suppressed plants are extremely persistent, and top-killed plants can sprout back (Uchytil 1989a) after low to moderate intensity fire. The ecology of the alliance is similar to the adjunct upland alliances in the same area, but with longer fire intervals (Skinner et al. 2006).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Medium to long
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Summer-early fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Medium to up to stand size
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Moderate to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Low to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Moderate to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Surface-passive crown
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Klamath Mountains
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+            <p>The range of <i>Acer macrophyllum</i> includes Central California Coast Ranges (M262A), Great Valley (262A), Northern California Interior Coast Ranges (M261C), Southern California Coast (261B), Southern California Mountains and Valleys (M262B), and Southern Cascades (M261D).</p>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Af). Stands observed in the San Lorenzo River drainage in Santa Cruz Co. are small.</li>
+        
+            <li><b>Klamath Mountains</b> (M261Aa, Ac-d, Af, Ai, Aq-s, Au). Mixed stands with <i>Pseudotsuga menziesii</i> occur in southern (Chambers 2003) and western (Jimerson et al. 1996) subsections.</li>
+        
+            <li><b>Northern California Coast</b> (263Aa-b, Ad-g, Aj, Al-m). Stands exist along alluvial river terraces and adjacent side drainages mainly cleared in the past for agriculture. Stands in Redwood National Park, Prairie Creek, and Jedediah Smith Redwood State Parks need study.</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Ba-b). Stands occur in the western portion of the Yolla Bolly Mountains. Stands observed in drainages in the Mayacamas Mountains in Sonoma Co. are small.</li>
+        
+            <li><b>Sierra Nevada</b> (M261Ee-g, Em). Mixed stands with <i>Pseudotsuga menziesii</i> exist in Yosemite National Park (Keeler-Wolf et al. 2003b), and generally in the northern (Fites 1993) and southern subsections (Potter 2005). Stands lacking <i>P. menziesii</i> are mapped (NPS-YOSE 2007) on talus cones at the base of north-facing cliffs in Yosemite Valley.</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fa-b). Stands lacking <i>P. menziesii</i> occupy steep canyon bottoms and shady cliff bases throughout the section, and stands can mix with other hardwoods and <i>P. menziesii</i> (Klein et al. 2007).</li>
+        
+            <li><b>Southern Cascades</b> (M261Dl). Stands occur in the mesic western portion of the section.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Maple blight has infested many trees in northwestern California (Sawyer 2006). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Acer macrophyllum - Pseudotsuga menziesii / Adenocaulon bicolor [2]</li>
+                
+                    <li>Acer macrophyllum - Pseudotsuga menziesii / Corylus cornuta [1], [2]</li>
+                
+                    <li>Acer macrophyllum - Pseudotsuga menziesii / Dryopteris arguta [4]</li>
+                
+                    <li>Acer macrophyllum - Pseudotsuga menziesii / Philadelphus lewisii [3]</li>
+                
+                    <li>Acer macrophyllum - Pseudotsuga menziesii / Polystichum munitum [3], [15]</li>
+                
+                    <li>Acer macrophyllum / (Rubus ursinus) [4], [5], [6], [14], [15]</li>
+                
+                    <li>Umbellularia californica - Acer macrophyllum [5], [7], [13], [14], [15]</li>
+                
+                    <li>Umbellularia californica / Rhododendron occidentale [5], [7], [14]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Chambers, J.J. 2003</li>
+		
+		<li>[2] Fites, J. 1993</li>
+		
+		<li>[3] Jimerson, T.M.;McGee, E.A.;Jones, D.W.;Svilich, R.J.;Hotalen, E.;DeNitto, G.;Laurent, T.;Tenpas, J.D.;Smith, M.E.;Hefner-McClelland, K.;Mattison, J. 1996</li>
+		
+		<li>[4] Klein, A.;Crawford, J.;Evens, J.;Keeler-Wolf, T.;Hickson, D. 2007</li>
+		
+		<li>[5] Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>[6] AECOM, 2013</li>
+		
+		<li>[7] Evens, J.M.;Kentner, E. 2006</li>
+		
+		<li>[13] Stumpf, K. 2017</li>
+		
+		<li>[14] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>[15] Sikes, K.;Buck-Diaz, J.;Evens, J. 2021</li>
+		
+		<li>Agee, J.K. 1988</li>
+		
+		<li>Barbour, M.G. 1988</li>
+		
+		<li>Dyrness, C.T. 1973</li>
+		
+		<li>Fonda, R.W. 1974</li>
+		
+		<li>Franklin, J.F. 1988</li>
+		
+		<li>Franklin, J.F.;Dyrness, C.T. 1973</li>
+		
+		<li>Fried, J.S.;Tappeiner, J.C.;Hibbs, D.E. 1988</li>
+		
+		<li>Halpern, C.B. 1989</li>
+		
+		<li>Minore, D.;Zasada, J.C. 1990</li>
+		
+		<li>NPS-SEKI, 2009</li>
+		
+		<li>Sawyer, J.O. 2006</li>
+		
+		<li>Skinner, C.N.;Taylor, AH.;Agee., J.K. 2006</li>
+		
+		<li>Uchytil, R.J. 1989a</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/10/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

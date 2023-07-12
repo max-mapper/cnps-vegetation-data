@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Lolium perenne</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Lolium</i> <i>perenne</i></span> Herbaceous Semi-Natural Alliance <br/>
+        <span class="subtitle">Perennial rye grass fields</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Herb
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-1325 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>SNA
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>GNA
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>CAN: AB, BC, MB, NB, NF, NS, NT, ON, PE, QC, SK, YT. DEN: GL. FRA: SPM. USA: All. USA+: PR (USDA Plants)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                        <li>
+                            <span class="category">Invasive species rank</span>
+                            Cal-IPC rank: Moderate
+                        </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2009/09/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/herb/lolium-perenne_santarosais_05-12.jpg', '/static/images/photos/herb/lolium-perenne_prvtland-redhillranch_05-2019_marin282.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Lolium</i> <i>perenne</i> is dominant or co-dominant with other non-natives in the herbaceous layer such as <i>Agrostis</i> <i>stolonifera</i>, <i>Avena</i> <i>fatua</i>, <i>Brassica</i> <i>nigra</i>, <i>Bromus</i> <i>diandrus</i>, <i>Bromus</i> <i>hordeaceus</i>, <i>Cirsium</i> <i>vulgare</i>, <i>Festuca</i> <i>arundinacea</i>, <i>Holcus</i> <i>lanatus</i>, <i>Hordeum</i> <i>marinum</i>, <i>Leontodon</i> <i>saxatilis</i>, <i>Lotus</i> <i>corniculatus</i>, <i>Phalaris</i> <i>aquatica</i>, <i>Poa</i> <i>pratensis</i>, <i>Rumex</i> <i>crispus</i> and <i>Trifolium</i> spp. Native species which may be present at much lower cover include <i>Alopecurus</i> <i>aequalis</i>, <i>Asclepias</i> <i>fascicularis</i>, <i>Centaurium</i> <i>muehlenbergii</i>, <i>Cryptantha</i> <i>flaccida</i>, <i>Euphorbia</i> <i>spathulata</i>, <i>Hordeum</i> <i>brachyantherum</i>, <i>Leymus</i> <i>triticoides</i>, <i>Microseris</i> <i>douglasii</i>, <i>Nassella</i> <i>pulchra</i>, <i>Nasturtium</i> <i>officinale</i> and <i>Plantago</i> <i>erecta</i>. Emergent trees and shrubs may be present at low cover. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Herbs < 1 m; cover is intermittent to continuous. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Lolium perenne</i> ≥ 50% relative cover, native plants < 15% relative cover, and <i>Bromus hordeaceus, Hordeum</i> spp. may be present in lower cover (Keeler-Wolf and Vaghti 2000).</li>
+		
+		<li><i>Lolium perenne</i> > 50% relative cover, with conspicuous <i>Lotus corniculatus</i> (Boul et al. 2021b).</li>
+		
+		<li><i>Lolium perenne</i> > 50% relative cover, or > 30% relative cover with <i>Avena</i> spp., <i>Bromus</i> spp., <i>Hordeum marinum, H. murinum, Medicago, Trifolium subterraneum, Elymus caput-medusae</i>, and other non-natives in the herbaceous layer. Native species are typically less than 10% relative cover (Buck-Diaz et al. 2021, Sikes et al. 2021).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Lowlands with periodic flooding, disked fields, and uplands including serpentine substrates. The USFWS Wetland Inventory (2012 national list) recognizes <i>Lolium perenne</i> as a FAC plant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>California annual grassland series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Annual grasses and forbs, Non-native/ornamental grass
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Non-native grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Valley grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Annual grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>41.321.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Mediterranean Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Mediterranean Grassland and Forb Meadow
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>California Grassland and  Meadow
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>California Annual and Perennial Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Mediterranean California naturalized annual and perennial grassland
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Lolium perenne </i>is a non-native grass from Europe, introduced into temperate regions throughout the world. It is an annual or a perennial, cool-season bunch grass with erect to decumbent culms and a fibrous root system that extends over 1 m deep. Animals disperse the abundant seed. Seeds germinate without stratification, and germination rates are > 70%. The seed bank is transient. Some plants produce tillers profusely (Carey 1995c, Sullivan 1992b). <br/>
+<br/>
+Some botanists treat the two forms of <i>L. perenne, </i>annual plants (ssp. <i>multiflorum</i>) and perennial plants (ssp. <i>perenne</i>), as separate species (Hickman 1993). Field identification is unreliable at the infraspecific level (Welsh et al. 1993). Plants do not appear strictly annual or perennial, and their culm height, degree of tiller development, and awn characters vary greatly, even within the same population. Most vegetation studies in California treat the plants as annuals. In botanical literature, this species is regularly referred to as <i>Festuca perennis</i>.<br/>
+<br/>
+<i>Lolium perenne </i>is a widespread and adaptable grass in cismontane California, and plants grow in a wide range of soil types, except for those excessively drained. Many herbaceous alliances have significant cover of <i>L. perenne, </i>including stands of the <i>Eleocharis macrostachya, Juncus arcticus</i> (var. <i>balticus, mexicanus</i>), <i>Leymus cinereus -  Leymus triticoides, Muhlenbergia rigens, Plagiobothrys nothofulvus, </i>and <i>Trifolium variegatum </i>alliances. While membership rules vary among studies, we consider that stands should have <i>L. perenne </i>as a strong dominant alone or with other non-natives, largely to the exclusion of native plants to be included in this type. Generally, this type occurs in seasonally moist to wet environments that are regularly disturbed through grazing, fire, flooding, or mechanical means. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Lolium perenne</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Annual/perennial; herb</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Transient</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; gravity</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Stratification- spring, fall</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-sensitive; high flammability; low sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>High</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Stands of <i>Lolium perenne </i>in upland sites readily burn at high fire frequencies. Perennial plants are top-killed and sprout quickly from the tillers after fires (Carey 1995c, Sullivan 1992b).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+            <p>The range of Lolium perenne includes all sections across cismontane California.</p>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Aa, Af-g, Ak). Stands of <i>Lolium perenne </i>appear to have replaced native stands of <i>Juncus effusus, J.</i> (<i>oxymeris, xiphioides</i>), <i>Nassella pulchra, Leymus triticoides, Trifolium variegatum, </i>or other herbaceous alliances (Keeler-Wolf et al. 2007). Stands associated with springs of the East Bay Hills in Contra Costa Co. (Allen-Diaz et al. 2001) are grazed.</li>
+        
+            <li><b>Central California Coast Ranges</b> (M262Aa-k). Nitrogen deposition has assisted (Weiss 1999) in replacement of native stands on serpentine at Coyote Ridge in Santa Clara Co. (Evens and San 2004).</li>
+        
+            <li><b>Great Valley</b> (262Aa, Ac, Af-g, Ai-m, At). Stands of the Sacramento-San Joaquin delta include grazed pastures adjacent to vernal pools (Hickson and Keeler-Wolf 2007). Stands at Suisun Marsh (Keeler-Wolf and Vaghti 2000) are common in winter-flooded or saturated soils. They appear seral to stands of the <i>Atriplex lentiformis, Baccharis pilularis, Frankenia salina, </i>and <i>Sarcocornia pacifica</i> (<i>Salicornia depressa</i>) alliances. Stands with high <i>Lotus corniculatus, </i>included by Keeler-Wolf and Vaghti in a <i>Lotus corniculatus </i>alliance, have replaced native stands of <i>Leymus triticoides </i>in portions of the marsh. These related <i>Lotus </i>stands are included in this <i>Lolium perenne </i>description.</li>
+        
+            <li><b>Modoc Plateau</b> (M261Gi). A single stand was surveyed at the far northern edge of this subsection, surrounded by grazed pasture. This stand was dominated by <i>Lotus corniculatus</i> (Boul et al. 2021b).</li>
+        
+            <li><b>Northern California Coast</b> (263Ac, Ae, Ag, Aj-m). Some stands at Humboldt Bay National Wildlife Refuge (Pickart 2006) include a high cover of <i>Lotus corniculatus</i>.</li>
+        
+            <li><b>Northwestern Basin and Range</b> (342Bd). One stand mapped at the southern edge of Bull Flat (Boul et al. 2021b).</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fa-e). Mesic upland stands exist at Peoria Wildlife Area (Evens et al. 2004) and those in the northern foothills (Klein et al. 2007) include natives such as <i>Centaurium muehlenbergii </i>or <i>Zigadenus fremontii.</i></li>
+        
+            <li><b>Southern California Coast</b> (261Ba-j). Mesic upland stands exist at Santa Monica Mountains (Keeler-Wolf and Evens 2006) and on Santa Cruz and San Nicolas Islands (Junak et al. 2007).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> <i>Lolium perenne </i>is an important forage crop for livestock but less used by wildlife. Managers have used it for erosion control, especially following fires, and as a winter cover crop. However, it is not effective at controlling erosion during the first year after a fire and may even increase erosion in succeeding years. It also competes with native plants and may increase the fire hazard in succeeding years (Carey 1995c, Sullivan 1992b). In addition, <i>L. perenne </i>establishes strongly on nutrient-poor soils, such as serpentine, when nitrogen deposition occurs from air pollution (Hopkinson et al. 2008, Weiss 1999). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+                <p>Agricultural Wetland Types</p>
+            
+            <ul class="text">
+                
+                    <li>Lolium perenne - Festuca arundinacea [8]</li>
+                
+                    <li>Lolium perenne - Lepidium latifolium [5]</li>
+                
+                    <li>Lolium perenne - Lotus corniculatus [5], [8], [17], [18], [19]</li>
+                
+            </ul>
+        
+            
+                <p>Annual Grassland Types</p>
+            
+            <ul class="text">
+                
+                    <li>Lolium perenne [4], [5], [8], [9], [10], [11], [12], [13], [14], [15], [18], [19]</li>
+                
+                    <li>Lolium perenne - Bromus hordeaceus [7]</li>
+                
+                    <li>Lolium perenne - Centaurium muehlenbergii [6]</li>
+                
+                    <li>Lolium perenne - Hordeum marinum - Ranunculus californicus [1], [16], [19]</li>
+                
+                    <li>Lolium perenne - Leymus triticoides [7]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Evens, J.M.;San, S.;Taylor, J. 2004</li>
+		
+		<li>[3] Hickson, D.;Keeler-Wolf, T. 2007</li>
+		
+		<li>[4] Keeler-Wolf, T.;Evens, J. 2006</li>
+		
+		<li>[5] Keeler-Wolf, T.;Vaghti, M. 2000</li>
+		
+		<li>[6] Klein, A.;Crawford, J.;Evens, J.;Keeler-Wolf, T.;Hickson, D. 2007</li>
+		
+		<li>[7] O’Neil, S.;Egan, S. 2004</li>
+		
+		<li>[8] Pickart, A.J. 2006</li>
+		
+		<li>[9] Sproul, F.;Keeler-Wolf, T.;Gordon-Reedy, P.;Dunn, J.;Klein, A.;Harper, K. 2011</li>
+		
+		<li>[10] Rodriguez, D.;Sikes, K.;Keeler-Wolf, T.;Kittel, G.;Curtis, J.;Curley, C.;Evens, J. 2017</li>
+		
+		<li>[11] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>[12] Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>[13] Buck-Diaz, J.;Harbert, B.;Evens, J. 2011</li>
+		
+		<li>[14] Buck-Diaz, J.;Ratchford, J.;Evens, J. 2013</li>
+		
+		<li>[15] AECOM, 2013</li>
+		
+		<li>[16] Buck, J.;Evens, J. 2010</li>
+		
+		<li>[17] Boul, R.;Keeler-Wolf, T.;Ratchford, J.;Haynes, T.;Hickson, D.;Yacoub, R.;Harbert, B.;Evens, J. 2021b</li>
+		
+		<li>[18] Sikes, K.;Buck-Diaz, J.;Evens, J. 2021</li>
+		
+		<li>[19] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>Allen-Diaz, B.H.;Jackson, R.D.;Phillips, C. 2001</li>
+		
+		<li>Carey, J.H. 1995c</li>
+		
+		<li>Evens, J.;San, S. 2004</li>
+		
+		<li>Hickman, J.C. 1993</li>
+		
+		<li>Hopkinson, P.;Stevenson, M.;Hammon, M.;Gennet, S.;Roa, D.;Bartolome, J.W. 2008</li>
+		
+		<li>Junak, S.;Knapp, D.A.;Haller, J.R.;Philbrick, R.;Schoenherr, A.;Keeler-Wolf, T. 2007</li>
+		
+		<li>Keeler-Wolf, T.;Evens, J.M.;Solomeshch, A.I.;Holland, V.L.;Barbour, M.G. 2007</li>
+		
+		<li>Sullivan, J. 1992b</li>
+		
+		<li>Weiss, S.B. 1999</li>
+		
+		<li>Welsh, S.L.;Atwood, S.D.;Goodrich, S.;Higgins, L.C. 1993</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/425/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

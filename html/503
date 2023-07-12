@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Salix boothii - Salix geyeriana - Salix lutea</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Salix</i> <i>boothii</i> - <i>Salix</i> <i>geyeriana</i> - <i>Salix</i> <i>lutea</i></span> Shrubland Alliance <br/>
+        <span class="subtitle">Booth&#39;s Willow - Geyer&#39;s Willow - Yellow Willow thickets</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>600-3200 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S2
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>GNR
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>CAN: AB, BC. USA: AZ, CA, CO, ID, MT, NM, NV, OR, SD, UT, WA, WY (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2019/05/28
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/salix-lutea_modocco_10-14-2005.jpg', '/static/images/photos/shrub/salix-geyeriana_monolk_09-09_01.jpg', '/static/images/photos/shrub/salix-lutea_sherwin-creek_1978.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Salix</i> <i>bebbiana</i>, <i>Salix</i> <i>boothii</i>, <i>Salix</i> <i>drummondiana</i>, <i>Salix</i> <i>geyeriana</i>, <i>Salix</i> <i>lucida</i> ssp. <i>caudata</i>, <i>Salix</i> <i>lutea</i> and/or <i>Salix</i> <i>prolixa</i> is dominant or co-dominant in the tall shrub or low tree canopy with <i>Betula</i> <i>occidentalis</i>, <i>Cornus</i> <i>sericea</i>, <i>Ribes</i> spp., <i>Rosa</i> <i>woodsii</i>, <i>Salix</i> spp. and <i>Sambucus</i> <i>racemosa</i>. Emergent trees may be present at low cover, including <i>Abies</i> <i>concolor</i> or <i>Juniperus</i> <i>occidentalis</i>. Associated herbs include <i>Poa</i> <i>pratensis</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 4 m; canopy is open to continuous. Herbaceous layer is open to continuous. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Salix geyeriana</i> > 50% relative cover in the shrub canopy (Manning and Padgett 1995).</li>
+		
+		<li><i>Salix boothii</i> and/or <i>S. lutea</i> > 25% absolute cover, and other willows may co-dominate (Manning and Padgett 1995).</li>
+		
+		<li><i>Salix lucida</i> dominates the overstory with > 30% absolute cover (Smith 1998b).</li>
+		
+		<li><i>Salix geyeriana</i> > 30% cover in the shrub canopy (Smith 1998b).</li>
+		
+		<li>Shrubby <i>Salix lasiandra</i> var. <i>lasiandra</i> or <i>S. lasiandra</i> var. <i>caudata</i> is >30% relative cover in the shrub layer (Boul et al. 2021b).</li>
+		
+		<li>Shrubby <i>Salix lucida</i> ssp. <i>lasiandra</i> > 5% absolute cover in the overstory and dominant (Potter 2005).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Stream benches, alluvial stream terraces, broad meadows, springs, and seeps in meadows. Soils are composed of deep, fine-textured alluvium over subsurface soils of various textures and origins. The USACE Wetland Inventory (2012 national list) recognizes <i>Salix bebbiana, S. boothii</i>, S. drummondiana</i>, and <i>S. lasiandra</i> as FACW plants; <i>S. lutea</i> as OBL; and <i>S. geyeriana</i> as both FACW and OBL depending on region. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Montane wetland shrub habitat
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Salix bebbiana temporarily flooded shrubland alliance, Salix geyeriana temporarily flooded shrubland alliance, Salix lucida temporarily flooded shrubland alliance, Salix lucida temporarily flooded woodland alliance, Salix lutea seasonally flooded shrubland alliance, Salix lutea temporarily flooded shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Riparian mixed shrub, Willow (riparian scrub)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Montane riparian scrub, Modoc-Great Basin riparian scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Montane riparian, Wet meadow
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>61.218.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Tree Vegetation (Forest and Woodland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate Flooded and Swamp Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North America Flooded and Swamp Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Western Cordilleran montane-boreal riparian scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Great Basin montane riparian scrub
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> Stands of <i>Salix bebbiana, Salix geyeriana</i>, and <i>Salix lutea</i> were treated in separate alliances in the 2009 book, <i>A Manual of California Vegetation, Second Edition</i>. They are now merged into this combined alliance that merges several higher-elevation, shrubby willows including <i>Salix boothii, Salix drummondiana, Salix ligulifolia, Salix lucida</i> ssp. <i>caudata</i>, and <i>Salix prolixa</i>. Tree stands of <i>Salix lucida</i> ssp. <i>lasiandra</i> and <i>Salix planifolia</i> are not included in the California alliance definition and are retained as separate alliances. <br/>
+<br/>
+<i>Salix bebbiana </i>is a tall, deciduous, riparian shrub up to 10 m tall. Its stems are hairy and its leaves are elliptic to obovate and silky hairy on both sides when young, becoming glabrous. Plants produce copious seeds that are wind-dispersed. Seeds are not dormant and remain viable for only a few days. They germinate rapidly on a moist soil. Plants will sprout from their root crown or stem base after fire or cutting (Tesky 1992d).<br/>
+<br/>
+<i>Salix bebbiana </i>(a CNPS list 2.3 plant) is known from five locations in the state in the northern Modoc Plateau. Stands are also rare in the state, but they appear common in riparian zones at montane and subalpine elevations outside of California (Hansen et al. 1995, NatureServe 2007). The understory of most, if not all, stands is dominated by introduced, invasive plants. Ecologists considered these stands of willow the result of long-season browsing or grazing pressure and lowered water tables in areas that typically are dominated by <i>S. drummondiana, S. geyeriana, </i>or <i>S. lutea </i>stands. In contrast, S. Smith (1998b) recognized the alliance in northeastern California as a late-successional type that forms dense shrublands with native herbs.<br/>
+<br/>
+<i>Salix boothii</i> is a deciduous shrub up to 6 m in height. Stems and petioles are glabrous or shaggy-hairy. This species is uncommon in California but grows across much of the western US and Canada. In California, this species can be found in wet, subalpine meadows or along lake and pond margins (The Jepson Manual 2012). <br/>
+<br/>
+<i>Salix geyeriana </i>is a deciduous, riparian shrub up to 6 m tall. Plants produce abundant, small seeds that disperse in the wind and water. Seeds remain viable for a week; they germinate on moist, exposed mineral substrates (Uchytil 1991e). It is sometimes difficult to distinguish from <i>S. lemmonii </i>because both have shiny-upper and glaucous-lower leaf surfaces.  However, its lower leaf surfaces have persistent long hairs when mature, and its stipules (if present) do not become leaflike as they do in <i>S. lemmonii</i>. <br/>
+<br/>
+Stands of <i>Salix geyeriana </i> occur from the foothills to high elevations in the mountains of the western United States at elevations from 1320 to 2900 m outside the state. In California, <i>S. geyeriana </i>is mainly a transmontane willow. Most stands have an herbaceous layer that includes <i>Calamagrostis canadensis, C. stricta, Carex aquatilis, C. lanuginosa, C. nebrascensis, C. utriculata, Deschampsia cespitosa, Juncus arcticus, J. orthophyllus, Phleum alpinum, Poa palustris, </i>and <i>P. pratensis. </i><br/>
+<br/>
+Stands of <i>Salix lucida</i> that fall within this alliance are shrubby in form. <i>Salix lucida</i> ssp. <i>caudata</i> is the genetically shrubby form of this species, so stands that are dominated by this subspecies will always be considered under this alliance. However, <i>Salix lucida</i> ssp. <i>lasiandra</i> can also occur in shrubby form, although it is typically a tree, and can dominate or be a component of stands that fall within this alliance. These stands are differentiated from the <i>Salix lucida</i> ssp. <i>lasiandra</i> alliance by its shrubby form, higher elevation, and associated species.<br/>
+<br/>
+Stands of the <i>Salix boothii - Salix geyeriana - Salix lutea</i> alliance are deciduous shrublands found in riparian and wetland settings and are dominated by single or multiple <i>Salix</i> species. Many of these species are codominant in varying combinations. The herbaceous layer can be dominated by forbs or graminoids and is usually a mix (NatureServe 2019). </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Salix bebbiana</th>
+			
+		
+			
+			<th>Salix boothii</th>
+			
+		
+			
+			<th>Salix drummondiana</th>
+			
+		
+			
+			<th>Salix geyeriana</th>
+			
+		
+			
+			<th>Salix lucida ssp. caudata</th>
+			
+		
+			
+			<th>Salix lutea</th>
+			
+		
+			
+			<th>Salix prolixa</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Shrub; winter deciduous</td>
+			
+		
+			
+			<td>Shrub; clonal</td>
+			
+		
+			
+			<td>Shrub; perennial</td>
+			
+		
+			
+			<td>Shrub; winter deciduous </td>
+			
+		
+			
+			<td>Shrub; winter deciduous</td>
+			
+		
+			
+			<td>Shrub; winter deciduous</td>
+			
+		
+			
+			<td>Tree; Shrub</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Transient</td>
+			
+		
+			
+			<td>Canopy stored</td>
+			
+		
+			
+			<td>Transient</td>
+			
+		
+			
+			<td>Transient </td>
+			
+		
+			
+			<td>Transient</td>
+			
+		
+			
+			<td>Transient</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+			
+			<td>Short</td>
+			
+		
+			
+			<td>Short</td>
+			
+		
+			
+			<td>Short</td>
+			
+		
+			
+			<td>Short</td>
+			
+		
+			
+			<td>Short</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; water/hydrological; wind</td>
+			
+		
+			
+			<td>Expulsion from capsule; Wind; Water</td>
+			
+		
+			
+			<td>Wind; Water</td>
+			
+		
+			
+			<td>Water/hydrological; wind</td>
+			
+		
+			
+			<td>Water/hydrological; wind</td>
+			
+		
+			
+			<td>Water/hydrological; wind</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>Stratification - Winter (?)</td>
+			
+		
+			
+			<td>Inundation (high moisture)</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>None (moisture enhances germination)</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Underground structures</td>
+			
+		
+			
+			<td>Underground structures</td>
+			
+		
+			
+			<td>Underground structures; Buds on small branches (cuttings)</td>
+			
+		
+			
+			<td>Underground structures</td>
+			
+		
+			
+			<td>Buds on small branches; underground structures</td>
+			
+		
+			
+			<td>Underground structures (root crown)</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+			
+			<td>Fire-hardy</td>
+			
+		
+			
+			<td>Fire-hardy; low sprouter</td>
+			
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+			
+			<td>Fire-sensitive to fire-hardy; high sprouter?</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>Long-lived</td>
+			
+		
+			
+			<td>2 to 10 years old</td>
+			
+		
+			
+			<td>2 to 10 years old</td>
+			
+		
+			
+			<td>Long-lived</td>
+			
+		
+			
+			<td>2 years to life of plant</td>
+			
+		
+			
+			<td>Unknown (100-250 year lifespan)</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Low </td>
+			
+		
+			
+			<td>Episodic (?)</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>Low to medium; episodic</td>
+			
+		
+			
+			<td>Low to medium; episodic</td>
+			
+		
+			
+			<td>High</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low in California</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>Low in California</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Fluvial processes rather than fire primarily disturb the alliance. Plants sprout after fires and other disturbances.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+            <p><i>S. lucida</i> ssp. <i>caudata</i> occurs in the San Bernardino Mountains (M262Bh) Sierra Nevada (M261E), and Warner Mountains (M261G).</p>
+        
+
+        <ul class="text">
+        
+            <li><b>Modoc Plateau</b> (M261Gc, Gf, Gi, Go). S. Smith (1998b) describes stands of <i>S. bebbiana</i> in the Warner Mountains, and two community types dominated by <i>S. geyeriana</i> in the Modoc National Forest. Stands of shrubby <i>S. lucida</i> typically link up meadows along low-gradient streams at elevations above 5000 ft. (S. Smith 1998b).</li>
+        
+            <li><b>Mono</b> (341Da-f, Dh, Dj, Dl). Stands of <i>Salix geyeriana</i> as well as related <i>S. boothii</i> and <i>S. lemmonii</i> occur in the Carson and Walker River basins, classified as the Cold willow/ Mesic graminoid-Cryaquoll flood plain ecological type (Weixelman et al. 1999). Stands of <i>Salix lutea</i> have been sampled in the Sweetwater Mountains (Manning and Padgett 1995). Stands are anticipated in other subsections where character species are known to occur (Consortium of California Herbaria 2017), but more survey work is needed to understand the full range.</li>
+        
+            <li><b>Northwestern Basin and Range</b> (342Bc-d). <i>Salix lucida</i> ssp.<i> caudata/ Poa pratensis</i> was mapped near Smoke Creek Canyon Reservoir and along Stony Creek (Geographic Information Center, unpublished). Stands are anticipated in locations <i>S. lucida</i> ssp. <i>caudata</i> is known to occur (Consortium of California Herbaria 2017), but more survey work is needed to understand the full range.</li>
+        
+            <li><b>Sierra Nevada</b> (M261Ea-d, Ef, Eh, Ej-u). Stands of <i> S. geyeriana</i> in the eastern Sierra Nevada may contain minor cover of <i>S. boothii</i> and <i>S. lemmonii</i> (Manning and Padgett 1995, Weixelman et al. 1999). <i>S. geyeriana</i> occasionally grows in stands of the <i>Salix jepsonii</i> alliance in the eastern Sierra Nevada, though these two species do not typically associate (Potter 2005). Associated upland stands include those of the <i>Pinus contorta</i> ssp. <i>murrayana</i> and <i>Pinus jeffreyi</i> alliances. Stands in eastside subsections and Sweetwater Mountains are typically dominated to co-dominated by <i>S. boothii</i> and/or <i>S. lutea</i> (Manning and Padgett 1995, Weixelman et al. 1999). Stands in the Mammoth region near Convict Lake contain <i>S. lutea</i> with <i>Rosa woodsii, S. exigua,</i> and a variety of herbs. Stands of mostly shrubby <i>Salix lucida</i> occur in this section along stream banks, in floodplains, and near meadows at mid and upper elevations (Potter 2005).</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Bh). Stands are anticipated where <i>S. lutea</i> is known to occur (Consortium of California Herbaria 2017), but more survey work is needed to understand the full range.</li>
+        
+            <li><b>Southern Cascades</b> (M261Dm). Stands of <i>Salix boothii</i> were observed in Lassen NP (Stumpf 2016).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> <i>Salix geyeriana </i>is highly palatable to livestock and beavers. Stands are susceptible to trampling and compaction by livestock and recreationists, so managers should avoid early spring grazing (Weixelman et al. 1999).
+
+<i>Salix bebbiana </i> does not readily regenerate after removal and should be mantained in its mature state through prescriptive grazing (Smith 1998b). 
+
+These disturbance- and moisture-related stands have variable composition. Species such as <i>Agrostis stolonifera, Juncus arcticus, Poa pratensis, Ribes aureum, </i>and <i>Rosa woodsii </i>appear dominant in past heavily grazed areas, while <i>Carex lanuginosa, C. nebrascensis, </i>and <i>C. microptera </i>indicate less-disturbed sites (Manning and Padgett 1995). Willows provide erosion control and cover for wildlife. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Salix bebbiana / mesic forb [2]</li>
+                
+                    <li>Salix geyeriana / grass [1], [2]</li>
+                
+                    <li>Salix lucida / Mesic forb [2], [3]</li>
+                
+                    <li>Salix lucida / Mesic graminoid [2], [5]</li>
+                
+                    <li>Salix lutea / mesic forbs [1]</li>
+                
+                    <li>Salix lutea / mesic graminoids [1]</li>
+                
+                    <li>Salix lutea / Poa pratensis [1]</li>
+                
+                    <li>Salix lutea / Rosa woodsii [1]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Manning, M.E.;Padgett, W.G. 1995</li>
+		
+		<li>[2] Smith, S. 1998b</li>
+		
+		<li>[3] Potter, D.A. 2005</li>
+		
+		<li>[5] Boul, R.;Keeler-Wolf, T.;Ratchford, J.;Haynes, T.;Hickson, D.;Yacoub, R.;Harbert, B.;Evens, J. 2021b</li>
+		
+		<li>CCH (Consortium of California Herbaria), 2017+</li>
+		
+		<li>Esser, L.L. 1992</li>
+		
+		<li>Hansen, P.L.;Pfister, R.D.;Boggs, K.;Cook, B.J.;Joy, J.;Hinckley, D.K. 1995</li>
+		
+		<li>NatureServe, 2007</li>
+		
+		<li>NatureServe, 2014+</li>
+		
+		<li>Tesky, J.L. 1992d</li>
+		
+		<li>Uchytil, R.J. 1991e</li>
+		
+		<li>Uchytil, R.J. 1991g</li>
+		
+		<li>Waltermire, R.;Stumpf, K.;Von Loh, J.;O'Donnell, M.;Brown, K.;Sarr, D. 2016</li>
+		
+		<li>Weixelman, D.A.;Zamudio, D.C.;Zamudio, K.A. 1999</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/503/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

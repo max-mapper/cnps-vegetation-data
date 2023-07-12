@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Poa pratensis - Agrostis gigantea - Agrostis stolonifera</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Poa</i> <i>pratensis</i> - <i>Agrostis</i> <i>gigantea</i> - <i>Agrostis</i> <i>stolonifera</i></span> Herbaceous Semi-Natural Alliance <br/>
+        <span class="subtitle">Kentucky bluegrass - Redtop - Creeping bentgrass meadows</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Herb
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-3500 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>SNA
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>GNA
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>CAN: AB, BC. USA: AK, AZ, CA, CO, ID, MT, ND, NM, NV, OR, SD, UT, WA, WY (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                        <li>
+                            <span class="category">Invasive species rank</span>
+                            See remarks
+                        </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2019/11/22
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/herb/poa-pratensis_craneflatmdw_10-03_01.jpg', '/static/images/photos/herb/poa-pratensis_craneflatmdw_10-03_02.jpg', '/static/images/photos/herb/agrostis-stolonifera_ptarena_06-1993.jpg', '/static/images/photos/herb/festuca-arundinacea_05-2012_02.jpg', '/static/images/photos/herb/festuca-arundinacea_05-2013_01.jpg', '/static/images/photos/herb/festuca-arundinacea_06-2012_04.jpg', '/static/images/photos/herb/festuca-arundinacea_11-2012_03.jpg', '/static/images/photos/herb/festuca-arundinacea_slide.jpg', '/static/images/photos/herb/poa-pratensis_agrostis-gigantea_agrostis-stolonifera_pore-bolinasmesa_05-2019_marin0246.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Agrostis</i> <i>gigantea</i>, <i>Agrostis</i> <i>stolonifera</i>, <i>Alopecurus</i> <i>pratensis</i>, <i>Festuca</i> <i>arundinacea</i>, <i>Phleum</i> <i>pratense</i> and/or <i>Poa</i> <i>pratensis</i> is dominant or co-dominant in the herbaceous layer with <i>Achillea</i> <i>millefolium</i>, <i>Alopecurus</i> <i>aequalis</i>, <i>Argentina</i> <i>egedii</i>, <i>Bromus</i> <i>inermis</i>, <i>Bromus</i> spp., <i>Cirsium</i> <i>arvense</i>, <i>Eleocharis</i> <i>macrostachya</i>, <i>Elymus</i> <i>repens</i>, <i>Equisetum</i> spp., <i>Hordeum</i> <i>brachyantherum</i>, <i>Hordeum</i> spp., <i>Juncus</i> <i>arcticus</i>, <i>Linaria</i> <i>vulgaris</i>, <i>Potentilla</i> <i>gracilis</i>, <i>Sidalcea</i> <i>oregana</i> or <i>Taraxacum</i> <i>officinale</i>. Emergent trees and shrubs may be present at low cover. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Herbs < 2 m; cover is intermittent to continuous. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Poa pratensis</i> > 25% absolute cover and dominant in the herbaceous layer (S. Smith 1998).</li>
+		
+		<li><i>Poa pratensis</i> > 5% absolute cover in the herbaceous layer; native plant cover less than that of <i>P. pratensis </i>(Potter 2005).</li>
+		
+		<li><i>Poa pratensis</i> > 75% relative cover in the herbaceous layer (NatureServe 2007).</li>
+		
+		<li><i>Agrostis stolonifera</i> and/or <i>Festuca arundinacea</i> > 80% relative cover; both species in combination may comprise around 100% cover (Pickart 2006).</li>
+		
+		<li><i>Agrostis gigantea, A. stolonifera, Alopecurus pratensis, Phleum pratense, </i>or <i>Poa pratensis</i> > 60% relative cover in the herb layer (Boul et al. 2021b).</li>
+		
+		<li><i>Phleum pratensis</i> > 30% absolute cover and dominant or co-dominant with <i>Poa pratensis </i>in the herb layer (Smith 1998b).</li>
+		
+		<li><i>Agrostis stolonifera</i> or <i>Poa pratensis</i> > 25% absolute cover or > 60% relative cover in herb layer (Manning and Padgett 1995, Smith 1998b).</li>
+		
+		<li><i>Agrostis gigantea, A. stolonifera</i>, and/or <i>Festuca arundinacea</i> > 30% relative cover in the herbaceous layer (Buck-Diaz et al. 2021).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Seasonally flooded brackish marshes, meadows, stream benches and terraces, wet pastures, or agricultural wetlands with a heavy layer of thatch. Soils can be well-drained loams or clay loams, particularly for <i>Poa pratensis</i> dominant stands. The USFWS Wetland Inventory (2012 national list) recognizes <i>P. pratensis</i> as a FAC plant and <i>A. stolonifera</i>  and <i>A. gigantea</i> as FACW (Arid West) or FAC (Western Mountains, Valleys, & Coast) plants. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Introduced perennial grassland series, Kentucky blue grass series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Agrostis stolonifera seasonally flooded herbaceous alliance, Phleum pretense herbaceous alliance, Poa pratensis semi-natural seasonally flooded herbaceous alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Wet grasses and forbs, Perennial grasses and forbs
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Coastal terrace prairie, Non-native grassland, Montane meadow
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Coastal prairie, Freshwater marsh, Valley grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Perennial grassland, Wet meadow
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>45.107.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate and Boreal Shrubland and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate Grassland, Meadow, and Shrubland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Vancouverian and Rocky Mountain Grassland and Shrubland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Western North American Temperate Grassland and Meadow
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Vancouverian and Rocky Mountain naturalized perennial grassland
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Poa pratensis, </i>Kentucky bluegrass, has a Cal-IPC rank of Limited. It is a perennial, cool-season, turf- or sod-forming grass with shallow roots and dark-green foliage to 90 cm tall. It is one of the first grasses to resume growth in late winter or early spring and is an aggressive competitor with native plants. It spreads by rhizomes, produces abundant seed, and easily becomes established after disturbance faster than other plant species. Seeds require light and frequent wetting for germination (DiTomaso and Healy 2007, Uchytil 1993, Wennerberg 2004a). <br/>
+<br/>
+ <i>Poa pratensis </i>ssp. <i>pratensis, </i>introduced from Europe, has naturalized extensively in freshwater and saline meadows throughout California. However, ssp. <i>agassizensis </i>may be native (Cronquist et al. 1977). Both subspecies grow as understory dominants in upland stands of <i>Artemisia tridentata, Pinus ponderosa, Populus tremuloides, </i>and in riparian stands of <i>Betula occidentalis, Populus trichocarpa, </i>and willows, as well as in meadows (Uchytil 1993, Wennerberg 2004a). <i>Poa pratensis </i>hybridizes with <i>P. secunda</i>. <br/>
+<br/>
+<i>Agrostis gigantea, </i>redtop, is a non-native, perennial, rhizomatous, cool-season, sod-forming grass that grows to 1 m in height. It is unranked by Cal-IPC. Seeds are long-lived and accumulate in a seed bank. Germination rates are high, and it requires light. Plants spread rapidly from strong rhizomes<i>. A. gigantea </i>tolerates some flooding but does not tolerate drought; it is resilient to fire. Rhizomes sprout and buried seed germinates after a fire (Carey 1995a). <i>A. gigantea </i>has erect culms and rhizomes, and <i>A. stolonifera </i>has decumbent culms and stolons (Hickman 1993), but they hybridize, so identification in the field is difficult. <br/>
+<br/>
+<i>Agrostis stolonifera, </i>creeping bent, is a non-native perennial, rhizomatous, cool-season, sod-forming grass that grows to 60 cm in height. It has a Cal-IPC rank of Limited. Seeds are long-lived and accumulate in a seed bank, and cold stratification enhances germination. Plants spread rapidly from strong rhizomes (Esser 1994a). It and <i>A. gigantea </i>have been treated as forms of <i>A. alba</i> (Munz 1959). <br/>
+<br/>
+<i>Festuca arundinacea, </i>tall fescue, is a non-native, perennial, rhizomatous, cool-season, densely tufted grass that grows to 2 m in height. It has a Cal-IPC rank of Limited. Plants reproduce by seed and spread by short rhizomes and tillers. It has high reproductive vigor, is moderately adaptable, and can compete strongly with many native species (Batcher 2005). Darbyshire (2007) placed this fescue in the genus <i>Schedonorus</i>. <br/>
+<br/>
+<i>Poa pratensis </i>is very widespread in moist meadows throughout cool-temperate North America. It characterizes sites with disturbance (grazing, trampling, or other mechanical disturbance) and moderate moisture, and associates include early-seral or weedy species that tolerate historic heavy livestock grazing or other disturbances (NatureServe 2007a). Potter (2005) summarized the moisture relations among the many wet meadow stands and pastures: they seasonally receive water from streams, upslope sources, and snowmelt. Surfaces covered with standing water during spring runoff dry out in the summer.  <i>Poa pratensis </i>is not always strongly dominant and appears in many mountain meadow systems and alliances in the state. Due to issues of hybridization and uncertain nativity in many populations in the state, we are not treating this species as a native component. Native or not, it clearly dominates in mesic montane meadows, but it does not tend to exclude the diverse suite of native, moist-meadow associates, as is the case with other invasive plants. <br/>
+<br/>
+<i>Agrostis gigantea, Agrostis stolonifera</i>, and <i>Festuca arundinacea</i> are native to Europe and are planted throughout temperate North America as pasture forage grasses. Stands of <i>Agrostis gigantea, Agrostis stolonifera,</i> and/or <i>Festuca arundinacea</i> occur in brackish marshes, wet brackish pastures, drainage ditches, meadows, and agricultural wetlands in much of California. Once established, these species can invade open, natural vegetation and displace native species, including <i>Achillea millefolium, Alopecurus aequalis, Argentina egedii, Carex microptera, Eleocharis macrostachya, Hordeum brachyantherum, Juncus arcticus, J. lescurii,</i> and <i>Symphyotrichum ascendens</i>. Stands typically have low floristic diversity and are of low wildlife value.<br/>
+<br/>
+S. Smith (1998) also described meadows in the southern Cascades and Modoc Plateau where <i>Phleum pratense </i>dominated with <i>Achillea millefolium, Danthonia californica, Hordeum brachyantherum, Lotus micranthus, Phleum alpinum, </i>and <i>Taraxacum officinale</i>. <i>P. pratense, </i>timothy, an introduced, perennial, rhizomatous grass to 1 m tall with a dense spike-like inflorescence, grows through the state. The National Vegetation Classification (NatureServe 2007a) recognizes a <i>Phleum pratense </i>semi-natural herbaceous alliance from the studies in eastern U.S. The conditions described by S. Smith are similar to those dominated by <i>Poa pratensis, </i>so we have expanded the definition of this alliance to include <i>Phleum pratense </i> dominant stands as well. <br/>
+<br/>
+In addition, the National Vegetation Classification recognizes a separate alliance of <i>Festuca arundinacea </i>recognized in the eastern U.S, describing <i>Agrostis gigantea, Phleum pratense,</i> and <i>Poa pratensis</i> as common associates; since stands in CA are in a different ecological region, we have included it as an association within this alliance. Sampling meadows in range of <i>P. pratensis, Phleum pratense,</i> and <i>F. arundinacea</i> will resolve the best way to present their roles in the state’s vegetation. <br/>
+<br/>
+Stands typically occur on pastures found in the plains, montane meadows, stream benches and terraces. In the semi-arid region, it is restricted to relatively mesic sites. Stands with <i>Alopecurus pratensis</i> are the wettest of this alliance that tolerates a very high water table throughout the growing season. Stands can also tolerate mildly alkaline and saline soils, and some drought (Kovalchik 1987, Padgett et al. 1989, Hansen et al. 1995, Manning and Padgett 1995, Hall and Hansen 1997).<br/>
+<br/>
+This alliance is the result of the merging of two previously described alliances in the 2009 book, <i>A Manual of California Vegetation, second edition: </i> the <i>Poa pratensis</i> Alliance and the <i>Agrostis (gigantea, stolonifera) - Festuca arundinacea</i> Alliance. Classification analyses and surveys, as well as an effort to standardize California vegetation names with that of the National Vegetation Classification, have led us to merge both previous alliances into one. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Agrostis gigantea</th>
+			
+		
+			
+			<th>Agrostis stolonifera</th>
+			
+		
+			
+			<th>Alopecurus pratensis</th>
+			
+		
+			
+			<th>Festuca arundinacea</th>
+			
+		
+			
+			<th>Phleum pratense</th>
+			
+		
+			
+			<th>Poa pratensis</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Perennial; herb; rhizomatous</td>
+			
+		
+			
+			<td>Perennial; herb</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Perennial; herb</td>
+			
+		
+			
+			<td>Perennial; herb; stoloniferous</td>
+			
+		
+			
+			<td>Perennial; herb; rhizomatous</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil stored</td>
+			
+		
+			
+			<td>Soil stored</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Soil stored</td>
+			
+		
+			
+			<td>Soil stored</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Long</td>
+			
+		
+			
+			<td>Medium</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Medium</td>
+			
+		
+			
+			<td>Medium</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Wind; Water; Animal</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Wind; Animal</td>
+			
+		
+			
+			<td>Animal?</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Light</td>
+			
+		
+			
+			<td>Stratification - Winter</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>Light; Fire</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Underground structures</td>
+			
+		
+			
+			<td>Underground structures</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Buds on small branches (tillers); Underground structures</td>
+			
+		
+			
+			<td>Underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy</td>
+			
+		
+			
+			<td>Fire-sensitive</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Fire-hardy; low sprouter</td>
+			
+		
+			
+			<td>Fire-hardy; low sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>High</td>
+			
+		
+			
+			<td>High</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>High</td>
+			
+		
+			
+			<td>High</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Fluvial processes rather than fire primarily disturb stands of this alliance. Fire damages <i>Poa pratensis</i> when plants are actively growing, but fire has little effect on plants overall (Uchytil 1993). Repeated fires increase <i>P. pratensis</i> dominance (Weaver 1958). Its extensive rhizome system enables plants to spread, establish, and replace many natives through quick sprouting after fire (Volland and Dell 1981).
+
+<i>Agrostis stolonifera, Agrostis gigantea,</i> and <i>Festuca arundinacea</i> tolerate flooding events and are also resilient to fire. Rhizomes sprout aerial portions after fires, and buried seeds germinate (Esser 1994a, Batcher 2005).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+            <p>The range of Poa pratensis is throughout the state, while <i>Agrostis (gigantea, stolonifera)</i> and <i>Festuca arundinacea</i> range through cismontane California and the Modoc Plateau (M261G).</p>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Ab-g, Ai, Ak-l). Meadows of <i>Festuca arundinacea</i> occur near Cambria along the coast on damp to wet soils (V. L. Holland, pers. comm. 2006).</li>
+        
+            <li><b>Great Valley</b> (262Aa-u, Aw). Taxa of this alliance occur in this section, yet sampling is necessary to determine characteristics of stands.</li>
+        
+            <li><b>Klamath Mountains</b> (M261Aa-u). <i>Poa pratensis</i> is widespread and high in abundance throughout this section, and <i>Festuca arundinacea</i> is high in abundance along the very western edge (M261Aa and Ab) based on data from Cal-IPC's CalWeedMapper. Stands of <i>P. pratensis</i> at Castle Crags State Park (Stuart et al. 1993) include many natives.</li>
+        
+            <li><b>Modoc Plateau</b> (M261Ga-p). Stands of <i>Phleum pratense</i> and <i>Poa pratensis</i> had similar species composition (S. Smith 1998) in the section. S. Smith (1998) also described a meadow type based on plots dominated by <i>Agrostis gigantea</i>.</li>
+        
+            <li><b>Mojave Desert</b> (322Aa). No description available</li>
+        
+            <li><b>Mono</b> (341Da-b, Dd-e, Dh-j, Dl). Stands of both <i>P. pratensis</i> subspecies exist in the Excelsior Mountains (Weixelman et al. 1999), on the eastern slopes of the Sierra Nevada, the Sweetwater Mountains (Manning and Padgett 1995), and the White Mountains.</li>
+        
+            <li><b>Northern California Coast</b> (263Aa-m). Stands of <i>A. stolonifera</i> and <i>F. arundinacea</i> from Humboldt Bay National Wildlife Refuge (Pickart 2006) and from Point Reyes National Seashore (Keeler-Wolf et al. 2003a) characterize the alliance. Stands occur along coastal terraces at Point Arena (Buck-Diaz et al. 2019), Mendocino Co., and in other coastal prairie locations in the section. They occupy sites once covered by coastal prairie, including the <i>Calamagrostis nutkaensis, Danthonia californica</i>, and <i>Deschampsia cespitosa</i> alliances.</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Ba-f). Stands of <i>P. pratensis</i> have been observed in the Yolla Bolly Mountains (Keeler-Wolf and Keeler-Wolf 1974). <i>Poa pratensis</i> is widely distributed throughout much of the Central Franciscan subsection (M261Bb) according to Cal-IPC's CalWeedMapper.</li>
+        
+            <li><b>Northern California Interior Coast Ranges</b> (M261Ca-c). No description available</li>
+        
+            <li><b>Sierra Nevada</b> (M261Ea-u). Stands of <i>P. pratensis</i> vary in species composition at montane elevations in the northern subsections and often include <i>Achnatherum occidentale, Horkelia fusca, Potentilla gracilis,</i> and <i>Solidago canadensis</i> (Allen-Diaz 1991, Ratliff 1985). In the central and southern subsections, Potter (2005) recognized a single widespread type with variable presence and cover values of Carex integra and Potentilla gracilis.</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fa-d). Taxa of this alliance occur in this section, yet sampling is necessary to determine characteristics of stands.</li>
+        
+            <li><b>Southern California Coast</b> (261Ba-c, Bh). Taxa of this alliance occur in this section, yet sampling is necessary to determine characteristics of stands.</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Bb, Bd-e, Bg-i, Bl-m, Bo). Taxa of this alliance occur in this section, yet sampling is necessary to determine characteristics of stands.</li>
+        
+            <li><b>Southern Cascades</b> (M261Da-m). Stands of <i>Phleum pratense</i> and <i>Poa pratensis</i> had similar species composition (S. Smith 1998) in this section.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> <i>Poa pratensis</i> is important forage for livestock and wildlife, is highly resistant to grazing and other disturbances, and increases rapidly on overgrazed pastures and ranges. It is well adapted to mesic meadows with seasonally high water tables and midsummer drought. <i>Poa pratensis </i>now dominates many meadows that likely were previously dominated by Deschampsia cespitosa or sedges. While <i>P. pratensis </i>increases with grazing pressure, differences in species composition between sites may reflect environmental differences more than successional changes (Ratliff 1985). However, its presence usually indicates unwise grazing management in the past (Uchytil 1993) since it increases at the expense of less tolerant native species (Volland 1978, Hansen et al. 1995). It is also adapted to burning and quickly re-sprouts after fire, except when burned during growing periods (Volland and Dell 1981).
+
+Expressions of this type characterized by a moderate to dense herbaceous canopy that is strongly dominated by <i>Agrostis gigantea, Agrostis stolonifera, Festuca arundinacea, Poa pratensis</i>, and/or <i>Alopecurus pratensis</i> are widespread and semi-natural. Associate species are often those early-seral and weedy species that tolerate historic heavy livestock grazing or other disturbance well, such as <i>Achillea millefolium, Cirsium arvense, Elymus repens, Equisetum spp., Fragaria virginiana, Hordeum spp., Juncus balticus, Linaria vulgaris, Potentilla gracilis, Taraxacum officinale,</i> and introduced forage species such as <i>Agrostis stolonifera, Bromus inermis,</i> and <i>Phleum pratense</i>. Remnant native species present may include <i>Ambrosia psilostachya, Artemisia ludoviciana, Carex spp., Deschampsia cespitosa, </i>and <i>Pascopyrum smithii</i>. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Agrostis (gigantea, stolonifera) [2], [4], [6], [12]</li>
+                
+                    <li>Agrostis stolonifera - Festuca arundinacea [6]</li>
+                
+                    <li>Festuca arundinacea [3], [13]</li>
+                
+                    <li>Poa pratensis [2], [5], [8], [10], [11], [12]</li>
+                
+                    <li>Poa pratensis - Carex (nebrascensis, pellita) [1]</li>
+                
+                    <li>Poa pratensis - Juncus patens - Luzula comosa [7]</li>
+                
+                    <li>Poa pratensis - Potentilla gracilis [1], [9]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Allen-Diaz, B.H. 1991</li>
+		
+		<li>[2] Smith, S. 1998b</li>
+		
+		<li>[3] Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>[4] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2020</li>
+		
+		<li>[5] Ratliff, R.D. 1982</li>
+		
+		<li>[6] Pickart, A.J. 2006</li>
+		
+		<li>[7] Stuart, J.D.;Worley, T.;Buell, A.C. 1992</li>
+		
+		<li>[8] Weixelman, D.A.;Zamudio, D.C.;Zamudio, K.A. 1999</li>
+		
+		<li>[9] Potter, D.A. 2005</li>
+		
+		<li>[10] Keeler-Wolf, T.;Schindel, M.;San, S.;Moore, P.;Hickson, D. 2003b</li>
+		
+		<li>[11] Manning, M.E.;Padgett, W.G. 1995</li>
+		
+		<li>[12] Boul, R.;Keeler-Wolf, T.;Ratchford, J.;Haynes, T.;Hickson, D.;Yacoub, R.;Harbert, B.;Evens, J. 2021b</li>
+		
+		<li>[13] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>Batcher, M.S. 2005</li>
+		
+		<li>Carey, J.H. 1995a</li>
+		
+		<li>Cronquist, A.;Holmgren, A.H.;Holmgren, N.H.;Reveal, J.L.;Holmgren, P.K. 1977</li>
+		
+		<li>DiTomaso, J.M.;Healy, E.A. 2007</li>
+		
+		<li>Esser, L.L. 1994a</li>
+		
+		<li>Hickman, J.C. 1993</li>
+		
+		<li>Keeler-Wolf, T .;Schirokauer, D.;Meinke, J.;van derLeeden, P. 2003a</li>
+		
+		<li>Keeler-Wolf, V.;Keeler-Wolf, T. 1974</li>
+		
+		<li>Ratliff, R.D. 1985</li>
+		
+		<li>Stuart, J.D.;Grifantini, M.C.;Fox, L. 1993</li>
+		
+		<li>Uchytil, R.J. 1993</li>
+		
+		<li>Volland, L.A.;Dell, J.D. 1981</li>
+		
+		<li>Weaver, H. 1958</li>
+		
+		<li>Wennerberg, S. 2004a</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/579/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

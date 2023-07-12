@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Schoenoplectus (acutus, californicus)</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Schoenoplectus</i> (<i>acutus</i>, <i>californicus</i><span style="padding-left: .2em">)</span></span> Herbaceous Alliance <br/>
+        <span class="subtitle">Hardstem and California bulrush marshes</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Herb
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-2500 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3S4
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>GNR
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA, CO, ID, MT, NV, OR, UT, WA (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2017/02/28
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/herb/schoenoplectus-acutus_monolk_09-09_01.jpg', '/static/images/photos/herb/schoenoplectus-californicus_shermanis_06-05_01.jpg', '/static/images/photos/herb/schoenoplectus-californicus_shermanis_10-05_01.jpg', '/static/images/photos/herb/schoenoplectus-californicus_batiquitoslagoon_10-09_01.jpg', '/static/images/photos/herb/schoenoplectus-californicus_batiquitoslagoon_10-09_02.jpg', '/static/images/photos/herb/schoenoplectus-acutus_10-05_01.jpg', '/static/images/photos/herb/schoenoplectus-acutus_01_08-05.jpg', '/static/images/photos/herb/scheonoplectus-acutus-calfornicus_cloverdalecoastalranches-post_05-2019_smat0110.jpg', '/static/images/photos/herb/schoenoplectus-acutus-californicus_pescaderomarshpreserve-cdpr_04-2019_smat0043.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Schoenoplectus</i> <i>acutus</i> and/or <i>Schoenoplectus</i> <i>californicus</i> is dominant or co-dominant in the herbaceous layer with <i>Apocynum</i> <i>cannabinum</i>, <i>Azolla</i> <i>filiculoides</i>, <i>Bolboschoenus</i> <i>maritimus</i>, <i>Calystegia</i> <i>sepium</i>, <i>Eichhornia</i> <i>crassipes</i>, <i>Euthamia</i> <i>occidentalis</i>, <i>Hibiscus</i> <i>lasiocarpos</i>, <i>Hoita</i> <i>macrostachya</i>, <i>Hydrocotyle</i> <i>ranunculoides</i>, <i>Leersia</i> <i>oryzoides</i>, <i>Ludwigia</i> <i>peploides</i>, <i>Lycopus</i> <i>americanus</i>, <i>Persicaria</i> <i>punctata</i>, <i>Phragmites</i> <i>australis</i>, <i>Sparganium</i> <i>eurycarpum</i>, <i>Triglochin</i> spp., <i>Typha</i> <i>angustifolia</i>, <i>Typha</i> <i>domingensis</i>, <i>Typha</i> <i>latifolia</i> and <i>Urtica</i> <i>dioica</i>. Emergent trees and shrubs may be present at low cover, including trees <i>Alnus</i> <i>rhombifolia</i>, <i>Populus</i> <i>fremontii</i> or <i>Salix</i> <i>gooddingii</i> and shrubs:<i>Cephalanthus</i> <i>occidentalis</i>, <i>Rosa</i> <i>californica</i>, <i>Rubus</i> <i>armeniacus</i>, <i>Salix</i> <i>exigua</i> and <i>Salix</i> <i>lasiolepis</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Herbs < 4 m; cover is intermittent to continuous. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Schoenoplectus acutus</i> > 50% relative cover in the herbaceous layer with ≥ 10% absolute cover (Hickson and Keeler-Wolf 2007, Sproul et al. 2011, Buck-Diaz et al 2012).</li>
+		
+		<li><i>Schoenoplectus californicus</i> > 30% relative cover in the herbaceous layer with ≥ 10% absolute cover (Hickson and Keeler-Wolf 2007, Sproul et al. 2011, Buck-Diaz et al 2012).</li>
+		
+		<li><i>Schoenoplectus acutus</i> or <i>Schoenoplectus californicus</i> > 50% cover cover in the herbaceous layer or > 30% relative cover if codominant with <i>Typha</i> spp. (Buck-Diaz and Evens 2015, Klein et al. 2015, Keeler-Wolf and Vaghti 2000).</li>
+		
+		<li><i>Schoenoplectus acutus</i> or <i>Schoenoplectus californicus</i> > 50% relative cover, or > 30% relative cover with other herbs including <i>Typha</i> spp. (Buck-Diaz et al. 2021, Sikes et al. 2021).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Brackish to freshwater marshes; along stream shores, bars, and channels of river mouth estuaries; around ponds and lakes; in sloughs, swamps, and roadside ditches. Soils have a high organic content and are poorly aerated. The USACE Wetland Inventory (2016 national list) recognizes <i>Schoenoplectus acutus</i> and <i>Schoenoplectus californicus</i> as OBL. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Bulrush series, Bulrush-cattail series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Schoenoplectus acutus-(Schoenoplectus tabernaemontani) semipermanently flooded herbaceous alliance, Schoenoplectus californicus tidal herbaceous alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Tule-Cattail
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Cismontane alkali marsh, Transmontane alkali marsh, Coastal and valley freshwater marsh, Transmontane freshwater marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Freshwater marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Fresh emergent wetland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>52.128.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate and Boreal Shrubland and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate and Boreal Freshwater Marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North American Freshwater Marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Western North American Freshwater Marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Arid West freshwater emergent marsh
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Schoenoplectus acutus </i> and <i>S. californicus </i> are robust tules that attain 3 m in height. The culms are winter deciduous, arising from long, stout, underground rhizomes. Plants produce dark-brown achenes that are dispersed by water and birds. Seeds undergo a period of ripening and can remain dormant when submerged in water, forming a seed bank. Germination and seedling establishment occurs when mudflats are not flooded (Esser 1995b, Stevens and Hoag 2003a).  <i>S. californicus </i> tends to have more triangular stems, is usually somewhat shorter, and is more strongly yellow green and less blue green. <i>S. californicu</i>s forms sterile hybrids with <i>S. acutus </i>(Smith 2002). <br/>
+<br/>
+The <i>S. lacustris </i>complex, including <i>S. acutus, S. heterochaetus, </i>and <i>S. tabernaemontani, </i>are very difficult to identify because of hybridization. Hybrids between <i>S. acutus </i>and <i>S. tabernaemontani </i>are widespread and common; and hybrids between <i>S. acutus </i>and <i>S. heterochaetus </i>are widespread but uncommon (Smith 2002). In addition, hybrids exist between <i>S. acutus </i>and <i>S. californicus</i>s but they are sterile. The older botanical literature uses the name <i>Scirpus californicus</i> and <i>Scirpus acutus</i>, respectively.<br/>
+<br/>
+<i>Schoenoplectus acutus </i> and <i>S. californicus </i>were treated in separate alliances in the 2009 book, <i>A Manual of California Vegetation, second edition</i>, and have since been combined. The alliance is a widespread emergent, freshwater to slightly brackish marsh type, typical of marshes throughout much of North America (NatureServe 2007a). Although <i>S. acutus </i>and <i>S. californicus </i>commonly occur in the same area, <i>S. acutus </i> is less tolerant of brackish conditions than is <i>S. californicus, </i>and associations dominated by <i>S. acutus </i> are not found regularly on edges of large stretches of open water (Grewell et al. 2007).  <i>S. californicus </i>tends to dominate on the outer, more-exposed edges of marshes adjacent to open water. However, both species also can co-dominate in stands. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Schoenoplectus acutus</th>
+			
+		
+			
+			<th>Schoenoplectus californicus</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Polycarpic perennial; herb; rhizomatous</td>
+			
+		
+			
+			<td>Polycarpic perennial; herb; rhizomatous</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Long</td>
+			
+		
+			
+			<td>Long</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; gravity; water/hydrological</td>
+			
+		
+			
+			<td>Animal; gravity; water/hydrological</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Inundation; stratification—winter</td>
+			
+		
+			
+			<td>Inundation; stratification—winter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Underground structures</td>
+			
+		
+			
+			<td>Underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; no/low sprouter to high sprouter</td>
+			
+		
+			
+			<td>Fire-hardy; no/low sprouter to high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>Life of plant</td>
+			
+		
+			
+			<td>Life of plant</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>High</td>
+			
+		
+			
+			<td>High</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Hybridization</td>
+			
+		
+			
+			<td>Hybridization</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Fluvial processes rather than fire primarily disturb the alliance. Plants survive surface fires by sprouting from the rhizomes and by establishing from buried or blown-in seed (Esser 1995a, Stevens and Hoag 2003b). Native Americans burned the tules to enhance rhizome growth and produce the best stems for basketry and boat making (Anderson 2005).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Aa-l). Mapped polygons in Suisun Marsh (Keeler-Wolf and Vaghti 2000).</li>
+        
+            <li><b>Central California Coast Ranges</b> (M262Aa-b, Ad-f, Ah-k). Mapped stands in the Carrizo Plain and Caliente Range (Buck-Diaz and Evens 2011; VegCAMP 2015b).</li>
+        
+            <li><b>Colorado Desert</b> (322Ca, Cc). Stands occur around Cottonwood, south of Redding (Buck-Diaz et al. 2012).</li>
+        
+            <li><b>Great Valley</b> (262Aa-d, Af-z). Mapped stands throughout Great Valley section (Buck-Diaz et al. 2012).</li>
+        
+            <li><b>Modoc Plateau</b> (M261Ga-p). Expected stands based on CCH and Calflora records.</li>
+        
+            <li><b>Mojave Desert</b> (322Aa-b, Af-i, Am, Ap). Probable stands based on CCH and Calflora records.</li>
+        
+            <li><b>Mono</b> (341Df, Dh-i, Dk). Stands occur in the Fish Slough Ecological Reserve (VegCAMP 2014b).</li>
+        
+            <li><b>Northern California Coast</b> (263Aa-m). Known stands in Gualala Point Regional Park, Manchester State Park as well as the Napa-Sonoma Marshes Wildlife Area (Klein et al. 2015, CNPS unpublished data 2020).</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Bb-f). Expected stands based on CCH and Calflora records.</li>
+        
+            <li><b>Northern California Interior Coast Ranges</b> (M261Ca-c). Expected stands based on CCH and Calflora records.</li>
+        
+            <li><b>Northwestern Basin and Range</b> (342Ba, Bc-d). Expected stands based on CCH and Calflora records.</li>
+        
+            <li><b>Sierra Nevada</b> (M261Ed, Ef-h, Em, Eo, Er-s). Stands occur on Tehachapi Pass (VegCAMP 2015a).</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fa-b, Fd). Known stands occur in Cow Creek (Buck-Diaz et al. 2012).  Stands of <i>Scirpus acutus </i>var. <i>occidentalis </i>occur in the Tehama Wildlife Area and the Auburn State Recreation Area (Klein et al. 2007).</li>
+        
+            <li><b>Sonoran Desert</b> (322Ba, Bd-e). Mapped stands along the Colorado River, southeast of Vidal (VegCAMP 2013).</li>
+        
+            <li><b>Southern California Coast</b> (261Ba-j). Known stands at Ballona Wetlands and throughout western San Diego County (Sproul et al. 2011).  Other known stands at Ballona Wetlands and Point Magu.</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Ba-b, Bd, Bf-l, Bn-p). Known stands in Anza Borrego State Park (Keeler-Wolf et al. 1998) as well as in the San Jacinto Wildlife Area (VegCAMP 2005).</li>
+        
+            <li><b>Southern Cascades</b> (M261Da-e, Dh, Dj-k, Dm). Expected stands in region due to CCH and Calflora records.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> This alliance is one of the most widespread of the marsh types in the state, and it indicates the presence of high habitat value for wildlife. Seeds and stems of <i>Schoenoplectus acutus, Schoenoplectus californicus, </i>and related species are very important food and cover. However, most stands have been altered to supply water for irrigation. Maintenance of stands depends primarily on water levels and salinity levels. Grazing and invasive non-native plants are other problems. Periodic burning can increase productivity of rhizomes and remove thatch buildup (Anderson 2005). 
+
+Extent in the Central Valley is much less today because of alteration for agricultural use. Vaghti and Greco (2007) estimated that stands in the Sacramento- San Joaquin River delta of this and related tule alliances covered approximately 1.2 million ha prior to the mid 1800s. Stands dominated by tules for thousands of years are responsible for producing the deep layers of peat. Cultivation, de-watering, subsequent aeration of these previously anaerobic substrates, and fires have resulted in widespread slumping of the delta islands to as much as 10 m below sea level, which contributes to the delta’s significant levee management issues. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Schoenoplectus acutus [1], [5], [6], [7], [9], [10], [12], [14], [15], [16]</li>
+                
+                    <li>Schoenoplectus (acutus, californicus) - Typha (angustifolia, latifolia) [1], [3]</li>
+                
+                    <li>Schoenoplectus (acutus, californicus) - Wetland herbs [4]</li>
+                
+                    <li>Schoenoplectus acutus - Phragmites australis [1], [6]</li>
+                
+                    <li>Schoenoplectus acutus - Typha domingensis [11], [13], [14]</li>
+                
+                    <li>Schoenoplectus acutus - Xanthium strumarium [1]</li>
+                
+                    <li>Schoenoplectus californicus [4], [5], [6], [7], [15], [16]</li>
+                
+                    <li>Schoenoplectus californicus - Schoenoplectus acutus [2], [4], [6], [8]</li>
+                
+                    <li>Schoenoplectus californicus - Schoenoplectus acutus / Rosa californica [4]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Hickson, D.;Keeler-Wolf, T. 2007</li>
+		
+		<li>[2] Keeler-Wolf, T.;Evens, J. 2006</li>
+		
+		<li>[3] Keeler-Wolf, T .;Schirokauer, D.;Meinke, J.;van derLeeden, P. 2003a</li>
+		
+		<li>[4] Keeler-Wolf, T.;Vaghti, M. 2000</li>
+		
+		<li>[5] Sproul, F.;Keeler-Wolf, T.;Gordon-Reedy, P.;Dunn, J.;Klein, A.;Harper, K. 2011</li>
+		
+		<li>[6] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>[7] Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>[8] Evens, J.;San, S. 2005</li>
+		
+		<li>[9] AECOM, 2013</li>
+		
+		<li>[10] VegCAMP (CDFW Vegetation Classification and Mapping Program), 2015a</li>
+		
+		<li>[11] Klein, A.;Crawford, J.;Evens, J.;Keeler-Wolf, T.;Hickson, D. 2007</li>
+		
+		<li>[12] Klein, A.;Evens, J. 2005</li>
+		
+		<li>[13] Odion, D.C.;Callaway, R.M.;Ferren, W.R.;Davis, F.W. 1992a</li>
+		
+		<li>[14] Reyes, E.;Evens, J.;Glass, A.;Sikes, K.;Keeler-Wolf., T.;Winitsky, S.;Johnson, D.;Menke, J.;Hepburn, A. 2020a</li>
+		
+		<li>[15] Sikes, K.;Buck-Diaz, J.;Evens, J. 2021</li>
+		
+		<li>[16] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>Esser, L.L. 1995b</li>
+		
+		<li>Ferren, W.R.;Fiedler, P.L.;Leidy, R.A. 1996</li>
+		
+		<li>Grewell, B.J.;Callaway, J.C.;Ferren, W.C. 2007</li>
+		
+		<li>Holland, R.F. 1986</li>
+		
+		<li>MacDonald, K.B. 1977</li>
+		
+		<li>Menke, J.;Reyes, E.;Hepburn, A.;Johnson, D.;Reyes, J. 2013</li>
+		
+		<li>Purer, E.A. 1942</li>
+		
+		<li>Reid, M.S.;Schulz, K.A.;Cormer, P.J.;Schindel, M.H.;Culver, D.R.;Sarr, D.A.;Damm, M.C. 1999</li>
+		
+		<li>Stillwater Sciences and URS, 2007</li>
+		
+		<li>Vaghti, M. ;Greco, S. 2007</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program);AIS, 2013</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/561/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Quercus wislizeni - Quercus chrysolepis (shrub)</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Quercus</i> <i>wislizeni</i> - <i>Quercus</i> <i>chrysolepis</i> (<i>shrub</i><span style="padding-left: .2em">)</span></span> Shrubland Alliance <br/>
+        <span class="subtitle">Canyon live oak - Interior live oak chaparral</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>300-2200 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3S4
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G4
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA (NatureServe, Calflora). Baja California, Mexico (TJM2)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2020/01/29
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/quercus-wislizeni_mckenziepreserve_04-10_02.jpg', '/static/images/photos/shrub/quercus-wislizeni_tejonranch_01-10_01.jpg', '/static/images/photos/shrub/quercus-wislizeni_vacamtn_05-03_01.jpg', '/static/images/photos/shrub/quercus-wislizenii_knoxville_05-03_01.jpg', '/static/images/photos/shrub/quercus-wislizenii_knoxville_05-03_02.jpg', '/static/images/photos/shrub/quercus-wislizenii_knoxville_05-03_03.jpg', '/static/images/photos/shrub/quercus-chrysolepis_wriv0779_ne_05-20-03.jpg', '/static/images/photos/shrub/quercus-chrysolepis_wriv0779_s_05-20-03.jpg', '/static/images/photos/shrub/quercus-chrysolepis_wriv0779_w_05-20-03.jpg', '/static/images/photos/shrub/quercus-wislizeni_quercus-chrysolepis-shrub_tennessee%20valley_01-2019_marin300.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Quercus</i> <i>chrysolepis</i>, <i>Quercus</i> <i>parvula</i> and/or <i>Quercus</i> <i>wislizeni</i> are dominant or co-dominate together in the shrub canopy with <i>Adenostoma</i> <i>fasciculatum</i>, <i>Adenostoma</i> <i>sparsifolium</i>, <i>Arctostaphylos</i> <i>glandulosa</i>, <i>Arctostaphylos</i> <i>glauca</i>, <i>Carpenteria</i> <i>californica</i>, <i>Ceanothus</i> <i>cuneatus</i>, <i>Ceanothus</i> <i>integerrimus</i>, <i>Ceanothus</i> <i>leucodermis</i>, <i>Ceanothus</i> <i>oliganthus</i>, <i>Cercocarpus</i> <i>montanus</i>, <i>Frangula</i> <i>californica</i>, <i>Fraxinus</i> <i>dipetala</i>, <i>Hesperoyucca</i> <i>whipplei</i>, <i>Heteromeles</i> <i>arbutifolia</i>, <i>Prunus</i> <i>ilicifolia</i>, <i>Quercus</i> <i>agrifolia</i>, <i>Quercus</i> <i>berberidifolia</i>, <i>Rhamnus</i> <i>ilicifolia</i> and/or <i>Toxicodendron</i> <i>diversilobum</i>. Emergent trees may be present at low cover, including <i>Aesculus</i> <i>californica</i>, <i>Juniperus</i> <i>californica</i>, <i>Pinus</i> <i>attenuata</i>, <i>Pinus</i> <i>coulteri</i>, <i>Pinus</i> <i>sabiniana</i> or <i>Umbellularia</i> <i>californica</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text"> Sparse cover of emergent trees may be present. Shrubs < 6 m; canopy is intermittent to continuous. Herbaceous layer is variable. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Quercus wislizeni</i> shrubs > 30% relative cover in the shrub canopy (Gordon and White 1994, Klein and Evens 2005).</li>
+		
+		<li><i>Quercus chrysolepis</i> shrubs > 50% relative cover in the shrub canopy (Gordon and White 1994).</li>
+		
+		<li>Regenerating or shrubby <i>Quercus wislizeni</i> (or <i>Quercus parvula</i>) is > 30% relative cover in the shrub layer or is codominant with <i>Ceanothus oliganthus</i> (Klein 2015).</li>
+		
+		<li>Regenerating or shrubby <i>Quercus chrysolepis, Q. wislizeni, Q. parvula</i> and/or <i>Q. agrifolia</i> > 30% relative cover in the shrub layer (Buck-Diaz et al. 2021).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Variable topography with steep slopes. Soils are alluvial or bedrock and may be rocky.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Canyon live oak series, Interior live oak shrub series, Interior live oak-canyon live oak series, Interior live oak-chaparral whitethorn series, Interior live oak-scrub live oak series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Quercus chrysolepis shrubland alliance, Quercus wislizeni shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Shreve oak, Scrub oak, Upper montane mixed chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Interior live oak chaparral, Northern north slope chaparral, Southern north slope chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Mixed chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>37.425.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Mediterranean Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Mediterranean Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>California Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>California Chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Californian pre-montane chaparral
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Quercus wislizeni </i>is a slow-growing, evergreen plant. Shrubs produce large acorn crops at irregular intervals. Seeds germinate without stratification. California ground squirrels and jays cache the acorns, which livestock and other wildlife also eat. Plants sprout from swollen root crowns and root suckers after damage to their trunks. Shrubs are shade tolerant. Older shrubs act as nurse plants, moderating environmental conditions and offering seedlings and saplings protection (Nixon and Muller 1997, Tirmenstein 1989d). <br/>
+<br/>
+<i>Quercus wislizeni </i>is a widespread and common species in shrublands, forests, and woodlands of the state. Shrubby stands, either because they represent the possible distinct var. <i>frutescens </i>or because of age-related limited height growth, are included in this alliance. White and Sawyer (1995) consider that many southern California shrublands are the result of frequent sprouting after fires. However, plants previously identified as <i>Quercus wislizeni</i> in the coastal regions from parts of Mendocino County south to Santa Barbara County, are now considered a variety of <i>Quercus parvula</i> or a related hybrid (Hauser et al. 2017, Al Keuter, pers. comm. 2020).<br/>
+<br/>
+<i>Quercus chrysolepis </i>is also a widespread and common species in chaparral, forests, and woodlands throughout the state. It is a slow-growing, evergreen shrub or tree. The species reproduces by seed and regenerates by root sprouts. Shrubs produce large acorn crops at irregular intervals, and the seeds germinate without stratification. California ground squirrels and jays cache the acorns, which other birds, livestock, and wildlife eat. Plants are shade tolerant. Older shrubs act as nurse plants, moderating environmental conditions and offering seedlings and saplings protection (Tirmenstein 1989b). <br/>
+<br/>
+<i>Quercus chrysolepis </i>is one of the most morphologically variable oaks in the state. Shrubby plants have been called var. <i>nana, </i>but recent treatments do not recognize the variety (Hickman 1993, Nixon 2002). In addition, <i>Q. chrysolepis </i>hybridizes with <i>Q. vacciniifolia </i>at lower montane elevations in the northern California mountains (Nixon 2002). The unnamed hybrid is shrubby. Leaves are similar to those of both parents, and the stems and twigs are thick and stiff. In contrast to <i>Q. vacciniifolia, </i>it is not easy to walk through a stand of shrubby <i>Q. chrysolepis</i>.<br/>
+<br/>
+This alliance represents stands of shrub-sized <i>Quercus chrysolepis</i>, <i>Quercus wislizeni</i>, and/or <i>Quercus parvula</i>, merging the <i>Quercus wislizeni</i> shrub and the <i>Quercus chrysolepis</i> shrub  alliances that were treated separately in the 2009 book, <i>A Manual of California Vegetation, second edition</i>. Stands with tree-sized oaks represent either the <i>Quercus chrysolepis </i>forest & woodland alliance or the <i>Quercus wislizeni - Quercus parvula</i> forest & woodland alliance. Where <i>Quercus chrysolepis</i> is dominant in the tree layer and <i>Quercus wislizeni</i> is prevalent in the shrub layer see the <i>Quercus chrysolepis / Quercus wislizeni</i> association within the <i>Quercus chrysolepis</i> forest & woodland alliance.<br/>
+<br/>
+The shrubby nature of this alliance in the landacape arises because of various limiting factors, such as repeat fires, nutrient poor soils, rocky slopes and ridgetops with poor soil development, wind shearing, etc. These stands are shorter than their tree-alliance counterpart, and other shrubs are often present and contribute overall to the shrubby character of the stands. <br/>
+<br/>
+Interestingly, many stands of the shrubby version of the <i>Q. wislizeni </i>occur as a xeric montane chaparral in central and southern California at elevations usually greater than 1200 m, while stands dominated by trees of the <i>Q. wislizeni </i>tend to occur well below this elevation. The effects of genetics, fire regime, and history may interact to form this disparity. In addition, forest and woodland stands are abundant in the foothills and adjacent lower montane elevations of the Sierra Nevada, but shrubby stands are uncommonly inventoried in the foothills (Klein et al. 2007). Both shrub and tree stands of <i>Q. wislizeni </i>occur in the southern Klamath Mountains and Coast Ranges. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Quercus chrysolepis</th>
+			
+		
+			
+			<th>Quercus parvula</th>
+			
+		
+			
+			<th>Quercus wislizeni</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Trees, shrubs; evergreen</td>
+			
+		
+			
+			<td>Tree, Shrub</td>
+			
+		
+			
+			<td>Shrub; evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Transient</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Transient</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Short</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; gravity</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Animal; gravity </td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Underground structures</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Buds on large branches or trunks; underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy to fire-sensitive; high sprouter</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>15-300+ years</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>10-300+ years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Low to medium</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Episodic </td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text"><i>Quercus wislizeni </i>and <i>Q. chrysolepis </i>vigorously sprout from the stumps or root crowns after fire, but few seedlings establish. Acorns germinate readily but are vulnerable to heat and heavy predation (Vogl and Schorr 1972). Seedling establishment takes place in old-aged stands. In addition, plants produce sprouts at the base of the plant during fire-free intervals (Keeley 1992b). White and Sawyer (1995) noted that mature shrubs layer when fallen branches touch the ground.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Medium (30-100+ years)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Summer-early fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Medium to large—up to and beyond stand
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low to moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>High
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>High
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Active-independent crown fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Southwestern California
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+            <p>The range of shrubby <i>Quercus wislizeni</i> includes the Klamath Mountains (M261A), Southern Cascades (M261D), Sierra Nevada (M261E), though stands have yet to be documented in these regions. The range of <i>Quercus chrysolepis</i> includes the Central California Coast Ranges (M262A), Northern California Coast Ranges (M261B), Northern California Interior Coast Ranges (M261C), Sierra Nevada (M261E), Central California Coast (M262A), Sierra Nevada Foothills (M261F), and Southern Cascades (M261D). However, stands dominated by shrubby <i>Q. chrysolepis </i>have only been documented in the Southern California Mountains and Valleys (M262B) and the Klamath Mountains (M261A).</p>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Af-g, Aj-k). Stands characterized by the dominance or co-dominance of <i>Q. wislizeni</i> occur in the Santa Lucia Mountains (Borchert et al. 2004) and other higher elevations of the section.</li>
+        
+            <li><b>Central California Coast Ranges</b> (M262Aa-c, Ae-f). Stands characterized by the dominance or co-dominance of <i>Q. wislizeni</i> in the Los Padres National Forest are scattered across xeric sites above 1200 m elevation (Borchert et al. 2004) and occur adjacent to stands of <i>Q. chrysolepis</i> trees, which are better protected from fire. Stands occur on granitic and sedimentary substrate in the Gabilan and Diablo ranges, where <i>Q. chrysolepis</i>  and <i>Q. wislizeni</i> shrubs can co-dominate.</li>
+        
+            <li><b>Klamath Mountains</b> (M261Ai, Am). Stands dominated by <i>Quercus chrysolepis </i>were mapped in Whiskeytown NRA (Humboldt State Sponsored Programs Foundation, 2006).</li>
+        
+            <li><b>Northern California Coast</b> (263Ag, Al-m). Stands of <i>Quercus wislizeni</i> with <i>Arctostaphylos glandulosa</i> at Mount Tamalpais occupy neutral and northerly slopes (Evens and Kentner 2006, Keeler-Wolf et al. 2003a). Stands  characterized by the dominance or co-dominance of <i>Q. wislizeni</i> also occur in Napa County (Thorne et al. 2004) and Sonoma County (Klein et al. 2015).</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Bb, Bd). Within this section,  <i>Q. wislizeni</i> stands have been found on serpentine chaparral often adjacent to <i>Arctostaphylos canescens, Arctostaphylos manzanita, </i> and <i>Adenostoma fasciculatum</i> alliance stands. Stands with <i>Q. wislizeni</i> dominance or co-dominance have been mapped within Marin County (Buck et al. 2020).</li>
+        
+            <li><b>Northern California Interior Coast Ranges</b> (M261Ca). Stands characterized by the dominance or co-dominance of <i>Q. wislizeni</i> at Frenzel Creek RNA, at Indian Creek RNA (Cheng 2004), and in eastern Napa Co. (Thorne et al. 2004) vary greatly in species composition.</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fa-e). Stands characterized by the presence of <i>Quercus  wislizeni</i> have been mapped throughout the Sierra Nevada foothills (VegCAMP 2015a, Menke et al. 2011).</li>
+        
+            <li><b>Southern California Coast</b> (261Bb, Bf). Stands in the Santa Monica Mountains exist at the highest elevations above 600 m (Keeler-Wolf and Evens 2006).  Borchert et al. (2004) identified stands dominated by <i>Q. wislizeni </i>in the Los Padres National Forest of the western Transverse Ranges, mostly above 1200 m.</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Ba-h, Bj, Bl-p). Stands characterized by <i>Q. wislizeni</i> are common at middle elevations at Fern Canyon, Hall Canyon, and Millard Canyon RNAs (Cheng 2004) and more generally in the Transverse Ranges (Minnich 1976, 1980b, White and Sawyer 1995). Stands in the Peninsular Ranges occur at King Creek RNA (Reveal 1978, see Cheng 2004) and at montane elevations in Riverside and San Diego Cos. (Klein and Evens 2005, Evens and San 2005).
+
+Stands dominated by <i>Q. chrysolepis</i> exist over broad areas at higher elevations in the Peninsular and Transverse ranges (Gordon and White 1994). They range higher than the <i>Q. wislizeni </i>shrubland associations and often occur on ridges and upper slopes, but these taxa overlap and form co-dominant stands as well.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Because of the uncertainty of the balance between genetic and historic factors as natural influences on this alliance, we cannot offer strong advice for management. In many parts of its range, this alliance appears in chaparral environments at significantly higher elevations than corresponding forest and woodland stands of <i>Q. wislizeni</i> or <i>Q. chrysolepis</i>. This suggests that stands have a natural ecological separation based on both genetics and fire history. Stands with <i>Ceanothus </i> species suggest high fire frequencies. 
+
+In general, the long-term trend for this and other related chaparral alliances, though, is decreasing because of fire frequency, extent, and seasonality are increasing. Researchers are finding that increasing fires will have a long-term negative impact on chaparral communities, which convert to grassland or coastal scrub communities especially in southern California. However, in some instances chaparral may expand into forested landscapes (Syphard et al. 2018, Molinari et al. 2018). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Quercus agrifolia - Quercus chrysolepis - Quercus parvula (shrub) [15]</li>
+                
+                    <li>Quercus chrysolepis - Ceanothus integerrimus [1], [2]</li>
+                
+                    <li>Quercus chrysolepis shrub [1]</li>
+                
+                    <li>Quercus parvula (shrub) [4], [8], [12], [15]</li>
+                
+                    <li>Quercus (parvula, wislizeni) - Arctostaphylos glandulosa [7], [8], [11], [15]</li>
+                
+                    <li>Quercus wislizeni - Carpenteria californica [16]</li>
+                
+                    <li>Quercus wislizeni - Ceanothus leucodermis [1], [2], [3], [5], [6]</li>
+                
+                    <li>Quercus wislizeni - Ceanothus leucodermis - Arctostaphylos glandulosa [1]</li>
+                
+                    <li>Quercus wislizeni - Ceanothus oliganthus [12]</li>
+                
+                    <li>Quercus wislizeni - Cercocarpus montanus [6], [13]</li>
+                
+                    <li>Quercus wislizeni - Cercocarpus montanus - Adenostoma sparsifolium [6]</li>
+                
+                    <li>Quercus wislizeni - Cercocarpus montanus - Arctostaphylos glandulosa [4]</li>
+                
+                    <li>Quercus wislizeni - Quercus berberidifolia [3], [5], [6]</li>
+                
+                    <li>Quercus wislizeni - Quercus chrysolepis shrub [1], [6]</li>
+                
+                    <li>Quercus wislizeni var. frutescens [1], [9], [10], [14]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Gordon, H.J.;White, T.C. 1994</li>
+		
+		<li>[2] White, S.D. 1994a</li>
+		
+		<li>[3] White, S.D.;Sawyer, J.O. 1994</li>
+		
+		<li>[4] Borchert, M.;Lopez, A.;Bauer, C.;Knowd, T. 2004</li>
+		
+		<li>[5] Evens, J.;San, S. 2005</li>
+		
+		<li>[6] Klein, A.;Evens, J. 2005</li>
+		
+		<li>[7] Thorne, J.H.;Kennedy, J.;Quinn, J.F.;McCoy, M.;Keeler-Wolf, T.;Menke, J. 2004</li>
+		
+		<li>[8] Evens, J.M.;Kentner, E. 2006</li>
+		
+		<li>[9] Keeler-Wolf, T.;Evens, J. 2006</li>
+		
+		<li>[10] Klein, A.;Crawford, J.;Evens, J.;Keeler-Wolf, T.;Hickson, D. 2007</li>
+		
+		<li>[11] AECOM, 2013</li>
+		
+		<li>[12] Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>[13] VegCAMP (CDFW Vegetation Classification and Mapping Program), 2015a</li>
+		
+		<li>[14] Reyes, E.;Evens, J.;Glass, A.;Sikes, K.;Keeler-Wolf., T.;Winitsky, S.;Johnson, D.;Menke, J.;Hepburn, A. 2020a</li>
+		
+		<li>[15] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>[16] Ratchford, J.;Boul, R.;Keeler-Wolf, T.;Evens, J. 2022a (in progress)</li>
+		
+		<li>Calflora, 2018+</li>
+		
+		<li>Cheng, S. 2004</li>
+		
+		<li>Dodd, R.S.;Afzal-Rafii, Z. 2004</li>
+		
+		<li>Griffin, J.R. 1977</li>
+		
+		<li>Hanes, T.L. 1977</li>
+		
+		<li>Hanes, T.L. 1981</li>
+		
+		<li>Hauser, D.A.;Keuter, A.;McVay, J.D.;Hipp,A.L.;Manos, P.S. 2017</li>
+		
+		<li>Hickman, J.C. 1993</li>
+		
+		<li>Horton, J.S. 1960</li>
+		
+		<li>Humboldt State Sponsored Programs Foundation, 2006</li>
+		
+		<li>Keeler-Wolf, T .;Schirokauer, D.;Meinke, J.;van derLeeden, P. 2003a</li>
+		
+		<li>Keeley, J.E. 1992b</li>
+		
+		<li>Keeley, J.E.;Keeley, S.C. 1988</li>
+		
+		<li>Menke, J.;Reyes, E.;Evens, J.;Sikes, K.;Keeler-Wolf, T.;Yacoub, R. 2011</li>
+		
+		<li>Minnich, R.A. 1976</li>
+		
+		<li>NatureServe, 2014+</li>
+		
+		<li>Nixon, K.C. 2002</li>
+		
+		<li>Nixon, K.C.;Muller, C.H. 1997</li>
+		
+		<li>NPS-SEKI, 2009</li>
+		
+		<li>Pase, C.P. 1982a</li>
+		
+		<li>Patric, J.H.;Hanes, T.L. 1964</li>
+		
+		<li>Tirmenstein, D. 1989b</li>
+		
+		<li>Tirmenstein, D. 1989d</li>
+		
+		<li>White, S.D. 1991</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/581/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

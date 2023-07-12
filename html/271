@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Cornus sericea - Rosa woodsii - Ribes spp.</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Cornus</i> <i>sericea</i> - <i>Rosa</i> <i>woodsii</i> - <i>Ribes</i> spp.</span> Shrubland Alliance <br/>
+        <span class="subtitle">Red-osier dogwood - Interior rose - Currant thickets</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>800-3400 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G5
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>CAN: SK. USA: CA, ID, MT, NV, OR, WY (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2009/09/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/cornus-sericea_wlaketahoebasin_06-09_01.jpg', '/static/images/photos/shrub/rosa-woodsii_deva_02-03_01.jpg', '/static/images/photos/shrub/rosa-woodsii_deva_02-03_02.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Cornus</i> <i>sericea</i>, <i>Ribes</i> spp. or <i>Rosa</i> <i>woodsii</i> is dominant in the shrub canopy with <i>Amelanchier</i> <i>utahensis</i>, <i>Artemisia</i> <i>cana</i>, <i>Artemisia</i> <i>tridentata</i>, <i>Ericameria</i> <i>nauseosa</i>, <i>Ribes</i> <i>aureum</i>, <i>Ribes</i> <i>cereum</i>, <i>Ribes</i> <i>inerme</i>, <i>Ribes</i> <i>nevadense</i>, <i>Salix</i> <i>lemmonii</i>, <i>Salix</i> <i>lucida</i>, <i>Salix</i> <i>scouleriana</i>, <i>Symphoricarpos</i> <i>longiflorus</i> and <i>Symphoricarpos</i> <i>oreophilus</i>. Emergent trees may be present at low cover, including <i>Abies</i> <i>concolor</i> or <i>Pinus</i> <i>jeffreyi</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 3 m; cover is intermittent to continuous. Herbaceous layer is sparse to continuous and grassy. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Cornus sericea</i> > 5% absolute cover in the shrub canopy; no other single shrub or tree with greater cover (Potter 2005).</li>
+		
+		<li><i>Rosa woodsii</i> > 50% relative cover in the shrub canopy with at least 15% abolute cover (Smith 1998).</li>
+		
+		<li><i>Cornus sericea </i> >50% relative cover in the shrub canopy with at least 25% absolute cover (Smith 1998, Manning and Padgett 1995).</li>
+		
+		<li><i>Rosa woodsii</i> >50% relative cover in the shrub canopy with at least 25% absolute cover (Manning and Padgett 1995).</li>
+		
+		<li><i>Cornus sericea</i> or <i>Rosa woodsii</i> is >30% relative cover in the shrub canopy (Boul et al. 2021b).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Meadow margins, stream terraces, wet valley bottoms, slopes near springs and seeps, and roadside ditches that have seasonal subirrigation. The USFWS Wetland Inventory (1996 national list) recognizes <i>Cornus sericea </i> as a FACW plant, <i>Rosa woodsii</i> as a FAC plant, and <i>Ribes </i>spp. as FAC+ and FACW+ plants. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Montane wetland shrub habitat
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Rosa woodsii temporarily flooded shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Willow (riparian scrub)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Modoc-Great Basin riparian forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Montane riparian
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>63.320.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Tree Vegetation (Forest and Woodland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate Flooded and Swamp Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North America Flooded and Swamp Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Western Cordilleran montane-boreal riparian scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Great Basin montane riparian scrub
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> This alliance has been expanded to include various non-willow riparian species, following the lead of the National Vegetation Classification with their concept of <i>Cornus sericea - Dasiphora fruticosa - Ribes </i>spp. However, we have added <i>Rosa woodsii </i>to the name since it is diagnostic of many riparian shrubland stands in eastern California and the western U.S. that are not wet enough to support <i>Salix, Alnus</i>, or <i>Betula </i>species.<br/>
+<br/>
+<i>Cornus sericea </i>is a deciduous, many-stemmed shrub that grows up to 6 m in height. Young stems and twigs are dark red, gradually fading to gray green, and then becoming red again in the fall and winter. Inflorescences lack large, showy bracts; the mature drupes are white or lead colored. Birds and mammals disperse seeds, which then collect in persistent seed banks. Cold stratification and scarification are necessary for germination. <i>C. sericea </i>sprouts from roots, stolons, and stem bases (Crane 1989a). The species involves two forms, ssp. <i>sericea </i>with hairy leaves and ssp. <i>occidentalis </i>with hairless leaves, which have similar ecology. Many botanical manuals use the name <i>C. stolonifera </i>(Stuart and Sawyer 2001). <br/>
+<br/>
+<i>Rosa woodsii </i>is a deciduous, many-stemmed shrub that forms dense thickets to 3 m tall. Abundant prickles cover the stems, and the flowers are pink. Plants sprout from a root crown and produce root suckers. Birds and mammals primarily disperse the seeds of mature rose hips (Hauser 2006d). The species is represented in the western United States by <i>R. woodsii </i>var. <i>ultramontana, </i>a more robust plant than the typical one of the Great Plains. <br/>
+<br/>
+<i>Rosa woodsii </i>is common along streams draining the east flank of the Sierra Nevada and as a riparian type at higher elevations in the mountains of the Great Basin (NatureServe 2007a). <i>R. woodsii </i>is also a typical understory component in stands of the <i>Betula occidentalis, Populus tremuloides, Salix geyeriana, </i>and <i>Salix lutea </i>alliances. Seral relationships with these other alliances are not well understood. <br/>
+<br/>
+Riparian stands in Northeastern California and east of the Sierra Nevada also support other winter deciduous plants in riparian areas, wet valley bottoms, and lower slopes that have seasonal subirrigation beyond <i>Rosa woodsii </i>, including <i>Cornus sericea </i>and <i>Ribes </i>spp. For example, Manning and Padgett (1995) and Potter (2005) recognized stands with <i>Cornus sericea </i>as closely related to riparian willow and conifer alliances where stands appear to withstand periodic, small-scale flooding and persist for long periods. However, we need more sampling and analysis to futher describe the variation of the alliance and to evaluate relationships with related alliances. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Cornus sericea</th>
+			
+		
+			
+			<th>Ribes spp.</th>
+			
+		
+			
+			<th>Rosa woodsii</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Shrub; winter deciduous </td>
+			
+		
+			
+			<td>Shrub</td>
+			
+		
+			
+			<td>Perennial; shrub; rhizomatous</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil (seed banks)</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Soil stored</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Medium; long</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Long</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Animal; Water</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Stratification—winter</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Scarification and/or Stratification - Winter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Buds on large branches or trunks; underground structures</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Buds on small branches; Underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Fire-hardy</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>Long-lived</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>High</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>High</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>Varies by species</td>
+			
+		
+			
+			<td>By subspecies</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Fluvial processes rather than fire primarily disturb the alliance. However, plants sprout after fires and other disturbances, and high productivity and fuel build-up in riparian zones may promote high-severity fires (Gucker 2012).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Modoc Plateau</b> (M261Ga-p). S. Smith (1998b) and Boul (2021) sampled stands of the alliance on the Modoc Plateau.</li>
+        
+            <li><b>Mojave Desert</b> (322Aa). Small stands of <i>Rosa woodsii </i>occur in the Owens Valley.</li>
+        
+            <li><b>Mono</b> (341Dh). VegCamp (2014b) sampled stands in Fish Slough Ecological Reserve.</li>
+        
+            <li><b>Sierra Nevada</b> (M261Ea-e, Eg-h, Ej-k, Em, Ep-q, Et). Manning and Padget (1995) described <i>Cornus sericea </i> and <i>Rosa woodsii </i>types from the eastern Sierra Nevada and east to Nevada. Potter (2005) described <i>Cornus sericea </i> stands along streams, floodplains, and meadows at mid- to upper-montane elevations, which may have high cover from trees of the adjacent forests. Other small stands dominated by <i>R. woodsii </i>appear to occur in the Mammoth area and as small thickets along the eastern slope out to the Owens Valley.</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fa). A small stand sampled in the Tehama Wildlife Area contains a mixture of riparian associates along a mesic slope (Klein et al. 2007).</li>
+        
+            <li><b>Southeastern Great Basin</b> (341Fb). Evens et al. (2014) described stands in higher elevations of Death Valley including in Hunter Mountain.</li>
+        
+            <li><b>Southern Cascades</b> (M261Df, Dj, Dm). Stands occur at montane elevations (S. Smith 1998b) and can have emergent <i>Abies concolor</i> trees.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> <i>R. woodsii </i>is important in stabilizing stream banks, and it is an indicator of past heavy grazing where it impedes access of livestock to streams (Manning and Padgett 1995). <i>Cornus sericea </i>is also useful in stream stabilization and erosion control (Crane 1989a). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Cornus sericea [1], [4], [5], [6]</li>
+                
+                    <li>Cornus sericea / Senecio triangularis [7]</li>
+                
+                    <li>Rosa woodsii [1], [2], [3], [4]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Manning, M.E.;Padgett, W.G. 1995</li>
+		
+		<li>[2] Reyes, E.;Evens, J.;Glass, A.;Sikes, K.;Keeler-Wolf., T.;Winitsky, S.;Johnson, D.;Menke, J.;Hepburn, A. 2020a</li>
+		
+		<li>[3] VegCAMP (CDFW Vegetation Classification and Mapping Program), 2014b</li>
+		
+		<li>[4] Boul, R.;Keeler-Wolf, T.;Ratchford, J.;Haynes, T.;Hickson, D.;Yacoub, R.;Harbert, B.;Evens, J. 2021b</li>
+		
+		<li>[5] Klein, A.;Crawford, J.;Evens, J.;Keeler-Wolf, T.;Hickson, D. 2007</li>
+		
+		<li>[6] Smith, S. 1998b</li>
+		
+		<li>[7] Potter, D.A. 2005</li>
+		
+		<li>Gucker, C. 2012</li>
+		
+		<li>Hauser, A.S. 2006d</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/271/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

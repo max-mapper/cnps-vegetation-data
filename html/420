@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Lepidium latifolium - (Lactuca serriola)</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Lepidium</i> <i>latifolium</i> - (<i>Lactuca</i> <i>serriola</i><span style="padding-left: .2em">)</span></span> Herbaceous Semi-Natural Alliance <br/>
+        <span class="subtitle">Perennial pepper weed - Prickly lettuce patches</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Herb
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-1900 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>SNA
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>GNA
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>CAN: AB, BC, MB, QC. USA: AZ, CA, CO, CT, ID, IL, IN, KS, MA, MO, MT, NE, NM, NV, NY, OR, TX, UT, WA, WY (USDA Plants)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                        <li>
+                            <span class="category">Invasive species rank</span>
+                            Cal-IPC rank: High; CDFA rank: B.
+                        </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2009/09/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/herb/lepidium-latifolium-semi-natural_tulelk_08-09_01.jpg', '/static/images/photos/herb/lepidium-latifolium-semi-natural_sacramento-delta_09-05_01.jpg', '/static/images/photos/herb/lepidium-latifolium-semi-natural_sacramento-delta_09-05_02.jpg', '/static/images/photos/herb/lepidium-latifolium-semi-natural_sacramento-delta_09-05_03.jpg', '/static/images/photos/herb/lepidium-latifolium-semi-natural_sacramento-delta_09-05_04.jpg', '/static/images/photos/herb/lepidium-latifolium_lactuca_mcosd_06-2018_marin015.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Lactuca</i> <i>serriola</i> or <i>Lepidium</i> <i>latifolium</i> or another non-native forb is dominant in the herbaceous layer in mesic environments. Emergent trees and shrubs may be present at low cover. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Herbs < 2m; cover is intermittent to continuous. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Lepidium latifolium</i> > 30% absolute cover as the dominant in the herbaceous layer with non-natives comprising > 90% relative cover (Keeler-Wolf and Evens 2006).</li>
+		
+		<li><i>Lepidium latifolium</i> > 50% relative cover in the herbaceous layer along intermittently and seasonally flooded freshwater and brackish marshes and riparian corridors (Buck-Diaz et al. 2021).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Intermittently and seasonally flooded fresh and saltwater marshes and riparian corridors. The USFWS Wetland Inventory (2020 update) recognizes <i>Lepidium latifolium</i> as a FAC plant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Wet grasses and forbs, Non-native/invasive forb
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Cismontane alkali marsh, Coastal and valley freshwater marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Freshwater marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Fresh emergent wetland, Saline emergent wetland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>52.205.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate and Boreal Shrubland and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate and Boreal Freshwater Marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North American Freshwater Marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Western North America Wet Meadow and Low Shrub Carr
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Naturalized warm-temperate riparian and wetland group
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Lepidium latifolium </i>is a non-native, perennial mustard from Eurasia. Stems originate as rosettes in late fall or early spring. As the plants age, they develop erect stems to 2 m tall with little branching. The root system of the plant expands with age, forming a dense colony of stems originating from buds that develop on the roots. The expanding clones merge to form extensive, monospecific stands. Stems die back to the ground after fruiting, leaving semiwoody stems that may persist for several years as a layer of thatch. Plants produce abundant seed crops, but we know little about conditions for germination and seedling establishment in the field (DiTomaso and Healy 2003, Howald 2000, Renz 2000, Zouhar 2004c). <br/>
+<br/>
+<i>Lepidium latifolium </i>is invading riparian and wetland settings in California. Plants expand rapidly and form extensive, dense patches in both freshwater and brackish water sites in the state. This invasion is magnified in disturbed brackish marshes of the San Francisco Bay estuary, where <i>L. latifolium </i>invades first after disturbance along levees and then spreads into diked and tidal wetlands. Truncation and degradation of the high marsh also occurs through diking, which compresses the habitat into unnaturally steep slopes of disturbed bay mud (Baye 2000).<br/>
+<br/>
+Other non-native wetland or facultative forb species such as <i>Chenopodium album, Cirsium arvense, Conyza canadensis, Lactuca serriola, Rumex crispus</i>, and <i>Sisymbrium altissimum</i> are common across the state and throughout western North America in similar settings as <i>Lepidium latifolium</i> and can form stands; yet we need more information on their extent and distribution in California. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Lactuca serriola</th>
+			
+		
+			
+			<th>Lepidium latifolium</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Perennial; herb</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Soil stored</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Medium</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Wind; Water; Animal</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Stratification - Winter + Summer (alternating)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Fire-hardy?; low sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>High</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text"><i>Lepidium latifolium </i>regenerates rapidly from underground rootstalks and rhizomes following fires. Historically fire intensity and frequency in these wetlands varied with prevalence of drought cycles, lightning strikes, burning by Native Americans, and fires in surrounding uplands (Zouhar 2004c). However, <i>L. latifolium </i>is difficult to ignite and does not easily sustain burns because it lacks adequate fuels (Kilbride et al. 1997).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+            <p>The range of <i>Lepidium latifolium</i> includes all sections of the state except the Colorado Desert (322C) and Sonoran Desert (322B), and therefore may form stands in additional areas. As a state-listed noxious weed, it is often a target for weed management. Other non-native forbs are common in freshwater to brackish sites across California, including both Desert and Cismontane regions of California.</p>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Aa, Ad, Ah, Ak). Stands are common around the edges of salt marshes in San Francisco Bay (Baye et al. 2000) and elsewhere in the section.</li>
+        
+            <li><b>Central California Coast Ranges</b> (M262Ad). Stands were mapped directly adjacent to the subsection (Buck-Diaz et al. 2012).</li>
+        
+            <li><b>Great Valley</b> (262Aa-z). Stands in the Sacramento-San Joaquin River delta (Hickson and Keeler-Wolf 2007) are associated commonly with edges of brackish marshes with <i>Atriplex prostrata, Distichlis spicata, </i>and <i>Sonchus oleraceus</i>. Stands at Suisun Marsh (Baye et al. 2000) form monotypic patches in the middle and high brackish marshes with <i>D. spicata</i>. Stands here increased by more than 70% between 1999 and 2006 (Keeler-Wolf and Vaghti 2000, VegCAMP 2007b) and increased more in tidal areas than leveed areas between 2012 and 2015 (Boul et al. 2018). Managers at the Cosumnes River Preserve in Sacramento Co. use herbicides to remove <i>L. latifolium </i>(J. Buck, pers. comm. 2006).</li>
+        
+            <li><b>Mono</b> (341Dh). Stands of this alliance were mapped in Fish Slough (VegCAMP 2014b).</li>
+        
+            <li><b>Northern California Coast</b> (263Ac). Stands in Sonoma County are adjacent to salt and brackish marshes (Klein et al. 2015).</li>
+        
+            <li><b>Southern California Coast</b> (261Ba-j). Stands in the Santa Monica Mountains (Keeler-Wolf and Evens 2006) have <i>Artemisia douglasiana, Baccharis salicifolia, </i>and emergent <i>Fraxinus velutina </i>and <i>Quercus lobata </i>trees.</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Ba-p). Stands in central San Diego Co. (Evens and San 2005) and in western Riverside Co. (Klein and Evens 2005) have low cover of <i>Baccharis salicifolia, Sambucus nigra, </i>and <i>Salix gooddingii</i>.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> The aggressive invasion of <i>Lepidium latifolium </i>is of particular concern for conservation and recovery of rare or endangered plants in the San Francisco Bay estuary. Stands forming at Suisun Marsh and Southhampton Bay are adjacent to populations of <i>Cirsium hydrophilum </i>(CNPS list 1B.1 plant) and <i>Cordylanthus mollis </i>ssp. <i>mollis </i>and <i>Symphyotrichum lentum </i>(CNPS list 1B.2 plants) (Baye et al. 2000). Concerted eradication measures are occurring in Grizzly Island Wildlife Area. Renz (2000) discussed control strategies for this highly noxious plant. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Lepidium latifolium [1], [2], [4], [5], [6], [8]</li>
+                
+                    <li>Lepidium latifolium - Distichlis spicata [3], [7]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Evens, J.;San, S. 2005</li>
+		
+		<li>[2] Keeler-Wolf, T.;Evens, J. 2006</li>
+		
+		<li>[3] Keeler-Wolf, T.;Vaghti, M. 2000</li>
+		
+		<li>[4] Klein, A.;Evens, J. 2005</li>
+		
+		<li>[5] Sproul, F.;Keeler-Wolf, T.;Gordon-Reedy, P.;Dunn, J.;Klein, A.;Harper, K. 2011</li>
+		
+		<li>[6] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>[7] Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>[8] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>Boul, R.;Hickson, D.;Keeler-Wolf, T.;Colletti, M.;Ougzin, A. 2018</li>
+		
+		<li>DiTomaso, J.M.;Healy, E.A. 2003</li>
+		
+		<li>Howald, A. 2000</li>
+		
+		<li>Renz, M.J. 2000</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program), 2014b</li>
+		
+		<li>Zouhar, K. 2004c</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/420/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

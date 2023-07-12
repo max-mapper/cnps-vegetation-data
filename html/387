@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Eleocharis quinqueflora</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Eleocharis</i> <i>quinqueflora</i></span> Herbaceous Alliance <br/>
+        <span class="subtitle">Few-flowered spike rush marshes</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Herb
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>1500-3700 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S4
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G4
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA, CO, ID, MT, NV, OR, UT, WA, WY (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2009/09/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/herb/eleocharis-quinqueflora_danameadows_10-03_01.jpg', '/static/images/photos/herb/eleocharis-quinqueflora_danameadows_10-03_02.jpg', '/static/images/photos/herb/eleocharis-quinqueflora_grasslk_06-09_01.jpg', '/static/images/photos/herb/eleocharis-quinqueflora_hellholefen-ltbmu_07-10_01.jpg', '/static/images/photos/herb/eleocharis-quinqueflora_hellholefen-ltbmu_07-10_02.jpg', '/static/images/photos/herb/eleocharis-quinqueflora_sagehenfieldstation_08-01-10.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Eleocharis</i> <i>quinqueflora</i> is dominant or co-dominant in the herbaceous layer with <i>Antennaria</i> <i>media</i>, <i>Bistorta</i> <i>bistortoides</i>, <i>Calamagrostis</i> <i>muiriana</i>, <i>Carex</i> spp., <i>Deschampsia</i> <i>cespitosa</i>, <i>Dodecatheon</i> <i>jeffreyi</i>, <i>Epilobium</i> <i>halleanum</i>, <i>Gentiana</i> <i>newberryi</i>, <i>Hypericum</i> <i>anagalloides</i>, <i>Juncus</i> <i>arcticus</i>, <i>Juncus</i> <i>nevadensis</i>, <i>Mimulus</i> <i>primuloides</i>, <i>Muhlenbergia</i> <i>filiformis</i>, <i>Oreostemma</i> <i>alpigenum</i> and <i>Perideridia</i> <i>parishii</i>. Mosses may be abundant, including <i>Aulacomnium</i> <i>palustre</i>, <i>Campylium</i> <i>stellatum</i> or <i>Drepanocladus</i> spp. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Herbs < 50 cm; cover is intermittent to continuous. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Eleocharis quinqueflora</i> > 25% absolute cover in the herbaceous layer; other graminoids with scattered cover (Manning and Padgett 1995).</li>
+		
+		<li><i>Eleocharis quinqueflora</i> > 30% relative cover in the herbaceous layer; <i>E. montevidensis, E. parishii</i>, and <i>E. bolanderi</i> may be dominant (Potter 2005).</li>
+		
+		<li><i>Eleocharis quinqueflora</i> > 50% relative cover in the herbaceous layer; with no other characteristic species present (Keeler-Wolf et al. 2003b).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Margins of lakes, seeps, wet meadows, and fens. Soils remain wet throughout the growing season. The USFWS Wetland Inventory (1996 national list) recognizes <i>Eleocharis quinqueflora</i> as an OBL plant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Spikerush series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Eleocharis (montevidensis, palustris, quinqueflora) seasonally flooded herbaceous alliance, Eleocharis (quinqueflora, rostellata) saturated herbaceous alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Wet grasses and forbs
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Wet montane meadow, Wet subalpine or alpine meadow, Freshwater seep
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Alpine fell-fields, Freshwater marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Alpine dwarf-shrub, Wet meadow
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>45.220.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate and Boreal Shrubland and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate and Boreal Freshwater Marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North American Freshwater Marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Western North America Wet Meadow and Low Shrub Carr
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Western Cordilleran montane-boreal summer-saturated meadow
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Eleocharis quinqueflora </i>is a perennial spike rush with culms to 30 cm, clustered on a short creeping rhizome. Bulbs are often present on short rhizomes or among culm bases. It is a circumpolar species of the <i>E. quinqueflora </i>complex treated variously in different floras. We follow Smith et al. (2002) and consider <i>E. pauciflora </i>and its var. <i>fernaldii </i>as part of <i>E. quinqueflora, </i>and <i>E. p. </i>var. <i>bernardina </i>as a separate species. Other taxonomic treatments recognize <i>E. pauciflora </i>a separate species. <br/>
+<br/>
+The alliance primarily occurs in middle to upper elevations in gently sloping, wet meadows in California (Potter 2005); it grows in peatlands throughout the western United States from the Great Plains to the lower alpine, where soils are wet or saturated throughout the growing season (NatureServe 2007a). Mosses are an important component of most stands (Cooper and Wolf 2006, Manning and Padgett 1995, S. Smith 1998). </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Eleocharis quinqueflora</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Polycarpic perennial; herb; rhizomatous</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Transient</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; gravity</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Stratification—winter </td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>Long-lived</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Low; episodic</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Since stands occur in wet and saturated meadows, fires likely have little influence in stands as compared to surrounding vegetation. Fluvial processes rather than fire primarily disturb stands.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+            <p>The range of <i>Eleocharis quinqueflora</i> includes Mono (341D), Northern California Coast (263A), Northern California Coast Ranges (M261B), Northern California Interior Coast Ranges (M261C), Sierra Nevada Foothills (M261F), and Southern California Mountains and Valleys (M262B).</p>
+        
+
+        <ul class="text">
+        
+            <li><b>Klamath Mountains</b> (M261Ac-e, Ag-r, At-u). Stands occur in lowproductivity, species-rich fens at montane elevations (Cooper and Wolf 2006).</li>
+        
+            <li><b>Modoc Plateau</b> (M261Ge-f, Gh-i). Stands exist at Pine and Fitzhugh Creek Wildlife areas (Hickson et al. 2008) and in wet meadows in the Warner Mountains. Plants in this section may be confused with other Eleocharis species (see Eleocharis acicularis alliance).</li>
+        
+            <li><b>Sierra Nevada</b> (M261Ea-r, Et-u). Stands are part of the mosaics found in wet meadows (Manning and Padgett 1995, Nachlinger 1985); in low productivity, species rich fens (Cooper and Wolf 2006); and on seasonally to permanently flooded sites (Potter 2005) throughout the section.</li>
+        
+            <li><b>Southern Cascades</b> (M261Dc, De-g, Di-j, Dl-m). More than one association may occur in the same low productivity, speciesrich fens (Cooper and Wolf 2006) and around seeps, springs, and on wet flood plains (S. Smith 1998b) in the section.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Although <i>Eleocharis quinqueflora </i>is rhizomatous, the stands are susceptible to grazing and trampling, and soil compaction (Manning and Padgett 1995, Potter 2005). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Eleocharis quinqueflora [2], [4], [5]</li>
+                
+                    <li>Eleocharis quinqueflora / Aulacomnium palustre [1]</li>
+                
+                    <li>Eleocharis quinqueflora / Campylium stellatum [1]</li>
+                
+                    <li>Eleocharis quinqueflora / Drepanocladus aduncus - Drepanocladus sordidus [1]</li>
+                
+                    <li>Eleocharis quinqueflora - Mimulus primuloides [3]</li>
+                
+                    <li>Eleocharis quinqueflora / Philonotis fontana [1]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Cooper, D.J.;Wolf, E.C. 2006</li>
+		
+		<li>[2] Manning, M.E.;Padgett, W.G. 1995</li>
+		
+		<li>[3] Potter, D.A. 2005</li>
+		
+		<li>[4] Smith, S. 1998b</li>
+		
+		<li>[5] Keeler-Wolf, T.;Schindel, M.;San, S.;Moore, P.;Hickson, D. 2003b</li>
+		
+		<li>Boul, R.;Keeler-Wolf, T.;Ratchford, J.;Haynes, T.;Hickson, D.;Yacoub, R.;Harbert, B.;Evens, J. 2021b</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/387/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

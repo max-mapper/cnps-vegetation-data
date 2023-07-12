@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Arctostaphylos myrtifolia</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Arctostaphylos</i> <i>myrtifolia</i></span> Shrubland Alliance <br/>
+        <span class="subtitle">Ione manzanita chaparral</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>100-300 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S1
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G1
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA (NatureServe) (Calflora)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>Yes
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>Yes
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/arctostaphylos-myrtifolia_ssnf_g07251030-463_07-08.jpg', '/static/images/photos/shrub/arctostaphylos-myrtifolia_ssnf_g08071005-589_08-08.jpg', '/static/images/photos/shrub/arctostaphylos-myrtifolia_ssnf_k06251554-241_06-08.jpg', '/static/images/photos/shrub/arctostaphylos-myrtifolia_ssnf_n07231554-411_07-08.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Arctostaphylos</i> <i>myrtifolia</i> is dominant or co-dominant in the shrub canopy with <i>Adenostoma</i> <i>fasciculatum</i>, <i>Arctostaphylos</i> <i>manzanita</i>, <i>Arctostaphylos</i> <i>viscida</i>, <i>Baccharis</i> <i>pilularis</i>, <i>Eriodictyon</i> <i>californicum</i>, <i>Frangula</i> <i>californica</i> ssp. <i>tomentella</i>, <i>Heteromeles</i> <i>arbutifolia</i>, <i>Lotus</i> <i>scoparius</i>, <i>Quercus</i> <i>berberidifolia</i> and <i>Quercus</i> <i>wislizeni</i>. Emergent trees may be present at low cover, including <i>Pinus</i> <i>attenuata</i>, <i>Pinus</i> <i>sabiniana</i> or <i>Quercus</i> <i>chrysolepis</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 2 m; canopy is intermittent to
+continuous. Herbaceous layer is sparse. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Arctostaphylos myrtifolia</i> > 30% relative cover in the shrub canopy (Wood and Parker 1988).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Low hills. Soils are coarse, very acidic, nutrient-poor soils with cement-like with yellow crusts of iron oxide.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Ione manzanita series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Arctostaphylos myrtifolia shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Manzanita chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Ione chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Mixed chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>37.304.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Mediterranean Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Mediterranean Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>California Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>California Chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Californian maritime chaparral
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Arctostaphylos myrtifolia </i>is an erect to spreading evergreen shrub that lacks a lignotuber. Seeds collect in the duff and ground in a seed bank as stones as plants age. <i>A. myrtifolia </i>appears be as much dependent upon fire as special soil conditions associated with it. Tree seedlings are establishing in canopy openings of older stands. <br/>
+<br/>
+The <i>Arctostaphylos myrtifolia </i>alliance occurs primarily on outcrops of the Ione Formation, which has highly acidic, infertile paleosols with high levels of aluminum that were produced under subtropical or tropical climates (USFWS 1999). Holzman and Meyer (2004) mapped the alliance and associated vegetation types, and found that it covers only 484 ha. Only 5% of the alliance occurs on public land. The largest and least impacted stands occur in the Dry Creek and Willow Creek drainages between State Routes 18 and 104. <br/>
+<br/>
+<i>Arctostaphylos myrtifolia </i>is a CNPS list 1B.2 plant. Other rare plants, <i>Eriogonum apricum </i>var. <i>apricum, E. a. </i>var. <i>prostratum </i>(CNPS list 1B.1 plants), <i>Horkelia parryi </i>(a CNPS list 1B.2 plant), and <i>Helianthemum suffrutescens </i>(a CNPS list 3.2 plant) grow in this alliance. <br/>
+<br/>
+Gankin and Major (1964) discuss the acidic soils and relatively moderated climate for this part of the Sierra Nevada foothills. This manzanita grows due east of the Golden Gate. Its closest relatives occur in the maritime chaparral (the forms of <i>A. nummularia, A. uva-ursi</i>), suggesting paleoecological ties to the flora of the Central Coast (Boykin et al. 2005). </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Arctostaphylos myrtifolia</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Shrub; evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Long</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Heat; scarification?</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>none</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-sensitive; no/low sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>?-100 years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Episodic</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Hybridization</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Seeds of <i>Arctostaphylos myrtifolia </i>germinate with heat from fire. Stands require periodic fire to maintain current species composition. Infrequent fire results in tree encroachment, shrub decline, and seed bank decline. Frequent fire tends to convert the stands to grassland. Intermediate periods between fires will best maintain the alliance (Swiecki and Bernhardt 2003).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Medium (30-100+ years)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Late summer-fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Medium to large—up to and beyond stand
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low to moderate (more complex when xeric)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Moderate to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>High to very high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Active-independent crown fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Amador Co.
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fb). Stands occur over a 9500-ha area in western Amador Co. and a very small portion of Calaveras Co. (Holzman and Meyer 2004).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> <i>Arctostaphylos myrtifolia </i>habitat contains commercially valuable minerals, and a significant permanent loss of its habitat has occurred. Fifteen surface mines have extracted sand, gravel, gold, kaolinitic clays, lowgrade coal, and other minerals, and seriously continue to threaten the alliance. Roads, highways, and a patchwork of agricultural, commercial, and residential development (Hartwell 2006) also impact the habitat. Diseases, especially a root rot ( <i>Phytophthora cinnamomi</i>), a close relative of the sudden oak death pathogen <i>P. ramorum</i>, are immediate threats to <i>A. myrtifolia </i>(Swiecki and Bernhardt 2003). They are a more serious threat than fire suppression, residential development, or agriculture conversion. Wood and Parker (1988) report shrub density and cover at Apricum Hill Ecological Reserve; a recent study (Holzman and Meyer 2004) found that 30% of <i>A. myrtifolia </i>shrubs had less than half of their crowns with live foliage, mostly due to pathogens. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Arctostaphylos myrtifolia [1], [2]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Wood, M.T.;Parker, V.T. 1988</li>
+		
+		<li>[2] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>Gankin, R.;Major, J. 1964</li>
+		
+		<li>Holzman, B.;Meyer, T. 2004</li>
+		
+		<li>Singer, M.J. 1978</li>
+		
+		<li>Swiecki, T.J.;Bernhardt, E. 2003</li>
+		
+		<li>Swiecki, T.J.;Bernhardt, E.A.;Garboletto, M. 2005</li>
+		
+		<li>USFWS (United States Fish and Wildlife Service), 1999</li>
+		
+		<li>Woodward, R.A. 2003</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/124/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

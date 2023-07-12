@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Carex obnupta - Oenanthe sarmentosa - Scirpus microcarpus</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Carex</i> <i>obnupta</i> - <i>Oenanthe</i> <i>sarmentosa</i> - <i>Scirpus</i> <i>microcarpus</i></span> Herbaceous Alliance <br/>
+        <span class="subtitle">Slough sedge - Water-parsley - Small-fruited bulrush marsh</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Herb
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-650 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G4
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>CAN: BC. USA: CA, OR, WA (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2022/07/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/herb/oenanthe-sarmentosa_07-2005.jpg', '/static/images/photos/herb/carex-obnupta_w-argentina_marin069_ptreyes_att-wetlands_07-18.jpg', '/static/images/photos/herb/carex_argentina-egedii_juncus_smat0123_pescaderosb_05-19.jpg', '/static/images/photos/herb/carex-obnupta_marinheadlands_06-03_01.jpg', '/static/images/photos/herb/carex-obnupta_tomalesbay_06-93_01.jpg', '/static/images/photos/herb/carex-obnupta_vandammestatepark_07_2020.jpg', '/static/images/photos/herb/scirpus-microcarpus_03mackerricherstatepark_07_2020.jpg', '/static/images/photos/herb/oenanthe-sarmentosa_hsu_07-12-2005_02.jpg', '/static/images/photos/herb/oenanthe-sarmentosa_07-19-05.jpg', '/static/images/photos/herb/oenanthe-sarmentosa_hsu_07-12-2005_01.jpg', '/static/images/photos/herb/juncus-lescurii_pontentillaans3beanh.jpg', '/static/images/photos/herb/juncus-lescurii_potenansbeanhollow2.jpg', '/static/images/photos/herb/argentina-egedii_stone-lagoon_09-06.jpg', '/static/images/photos/herb/argentina-egedii_marinnps_07_2018.jpg', '/static/images/photos/herb/argentina-egedii_03mackerricherstatepark_12_2020.jpg', '/static/images/photos/herb/argentina-egedii_n-santa-cruz-co_05-2021.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Argentina</i> <i>egedii</i>, <i>Carex</i> <i>obnupta</i>, <i>Juncus</i> <i>lescurii</i>, <i>Oenanthe</i> <i>sarmentosa</i> and/or <i>Scirpus</i> <i>microcarpus</i> is dominant or co-dominant in the herbaceous layer with <i>Agrostis</i> <i>stolonifera</i>, <i>Eleocharis</i> <i>macrostachya</i>, <i>Epilobium</i> <i>ciliatum</i>, <i>Euthamia</i> <i>occidentalis</i>, <i>Holcus</i> <i>lanatus</i>, <i>Juncus</i> <i>patens</i>, <i>Rumex</i> <i>conglomeratus</i> and <i>Schoenoplectus</i> spp. Shrubs present may include <i>Rubus</i> <i>ursinus</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Herbs < 1 m; cover is intermittent to continuous. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Carex obnupta</i> 50% relative cover in the herbaceous layer (Keeler-Wolf et al. 2003a).</li>
+		
+		<li><i>Carex obnupta</i> 50% relative cover in the herbaceous layer or > 30% cover with other herbs including <i>Juncus patens </i> (Buck-Diaz et al. 2021).</li>
+		
+		<li><i>Oenanthe sarmentosa</i> > 50% relative cover in the herbaceous layer or co-dominant with <i>Argentina egedii</i> at > 30% cover (Pickart 2006, Buck-Diaz et al. 2021).</li>
+		
+		<li><i>Scirpus microcarpus</i> ≥ 30% relative cover in the herbaceous layer; shrub cover < 15% absolute cover (Keeler-Wolf et al. 2003a, Buck-Diaz et al. 2021).</li>
+		
+		<li><i>Juncus lescurii</i> > 50% relative cover in the herbaceous layer (Pickart 2006, Buck-Diaz et al. 2021).</li>
+		
+		<li><i>Argentina egedii, Carex obnupta, Juncus lescurii, Oenanthe sarmentosa</i>, and/or <i>Scirpus microcarpus</i> > 50% relative cover, or > 30% relative cover with other herbs and shrubs including <i>Baccharis pilularis, Calamagrostis nutkaensis, Distichlis spicata, Holcus lanatus, Juncus effusus, J. patens</i>, and <i>Rubus ursinus</i> in freshwater to brackish marshes (Buck-Diaz et al. 2021, Sikes et al. 2021).</li>
+		
+		<li><i>Argentina egedii</i> > 60% relative cover in the herbaceous canopy, or co-dominant at > 30% relative cover with <i>Alopecurus aequalis, Lotus uliginosus,</i> or <i>Eleocharis macrostachya</i> in freshwater to brackish marshes (Pickart 2006).</li>
+		
+		<li><i>Argentina egedii</i> > 50% relative cover in the herbaceous canopy, or co-dominant at > 30% relative cover with <i>Bolboschoenus maritimus, Carex nudata, Distichlis spicata, Eleocharis macrostachya, Holcus lanatus, Juncus lescurii, Leontodon taraxacoides</i>, and <i>Rumex acetosella</i> (Klein et al. 2015).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Freshwater to slightly brackish marshes in coastal marshes and low-elevation valleys. Soils are seasonally saturated, mucky to silty or clayey alluvium. The USACE Wetland Inventory (2018 national list) recognizes <i>Carex obnupta, Oenanthe sarmentosa, Argentina egedii (=Potentilla anserina)</i> and <i>Scirpus microcarpus</i> as OBL plants and <i>Juncus lescurii </i>as a FACW plant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Bulrush series, Sedge series, Bulrush-cattail series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Argentina egedii tidal herbaceous alliance, Carex obnupta seasonally flooded herbaceous alliance, Scirpus microcarpus herbaceous alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Pickleweed-Cordgrass, Wet grasses and forbs, Tule-Cattail
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Northern coastal salt marsh, Coastal brackish marsh, Coastal and valley freshwater marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Coastal salt marsh, Freshwater marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Fresh emergent wetland, Saline emergent wetland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>45.189.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate and Boreal Shrubland and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate and Boreal Freshwater Marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North American Freshwater Marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Western North American Freshwater Marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Vancouverian coastal/tidal marsh and meadow
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Carex obnupta </i>is a robust sedge with clumps to 150 cm. It has 4 to 8 cylindrical flower spikes that are large, long (5-12 cm), and loosely aggregated at the tip. Plants reproduce by seed and especially by stout, creeping rhizomes (USDA, NRCS 1999). The species ranges north to British Columbia. <br/>
+<br/>
+<i>Oenanthe sarmentosa </i>is a much branched, sprawling perennial with light green stems and compound leaves. Upper stems produce compound umbels of small white flowers. The root system consists of fibrous roots and slender white runners that lie slightly below the ground surface. This species is a “creeping emergent” that has rapid growth, high nitrogen accumulation, allocation of most biomass and nitrogen into aboveground plant parts, and rapid decomposition (Rejmankova 1992). Plants occur in wet, mucky soil or shallow, brackish or fresh water; they do best in open areas with fertile soil. <br/>
+<br/>
+<i>Scirpus microcarpus </i>is a perennial bulrush that attains 1.5 m in height. Plants have a spreading habit due to long, reddish rhizomes. Aerial culms are leafy and ligules are present. The inflorescences are spikelets in headlike clusters (Jepson Flora Project 2012). Water and birds disperse the achenes. Like other bulrushes, seeds remain dormant as long as they remain submerged, forming a seed bank. Germination and seedling establishment occurs when mudflats are not flooded. <br/>
+<br/>
+<i>Argentina egedii </i>is a salt-tolerant perennial plant, native to arctic and cool-temperate coasts of the northern hemisphere. The low-growing, tufted plant has extensive stolons up to 80 cm long. Silky, white hairs sparsely cover the upper leaf blades. The sparse hairs distinguish it from the closely related <i>A. anserina, </i>which grows in sandy or gravelly upland soils. It has been traditionally treated as a member of <i>Potentilla </i>(Eriksson et al. 1998), and the name <i>Potentilla anserina </i>ssp. <i>pacifica </i>is used in the <i>Jepson Manual </i>(Hickman 1993)<i>. Argentina egedii </i>ssp. <i>groenlandica </i>is an arctic plant; ssp. <i>egedii </i>grows along the Pacific coast, often in brackish marshes of intermediate salinity (NatureServe 2007).<br/>
+<br/>
+<i>Juncus lescurii </i>is a perennial, rhizomatous rush that grows to 140 cm tall. It has lateral inflorescences that appear to be a continuous of the culm. It has round, basal leaf sheaths that are bladeless and stout and distinctively twisted stems. The stems arise well spaced along creeping rhizomes. The species is widespread from central California to British Columbia (C. Smith 1998, Stevens 2000a). <i>Juncus lesueurii, </i>the name used in most sources, is an incorrect orthographic variant of the original spelling <i>“lescurii”</i>; see the discussion at the Jepson Interchange (UCB 2006). <i>J. lescurii </i> forms stands in coastal fresh and brackish wetlands.<br/>
+<br/>
+This alliance includes several previously separate alliances, in which the concept has been broadened based on overlapping environmental and floristic features (NatureServe 2021). Stands in California occur in moist to saturated swales, edges of coastal lagoons, tidally influenced wetlands, and other areas where fresh and brackish water meet. Plants often form dense, continuous stands. Open stands lacking or having only a few emergent shrubs or trees are included in this alliance. Stands with <i>C. obnupta, Oenanthe sarmentosa, </i>and/or <i>Scirpus microcarpus </i>understories are in the <i>Alnus rubra, Rubus spectabilis - Morella californica, Picea sitchensis, Pinus contorta </i>ssp. <i>contorta, </i>and <i>Salix hookeriana - Salix sitchensis - Spiraea douglasii </i>alliances. Trees and shrubs do not typically colonize the more coastal stands due to the longer inundation period and exposure to strong salt-laden winds. In wet but more sheltered settings, tree development is favored.<br/>
+<br/>
+At Humboldt Bay National Refuge, stands with <i>Argentina egedii, Oenanthe sarmentosa </i> and <i>Scirpus microcarpus </i> occur in semipermanently-flooded freshwater to slightly brackish marshes, and stands may retain standing water through the summer (Pickart 2006). In general they are seasonally flooded, freshwater to brackish marshes, which are inundated with water for the majority of the year. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Argentina egedii</th>
+			
+		
+			
+			<th>Carex obnupta</th>
+			
+		
+			
+			<th>Juncus lescurii</th>
+			
+		
+			
+			<th>Oenanthe sarmentosa</th>
+			
+		
+			
+			<th>Scirpus microcarpus</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Polycarpic perennial herb; stoloniferous</td>
+			
+		
+			
+			<td>Polycarpic perennial; herb; rhizomatous</td>
+			
+		
+			
+			<td>Polycarpic perennial; herb; rhizomatous</td>
+			
+		
+			
+			<td>Polycarpic perennial; herb; rhizomatous</td>
+			
+		
+			
+			<td>Polycarpic perennial; herb; rhizomatous</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil </td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Long</td>
+			
+		
+			
+			<td>Long</td>
+			
+		
+			
+			<td>Long</td>
+			
+		
+			
+			<td>Long</td>
+			
+		
+			
+			<td>Long</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; water/hydrological</td>
+			
+		
+			
+			<td>Animal; gravity; water/hydrological</td>
+			
+		
+			
+			<td>Animal; gravity; water/hydrological</td>
+			
+		
+			
+			<td>Animal; water/hydrological</td>
+			
+		
+			
+			<td>Animal; gravity; water/hydrological</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Inundation; stratification—winter </td>
+			
+		
+			
+			<td>Inundation; stratification—winter </td>
+			
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>Inundation; stratification—winter</td>
+			
+		
+			
+			<td>Inundation; stratification—winter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Underground structures</td>
+			
+		
+			
+			<td>Underground structures (culms)</td>
+			
+		
+			
+			<td>Underground structures (rhizomes)</td>
+			
+		
+			
+			<td>Underground structures</td>
+			
+		
+			
+			<td>Underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-sensitive; no/low sprouter to high sprouter</td>
+			
+		
+			
+			<td>Fire-sensitive; no/low sprouter to high sprouter</td>
+			
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+			
+			<td>Fire-sensitive; no/low sprouter to high sprouter</td>
+			
+		
+			
+			<td>Fire-sensitive; no/low to high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>Life of plant</td>
+			
+		
+			
+			<td>Life of plant</td>
+			
+		
+			
+			<td>Long-lived</td>
+			
+		
+			
+			<td>Life of plant</td>
+			
+		
+			
+			<td>Life of plant</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>High </td>
+			
+		
+			
+			<td>High</td>
+			
+		
+			
+			<td>High</td>
+			
+		
+			
+			<td>High</td>
+			
+		
+			
+			<td>High</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Hydrological processes rather than fire primarily disturb stands of this alliance. <i>Scirpus microcarpus </i>can sprout after a fire.  <i>Juncus lescurii </i>also sprouts when disturbed.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+            <p>The range of <i>Carex obnupta</i> and <i>Juncus lescurii</i> includes the Central California Coast (261A) and Northern California Coast (263A). The range of <i>Oenanthe sarmentosa</i> includes the Northern California Coast (263A), Central California Coast (261A) and Southern California Coast (261B).</p>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Aa, Af, Ah-l). Stands of <i>Carex obnupta</i> occur in coastal marshes around brackish lagoons such as at Pescadero, Scott, and Waddell Creeks. One small stand of <i>Scirpus microcarpus</i> identified in a seasonally inundated wetland at the southern end of Upper Crystal Springs Reservoir (Sikes et al. 2021). Stands of <i>Argentina egedii</i> occur along the Pacific shore, including the San Francisco and Morro Bay regions, in seeps and on lagoon margins behind barrier beaches with <i>Atriplex californica</i> and <i>Juncus</i> spp.  Stands also occur at the Santa Maria River estuary and at nearby coastal ponds in a rich species assemblage with <i>Anemopsis californica, Carex pansa, Glaux maritima, Sarcocornia pacifica,</i> and <i>Triglochin</i> spp. (Rindlaub et al. 1985).</li>
+        
+            <li><b>Great Valley</b> (262Al). Stands of <i>Oenanthe sarmentosa</i> occur with <i>Argentina egedii</i> in Suisun Marsh (Keeler-Wolf and Vaghti 2000), along coastal seeps and at the edges of salt or brackish marshes.</li>
+        
+            <li><b>Northern California Coast</b> (263Aa-e, Ag-l). Pure or mixed stands of <i>Carex obnupta </i> and  <i>Scirpus microcarpus </i>occur around Lake Earl Wildlife Area and in Lake Tolowa State Park in Del Norte Co. (Hehnke 1969, Eicher and Geldin-Meyers 1988), in Redwood National Park, around Humboldt Bay (Duebendorfer 1989, Johnson 1963, Newton 1989, Pickart 2006), at Van Damme State Park and Salt Point State Park in Mendocino Co. (CNPS unpublished data 2020), at Point Reyes National Seashore (Keeler-Wolf et al. 2003a), in Mount Tamalpais watershed (Evens and Kentner 2006) and other localities in Marin Co. (Howell 1970, Buck et al. 2021). Stands of <i>Calamagrostis nutkaensis</i> alliance and semi-natural stands of <i>Holcus lanatus </i>may border them on drier sites.
+
+Stands of <i> Oenanthe sarmentosa</i> at Humboldt Bay National Wildlife Refuge (Pickart 2006) contain <i>Argentina egedii.</i> Stands are large at the Arcata Marsh and Wildlife Sanctuary, an integrated wetland wastewater treatment plant in Humboldt Co. Stands occur on edges of lagoons, ponds, or along low-gradient streams adjacent to those of the <i>Hydrocotyle ranunculoides</i> and <i>Schoenoplectus californicus</i> alliances on the Point Reyes Peninsula in Marin Co.
+
+Small stands of <i>Argentina egedii </i>documented in Sonoma County are found at the mouths of coastal creeks and rivers (Klein et al. 2015). Stands occur at MacKerricher State Park in Mendocino Co. in seeps (CNPS unpublished data 2020).</li>
+        
+            <li><b>Southern California Coast</b> (261Bd). Scattered stands of <i>Argentina egedii </i>occur in this section, including at McGrath State Beach, near the mouth of the Santa Clara River (Stillwater Sciences and URS 2007).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Potential impacts to this alliance include grazing, pollution, changes in hydrologic regime, conversion to other land uses, and altered flooding regimes. Stands grazed at Point Reyes National Seashore include non-natives such as <i>Holcus lanatus, Silybum marianum, </i>and even <i>Zantedeschia aethiopica</i>.
+
+Managers use <i>Carex obnupta </i>in coastal wetland restoration for soil stabilization. It provides erosion control, stream bank stabilization, storm water abatement, plains for sediment deposition and nutrient-rich habitat for many kinds of wildlife. Native American basketry techniques use the leaves (USDA-NRCS 1999).
+
+The rhizomatous nature of <i>Juncus lescurii </i>allows it to be used to stabilize sites, fix nitrogen, and restore and create wetland habitat. Native American coiled basketry techniques use the stems of <i>J. lescurii </i> (Stevens 2000a).
+
+Floods or high spring tides along edges of lagoons or tidal marshes likely disturb stands. <i>Lotus uliginosus </i>grows commonly in the stands at Humboldt Bay, and it is a very invasive species locally (ranked at high alert by Cal-IPC 2006). It requires special consideration at Humboldt Bay National Refuge (Pickart 2006). Stands of <i>Argentina egedii </i>respond negatively to disking yet can recover quickly (Pickart 2006). Quick response in open spaces may be because <i>A. egedii </i>adaptively allocates resources to vegetative growth in open settings (Rautiainen et al. 2004). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Argentina egedii [4]</li>
+                
+                    <li>Argentina egedii - Alopecurus aequalis [4]</li>
+                
+                    <li>Argentina egedii - Eleocharis macrostachya [4]</li>
+                
+                    <li>Argentina egedii - (Juncus lescurii) [5], [8], [9]</li>
+                
+                    <li>Argentina egedii - Lotus uliginosus [4]</li>
+                
+                    <li>Carex obnupta [3], [4], [5], [6], [7], [8], [9]</li>
+                
+                    <li>Carex obnupta - Argentina egedii [8]</li>
+                
+                    <li>Carex obnupta - Juncus lescurii [1]</li>
+                
+                    <li>Carex obnupta - Juncus patens [2], [8]</li>
+                
+                    <li>Juncus lescurii [4], [5], [8], [9]</li>
+                
+                    <li>Oenanthe sarmentosa [4], [5], [6], [8]</li>
+                
+                    <li>Scirpus microcarpus Pacific Coast [2], [4], [5], [7], [8], [9]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Duebendorfer, T.E. 1989</li>
+		
+		<li>[2] Keeler-Wolf, T .;Schirokauer, D.;Meinke, J.;van derLeeden, P. 2003a</li>
+		
+		<li>[3] Newton, G.B. 1989</li>
+		
+		<li>[4] Pickart, A.J. 2006</li>
+		
+		<li>[5] Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>[6] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2020</li>
+		
+		<li>[7] Stumpf, K. 2017</li>
+		
+		<li>[8] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>[9] Sikes, K.;Buck-Diaz, J.;Evens, J. 2021</li>
+		
+		<li>Cal-IPC, 2002+</li>
+		
+		<li>Eicher, A.L.;Geldin-Meyers, C. 1988</li>
+		
+		<li>Eriksson, T.;Donoghue, M.J.;Hibbs, M.S. 1998</li>
+		
+		<li>Evens, J.M.;Kentner, E. 2006</li>
+		
+		<li>Grewell, B.J.;Callaway, J.C.;Ferren, W.C. 2007</li>
+		
+		<li>Hehnke, M. 1969</li>
+		
+		<li>Hickman, J.C. 1993</li>
+		
+		<li>Howell, J.T. 1970</li>
+		
+		<li>Jepson Flora Project, 2004-present</li>
+		
+		<li>Johnson, J.W. 1963</li>
+		
+		<li>Kagan, J.S.;Christy, J.A.;Murray, M.P.;Titus, J.A. 2004</li>
+		
+		<li>Keeler-Wolf, T.;Vaghti, M. 2000</li>
+		
+		<li>NatureServe, 2007</li>
+		
+		<li>NatureServe, 2014+</li>
+		
+		<li>Rautiainen, P.;Koivula, K.;Hyvärinen, M. 2004</li>
+		
+		<li>Rejmankova, E. 1992</li>
+		
+		<li>Rindlaub, K.;Capralis, D.;Ferren, W.R., Jr., 1985</li>
+		
+		<li>Stevens, M. 2000a</li>
+		
+		<li>Stillwater Sciences and URS, 2007</li>
+		
+		<li>USDA-NRCS (US Department of Agriculture - Natural Resource Conservation Service), Various dates (1999-2021)</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/603/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

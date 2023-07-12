@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Festuca idahoensis - Pseudoroegneria spicata - Poa secunda</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Festuca</i> <i>idahoensis</i> - <i>Pseudoroegneria</i> <i>spicata</i> - <i>Poa</i> <i>secunda</i></span> Herbaceous Alliance <br/>
+        <span class="subtitle">Idaho fescue  -  bluebunch wheat grass - pine bluegrass grassland</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Herb
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-3800 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>GNR
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>CAN: AB, BC,. USA: CA, CO, ID, MT, NV, OR, UT, WA, WY (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2020/08/07
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/herb/pseudoroegnaria-spicata_lavabedsnm_08-09_01.jpg', '/static/images/photos/herb/pseudoroegnaria-spicatum_modoc-plateau_05-2018.jpg', '/static/images/photos/herb/festuca-idahoensis_pseudoroegneria-spicata_poa-secunda_mola_06_2016_01.jpg', '/static/images/photos/herb/festuca-idahoensis_arcto-viscida_eightdollarmtn.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Festuca</i> <i>idahoensis</i>, <i>Poa</i> <i>secunda</i> and/or <i>Pseudoroegneria</i> <i>spicata</i> is dominant or co-dominant in the herbaceous layer with <i>Achillea</i> <i>millefolium</i>, <i>Achnatherum</i> <i>hymenoides</i>, <i>Achnatherum</i> <i>thurberianum</i>, <i>Balsamorhiza</i> <i>hookeri</i>, <i>Blepharipappus</i> <i>scaber</i>, <i>Crepis</i> <i>acuminata</i>, <i>Crepis</i> <i>bakeri</i>, <i>Danthonia</i> <i>unispicata</i>, <i>Elymus</i> <i>elymoides</i>, <i>Epilobium</i> <i>brachycarpum</i>, <i>Hesperostipa</i> <i>comata</i>, <i>Koeleria</i> <i>macrantha</i>, <i>Leymus</i> <i>cinereus</i>, <i>Lomatium</i> spp., <i>Lupinus</i> <i>arbustus</i>, <i>Lupinus</i> <i>argenteus</i>, <i>Pascopyrum</i> <i>smithii</i> and <i>Triteleia</i> <i>hyacinthina</i>. Emergent shrubs may be present at low cover, including <i>Artemisia</i> <i>arbuscula</i>, <i>Artemisia</i> <i>tridentata</i>, <i>Ericameria</i> <i>nauseosa</i>, <i>Juniperus</i> <i>occidentalis</i> or <i>Purshia</i> <i>tridentata</i>. Herbaceous nativity is usually >20% relative cover, though non-native annual grasses such as <i>Bromus</i> <i>arvensis</i>, <i>Bromus</i> <i>tectorum</i>, <i>Centaurea</i> <i>stoebe</i> ssp. <i>micranthos</i>, <i>Erodium</i> <i>cicutarium</i>, <i>Poa</i> spp., <i>Sisymbrium</i> <i>altissimum</i> and <i>Taeniatherum</i> <i>caput</i>-<i>medusae</i>, may exceed the cover of native grasses. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Herbs < 1.5 m; cover is open to intermittent to continuous. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Pseudoroegneria spicata</i> > 30% relative cover in the ground layer (NatureServe 2007).</li>
+		
+		<li>Stands characterized by <i>Festuca idahoensis</i>, <i>Pseudoroegneria spicata</i>, and/or <i>Poa secunda</i> and with at least 15% relative native cover (Boul et al. 2021b).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Slopes on all aspects, but often on drier slopes. Substrates are variable, and soils range from shallow to moderately deep ones. <i> Poa secunda</i> stands can also be found in valley bottoms with shallow water table,  lower portions of alluvial slopes. The USFWS Wetland Inventory (1996 and 2012 national list) recognizes <i>Festuca idahoensis</i> and <i>Poa secunda</i> as FACU plants. The USFWS Wetland Inventory recognizes <i>Pseudoroegnaria spicata</i> as FACU (1996) and UPL (2012). </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Bluebunch wheatgrass series, Idaho fescue series, One-sided bluegrass series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Festuca idahoensis herbaceous alliance, Poa secunda herbaceous alliance, Pseudoroegneria spicata herbaceous alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Big sagebrush, Perennial grasses and forbs
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Native grassland, Pine bluegrass grassland, Great Basin grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Sagebrush scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Perennial grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>41.040.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Xeromorphic Scrub and Herb Vegetation (Semi-Desert)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Cool Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Cool Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North American Cool Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Inter-Mountain Dry Shrubland and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Northern Great Basin semi-desert grassland group
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Pseudoroegneria spicata </i>is a drought-resistant, perennial bunch grass. Seeds germinate in the fall. If water is available, seedlings slowly grow until temperatures decrease. Established plants begin growing with the fall rains and continue until summer droughts, but most growth occurs in late spring. Plant production varies among years depending on seasonal precipitation and temperature patterns (Zlatnik 1999c). Much of the botanical literature uses the name <i>Agropyron spicatum; </i>conservative taxonomic treatments place <i>P. spicata </i>in the genus <i>Elymus</i>. <br/>
+<br/>
+<i>Festuca idahoensis </i>is long-lived, cool-season, bunchgrass. Plants are strongly cespitose with extensive root systems. Roots are associated with vesicular-arbuscular mycorrhizae, which allow plants to thrive on nutrient-poor soils. Plants produce seeds in all but the driest years, but the percentage of viable seeds varies greatly annually. Seeds bank in litter and upper soil layers. Successful germination and seedling establishment occur in moist conditions. Plants establish tillers within their compact root crowns as they grow (Zouhar 2000b).  <i>Festuca idahoensis </i>grows throughout northern California. <br/>
+<br/>
+<i>Poa secunda </i>is a native, cool-season, perennial bunchgrass that is shallowly rooted. It regenerates by tillers, by seed, and by facultatively apomictic seed. It is not shade tolerant. It produces little litter, and its small size along with its sparse litter reduces the amount of heat transferred to perennating buds in the soil (Howard 1997b). <br/>
+<br/>
+Stands of this alliance are typically upland stands without any long-term accumulation of water. Stands may be on slopes, flats, or ridges, but are not typical of concave drainages or basins. Stands characterized by <i>Pseudoroegneria spicata </i> are commonly encountered across the western United States from the Cascades to the Rocky Mountains but are uncommon in California. Most of the inventoried California stands are small, less than 1 hectare in the Modoc Plateau, and the cover of <i>P. spicata </i>ranges from 10% to 33%.<br/>
+<br/>
+The ecological range of stands characterized by <i>Festuca idahoensis </i> is very broad, ranging from low elevation regions of the Modoc Plateau to subalpine Great Basin to the Central and North coasts in California. Stands in this alliance are distinguished from other stands occurring in California's prairies along the coastline and Bald Hill prairies inland on ridges and hilltops (Brutt-Davy 1902, Sawyer 2006). For coastal prairie types, see the <i>Festuca idahoensis - Danthonia californica</i> alliance.   <br/>
+<br/>
+<i>Poa secunda</i> occurs throughout California. Stands of <i>P. secunda </i> in this alliance are found in the montane upland stands of northeastern California, primarily in the Modoc Plateau. There are two subspecies that differ in habitat (Soreng 2007); <i>P. secunda</i> ssp. <i>juncifolia</i> (including ecotypes called <i>P. ampla</i>, <i>P. juncifolia</i>, and <i>P. nevadensis</i>) is associated with mesic flood plains and internally drained basins, whereas <i>P. secunda</i> ssp. <i>secunda</i> (including ecotypes called <i>P. canbyi</i>, <i>P. gracillima</i>, <i>P. incurva</i>, <i>P. sandbergii</i>, <i>P. scabrella</i>) grows in scablands in ridges, plateaus, and benches on steep canyon slopes. Soils are typically shallow with a high percentage of rock fragments and exposed rock. Stands of these taxa and the hybrids with <i>P. pratensis</i> (Hickman 1993) are treated within this alliance and two other alliances within the MCV. Montane stands of <i>P. secunda</i> that occupy the Modoc Plateau and Great Basin are treated here under the <i>Festuca idahoensis - Pseudoroegneria spicata - Poa secunda</i> Alliance. Transmontane and cismontane upland stands of <i>P. secunda</i> south of the Modoc Plateau are treated under the <i>Aristida purpurea</i> - <i>Elymus elymoides</i> - <i>Poa secunda</i> Alliance. While montane stands of <i>P. secunda</i> found in moist to wet, alkaline settings fall within the <i>Poa secunda</i> - <i>Muhlenbergia richardsonis</i> - <i>Carex douglasii</i> Alliance.<br/>
+<br/>
+<i>Festuca idahoensis, Poa secunda</i>, and <i>Pseudoroegneria spicata</i> were treated in separate alliances in the 2009 book, A Manual of California Vegetation, second edition. They are now merged into this alliance that combines upland montane stands of <i>Festuca idahoensis</i>, montane Great Basin stands of <i>Poa secunda</i>, as well as the former <i>Pseudoroegneria spicata</i> alliance, which is found predominantly in the Modoc Plateau and Klamath Mountains. We need further sampling and analysis to distinguish relationships and to understand the full range of this dry meadow alliance, as compared to other related alliances such as <i>Eriogonum </i>spp. - <i>Poa secunda</i> Alliance.  We also need more information on the association-level of the California classification, especially in the Klamath Mountains and Great Basin (Holland 1986). </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Festuca idahoensis</th>
+			
+		
+			
+			<th>Poa secunda</th>
+			
+		
+			
+			<th>Pseudoroegneria spicata</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Polycarpic perennial; herb</td>
+			
+		
+			
+			<td>Polycarpic perennial; herb</td>
+			
+		
+			
+			<td>Polycarpic perennial; herb (grass); rhizomatous</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td>Transient</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Moderate</td>
+			
+		
+			
+			<td>Moderate</td>
+			
+		
+			
+			<td>Short</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; gravity</td>
+			
+		
+			
+			<td>Animal; gravity; wind</td>
+			
+		
+			
+			<td>Animal</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Buds on large branches or trunks (buds, tillers)</td>
+			
+		
+			
+			<td>Buds on large branches or trunks (basal buds, tillers)</td>
+			
+		
+			
+			<td>Underground structures (tillers)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-sensitive; low sprouter</td>
+			
+		
+			
+			<td>Fire-sensitive; no/low  sprouter</td>
+			
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>Life of plant</td>
+			
+		
+			
+			<td>Life of plant</td>
+			
+		
+			
+			<td>Life of plant</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Low to high</td>
+			
+		
+			
+			<td>Low to high</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>By subspecies</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Fluctuations in dominance by woody species and grasses are historically related to fire intervals. Some stands in California have had recent fire, which tend to have low shrub cover of <i>Artemisia tridentata </i>or other shrubs. However, intervals between fires before European contact are very difficult to calculate. Because non-native grasses are now abundant, many of these calculations are unobtainable according to many experts (Young et al. 2007). 
+
+<i>Pseudoroegneria spicata </i> and <i>Festuca idahoensis </i>tolerate moderate fire, since only leaves and stems burn without killing the buds. However, response to fire varies, and plants appear to grow slowly. The presence of <i>Bromus tectorum </i>and <i>Taeniatherum caput-medusae </i>negatively impacts stands of this alliance in multiple ways. Stands invaded by these non-native grasses easily burn, seedling establishment is reduced, and growth is reduced by the native perennials' lower ability to compete for water with these non-natives (Zlatnik 1999c, Zouhar 2000b).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Medium (20-50 years)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Summer-early fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Large—up to stand size
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Low
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Low to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Surface fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Transmontane California
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+            <p>The range of <i>Pseudoroegneria spicata</i> in California includes Southeastern Great Basin (341F).</p>
+        
+
+        <ul class="text">
+        
+            <li><b>Klamath Mountains</b> (M261Aa-f, Ai-j, Al, Ar-s, Au). Stands exist in the section along dry meadows with <i>Festuca idahoensis, Poa secunda </i>and a variety of forbs. We need more sampling to better understand the range and to distinguish association-level variation. Stands associate with <i>Pinus jeffreyi </i>woodlands (McGee-Houghton 1995) on serpentine substrates in the western subsections. Stands at Crater Creek RNA (Keeler-Wolf 1987d, see Cheng 2004) are on gabbro next to stands of the <i>Cercocarpus ledifolius </i>alliance. Stands also occur in openings in stands of the <i>Quercus garryana </i>woodland alliance in the southwestern portions of the section.</li>
+        
+            <li><b>Modoc Plateau</b> (M261Ga-p). Stands occur on slopes of the Warner, Skedaddle, and other ranges in the central and eastern subsections (CNDDB 2008). They generally occupy rocky uplands and may be recently burned slopes, associated with <i>Artemisia spp.</i> scrubs or open <i>Juniperus occidentalis</i> and <i>Pinus jeffreyi</i> woodlands.</li>
+        
+            <li><b>Mono</b> (341Dk). Stands appear to occur in the Fort Sage Mountains.</li>
+        
+            <li><b>Northwestern Basin and Range</b> (342Ba-e). Stands with <i>P. spicata </i>are scattered in rocky uplands throughout the section. Stands with <i>F. idahoensis </i> occur on fine-grained soils on mesic slopes adjacent to stands of the <i>Artemisia tridentata </i>and <i>Juniperus occidentalis </i>alliances in the Skedaddle Mountains and other mountain ranges in the section.</li>
+        
+            <li><b>Southern Cascades</b> (M261Da, Dc, Dh). Stands occur in the lower and drier portions of the section, including scattered stands among lava flows north of Medicine Lake.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> <i>Pseudoroegneria spicata </i>and <i>F. idahoensis </i>associations are rare natural communities in California. Non-native invasive plants, including cheatgrass (<i>Bromus tectorum</i>), spotted knapweed (<i>Centaurea stoebe </i>spp. <i>micranthos</i>), and medusahead (<i>Taeniatherum caput-medusae</i>) can interfere with the establishment and growth of the slower growing, native perennials since the non-natives can grow faster, grow at colder temperatures, continue to grow throughout the winter, and deplete available soil moisture (Zouhar 2000b, Zlatnik 1999c). 
+
+<i>P. spicata </i>and <i>F. idahoensis </i>are important forage for livestock and wildlife (Zlatnik 1999c, Zouhar 2000b). Stands of both <i>P. spicata </i> and <i>F. idahoensis  </i>in the Modoc Plateau are most noticeable on recently burned slopes, formerly covered with shrub steppe of <i>Artemisia arbuscula</i>, <i>A. tridentata</i>, and <i>Festuca idahoensis </i>(cf. Young et al. 2007). Managing for stands that lack shrubs and trees may be possible through prescribed fire and/or well-timed grazing, but management may be difficult due to the low cover of natives and the high cover of non-native plants. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Festuca idahoensis - Pseudoroegneria spicata [2]</li>
+                
+                    <li>Pseudoroegneria spicata - Poa secunda [1], [2]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] CVIS (California Vegetation Information System), 1995</li>
+		
+		<li>[2] Boul, R.;Keeler-Wolf, T.;Ratchford, J.;Haynes, T.;Hickson, D.;Yacoub, R.;Harbert, B.;Evens, J. 2021b</li>
+		
+		<li>Barry, W.J. 1989a</li>
+		
+		<li>Barry, W.J. 1989b</li>
+		
+		<li>Brown, D.E.;Lowe, C.H.;Pase, C.P. 1980</li>
+		
+		<li>Chappell, C.;Crawford, R.;Kagan, J.;Doran, P.J. 1997</li>
+		
+		<li>Daubenmire, R. 1970</li>
+		
+		<li>Johnson, S. 1987</li>
+		
+		<li>Keeler-Wolf, T.;Evens, J.M.;Solomeshch, A.I.;Holland, V.L.;Barbour, M.G. 2007</li>
+		
+		<li>Shiflet, T.N. 1994</li>
+		
+		<li>Stoddart, L.A.;Smith, A.D.;Box, T.W. 1975</li>
+		
+		<li>Thorne, R.F. 1976</li>
+		
+		<li>Tisdale, E.W. 1994c</li>
+		
+		<li>Turner, R.M.;Brown, D.E. 1982</li>
+		
+		<li>Young, J.A.;Evans, R.A.;Major, J. 1977</li>
+		
+		<li>Zlatnik, E. 1999c</li>
+		
+		<li>Zouhar, K. 2000b</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/455/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

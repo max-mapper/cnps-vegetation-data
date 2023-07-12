@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Adenostoma fasciculatum</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Adenostoma</i> <i>fasciculatum</i></span> Shrubland Alliance <br/>
+        <span class="subtitle">Chamise chaparral</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>10-1800 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S5
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G5
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA. Baja Californica, Mexico (TJM2)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>Yes
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/adenostoma-fasciculatum_adfa-cecu-assoc_lastrampas_03-02_01.jpg', '/static/images/photos/shrub/adenostoma-fasciculatum_adfa-cecu-assoc_lastrampas_03-02_02.jpg', '/static/images/photos/shrub/adenostoma-fasciculatum_blueridge2yrafterfire_5-03.jpg', '/static/images/photos/shrub/adenostoma-fasciculatum_chimineas_03-09_01.jpg', '/static/images/photos/shrub/adenostoma-fasciculatum_heteromeles_coyot038_je.jpg', '/static/images/photos/shrub/adenostoma-fasciculatum_pinnaclesnm_11-07_01.jpg', '/static/images/photos/shrub/adenostoma-fasciculatum_post-fireenapa_2003.jpg', '/static/images/photos/shrub/adenostoma-fasciculatum_solidadmtn_05-09_01.jpg', '/static/images/photos/shrub/adenostoma-fasciculatum_santarosaisland_03-2013.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Adenostoma</i> <i>fasciculatum</i> is dominant in the shrub canopy with <i>Adenostoma</i> <i>sparsifolium</i>, <i>Arctostaphylos</i> <i>glandulosa</i>, <i>Arctostaphylos</i> <i>manzanita</i>, <i>Arctostaphylos</i> <i>viscida</i>, <i>Ceanothus</i> spp., <i>Diplacus</i> <i>aurantiacus</i>, <i>Eriodictyon</i> <i>californicum</i>, <i>Eriogonum</i> <i>fasciculatum</i>, <i>Hesperoyucca</i> <i>whipplei</i>, <i>Heteromeles</i> <i>arbutifolia</i>, <i>Quercus</i> <i>berberidifolia</i>, <i>Quercus</i> <i>wislizeni</i>, <i>Salvia</i> <i>apiana</i>, <i>Salvia</i> <i>leucophylla</i>, <i>Salvia</i> <i>mellifera</i> and <i>Toxicodendron</i> <i>diversilobum</i>. Emergent trees may be present at low cover. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 4 m; canopy is intermittent to continuous. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Adenostoma fasciculatum</i> > 50% relative cover in the shrub canopy (cf. Keeler-Wolf et al. 1998b); codominance of <i>A. fasciculatum</i> with the following species are classified in alliances of these other character species: <i>Adenostoma sparsifolium, Arctostaphylos glauca, A. glandulosa, Ceanothus crassifolius, C. cuneatus, and C. greggii.</i></li>
+		
+		<li><i>Adenostoma fasciculatum</i> > 60% relative cover in the shrub canopy (Gordon and White 1994).</li>
+		
+		<li><i>Adenostoma fasciculatum</i> > 50% relative cover in the shrub canopy, often with <i>Arctostaphylos manzanita, Arctostaphylos glandulosa,</i> or <i>Diplacus aurantiacus</i> < 30% relative cover (Buck-Diaz et al. 2021, Sikes et al. 2021).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Varied topography. Soils are commonly shallow over colluvium and many kinds of bedrock.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Chamise series, Red shank-chamise series, Chamise-wedgeleaf ceanothus series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Adenostoma fasciculatum shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Chamise
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Gabbroic northern mixed chaparral, Chamise chaparral, Northern maritime chaparral, Southern maritime chaparral, Northern north slope chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Chamise-redshank chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>37.101.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Mediterranean Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Mediterranean Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>California Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>California Chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Californian xeric chaparral
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Adenostoma fasciculatum </i>is a long-lived, shade intolerant shrub that grows to 3.5 m. Shrubs produce dimorphic seeds after 3 years of age. Some seeds are dormant and others readily germinate, though viability is low. Seeds disperse during the summer near the parent plant, and seedlings may emerge during the next rainy season. Dormant seeds accumulate in the soil and are not subject to heavy predation. <i>A. fasciculatum </i>rejuvenates between fires by continually producing new sprouts from a semi-buried lignotuber (McMurray 1990a). <br/>
+<br/>
+The alliance occurs across cismontane California in a variety of topographic settings from coastal bluffs to steep, lower montane slopes. Stands older than 60 years of age produce little new growth as dead stem biomass increases. Ecologists attribute stand stagnation to the accumulation of chemicals in the soil that inhibit decomposition, humidification, and nitrification (McMurray 1990a). <br/>
+<br/>
+In earlier treatments, several chaparral series (Sawyer and Keeler-Wolf 1995) were assigned to other mixed alliances when <i>Adenostoma fasciculatum </i>was codominant with other shrubs. Following extensive review and analysis of many more plots, we concluded that with a few exceptions (e.g., <i>Adenostoma fasciculatm- Salvia mellifera </i>and <i>Adenostoma fasciculatum-Salvia apiana </i>alliances), most of these mixed stands are better treated as part of other alliances where the indicator species is either strongly dominant or co-dominant with <i>A. fasciculatum</i>. In the association list below, you will note associations where <i>A. fasciculatum </i>is co-dominant, but most stands of the alliance have chamise as the dominant. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Adenostoma fasciculatum</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Shrub; evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil; transient (dimorphic)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short to long</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; gravity</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Chemical; heat (photoperiod/insulation)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Buds on large branches or trunks; buds on small branches; underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; high flammability; high sprouter; canopy architecture susceptible</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>3-150+ years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Episodic</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Following disturbances, <i>Adenostoma fasciculatum </i>sprouts from surviving adventitious buds of a semi-buried lignotuber. In addition, dormant seeds from the seed bank are stimulated to germinate by heat and charate during the first rainy season after a fire. Postfire dominance comes from vigorous sprouting and some seedling production, and dense stands can develop in 10 years with complete canopy closure after 20 years (McMurray 1990a). 
+
+The alliance’s fire cycle is typically under 100 years, but shrubs can persist through long fire-free intervals. Inland stands are associated with longer fire intervals than are coastal stands. High-intensity fires can delay sprouting more than can low-intensity fires, because shrubs create few sprouts; also, high fire intensity decreases germination and seedling emergence because seeds concentrate at or near the soil surface, rendering them vulnerable to heat-kill (Moreno and Oechel 1991, 1993).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Medium (10-100+ years)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Summer-early fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Medium to large
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low to moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>High
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>High
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Active-independent crown fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Central and southern California
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+            <p><i>Adenostoma fasciculatum</i> is the most characteristic and widespread chaparral species in the state, growing in 41 counties.</p>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Aa-h, Aj-l). Stands are common and extensive in drier, more inland settings in Santa Cruz and Santa Lucia mountains (Borchert et al. 2004), at Cone Peak Gradient RNA (Cheng 2004), and Mount Diablo (Ertter and Bowerman 2002).</li>
+        
+            <li><b>Central California Coast Ranges</b> (M262Aa-h, Aj-k). Stands are fairly common on and off serpentine soils throughout Diablo Range, including the Mount Hamilton Range and as far south as the Temblor Range (Sharsmith 1982, Evens et al. 2006) and generally in the section (Borchert et al. 2004). Stands are absent from the Carrizo Plain.</li>
+        
+            <li><b>Klamath Mountains</b> (M261Ai, Am). Stands occur only in the southern parts of the section on steep southerly-facing slopes off and on serpentine soils at Whiskeytown National Recreation Area (Lee 2004). Some have persisted for long periods after mining disturbances.</li>
+        
+            <li><b>Northern California Coast</b> (263Aj, Al-m). Stands at Point Reyes National Seashore, Mount Tamalpais, and surrounding areas in Marin Co. (Shuford and Timossi 1989, Keeler-Wolf et al. 2003a, Evens and Kentner 2006) tend to be mixed with <i>A. fasciculatum</i> sharing dominance with another shrub. Stands elsewhere are small and commonly associated with <i>Quercus garryana</i> woodlands, <i>Ceanothus cuneatus</i> chaparral, and prairies, mostly in the eastern portions of the section. Stands do not appear to occur along the outer coast subsections.</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Ba-f). Stands are common and extensive on and off serpentine soils as well as small stands within a matrix of other chaparral types such as those of the <i>Arctostaphylos viscida, Ceanothus cuneatus, Quercus durata,</i> and <i>Quercus berberidifolia</i> alliances as at Hale Ridge RNA (Cheng 2004), Hopland Research Station (Radosevich and Conard 1980), and Snow Mountain (Gray 1978).</li>
+        
+            <li><b>Northern California Interior Coast Ranges</b> (M261Ca-b). Stands are widespread, especially on steep, xeric, rocky slopes and hogbacks at Frenzel Creek RNA and Wilder Ridge (Cheng 2004), and the Central Valley side of the Yolla Bolly Mountains (Keeler-Wolf and Keeler-Wolf 1974).</li>
+        
+            <li><b>Sierra Nevada</b> (M261Eg, Ep). Stands occur adjacent to <i>Quercus douglasii</i> and <i>Q. kelloggii</i> woodlands and other chaparral types such as those of the <i>Arctostaphylos viscida, Ceanothus cuneatus,</i> and <i>Cercocarpus montanus</i> alliances as at Jawbone Ridge study area (Fiedler 1986, see Cheng 2004) and Yosemite National Park (Keeler-Wolf et al. 2003b).</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fa-e). Stands adjacent to <i>Quercus douglasii</i> woodlands as well as grasslands and other chaparral types occur in the northern subsections (Klein et al. 2007), on various substrates in Tuolumne Co. (Evens et al. 2004), and generally in the section (Keeley and Keeley 1988). Some stands at Pine Hill area on Rescue loam soils (gabbroic northern mixed chaparral per Holland 1986) are included in this alliance. Klein et al. (2007) identify five associations in the northern foothills, though the alliance appears to be rare in the northernmost subsection.</li>
+        
+            <li><b>Southern California Coast</b> (261Ba-c, Be-j). Stands are frequent in the Santa Monica, Santa Ynez, and Santa Susana mountains (Borchert et al. 2004, Keeler-Wolf and Evens 2006). Stands exist on Santa Catalina Island (Landis 1997, Dixon et al. 2019) as well as Santa Cruz and Santa Rosa Islands (Rodriguez et al. 2017).</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Ba-d, Bf-g, Bj-l, Bn-p). Stands are abundant at Fern Canyon and Millard Canyon RNAs (Cheng 2004), in the upper elevations of Anza-Borrego Desert State Park (Keeler-Wolf et al. 1998b), in central San Diego Co. (Evens and San 2005), in western Riverside Co. (Klein and Evens 2005), in the Purisima Hills (Cole 1980), in the San Gabriel Mountains (Hanes 1976), in the Santa Monica Mountains (Bauer 1936), and generally in the section (Keeley and Keeley 1988, Gordon and White 1994). Stands are absent from the highest elevations in the mountains.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> <i>Adenostoma fasciculatum, </i>when browsed intensely, produces few sprouts, and they are very susceptible to eradication. Feral pigs, sheep, and goats remove the more palatable species as stands open, and the existing shrubs take on a topiary-like character. The species is suitable for re-vegetation because of its well-developed root system and drought resistance. 
+
+Fires in the alliance can be intense, fast spreading, and potentially large. Stands develop fuel loadings capable of supporting moderately intense fires within 15 years, so they are extremely susceptible to shortinterval fires. High mortality of both seedlings and sprouts is likely when fires recur on burns seeded with annual grasses. <i>Lolium perenne, </i>a grass commonly used following fire, inhibits <i>A. fasciculatum </i>growth and seedling establishment. The presence of grass increases the likelihood of an early re-burn. Fires occurring at short intervals (< 10 years) have the potential to cause significant changes in species density and composition. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Adenostoma fasciculatum [1], [2], [3], [4], [5], [6], [7], [9], [10], [11], [12], [13], [17], [18], [19], [20], [23], [24], [25]</li>
+                
+                    <li>Adenostoma fasciculatum - (Arctostaphylos glandulosa) [7], [20]</li>
+                
+                    <li>Adenostoma fasciculatum - (Arctostaphylos glandulosa - Ceanothus jepsonii) [2], [6], [8], [17], [21]</li>
+                
+                    <li>Adenostoma fasciculatum - Arctostaphylos manzanita [5], [12], [21]</li>
+                
+                    <li>Adenostoma fasciculatum - (Arctostaphylos pungens) [13]</li>
+                
+                    <li>Adenostoma fasciculatum - Arctostaphylos stanfordiana / Salvia sonomensis [17]</li>
+                
+                    <li>Adenostoma fasciculatum - (Ceanothus crassifolius) [7], [14], [20]</li>
+                
+                    <li>Adenostoma fasciculatum - (Ceanothus cuneatus) [7], [12], [13], [15]</li>
+                
+                    <li>Adenostoma fasciculatum - (Ceanothus greggii / mafic) [7]</li>
+                
+                    <li>Adenostoma fasciculatum - (Ceanothus megacarpus) [10]</li>
+                
+                    <li>Adenostoma fasciculatum - (Ceanothus tomentosus) [7], [14]</li>
+                
+                    <li>Adenostoma fasciculatum - Diplacus aurantiacus [2], [8], [10], [11], [17], [24], [25]</li>
+                
+                    <li>Adenostoma fasciculatum - Eriogonum fasciculatum [10], [11], [23]</li>
+                
+                    <li>Adenostoma fasciculatum - Eriogonum fasciculatum - Salvia apiana [7], [11]</li>
+                
+                    <li>Adenostoma fasciculatum - Heteromeles arbutifolia / Melica torreyana [4]</li>
+                
+                    <li>Adenostoma fasciculatum - (Lotus scoparius - Eriodictyon spp.) [3], [10], [11], [12], [14], [20]</li>
+                
+                    <li>Adenostoma fasciculatum - Malosma laurina [10], [11]</li>
+                
+                    <li>Adenostoma fasciculatum - Salvia leucophylla [10]</li>
+                
+                    <li>Adenostoma fasciculatum / Selaginella bigelovii [13]</li>
+                
+                    <li>Adenostoma fasciculatum Southern Maritime [14], [22]</li>
+                
+                    <li>Adenostoma fasciculatum var. prostratum - (Quercus pacifica) [16]</li>
+                
+                    <li>Adenostoma fasciculatum var. prostratum - Salvia brandegeei / Selaginella bigelovii [16]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Borchert, M.;Lopez, A.;Bauer, C.;Knowd, T. 2004</li>
+		
+		<li>[2] Evens, J.M.;Kentner, E. 2006</li>
+		
+		<li>[3] Evens, J.;San, S. 2005</li>
+		
+		<li>[4] Evens, J.;San, S. 2004</li>
+		
+		<li>[5] Evens, J.M.;San, S.;Taylor, J. 2004</li>
+		
+		<li>[6] Evens, J.M.;Klein, A.;Taylor, J.;Hickson, D.;Keeler-Wolf, T. 2006</li>
+		
+		<li>[7] Gordon, H.J.;White, T.C. 1994</li>
+		
+		<li>[8] Keeler-Wolf, T .;Schirokauer, D.;Meinke, J.;van derLeeden, P. 2003a</li>
+		
+		<li>[9] Keeler-Wolf, T.;Schindel, M.;San, S.;Moore, P.;Hickson, D. 2003b</li>
+		
+		<li>[10] Keeler-Wolf, T.;Evens, J. 2006</li>
+		
+		<li>[11] Klein, A.;Evens, J. 2005</li>
+		
+		<li>[12] Klein, A.;Crawford, J.;Evens, J.;Keeler-Wolf, T.;Hickson, D. 2007</li>
+		
+		<li>[13] Kittel, G.;Reyes, E.;Evens, J.;Buck, J.;Johnson, D. 2012</li>
+		
+		<li>[14] Sproul, F.;Keeler-Wolf, T.;Gordon-Reedy, P.;Dunn, J.;Klein, A.;Harper, K. 2011</li>
+		
+		<li>[15] NPS-SEKI, 2009</li>
+		
+		<li>[16] Rodriguez, D.;Sikes, K.;Keeler-Wolf, T.;Kittel, G.;Curtis, J.;Curley, C.;Evens, J. 2017</li>
+		
+		<li>[17] Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>[18] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>[19] Buck-Diaz, J.;Evens, J. 2011b</li>
+		
+		<li>[20] AECOM, 2013</li>
+		
+		<li>[21] Buck, J.;Evens, J. 2010</li>
+		
+		<li>[22] Dixon, P. 2019</li>
+		
+		<li>[23] Reyes, E.;Johnson, D.;Glass, A. 2019</li>
+		
+		<li>[24] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>[25] Sikes, K.;Buck-Diaz, J.;Evens, J. 2021</li>
+		
+		<li>Christensen, N.L.;Muller, C.H. 1975</li>
+		
+		<li>Davis, F.W.;Hickson, D.E.;Odion, D.C. 1988</li>
+		
+		<li>Hanes, T.L. 1965</li>
+		
+		<li>Hanes, T.L. 1971</li>
+		
+		<li>Hanes, T.L. 1974</li>
+		
+		<li>Hanes, T.L. 1976</li>
+		
+		<li>Hanes, T.L. 1977</li>
+		
+		<li>Hanes, T.L. 1981</li>
+		
+		<li>Hanes, T.L. 1994</li>
+		
+		<li>Hanes, T.L.;Jones, H.W. 1967</li>
+		
+		<li>Horton, J.S. 1960</li>
+		
+		<li>Horton, J.S.;Kraebel, C.J. 1955</li>
+		
+		<li>Keeler-Wolf, T. 1990b</li>
+		
+		<li>Keeley, J.E. 1987b</li>
+		
+		<li>Keeley, J.E. 1991</li>
+		
+		<li>Keeley, J.E. 1992a</li>
+		
+		<li>Keeley, J.E. 1993a</li>
+		
+		<li>Keeley, J.E.;Keeley, S.C. 1977</li>
+		
+		<li>Keeley, J.E.;Soderstrom, T.J. 1986</li>
+		
+		<li>McMurray, N. 1990a</li>
+		
+		<li>Menke, J.;Reyes, E.;Hepburn, A.;Johnson, D.;Reyes, J. 2013</li>
+		
+		<li>Mills, J.N. 1983</li>
+		
+		<li>Minnich, R.A. 1976</li>
+		
+		<li>Moreno, J.M.;Oechel, W.C. 1991</li>
+		
+		<li>Moreno, J.M.;Oechel, W.C. 1992</li>
+		
+		<li>Moreno, J.M.;Oechel, W.C. 1993</li>
+		
+		<li>Odion, D.C;Davis, F.W. 2000</li>
+		
+		<li>Pase, C.P. 1982a</li>
+		
+		<li>Patric, J.H.;Hanes, T.L. 1964</li>
+		
+		<li>Reid, M.S.;Schulz, K.A.;Cormer, P.J.;Schindel, M.H.;Culver, D.R.;Sarr, D.A.;Damm, M.C. 1999</li>
+		
+		<li>Schmida, A.;Whittaker, R.H. 1981</li>
+		
+		<li>Shiflet, T.N. 1994</li>
+		
+		<li>Stohlgren, T.J.;Parsons, D.J.;Rundel, P.W. 1984</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program);AIS, 2013</li>
+		
+		<li>Vogl, R.J. 1976</li>
+		
+		<li>Vogl, R.J.;Schorr, P.K. 1972</li>
+		
+		<li>Zammit, C.A.;Zedler, P.H. 1988</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/102/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

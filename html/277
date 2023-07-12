@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Salix eastwoodiae</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Salix</i> <i>eastwoodiae</i></span> Shrubland Alliance <br/>
+        <span class="subtitle">Sierran willow thickets</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>2050-3400 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G3
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA, ID, WY (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2009/09/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/salix-eastwoodiae_hellholefenltbmu_07-10_01.jpg', '/static/images/photos/shrub/salix-eastwoodiae_lassenvnp_08-10_01.jpg', '/static/images/photos/shrub/salix-eastwoodiae_lassenvnp_08-10_02.jpg', '/static/images/photos/shrub/salix-eastwoodiae_lassenvnp_08-10_03.jpg', '/static/images/photos/shrub/salix-eastwoodiae_lassenvnp_08-10_04.jpg', '/static/images/photos/shrub/salix-eastwoodiae_monopass_09-04_01.jpg', '/static/images/photos/shrub/salix-eastwoodiae_monopass_09-04_02.jpg', '/static/images/photos/shrub/salix-eastwoodiae_sonorapass_09-03_03.jpg', '/static/images/photos/shrub/salix-eastwoodiae_sonorapass_10-03_01.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Salix</i> <i>eastwoodiae</i> is dominant in the shrub canopy with <i>Kalmia</i> <i>microphylla</i>, <i>Salix</i> <i>geyeriana</i>, <i>Salix</i> <i>lemmonii</i>, <i>Salix</i> <i>orestera</i>, <i>Salix</i> <i>planifolia</i> and <i>Vaccinium</i> <i>cespitosum</i>. Emergent trees may be present at low cover, including <i>Pinus</i> <i>contorta</i> ssp. <i>murrayana</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 3 m; canopy is intermittent to continuous. Herbaceous layer is open 
+to continuous. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Salix eastwoodiae</i> > 5% cover and dominant in the shrub canopy (Potter 2005).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Subalpine floodplains, drainages in glaciated valleys, gentle slopes adjacent to or along stream banks in seasonally saturated or flooded wet meadows. Soils are sands and organic loams interspersed with bedrock or boulders. The USFWS Wetland Inventory (1996 national list) recognizes <i>Salix eastwoodiae</i> as an OBL plant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Montane wetland shrub habitat, Subalpine wetland shrub habitat
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Salix eastwoodiae seasonally flooded shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Willow (riparian scrub)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Montane riparian scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Wet meadow
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>61.112.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Tree Vegetation (Forest and Woodland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate Flooded and Swamp Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North America Flooded and Swamp Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Western Cordilleran montane-boreal riparian scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Western North American montane-subalpine riparian scrub
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Salix eastwoodiae </i>is a deciduous, riparian shrub up to 4 m tall. Similar to other willows, plants produce abundant small seeds that disperse in the wind and water. Seeds remain viable for a week; they germinate on moist, exposed mineral substrates. It is sometimes difficult to distinguish from <i>S. orestera, </i>though leaves of <i>S. eastwoodiae </i>are typically not glaucous below and less hairy than <i>S. orestera</i>. <br/>
+<br/>
+The alliance occurs in the high Sierra Nevada and Cascades in gently sloping wet meadows and along streams. Stands generally occur in basins or as stringer meadows with streams present. Some stands are dense and large in extent, and they usually are not influenced heavily by stream bank disturbance. <br/>
+<br/>
+Stands of <i>S. eastwoodiae </i>and <i>S. orestera </i>have similar understory floristics and environmental conditions (see <i>Salix orestera </i>alliance); <i>S. eastwoodiae </i>stands are less widespread of the two alliances. <i>S. eastwoodiae </i>prefers more gradually sloping meadow settings, whereas <i>S. orestera </i>prefers steeper slopes with more well-drained soils adjacent to flowing streams (Keeler-Wolf et al. 2003b, Manning and Padgett 1995, Potter 2005, Weixelman et al. 1999). <br/>
+<br/>
+Stands of <i>S. eastwoodiae </i>include a variety of wetland herbs, in which many are typical of upper montane and subalpine Sierra Nevada wetlands, such as <i>Allium validum, Bistorta bistortoides, Castilleja miniata, Carex nebrascensis, C. scopulorum, C. subnigricans, Deschampsia cespitosa, Lupinus polyphyllus, Mimulus primuloides, Oreostemma alpigenum, Pedicularis groenlandica, Perideridia parishii, Phleum alpinum, Senecio triangularis, Sphenosciadium capitellatum, Thalictrum fendleri, Trisetum spicatum, </i>and <i>Veratrum californicum. </i> </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Salix eastwoodiae</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Shrub; winter deciduous</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Transient</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Water/hydrological; wind</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>Long-lived; episodic</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Episodic</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low in California</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Processes other than fire primarily disturb and maintain this alliance. Flooding, snowslides, trails, and trampling are common disturbance features. <i>Salix eastwoodiae </i>sprouts rapidly from damage.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Modoc Plateau</b> (M261Gf). Stands are known from the northern Warner Mountains (S. Smith 1998b).</li>
+        
+            <li><b>Mono</b> (341Da-c). Stands occur in the Carson and Walker river basins (Weixelman et al. 1999).</li>
+        
+            <li><b>Sierra Nevada</b> (M261Eh, Ej-k, Eo, Eq-r, Eu). Most inventories of this alliance were conducted in the central and southern part of the section and are related to the <i>Salix orestera</i> alliance (Potter 2005, Keeler-Wolf et al. 2003b, Major and Taylor 1977). Dense thickets associated with herb-rich meadows occur at Highland Lakes ecological survey area and Lyon Peak/Needle Lake RNA (Cheng 2004). Eastside stands are floristically and structurally similar to those of the <i>Salix orestera</i> and <i>Salix planifolia</i> alliances (Manning and Padgett 1995, Weixelman et al. 1999). Upland woodlands associated with <i>S. eastwoodiae</i> stands include those of the <i>Abies magnifica, Pinus contorta</i> ssp. <i>murrayana, Pinus flexilis,</i> and <i>Pinus monticola</i> alliances. Commonly associated riparian shrub stands include those of the <i>Alnus incana, Cornus sericea,</i> and <i>Salix orestera</i> alliances (Manning 1994).</li>
+        
+            <li><b>Southern Cascades</b> (M261Dm). The species is known from Lassen Park and the adjacent national forest lands in peatlands and wet meadow systems. Stands are unsampled but are likely to occur.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Most stands are not currently subject to heavy livestock grazing. However, the stands’ wet, organic soils are easily damaged, so trails and grazing should be minimized (Manning and Padgett 1995). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Salix eastwoodiae [5], [6]</li>
+                
+                    <li>Salix eastwoodiae / Carex scopulorum [3]</li>
+                
+                    <li>Salix eastwoodiae / Oreostemma alpigenum [1], [4]</li>
+                
+                    <li>Salix eastwoodiae / Senecio triangularis [2]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Keeler-Wolf, T.;Schindel, M.;San, S.;Moore, P.;Hickson, D. 2003b</li>
+		
+		<li>[2] Major, J.;Taylor, D.W. 1977</li>
+		
+		<li>[3] Manning, M.E.;Padgett, W.G. 1995</li>
+		
+		<li>[4] Potter, D.A. 2005</li>
+		
+		<li>[5] Smith, S. 1998b</li>
+		
+		<li>[6] Weixelman, D.A.;Zamudio, D.C.;Zamudio, K.A. 1999</li>
+		
+		<li>Clausen, J. 1965</li>
+		
+		<li>Klikoff, L.G. 1965</li>
+		
+		<li>Manning, S.J. 1994</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/277/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

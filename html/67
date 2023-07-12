@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Platanus racemosa - Quercus agrifolia</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Platanus</i> <i>racemosa</i> - <i>Quercus</i> <i>agrifolia</i></span> Woodland Alliance <br/>
+        <span class="subtitle">California sycamore - coast live oak riparian woodlands</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Tree
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-2400 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G3
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA. Baja California, Mexico (TJM2)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>Yes
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/tree/platanus-racemosa_1993.jpg', '/static/images/photos/tree/platanus-racemosa_ojai_1993.jpg', '/static/images/photos/tree/platanus-racemosa_santaanamtns_06-09_01.jpg', '/static/images/photos/tree/quercus-agrifolia_heteromeles-arbutifolia_coyot026_ss.jpg', '/static/images/photos/tree/quercus-agrifolia_rhamnus-tomentella_cc_coyot069_je.jpg', '/static/images/photos/tree/quercus-agrifolia_rhamnus-tomentella_coyot068_je.jpg', '/static/images/photos/tree/quercus-agrifolia_rhamnus-tomentella_coyot069_je.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Platanus</i> <i>racemosa</i> and/or <i>Quercus</i> <i>agrifolia</i> is dominant or co-dominant in the tree canopy in riparian habitats with <i>Alnus</i> <i>rhombifolia</i>, <i>Juglans</i> <i>californica</i>, <i>Populus</i> <i>fremontii</i>, <i>Quercus</i> <i>lobata</i>, <i>Salix</i> <i>exigua</i>, <i>Salix</i> <i>gooddingii</i>, <i>Salix</i> <i>laevigata</i>, <i>Salix</i> <i>lasiolepis</i>, <i>Salix</i> <i>lutea</i>, <i>Schinus</i> <i>molle</i> and <i>Umbellularia</i> <i>californica</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text"> Trees < 35 m; canopy is open to intermittent. Shrub layer is open to intermittent. Herbaceous layer is sparse or grassy. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Platanus racemosa</i> > 30% relative cover in tree canopy; <i>Quercus agrifolia, Salix</i> species, or <i>Populus fremontii</i> may be co-dominant. (Evens and San 2005, Klein and Evens 2005, Keeler-Wolf and Evens 2006, Stillwater Sciences and URS 2007).</li>
+		
+		<li><i>Platanus racemosa</i> > 5% absolute cover in tree layer; in mixed stands, <i>Populus fremontii</i> < 5% absolute cover in the tree canopy (Potter 2005).</li>
+		
+		<li><i>Platanus racemosa</i> > 50% relative cover in the tree layer (Keeler-Wolf et al. 1997).</li>
+		
+		<li><i>Quercus agrifolia</i> > 50% relative cover in a riparian setting, often with <i>Salix</i> spp. and <i>Toxicodendron diversilobum</i> (Sikes et al. 2021, Buck-Diaz et al. 2021)</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Gullies, intermittent streams, springs, seeps, stream banks, and terraces adjacent to floodplains that are subject to high-intensity flooding. Soils are rocky or cobbly alluvium with permanent moisture at depth. The USFWS Wetland Inventory (1996) recognizes <i>Platanus racemosa</i> as a FACW plant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>California sycamore series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Platanus racemosa temporarily flooded woodland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>California sycamore
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Central Coast cottonwood-sycamore riparian forest, Sycamore alluvial woodland, Southern sycamore-alder riparian woodland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Valley foothill riparian
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>61.310.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Tree Vegetation (Forest and Woodland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate Flooded and Swamp Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North America Warm Temperate Flooded and Swamp Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Southwestern North American Riparian, Flooded and Swamp Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Southwestern North American riparian evergreen and deciduous woodland
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Platanus racemosa </i>is a fast-growing, deciduous tree that can grow up to 25 m in height and live to 400 years in age. Trees produce plumed, wind-dispersed achenes annually. Fresh seeds germinate on moist, clayey sediments. Young trees readily stump-sprout, but they are not very vigorous epicormic sprouters (Sullivan 1994). <br/>
+<br/>
+<i>Quercus agrifolia </i> is a drought-resistant evergreen tree that grows to 25 m in height. The root system contains both roots that tap groundwater and ones that surface-feed extensively (Callaway 1990). It is the most susceptible of the California oaks to soil drought. Acorns develop in the first year, and crops vary greatly in size. Crop failures are common. Most acorns drop in fall, and scrub jays and California ground squirrels disperse and cache them, but some remain attached to trees until spring. Seed predation is high. Seeds germinate soon after they fall and develop deep lateral roots. Shoot growth can be rapid, but browsing by livestock, black-tailed deer, pocket gophers, grasshoppers, cutworms, and feral pigs is high (Steinberg and Howard 2002). Seedlings survive best under larger nurse plants or in rock outcrops (Callaway and Davis 1998, Parikh and Gale 1998a). <br/>
+<br/>
+Stands of <i>P. racemosa </i>are well adapted to intermittent flooding conditions of the streams in the Mediterranean climate of cismontane California. <i>P. racemosa </i>also appears to have specific germination requirements that limit its ability to colonize areas that are not frequently scoured by natural flooding events. <br/>
+<br/>
+This alliance includes <i>Platanus racemosa </i>woodlands whose status and distribution throughout California were summarized by Keeler-Wolf et al. (1997). We have also included stands of co-dominant <i>P. racemosa </i>and <i>Populus fremontii </i>within this alliance, though Klein and Evens (2005) placed these stands in a separate <i>Platanus racemosa-Populus fremontii</i> alliance.  In addition, this alliance has been expanded since the 2009 publication, <i>A Manual of California Vegetation, second edition</i>, to include riparian stands dominated by <i>Quercus agrifolia</i> .  Upland stands of <i>Q. agrifolia</i> remain in the <i>Quercus agrifolia</i> Alliance. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Platanus racemosa</th>
+			
+		
+			
+			<th>Quercus agrifolia</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Tree; winter deciduous</td>
+			
+		
+			
+			<td>Tree; evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Transient</td>
+			
+		
+			
+			<td>Transient</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+			
+			<td>Short</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Water/hydrological; wind</td>
+			
+		
+			
+			<td>Animal; gravity</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Stratification—winter</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Buds on large branches or trunks; underground structures</td>
+			
+		
+			
+			<td>Buds on large branches or trunks; underground structures?</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-sensitive; thin epidermis; (sensitive to anthracnose)</td>
+			
+		
+			
+			<td>Fire-hardy; thick epidermis; low flammability; high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>25-400 years</td>
+			
+		
+			
+			<td>25-250+ years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Episodic</td>
+			
+		
+			
+			<td>Low to medium; episodic</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td>High</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Since stands of <i>Platanus racemosa </i>occur exclusively in drainages and on north-facing lower slopes, the extent and severity of fire within stands is dependent on adjacent vegetation. However, stands appear to have low fire severity and complexity, probably because the surface fuels, if present, do not easily carry fire. They remain moist longer during the year. With many shrubs present, the fire complexity may be higher.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Short to medium (partly dependent on neighboring alliances)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Summer-early fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Medium; up to stand size
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low to moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Low to moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Low to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Surface
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Sierra Nevada and foothills
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Ac, Ae-g, Aj-l). Stands of are suspected to occur along Coyote, Llagas, and Uvas Creeks and potentially in other alluvial terrace habitats throughout the section (CCH 2017+, Calflora 2018+). Stands are common in the northeastern subsections away from the immediate coast. Stands occur in the Santa Lucia Mountains above and east of the summer fog belt (Keeler-Wolf et al. 1997). Several stands are altered by dam construction and concomitant summer water flow (Grossinger et al. 2006).</li>
+        
+            <li><b>Central California Coast Ranges</b> (M262Aa-f, Ah, Aj). Stands exist at the base of Coyote Ridge (Evens and San 2004) along Coyote Creek and other creeks in the Diablo and Gabilan ranges (Kittel et al. 2012, CCH 2017+, Calflora 2018+). Some stands exist along the Salinas River adjacent to stands of the <i>Salix gooddingii</i> alliance and on slightly higher surfaces than stands of the <i>Populus fremontii</i> alliance (B. Orr, pers. comm. 2008).</li>
+        
+            <li><b>Great Valley</b> (262Aa-d, Af-i, Ak-l, Ap-q, As-u). Stands of <i>Platanus racemosa</i> occur sporadically in this section, including those mapped at the Sacramento- San Joaquin River delta (Hickson and Keeler-Wolf 2007). Stands of <i>Quercus agriolia</i> occur as riparian stringers, often associated with <i>Q. lobata</i> and with willows, in the Sacramento-San Joaquin River delta (Hickson and Keeler-Wolf 2007). Stands along the Sacramento River north to Redding are composed primarily of <i>Platanus racemosa</i> with <i>Quercus agrifolia</i> or <i>Quercus lobata</i> (VegCAMP and GIC 2013).</li>
+        
+            <li><b>Northern California Interior Coast Ranges</b> (M261Cb). M261Cb: Scattered stands occur along the Sacramento River on the eastern edge of the subsection and near Redding (VegCAMP and GIC 2013).</li>
+        
+            <li><b>Sierra Nevada</b> (M261Ep, Es). Stands occur south of the Kern River and near Lake Isabella at low-montane elevations (Potter 2005). Stands dominated by Platanus racemosa occur in the Kaweah River drainage along the western edge of Sequioa National Park (NPS-SEKI 2009).</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fa-d). Stands occur in the southern subsections between the Kern and San Joaquin rivers (Keeler-Wolf et al. 1997). A few exist in the northernmost subsection; for example, stands line Big Chico Creek and other creeks in Butte and Tehama Cos. that feed into the Sacramento River. Stands mixed with <i>Populus fremontii</i> in the northern subsection (Klein et al. 2007) have been placed in this alliance.</li>
+        
+            <li><b>Southern California Coast</b> (261Ba-b, Bd-j). Stands occur in watercourses across the section, such as in the Santa Monica Mountains (Keeler-Wolf and Evens 2006), along the Santa Clara River drainage (Stillwater Sciences and URS 2007), and in areas further north into Santa Barbara Co. and the Santa Ynez River (B. Orr pers. comm. 2008) area. Introduced plants grow on Santa Cruz Island (Junak et al. 1995).</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Ba-d, Bf-g, Bj-p). Stands in western Riverside Co. (Klein and Evens 2005) and in central San Diego Co. (Evens and San 2005) occur along low-elevation streams. Several studies (Brothers 1985, Finn 1991, Zembal 1989) report tree densities for this section. Some interesting stands along several creeks on the north side of the San Gabriel Mountains almost reach the Mojave Desert near Littlerock and Valyermo in Los Angeles Co.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> This is one of the state’s rarer alliances, enduring habitat modification. <i>Platanus racemosa </i>does not compete well with more obligate wetland trees such as <i>Salix gooddingii </i>and <i>Populus fremontii</i>. Such wetland species have reduced and invaded several stands, particularly after the construction of dams along streams that now flow through the summer. Grazing reduces tree regeneration (Shanfield 1984). Anthracnose (a group of diseases that blight trees in the spring) affects trees throughout California. Although anthracnose does not typically kill trees outright, it does appear to limit capsule development and seed set. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+                <p>Stands Lacking a Well-Developed Shrub Layer</p>
+            
+            <ul class="text">
+                
+                    <li>Platanus racemosa / annual grass [2], [4], [5], [6], [7], [9], [10], [13], [14]</li>
+                
+                    <li>Platanus racemosa / Bromus hordeaceus [5]</li>
+                
+            </ul>
+        
+            
+                <p>Stands with a Mixed Tree Canopy</p>
+            
+            <ul class="text">
+                
+                    <li>Platanus racemosa - Aesculus californica [19]</li>
+                
+                    <li>Platanus racemosa - Populus fremontii / Salix lasiolepis [3], [4], [7], [9], [12], [13]</li>
+                
+                    <li>Platanus racemosa - Quercus agrifolia [4], [5], [6], [7], [9], [11], [12], [14], [15]</li>
+                
+                    <li>Platanus racemosa - Quercus lobata [13]</li>
+                
+                    <li>Platanus racemosa - Salix laevigata / Salix lasiolepis - Baccharis salicifolia [7], [9], [10], [13]</li>
+                
+                    <li>Umbellularia californica - Platanus racemosa [6]</li>
+                
+            </ul>
+        
+            
+                <p>Stands with a Well-Developed Shrub Layer</p>
+            
+            <ul class="text">
+                
+                    <li>Platanus racemosa / Adenostoma fasciculatum [1]</li>
+                
+                    <li>Platanus racemosa / Baccharis salicifolia [5], [10], [12]</li>
+                
+                    <li>Platanus racemosa / Toxicodendron diversilobum [8]</li>
+                
+                    <li>Quercus agrifolia / Salix lasiolepis [4], [6], [7], [12], [14], [15], [16], [17], [18]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Bendix, J. 1994</li>
+		
+		<li>[2] Campbell, B. 1980</li>
+		
+		<li>[3] Evens, J.;San, S. 2004</li>
+		
+		<li>[4] Evens, J.;San, S. 2005</li>
+		
+		<li>[5] Keeler-Wolf, T.;Lewis, K.;Roye, C. 1997</li>
+		
+		<li>[6] Keeler-Wolf, T.;Evens, J. 2006</li>
+		
+		<li>[7] Klein, A.;Evens, J. 2005</li>
+		
+		<li>[8] Potter, D.A. 2005</li>
+		
+		<li>[9] Stillwater Sciences and URS, 2007</li>
+		
+		<li>[10] White, S.D. 1994a</li>
+		
+		<li>[11] Kittel, G.;Reyes, E.;Evens, J.;Buck, J.;Johnson, D. 2012</li>
+		
+		<li>[12] Sproul, F.;Keeler-Wolf, T.;Gordon-Reedy, P.;Dunn, J.;Klein, A.;Harper, K. 2011</li>
+		
+		<li>[13] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>[14] AECOM, 2013</li>
+		
+		<li>[15] Reyes, E.;Johnson, D.;Glass, A. 2019</li>
+		
+		<li>[16] Sikes, K.;Buck-Diaz, J.;Evens, J. 2021</li>
+		
+		<li>[17] Hickson, D.;Keeler-Wolf, T. 2007</li>
+		
+		<li>[18] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>[19] Ratchford, J.;Boul, R.;Keeler-Wolf, T.;Evens, J. 2022a (in progress)</li>
+		
+		<li>Barry, W.J. 1989a</li>
+		
+		<li>Barry, W.J. 1989b</li>
+		
+		<li>Bowler, P.A. 1989</li>
+		
+		<li>Boyd, S.D.;Ross, T.S.;Bramlet, D. 1995</li>
+		
+		<li>Brothers, T.S. 1985</li>
+		
+		<li>Buck-Diaz, J.;Evens, J. 2011a</li>
+		
+		<li>Callaway, R.M. 1990</li>
+		
+		<li>Callaway, R.M.;Davis, F.W. 1998</li>
+		
+		<li>Capelli, M.H.;Stanley, S.J. 1984</li>
+		
+		<li>Cheatham, N.H.;Haller, J.R. 1975</li>
+		
+		<li>Faber, P.M.;Keller, E.;Sands, A.;Massey, B.M. 1989</li>
+		
+		<li>Finn, M.S. 1991</li>
+		
+		<li>Griffin, J.R.;Critchfield, W.B. 1972</li>
+		
+		<li>Grossinger, R.M.;Askevold, R.A.;Striplen, C.J.;Brewster, E.;Pearce, S.;Larned, K.;McKee, L.;Collins, J. 2006</li>
+		
+		<li>Hanes, T.L. 1976</li>
+		
+		<li>Holland, R.F. 1986</li>
+		
+		<li>Holstein, G. 1984</li>
+		
+		<li>Junak, S.;Ayers, T.;Scott, R.;Wilken, D.;Young, D. 1995</li>
+		
+		<li>Klein, A.;Crawford, J.;Evens, J.;Keeler-Wolf, T.;Hickson, D. 2007</li>
+		
+		<li>Menke, J.;Reyes, E.;Hepburn, A.;Johnson, D.;Reyes, J. 2013</li>
+		
+		<li>Minnich, R.A. 1976</li>
+		
+		<li>NPS-SEKI, 2009</li>
+		
+		<li>Parikh, A.;Gale, H. 1998a</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Black, H.;Bleich, V.C.;Mincks, J.W. 1980</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Conrad, C.E. 1982</li>
+		
+		<li>Sands, A. 1980</li>
+		
+		<li>Shanfield, A.N. 1984
+1984</li>
+		
+		<li>Steinberg, P.D.;Howard, K.L. 2002</li>
+		
+		<li>Sullivan, J. 1994</li>
+		
+		<li>Thompson, K. 1961</li>
+		
+		<li>Thorne, R.F. 1976</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program), 2015a</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program);AIS, 2013</li>
+		
+		<li>Vogl, R.J. 1976</li>
+		
+		<li>Zembal, R. 1989</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/67/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

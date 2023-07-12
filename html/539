@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Gaultheria shallon - Rubus (ursinus)</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Gaultheria</i> <i>shallon</i> - <i>Rubus</i> (<i>ursinus</i><span style="padding-left: .2em">)</span></span> Shrubland Alliance <br/>
+        <span class="subtitle">Salal - berry brambles</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>1-550 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S4
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>GNR
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>CAN: BC. USA: CA (NatureServe), OR, WA (TJM2)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2021/08/30
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/rubus-spp_trinidadhead_09-06.jpg', '/static/images/photos/shrub/gaultheria-shallon_rubus-spp_01pescaderomarshnaturalpreserve-cdpr_06_2019.jpg', '/static/images/photos/shrub/gaultheria_rubus_marin080_r-parviflorus_pore_07-18.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Gaultheria</i> <i>shallon</i>, <i>Holodiscus</i> <i>discolor</i>, <i>Rubus</i> <i>parviflorus</i> and/or <i>Rubus</i> <i>ursinus</i> is dominant 
+solely or form various mixtures in the shrub canopy with <i>Baccharis</i> <i>pilularis</i>, <i>Eriophyllum</i> <i>staechadifolium</i>, <i>Frangula</i> <i>californica</i>, <i>Heracleum</i> <i>maximum</i>, <i>Lonicera</i> <i>hispidula</i>, <i>Lonicera</i> <i>involucrata</i>, <i>Marah</i> <i>fabaceus</i>, <i>Marah</i> <i>oreganus</i>, <i>Morella</i> <i>californica</i>, <i>Ribes</i> <i>menziesii</i>, <i>Rubus</i> <i>spectabilis</i>, <i>Sambucus</i> <i>racemosa</i>, <i>Toxicodendron</i> <i>diversilobum</i> and <i>Vaccinium</i> <i>ovatum</i>. Emergent trees may be present at low cover, including <i>Picea</i> <i>sitchensis</i>, <i>Pinus</i> <i>contorta</i> ssp. <i>contorta</i>, <i>Pinus</i> <i>muricata</i> or <i>Pseudotsuga</i> <i>menziesii</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 2 m; canopy is intermittent to continuous. Herbaceous layer is sparse to intermittent. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Gaultheria shallon, Rubus parviflorus, </i> or <i>R. ursinus</i> dominant or occur with comparable cover (Belsher 1999).</li>
+		
+		<li><i>Gaultheria shallon, Rubus parviflorus,</i> or <i>R. ursinus</i> dominant in the shrub canopy (Buck-Diaz et al. 2020, 2021).</li>
+		
+		<li><i>Gaultheria shallon</i> or <i>Rubus ursinus</i> dominant in the shrub canopy (Klein et al. 2015).</li>
+		
+		<li><i>Gaultheria shallon, Rubus parviflorus,</i> or <i>R. ursinus</i> > 50% relative cover in the shrub cover, or two of these species present at > 30% relative cover (Buck-Diaz et al. 2021, Sikes et al. 2021).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Coastal bluffs, headlands, exposed slopes, and gaps in forest stands. The USACE Wetland Inventory (2018 national list) recognizes <i>Rubus parviflorus</i>,  <i>R. ursinus</i>, and <i> Gaultheria shallon</i>  as  FACU. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Salal-black huckleberry series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Salal-California huckleberry, North coastal scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Northern coastal bluff scrub, Northern (Franciscan) coastal scrub, Northern salal scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Coastal sage scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Coastal scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>63.909.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate and Boreal Shrubland and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate Grassland, Meadow, and Shrubland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Vancouverian and Rocky Mountain Grassland and Shrubland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Vancouverian Lowland Grassland and Shrubland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Vancouverian coastal deciduous scrub
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Gaultheria shallon </i>is an evergreen shrub to 1 (2) m with dark waxy leaves and clusters of urn-shaped flowers dangling along racemes. Fruits turn purple to blue-black. At least two species of <i>Rubus </i>characterize the alliance, one of upright stature and one more of a brambling shrub. <i>R. parviflorus </i>is 1 m and upright in stature with broad and simple leaves, white flowers, and red fruits; and <i>R. ursinus </i>is clambering with compound leaves, white flowers, and black fruits. <i>R. ursinus </i>has prickles. <br/>
+<br/>
+Both the mixed <i>Gaultheria - Rubus </i> spp.and <i>Baccharis pilularis </i>alliances are typically present at the same area of northern coastal scrub (Belsher 1999). Salt spray and wind are major controlling factors in patterning coastal vegetation (Barbour 1978, Baxter 1992, Holton and Johnson 1979). Locations fully exposed to the wind receive more salt spray than sheltered locations that are the same distance from the ocean. The greatest influences of high wind on plant growth in the coastal environment appears to be the transportation of salts (Barbour 1978, Holton and Johnson 1979, Malloch 1972) and physical abrasion that opens pathways for the entry of these salts into twigs and leaves (Boyce 1954). Once a sufficient quantity of the salts is inside plant tissue, necrosis occurs. <br/>
+<br/>
+Mixed <i>Rubus </i> stands are intermediate between coastal coniferous forest alliances and those of the <i>Baccharis pilularis </i>alliance in tolerance to salt spray. Some of the common shrubland species (e.g., <i>Gaultheria shallon, Rubus parviflorus, </i>and <i>R. spectabilis</i>) may also dominate the understories in neighboring forests (Belsher 1999, Howell 1970). The <i>Baccharis pilularis </i>alliance exists on the drier, steep, rocky areas most exposed to salt spray. This alliance is characterized as mesic scrub in which mixed <i>Rubus </i>and/or <i>Gaultheria shallon </i>stands occupy sheltered north-slopes, concavities, and protected coastal dunes. <br/>
+<br/>
+Some stands trend towards coastal scrub where Axelrod (1978) referred to it, at least in part, as Franciscan scrub, and Holland (1986) as northern coastal bluff scrub. These descriptions also include stands dominated by <i>Baccharis pilularis </i>or <i>Lupinus arboreus</i>. Stands of this mixed alliance commonly intermix with these and other alliances at a fine scale, especially on coastal headlands and slopes. Occasionally, stands dominated by <i>Garrya elliptica </i> and <i>Frangula californica </i>join the mixture. Stands of this alliance described in Point Reyes National Seashore have <i>Rubus ursinus </i> and <i> R. parviflorus </i> and lack <i>Gaultheria shallon </i> where they show some differentiation into even wetter stands dominated by <i>Rubus spectabilis </i>(moist swales and margins of wetlands) as compared to stands co-dominated by several species of shrubs in drier areas (Keeler-Wolf et al, 2003a). </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Gaultheria shallon</th>
+			
+		
+			
+			<th>Holodiscus discolor</th>
+			
+		
+			
+			<th>Rubus parviflorus</th>
+			
+		
+			
+			<th>Rubus ursinus</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Shrub; evergreen</td>
+			
+		
+			
+			<td>Shrub</td>
+			
+		
+			
+			<td>Shrub; evergreen</td>
+			
+		
+			
+			<td>Shrub; evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil stored</td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Medium</td>
+			
+		
+			
+			<td>Long</td>
+			
+		
+			
+			<td>Medium to long?</td>
+			
+		
+			
+			<td>Medium to long?</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal</td>
+			
+		
+			
+			<td>Animal; wind</td>
+			
+		
+			
+			<td>Animal</td>
+			
+		
+			
+			<td>Animal</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Stratification—winter </td>
+			
+		
+			
+			<td>Stratification—summer, stratification—winter</td>
+			
+		
+			
+			<td>Stratification—summer, stratification—winter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Underground structures</td>
+			
+		
+			
+			<td>Underground structures</td>
+			
+		
+			
+			<td>Underground structures</td>
+			
+		
+			
+			<td>Underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>High sprouter</td>
+			
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>? -30+ years</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>Episodic</td>
+			
+		
+			
+			<td>High</td>
+			
+		
+			
+			<td>High</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>In vegetative characteristics</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Stands may regenerate after fire by sprouting from roots; however, fire is not typically a main disturbance factor as much as it is for the closely related <i>Baccharis pilularis </i>alliance. Salal commonly attains peak abundance in middle-late to late seral stages following fire.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Medium (20-100 years) (during drought years)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Summer-early fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Large
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>High
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Low to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Low to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Passive-active crown fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>North Coast
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Ac, Af, Ai-k). Stands present along the coast in San Mateo County (Sikes et al. 2021) and expected along the coast throughout the section.</li>
+        
+            <li><b>Northern California Coast</b> (263Aa-b, Ad-e, Ag-l). Stands occur from Marin Co. north to the Oregon border. Stand descriptions include those of uplands along the coastal fringe in Humboldt Co. (Belsher 1999), at Stagecoach Hill Azalea Preserve (Stuart et al. 1986), at Navarro Point Preserve (CNPS unpublished data 2020), at Point Arena (VegCAMP 2019, Buck-Diaz et al. 2019), and in Marin and Sonoma Cos. (Buck-Diaz et al. 2021, Klein et al. 2015).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Wind, salt spray, and slope movement have stunted and pruned shrubs and trees found in the alliance. Stands occurring inland from the immediate coast are transitional to <i>Picea sitchensis, Pseudotsuga menziesii</i>and <i>Sequoia sempervirens </i>forest types. Seral relationships with other shrublands including <i>Baccharis pilularis </i>, native and non-native coastal grasslands including <i>Calamagrostis nutkatensis</i>, and wetlands dominated by <i>Morella californica, Rubus spectabilis, </i>and <i>Salix lasiolepis </i>are complex and may have been influenced by past grazing, clearing, and in some cases fire. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Gaultheria shallon - Baccharis pilularis - Ceanothus thyrsiflorus [1]</li>
+                
+                    <li>Gaultheria shallon - Rubus spectabilis - Rubus parviflorus [1]</li>
+                
+                    <li>Gaultheria shallon - Vaccinium ovatum / Pteridium aquilinum [2], [5], [14]</li>
+                
+                    <li>Holodiscus discolor - Baccharis pilularis - Rubus ursinus [12], [13], [14]</li>
+                
+                    <li>Rubus parviflorus [1], [5], [13], [14]</li>
+                
+                    <li>Rubus ursinus [4], [5], [13], [14]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Belsher, J.B. 1999</li>
+		
+		<li>[2] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2020</li>
+		
+		<li>[4] Duebendorfer, T.E. 1989</li>
+		
+		<li>[5] Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>[12] Keeler-Wolf, T .;Schirokauer, D.;Meinke, J.;van derLeeden, P. 2003a</li>
+		
+		<li>[13] Sikes, K.;Buck-Diaz, J.;Evens, J. 2021</li>
+		
+		<li>[14] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>Barbour, M.G. 1994a</li>
+		
+		<li>Heady, H.F.;Foin, T.C.;Hektner, M.M.;Taylor, D.W.;Barbour, M.G.;Barry, W.J. 1977</li>
+		
+		<li>Sawyer, J.O.;Keeler-Wolf, T. 1995</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/539/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

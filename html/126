@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Arctostaphylos pajaroensis</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Arctostaphylos</i> <i>pajaroensis</i></span> Shrubland Alliance <br/>
+        <span class="subtitle">Pajaro manzanita chaparral</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>5-200 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S1
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G1
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA (NatureServe) (Calflora)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>Yes
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>Yes
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2009/09/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/arctostaphylos-pajaroensis_04-04_01.jpg', '/static/images/photos/shrub/arctostaphylos-pajaroensis_04-04_02.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Arctostaphylos</i> <i>pajaroensis</i> is dominant or co-dominant in the shrub canopy with <i>Adenostoma</i> <i>fasciculatum</i>, <i>Arctostaphylos</i> <i>crustacea</i> ssp. <i>crustacea</i>, <i>Arctostaphylos</i> <i>hookeri</i>, <i>Baccharis</i> <i>pilularis</i>, <i>Ceanothus</i> <i>cuneatus</i> var. <i>rigidus</i>, <i>Dendromecon</i> <i>rigida</i>, <i>Diplacus</i> <i>aurantiacus</i>, <i>Frangula</i> <i>californica</i>, <i>Heteromeles</i> <i>arbutifolia</i>, <i>Lotus</i> <i>scoparius</i>, <i>Lupinus</i> <i>chamissonis</i>, <i>Salvia</i> <i>mellifera</i> and <i>Toxicodendron</i> <i>diversilobum</i>. Emergent trees may be present at low cover, including <i>Quercus</i> <i>agrifolia</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 5 m; canopy is intermittent to continuous. Herbaceous layer is sparse. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Arctostaphylos pajaroensis</i> > 50% relative cover in the shrub canopy (CNPS 2006).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Sandstone outcrops. Soils are deep, excessively drained, loams derived from old sand dunes and soft weathered sandstones.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Woolly leaf manzanita series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Arctostaphylos tomentosa shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Manzanita chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Central maritime chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Mixed chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>37.316.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Mediterranean Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Mediterranean Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>California Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>California Chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Californian maritime chaparral
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Arctostaphylos pajaroensis </i>is a long-lived, evergreen, sclerophyllous shrub that grows to 3 m tall. Leaves are ovate-triangular and green or slightly glaucous in color. Their shape is auriculate, clasping at the base. Plants usually have persistent gray shreddy bark on lower and middle stems. Plants lack a lignotuber and are obligate-seeders, and seeds collect in a seed bank as stones (Munz 1968, Greenlee and Langenheim 1990). <br/>
+<br/>
+Stands of <i>A. pajaroensis </i>occupy a small area associated with <i>Quercus agrifolia </i>woodlands east of Elkhorn Slough and south of the Pajaro River in coastal Monterey Co. Fog is frequent, and yearly temperatures fluctuate relatively little. Total extent of the alliance is < 500 ha. They have been found on slopes and depressions of weathered sandstone below ridgelines. Stands typically change abruptly to a mixture of low-growing <i>Adenostoma fasciculatum </i>and <i>Arctostaphylos hookeri </i>on more xeric ridges, plateaus, and sandstone outcrops. Stands in the Prunedale hills were resampled after 25 years, during a period in which fire has been excluded for at least 70 years. The dominance and height of <i>A. pajaroensis </i>has increased and understory species diversity decreased, caused by <i>A. pajaroensis </i>accumulating litter and overtopping and shading out other species (Van Dyke et al. 2001). <br/>
+<br/>
+Stands dominated by <i>A. pajaroensis </i>support five rare plants, including two federally listed ones. <i>Arctostaphylos hookeri </i>ssp. <i>hookeri, A. pajaroensis, Chorizanthe pungens </i>var. <i>pungens, Ericameria fasciculata, </i>and <i>Piperia yadonii </i>are CNPS list 1B plants. <i>Ceanothus cuneatus </i>var. <i>rigidus </i>is a CNPS list 4 plant. <i>Chorizanthe pungens </i>var. <i>pungens </i>is federally listed as threatened, and <i>P. yadonii </i>is listed as endangered. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Arctostaphylos pajaroensis</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Shrub; evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Long</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Gravity</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Heat</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-sensitive; no/low sprouter?</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>Long-lived</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Low?</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text"><i>Arctostaphylos pajaroensis </i>requires fire to germinate from viable seed buried in the soil. Its refractory seeds respond to heat scarification, and seedling establishment is abundant. The species is adapted to high-intensity, long-interval fires. Shrubs gain dominance with time, and they create a closed shrub canopy of tall shrubs, where a seed bank of buried seeds can develop in the soil. Historic fire intervals for the Monterey Bay area are estimated to be 10 to 100 years in general (Greenlee and Langenheim 1990). However, these estimates are probably not accurate for this alliance, and little is known about its natural disturbance regime. Deviation from the natural fire regime may favor obligate-seeding species such as <i>A. pajaroensis </i>(Van Dyke et al. 2001). In the long absence of fire, the presence of <i>Quercus agrifolia </i>increases in the mesic maritime chaparral stands of <i>A. pajaroensis, </i>which can gradually transition from manzanita to oak stands (Davis 1972, Griffin 1978).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Medium (30-100+ yrs)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Late summer-fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Medium to large—up to and beyond stand
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low to moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>High
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Very high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Active-independent crown fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Central Coast; Pajaro Hills
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Ah). Stands are restricted to the Pajaro Hills between the towns of Pajaro and Prunedale in northern Monterey Co. (Van Dyke et al. 2001), including stands sampled (CNPS 2006) in an area owned by the Elkhorn Slough Land Conservancy.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Stands require periodic fire to maintain current species composition. Infrequent fire results in encroachment of trees and a decline in shrub vigor and seed bank quality. Frequent fire tends to convert the stands to coastal scrub or grassland. Maritime chaparral with this species has a historic fire cycle of 30-100 years, so prescribed burns at periodic intervals may reduce tree invasion (including native <i>Quercus agrifolia</i>) and maintain viable rare plant populations (Van Dyke et al. 2001). 
+
+The main populations have been protected in a county park and in a reserve managed by the Elkhorn Slough Foundation; stands in both Santa Cruz and Monterey Cos. have been extirpated by development. Stands in the Prunedale region have declined because of residential development and fire suppression (Davis 1972, Griffin 1978). Fragmentation of the habitat by housing and agriculture may make utilization of prescribed fire impossible (Van Dyke et al. 2001). Weeds including <i>Cortaderia jubata, Carpobrotus edulis, C. chilensis, Genista monspessulana, Eucalyptus globulus, </i>and introduced <i>Pinus radiata </i>also threaten the stands, as these species are invading nearby vegetation (Griffin 1978, Van Dyke et al. 2001). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Arctostaphylos pajaroensis [1]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Griffin, J.R. 1978</li>
+		
+		<li>Van Dyke, E.;Holl, K.D.;Griffin, J.R. 2001</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/126/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

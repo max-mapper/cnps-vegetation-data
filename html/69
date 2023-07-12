@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Populus tremuloides</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Populus</i> <i>tremuloides</i></span> Forest &amp; Woodland Alliance <br/>
+        <span class="subtitle">Aspen groves</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Tree
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>1500-3000 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3.2
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G5
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>CAN: AB, BC, MB, NB, ON, QC, SK. USA: AZ, CA, CO, IA, ID, MA, ME, MI, MN, MT, ND, NH, NJ, NM, NV, NY, OR, SD, TX, UT, VT, WA, WI, WV, WY (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/tree/populus-tremuloides_sonorapass_09-03_01.jpg', '/static/images/photos/tree/populus-tremuloides_sonorapass_10-03_01.jpg', '/static/images/photos/tree/populus-tremuloides_sweetwatermtns_01.jpg', '/static/images/photos/tree/populus-tremuloides_sweetwatermtns_02.jpg', '/static/images/photos/tree/populus-tremuloides_warrenbench_09-09_01.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Populus</i> <i>tremuloides</i> is dominant or co-dominant in the tree canopy with <i>Abies</i> <i>concolor</i>, <i>Abies</i> <i>magnifica</i>, <i>Juniperus</i> <i>grandis</i>, <i>Juniperus</i> <i>occidentalis</i>, <i>Pinus</i> <i>contorta</i> ssp. <i>murrayana</i>, <i>Pinus</i> <i>jeffreyi</i> and <i>Populus</i> <i>trichocarpa</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text"> Trees < 35 m; canopy is open to continuous. Shrub layer is open to continuous. Herbaceous layer is sparse or abundant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Populus tremuloides</i> > 50% relative cover in the tree canopy; in mixed stands with conifers > 1% absolute cover (Keeler-Wolf et al. 2003b).</li>
+		
+		<li><i>Populus tremuloides</i> is >30% relative cover in the tree layer and stands may be short, resprouting, shrubby “trees”. <i>Populus trichocarpa</i> may occur as a sub-dominant (Boul et al. 2021b).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Depressions, swales, slopes, meadow margins, stream corridors, elevated stream terraces, and colluvial toe slopes. Soils are typically deep and well developed, often rocky. The USFWS Wetland Inventory (1996 national list) recognizes <i>Populus tremuloides</i> as a FAC+ plant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Aspen series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Abies concolor-Populus tremuloides forest alliance, Populus tremuloides forest alliance, Populus tremuloides seasonally flooded forest alliance, Populus tremuloides temporarily flooded forest alliance, Populus tremuloides woodland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Aspen (shrub), Quaking aspen, Willow-Aspen
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Aspen riparian forest, Aspen forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Aspen
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>61.111.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Tree Vegetation (Forest and Woodland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Cool Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North America Cool Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Rocky Mountain Subalpine and High Montane Conifer Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Rocky Mountain mesic subalpine forest and woodland
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Populus tremuloides </i>is a fast-growing, deciduous tree that attains 20 m in height. Plants develop lateral rhi-zomes that create a set of sprouts with age. The developing stems create a clone of many trees that may cover a large area. Clones differ in phenology, leaf size and shape, branching habit, bark character, and nucleic acid composition. A clone in Utah occupies 43 ha, has more than 47,000 stems, and may be 10,000 years old (Mitton and Grant 1996). Fires, diseases, insects, browsing mammals (especially cattle and elk), and snow damage can kill stems (Howard 1996). <br/>
+<br/>
+Trees produce seeds that are viable for less than a month. Optimum conditions for germination and seedling survival include a moist mineral seedbed and moderate temperature. Drying soil or standing water greatly reduces seedling success by the second year. Both seedlings and sprouts are shade intolerant; the tree canopy closes rapidly in young stands if not browsed. In older stands, the tree canopy is more open (Howard 1996). <br/>
+<br/>
+Most stands occur in upland montane sites that are wet in early spring and dry by the end of the growing season. However, they occasionally occur in riparian sites that are along streams and stream terraces. Stands are transitional or self-perpetuating depending on site conditions and other trees present, especially conifers (Perala 1990). Natural disturbance, including fire, fluvial processes, beaver cutting, or avalanches, in transitional stands can maintain the dominance of <i>P. tremuloides</i>. Self-perpetuating stands occur on sites lacking conifers because of environmental conditions or lack of seed sources. Change in composition in such sites may take longer than 1,000 years (Mueggler 1988). </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Populus tremuloides</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Tree; winter deciduous</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Transient</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Wind</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>Yes</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>10-150+ years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text"><i>Populus tremuloides </i>is adapted to fire. New sprouts develop from adventitious roots when fire kills the old stems. Individual stems may live up to 150 years. Seedlings also readily colonize after fire, clear cutting, or other disturbances. Reduction of surface fire in <i>P. tremuloides </i>understories and adjacent conifer stands has increased conifer invasion in stands in California.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Medium (10-100 years)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Summer-early fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Small to medium (dependant on topography and adjacent alliances)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Moderate to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Low to moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Low to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Surface fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Cascades, Modoc Plateau, Sierra Nevada
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Klamath Mountains</b> (M261Ad-h, Aj-l, Ap-q, At-u). The westernmost stands in California are small at montane and subalpine elevations in the eastern Marble Mountains and Trinity Alps, and on the south-facing slopes of North Yolla Bolly Mountain (Keeler-Wolf and Keeler-Wolf 1974, Sawyer 2006).</li>
+        
+            <li><b>Modoc Plateau</b> (M261Ga-p). Stands occur along stream banks, stream terraces, and toe slopes in the Warner Mountains (Riegel et al. 1990, S. Smith 1998b), where they intermix with larger stands of <i>Abies concolor, Pinus jeffreyi,</i> and <i>P. ponderosa</i> var. <i>washoensis,</i> and with shrubland alliances. Small stands are common in basalt outcrops and cliff bases surrounded by <i>Juniperus occidentalis</i> woodlands. Stands in isolated pockets in the Clear Lake Hills occur in <i>Artemisia tridentata</i> shrublands and <i>Poa secunda</i> grassland.</li>
+        
+            <li><b>Mono</b> (341Da-e, Dh, Dj-l). Stands in the White Mountain RNA (Taylor 1979, see Cheng 2004) are along creeks; those in lower canyons of McGee Creek and other drainages of the Sierra Nevada are scrubby thickets over talus. Stands in the Sweetwater Mountains are along creeks and adjacent to meadows.</li>
+        
+            <li><b>Northwestern Basin and Range</b> (342Bb, Bd-e). Stands scattered in the Cottonwood and Skedaddle mountains on north-facing slopes mix with stands of the <i>Juniperus occidentalis</i> and shrubland alliances.</li>
+        
+            <li><b>Sierra Nevada</b> (M261Ea-d, Eh-r, Et-u). Stands at Babbitt Peak, Bell Meadow, Critchfield, and Moses Mountain RNAs (Cheng 2004), those in Yosemite and Sequoia Kings Canyon national parks, on the east side (Manning and Padgett 1995), and those sampled generally in the section (Potter 2005) offer this description.</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Bh). Two small stands occur in the San Bernardino Mountains; the largest is along Arrastre Creek.</li>
+        
+            <li><b>Southern Cascades</b> (M261Da, Dc-f, Dh-j). Localized stands occur on rock outcrops, stream terraces, and large, vernally wet depressions locally called reservoirs (S. Smith 1998b).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> <i>Populus tremuloides </i>is a sensitive resource in the Sierra Nevada and other mountains of California (Shepperd et al. 2006). Fire exclusion from <i>P. tremuloides </i>understories and from adjacent conifer stands has increased conifer invasion. Cattle browsing has removed sprouting suckers, compacted soil, changed species composition to unpalatable <i>Rosa woodsii, </i>and caused increase in the cover of non-native species. Stands may die out if browsing and grazing pressure are heavy (Manning and Padgett 1995). When released from this pressure, suckers return. Stream down cutting has lowered water tables and reduced the vigor of many stands. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+                <p>Riparian Stands with a Simple Tree Canopy</p>
+            
+            <ul class="text">
+                
+                    <li>Populus tremuloides [7]</li>
+                
+                    <li>Populus tremuloides / mesic forb [6]</li>
+                
+                    <li>Populus tremuloides / Prunus [6]</li>
+                
+                    <li>Populus tremuloides / Rosa woodsii [1]</li>
+                
+                    <li>Populus tremuloides / Symphoricarpos albus [6]</li>
+                
+                    <li>Populus tremuloides / Symphyotrichum foliaceum [5]</li>
+                
+                    <li>Populus tremuloides / Veratrum californicum [1], [3], [4], [5], [6]</li>
+                
+            </ul>
+        
+            
+                <p>Stands with a Mixed Tree Canopy</p>
+            
+            <ul class="text">
+                
+                    <li>Populus tremuloides - Pinus contorta / Artemisia tridentata / Poa pratensis [1]</li>
+                
+                    <li>Populus tremuloides / Pinus jeffreyi [1]</li>
+                
+            </ul>
+        
+            
+                <p>Upland Stands with a Simple Tree Canopy</p>
+            
+            <ul class="text">
+                
+                    <li>Populus tremuloides / Artemisia tridentata [1], [8]</li>
+                
+                    <li>Populus tremuloides / Artemisia tridentata / Monardella odoratissima - Kelloggia galioides [1]</li>
+                
+                    <li>Populus tremuloides / Bromus carinatus [2]</li>
+                
+                    <li>Populus tremuloides / dry graminoid [6]</li>
+                
+                    <li>Populus tremuloides / Monardella odoratissima [1]</li>
+                
+                    <li>Populus tremuloides / Poa pratensis [1], [6]</li>
+                
+                    <li>Populus tremuloides / Symphoricarpos rotundifolius [3], [6], [9]</li>
+                
+                    <li>Populus tremuloides / Symphyotrichum foliaceum [5]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Keeler-Wolf, T.;Schindel, M.;San, S.;Moore, P.;Hickson, D. 2003b</li>
+		
+		<li>[2] Manning, M.E.;Padgett, W.G. 1995</li>
+		
+		<li>[3] Potter, D.A. 1994</li>
+		
+		<li>[4] Potter, D.A. 2005</li>
+		
+		<li>[5] Riegel, G.M.;Thornburgh, D.A.;Sawyer, J.O. 1990</li>
+		
+		<li>[6] Smith, S. 1998b</li>
+		
+		<li>[7] Talley, S.N. 1977</li>
+		
+		<li>[8] NPS-SEKI, 2009</li>
+		
+		<li>[9] Boul, R.;Keeler-Wolf, T.;Ratchford, J.;Haynes, T.;Hickson, D.;Yacoub, R.;Harbert, B.;Evens, J. 2021b</li>
+		
+		<li>Barbour, M.G. 1988</li>
+		
+		<li>Barry, W.J. 1971</li>
+		
+		<li>Barry, W.J. 1989a</li>
+		
+		<li>Barry, W.J. 1989b</li>
+		
+		<li>Cheatham, N.H.;Haller, J.R. 1975</li>
+		
+		<li>DeByle, N.V.;Zasada, J.C. 1980</li>
+		
+		<li>Griffin, J.R.;Critchfield, W.B. 1972</li>
+		
+		<li>Howard, J.L. 1996</li>
+		
+		<li>Minnich, R.A. 1976</li>
+		
+		<li>Mueggler, W.F. 1994</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Black, H.;Bleich, V.C.;Mincks, J.W. 1980</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Conrad, C.E. 1982</li>
+		
+		<li>Perala, D.A. 1990</li>
+		
+		<li>Shiflet, T.N. 1994</li>
+		
+		<li>Smith, C.F. 1998a</li>
+		
+		<li>Thorne, R.F. 1976</li>
+		
+		<li>Thorne, R.F. 1977</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/69/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

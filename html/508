@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Cylindropuntia acanthocarpa / Pleuraphis rigida</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Cylindropuntia</i> <i>acanthocarpa</i> / <i>Pleuraphis</i> <i>rigida</i></span> Shrubland Alliance <br/>
+        <span class="subtitle">Buckhorn cholla / big galleta grass scrub</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>600-1700 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S4
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>GNR
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>CA, NV (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2016/04/13
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/opuntia-acanthocarpa_pleuraphis-rigida_piuterangemojavepreserve_12-2010_01.jpg', '/static/images/photos/shrub/opuntia-acanthocarpa_pleuraphis-rigida_piuterangemojavepreserve_12-2010_01.jpg', '/static/images/photos/shrub/cylindropuntia-acanthocarpa_moja_05-17_01.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Acamptopappus</i> <i>sphaerocephalus</i>, <i>Cylindropuntia</i> <i>acanthocarpa</i>, <i>Ericameria</i> <i>cooperi</i> and/or <i>Pleuraphis</i> <i>rigida</i> may be dominant in the shrub, subshrub and/or herbaceous layer with <i>Ambrosia</i> <i>dumosa</i>, <i>Echinocereus</i> <i>engelmannii</i>, <i>Ephedra</i> <i>nevadensis</i>, <i>Ferocactus</i> <i>cylindraceus</i>, <i>Krameria</i> <i>erecta</i>, <i>Larrea</i> <i>tridentata</i> and <i>Yucca</i> <i>schidigera</i>. The herb layer is usually present and may also include <i>Amsinckia</i> <i>tessellata</i>, <i>Bromus</i> <i>rubens</i>, <i>Erodium</i> <i>cicutarium</i> and <i>Sphaeralcea</i> <i>ambigua</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 2 m; canopy is open to intermittent. Herbaceous layer is open to intermittent with seasonal annuals. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Cylindropuntia acanthocarpa, Ericameria cooperi, Acamptopappus sphaeracephala, </i>and/or a diverse mixture of seral shrubs dominant in stands while <i>Pleuraphis rigida </i>may be dominant or co-dominant with other grasses including <i>Muhlenbergia porteri </i>in the herbaceous layer (Evens et al. 2014).</li>
+		
+		<li><i>Ericameria cooperi</i> > 50% relative cover in the shrub layer (Klein and Keeler-Wolf 2014, VegCAMP 2014b).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Upper alluvial fans, mid-elevation flats, and lower to upper hillslopes. Soils vary from coarse sands to loams.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Desert mixed succulent scrub, Desert mixed scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Mojave mixed scrub and steppe, Mojave mixed steppe, Mojave mixed woody and succulent scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Creosote bush scrub, Shadscale scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Desert scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>33.055.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Xeromorphic Scrub and Herb Vegetation (Semi-Desert)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Warm Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Warm Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Sonoran and Chihuahuan Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Mojavean-Sonoran Desert Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Mojavean upper desert scrub
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Cylindropuntia acanthocarpa </i>is an open to spreading cactus with cylindric stem joints; the plants grow to 1.5 m in height. The stem joints have clusters of spines that are covered in papery sheaths. Its stems can break off and re-root, readily growing new plants.   The yellowish flowers form spiny fruits, and its seeds are not very fertile (Anderson 2000).<br/>
+<br/>
+<i>Pleuraphis rigida </i>is a highly branched, perennial grass that has a bushlike appearance. Its coarse, rigid culms reach 100 cm in length, and they may be erect or decumbent. Seed production is low and seedling establishment rare. It reproduces primarily by rhizomes and tillers. It is the most drought-tolerant of the <i>Pleuraphis </i>species (Matthews 2000). This warm-season and drought-tolerant grass, is rarely found in the western Mojave Desert where summer rainfall is negligible. Much of the botanical literature uses the name <i>Hilaria rigida</i>.<br/>
+<br/>
+Stands of this alliance occur at mid to upper elevations in a matrix with other semi-desert vegetation. They appear to have experienced disturbance from grazing, clearing, and/or fire, whereby shrubs may be sparse or lower in cover and include disturbance-tolerant species. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Acamptopappus sphaerocephalus</th>
+			
+		
+			
+			<th>Cylindropuntia acanthocarpa</th>
+			
+		
+			
+			<th>Ericameria cooperi</th>
+			
+		
+			
+			<th>Pleuraphis rigida</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Perennial; shrub; subshrub</td>
+			
+		
+			
+			<td>Shrub; stem succulent</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Polycarpic perennial; herb (grass); rhizomatous</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil stored</td>
+			
+		
+			
+			<td>Transient</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Transient</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Unknown (there is dormancy)</td>
+			
+		
+			
+			<td>Short</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Short</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Gravity?</td>
+			
+		
+			
+			<td>Animal; Gravity</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Animal; wind</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Stratification - Winter?</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>Buds on large branches or trunks; underground structures (root crowns)</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Underground structures (tillers)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td>Fire-sensitive; no/low sprouter</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>10-100+ years</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>1 year to life of plant (long-lived)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Low (mostly vegetative)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>By varieties</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Fire has varied impacts on this alliance from reduction in cover of <i>Cylindropuntia acanthocarpa </i> to increase in cover of disturbance-tolerant plants such as <i>Acamptopappus sphaerocephalus, Ericameria cooperi, </i>and <i>Pleuraphis rigida</i>. However, the fire characteristics are not well-known for this alliance. Other disturbances, such as grazing, enable these species to increase.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Unknown
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Summer-early fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Medium to large
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low to moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Moderate to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Low to moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Surface-passive crown
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Mojave Desert
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Mojave Desert</b> (322Ag-h, Aj-m). Stands occur in the western Mojave (VegCamp 2015a) and are known from Mojave National Preserve in the Ivanpah, Providence Mountains, Lanfair Valley, and the Piute Range (Evens et al. 2014).  Stands also possibly occur in the Sacramento Mountains and the Chemehuevi Valley and Mountains region (CCH 2018).</li>
+        
+            <li><b>Mono</b> (341Dh-i). Stands of <i>Ericameria cooperi</i> are mapped at Fish Slough (VegCamp 2014b). However, more data collection is needed to determine if these stands are better related to stands of <i>Ephedra nevadensis </i>and <i>Lycium andersonii </i>or to this alliance.</li>
+        
+            <li><b>Sierra Nevada</b> (M261Er). Stand of <i>Ericameria cooperi </i>are recorded near Tehachapi Pass (VegCamp 2015a). However, more data collection is needed to determine if these stands are better related to stands of <i>Ephedra nevadensis </i>or to this alliance.</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Bp). Stands occur in the very eastern part of the section such as in the Santa Rosa & San Jacinto Mountains National Monument.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Livestock grazing, altered fire frequencies, or other disturbances can have a beneficial effect and increase stands of this alliance at the detriment to other types such as <i>Coleogyne ramosissima, Ephedra nevadensis, Grayia spinosa, Yucca schidigera, </i>and <i>Yucca brevifolia</i>. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Cylindropuntia acanthocarpa var. coloradensis [2], [8]</li>
+                
+                    <li>Ericameria cooperi disturbance [3], [4], [5], [6], [7], [8]</li>
+                
+                    <li>Pleuraphis rigida / (Acamptopappus sphaerocephalus - Ericameria cooperi) [1], [2], [8]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Keeler-Wolf, T.;Thomas, K. 2000</li>
+		
+		<li>[2] Evens, J.M.;Sikes, K.;Hastings, D.;Ratchford,J.S. 2014</li>
+		
+		<li>[3] VegCAMP (CDFW Vegetation Classification and Mapping Program);AIS, 2013</li>
+		
+		<li>[4] VegCAMP (CDFW Vegetation Classification and Mapping Program), 2014b</li>
+		
+		<li>[5] VegCAMP (CDFW Vegetation Classification and Mapping Program), 2015a</li>
+		
+		<li>[6] Reyes, E.;Evens, J.;Glass, A.;Sikes, K.;Keeler-Wolf., T.;Winitsky, S.;Johnson, D.;Menke, J.;Hepburn, A. 2020a</li>
+		
+		<li>[7] Menke, J.;Reyes, E.;Hepburn, A.;Johnson, D.;Reyes, J. 2013</li>
+		
+		<li>[8] Reyes, E.;Evens, J.;Fulton, J.;Sikes, K.; Johnson, D.;Keeler-Wolf, T.;Vu, S.;LaFever-Jackson, A. 2023 (in progress)</li>
+		
+		<li>Anderson, M.K. 2000</li>
+		
+		<li>Griffith, R.S. 1991a</li>
+		
+		<li>Klein, A;Keeler-Wolf, T. 2014</li>
+		
+		<li>Matthews, R.F. 2000b</li>
+		
+		<li>McAuliffe, J.R. 2016</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/508/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

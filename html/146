@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Atriplex hymenelytra</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Atriplex</i> <i>hymenelytra</i></span> Shrubland Alliance <br/>
+        <span class="subtitle">Desert holly scrub</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>-75-1400 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S4
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G5
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: AZ, CA, NV, UT?. Mexico? (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/atriplex-hymenelytra_salinevalley_04-99_01.jpg', '/static/images/photos/shrub/atriplex-hymenelytra_salinevalley_04-99_02.jpg', '/static/images/photos/shrub/atriplex-hymenelytra_tecopa_10-99_01.jpg', '/static/images/photos/shrub/tidestromia-oblongifolia_dumontdunes_10-99_01.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Atriplex</i> <i>hymenelytra</i> and/or <i>Tidestromia</i> <i>oblongifolia</i> is dominant or co-dominant in the shrub canopy with <i>Ambrosia</i> <i>dumosa</i>, <i>Atriplex</i> <i>confertifolia</i>, <i>Dalea</i> <i>mollissima</i>, <i>Encelia</i> <i>farinosa</i>, <i>Larrea</i> <i>tridentata</i>, <i>Peucephyllum</i> <i>schottii</i> and <i>Suaeda</i> <i>moquinii</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 1 m; canopy is open. Herbaceous layer is sparse to open with seasonal annuals. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Atriplex hymenelytra</i> > 1% absolute cover in the shrub canopy; no other species with equal or higher cover (Thomas et al. 2004).</li>
+		
+		<li><i>Atriplex hymenelytra</i> or <i>Tidestromia oblongifolia</i> > 30% relative cover in the shrub canopy (Evens et al. 2014).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Alluvial fans, washes, steep colluviums, rocky highlands, recent lava flows, cinder cones, heavy alkaline lake sediments, desert pavements. Soils develop from metamorphic, igneous, and sedimentary rocks that may be carbonate, alkaline, or salt rich.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Desert holly series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Atriplex hymenelytra shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Saltbush
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Stabilized and partially stabilized desert sand fields, Desert saltbush scrub, Shadscale scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Creosote bush scrub, Shadscale scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Alkali desert scrub, Desert scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>36.330.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Lithomorphic Vegetation (Nonvascular and Sparse Vascular Rock Vegetation)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Semi-Desert Nonvascular and Sparse Vascular Vegetation
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Warm Semi-Desert Cliff, Scree, and Rock Vegetation
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>North American Warm Semi-Desert Cliff, Scree, and Rock Vegetation
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>North American Warm Semi-Desert Cliff, Scree, and Other Rock Vegetation
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>North American warm desert bedrock cliff and outcrop
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Atriplex hymenelytra </i>ranges throughout the hot deserts of the southwestern United States and Mexico. This broadleaf evergreen shrub has many physiological adaptations enabling its persistence in such environments. Its leaves are steeply angled relative to the sun to reduce solar interception. Their pale coloration also reduces solar absorption, particularly in the summer when bladder-like hairs on their surfaces concentrate salts. The leaves turn from pale green to white, with reflectance increasing from 35% in early spring to 60% in summer (Mooney et al. 1974). They absorb light for photosynthesis best in the cool, wet season, and they switch to high reflectivity and little photosynthesis in the hot, dry season (Turner et al. 1995). Furthermore, their high salt content leads to highly efficient water use (Mooney et al. 1977). <br/>
+<br/>
+<i>Atriplex hymenelytra </i>is both an invader and a stable component of the desert landscape. Studies at the Desert Studies Center in Zzyzx (A. Romspert, pers. comm. 2003) showed plants to be long-lived. They can undergo sex change based on age and environmental conditions. Recruitment at Trona Pinnacles has been episodic; the last major event was 21 years ago, suggesting long-viable seed in the soil (G. Harris, pers. comm. 2003). <br/>
+<br/>
+This alliance has been expanded to include <i>Tidestromia oblongifolia</i> as a character species of some stands, when it previously was represented as its own provisional alliance in the second edition of <i>A Manual of California Vegetation </i> (2009). Stands of sparse vegetation with <i>Hoffmannseggia microphylla </i>have also been placed in this alliance.<br/>
+<br/>
+<i>Tidestromia oblongifolia </i>is a spreading or mounding perennial with grayish white, opposite or whorled leaves. Minute pinkish flowers develop in clusters within involucres, which produce prolific amounts of brown seed. Some manuals use the name <i>T. suffruticosa </i>var. <i>oblongifolia</i>. <br/>
+<br/>
+The alliance is floristically and structurally simple. It commonly exists in desert pavement areas where vegetation is very sparse; it also occurs on rough lava and limestone deposits with skeletal soils and in heavy alkaline sediments. Seral relationships are relatively simple in the alliance’s harsh upland environments. Natural disturbance comes mostly as shifts in moisture availability: a series of drier years may eliminate individual shrubs, leaving little more than an ephemeral herb seed bank; a series of wetter years may shift stands toward other desert alliances. Tolerance of bare mineral substrate with low nutritional value and no apparent mycorrhizal associations confer an advantage for <i>A. hymenelytra </i>in colonizing washes and road cuts. <i>Tidestromia oblongifolia, </i>one of the most common associates, also grows in disturbed OHV sites. Severe degradation of upland stands can result in stands of  <i>T. oblongifolia</i>. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Atriplex hymenelytra</th>
+			
+		
+			
+			<th>Tidestromia oblongifolia</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Shrub; evergreen</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short to medium</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; wind </td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; low flammability</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>Long-lived</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Episodic (rainfall dependant)</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Moderate</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Geomorphic and fluvial processes rather than fire primarily disturb the alliance. Response to fire depends on the presence of on- and off-site seed sources and rainfall patterns.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Long (25-150 years)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Summer-early fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Medium
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low to moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Moderate to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>High to very high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Surface to passive-active crown fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Southern California deserts
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Colorado Desert</b> (322Cb). Stands are very local and occupy steep, colluvial slopes in alkaline badlands and mud hills west of the Salton Sea.</li>
+        
+            <li><b>Mojave Desert</b> (322Aa-o). <i>Atriplex hymenelytra</i> grows throughout the section, forming large stands hundreds of hectares in size on lower bajadas, rocky slopes, and alkaline mud hills in the Black Mountains (Schramm 1982), Cottonwood Mountains (Annable 1985) in Death Valley National Park, and generally in the central and eastern subsections (Thomas et al. 2004).</li>
+        
+            <li><b>Sonoran Desert</b> (322Ba-e). Small stands occur locally on steep volcanic or alkaline slopes in the section, including the Cadiz-Vidal Valleys subsection (Evens and Hartman 2007).</li>
+        
+            <li><b>Southeastern Great Basin</b> (341Fb-f). Large stands occur on cinder fields, lava, and other volcanics. Those east of Owens Lake intermingle with <i>Suaeda moquinii</i> and <i>Atriplex confertifolia</i> alliances on wind-blown alkaline deposits on lower bajadas of the Inyo Mountains.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> The alliance occurs in harsh environments rarely impacted by human-mediated disturbance, except by OHV activity in some areas (e.g., Trona Pinnacles). Management concerns are minimal except where grazing, mining, and OHV activity are present. As with other shrubby saltbushes, <i>Atriplex hymenelytra </i>is palatable to livestock. 
+
+Thomas et al. (2004) suggested that <i>Tidestromia oblongifolia</i> becomes common in degraded <i>Atriplex confertifolia</i> and <i>Atriplex hymenelytra</i> stands in the Mojave Desert. However, it likely is just adapted to harsh, droughty conditions such as found on lower elevation desert bajadas. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Atriplex hymenelytra [1], [2], [4], [5]</li>
+                
+                    <li>Atriplex hymenelytra - Ambrosia dumosa [3], [4], [5]</li>
+                
+                    <li>Atriplex hymenelytra - Larrea tridentata [3], [4], [5]</li>
+                
+                    <li>Atriplex hymenelytra Sparse [4], [5]</li>
+                
+                    <li>Atriplex hymenelytra - Tidestromia oblongifolia [3], [4], [5]</li>
+                
+                    <li>Hoffmannseggia microphylla [6]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Annable, C.R. 1985</li>
+		
+		<li>[2] Evens, J.M.;Hartman, S. 2007</li>
+		
+		<li>[3] Keeler-Wolf, T.;Thomas, K. 2000</li>
+		
+		<li>[4] Evens, J.M.;Sikes, K.;Hastings, D.;Ratchford,J.S. 2014</li>
+		
+		<li>[5] Reyes, E.;Evens, J.;Fulton, J.;Sikes, K.; Johnson, D.;Keeler-Wolf, T.;Vu, S.;LaFever-Jackson, A. 2023 (in progress)</li>
+		
+		<li>[6] Keeler-Wolf, T.;Roye, C.;Lewis, K. 1998b</li>
+		
+		<li>Hunt, C.B. 1966</li>
+		
+		<li>Johnson, H.B. 1976</li>
+		
+		<li>MacMahon, J.A. 1988</li>
+		
+		<li>Menke, J.;Reyes, E.;Hepburn, A.;Johnson, D.;Reyes, J. 2013</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Black, H.;Bleich, V.C.;Mincks, J.W. 1980</li>
+		
+		<li>Reid, M.S.;Schulz, K.A.;Cormer, P.J.;Schindel, M.H.;Culver, D.R.;Sarr, D.A.;Damm, M.C. 1999</li>
+		
+		<li>Schramm, D. 1982</li>
+		
+		<li>Thomas, K.;Franklin, J.;Keeler-Wolf, T.;Stine, P. 2004</li>
+		
+		<li>Thorne, R.F. 1982</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program);AIS, 2013</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/146/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

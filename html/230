@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Lupinus arboreus</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Lupinus</i> <i>arboreus</i></span> Shrubland Alliance and Semi-Natural Alliance <br/>
+        <span class="subtitle">Yellow bush lupine scrub</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-30 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S4
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G4
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA, OR (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>Yes
+                    </li>
+                    
+                        <li>
+                            <span class="category">Invasive species rank</span>
+                            See remarks
+                        </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>Yes
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/lupinus-arboreus_drakesbeachpore_12-02_01.jpg', '/static/images/photos/shrub/lupinus-arboreus_montco_01.jpg', '/static/images/photos/shrub/lupinus-arboreus_pomponiostbeach_05-09_01.jpg', '/static/images/photos/shrub/lupinus-arboreus_01manchesterstatepark_05_2020.jpg', '/static/images/photos/shrub/lupinus-arboreus_03manchesterstatepark_05_2020.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Lupinus</i> <i>arboreus</i> is dominant or co-dominant in the shrub canopy with <i>Ammophila</i> <i>arenaria</i>, <i>Baccharis</i> <i>pilularis</i>, <i>Ericameria</i> <i>ericoides</i> and <i>Lupinus</i> <i>chamissonis</i>. Emergent trees or tall shrubs may be present at low cover, including <i>Alnus</i> <i>rubra</i> or <i>Morella</i> <i>californica</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 2 m; canopy is intermittent to continuous. Herbaceous layer is variable. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Lupinus arboreus</i> > 50% relative cover in the shrub canopy (Keeler-Wolf et al. 2003a).</li>
+		
+		<li><i>Lupinus arboreus</i> > 50% relative cover in the shrub canopy, or > 30% relative cover with <i>Baccharis pilularis</i> and/or <i>Rubus ursinus</i> (Buck-Diaz et al. 2021, Sikes et al. 2021).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Stabilized dunes of coastal bars, backdunes, river mouths, spits along coastline; coastal bluffs, terraces.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Yellow bush lupine series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Lupinus arboreus shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>North coastal scrub, Coastal lupine
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Northern dune scrub, Northern coastal bluff scrub, Venturan coastal sage scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Coastal strand
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Coastal scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>32.080.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate and Boreal Shrubland and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate and Boreal Scrub and Herb Coastal Vegetation
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Pacific Coast Scrub and Herb Littoral Vegetation
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Vancouverian Coastal Dune and Bluff
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>California Coastal evergreen bluff and dune scrub
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Lupinus arboreus </i>is a short-lived shrub to 2 m tall. Flowers are both self-compatible and pollinated by bees. Flowers are borne on long racemes, generally in whorls, and they are usually yellow though can vary to lilac and purple. Color varieties exist from intermediate hybrids between the yellow-flowered <i>L. arboreus </i>and the purple-flowered dune native <i>L. littoralis </i>(from Sonoma Co. to British Columbia). <i>L. arboreus </i>also hybridizes with the purple-flowered <i>L. rivularis </i>off dunes and along roadsides (from Mendocino Co. to British Columbia). Plants colonize dunes where they produce an abundant amount of seeds that create a persistent seed bank, and their symbiotic relationship with root bacteria enables it to fix nitrogen in the soil (Pickart 2000, Ross 2002b). <br/>
+<br/>
+Stands of <i>L. arboreus </i>occur natively in southern and central California from Ventura to Sonoma Cos. They have become widely naturalized in northern California along the coast from Mendocino and Humboldt Cos. to Vancouver, Canada. Native stands are endemic to California. However, demarcation between native and naturalized populations is still disputed (Pickart 2000). Native stands often occupy stabilized dunes, coastal bluffs, and disturbed areas (e.g., pastures) near the coast, and they appear to have a short temporal nature (Keeler-Wolf et al. 2003a, Ross 2002b). North of Sonoma Co., <i>L. arboreus </i>is an invasive shrub on dune systems and disturbed coastal areas, where it has been widely planted as a sand stabilizer and ornamental (Pickart and Sawyer 1998). <br/>
+<br/>
+Dune scrub, which includes stands of the the native <i>L. arboreus, </i>is characteristic of backdunes along the coast south of Bodega Head in Sonoma Co. Dune mat, a collection of annuals and perennials of the <i>Abronia latifolia</i>- <i>Ambrosia chamissonis </i>alliance, exists on the northern California coast (Pickart and Barbour 20007) where it covers nearshore dune ridges. Dune mat is now rare. <i>L. arboreus </i>aggressively invades dune mat and modifies conditions that facilitate invasion of non-native annual grasses, other weeds, and long-lived natives that replaces it (Pickart 2000, Pickart and Sawyer 1998, Ross 2002b). </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Lupinus arboreus</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Shrub; winter deciduous</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Long</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; gravity</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Inundation (wet/dry); stratification—winter; stratification—summer</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-sensitive (low/moderate survivability) </td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>2-10? years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>High</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Fire may cause mortality in dense stands, with intense fires killing both seeds and plants. <i>Lupinus arboreus </i>can sprout after burning. However, soil-stored seeds, which are long-lived, germinate readily after fire on bare sand. Annual weeds follow due to the nitrogen enrichment of soils by <i>L. arboreus. </i>The higher plant cover can potentially increase frequency and intensity of fires (Pickart and Sawyer 1998, Ross 2002b). Along the Point Reyes Peninsula, <i>L. arboreus </i>increased significantly in overall cover after fire, particularly in areas with less intense fire where soil-stored seeds were more likely to survive and germinate; however, the lupine mostly disappeared within 5 years after the fire (Holzman and Folger 2003).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Long
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Late summer-fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Small
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Low to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>High
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Passive-active crown fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>North Coast
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Ad, Af, Ah-l). Native stands occur on dune areas from San Mateo Co. with <i>Baccharis pilularis</i> to around Monterey Bay (Priestley et al. 2004) and elsewhere south to Morro Bay in San Luis Obispo Co.</li>
+        
+            <li><b>Northern California Coast</b> (263Aa, Ae, Ah-l). Native stands exist at Sea Ranch on terraces in Sonoma Co. (Hektner and Foin 1977) and south to Point Reyes National Seashore in Marin Co. (Holton and Johnson 1979, Keeler-Wolf et al. 2003a). The blue form of <i>L. arboreus</i> grows at Manchester State Park in Mendocino Co. (Pickart 2000, CNPS unpublished data 2020). Naturalized stands exist from Centerville Beach to Trinidad Head in Humboldt Co. (Duebendorfer 1989, LaBanca 1993, Pickart and Barbour 2007, Parker 1974) and from Point George to the mouth of the Smith River (Pickart 2000) in Del Norte Co.</li>
+        
+            <li><b>Southern California Coast</b> (261Ba-c). Native stands are sporadic near Point Conception and on the Nipomo Dunes. Johnson and Rodriguez (2001) and Junak et al. (2007) report the species for the northern Channel Island in part of an association with <i>L. albifrons.</i></li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Along the northern California coast, habitat restoration is necessary to maintain viable populations of dune mat natives and native lupines. Pickart and Sawyer (1998) and Pickart (2000) review dune mat restoration methods to remove <i>L. arboreus</i>. They found that manual removal of plants, litter, and duff is effective, but removal was labor intensive and expensive if stands are extensive. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Baccharis pilularis - Lupinus arboreus [9], [10], [12]</li>
+                
+                    <li>Baccharis pilularis - Lupinus arboreus / Ammophila arenaria [5], [8]</li>
+                
+                    <li>Lupinus arboreus [3], [4], [6], [9], [10]</li>
+                
+                    <li>Lupinus arboreus / Anthoxanthum odoratum [2]</li>
+                
+                    <li>Lupinus arboreus / Bromus diandrus [1], [7]</li>
+                
+                    <li>Lupinus arboreus - Ericameria ericoides [3]</li>
+                
+                    <li>Lupinus arboreus / Scrophularia californica [5]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Duebendorfer, T.E. 1989</li>
+		
+		<li>[2] Hektner, M.M.;Foin, T.C. 1977</li>
+		
+		<li>[3] Holton, B.;Johnson, A.F. 1979</li>
+		
+		<li>[4] LaBanca, T. 1993</li>
+		
+		<li>[5] Parker, J. 1974</li>
+		
+		<li>[6] Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>[7] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2020</li>
+		
+		<li>[8] Belsher, J.B. 1999</li>
+		
+		<li>[9] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>[10] Sikes, K.;Buck-Diaz, J.;Evens, J. 2021</li>
+		
+		<li>[12] Keeler-Wolf, T .;Schirokauer, D.;Meinke, J.;van derLeeden, P. 2003a</li>
+		
+		<li>Barbour, M.G. 1994a</li>
+		
+		<li>Barbour, M.G. 1994b</li>
+		
+		<li>Barbour, M.G.;Johnson, A.F. 1977</li>
+		
+		<li>Davidson, E.D.;Barbour, M.G. 1977</li>
+		
+		<li>Junak, S.;Knapp, D.A.;Haller, J.R.;Philbrick, R.;Schoenherr, A.;Keeler-Wolf, T. 2007</li>
+		
+		<li>Miller, L. 1988</li>
+		
+		<li>Pickart, A.J. 2000</li>
+		
+		<li>Pickart, A.J.;Barbour, M.G. 2007</li>
+		
+		<li>Pickart, A.J.;Sawyer, J.O. 1998</li>
+		
+		<li>Rodriguez, D.;Sikes, K.;Keeler-Wolf, T.;Kittel, G.;Curtis, J.;Curley, C.;Evens, J. 2017</li>
+		
+		<li>Ross, C. 2002b</li>
+		
+		<li>Rudgers, J.A.;Maron, J.L. 2003</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/230/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

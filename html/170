@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Ceanothus velutinus</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Ceanothus</i> <i>velutinus</i></span> Shrubland Alliance <br/>
+        <span class="subtitle">Tobacco brush or snow bush chaparral</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>50-3000 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S4
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G5
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>CAN: AB, BC. USA: CA, CO, ID, MT, NV, OR, SD, UT, WA, WY (USDA Plants)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/ceanothus-velutinus_antelopelk_08-10_01.jpg', '/static/images/photos/shrub/ceanothus-velutinus_antelopelk_08-10_02.jpg', '/static/images/photos/shrub/ceanothus-velutinus_antelopelk_08-10_03.jpg', '/static/images/photos/shrub/ceanothus-velutinus_antelopelk_08-10_04.jpg', '/static/images/photos/shrub/ceanothus-velutinus_antelopelk_08-10_05.jpg', '/static/images/photos/shrub/ceanothus-velutinus_antelopelk_08-10_06.jpg', '/static/images/photos/shrub/ceanothus-velutinus_antelopelk_08-10_07.jpg', '/static/images/photos/shrub/ceanothus-velutinus_antelopelk_08-10_08.jpg', '/static/images/photos/shrub/ceanothus-velutinus_medicinelakehighlands_08-09_01.jpg', '/static/images/photos/shrub/ceanothus-velutinus_medicinelakehighlands_08-09_02.jpg', '/static/images/photos/shrub/ceanothus-velutinus_medicinelakehighlands_08-09_03.jpg', '/static/images/photos/shrub/ceanothus-velutinus_nearbearlake_07-04.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Ceanothus</i> <i>velutinus</i> is dominant or co-dominant in the shrub canopy with <i>Arctostaphylos</i> <i>patula</i>, <i>Arctostaphylos</i> <i>viscida</i>, <i>Artemisia</i> <i>tridentata</i> ssp. <i>vaseyana</i>, <i>Ceanothus</i> <i>cordulatus</i>, <i>Ceanothus</i> <i>cuneatus</i>, <i>Chrysolepis</i> <i>sempervirens</i>, <i>Holodiscus</i> <i>discolor</i>, <i>Prunus</i> <i>emarginata</i>, <i>Quercus</i> <i>sadleriana</i>, <i>Quercus</i> <i>vacciniifolia</i> and <i>Symphoricarpos</i> <i>mollis</i>. Emergent conifer trees may be present at low cover. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 4 m; canopy is intermittent to continuous. Herbaceous layer is sparse. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Ceanothus velutinus</i> > 50% relative cover in the shrub canopy (Keeler-Wolf et al. 2003b).</li>
+		
+		<li><i>Ceanothus velutinus</i> is >30% relative cover in the shrub layer (Boul et al. 2021b).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Ridges, shallow draws, and upper slopes.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Tobacco brush series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Ceanothus velutinus shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Great Basin-Mixed chaparral transition, Snowbrush
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Mixed montane chaparral, Tobacco brush chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Mixed conifer forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Montane chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>37.210.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate and Boreal Shrubland and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate Grassland, Meadow, and Shrubland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North America Interior Sclerophyllous Shrubland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Western North American Cool/Montane Sclerophyllous Evergreen Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Western Cordilleran montane sclerophyll scrub
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Ceanothus velutinus </i>is a large, spreading, many-stemmed shrub that grows to 6 m tall. The roots harbor nitrogen-fixing actinomycetes. Plants produce seeds abundantly; these are propelled a short distance when capsules open explosively. Ants, birds, and rodents disperse the seeds, which accumulate in duff and soil as a seed bank. Germination requires cold and heat stratification (Anderson 2001b, Francis 2002a). <br/>
+<br/>
+<i>Ceanothus velutinus </i>grows throughout much of the West, where it is associated with many forest types from South Dakota to the Pacific coast. Stands develop along mountain slopes after disturbances, such as fire or logging. The two varieties, the inland var. <i>velutinus </i>and the taller, coastal var. <i>hookeri, </i>have similar ecologies (Fross and Wilken 2006), so we include both in the alliance. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Ceanothus velutinus</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Shrub; evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Long</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; expulsion from capsule; gravity</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Heat; stratification—winter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Buds on large branches or trunks; underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>8-75 years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Episodic (disturbance dependent)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text"><i>Ceanothus velutinus </i>sprouts vigorously from the root crown if top-killed or cut. Seeds readily germinate after fire or other disturbance (Anderson 2001b, Francis 2002a).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Medium (40-75 years)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Summer-early fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Medium to large; up to and beyond stand
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low to moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Moderate to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Moderate to very high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Surface to active-independent crown fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Sierra Nevada
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+            <p>The range of <i>Ceanothus velutinus</i> includes the Northern California Coast (263A) and Northern California Coast Ranges (M261B).</p>
+        
+
+        <ul class="text">
+        
+            <li><b>Klamath Mountains</b> (M261Aa-b, Ad-g, Aj, Al, An, Ap). Stands exist throughout the section at montane elevations, as in old clearcuts in Adorni and Upper Goose Creek RNAs (Cheng 2004).</li>
+        
+            <li><b>Modoc Plateau</b> (M261Gb-d, Gf, Gi-n). Stands are widespread in higher mountains surrounded by Abies concolor, Pinus jeffreyi, and other coniferous forests. Some isolated stands occur on mesic slopes on Clear Lake Hills surrounded by <i>Artemisia tridentata</i> and other Great Basin shrublands.</li>
+        
+            <li><b>Mono</b> (341Dd-f, Dh, Dj, Dl). Stands with similar species composition to those in Yosemite National Park (Keeler-Wolf et al. 2003b) mix with those of <i>Artemisia tridentata</i> and other Great Basin shrub types at elevations between 1900 and 2500 m in the Bodie area.</li>
+        
+            <li><b>Northwestern Basin and Range</b> (342Bd). No description available</li>
+        
+            <li><b>Sierra Nevada</b> (M261Ea-d, Ej-l, En, Er, Et). Stands at Babbitt Peak RNA (Cheng 2004) and Yosemite National Park (Keeler-Wolf et al. 2003b) are almost completely limited to the eastern slope.</li>
+        
+            <li><b>Southern Cascades</b> (M261Da, Dc-d, Df-j, Dm). Stands at Antelope Creek Lakes, Mud Lake, and Shasta Mudflow RNAs (Cheng 2004) offer several facets of the alliance.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> <i>Ceanothus velutinus </i>stands occupy recently burned or logged areas. Site quality appears important in determining the rate at which conifers replace the shrubs. Shrub fields can persist over thin soil, and individual plants are not shaded out in open woodlands. On productive, managed sites, shrubs compete with plantation conifers and slow tree growth (Anderson 2001b, Francis 2002a). Managers use herbicides and manual release techniques to increase conifer growth. Frequent fires can deplete seed banks of <i>C. velutinus</i>. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Ceanothus velutinus [1], [2]</li>
+                
+                    <li>Ceanothus velutinus - Prunus emarginata - Artemisia tridentata [1]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Keeler-Wolf, T.;Schindel, M.;San, S.;Moore, P.;Hickson, D. 2003b</li>
+		
+		<li>[2] Boul, R.;Keeler-Wolf, T.;Ratchford, J.;Haynes, T.;Hickson, D.;Yacoub, R.;Harbert, B.;Evens, J. 2021b</li>
+		
+		<li>Anderson, M.D. 2001b</li>
+		
+		<li>Bolsinger, C.L. 1989</li>
+		
+		<li>Conard, S.G.;Radosevich, S.R. 1982</li>
+		
+		<li>Francis, J.K. 2002a</li>
+		
+		<li>Hanes, T.L. 1977</li>
+		
+		<li>Riser, R.J.;Fry, M. 1994</li>
+		
+		<li>Solinas, P.;Spycher, G.;Topik, C. 1985</li>
+		
+		<li>Winward, A.H. 1994</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/170/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

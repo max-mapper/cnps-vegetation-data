@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Pinus attenuata</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Pinus</i> <i>attenuata</i></span> Forest &amp; Woodland Alliance <br/>
+        <span class="subtitle">Knobcone pine forest and woodland</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Tree
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>180-2000 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S4
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G4
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA, OR. (NatureServe), Baja California, Mexico (TJM2)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>Yes
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/tree/pinus-attenuata_01-00.jpg', '/static/images/photos/tree/pinus-attenuata_01-00-01.jpg', '/static/images/photos/tree/pinus-attenuata_01-00-02.jpg', '/static/images/photos/tree/pinus-attenuata_01-00-03.jpg', '/static/images/photos/tree/pinus-attenuata_01-00-04.jpg', '/static/images/photos/tree/pinus-attenuata_littlebaldshills.jpg', '/static/images/photos/tree/pinus-attenuata_napaco_2003_01.jpg', '/static/images/photos/tree/pinus-attenuata_smat0307_cobb-mchoneyos_08-19.jpg', '/static/images/photos/tree/pinus-attenuata_abovesforkmercedriver_mariposaco_04-2011_01.jpg', '/static/images/photos/tree/pinus-attenuata_abovesforkmercedriver_mariposaco_04-2011_02.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Pinus</i> <i>attenuata</i> is dominant or co-dominant in the tree canopy with <i>Arbutus</i> <i>menziesii</i>, <i>Juniperus</i> <i>occidentalis</i>, <i>Notholithocarpus</i> <i>densiflorus</i>, <i>Pinus</i> <i>contorta</i>, <i>Pinus</i> <i>coulteri</i>, <i>Pinus</i> <i>monticola</i>, <i>Pinus</i> <i>radiata</i>, <i>Pinus</i> <i>sabiniana</i>, <i>Pseudotsuga</i> <i>menziesii</i>, <i>Quercus</i> <i>chrysolepis</i> and <i>Quercus</i> <i>wislizeni</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text"> Trees < 25 m; canopy is open to continuous and one or two tiered. Shrub layer is sparse to continuous. Herbaceous layer is sparse. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Pinus attenuata</i> > 50% relative cover in the tree layer (Keeler-Wolf et al. 2003b); if co-dominant, > 30% relative cover (Klein and Evens 2005).</li>
+		
+		<li><i>Pinus attenuata</i> > 50% relative cover in the tree canopy, or > 30% relative cover with <i>Quercus wislizeni, Pseudotsuga menziesii, Umbellularia californica,</i> or <i>Quercus chrysolepis</i> (Buck-Diaz et al. 2021).</li>
+		
+		<li><i>Pinus attenuata</i> > 50% relative cover in the tree canopy, or > 30% relative cover with <i>Quercus chrysolepis</i> (Sikes et al. 2021).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Slopes of all aspects, ridges. Soils are derived notably from ultramafic, granitic,  sedimentary, and volcanic substrates.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Knobcone pine series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Pinus attenuata woodland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Knobcone pine
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Knobcone pine forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Closed-cone pine forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Closed-cone pine-cypress
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>87.100.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Tree Vegetation (Forest and Woodland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Warm Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Madrean Forest and Woodland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>California Forest and Woodland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Californian evergreen coniferous forest and woodland
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Pinus attenuata </i>is a conifer that rapidly attains a height of 12 m. The typical lifespan of <i>P. attenuata </i>is relatively short, with some trees reaching maximum ages of 75-100 years; in a typical 60- to 100-year-old stand, however, over half the pines will be dead. Mature trees have multiple trunks with thin bark. Trees begin cone production by 10 years of age. The cones, attached in whorls to the trunk and branches, are persistent and serotinous. Fire initiates reproduction; cones gradually open and release seeds after high temperatures vaporize the resin. Birds, gravity, and wind disperse the released seeds, which remain viable in the soil for over 25 years. Seedlings require bare mineral soil for seedling establishment (Griffin and Critchfield 1972, Howard 1992g). <br/>
+<br/>
+Stands of <i>P. attenuata </i>typically occur on nutrient-deficient soils with and without dense understories (Minnich 2007). They tend to vary regionally in size and occurrence: the trees in many stands are dense, forming closed canopies; in others, trees are scattered and canopies are open. Associated vegetation is often chaparral, but in some regions, the surrounding vegetation includes coniferous forests, montane chaparral, and oak woodlands. Individual <i>P. attenuata </i>trees often emerge through shrub canopies in stands of many chaparral alliances. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Pinus attenuata</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Tree; evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Canopy </td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Long</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; gravity; water/hydrological; wind</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Heat; stratification—winter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-sensitive; thin epidermis; canopy architecture susceptible</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>10-100 years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Episodic (disturbance dependent)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Moderate</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Fires kill <i>Pinus attenuata </i>trees; it is an obligate fire species with a strict closed-cone habit. This adaptation, along with the general absence of animal agents that might open cones, leaves the species dependent on stand-replacing crown fire for reproduction. Fire creates conditions favorable for seed germination and seedling recruitment. Fire also favors soil erosion especially on infertile, serpentine substrates, in which few species can grow with <i>P. attenuata </i>after fire. Fire-opened cones remain attached to down and standing-dead trees, and release seeds; seedlings establish for several years after a fire (Howard 1992g).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Truncated medium (20-50 years)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Summer-early fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Medium up to stand size
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>High to very high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>High to very high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Multiple
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Cismontane California, Modoc Plateau
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Ac, Af, Aj-k). Small groves and more-extensive stands in the Santa Cruz Mountains are closely associated with chaparral types. Stands in Santa Barbara Co. are planted (Griffin and Critchfield 1972). Groves are rare and local in the East Bay Hills; they are associated with chaparral on nutrient-deficient marine sediments.</li>
+        
+            <li><b>Central California Coast Ranges</b> (M262Ac, Ae). Stands are extensive in the northern Diablo Ranges and Santa Lucia Mountains on and off serpentine substrates.</li>
+        
+            <li><b>Klamath Mountains</b> (M261Aa-f, Ai-m, Aq-r, Au). Stands throughout the section occur at low and montane elevations; they are most extensive on the serpentine substrates in the Smith River drainage, and in the Scott Bar and Trinity mountains, including those in Craig’s Creek rRNA, Manzanita Creek RNA, Pearch Creek study area (Cheng 2004), and in the Whiskeytown National Recreation Area (Lee 2004).</li>
+        
+            <li><b>Modoc Plateau</b> (M261Gn). Stands in Timbered Crater RNA (Keeler-Wolf 1990a, see Cheng 2004) cover 55 ha on Quaternary lava flows. <i>Arctostaphylos patula</i> and <i>Ceanothus cordulatus</i> are common shrubs.</li>
+        
+            <li><b>Northern California Coast</b> (263Ab, Ag, Am). Stands are known in Del Norte Coast Redwoods State Park (Forys pers. communication 2020). Groves in the King Range in Humboldt Co. and in the hills around the Napa Valley are small.</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Bb-f). Stands in the section are most extensive north and south of Clear Lake on serpentine and volcanic substrates. Stands at Hale Ridge RNA (Keeler-Wolf 1987c, see Cheng 2004) are on Franciscan sediments.</li>
+        
+            <li><b>Northern California Interior Coast Ranges</b> (M261Ca). Stands throughout the section on serpentine substrates are similar to those at Frenzel Creek RNA (Keeler-Wolf 1983, see Cheng 2004). Stands off serpentine substrates are dense over <i>Arctostaphylos visida</i> and <i>Ceanothus cuneatus</i> shrubs.</li>
+        
+            <li><b>Sierra Nevada</b> (M261Eg, Ep). Stands cluster in two portions of the section centered in El Dorado and Mariposa Cos. The southern cluster includes stands in Yosemite National Park (Keeler-Wolf et al. 2003b).</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Bf-g). Stands in the San Bernardino Mountains are extensive; those in the Santa Ana Mountains cover only a few ha (Vogl et al. 1988, Klein and Evens 2005, Minnich 2007, Minnich and Everett 2001). The southernmost stands in the Santa Ana Mountains are on gabbro and serpentine (Vogl 1976, Alexander et al. 2007), surrounded by stands of the <i>Adenostoma fasciculatum</i> and <i>Arctostaphylos glandulosa</i> alliances.</li>
+        
+            <li><b>Southern Cascades</b> (M261Da, Df-h, Dj, Dl). Stands in the central subsections are most extensive east of Mount Shasta, including Mayfield cRNA (Imper 1991b, see Cheng 2004). Stands also occur in the lower-elevation portions of the western subsections.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Isolated stands surrounded by suburban development, as in the East Bay area of the central coast, have particularly problematic fire management issues. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Pinus attenuata / Adenostoma fasciculatum [3]</li>
+                
+                    <li>Pinus attenuata / Arctostaphylos columbiana [1]</li>
+                
+                    <li>Pinus attenuata / Arctostaphylos (crustacea) [9]</li>
+                
+                    <li>Pinus attenuata / Arctostaphylos glandulosa [4], [8]</li>
+                
+                    <li>Pinus attenuata / Arctostaphylos (manzanita, canescens) [7]</li>
+                
+                    <li>Pinus attenuata / Arctostaphylos patula [2]</li>
+                
+                    <li>Pinus attenuata / Arctostaphylos viscida [3]</li>
+                
+                    <li>Pinus attenuata / Ceanothus lemmonii [5]</li>
+                
+                    <li>Pinus attenuata - mixed oak / Arctostaphylos viscida [5]</li>
+                
+                    <li>Pinus attenuata / Quercus vacciniifolia [6]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Imper, D.K. 1991a</li>
+		
+		<li>[2] Imper, D.K. 1991b</li>
+		
+		<li>[3] Keeler-Wolf, T.;Schindel, M.;San, S.;Moore, P.;Hickson, D. 2003b</li>
+		
+		<li>[4] Klein, A.;Evens, J. 2005</li>
+		
+		<li>[5] Lee, C. 2004</li>
+		
+		<li>[6] Taylor, D.W.;Teare, K.A. 1979b</li>
+		
+		<li>[7] Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>[8] AECOM, 2013</li>
+		
+		<li>[9] Sikes, K.;Buck-Diaz, J.;Evens, J. 2021</li>
+		
+		<li>Alexander, E.B.;Coleman, R.G.;Keeler-Wolf, T.;Harrison, S. 2007</li>
+		
+		<li>Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>Colwell, W.L. 1980</li>
+		
+		<li>Howard, J.L. 1992g</li>
+		
+		<li>Keeley, J.E.;Keeley, S.C. 1978</li>
+		
+		<li>Kruckeberg, A.R. 1984</li>
+		
+		<li>Minnich, R.A. 1976</li>
+		
+		<li>Minnich, R.A. 2007</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Black, H.;Bleich, V.C.;Mincks, J.W. 1980</li>
+		
+		<li>Vogl, R.J. 1973</li>
+		
+		<li>Vogl, R.J. 1976</li>
+		
+		<li>Vogl, R.J.;Armstrong, W.P.;White, K.L.;Cole, K.L. 1977</li>
+		
+		<li>Whittaker, R.H. 1960</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/46/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

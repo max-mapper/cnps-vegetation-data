@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Prunus fasciculata - Salazaria mexicana</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Prunus</i> <i>fasciculata</i> - <i>Salazaria</i> <i>mexicana</i></span> Shrubland Alliance <br/>
+        <span class="subtitle">Desert almond - Mexican bladdersage scrub</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>15-1880 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S4
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G4
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: AZ, CA, NV, UT (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2017/01/25
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/prunus-fasciculata_blackcyn_01-98_01.jpg', '/static/images/photos/shrub/prunus-fasciculata_blackcyn_01-98_02.jpg', '/static/images/photos/shrub/prunus-fasciculata_ivanpahmtns.jpg', '/static/images/photos/shrub/prunus-fasciculata_ivanpahmtns.jpg', '/static/images/photos/shrub/salazaria-mexicana_spalmdale_07-11.jpg', '/static/images/photos/shrub/salazaria-mexicana_stoddardmtn_05-11.jpg', '/static/images/photos/shrub/salvia-dorrii_clarkmtns_01.jpg', '/static/images/photos/shrub/salvia-dorrii_clarkmtns_02.jpg', '/static/images/photos/shrub/salvia-dorrii_clarkmtns_03.jpg', '/static/images/photos/shrub/salvia-dorrii_clarkmtns_04.jpg', '/static/images/photos/shrub/salvia-dorrii.jpg', '/static/images/photos/shrub/salvia-dorrii_clarkmtns_06-98_01.jpg', '/static/images/photos/shrub/salvia-dorrii_clarkmtns_06-98_02.jpg', '/static/images/photos/shrub/salvia-dorrii_clarkmtns_06-98_03.jpg', '/static/images/photos/shrub/salvia-dorrii_nymtns_01.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Prunus</i> <i>fasciculata</i>, <i>Salazaria</i> <i>mexicana</i> and/or <i>Salvia</i> <i>dorrii</i> is dominant or co-dominant in the shrub canopy with <i>Ambrosia</i> <i>eriocentra</i>, <i>Ambrosia</i> <i>salsola</i>, <i>Atriplex</i> <i>confertifolia</i>, <i>Cylindropuntia</i> <i>echinocarpa</i>, <i>Ephedra</i> <i>nevadensis</i>, <i>Eriogonum</i> <i>fasciculatum</i>, <i>Grayia</i> <i>spinosa</i>, <i>Keckiella</i> <i>antirrhinoides</i>, <i>Krascheninnikovia</i> <i>lanata</i>, <i>Larrea</i> <i>tridentata</i>, <i>Lycium</i> <i>andersonii</i>, <i>Mortonia</i> <i>utahensis</i>, <i>Opuntia</i> <i>phaeacantha</i>, <i>Prunus</i> <i>eremophila</i>, <i>Purshia</i> <i>stansburiana</i>, <i>Rhus</i> <i>trilobata</i>, <i>Salvia</i> <i>mohavensis</i>, <i>Senegalia</i> <i>greggii</i>, <i>Thamnosma</i> <i>montana</i>, <i>Viguiera</i> <i>reticulata</i> and <i>Yucca</i> <i>schidigera</i>. Emergent trees may be present at low cover, including <i>Juniperus</i> <i>californica</i>, <i>Juniperus</i> <i>osteosperma</i>, <i>Pinus</i> <i>monophylla</i> or <i>Yucca</i> <i>brevifolia</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 3 m; canopy is open to intermittent. Herbaceous layer is open. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Prunus fasciculata</i> ≥ 2% absolute cover in the shrub canopy; > 25% relative cover; <i>Gutierrezia sarothrae</i> may have higher cover. If <i>P. fasciculata</i> occurs with other tall shrubs, such as <i>Senegalia greggii</i>, it must have twice the cover of other species (Thomas et al. 2004).</li>
+		
+		<li><i>Salazaria mexicana</i> ≥ 2% absolute cover in the shrub canopy and > 50% relative cover; other shrubs, if present, < 50% relative cover except for <i>Salvia dorrii,</i> which may have higher cover (Thomas et al. 2004).</li>
+		
+		<li><i>Salvia dorrii</i> > 50% relative cover and averages 7% absolute cover in the shrub canopy (Evens 2000).</li>
+		
+		<li><i>Prunus eremophila</i> > 50% relative cover in the shrub layer (Evens et al. 2014).</li>
+		
+		<li><i>Prunus fasciculata, Salazaria mexicana, Salvia dorrii,</i> or <i>Keckiella anthirrhinoides</i> > 30% relative cover in the shrub layer (Evens et al. 2014).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Arroyos, canyons, washes, and on disturbed upland sites, especially on calcareous, volcanic, and granitic substrates. Soils are of alluvial or colluvial origin.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Prunus fasciculata intermittently flooded shrubland alliance, Salazaria mexicana shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Desert mixed scrub, Desert mixed wash scrub, High desert mixed scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Mojave mixed woody scrub, Mojave desert wash scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Creosote bush scrub, Pinyon-juniper woodland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Desert scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>33.315.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Xeromorphic Scrub and Herb Vegetation (Semi-Desert)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Warm Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Warm Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Sonoran and Chihuahuan Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Madrean Warm Semi-Desert Wash Woodland/Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Mojavean semi-desert wash scrub
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Prunus fasciculata </i>is a deciduous shrub with intricately dense, stiff branches to 2.5 m in height. Noticeable silky webs of tent caterpillars form in their branches, and the caterpillars may keep the shrub defoliated much of the time. Plants have deep taproots and spreading fibrous roots. Fruits are dry drupes, and rodents gather and cache them. Seedlings establish from these caches after winter stratification (Monsen et al. 2004). Throughout most of its range, plants are referable to var. <i>fasciculata, </i>but coastal plants from 15-200 m in Santa Barbara and San Luis Obispo Cos. are var. <i>punctata </i>(a CNPS 4.3 plant). Further sampling is required to determine whether var. <i>punctata </i>forms stands that can be ascribed to this alliance.  <br/>
+<br/>
+<i>Salazaria mexicana </i>is a rounded, sparsely leaved, branched shrub that forms a tangled clump of living and dead stems to 3 m in height. Plants sprout from rhizomes and produce wind-dispersed seeds that are viable for a year. This pioneer shrub inhabits disturbed areas (Tesky 1994a), including ghost town sites (Webb et al. 1988), but is also a long-lived shrub persisting in more mature shrublands (Vasek et al. 1975). <br/>
+<br/>
+<i>Salvia dorrii </i>is an aromatic, evergreen sage that attains up to 1 m in height. It is common in the cold deserts of the West. It is predominantly a transmontane species in California, but it also grows in the Piute Mountains in the southern Sierra Nevada and Tehachapi Mountains. <br/>
+<br/>
+In previous classifications, the diagnostic species of this alliance were in separate single-species alliances. With additional analysis, they have been found to be similar in environmental settings and floristics, and have been combined (Evens et al. 2014, NatureServe 2015). <i>Prunus fasciculata </i>, <i>Salazaria mexicana </i>, and <i>Salvia dorrii </i>are common shrubs of wash margins in the Mojave Desert. The alliance occurs at middle and upper elevations in the Mojave Desert associated with stands of <i>Coleogyne ramosissima, Eriogonum fasciculatum - Viguiera parishii, Juniperus osteosperma, Larrea tridentata - Ambrosia dumosa, Yucca brevifolia, </i>and <i>Yucca schidigera </i>alliances. This alliance commonly occupies actively eroding edges of alluvial terraces and washes along with other disturbance-related taxa, such as <i>Acamptopappus sphaerocephalus, Ambrosia salsola, Eriogonum inflatum, </i>and <i>Ephedra nevadensis</i>. <br/>
+<br/>
+This alliance receives higher precipitation and experiences cooler temperatures than other wash vegetation types, occurring in gravelly canyons, upper washes, and colluvial slopes. It forms linear stands associated with those of <i>Senegalia greggii - Hyptis emoryi - Justicia californica</i> or <i>Baccharis emoryi - Baccharis sergiloides </i>alliances in mountain canyons and in arroyos at the base of mountains. It also forms patches associated with stands of <i>Chilopsis linearis - Psorothamnus spinosus</i> alliance along washes, especially on calcareous substrates (Evens 2000). </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Prunus fasciculata</th>
+			
+		
+			
+			<th>Salazaria mexicana</th>
+			
+		
+			
+			<th>Salvia dorrii</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Shrub; winter deciduous</td>
+			
+		
+			
+			<td>Shrub; drought deciduous</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Long</td>
+			
+		
+			
+			<td>Short (1 year)</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal</td>
+			
+		
+			
+			<td>Wind</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Stratification—winter</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Underground structures (root crown)</td>
+			
+		
+			
+			<td>Underground structures (rhizomes)</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-sensitive?,  no/low resprouter</td>
+			
+		
+			
+			<td>Fire-sensitive?; no/low sprouter?</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td>Long-lived?</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Fluvial action rather than fire primarily disturbs stands. However, plants vigorously sprout from root crowns following damage resulting from floods or fires (Monsen et al. 2004, M. Brooks pers. comm. 2007, Tesky 1994a). <i>Salazaria mexicana </i>seeds also can colonize recently burned areas (Tesky 1994a).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Truncated long
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Summer-early fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Small to medium
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Low
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Low
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Surface-passive crown fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Transmontane
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+            <p>The range of <i>Prunus fasciculata</i> includes Central California Coast (261Al), Central California Coast Ranges (M262Ac), Sierra Nevada (M261Er, Es).</p>
+        
+
+        <ul class="text">
+        
+            <li><b>Colorado Desert</b> (322Ca-b). Evidently uncommon, stands occur at the base of the Peninsular Ranges, the mouth of Palm Canyon, and line some washes.</li>
+        
+            <li><b>Mojave Desert</b> (322Ab-p). Stands of <i>Prunus fasciculata</i> or <i>Salvia dorrii</i> are very common in this section (Thomas et al. 2004). Stands occur on various parent materials such as on limestone in the Clark and Providence Mountains, on volcanics in the Mid Hills and Wild Horse Mesa with <i>Ambrosia salsola</i> and <i>Senegalia greggii</i> (Cody 1986), and on granite in the Granite Mountains (Evens 2000) and Joshua Tree National Park (Keeler-Wolf et al. 2005). Stands of <i>Salvia dorrii</i> occur in canyons and arroyos at higher elevations. Stands of <i>Salazaria mexicana</i> are also common in this section (Thomas et al. 2004, Keeler-Wolf et al. 2005) including the far western sections (VegCamp and AIS 2012). Most occupy washes and uplands disturbed by livestock, fire, or OHV activity; a few exist in rocky uplands lacking evidence of recent disturbance.</li>
+        
+            <li><b>Sierra Nevada</b> (M261Er-s). Stands occur uncommonly in the Tehachapi Mountains and southern Sierra Nevada near Sand Canyon (VegCAMP 2015a).</li>
+        
+            <li><b>Sonoran Desert</b> (322Ba, Be). Apparently uncommon, stands of <i>Prunus fasciculata</i> occur in washes on the east side of the Coxcomb Mountains, at Corn Springs, and occasionally as far south as the Chuckwalla Bench, and a few other washes in the northern subsections.</li>
+        
+            <li><b>Southeastern Great Basin</b> (341Fb-f). Stands are scattered in washes in much of the southern portion of the section.</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Bi, Bp). Stands occur in San Felipe Valley near the western margin of Anza-Borrego Desert State Park and in the Little San Bernardino Mountains of Joshua Tree National Park (Keeler-Wolf et al. 2005) usually in washes, and sometimes on disturbed slopes.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Browsing by livestock and OHV activity impact some stands. Past fires have created some large upland stands of this alliance associated with those of the <i>Atriplex confertifolia, Coleogyne ramosissima, Menodora spinescens, </i>and <i>Yucca brevifolia </i>alliances (M. Brooks, pers. comm. 2007). Under even higher fire frequencies, stands tend to transition to those of the <i>Ambrosia salsola </i>alliance. However, high cover of <i>Salazaria mexicana </i>and <i>Salvia dorrii </i>in arroyos and washes typically suggests recent flood activity. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Ambrosia salsola - Salazaria mexicana [3], [5], [9]</li>
+                
+                    <li>Keckiella antirrhinoides - Prunus fasciculata [5], [9]</li>
+                
+                    <li>Prunus eremophila [5], [9]</li>
+                
+                    <li>Prunus fasciculata [2], [5], [6], [8], [9]</li>
+                
+                    <li>Prunus fasciculata - Ambrosia eriocentra [1], [5], [9]</li>
+                
+                    <li>Prunus fasciculata - (Purshia stansburiana - Viguiera reticulata) [1], [3], [5], [9]</li>
+                
+                    <li>Prunus fasciculata - Rhus trilobata [1], [3], [5], [6], [9]</li>
+                
+                    <li>Prunus fasciculata - Salazaria mexicana [1], [3]</li>
+                
+                    <li>Salazaria mexicana [3], [4], [5], [7], [8], [9]</li>
+                
+                    <li>Salvia dorrii Wash [1], [5], [9]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Evens, J.M. 2000</li>
+		
+		<li>[2] Keeler-Wolf, T.;San, S.;Hickson, D. 2005</li>
+		
+		<li>[3] Keeler-Wolf, T.;Thomas, K. 2000</li>
+		
+		<li>[4] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>[5] Evens, J.M.;Sikes, K.;Hastings, D.;Ratchford,J.S. 2014</li>
+		
+		<li>[6] Evens, J.M.;Roach-McIntosh, D.;Stout, D. 2012</li>
+		
+		<li>[7] VegCAMP (CDFW Vegetation Classification and Mapping Program), 2015a</li>
+		
+		<li>[8] Reyes, E.;Evens, J.;Glass, A.;Sikes, K.;Keeler-Wolf., T.;Winitsky, S.;Johnson, D.;Menke, J.;Hepburn, A. 2020a</li>
+		
+		<li>[9] Reyes, E.;Evens, J.;Fulton, J.;Sikes, K.; Johnson, D.;Keeler-Wolf, T.;Vu, S.;LaFever-Jackson, A. 2023 (in progress)</li>
+		
+		<li>Beatley, J.C. 1976</li>
+		
+		<li>Buck-Diaz, J.;Evens, J. 2011b</li>
+		
+		<li>Chappell, C.;Crawford, R.;Kagan, J.;Doran, P.J. 1997</li>
+		
+		<li>Comstock, J.P.;Cooper, T.A.;Ehleringer, J.R. 1988</li>
+		
+		<li>Keeler-Wolf, T. 2007b</li>
+		
+		<li>Menke, J.;Reyes, E.;Hepburn, A.;Johnson, D.;Reyes, J. 2013</li>
+		
+		<li>Reid, M.S.;Schulz, K.A.;Cormer, P.J.;Schindel, M.H.;Culver, D.R.;Sarr, D.A.;Damm, M.C. 1999</li>
+		
+		<li>Tesky, J.L. 1994a</li>
+		
+		<li>Thomas, K.;Franklin, J.;Keeler-Wolf, T.;Stine, P. 2004</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program);AIS, 2013</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/550/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

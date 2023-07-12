@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Diplacus aurantiacus</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Diplacus</i> <i>aurantiacus</i></span> Shrubland Alliance <br/>
+        <span class="subtitle">Bush monkeyflower scrub</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>40-600 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3?
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G3
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA, OR. Mexico (TJM2) (USDA Plants)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2009/09/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/diplacus-aurantiacus_barrancard-samo_venturaco_03-03.jpg', '/static/images/photos/shrub/diplacus-aurantiacus_sandiegoco_04-03.jpg', '/static/images/photos/shrub/diplacus-aurantiacus_santarosaisland_07-2013.jpg', '/static/images/photos/shrub/diplacus-aurantiacus_sfpucpeninwatershed_smat0088_05-19_02.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Diplacus</i> <i>aurantiacus</i> or <i>Diplacus</i> <i>parviflorus</i> is dominant in the shrub canopy with <i>Artemisia</i> <i>californica</i>, <i>Baccharis</i> <i>pilularis</i>, <i>Ceanothus</i> <i>megacarpus</i>, <i>Ceanothus</i> <i>spinosus</i>, <i>Eriogonum</i> <i>cinereum</i>, <i>Heteromeles</i> <i>arbutifolia</i>, <i>Malosma</i> <i>laurina</i>, <i>Salvia</i> <i>leucophylla</i>, <i>Salvia</i> <i>mellifera</i>, <i>Sambucus</i> <i>nigra</i> and <i>Toxicodendron</i> <i>diversilobum</i>. Emergent trees may be present at low cover, including <i>Juglans</i> <i>californica</i>, <i>Platanus</i> <i>racemosa</i> or <i>Quercus</i> <i>agrifolia</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 2 m and < 5 m; canopy is open to intermittent and two tiered. Herbaceous layer is open to intermittent. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Diplacus aurantiacus</i> > 50% relative cover in the shrub canopy; if equal or less cover than <i>Artemisia californica</i> or <i>Adenostoma fasciculatum,</i> see those alliances (Keeler-Wolf and Evens 2006, Buck-Diaz et al. 2021).</li>
+		
+		<li><i>Diplacus aurantiacus</i> > 50% relative cover in the shrub canopy (Buck-Diaz et al. 2021, Sikes et al. 2021, Ratchford et al. 2022a).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> On somewhat steep northerly slopes. Soils are typically shallow loams.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>California sagebrush series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Diablan sage scrub, Poison-oak chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Coastal sage scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Coastal scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>32.082.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Mediterranean Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Mediterranean Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>California Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>California Coastal Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Central and South Coastal Californian coastal sage scrub
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Diplacus aurantiacus </i>is an erect to sprawling, drought-deciduous shrub. Flowers vary in size, color, and other characters. Roots are fibrous, less than 2 m deep, with surface feeder roots. Plants become dormant in the summer and shed many leaves by fall. Capsules mature in the summer, and the tiny seeds disperse by gravity and wind. Seedlings emerge in the cool, rainy season. Plants can reach reproductive maturity in a single growing season (Montalvo and McMillan 2002a). <br/>
+<br/>
+The name <i>Mimulus aurantiacus </i>is used in many manuals, and Montalvo and McMillan (2002a) discuss the taxonomy and details of the geographic distribution of the many color forms. The broad species definition is used in this manual. <br/>
+<br/>
+<i>Diplacus aurantiacus </i>is a widespread plant in many coastal scrub, chaparral, and woodland alliances (Rundel 2007), but the presence of stands primarily dominated by this species leaves little doubt that this is a distinct type. The alliance appears on generally steep, often somewhat unstable slopes in relatively mesic settings within the general vicinity of recent burns and stands of <i>Artemisia californica, Quercus agrifolia, </i>or <i>Salvia leucophylla </i>alliances. In some cases, this type also appears to be associated with natural ground disturbances, such as rockslides (Keeler-Wolf and Evens 2006) and road cuts. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Diplacus aurantiacus</th>
+			
+		
+			
+			<th>Diplacus parviflorus</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Shrub; (semi-) drought deciduous</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Gravity; wind</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None (but charcoal leachate and sun might increase germination)</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Underground structures</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-sensitive; no/low sprouter; architecture susceptible canopy</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>1-? years</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Moderate to high</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Frequent fires or other disturbances maintain this alliance because shrubs typically grow fast and flower quickly. Seeds will germinate without pretreatment (Mirov and Kraebel 1939, Schmidt 1980); however, seed germination may improve slightly with exposure to light and leachate from charred wood (Keeley 1987b). Sprouting occurs weakly from rooted stolons after light fires.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Medium (20-50 years)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Summer-early fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Medium to large; up to and beyond stand
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Moderate to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>High to very high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Active-independent crown fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Southern California
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Ac, Af). Small stands occur in the Santa Cruz Mountains (Sikes et al. 2021) and as far north as Contra Costa Co. on steep slopes, usually adjacent to stands of the <i>Artemisia californica</i> alliance. Stands are predicted to occur elsewhere on steep coastal slopes.</li>
+        
+            <li><b>Central California Coast Ranges</b> (M262Af). Stands occur at Pinnacles National Monument on steep slopes with a variety of herbs (Kittel et al. 2012), and stands are predicted elsewhere.</li>
+        
+            <li><b>Great Valley</b> (262Ao). Stands occur on slopes within the Camanche Terraces.</li>
+        
+            <li><b>Northern California Coast</b> (263Al). Stands of <i>Diplacus aurantiacus</i> occur on steep slopes and ridgetops in Southern Marin County (Buck-Diaz et al. 2021).</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Bb). No description available</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fc-d). Stands from Tulare to Kern Cos. occupy steep, rocky, north-facing slopes and road cuts.</li>
+        
+            <li><b>Southern California Coast</b> (261Bb-c, Be-j). Stands occur in the Santa Monica Mountains (Keeler- Wolf and Evens 2006), coastal San Diego Co., and in the northern Channel Islands. On Santa Cruz Island (as D. flemingii), stands associate with <i>Artemisia californica, Hazardia squarrosa, Isocoma menziesii, Quercus pacifica, Quercus agrifolia,</i> and <i>Pinus muricata</i> alliances. Stands dominated by <i>Diplacus puniceus</i> occur on Santa Catalina Island (Dixon et al. 2019).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> <i>Diplacus aurantiacus </i>is planted along highway corridors, and it is widely used in habitat restoration. Summer water extends the plant’s flowering and leaf production period, but watered plants are more susceptible to air pollution because they uptake sodium oxide (Montalvo and McMillan 2002a). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Diplacus (aurantiacus, puniceus) [1], [2], [4], [5], [6], [7]</li>
+                
+                    <li>Diplacus parviflorus [3]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Keeler-Wolf, T.;Evens, J. 2006</li>
+		
+		<li>[2] Kittel, G.;Reyes, E.;Evens, J.;Buck, J.;Johnson, D. 2012</li>
+		
+		<li>[3] Rodriguez, D.;Sikes, K.;Keeler-Wolf, T.;Kittel, G.;Curtis, J.;Curley, C.;Evens, J. 2017</li>
+		
+		<li>[4] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>[5] Ratchford, J.;Boul, R.;Keeler-Wolf, T.;Evens, J. 2022a (in progress)</li>
+		
+		<li>[6] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>[7] Sikes, K.;Buck-Diaz, J.;Evens, J. 2021</li>
+		
+		<li>Montalvo, A.M.;McMillan, P.A. 2002a</li>
+		
+		<li>Rundel, P.W. 2007</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/186/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

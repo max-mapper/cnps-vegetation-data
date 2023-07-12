@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Juglans hindsii and Hybrids</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Juglans</i> <i>hindsii</i> and <i>Hybrids</i></span> Forest &amp; Woodland Special Stands and Semi-Natural Alliance <br/>
+        <span class="subtitle">Hinds’s walnut and related stands</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Tree
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-300 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S1.1
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G1
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA, OR? (USDA Plants)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>Yes
+                    </li>
+                    
+                        <li>
+                            <span class="category">Invasive species rank</span>
+                            See remarks
+                        </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>Yes
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/tree/juglans-hindsii_sacramentoriver_04-03_01.jpg', '/static/images/photos/tree/juglans-hindsii_sacramentoriver_06-03_01.jpg', '/static/images/photos/tree/juglans-hindsii_sacramentoriver_06-03_02.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Juglans</i> <i>hindsii</i> or hybrids are dominant in the tree canopy with <i>Populus</i> <i>fremontii</i>, <i>Quercus</i> <i>lobata</i> and <i>Salix</i> <i>gooddingii</i>. Shrubs may include <i>Salix</i> <i>exigua</i> or <i>Sambucus</i> <i>nigra</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text"> Trees < 25 m; canopy is intermittent to continuous. Shrub layer is open to intermittent. Herbaceous layer is sparse. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Juglans hindsii</i> or hybrids > 50% relative cover in the tree canopy (Buck-Diaz et al. 2012, Buck-Diaz et al. 2021, Hickson and Keeler-Wolf 2007, Klein et al. 2007, Klein et al. 2015).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Intermittently flooded or saturated riparian corridors; floodplains, stream banks, and terraces. Soils are alluvial. The USFWS Wetland Inventory (1996 national list) recognizes <i>Juglans hindsii</i> as a FAC plant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Hind&#39;s walnut unique stands
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Non-native/ornamental hardwood, Riparian mixed hardwood, Black walnut
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Hinds walnut woodland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Montane riparian
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>61.810.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Tree Vegetation (Forest and Woodland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate Flooded and Swamp Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North America Warm Temperate Flooded and Swamp Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Southwestern North American Riparian, Flooded and Swamp Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Southwestern North American riparian evergreen and deciduous woodland
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Juglans hindsii </i>is a deciduous tree that attains a height of 25 m. Although treated as variety of <i>J. californica </i>in the <i>Jepson Manual </i>(Hickman 1993), the two taxa are no longer considered closely related (Aradhya et al. 2005). Both natural and semi-natural stands of <i>J. hindsii </i>occur in California, and this treatment encompasses both types. <br/>
+<br/>
+Few things are completely certain about the natural distribution of this walnut since Richard Hinds found the walnut scattered along the lower Sacramento River in 1837. Jepson (1910) observed that some walnut localities coincided with Indian encampments, suggesting planted groves, but Thomsen (1963) largely discounted Indian influence. Griffin and Critchfield (1972) had mapped three natural stands in Contra Costa Co., one natural stand in Solano Co., and 13 that were questionable. While the California Native Plant Society (CNPS) previously recognized three native stands of <i>J. hindsii </i>with a Rare Plant Rank of 1B.1, the taxon has since been removed from the list due to the hybrids being so intertwined with the native genetics in localized riparian areas across northern California.<br/>
+<br/>
+Since Griffin and Critchfield (1972) reported natural-appearing stands of walnuts along the larger creeks and streams such as in the inner Coast Range foothills in Colusa, Glenn, and Tehama Cos., more genetic research has been done across 10 counties in California where Potter et al. (2018) found that at least 71% of the mostly wild trees were found to be pure members of <i>J. hindsii</i> and the remaining were found to be hybrids (with <i>J. californica, J. major,</i> and/or <i>J. nigra</i>). As exposed by Potter et al. (2018), <i>Juglans hindsii </i>is now known to be natively common throughout the Inner North Coast Ranges, Sacramento and San Joaquin Valleys, and San Francisco Bay Area of California, as well as southern Oregon. Vaghti (2003) found sufficient walnut trees along the Sacramento River to recognize a <i>Juglans hindsii/ Sambucus nigra </i>forest type. Cal-IPC does not rank the naturalized species as invasive. Thus, many native and mixed hybrid walnut populations occur along small creeks to large rivers in central and northern California, including the Sacramento River.  The plant also grows in southern Oregon along the Bear River, where botanists consider it native (F. Callahan, pers. comm. 2007). </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Juglans hindsii</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td></td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Fluvial processes rather than fire primarily disturb stands. Plants sprout vigorously from the trunk and root crown when top-killed by fire.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Ac). Native groves near the town of Walnut Creek in Contra Costa Co. are
+the best known. Naturalized stands also occur along Walnut Creek near Lafayette.</li>
+        
+            <li><b>Great Valley</b> (262Aa-z). Native groves on the banks of the Sacramento River occur near Walnut Grove in Sacramento Co., but those in Solano Co. are extirpated. Recent sampling of naturalized occurrences in the Sacramento-San Joaquin River delta (Hickson and Keeler-Wolf 2007) and along the main Sacramento River (Vaghti 2003) include individual walnut trees in stands of other riparian alliances; they found walnut stands in ecological settings intermediate between the <i>Populus fremontii</i> and the <i>Quercus lobata</i> alliances. During sampling along Cottonwood Creek, a tributary of the Sacramento River, Harris (1987) also found walnut trees in cottonwood and valley oak forests.</li>
+        
+            <li><b>Northern California Coast</b> (263Am). Groves that are probably non-native occur in Wooden Valley east of Napa.</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Bf). No description available</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Walnut growers use <i>J. hindsii </i>and backcrosses with either English walnut (<i>J. regia</i>)—the Paradox hybrid created by Luther Burbank—or three other North American black walnuts (<i>J. nigra, J. major, </i>and 130 <i>J. californica</i>) as rootstock for English walnut orchards in the state. These hybrids are resistant to several important soil-borne pests. Kirk (2003) considered the naturalized populations to be hybrids largely with <i>J. major</i>. People also plant <i>J. nigra </i>near houses and along roadsides. Many orchards are adjacent to riparian vegetation, and animals (ground squirrels, jays, etc.) and water disperse the walnuts widely in both rural and suburban settings (Vaghti and Greco 2007). 
+
+While previously only one native stand of <i>Juglans hindsii </i>appeared to be recognized as viable (CNPS 2007), many native and mixed hybrid stands are now recognized. Hybridization between the native populations and cultivated walnuts still endangers the species. For example, walnut hybrids at Bidwell-Sacramento River State Park appear invasive and are taking over the park’s riparian forests. We should add these walnuts to the list of invasive taxa when considering restoration of riparian forests in northern California (Vaghti and Greco 2007). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Juglans hindsii [2], [3]</li>
+                
+                    <li>Juglans hindsii / Sambucus nigra [1]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Vaghti, M.G. 2003</li>
+		
+		<li>[2] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>[3] Klein, A.;Crawford, J.;Evens, J.;Keeler-Wolf, T.;Hickson, D. 2007</li>
+		
+		<li>Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>Coladonato, M. 1991</li>
+		
+		<li>Griffin, J.R.;Critchfield, W.B. 1972</li>
+		
+		<li>Hickson, D.;Keeler-Wolf, T. 2007</li>
+		
+		<li>Holstein, G. 1984</li>
+		
+		<li>Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>Pavek, D.S. 1993d</li>
+		
+		<li>Potter, D.;Bartosh, H.;Dangl, G.;Yang, J.;Bittman, R.;Preece, J. 2018</li>
+		
+		<li>Thomsen, H.H. 1963</li>
+		
+		<li>Vaghti, M. ;Greco, S. 2007</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/34/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

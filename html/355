@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Carex nebrascensis</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Carex</i> <i>nebrascensis</i></span> Herbaceous Alliance <br/>
+        <span class="subtitle">Nebraska sedge meadows</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Herb
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>60-2700 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S4
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G5
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: AZ, CA, CO, ID, MT, NE, NM, NV, OR, SD, UT, WA, WY (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/herb/carex-nebrascensis_hermitvalley_09-09_01.jpg', '/static/images/photos/herb/carex-nebrascensis_hermitvalley_09-09_02.jpg', '/static/images/photos/herb/carex-nebrascensis_hermitvalley_09-09_03.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Carex</i> <i>nebrascensis</i> is dominant or co-dominant in the herbaceous layer with <i>Achillea</i> <i>millefolium</i>, <i>Bistorta</i> <i>bistortoides</i>, <i>Calamagrostis</i> <i>stricta</i>, <i>Carex</i> <i>microptera</i>, <i>Carex</i> <i>praegracilis</i>, <i>Carex</i> <i>simulata</i>, <i>Carex</i> <i>utriculata</i>, <i>Deschampsia</i> <i>cespitosa</i>, <i>Eleocharis</i> <i>macrostachya</i>, <i>Eleocharis</i> <i>palustris</i>, <i>Eleocharis</i> <i>quinqueflora</i>, <i>Epilobium</i> <i>ciliatum</i>, <i>Glyceria</i> <i>elata</i>, <i>Juncus</i> <i>arcticus</i>, <i>Juncus</i> <i>nevadensis</i>, <i>Mimulus</i> <i>primuloides</i>, <i>Muhlenbergia</i> <i>filiformis</i>, <i>Muhlenbergia</i> <i>richardsonis</i>, <i>Perideridia</i> <i>parishii</i>, <i>Poa</i> <i>pratensis</i>, <i>Ptilagrostis</i> <i>kingii</i>, <i>Schoenoplectus</i> <i>pungens</i> and <i>Trifolium</i> spp. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Herbs < 1 m; cover is intermittent to continuous. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>C. nebrascensis</i> > 5% absolute cover; if <i>Oxypolis occidentalis, C. utriculata,</i> or <i>C. vesicaria</i> present, then <i>C. nebrascensis</i> is > 50% relative cover (Potter 2005).</li>
+		
+		<li><i>Carex nebrascensis</i> > 25% relative cover and exceeding other species such as <i>Eleocharis quinqueflora</i> in cover in the herbaceous layer (Ratliff 1982).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Fens, wet meadows; rarely along streamsides or lake basins. Soils are usually deep alluvium with organic surface layers. The USFWS Wetland Inventory (1996 national list) recognizes <i>Carex nebrascensis</i> as an OBL plant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Nebraska sedge series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Carex nebrascensis seasonally flooded herbaceous alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Wet grasses and forbs
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Wet montane meadow, Freshwater seep, Fen
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Freshwater marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Wet meadow
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>45.130.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate and Boreal Shrubland and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate Grassland, Meadow, and Shrubland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Vancouverian and Rocky Mountain Grassland and Shrubland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Western Cordilleran montane-boreal wet meadow
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Western cordilleran montane-boreal mesic wet meadow
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Carex nebrascensis </i>is a strongly rhizomatous sedge species with stout culms to 1 m and bluish-green leaves. One to two male flowering spikelets are usually found above 2-5 pistillate spikelets, which are subtended by a leafy bract (Ogle 2005b). It is common in seasonally wet to saturated meadows west of the Mississippi River. Seed establishment is best on freshly deposited, moist sediments, although vegetative reproduction is most common. Plants possess thick rhizomes that spread aggressively. They often form dense stands with few associated species (Ogle 2005b, Ratliff 1983, Potter 2005). In other cases, herbaceous cover can be high (Potter 2005). <br/>
+<br/>
+In California, <i>C. nebrascensis </i>typically occurs on sites where water flows over the surface but does not pond (Ratliff and Westfall 1988). <i>C. nebrascensis </i> stands occur in somewhat drier situations than do those of the <i>Carex </i>(<i>utriculata, vesicaria</i>) alliance, but in wetter situations than do those of the <i>Poa pratensis </i>and <i>Veratrum californicum </i>alliances. Fites-Kaufman et al. (2007) characterized such meadow systems as open wet meadows. This and the <i>Deschampsia cespitosa, Carex jonesii, Bistorta bistortoides-Mimulus primuloides, </i>and <i>Oxypolis occidentalis </i>alliances have associations that share co-dominants, suggesting that they are closely related. We need further sampling and analysis of these meadow complexes to understand their relationships. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Carex nebrascensis</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Polycarpic perennial; herb; rhizomatous</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Transient</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; gravity; water/hydrological</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Stratification—winter </td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>Long-lived</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>High; episodic</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>High</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Hydrologic processes rather than fire primarily disturb the alliance. <i>Carex nebrascensis </i>sprouts well after disturbances, including fires and flooding. Major processes influencing the persistence of stands involve meadow erosion and long-term, regional climatic shifts.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+            <p>The range of <i>Carex nebrascensis</i> includes the Great Valley (262A), mountains of the Mojave Desert (322A), Northwestern Basin and Range (342B), Southeastern Great Basin (341F), and Southern California Mountains and Valleys (M262Bb, Bh, Bm).</p>
+        
+
+        <ul class="text">
+        
+            <li><b>Klamath Mountains</b> (M261Ad-e, Ag, Ai-l, An, Ap-q, As-t). Stands are widespread in wet meadows at higher elevations throughout the section.</li>
+        
+            <li><b>Modoc Plateau</b> (M261Ga-p). Stands throughout the section (S. Smith 1998b) occupy streamside meadow systems and montane cirque basins mostly above 1500 m. Associated meadow types include those of the <i>Hordeum brachyantherum, Poa pratensis, Poa secunda,</i> and <i>Veratrum californicum</i> alliances, and associated shrublands include the <i>Salix bebbiana</i> or <i>Salix lemmonii</i> alliances.</li>
+        
+            <li><b>Mono</b> (341Dd-e, Dl). Stands in the Carson, Truckee, and Walker river watersheds and in the Sweetwater and Excelsior mountains (Weixelman et al. 1999) are the most extensive in the state.</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Ba). Stands in the Yolla Bolly mountains occupy wet meadows (Keeler-Wolf and Keeler-Wolf 1974).</li>
+        
+            <li><b>Sierra Nevada</b> (M261Ea-j, El-r, Et-u). Stands exist above 1500 m in transitional fens and wet meadows at Grass Lake RNA (Burke 1987), in Sequoia National Park (Halpern 1986), in Sequoia National Forest (Cooper and Wolf 2006), at Snow Canyon RNA (Nachlinger 1992), in Yosemite National Park (Keeler-Wolf et al. 2003b), on the east side (Manning and Padgett 1995, Weixelman et al. 1999), and generally in the section (Beguin and Major 1975, Ratliff 1982, 1985, Potter 2005). Associated meadow types include associations of the <i>Deschampsia cespitosa</i> and <i>Poa pratensis</i> alliances (Allen-Diaz 1991).</li>
+        
+            <li><b>Southern Cascades</b> (M261Da-f, Dh-j, Dl-m). Stands are common in the section except in the lower and drier subsections (S. Smith 1998b).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> <i>Carex nebrascensis </i>is an important forage species for livestock, and it resists grazing, trampling damage, and soil compaction (Ogle 2005b, Potter 2005, Ratliff 1982, S. Smith 1998b). The plant is useful for erosion control and soil stabilization. Although this species can tolerate drought and total inundation, the soil should be kept saturated for it to persist (Ogle 2005b). <i>Juncus arcticus </i>or <i>Poa pratensis </i>may replace <i>C. nebrascensis </i>when grazed continuously (Manning and Padgett 1995). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Carex nebrascensis [1], [2], [3], [5], [6], [7], [8], [9], [10], [11]</li>
+                
+                    <li>Carex nebrascensis - Ptilagrostis kingii [4]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Beguin, C.N.;Major, J. 1975</li>
+		
+		<li>[2] Burke, M.T. 1987</li>
+		
+		<li>[3] Cooper, D.J.;Wolf, E.C. 2006</li>
+		
+		<li>[4] Halpern, C.B. 1986</li>
+		
+		<li>[5] Keeler-Wolf, T.;Schindel, M.;San, S.;Moore, P.;Hickson, D. 2003b</li>
+		
+		<li>[6] Manning, M.E.;Padgett, W.G. 1995</li>
+		
+		<li>[7] Potter, D.A. 2005</li>
+		
+		<li>[8] Ratliff, R.D. 1982</li>
+		
+		<li>[9] Smith, S. 1998b</li>
+		
+		<li>[10] Weixelman, D.A.;Zamudio, D.C.;Zamudio, K.A. 1999</li>
+		
+		<li>[11] Boul, R.;Keeler-Wolf, T.;Ratchford, J.;Haynes, T.;Hickson, D.;Yacoub, R.;Harbert, B.;Evens, J. 2021b</li>
+		
+		<li>Allen-Diaz, B.H. 1991</li>
+		
+		<li>Allen-Diaz, B.H. 1994</li>
+		
+		<li>Hermann, F.J. 1970</li>
+		
+		<li>Mason, H.L. 1957</li>
+		
+		<li>Ogle, D.G. 2005b</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Black, H.;Bleich, V.C.;Mincks, J.W. 1980</li>
+		
+		<li>Ratliff, R.D. 1983</li>
+		
+		<li>Ratliff, R.D. 1985</li>
+		
+		<li>Sala, A.;Nowak, R.S. 1997</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/355/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

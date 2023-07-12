@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Monolopia (lanceolata) - Coreopsis (calliopsidea)</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Monolopia</i> (<i>lanceolata</i><span style="padding-left: .2em">)</span> - <i>Coreopsis</i> (<i>calliopsidea</i><span style="padding-left: .2em">)</span></span> Herbaceous Alliance <br/>
+        <span class="subtitle">Monolopia - leafy-stemmed tickseed fields</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Herb
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-1000 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G3
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>CA (NatureServe, TJM)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>Yes
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>Yes
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2016/06/10
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/herb/monolopia-coreopsis_carrizonm_03-10_01.jpg', '/static/images/photos/herb/monolopia-coreopsis_carrizonm_03-10_02.jpg', '/static/images/photos/herb/monolopia-coreopsis_carrizonm_03-10.jpg', '/static/images/photos/herb/monolopia-lanceolata_coreopsis-calliopsidea_carrizo_03-2010.jpg', '/static/images/photos/herb/monolopia-lanceolata_coreopsis-calliopsidea_carrizo_04-2010_02.jpg', '/static/images/photos/herb/monolopia-lanceolata_coreopsis-calliopsidea_carrizo_04-2010_01.jpg', '/static/images/photos/herb/coreopsis-calliopsidea_kramerjunction_sanbernardinoco_04-1992_markskinner.jpg', '/static/images/photos/herb/monolopia-lanceolata_coreopsis-calliopsidea_tejon_04-2017_01.jpg', '/static/images/photos/herb/monolopia-lanceolata_coreopsis-calliopsidea_tejon_04-2017_02.jpg', '/static/images/photos/herb/monolopia-lanceolata_coreopsis-calliopsidea_tejon_04-2017_03.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Camissonia</i> <i>boothii</i>, <i>Coreopsis</i> <i>calliopsidea</i>, <i>Mentzelia</i> <i>pectinata</i> and/or <i>Monolopia</i> <i>lanceolata</i> or other <i>Monolopia</i> species, or other semi-desert, annual forbs are dominant, co-dominant, or characteristically present in the herbaceous layer with <i>Amsinckia</i> <i>tessellata</i>, <i>Astragalus</i> <i>didymocarpus</i>, <i>Bromus</i> <i>rubens</i>, <i>Caulanthus</i> <i>inflatus</i>, <i>Chaenactis</i> <i>stevioides</i>, <i>Eriogonum</i> spp., <i>Erodium</i> <i>cicutarium</i>, <i>Guillenia</i> <i>lasiophylla</i>, <i>Layia</i> <i>munzii</i>, <i>Lepidium</i> <i>nitidum</i>, <i>Malacothrix</i> <i>coulteri</i>, <i>Mentzelia</i> spp., <i>Phacelia</i> spp., <i>Phacelia</i> <i>tanacetifolia</i> and <i>Poa</i> <i>secunda</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Herbs < 1 m; cover is open to continuous. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Coreopsis calliopsidea, Mentzelia pectinata, Monolopia </i>spp., and/or <i>Camissonia boothii </i>seasonally dominant or co-dominant with a variety of other native herbs (Buck-Diaz and Evens 2011, Buck-Diaz et al. 2013).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Flats, mud hills, and clay beds or moderate to steep, dry, often south-facing slopes. Fine-textured soils derived from ancient lakebed deposits and siltstone, gypsum, or other sedimentary rocks.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>California annual grassland series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Annual grasses and forbs
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Wildflower field
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Valley grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Annual grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>36.130.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Mediterranean Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Mediterranean Grassland and Forb Meadow
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>California Grassland and  Meadow
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>California Annual and Perennial Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>California annual herb/grass group
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Monolopia lanceolata </i>is a spring-flowering annual forb with bright-yellow radiate flowering heads along slender stems. In general, monolopias have hairy, gray stems and foliage, and two species produce flowering heads surrounded with prominent gray bracts, giving them the common name "turtleback."<br/>
+<br/>
+<i>Coreopsis calliopsidea </i> is a spring-flowering annual forb with showy, orange-yellow radiate heads that are solitary along long stems. Its ray flowers are prominently veined and irregularly, shallowly toothed. This and other native coreopsis species in California are now recognized as <i>Leptosyne </i> (Jepson Flora Project 2016).<br/>
+<br/>
+<i>Camissonia boothii</i>, also called <i>Eremothera boothii</i>, is a spring-flowering annual forb native to the western United States and northwestern Mexico where it is most abundant in arid areas such as deserts.  It has hairy reddish-green stems and mottled foliage. The stem ends in a nodding inflorescence of many small flowers which may be white to red or yellowish, often with darker shades on the external surfaces of the four spoon-shaped petals. Flowers tend to open at dusk rather than dawn as in many other Camissonia. The fruit is a twisted capsule (Wikipedia contributers 2021). There are several subspecies with variations in appearance.<br/>
+<br/>
+<i>Mentzelia pectinata</i> is a spring-flowering annual forb endemic to California. It grows in the hills and mountains on either side of the San Joaquin Valley, including the Temblor Range, the Tehachapi Mountains, and the southern Sierra Nevada. The leaves form a basal rosette and are divided into comblike lobes. Leaves higher on the erect stem are reduced in size. The showy flowers have orange to yellow petals up to 2 cm long and often marked with red near the bases (Calscape 2021b). The fruit is a narrow, straight capsule.<br/>
+<br/>
+This annual herbaceous alliance occurs along steep hillslopes, tops of small rises and mounds, roadcuts, and in openings in chapparal and woodlands along hills and valleys. It can tolerate alkaline soils. Stands occur prominently in the inner Central Coastal Ranges, southern Sierra Nevada foothills, and the western Mojave Desert. In good rain years, hillsides can be alight in bright yellow and orange during spring. Differences in rainfall and natural disturbances across years confer variation in species composition and abundance, though <i>Monolopia lanceolata</i> appears persisent in the seedbank (Buck and Evens 2013). More sampling and analysis is needed in various areas of the Coast Ranges and western Mojave Desert to determine the suite of associations in this alliance and to determine if post-fire stands of <i>Monolopia </i> and related forbs warrant a different alliance designation. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Camissonia boothii</th>
+			
+		
+			
+			<th>Coreopsis calliopsidea</th>
+			
+		
+			
+			<th>Mentzelia pectinata</th>
+			
+		
+			
+			<th>Monolopia lanceolata</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Annual; herb</td>
+			
+		
+			
+			<td>Annual; herb</td>
+			
+		
+			
+			<td>Annual; herb</td>
+			
+		
+			
+			<td>Annual; herb</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Short</td>
+			
+		
+			
+			<td>Medium</td>
+			
+		
+			
+			<td>Long</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Gravity; wind</td>
+			
+		
+			
+			<td>Animal; wind</td>
+			
+		
+			
+			<td>Gravity; wind</td>
+			
+		
+			
+			<td>Animal; gravity; wind</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>Stratification</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>Underground structures</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-sensitive</td>
+			
+		
+			
+			<td>Fire-sensitive, thin epidermis</td>
+			
+		
+			
+			<td>Fire-hardy</td>
+			
+		
+			
+			<td>Fire-sensitive, thin epidermis</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>Yes</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>1 year</td>
+			
+		
+			
+			<td>1 year</td>
+			
+		
+			
+			<td>1 year</td>
+			
+		
+			
+			<td>One growing season</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Low to high</td>
+			
+		
+			
+			<td>High</td>
+			
+		
+			
+			<td>Low to high</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Fires are variable in space and time across the distribution of this alliance. In annual herb types such as this alliance, fires result in a short-term increase in available nitrogen and phosphorus (Menke and Rice 1981). Because fine stems generally create lower-intensity fires, little heat is transported more than a few centimeters into the soil, and seeds in the soil are generally unaffected. Keeley (2002a) suggested that fires occurred in higher frequency adjacent to long-term human occupation sites, and Anderson (2005) suggested that many annual plants and associated geophytes benefited from tending by Native Americans. As noted by Parish (1907), an extensive fire occurred in 1903 over the ridges south and southwest of Los Gatos, after which patches of <i>Monolopia gracilens </i>and other annuals were abundant post-fire for three years, and  then not seen in large extent afterwards. Similarly, after the extensive Morgan fire on Mount Diablo, Bartosh and Peterson (2016) found significant abundance of forbs such as <i>M. gracilens </i> for two years afterwards, with their richness and abudance waning a few years post-fire.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Medium (10-100+)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Summer-early fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Up to and beyond stand size
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Moderate to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Moderate to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Surface fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Central Coast
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Ac, Ag). Patchy stands with <i>Monolopia major</i> as a co-dominant occur at Black Diamond Mines Regional Park and the Livermore Valley area.  Intermittent stands with <i>Monolopia gracilens </i> occur in post-fire sites on Mount Diablo, on ridges of the Santa Cruz Mountains near Los Gatos, and in adjacent areas of the South Bay Region on serpentines (H. Bartosh, pers. comm., 2018)  . More sampling and analysis are needed to substantiate associations and their relationships to this and other herbaceous alliances.</li>
+        
+            <li><b>Central California Coast Ranges</b> (M262Ad-e, Ag-k). Stands occur across the section, including in the Carrizo Plain, Caliente and Temblor Ranges, Paso Robles hills and valley, south eastern Interior Santa Lucia Range, Ciervo Hills, Panoche Hills, Corral Hollow, and near Livermore including <i>Monolopia lanceolata</i> and <i>Monolopia major</i>.</li>
+        
+            <li><b>Great Valley</b> (262Ag, Aq, Ax, Az). Stands occur in the southern and western San Joaquin Valley including in the Tejon Hills, Comanche Hills, and north to the eastern edges of the Mount Hamilton Range and Mount Diablo with stands of <i>Coreopsis calliopsidea, Monolopia lanceolata, Monolopia major</i>, and/or <i>M. stricta</i>.</li>
+        
+            <li><b>Mojave Desert</b> (322Ag). Stands of <i>Coreopsis calliopsidea </i> occur in the western Mojave including near Mojave, Kramer Junction, Kramer Hills and elsewhere, and stands of <i>C. bigelovii</i> occur near Fremont Valley. More sampling is needed to determine full extent of this alliance in this ecoregion.</li>
+        
+            <li><b>Sierra Nevada</b> (M261Er-s). Stands of <i>Monolopia lanceolata </i> occur in the the southern most Sierra Nevada in Tejon Ranch.</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fd-e). Stands occur in the southern Sierra Nevada foothills including at Tejon Ranch, Tehachapi foothills, and in the lower San Emigdio Mountains such as in Windwolves Preserve, including stands of <i>Coreopsis calliopsidea, Monolopia lanceolata</i> and <i>M. major</i>. Stands with <i>Coreopsis stillmanii</i> occur on serpentinite in the central foothills; more sampling and analysis is needed in this ecoregion to determine associations.</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Bb). Stands of <i>Coreopsis calliopsidea </i>  and <i>Monolopia lanceolata</i> occur in the northern part of this section.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Stands with monolopia and related annual herbs vary in space and time, depending on rainfall, fire, and other disturbance. Grazing at low stocking rates is not detrimental. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Coreopsis bigelovii - Layia glandulosa - Mentzelia spp. / Ephedra nevadensis [5]</li>
+                
+                    <li>Coreopsis calliopsidea - Mentzelia pectinata [1], [2], [3], [4]</li>
+                
+                    <li>Monolopia lanceolata [1], [3], [4]</li>
+                
+                    <li>Monolopia stricta [1]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Buck-Diaz, J.;Evens, J. 2011b</li>
+		
+		<li>[2] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>[3] Buck-Diaz, J.;Harbert, B.;Evens, J. 2011</li>
+		
+		<li>[4] Buck-Diaz, J.;Ratchford, J.;Evens, J. 2013</li>
+		
+		<li>[5] Reyes, E.;Evens, J.;Glass, A.;Sikes, K.;Keeler-Wolf., T.;Winitsky, S.;Johnson, D.;Menke, J.;Hepburn, A. 2020a</li>
+		
+		<li>Anderson, D.G. 2006</li>
+		
+		<li>Bartosh, H.;Peterson, B. 2016</li>
+		
+		<li>Calscape, 2021b</li>
+		
+		<li>Parish, S.B. 1907</li>
+		
+		<li>Wikipedia contributors, 2018</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/514/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

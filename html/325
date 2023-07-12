@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Atriplex prostrata - Cotula coronopifolia</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Atriplex</i> <i>prostrata</i> - <i>Cotula</i> <i>coronopifolia</i></span> Herbaceous Semi-Natural Alliance <br/>
+        <span class="subtitle">Fields of fat hen and brass buttons</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Herb
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-300 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>SNA
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>GNA
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA, OR?
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                        <li>
+                            <span class="category">Invasive species rank</span>
+                            Cal-IPC: Limited (Cotula coronopifolia), Not Rated (Atriplex prostrata)
+                        </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2009/09/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/herb/atriplex-prostrata_cotula-coronopifolia_nearcollinsville_08-05_01.jpg', '/static/images/photos/herb/atriplex-prostrata_cotula-coronopifolia_nearcollinsville_08-05_02.jpg', '/static/images/photos/herb/atriplex-prostrata-c-coronopifolia_beanhollowstbeach-cdpr_08-2019_smat0299.jpg', '/static/images/photos/herb/atriplex-prostrata-c-coronopifolia_prvtland_05-2019_marin266.jpg', '/static/images/photos/herb/atriplex-prostrata-cotula-coronopifolia_solano-co_06-2016.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Atriplex</i> <i>prostrata</i> or <i>Cotula</i> <i>coronopifolia</i> are dominant or co-dominate together in the herbaceous layer with <i>Bolboschoenus</i> <i>maritimus</i>, <i>Chenopodium</i> <i>foliosum</i>, <i>Distichlis</i> <i>spicata</i>, <i>Polypogon</i> <i>monspeliensis</i> and/or <i>Sesuvium</i> <i>verrucosum</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Herbs < 1 m; cover is intermittent to continuous. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Atriplex prostrata</i> > 40% relative cover in the herbaceous layer with other non-natives (Keeler-Wolf and Vaghti 2000).</li>
+		
+		<li><i>Atriplex prostrata</i> > 60% relative cover in the herbaceous layer, or co-dominant with <i>Chenopodium foliosum</i> or <i>Cotula coronopifolia</i> (Pickart 2006, Sikes et al. 2021).</li>
+		
+		<li><i>Cotula coronopifolia</i> > 60% relative cover in herbaceous layer, or co-dominant with <i>Sesuvium verrucosum</i> (Keeler-Wolf and Vaghti 2000).</li>
+		
+		<li><i>Cotula coronopifolia</i> > 60% relative cover in the herbaceous layer (Pickart 2006, Buck-Diaz et al. 2021).</li>
+		
+		<li><i>Cotula coronopifolia, Polypogon monspeliensis</i>, and/or <i>Atriplex prostrata</i> > 50% relative cover in the herbaceous layer (Buck-Diaz et al. 2021).</li>
+		
+		<li><i>Cotula coronopifolia</i> and/or <i>Atriplex prostrata</i> > 50% relative cover in the herbaceous layer (Sikes et al. 2021).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Seasonally flooded saline mudflats, brackish marshes. Soils are alluvium. The USACE Wetland Inventory (2018 national list) recognizes <i>Cotula coronopifolia</i> as an OBL plant and <i>Atriplex prostrata</i> as a FAC plant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Saltbush, Non-native/invasive forb
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Coastal brackish marsh, Alkali marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Coastal salt marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Saline emergent wetland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>52.211.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate and Boreal Shrubland and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate and Boreal Salt Marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Temperate and Boreal Pacific Coastal Salt Marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>North American Pacific Coastal Salt Marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Western North American disturbed alkaline marsh and meadow
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Atriplex prostrata </i>is a salt-tolerant non-native from Eurasia that is widespread in the northern hemisphere. This low-growing annual establishes on drying mud that is seasonally flooded with brackish water. It has been planted in managed wetlands for its nutritious seed, which is a food source for wintering waterfowl. Seeds are polymorphic with different germination responses correlated to salinity, temperature, and light (Carter and Ungar 2003, Khan and Ungar 1984). Plants become fully grown by late summer. The <i>Jepson Manual </i>(Hickman 1993) formerly used the synonym <i>A. triangularis</i>, though now recognizes <i>A. prostrata</i> (Jepson Flora Project 2021).<br/>
+<br/>
+<i>Cotula coronopifolia </i>is a non-native from South Africa, with bright yellow, discoid flower heads. Plants are annuals or short-lived perennials that spread by stolons. It is very salt tolerant, with reddish stems and green, blade-shaped leaves that are coated with a shiny cuticle to retain moisture. This species prefers muddy, anoxic wetlands and brackish water. It can also be found in the wetter patches of vernal pools at moderately high salinities. <br/>
+<br/>
+Both species are indicative of disturbed conditions in alkaline or saline wetlands. Both are early seral plants; they may be abundant to sparse from year to year depending on disturbance regime and salinity. Thus, we place them into this one vegetation type which constitutes an ephemeral, seasonally flooded marsh type at intermediate tidal elevations with relatively high salinities (Keeler-Wolf and Vaghti 2000, Pickart 2006). Stands occur usually in relatively narrow bands along the upper margins of brackish or salt marshes and sloughs, and sometimes as extensive monocultures (Pickart 2006, Buck-Diaz et al. 2021, Sikes et al. 2021). Ecologically, the most closely related native types may be the <i>Distichlis spicata </i>and <i>Frankenia salina </i>alliances. As a result of flooding, stands of the <i>Typha (angustifolia, domingensis, latifolia)</i> alliance and other freshwater plants may occur adjacent to or replace them. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Atriplex prostrata</th>
+			
+		
+			
+			<th>Cotula coronopifolia</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Hydrologic processes rather than fire primarily disturb stands. Managers use fire in the late summer or fall to clear vegetation in managed wetlands, such as in parts of Suisun Marsh. Altered hydrology, unnatural fire and clearing may initiate stands of this non-native type.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Aa-l). Stands at San Francisco Bay estuary are usually on the middle to upper edge of the marsh (Baye et al. 2000), adjacent to stands of the <i>Distichlis spicata, Frankenia salina, Juncus arcticus (var. balticus, mexicanus), </i>and <i>Leymus triticoides </i>alliances.
+Sampled stand on the San Mateo coast, 1.5 miles south of Pescadero (Sikes et al. 2021).  Expected stands in other areas based on CCH and Cal-IPC records (CCH 2017, Cal-IPC 2018).</li>
+        
+            <li><b>Central California Coast Ranges</b> (M262Ac-d). Expected stands based on CCH records (CCH 2017).</li>
+        
+            <li><b>Great Valley</b> (262Ac-t, Ay). Sampled stands throughout Suisun Marsh have <i>Argentina egedii, Distichlis spicata, Eleocharis macrostachya, Frankenia salina, Bolboschoenus maritimus, Sesuvium verrucosum, Spergularia marina, </i>and other natives (Keeler-Wolf and Vaghti 2000).  Expected stands in other areas of section based on CCH and Cal-IPC data (CCH 2017, Cal-IPC 2018).</li>
+        
+            <li><b>Mojave Desert</b> (322Aa). Expected stands based on CCH records (CCH 2017).</li>
+        
+            <li><b>Mono</b> (341Da-f, Dh-i, Dl). Expected stands based on CCH records (CCH 2017).</li>
+        
+            <li><b>Northern California Coast</b> (263Aa-e, Ag-l). Stands exist in Humboldt Bay National Wildlife Refuge; they usually occur in highly saline, acidic soils on newly scraped areas and flooded or exposed bare mud late into the summer season (Pickart 2006). Sampled stand near Novato Creek of <i>Cotula coronopifolia is in a low-lying slough</i> (Buck-Diaz et al. 2021).  <i>Atriplex prostrata </i>is a dominant in non-tidal seasonal wetlands of the Loch Lomond Marin in Marin Co. (Josselyn and DeGraff 2003).  Expected stands in other areas based on CCH and Cal-IPC data (CCH 2017, Cal-IPC 2018).</li>
+        
+            <li><b>Southern California Coast</b> (261Ba-j). Expected stands in section based on CCH records and Cal-IPC data (CCH 2017, Cal-IPC 2018).</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Bf, Bj-k). Expected stands based on CCH records (CCH 2017).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> <i>Atriplex prostrata </i>and <i>Cotula coronopifolia </i>are sources of winter feed for ducks and other waterfowl (Burns 2003). Disturbances within diked wetlands are stimulatory for this type, and both species are major components of managed brackish and saline marshes (Baye 2000).  Land managers establish stands by seeding, disking, scraping, or clearing areas. The stands fluctuate annually and may not persist with changes in flooding regimes or colonization by <i>Distichlis spicata, Frankenia salina, Juncus arcticus, Sarcocornia pacifica, Schoenoplectus </i>spp., and other perennials. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Atriplex prostrata [1], [4]</li>
+                
+                    <li>Atriplex prostrata / annual grasses [1]</li>
+                
+                    <li>Atriplex prostrata / Bolboschoenus maritimus [1]</li>
+                
+                    <li>Atriplex prostrata / Distichlis spicata [1]</li>
+                
+                    <li>Atriplex prostrata / Sesuvium verrucosum [1]</li>
+                
+                    <li>Cotula coronopifolia [1], [2], [3]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Keeler-Wolf, T.;Vaghti, M. 2000</li>
+		
+		<li>[2] Pickart, A.J. 2006</li>
+		
+		<li>[3] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>[4] Sikes, K.;Buck-Diaz, J.;Evens, J. 2021</li>
+		
+		<li>Baye, P.R. 2000</li>
+		
+		<li>Cal-IPC, 2018+</li>
+		
+		<li>Carter, C.T.;Ungar, I.A. 2003</li>
+		
+		<li>CCH (Consortium of California Herbaria), 2017+</li>
+		
+		<li>Hickman, J.C. 1993</li>
+		
+		<li>Jepson Flora Project, 2004-present</li>
+		
+		<li>Josselyn, M.;DeGraff, T. 2003</li>
+		
+		<li>Khan, M.A.;Ungar, I.A. 1984</li>
+		
+		<li>Schlosser, S.;Eicher, A. 2007</li>
+		
+		<li>USACE (U.S. Army Corps of Engineers), 2018</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/325/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

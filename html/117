@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Arctostaphylos glauca</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Arctostaphylos</i> <i>glauca</i></span> Shrubland Alliance <br/>
+        <span class="subtitle">Bigberry manzanita chaparral</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>450-1700 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S4
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G4
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA. Baja California, Mexico (TJM2)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>Yes
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/arctostaphylos-glauca_05-04_01.jpg', '/static/images/photos/shrub/arctostaphylos-glauca_05-04_02.jpg', '/static/images/photos/shrub/arctostaphylos-glauca_almaden_12-04_01.jpg', '/static/images/photos/shrub/arctostaphylos-glauca_almaden_12-04_02.jpg', '/static/images/photos/shrub/arctostaphylos-glauca_almaden_12-04_03.jpg', '/static/images/photos/shrub/arctostaphylos-glauca_ccma_01.jpg', '/static/images/photos/shrub/arctostaphylos-glauca_chimineas_04-05_01.jpg', '/static/images/photos/shrub/arctostaphylos-glauca_chimineas_04-08_01.jpg', '/static/images/photos/shrub/arctostaphylos-glauca_chimineasranch_03-09.jpg', '/static/images/photos/shrub/arctostaphylos-glauca_clearcreekma_06-04_01.jpg', '/static/images/photos/shrub/arctostaphylos-glauca_clearcreekma_06-04_02.jpg', '/static/images/photos/shrub/arctostaphylos-glauca_clearcreekma_06-04_03.jpg', '/static/images/photos/shrub/arctostaphylos-glauca_clearcreekma_06-04_04.jpg', '/static/images/photos/shrub/arctostaphylos-glauca_clearcreekma_s-san_01.jpg', '/static/images/photos/shrub/arctostaphylos-glauca_coyoteridge_07-01_01.jpg', '/static/images/photos/shrub/arctostaphylos-glauca_coyoteridge_07-01_02.jpg', '/static/images/photos/shrub/arctostaphylos-glauca_coyoteridge_09-01_01.jpg', '/static/images/photos/shrub/arctostaphylos-glauca_coyoteridge_09-01_02.jpg', '/static/images/photos/shrub/arctostaphylos-glauca_melica-torreyana_coyot092_ss.jpg', '/static/images/photos/shrub/arctostaphylos-glauca_melica-torreyana_crra008_je.jpg', '/static/images/photos/shrub/arctostaphylos-glauca_melica-torreyana_je.jpg', '/static/images/photos/shrub/arctostaphylos-glauca_melica-torreyana2_coyot092_ss.jpg', '/static/images/photos/shrub/arctostaphylos-glauca_mixed_coyot031_ss.jpg', '/static/images/photos/shrub/arctostaphylos-glauca_mixed_ss.jpg', '/static/images/photos/shrub/arctostaphylos-glauca_ssan_01.jpg', '/static/images/photos/shrub/arctostaphylos-glauca_ssan_02.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Arctostaphylos</i> <i>glauca</i> is dominant or co-dominant in the shrub canopy with <i>Adenostoma</i> <i>fasciculatum</i>, <i>Arctostaphylos</i> <i>glandulosa</i>, <i>Artemisia</i> <i>californica</i>, <i>Ceanothus</i> <i>crassifolius</i>, <i>Ceanothus</i> <i>cuneatus</i>, <i>Ceanothus</i> <i>leucodermis</i>, <i>Cercocarpus</i> <i>montanus</i>, <i>Garrya</i> <i>flavescens</i>, <i>Hesperoyucca</i> <i>whipplei</i>, <i>Heteromeles</i> <i>arbutifolia</i>, <i>Quercus</i> <i>berberidifolia</i>, <i>Quercus</i> <i>durata</i>, <i>Quercus</i> <i>wislizeni</i>, <i>Rhamnus</i> <i>ilicifolia</i> and <i>Salvia</i> <i>mellifera</i>. Emergent trees may be present at low cover, including <i>Quercus</i> <i>agrifolia</i> or <i>Quercus</i> <i>wislizeni</i> var. <i>wislizeni</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 3 (-8) m; canopy is open to continuous. Herbaceous layer is sparse or grassy. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Arctostaphylos glauca</i> > 60% relative cover in the shrub canopy (Gordon and White 1994, Borchert et al. 2004).</li>
+		
+		<li>Both <i>Adenostoma fasciculatum</i> and <i>Arctostaphylos glauca</i> between 30% and 60% relative cover in the shrub canopy (cf. Gordon and White 1994).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Outcrops, ridges, middle or upper slopes,, alluvial fans, aspect variable. Soils shallow to deep, coarse-textured, possibly mafic- or ultramafic-derived.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Bigberry manzanita series, Chamise-bigberry manzanita series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Arctostaphylos glauca shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Chamise, Manzanita chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Northern mixed chaparral, Upper Sonoran manzanita chaparral, Northern north slope chaparral, Southern north slope chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Chamise-redshank chaparral, Mixed chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>37.301.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Mediterranean Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Mediterranean Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>California Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>California Chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Californian xeric chaparral
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Arctostaphylos glauca </i>is a long-lived, evergreen, sclerophyllous shrub that grows up to 6 m and may live to 100 years. Plants lack a lignotuber; they do not sprout after being top-killed. Shrubs begin to produce abundant seeds by age 20. Seeds form a soil seed bank of hard stones and are the primary means of regeneration. Prostrate stems can root, although coastal populations rarely do so because of their upright habit. Plants develop epicormic sprouts following minor stem damage (Howard 1993b). <br/>
+<br/>
+Stands of <i>A. glauca </i>occupy mid to upper slopes of moderate to high elevations for chaparral. Stands in southern California occur more often on north-facing slopes on granitic and metamorphic bedrocks. Small stands also occur in central California on south-facing serpentine slopes and on north-facing slopes of sandstone and other sedimentary substrates. <br/>
+<br/>
+Mixed stands occur in the coastal mountains of central and southern California on a variety of rock types. Southern California stands usually occupy steep upper and middle slopes, whereas those in central California prefer middle to upper slopes but also may extend onto ridges in a patchwork with other chaparral alliances. This alliance has been formerly considered two alliances, the <i>Adenostoma fasciculatum-Arctostaphylos glauca </i>where the two main species co-dominate, and the <i>Arctostaphylos glauca </i>alliance, where that species is strongly dominant (Gordon and White 1994, Sawyer and Keeler-Wolf 1995). Recent studies in southern and central California suggest that there is substantial ecological overlap between these two conditions and the presence of any significant cover of <i>A. glauca </i>is sufficient to define the alliance. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Arctostaphylos glauca</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Shrub; evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Long</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; gravity</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Chemical; heat</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-sensitive; no/low sprouting; canopy architecture susceptible</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>10-100+ years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Low to medium</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Northern populations on serpentine</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text"><i>Arctostaphylos glauca </i>is an obligate seeder. High seed production of older shrubs adds greatly to the seed bank, and large seed banks develop between fires. Charate and heat breaks seed dormancy, and the refractory seeds germinate following winter rains. <i>A. glauca </i>is best adapted to high-intensity, long fire intervals (up to 100 years or more) that allow plants to reach treelike proportions (Howard 1993b). Mortality of surface seeds in wildfire can be very high because stones are large and not easily buried (Keeley 1977); however, seedling mortality is relatively low, and the rate of self-thinning in aging stands is low (Keeley and Zedler 1978). A fire interval of more than 20 years appears to promote <i>A. glauca </i>because large seed banks can develop between fires. Frequent, short-interval fires favor <i>Adenostoma fasciculatum</i>. Summer and fall fires favor seedling establishment by both species in the rainy season after a fire (McMurray 1990a, Howard 1993b).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Medium (20-100+ years)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Late summer-fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Medium to large—up to and beyond stand
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low to moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>High
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Very high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Active-independent crown fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Central and southern California
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast Ranges</b> (M262Aa-e, Ah, Aj). Stands described for Coyote Ridge (Evens and San 2004) and Clear Creek in the Diablo Range (Evens et al. 2006) are on serpentine. Those throughout Los Padres National Forest (Borchert et al. 2004) are small and patchy in distribution. Stands with grassy understories exist in the southern La Panza Range on the edge of the Carrizo Plain, and in Pinnacles National Monument adjacent to other chaparral types (Kittel et al. 2012).</li>
+        
+            <li><b>Sierra Nevada</b> (M261Er-s). Stands border Antelope Valley, exist near Walker Pass, and occupy the desert edges of the southern Sierra Nevada and Tehachapi Range.</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fe). Stands have been observed in the San Emigdio Mountains.</li>
+        
+            <li><b>Southern California Coast</b> (261Bb, Be). Stands exist in the Simi Hills, in the upper elevations of the Santa Monica Mountains (Keeler-Wolf and Evens 2006), and over much of Los Padres National Forest (Borchert et al. 2004).</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Ba-d, Bg, Bi, Bk-p). Stands have strong representation in the San Gorgornio, San Jacinto, and southern San Bernardino mountains (Gordon and White 1994), in the Pamo Valley and Lake Sutherland areas (Evens and San 2005), on the escarpments above Mason Valley and Culp Valley in Anza-Borrego Desert State Park (Keeler-Wolf et al. 1998b), and on high and relatively warm slopes of the Little San Bernardino Mountains near Joshua Tree National Park (Keeler- Wolf et al. 2005). Stands also occur in the Cahuilla Mountain and Organ Valley RNAs (Cheng 2004). Some plants in these inland stands reproduce asexually by layering (Howard 1993b).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Repeated short-interval fire depletes the seed bank, and such fires can reduce the occurrence of <i>A. glauca</i>. A fire cycle of 20 to 100+ years appears to promote this manzanita. Summer or fall fires favor seedling establishment in the next wet season. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+                <p>Associations with <i>Arctostaphylos glauca</i> Dominance or Co-Dominance</p>
+            
+            <ul class="text">
+                
+                    <li>Arctostaphylos glauca [3], [4], [8], [9]</li>
+                
+                    <li>Arctostaphylos glauca - Artemisia californica - Salvia mellifera [2]</li>
+                
+                    <li>Arctostaphylos glauca - Cercocarpus montanus [5]</li>
+                
+                    <li>Arctostaphylos glauca / Melica torreyana [2]</li>
+                
+                    <li>Arctostaphylos glauca - Quercus durata / Pinus sabiniana [1], [11]</li>
+                
+                    <li>Arctostaphylos glauca - Quercus john-tuckeri [9]</li>
+                
+            </ul>
+        
+            
+                <p>Mixed Associations with <i>Adenostoma fasciculatum</i></p>
+            
+            <ul class="text">
+                
+                    <li>Arctostaphylos glauca - Adenostoma fasciculatum [3], [4], [6], [7], [8], [9], [10]</li>
+                
+                    <li>Arctostaphylos glauca - Adenostoma fasciculatum - Ceanothus crassifolius [4]</li>
+                
+                    <li>Arctostaphylos glauca - Adenostoma fasciculatum - Ceanothus cuneatus [4]</li>
+                
+                    <li>Arctostaphylos glauca - Adenostoma fasciculatum - Ceanothus greggii [4]</li>
+                
+                    <li>Arctostaphylos glauca - Adenostoma fasciculatum - Ceanothus leucodermis [4]</li>
+                
+                    <li>Arctostaphylos glauca - Adenostoma fasciculatum - Diplacus aurantiacus [2]</li>
+                
+                    <li>Arctostaphylos glauca - Adenostoma fasciculatum - Hesperoyucca whipplei [4]</li>
+                
+                    <li>Arctostaphylos glauca - Adenostoma fasciculatum on serpentine [1], [11]</li>
+                
+                    <li>Arctostaphylos glauca - Adenostoma fasciculatum - Quercus berberidifolia [3], [4]</li>
+                
+                    <li>Arctostaphylos glauca - Adenostoma fasciculatum - Rhus ovata [7]</li>
+                
+                    <li>Arctostaphylos glauca - Adenostoma fasciculatum - Salvia mellifera [1], [11]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Borchert, M.;Lopez, A.;Bauer, C.;Knowd, T. 2004</li>
+		
+		<li>[2] Evens, J.;San, S. 2004</li>
+		
+		<li>[3] Evens, J.;San, S. 2005</li>
+		
+		<li>[4] Gordon, H.J.;White, T.C. 1994</li>
+		
+		<li>[5] Keeler-Wolf, T.;Roye, C.;Lewis, K. 1998b</li>
+		
+		<li>[6] Keeler-Wolf, T.;Evens, J. 2006</li>
+		
+		<li>[7] Klein, A.;Evens, J. 2005</li>
+		
+		<li>[8] Kittel, G.;Reyes, E.;Evens, J.;Buck, J.;Johnson, D. 2012</li>
+		
+		<li>[9] Buck-Diaz, J.;Evens, J. 2011b</li>
+		
+		<li>[10] Sproul, F.;Keeler-Wolf, T.;Gordon-Reedy, P.;Dunn, J.;Klein, A.;Harper, K. 2011</li>
+		
+		<li>[11] Evens, J.M.;Klein, A.;Taylor, J.;Hickson, D.;Keeler-Wolf, T. 2006</li>
+		
+		<li>Halvorson, W.L.;Clark, R.A. 1989</li>
+		
+		<li>Hanes, T.L. 1977</li>
+		
+		<li>Hanes, T.L. 1981</li>
+		
+		<li>Hanes, T.L. 1994</li>
+		
+		<li>Hanes, T.L.;Jones, H.W. 1967</li>
+		
+		<li>Hellmers, H.;Horton, J.S.;Juhren, G.;O'Keefe, J. 1955</li>
+		
+		<li>Horton, J.S. 1960</li>
+		
+		<li>Howard, J.L. 1993b</li>
+		
+		<li>Keeley, J.E. 1974</li>
+		
+		<li>Keeley, J.E. 1977</li>
+		
+		<li>Keeley, J.E. 1987b</li>
+		
+		<li>Keeley, J.E. 1987c</li>
+		
+		<li>Keeley, J.E. 1991</li>
+		
+		<li>Keeley, J.E. 1992b</li>
+		
+		<li>Keeley, J.E. 1993a</li>
+		
+		<li>Keeley, J.E.;Keeley, S.C. 1977</li>
+		
+		<li>Keeley, J.E.;Keeley, S.C. 1988</li>
+		
+		<li>Keeley, J.E.;Zedler, P.H. 1978</li>
+		
+		<li>McMurray, N. 1990a</li>
+		
+		<li>Menke, J.;Reyes, E.;Hepburn, A.;Johnson, D.;Reyes, J. 2013</li>
+		
+		<li>Miller, P.C. 1982</li>
+		
+		<li>Mills, J.N. 1983</li>
+		
+		<li>Minnich, R.;Howard, L. 1984</li>
+		
+		<li>Moreno, J.M.;Oechel, W.C. 1991</li>
+		
+		<li>Moreno, J.M.;Oechel, W.C. 1992</li>
+		
+		<li>Moreno, J.M.;Oechel, W.C. 1993</li>
+		
+		<li>Pase, C.P. 1982a</li>
+		
+		<li>Patric, J.H.;Hanes, T.L. 1964</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Black, H.;Bleich, V.C.;Mincks, J.W. 1980</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Conrad, C.E. 1982</li>
+		
+		<li>Poole, D.K.;Miller, P.C. 1975</li>
+		
+		<li>Shiflet, T.N. 1994</li>
+		
+		<li>Tratz, W.M.;Vogl, R.J. 1977</li>
+		
+		<li>Vasek, F.C.;Clovis, J.F. 1976</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program);AIS, 2013</li>
+		
+		<li>Vogl, R.J.;Schorr, P.K. 1972</li>
+		
+		<li>White, S.D. 1994d</li>
+		
+		<li>Wilson, R.C.;Vogl, R.J. 1965</li>
+		
+		<li>Zammit, C.A.;Zedler, P.H. 1988</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/117/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

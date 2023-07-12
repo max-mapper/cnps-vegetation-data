@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Bidens cernua - Euthamia occidentalis - Ludwigia palustris</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Bidens</i> <i>cernua</i> - <i>Euthamia</i> <i>occidentalis</i> - <i>Ludwigia</i> <i>palustris</i></span> Herbaceous Alliance <br/>
+        <span class="subtitle">Nodding beggarticks - western goldentop - marsh seedbox mudflats</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Herb
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>-5-1400 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S4
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>GNR
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>CA, CO, ID, MO, NV, OR, UT, WA, WY (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2021/08/30
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/herb/artemisia%20douglasiana_centralvalley_03-2013.jpg', '/static/images/photos/herb/artemisia%20douglasiana_centralvalley_06-2012.jpg', '/static/images/photos/herb/artemisia%20douglasiana_centralvalley_06-2013.jpg', '/static/images/photos/herb/bidens-cernua_euthamia-occidentalis_marincofloodcontrol_marin410_11-19.jpg', '/static/images/photos/herb/bidens-cernua_euthamia-occidentalis_pescaderomarsh_smat0328_08-19.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Artemisia</i> <i>douglasiana</i>, <i>Bidens</i> <i>cernua</i>, <i>Bidens</i> <i>frondosa</i>, <i>Euthamia</i> <i>occidentalis</i>, <i>Grindelia</i> <i>camporum</i> and/or <i>Ludwigia</i> <i>palustris</i> and/or other seasonally wet forbs are dominant or co-dominant in the herbaceous layer with <i>Amaranthus</i> spp., <i>Baccharis</i> <i>douglasii</i>, <i>Eleocharis</i> spp., <i>Epilobium</i> spp., <i>Euphorbia</i> spp., <i>Gnaphalium</i> <i>palustre</i>, <i>Hirschfeldia</i> <i>incana</i>, <i>Hoita</i> <i>orbicularis</i>, <i>Mentha</i> <i>pulegium</i>, <i>Persicaria</i> <i>hydropiperoides</i>, <i>Phyla</i> <i>nodiflora</i>, <i>Rumex</i> spp., <i>Sagittaria</i> <i>latifolia</i>, <i>Typha</i> <i>domingensis</i> or <i>Urtica</i> <i>dioica</i>. Emergent trees and shrubs may be present at low cover, including <i>Rubus</i> <i>ursinus</i> and <i>Sambucus</i> <i>nigra</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Herbs < 3 m; cover is open to continuous. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Artemisia douglasiana</i> has >50% relative cover in the herbaceous layer, other forbs and grasses co-occur (Boul et al. 2021b, Buck-Diaz et al. 2012).</li>
+		
+		<li><i>Euthamia occidentalis, Hoita orbicularis, Baccharis douglasii (= B. glutinosa), Bidens</i> spp., and/or the native herb <i>Ludwigia palustris</i> > 50% relative cover in wetlands, or > 30% relative cover with emergent shrubs such as <i>Rubus ursinus</i> (Buck-Diaz et al. 2021, Sikes et al. 2021).</li>
+		
+		<li><i>Grindelia camporum</i> is characteristic in the herbaceous layer with variable cover, and other herbs may be present and dominant, including <i>Anthemis cotula, Bromus </i>spp., <i>Centromadia pungens, Distichlis spicata, Eryngium vaseyi, Hordeum </i>spp., <i>Lolium perenne, Medicago polymorpha</i>, and <i>Phyla nodiflora</i> (Buck-Diaz et al. 2012).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Marshes, wet meadows, mudflats, and ditches along low-gradient streams, shallow ponds, and depressional wetlands. Soil is alluvial, seasonally flooded to perennially saturated silt loam to clay. The USACE Wetland Inventory (2012 national list) recognizes <i>Euthamia occidentalis</i> as a FACW plant, and <i>Bidens cernua </i>and <i>Ludwigia palustris</i> as OBL plants. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Wet grasses and forbs
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Coastal and valley freshwater marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Freshwater marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Fresh emergent wetland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>42.205.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate and Boreal Shrubland and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate and Boreal Freshwater Marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North American Freshwater Marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Western North America Wet Meadow and Low Shrub Carr
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Californian warm temperate marsh/seep
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Bidens cernua</i> is an erect, perennial herb that bears yellow disk and ray flowers in late summer. This plant is widespread across the northern hemisphere in freshwater marshes and related habitats (Jepson eflora 2020). It is fairly easy to distinguish nodding nur-marigold from other<i> Bidens</i> spp. because of its undivided leaves and achenes with 4 awns (rarely fewer). To a limited extent, the seeds of <i>Bidens</i> spp. are eaten by various kinds of birds. The seeds of<i> Bidens </i>spp. are notorious for their ability to cling to the fur of animals, the feathers of birds, or the clothing of humans, by which means they are distributed far and wide.<br/>
+<br/>
+<i>Euthamia occidentalis</i> is a tall, perennial herb with flat-topped to panicle-like yellow, resinous inflorescences in late summer and early fall. Its distribution ranges from Canada to Baja California. Within California, <i>E. occidentalis</i> is found in a number of habitats from coastal marshes to inland streambanks and meadows (Jepson eflora 2020).<br/>
+<br/>
+<i>Ludwigia palustris</i> is a perennial, aquatic herb. Stems are long and spreading and root at the nodes, resulting in matted patches on wet substrates. It can also be found floating in still water at pond or lake margins, wet meadows and roadside ditches. Inconspicuous flowers occur in leaf axils along the stem. This plant can be highly variable across its nearly worldwide range (Jepson eflora 2020). <br/>
+<br/>
+<i>Artemisia douglasiana</i> is an aromatic, perennial herb in the sunflower family with erect stems 1-2 m tall that spread rhizomatously (Jepson eflora 2020). The leaf blades are green to grey-green, silvery-white underneath. The grey flowering heads are leafy-bracted panicles with inconspicuous flower heads in clusters. Bloom is from mid-spring through late fall. Mugwort is native to western North America and Baja California, Mexico. It is found along the Pacific coast primarily in riparian corridors up to 2,200 m in elevation (Tutka 2015). <i>A. douglasiana</i> is often found in the understory of tree-dominated riparian stands but will also form stands on its own and with other riparian forbs and grasses in diverse moist settings. <br/>
+<br/>
+<i>Grindelia camporum </i> is a perennial composite that can grow up to 2 m in height. Its erect branches are topped with large (up to 3 cm in diameter), yellow flower heads with phyllaries that often bend downward. The species can be found throughout California and into Baja California in sandy or saline bottomlands and along roadsides. <br/>
+<br/>
+This herbaceous alliance is found in the western U.S. and occurs in low-elevation marshes, meadows, and mudflats along low-gradient streams, shallow ponds, and depressional wetlands (NatureServe 2019). It is dominated by a mixture of low-growing herbs, prostrate forbs, drying aquatic plants, and taller perennial herbs. Specifically, these are species that can tolerate early-season flooding and summer drying that expose mudflats with subsurface moisture. Potentially dominant plants include <i>Amaranthus</i> ssp., <i>Artemisia douglasiana, Bidens cernua, B. frondosa, Eleocharis</i> spp., <i>Euphorbia</i> spp., <i>Euthamia occidentalis, Gnaphalium palustre, Hoita orbicularis, Ludwigia palustris, Persicaria hydropiperoides</i>, and <i>Sagittaria latifolia</i>, though many more species have been recorded. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Artemisia douglasiana</th>
+			
+		
+			
+			<th>Bidens cernua</th>
+			
+		
+			
+			<th>Bidens frondosa</th>
+			
+		
+			
+			<th>Euthamia occidentalis</th>
+			
+		
+			
+			<th>Grindelia camporum</th>
+			
+		
+			
+			<th>Ludwigia palustris</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Polycarpic perennial; winter deciduous</td>
+			
+		
+			
+			<td>Annual; herb</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Polycarpic perennial; herb; rhizomatous</td>
+			
+		
+			
+			<td>Perennial; herb</td>
+			
+		
+			
+			<td>Perennial; herb</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Long</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Long</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Short</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; gravity</td>
+			
+		
+			
+			<td>Wind; Gravity</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Wind; Gravity</td>
+			
+		
+			
+			<td>Wind</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>relatively cool temperatures/stratification-winter</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Stratification</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Underground structures</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Underground structures; rhizomes</td>
+			
+		
+			
+			<td>Underground structures</td>
+			
+		
+			
+			<td>Underground structures (stolons, rhizomes)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy;  high sprouter</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Fire-hardy</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>Life of plant</td>
+			
+		
+			
+			<td>Long-lived</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Long-lived</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Short-lived</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>High</td>
+			
+		
+			
+			<td>High</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Medium</td>
+			
+		
+			
+			<td>High</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Fluvial processes rather than fire influence the distribution and patterning of this alliance. However, the rhizomatous nature of <i>Euthamia occidentalis</i> and other forbs in this alliace enable them to regenerate quickly after disturbance, such as flooding or fire.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Aa, Ac, Af-l). Stands occur scattered in this section, including in marshes of San Mateo Co. (Sikes et al. 2021).</li>
+        
+            <li><b>Central California Coast Ranges</b> (M262Aa, Ae-f, Ah). Stands of <i>Artemisia douglasiana</i> (CalFlora 2017, Consortium of California Herbaria 2017) and <i>Euthamia occidentalis </i> (Consortium of California Herbaria 2017) probable in these subsections.</li>
+        
+            <li><b>Great Valley</b> (262Aa-m, Ao-u). Stands are dynamic in nature and small in size, such as in the Suisun Marsh (VegCAMP 2007b) and generally in the section (VegCAMP and GIC 2013). Where associations have been mapped, other sub-minimum mapping unit stands were present.</li>
+        
+            <li><b>Klamath Mountains</b> (M261Ac, Ai, Am, As). Stands of <i>Artemisia douglasiana</i> (CalFlora 2017) and <i>Euthamia occidentalis </i> (Consortium of California Herbaria 2017) probable in these subsections.</li>
+        
+            <li><b>Modoc Plateau</b> (M261Gi-j, Go-p). In this region, stands of this alliance have a shorter early season saturation period than typical of adjacent meadows of the <i>Juncus balticus - Juncus mexicanus</i> and the <i>Danthonia californica - Deschampsia cespitosa - Camassia quamash</i> wet meadow alliances. Stands of the <i>Bidens cernua - Euthamia occidentalis - Ludwigia palustris</i> alliance have similar hydrology to small, moist meadows of the <i>Lotus unifoliolatus</i> Provisional Alliance (Boul et al. 2021b).</li>
+        
+            <li><b>Mojave Desert</b> (322Aa). Stands of <i>Euthamia occidentalis </i> probable in this subsection (Consortium of California Herbaria 2017).</li>
+        
+            <li><b>Mono</b> (341Da, Dc, Dh-i). Stands of <i>Euthamia occidentalis </i> probable in these subsections (Consortium of California Herbaria 2017).</li>
+        
+            <li><b>Northern California Coast</b> (263Ae-m). Stands with various wet herbs occur in marshes, wet meadows, lake edges and floodplains, including <i>Bidens frondosa, Gnaphalium palustre, Mentha pulegium, Phyla nodiflora </i>among other mesic to wet forbs and grasses (Buck-Diaz et al. 2021).</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Ba-f). Stands of <i>Artemisia douglasiana</i> and <i>Euthamia occidentalis </i> probable in these subsections (Consortium of California Herbaria 2017).</li>
+        
+            <li><b>Northern California Interior Coast Ranges</b> (M261Ca-b). Stands of <i>Artemisia douglasiana</i> probable in these subsections (CalFlora 2017, Consortium of California Herbaria 2017).</li>
+        
+            <li><b>Sierra Nevada</b> (M261Ea-m, Ep-r, Et-u). Stands of <i>Artemisia douglasiana</i> probable in these subsections (J. Dittes, pers. comm., Consortium of California Herbaria 2017). Stands of <i>Euthamia occidentalis </i> likely in the Carson Range (Consortium of California Herbaria 2017).</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fa-e). Stands of <i>Artemisia douglasiana</i> probable in these subsections (CalFlora 2017, Consortium of California Herbaria 2017).</li>
+        
+            <li><b>Southeastern Great Basin</b> (341Fb). Stands of <i>Euthamia occidentalis </i> probable in this subsection (Consortium of California Herbaria 2017).</li>
+        
+            <li><b>Southern California Coast</b> (261Ba-j). Stands are uncommon; they have been mapped in the Ballona Wetlands (VegCAMP 2007a).</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Ba-o). Stands of <i>Artemisia douglasiana</i> probable in these subsections (CalFlora 2017, Consortium of California Herbaria 2017).</li>
+        
+            <li><b>Southern Cascades</b> (M261Dj, Dl-m). Stands of <i>Artemisia douglasiana</i> probable in these subsections along the Pitt River and tributaries (Consortium of California Herbaria 2017).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> This alliance was probably fairly widespread in lowlands of the West prior to flood control. Prolonged pooling in depressions and freshwater tidal flooding along streams helps to keep non-natives such as <i>Phalaris arundinacea</i> from invading stands (NatureServe 2019). <i>Euthamia occidentalis </i>and other forbs in this alliance can be used for streambank stabilization. 
+
+<i>Artemisia douglasiana</i> was highly esteemed by many California tribes, including for medicinal and ceremonial purposes. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Artemisia douglasiana [1], [2], [5]</li>
+                
+                    <li>Bidens frondosa [6], [7]</li>
+                
+                    <li>Euthamia occidentalis [3], [4]</li>
+                
+                    <li>Grindelia camporum [2]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Boul, R.;Keeler-Wolf, T.;Ratchford, J.;Haynes, T.;Hickson, D.;Yacoub, R.;Harbert, B.;Evens, J. 2021b</li>
+		
+		<li>[2] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>[3] Christy, J.A. 2004</li>
+		
+		<li>[4] Sikes, K.;Buck-Diaz, J.;Evens, J. 2021</li>
+		
+		<li>[5] VegCAMP (CDFW Vegetation Classification and Mapping Program),;GIC, 2013</li>
+		
+		<li>[6] Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>[7] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>California Native Plant Database, 2009</li>
+		
+		<li>CDFW (California Department of Fish and Wildlife),;NOAA, 2001</li>
+		
+		<li>Hilty, J. 2019</li>
+		
+		<li>Jepson Flora Project, 2004-present</li>
+		
+		<li>NatureServe, 2014+</li>
+		
+		<li>Poeton, L.;Holzman, B. 2005</li>
+		
+		<li>Tilley, D.;St. John, L. 2017</li>
+		
+		<li>Tutka, M. 2016</li>
+		
+		<li>UCB (University of California Berkeley), 2004-present</li>
+		
+		<li>USDA-NRCS (US Department of Agriculture - Natural Resource Conservation Service), 2021+</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/558/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

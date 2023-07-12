@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Tamarix spp.</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Tamarix</i> spp.</span> Shrubland Semi-Natural Alliance <br/>
+        <span class="subtitle">Tamarisk thickets</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>75-800 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>SNA
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>GNA
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: AZ, CA, CO, MT, NM, NV, OK, TX, UT, WY. Mexico (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                        <li>
+                            <span class="category">Invasive species rank</span>
+                            See remarks
+                        </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/tamarix-spp_carrizomarshanzaborrego_04-92.jpg', '/static/images/photos/shrub/tamarix-ssp_cachecrk_05-03_01.jpg', '/static/images/photos/shrub/tamarix-ssp_cachecrk_05-03_02.jpg', '/static/images/photos/shrub/tamarix-spp_coloradoriverindianreservation_02-12.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Tamarix</i> <i>ramosissima</i> or another <i>Tamarix</i> species is dominant in the shrub canopy. Emergent trees may be present at low cover, including <i>Populus</i> <i>fremontii</i> or <i>Salix</i> spp. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 8 m; canopy is continuous or open. Herbaceous layer is sparse. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Tamarix</i> spp. > 3% absolute cover and > 60% relative cover compared to other microphyllous trees or shrubs (Keeler-Wolf et al. 1998b).</li>
+		
+		<li><i>Tamarix</i> spp. > 60% relative cover in the shrub canopy with minor presence of native species (Klein and Evens 2005).</li>
+		
+		<li><i>Tamarix</i> spp. > 60% relative cover in the shrub or low tree canopy (Thomas et al. 2004, Keeler-Wolf et al. 2005).</li>
+		
+		<li><i>Tamarix</i> spp. > 75% relative cover in the shrub canopy (Evens and San 2005).</li>
+		
+		<li><i>Tamarix</i> spp. > 75% relative cover in the shrub canopy. Riparian woodland species can be emergent to shrub layer with cover < 5% (Menke and Johnson 2016)</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Arroyo margins, lake margins, ditches, washes, rivers, and other watercourses. The USFWS Wetland Inventory (1996 national list) recognizes <i>Tamarix parviflora</i> and <i>T. ramosissima</i> as a FAC plant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Tamarisk series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Tamarix spp. semi-natural temporarily flooded shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Tamarisk
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Tamarisk scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Desert riparian
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>63.810.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Tree Vegetation (Forest and Woodland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate Flooded and Swamp Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North America Warm Temperate Flooded and Swamp Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Southwestern North American Riparian, Flooded and Swamp Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Southwestern North American introduced riparian scrub
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> The genus <i>Tamarix </i>involves some 60 African and Eurasian species. Gaskin (2006; see the note at the Jepson Online Interchange http://ucjeps.berkeley.edu/ jepsonmanual/review/index) considers that five species grow in California: <i>T. aphylla, T. chinensis, T. gallica, T. parviflora, </i>and <i>T. ramosissima. </i>All are invasive to some degree (DiTomaso and Healy 2007, Lovich 2000). <br/>
+<br/>
+These species possess eco-physiological characteristics that make them remarkably formidable as invasive plants. They are long-lived shrubs or trees with extensive and deep root systems. They consume large quantities of water, possibly more than any other woody species in similar habitats, because they can obtain water at very low water potentials and have very high water-use efficiencies. They are highly tolerant of alkaline and saline habitats and can concentrate salts in their leaves. They have an advantage over native phreatophytes (e.g., cottonwoods and willows) in areas where salt levels are elevated or water tables depressed. Seeds germinate on saturated soil or while afloat; seedling establishment requires moist soil. Once established, they resist desiccation. Plants sprout from root crowns, and freshly detached stems will root in moist soil. They are unpalatable to livestock and wildlife. Identification at the specific level is difficult; congeners hybridize, and their ecologies are similar (Carpenter 2005, DiTomaso and Healy 2007, Lovich 2000). <br/>
+<br/>
+Tamarisk species have invaded the native vegetation in riparian areas where they develop dense, monospecific stands across floodplains, wetlands, and lake margins throughout the western United States. <i>T. parviflora, </i>smallflower tamarisk, has a Cal-IPC rank of High and CDFA rank B. It is a deciduous shrub to 5 m tall with small pink flowers, each with four sepals and petals. <i>T. ramosissima, </i>saltcedar, has a Cal-IPC rank of High and CDFA rank B. It is a deciduous shrub or tree to 8 m tall with white to pink flowers, each with four sepals and petals. <i>T. aphylla, </i>athel, has a Cal-IPC rank of Limited. It is a semi-evergreen or evergreen tree to 12 m tall with white to pale pink flowers, each with five sepals and petals. The leaves are scales that completely sheath the twigs, making them appear jointed. <i>T. chinensis </i>is a CDFA rank B. It is a shrub to 8 m tall with flower parts in fours. The leaves are awl-like <i>. T. gallica, </i>French tamarisk, is a CDFA rank B. It is a shub or tree to 5 m tall with flower parts in fives. The leaves are awl-like. See DiTomaso and Healy (2007) for further details. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Tamarix ramosissima</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text"><i>Tamarix </i>spp. vigorously sprout after fire, and they increase flowering and seed production after fire. Mixed riparian stands often change to tamarisk-dominated stands after fire (Brooks and Minnich 2006, Zouhar 2003b).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Ah). Regional experts noted that in the Salinas River watershed populations were increasing and not under management (Cal-IPC, 2018+)</li>
+        
+            <li><b>Central California Coast Ranges</b> (M262Ac-e, Ag, Aj-k). Stands were surveyed around streams in the Panoche Hills, along Los Gatos Creek and are known to be occasional along several streams in the section, such as along San Benito and Salinas rivers.  There are also stands along the Cuyama River and tributaries in the Caliente Range (VegCAMP, 2010).</li>
+        
+            <li><b>Colorado Desert</b> (322Ca-d). Plants grow in fan palm oases and in several wetlands in the section, including along washes in Anza-Borrego Desert State Park (Keeler-Wolf et al. 1998b). Concerted efforts over the last 20 years to remove stands in the state park have resulted in substantial reductions in acreage. There are many stands along the eastern edge of the Salton Sea and following the East Highline Canal.</li>
+        
+            <li><b>Great Valley</b> (262Aa-z). Stands are common along Stony Creek, Cache Creek, and other creeks in the section; they occur occasionally along the main stems of the Sacramento and San Joaquin rivers. They are also common along the canals associated with the Kern River (VegCAMP, 2013).</li>
+        
+            <li><b>Klamath Mountains</b> (M261Ai). Regional experts noted that near Shasta Lake populations were decreasing (Cal-IPC, 2018+)</li>
+        
+            <li><b>Mojave Desert</b> (322Ab-d, Af-i, Al-p). Stands occur along the Mojave River and at many springs throughout the section with <i>Senegalia greggii, Ambrosia salsola, Atriplex </i>spp.<i>, Populus fremontii, </i>or <i>Salix </i>spp. mixing with the tamarisk (Thomas et al. 2004).   Stands are have also been found at Joshua Tree National Park (Keeler-Wolf et al. 2005).They are also found along the Colorado River.</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Bb, Bf). Regional experts noted that around streams near Ukiah and in northeast Napa County populations were decreasing (Cal-IPC, 2018+)</li>
+        
+            <li><b>Northern California Interior Coast Ranges</b> (M261Ca-c). Stands occur throughout the section at low elevations, especially along Cache Creek in Colusa and Yolo Cos.; and Bear Creek in Napa County (Thorne et al, 2004).</li>
+        
+            <li><b>Sierra Nevada</b> (M261Er-s). Stands are found along Cache Creek and other streams surrounding Tehachapi (VegCAMP, 2015a).</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fa-e). Stands are sporadic along several foothill streams (Menke et al. 2011).</li>
+        
+            <li><b>Sonoran Desert</b> (322Ba-e). Stands are wide-ranging along the Colorado River and along other smaller stream courses and springs (Menke et al. 2013).</li>
+        
+            <li><b>Southeastern Great Basin</b> (341Fc). <i>Tamarix </i>spp. has been sampled in Death Valley NP, near Salt Lake</li>
+        
+            <li><b>Southern California Coast</b> (261Ba-g, Bi-j). Stands exist in the Los Angeles Basin along several creeks and rivers and repeatedly in disturbed habitats, such as along fluctuating lake margins and aqueducts. They also occur as dense stands in riparian habitats in western Riverside Co. (Klein and Evens 2005), central San Diego Co. (Evens and San 2005), and along the Santa Clara River (Stillwater Sciences and URS 2007) with <i>Baccharis salicifolia, Salix gooddingii, S. lasiolepis, </i>and various non-native plants including <i>Arundo donax.</i></li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Ba, Bj-l, Bn, Bp). Stands have been found along the San Dieguito River and tributaries, near Lake Matthews outside Perris, in the Oak Grove Valley north of Warner Springs. <i>Tamarix</i> spp. Have been seen along streams and washes, and are known from regional experts to be present and increasing in the streams around Ontario  (Cal-IPC, 2018+).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Tamarisk species are among the most invasive, widely distributed, and troublesome non-natives to infest the state’s wetlands. Multiple, interacting factors facilitate tamarisk invasion, including intentional planting for erosion control and windbreaks; land conversion to agriculture; reduced flood frequencies after damming rivers; changing and stabilizing water flows, times, and rates downstream from reservoirs; and increased salinity levels in the rivers from evaporation in the reservoirs (Everitt 1980). Tamarisk vigorously sprouts after fire, and plants increase flowering and seed production after fire. Mixed riparian stands often change to tamarisk-dominated stands after fires (Zouhar 2003b, Brooks and Minnich 2006). 
+
+Active programs to remove tamarisk are ongoing in the state (Lovich 2000). Discouraging tamarisk establishment by biological and mechanical control is the most effective method of control. Once established in large stands, control and eradication efforts are difficult and costly; many managers recommend integrated management approaches (Carpenter 2005, Lovich 2000, Zouhar 2003b). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Tamarix spp. [1], [2], [3], [4], [5], [6]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>[2] Evens, J.M.;Roach-McIntosh, D.;Stout, D. 2012</li>
+		
+		<li>[3] Evens, J.M.;Sikes, K.;Hastings, D.;Ratchford,J.S. 2014</li>
+		
+		<li>[4] Klein, A.;Crawford, J.;Evens, J.;Keeler-Wolf, T.;Hickson, D. 2007</li>
+		
+		<li>[5] CNPS Vegetation Program, 2015</li>
+		
+		<li>[6] Reyes, E.;Evens, J.;Fulton, J.;Sikes, K.; Johnson, D.;Keeler-Wolf, T.;Vu, S.;LaFever-Jackson, A. 2023 (in progress)</li>
+		
+		<li>Boul, R.;Hickson, D.;Keeler-Wolf, T.;Colletti, M.;Ougzin, A. 2018</li>
+		
+		<li>Brooks, M.L.;Minnich, R.A. 2006</li>
+		
+		<li>Buck-Diaz, J.;Evens, J. 2011b</li>
+		
+		<li>Cal-IPC, 2018+</li>
+		
+		<li>Carpenter, A.T. 2005</li>
+		
+		<li>DiTomaso, J.M.;Healy, E.A. 2007</li>
+		
+		<li>Evens, J.M.;Klein, A.;Taylor, J.;Hickson, D.;Keeler-Wolf, T. 2006</li>
+		
+		<li>Evens, J.;San, S. 2005</li>
+		
+		<li>Everitt, B.L. 1980</li>
+		
+		<li>Johnson, S. 1987</li>
+		
+		<li>Klein, A.;Evens, J. 2005</li>
+		
+		<li>Lovich, J. 2000</li>
+		
+		<li>Menke, J.;Johnson, D. 2016</li>
+		
+		<li>Menke, J.;Reyes, E.;Hepburn, A.;Johnson, D.;Reyes, J. 2013</li>
+		
+		<li>Neill, W.M. 1985</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Black, H.;Bleich, V.C.;Mincks, J.W. 1980</li>
+		
+		<li>Sproul, F.;Keeler-Wolf, T.;Gordon-Reedy, P.;Dunn, J.;Klein, A.;Harper, K. 2011</li>
+		
+		<li>Stillwater Sciences and URS, 2007</li>
+		
+		<li>Tesky, J.L. 1992g</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program), 2015a</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program);AIS, 2013</li>
+		
+		<li>Zouhar, K. 2003b</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/298/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

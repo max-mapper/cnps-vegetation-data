@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Rubus spectabilis - Morella californica</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Rubus</i> <i>spectabilis</i> - <i>Morella</i> <i>californica</i></span> Shrubland Alliance <br/>
+        <span class="subtitle">Salmonberry - Wax myrtle scrub</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-550 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G4
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA, OR (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2021/08/30
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/morella-californica_%20bodegabay_11-02_01.jpg', '/static/images/photos/shrub/morella-californica_jughandlestatereserve_mendoco_09-10.jpg', '/static/images/photos/shrub/morella-californica_ma-lel_dunes_humboldtco_02-12.jpg', '/static/images/photos/shrub/rubus-spectabilis_morella-californica_02pore_marin_07_2018.jpg', '/static/images/photos/shrub/rubus-spectabilis_morella-californica_03pore_marin_07_2018.jpg', '/static/images/photos/shrub/rubus-spectabilis_morella-californica_sanbrunomountainstatecountypark-smprd_04_2019.jpg', '/static/images/photos/shrub/rubus-spectabilis_marin065_ptreyes_abbottsl_07-18.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Morella</i> <i>californica</i>, <i>Rubus</i> <i>spectabilis</i> or <i>Sambucus</i> <i>racemosa</i> is dominant in the shrub layer with <i>Baccharis</i> <i>pilularis</i>, <i>Frangula</i> <i>californica</i>, <i>Holodiscus</i> <i>discolor</i>, <i>Lonicera</i> <i>involucrata</i>, <i>Ribes</i> <i>sanguineum</i>, <i>Rubus</i> <i>parviflorus</i>, <i>Rubus</i> <i>ursinus</i> and <i>Toxicodendron</i> <i>diversilobum</i>. The herbaceous layer is typically open including <i>Athyrium</i> <i>filix</i>-<i>femina</i>, <i>Carex</i> <i>obnupta</i>, <i>Heracleum</i> <i>maximum</i>, <i>Juncus</i> <i>effusus</i>, <i>Polystichum</i> <i>munitum</i>, <i>Pteridium</i> <i>aquilinum</i>, <i>Scirpus</i> <i>microcarpus</i>, <i>Scrophularia</i> <i>californica</i>, <i>Stachys</i> <i>ajugoides</i> and <i>Urtica</i> <i>dioica</i>. Emergent trees may be present at low cover, including <i>Picea</i> <i>sitchensis</i> or <i>Pinus</i> <i>contorta</i> ssp. <i>contorta</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 3 m; canopy is intermittent to continuous. Herbaceous layer is sparse. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Rubus spectabilis</i> > 50% relative cover in shrub canopy (Keeler-Wolf et al. 2003a).</li>
+		
+		<li><i>Rubus spectabilis, Morella californica, Lonicera involucrata, </i>and/or <i>Sambucus racemosa</i> > 30% relative cover in the shrub canopy (Buck-Diaz et al. 2021, Sikes et al. 2021).</li>
+		
+		<li><i>Rubus spectabilis </i>or <i>Morella californica</i> > 50% relative cover in the shrub canopy (Klein et al. 2015).</li>
+		
+		<li><i>Morella californica </i> > 50% relative cover in the shrub canopy (Keeler-Wolf et al. 2003a).</li>
+		
+		<li><i>Morella californica</i> or <i>Rubus spectabilis</i> > 30% relative cover in the shrub canopy on moist or wet soils (Buck-Diaz et al. 2020).</li>
+		
+		<li><i>Morella californica</i> or <i>Rubus spectabilis</i> > 30% relative cover in the shrub canopy (Buck-Diaz et al. 2021, Sikes et al. 2021).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Wet swales, low drainages and gullies, edges of lakes, lagoons and sag ponds, moist to wet foggy slopes, along creeks and other riparian areas. Soils are loamy sand to clay loam derived from marine sediments. The USACE Wetland Inventory (2018 national list) recognizes <i>Rubus spectabilis</i> as a FAC plant, <i>Morella californica</i> as a FACW plant, and <i>Sambucus racemosa</i> as a FACU plant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Salal-blackberry series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Morella californica shrubland alliance, Rubus spectabilis shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Riparian mixed shrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Northern coastal bluff scrub, North Coast riparian scrub, Central Coast riparian scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Northern coastal scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Coastal scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>63.910.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Tree Vegetation (Forest and Woodland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate Flooded and Swamp Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North America Flooded and Swamp Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Western Cordilleran montane-boreal riparian scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Vancouverian coastal riparian scrub
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Rubus spectabilis </i>is 2-4 m high with upright stature, compound deciduous leaves, magenta flowers, and salmon-colored raspberry-like fruits. The leaves and bark have an astringent quality. Plants are an important nectar and food source for wildlife, and an important food source for Native Americans (Stevens and Darris 2000).<br/>
+<br/>
+<i>Morella californica </i>is 2-3 (10) m high with simple, thick, evergreen leaves that are fragrant. It has separate staminate flowers in catkins with showy, red stamens and nondescript pistillate flowers that form nutlike, wax-coated purplish fruits which are clustered amongst leaves along the branches.  The wax is used to make aromatic candles. Seedlings have low vigor. The species cannot survive exposure to temperatures below - 6 °C and has low tolerance to drought and restricted water conditions. Plants grow best in full sun but can tolerate light shade (Favorite 2005b). Older manuals use <i>Myrica californica </i>for this wax myrtle.<br/>
+<br/>
+<i>Sambucus racemosa </i>is a tall, shrub to 6 m tall in height, with deciduous compound leaves, white clusters of flowers, and bright red berries. Plants grow best in full sun but are shade tolerant. While it is a circumpolar species, it is occasionally dominant or co-dominant in moist areas. Plants are a nectar and food source for wildlife (Gonzalves and Darris 2016).<br/>
+<br/>
+This alliance has been updated since the 2009 edition of the Manual of California Vegetation, combining stands of <i>R. spectabilis</i> and <i>Morella californica,</i> along with <i>Sambucus racemosa,</i> and other tall shrubs. Stands of this alliance often form dense clonal thickets along moist swales, margins of wetlands, seeps, foggy slopes, low drainages, and other wetland/riparian sites usually within 1-2 km of the Pacific coast of California and possibly Oregon. Stands are typically small (<2 ha), occurring on moist to wet soils with high water tables in this foggy coastal strip of the coast (NatureServe 2014). </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Morella californica</th>
+			
+		
+			
+			<th>Rubus spectabilis</th>
+			
+		
+			
+			<th>Sambucus racemosa</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Shrub</td>
+			
+		
+			
+			<td>Shrub; evergreen</td>
+			
+		
+			
+			<td>Shrub, tree; deciduous; rhizomatous</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Transient</td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+			
+			<td>Medium to long?</td>
+			
+		
+			
+			<td>Medium</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal</td>
+			
+		
+			
+			<td>Animal</td>
+			
+		
+			
+			<td>Animal; Water; Gravity</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>Stratification—summer, stratification—winter</td>
+			
+		
+			
+			<td>Scarification; Heat; Stratification - Summer + Winter (alternating)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Buds on large branches or trucks (stems); underground structures (root crown)</td>
+			
+		
+			
+			<td>Underground structures</td>
+			
+		
+			
+			<td>Underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+			
+			<td>Fire-hardy; low sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No </td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>5-50? years</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td>6 (2) - 100? years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>High</td>
+			
+		
+			
+			<td>Low to Medium?</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td>High</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Stands are not primarily disturbed by fire, but they may be susceptible to high-intensity fires. <i>Morella californica </i>is fire resistant, as it sprouts readily after fire from its root crown (Howell 1970, Holzman and Folger 2003).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Long
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Late summer-fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Small
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Low
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Low
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Surface-passive crown fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>North Coast
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Af, Ai-l). Stands generally exist on Montara Mountain in San Mateo Co. (CNDDB 2008) and at the San Francisco Presidio. Stands  of <i>Morella californica </i>are likely as far south as San Luis Obispo Co. based on plant collections (Jepson Flora Project 2021).</li>
+        
+            <li><b>Northern California Coast</b> (263Aa-b, Ad-e, Ag-l). Stands occur scattered along the North Coast from Marin Co. north to the Oregon border. At Point Reyes National Seashore they associate with stands of <i>Baccharis pilularis, Calamagrostis nutkaensis, </i>and <i>Carex obnupta, </i>alliances (Keeler-Wolf et al. 2003a). At Ring Mountain in Marin Co. they occur along intermittent streams adjacent to serpentine <i>Nassella pulchra </i>stands. Stands on the dunes west of Humboldt Bay mix with forests of <i>Picea sitchensis </i>and <i>Pinus contorta </i>ssp. <i>contorta.</i> Stands also exist in Mendocino Co., including Belinda Point Preserve (CNPS unpublished data 2020).</li>
+        
+            <li><b>Southern California Coast</b> (261Ba). Stands of <i>Morella californica </i>are likely, localized along marshes and creeks based on plant collections (Jepson Flora Project 2021).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Plants respond quickly to disturbance, including by basal sprouting and rhizomes, and they can stabilize soils and control erosion (Gonzalves and Darris 2016, Stevens and Darris 2000). Stands are often small, and individual plants grow in many coastal alliances. Seral relationships with other shrublands and wetlands dominated by <i>Carex obnupta, Salix lasiolepis, S. hookeriana, </i>and <i>Scirpus microcarpus </i>are complex and may have been influenced by past grazing, clearing, and in some cases fire.  Also, wind and salt spray effectively prune shrubs and trees found in the alliance, and <i>Morella </i>can form excellent hedges. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Morella californica - Rubus spp. [2], [3], [4], [5], [6], [7]</li>
+                
+                    <li>Rubus spectabilis [1], [2], [3], [4], [5]</li>
+                
+                    <li>Sambucus racemosa - (Rubus ursinus) [3], [7]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Belsher, J.B. 1999</li>
+		
+		<li>[2] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2020</li>
+		
+		<li>[3] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>[4] Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>[5] Keeler-Wolf, T .;Schirokauer, D.;Meinke, J.;van derLeeden, P. 2003a</li>
+		
+		<li>[6] VegCAMP (CDFW Vegetation Classification and Mapping Program), 2019</li>
+		
+		<li>[7] Sikes, K.;Buck-Diaz, J.;Evens, J. 2021</li>
+		
+		<li>CNDDB (California Natural Diversity Database), 2008+</li>
+		
+		<li>Favorite, J. 2005b</li>
+		
+		<li>Fryer, J.L. 2008b</li>
+		
+		<li>Gonzalves, P.;Darris, D. 2016</li>
+		
+		<li>Holzman, B.A.;Folger, K. 2003</li>
+		
+		<li>Howell, J.T. 1970</li>
+		
+		<li>Jepson Flora Project, 2004-present</li>
+		
+		<li>NatureServe, 2014+</li>
+		
+		<li>Stevens, M.;Darris, D.C. 2000</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/540/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

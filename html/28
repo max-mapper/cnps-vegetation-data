@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Calocedrus decurrens</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Calocedrus</i> <i>decurrens</i></span> Forest &amp; Woodland Alliance <br/>
+        <span class="subtitle">Incense cedar forest and woodland</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Tree
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>500-2100 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G4
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA, NV, OR (USDA Plants)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/tree/calocedrus-decurrens_snp_04-99_01.jpg', '/static/images/photos/tree/calocedrus-decurrens_trinityalps-longcanyon_07-04_01.jpg', '/static/images/photos/tree/calocedrus-decurrens_trinityalps-longcanyon_07-04_02.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Calocedrus</i> <i>decurrens</i> is dominant in the tree canopy . Other tree species present at low cover include <i>Abies</i> <i>concolor</i>, <i>Pinus</i> <i>contorta</i> ssp. <i>murrayana</i>, <i>Pinus</i> <i>coulteri</i>, <i>Pinus</i> <i>jeffreyi</i>, <i>Pinus</i> <i>lambertiana</i>, <i>Pinus</i> <i>ponderosa</i>, <i>Pseudotsuga</i> <i>menziesii</i>, <i>Quercus</i> <i>chrysolepis</i> and <i>Quercus</i> <i>kelloggii</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text"> Trees < 65 m; canopy is open to continuous. Shrubs are infrequent to common. Herbaceous layer is variable. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Calocedrus decurrens</i> > 50% relative cover in the tree canopy; there may be abundant <i>Quercus chrysolepis</i> and/or <i>Q. kelloggii</i> in the understory (Klein and Evens 2005, Evens and San 2005).</li>
+		
+		<li><i>Calocedrus decurrens</i> > 60% relative cover in the tree canopy; <i>Pinus jeffreyi</i>, <i>P. ponderosa</i>, and <i>Pseudotsuga menzeisii</i> are absent (Ratchford et al. 2022a).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Raised stream benches, terraces, around wet meadows, upper slopes, ridges.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Incense-cedar series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Calocedrus decurrens forest alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Incense-cedar
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Sierran mixed coniferous forest, Sierran white fir forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Yellow pine forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Sierran mixed conifer
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>85.100.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Tree Vegetation (Forest and Woodland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Cool Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North America Cool Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Californian-Vancouverian Montane and Foothill Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Californian montane conifer forest
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Calocedrus decurrens </i>is a conifer that attains 50 m in height and an age of over 500 years. Seed crops vary in 3-6 year cycles, with seed production lacking in some years. Seeds are wind dispersed. Germination is best under partial shade on fresh mineral soil or very light litter. Established seedlings are both shade and drought tolerant. Plants develop well when released. <i>C. decurrens </i>grows on a wide variety of parent materials. Trees grow fastest on deep, well-drained, productive sites, but they commonly occur on unproductive ones as well (Habeck 1992a, Powers and Oliver 1990). Plants can extract soil phosphorus and calcium and exclude surplus magnesium, allowing it to grow on ultramafic substrates (Alexander et al. 2007). <br/>
+<br/>
+Stands are characterized by a dominance of <i>C. decurrens </i> and do not include stands that have a mixed dominance of pines, Douglas fir, or alder. Stands with mixed dominance belong to the respective alliance of the codomiant species. Additional data and analysis is needed to better understand this alliance.<br/>
+<br/>
+The ecology of <i>C. decurrens </i>varies greatly among different sections. Much of the literature involves the role of <i>C. decurrens </i>and fire in the mixed-conifer forests of the montane Sierra Nevada (see the <i>Pinus ponderosa - Calocedrus decurrens - Pseudotsuga menziesii </i>alliance), but it may not apply to other sections. <i>C. decurrens </i>stands are often small and restricted and in a mosaic within stands of other forest alliances (Barbour et al. 2007a). Stands are often found near riparian areas, on serpentine soils, or on rocky outcrops protected from fire. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Calocedrus decurrens</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Tree; evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Transient</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Wind</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Stratification—winter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; thick epidermis; low flammability; canopy architecture resistant</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>20-500+ years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Episodic; high</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Saplings of <i>Calocedrus decurrens </i>are highly susceptible to even low-severity fires. Saplings have very flammable bark and foliage. Mature trees have a thick bark that protects them from ground fires. Moderate-to high-severity surface fires damage trunks, however, making trees prone to rots and root disease (Habeck 1992a, Powers and Oliver 1990). Riparian or semiriparian stands exist throughout its range and on fire-sheltered, moist sites that naturally favor this alliance. Fire histories are similar to that of other mid-elevation forest types. Underburning would allow older trees to survive repeated fires (Sugihara et al. 2007).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Short to medium (5-30 years)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Summer-early fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Small to medium
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low to moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Low to moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Low to moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Surface-passive crown fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Klamath, Cascade, and North Coast ranges; Modoc Plateau; Sierra Nevada and foothills; southern California
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+            <p><i>Calocedrus decurrens</i> stands are likely small and scattered throughout the range. Additional surveying and data are needed to better understand this alliance and its range extent in California.</p>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Aj). Scattered individual trees and groves occur near streams in the Santa Lucia Mountains.</li>
+        
+            <li><b>Central California Coast Ranges</b> (M262Ac). Scattered individual trees and groves occur at the higher elevations on serpentine substrates (Alexander et al. 2007). Evens et al. (2006) did not sample any during the San Benito Mountain study.</li>
+        
+            <li><b>Klamath Mountains</b> (M261Ac-g, Ai-j, Ap-u). Local and extensive stands occur on and off serpentine substrates, commonly at montane elevations on exposed ridges and at meadow margins (Sawyer 2007).</li>
+        
+            <li><b>Modoc Plateau</b> (M261Gf). The range of the alliance includes the higher elevations in the section (Griffin and Critchfield 1972). Isolated, upland stands, pure or mixed with <i>Abies concolor</i>, occur in the northern Warner Mountains .</li>
+        
+            <li><b>Northern California Coast</b> (263Ag). Scattered trees and small groves occur on serpentine substrates at even low elevations (Alexander et al. 2007, Sawyer 2007).</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Ba-b, Bf). At low elevations, individual trees and groves occur on serpentine substrates. Stands at Doll Basin RNA (Keeler-Wolf 1986b, see Cheng 2004) and in the Yolla Bolly Mountains (Keeler-Wolf and Keeler-Wolf 1974, Muldavin 1982) are among the largest known. They are adjacent to moist montane meadows and the southernmost stand of <i>Populus tremuloides</i> in the section.</li>
+        
+            <li><b>Sierra Nevada</b> (M261Ef-g, Em, Ep-q, Eu). Stands found in riparian settings in Yosemite National Park (Keeler-Wolf et al. 2003b). Stands in this region may be codominanting with white alder and belong to that alliance.</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fa-b). Stands sampled on serpentine soils in this region (Klein et al. 2007). Small stands may also occur at higher elevations in riparian settings.</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Ba, Be, Bh, Bm, Bo). Trees mix as a secondary component in several montane forest alliances, but groves and local stands do occur throughout the Transverse and Peninsular ranges (Minnich 2007). Descriptions exist for stands in the Hall Canyon RNA (Keeler-Wolf 1986c, see Cheng 2004), in the San Jacinto Mountains (Klein and Evens 2005), and for Volcan Mountain (Evens and San 2005).</li>
+        
+            <li><b>Southern Cascades</b> (M261Dd, Dj, Dl-m). Stands were surveyed in Lassen Volcanic National Park (NPS, 2016). Stands are expected elsewhere in the section, especially in the southern subsections (see Fites-Kaufman et al. 2007).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Fire exclusion has led to a buildup of fuels, an increase in stem density, and a change in composition in montane zones of California. Additionally, logging practices have selectively taken the large trees. Like fire exclusion, these practices encourage stands to change in composition toward shade-tolerant conifers, such as <i>Calocedrus decurrens </i>(Sugihura et al. 2007). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Calocedrus decurrens - Abies concolor / Senecio triangularis [5]</li>
+                
+                    <li>Calocedrus decurrens / Listera convallarioides [5]</li>
+                
+                    <li>Calocedrus decurrens - Quercus chrysolepis - Quercus kelloggii [1], [3]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Evens, J.;San, S. 2005</li>
+		
+		<li>[3] Klein, A.;Evens, J. 2005</li>
+		
+		<li>[5] Muldavin, E.H. 1982</li>
+		
+		<li>Alexander, E.B.;Coleman, R.G.;Keeler-Wolf, T.;Harrison, S. 2007</li>
+		
+		<li>Atzet, T.A.;White, D.E.;McCrimmon, L.A.;Martinez, P.A.;Fong, P.R.;Randall, V.D. 1996</li>
+		
+		<li>Barbour, M.G. 1988</li>
+		
+		<li>Barbour, M.G.;Keeler-Wolf, T.;Schoenherr, A.A. 2007a</li>
+		
+		<li>Brooks, R.R. 1987</li>
+		
+		<li>Coleman, R.G.;Kruckeberg, A.R. 1999</li>
+		
+		<li>Griffin, J.R.;Critchfield, W.B. 1972</li>
+		
+		<li>Kruckeberg, A.R. 1984</li>
+		
+		<li>Powers, R.F.;Oliver, W.W. 1990</li>
+		
+		<li>Sawyer, J.O. 2007</li>
+		
+		<li>Sugihara, N.G.;van Wagtendonk, J.W.;Shaffer, K.E.;Fites-Kaufman, J.;Thode, A.E. 2006</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/28/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

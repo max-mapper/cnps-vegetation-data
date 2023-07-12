@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Quercus chrysolepis (tree)</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Quercus</i> <i>chrysolepis</i> (<i>tree</i><span style="padding-left: .2em">)</span></span> Forest &amp; Woodland Alliance <br/>
+        <span class="subtitle">Canyon live oak forest and woodland</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Tree
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>450-2000 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S5
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G5
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA, OR?. Baja California, Mexico (TJM2)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>Yes
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/tree/quercus-chrysolepis_esierranevada.jpg', '/static/images/photos/tree/quercus-chrysolepis_granitemnts_01.jpg', '/static/images/photos/tree/quercus-chrysolepis_hwy36_08-10_01.jpg', '/static/images/photos/tree/quercus-chrysolepis_indians_04-02_01.jpg', '/static/images/photos/tree/quercus-chrysolepis_indians_04-02_02.jpg', '/static/images/photos/tree/quercus-chrysolepis_providencemnts_01.jpg', '/static/images/photos/tree/quercus-chrysolepis_providencemnts_02.jpg', '/static/images/photos/tree/quercus-chrysolepis_yosemitevalley_09-09_01.jpg', '/static/images/photos/tree/quercus-chrysolepis_yosemitevalley_09-09_02.jpg', '/static/images/photos/tree/quercus-chrysolepis_nearmagalia_04-13_01.jpg', '/static/images/photos/tree/quercus-chrysolepis_sforkmercedriver_04-11.jpg', '/static/images/photos/tree/quercus-chrysolepis-tree_san-mateo-skyline-blv_04-2021_01.jpg', '/static/images/photos/tree/quercus-chrysolepis-tree_san-mateo-skyline-blv_04-2021_02.jpg', '/static/images/photos/tree/quercus-chrysolepis-tree_san-mateo-skyline-blv_04-2021_03.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Quercus</i> <i>chrysolepis</i> is dominant or co-dominant in the tree canopy with <i>Abies</i> <i>concolor</i>, <i>Acer</i> <i>macrophyllum</i>, <i>Arbutus</i> <i>menziesii</i>, <i>Calocedrus</i> <i>decurrens</i>, <i>Notholithocarpus</i> <i>densiflorus</i>, <i>Pinus</i> <i>coulteri</i>, <i>Pinus</i> <i>lambertiana</i>, <i>Pinus</i> <i>monophylla</i>, <i>Pinus</i> <i>ponderosa</i>, <i>Pseudotsuga</i> <i>macrocarpa</i>, <i>Pseudotsuga</i> <i>menziesii</i>, <i>Quercus</i> <i>garryana</i> var. <i>garryana</i>, <i>Quercus</i> <i>kelloggii</i>, <i>Quercus</i> <i>wislizeni</i> and <i>Umbellularia</i> <i>californica</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text"> Trees < 30 m tall; canopy is open (greater than 10%) to continuous, may be one or two tiered. Shrub layer is sparse to intermittent. Herbaceous layer is sparse. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Quercus chrysolepis</i> > 50% relative cover in tree canopy; conifers may be emergent and sub-dominant (Keeler-Wolf et al. 2003b, Klein and Evens 2005, Evens et al. 2006)</li>
+		
+		<li><i>Quercus chrysolepis</i> is > 50% relative cover in the tree canopy, or > 30% relative cover with <i>Arbutus menziesii</i> or <i>Umbellularia californica</i> (Buck-Diaz et al. 2021, Sikes et al. 2021).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Stream benches and terraces in canyon bottoms near streams; upland slopes on steep, shallow, rocky, infertile soils.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Canyon live oak series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Quercus chrysolepis forest alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Canyon live oak
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Canyon live oak ravine forest, Canyon live oak forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Mixed evergreen forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Montane hardwood
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>71.050.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Tree Vegetation (Forest and Woodland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Warm Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Madrean Forest and Woodland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>California Forest and Woodland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Californian broadleaf forest and woodland
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Quercus chrysolepis, </i>a long-lived evergreen tree or shrub, is the most common and widespread hardwood in the state. Trees are reproductive in 15 to 20 years with mast years of acorn crops on a 2- to 4-year cycle. Acorns are dispersed a short distance by gravity and longer distances by small mammals and birds that cache them. Germination occurs in early spring, roots penetrate moist soil rapidly, and survival is high under shade. Competition from grass can cause a complete failure in dry years. Plants are shade tolerant and have a higher degree of drought tolerance than associated oaks. Most stands free of recent major disturbance have trees of all sizes and all ages (Tirmenstein 1989b, Thornburgh 1990b). <br/>
+<br/>
+<i>Quercus chrysolepis </i>grows on the east side of the Sierra Nevada, in the Mojave Desert, and in most of cismontane California typically at middle and upper elevations (Griffin and Critchfield 1972). Plants are present in many alliances and it shares dominance with several other tree species in this alliance (Allen-Diaz et al. 2007). If the stand is composed of shrubs of <i>Q. chrysolepis, </i>then see the <i>Quercus chrysolepis </i> - <i>Quercus wislizeni </i>shrubland alliance. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Quercus chrysolepis</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Trees, shrubs; evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Transient</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; gravity</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy to fire-sensitive; high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>15-300+ years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Low to medium</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Fire frequencies and intensities vary in vegetation with high <i>Quercus chrysolepis </i>cover. Plants typically sprout prolifically after fires from dormant buds under tree bark and root crowns. Older, less vigorous trees may produce fewer or no sprouts. Frequent crown fires promote multi-stemmed shrubs. Once protected from fire, plants revert to trees and stem density declines during the fire-free period. Many sites with trees are xeric and rocky, with little or no understory and surface fuel. Canyon bottoms or open higher elevation stands receive less fire (Tirmenstein 1989b). Stands that border chaparral sustain crown fire and tend to shrubby; these stands are part of the <i>Quercus chrysolepis </i>shrubland alliance.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Medium (5-100+ years)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Summer-early fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Medium
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Moderate to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Low to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Low to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Surface-passive crown to passive-active crown
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Cismontane California
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Ac, Af-g, Aj-k). Stands occur in the higher elevation mountains, usually well above the average summer fog layer.</li>
+        
+            <li><b>Central California Coast Ranges</b> (M262Aa-f, Aj). Stands are common at higher elevations at Big Pine Mountain cRNA and Cone Peak Gradient RNA (Cheng 2004), in the inner Coast Ranges near Mount San Benito off serpentine (Evens et al. 2006a), and in the Santa Lucia Mountains (Borchert et al. 2004, Campbell 1980, Talley 1974).</li>
+        
+            <li><b>Great Valley</b> (262Ag). No description available</li>
+        
+            <li><b>Klamath Mountains</b> (M261Aa-f, Ah-s, Au). Stands are common at low elevations throughout the section including Bridge Creek cRNA, Devil’s Rock Hosselkus RNA, and Specimen Creek study area (Cheng 2004). Stands are often associated with the <i>Pseudotsuga menziesii-Quercus chrysolepis</i> associations in the <i>Pseudotsuga menziesii</i> alliance. Lee (2004) identified eight associations at Whiskeytown National Recreation Area ranging from mesic to dry and exposed sites.</li>
+        
+            <li><b>Mojave Desert</b> (322Aa, Ag, Al). Stands occupy a few canyons in the eastern subsections above 1400 m in canyon bottoms well protected from fire (Griffin and Critchfield 1972). The association with <i>Rhamnus ilicifolia</i> is rare, probably covering less than 400 ha (Evens 2000).</li>
+        
+            <li><b>Northern California Coast</b> (263Ad, Af-g, Ai, Ak-m). Stands approach the coastline north of the range of <i>Q. agrifolia</i> and <i>Q. wislizeni</i> in the King Range south of Cape Mendocino. Stands at higher elevations on Mount Tamalpais had mixed tree canopies (Evens and Kentner 2006).</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Ba-f). Stands are common at middle elevations throughout the section including Devil’s Basin rRNA (Newton 1987a, see Cheng 2004) and in the Snow Mountain area (Gray 1978). Stands are often associated with the <i>Pseudotsuga menziesii-Quercus chrysolepis</i> associations in the <i>Pseudotsuga menziesii</i> alliance.</li>
+        
+            <li><b>Northern California Interior Coast Ranges</b> (M261Ca). Stands are common at middle elevations in the section. They are often associated with the <i>Pseudotsuga menziesii-Quercus chrysolepis</i> associations in the<i> Pseudotsuga menziesii</i> alliance.</li>
+        
+            <li><b>Sierra Nevada</b> (M261Ef-g, Em, Eo-s, Eu). Stands are common at lower montane elevations at Peavine Point RNA (Taylor and Randall 1977, see Cheng 2004), in the Middle Yuba River watershed (Gudmonds and Barbour 1987). Stands in Yosemite National Park (Keeler-Wolf et al. 2003b) vary from moist, semiriparian ones with<i>Calocedrus decurren</i>s and <i>Umbellularia californica</i> to xeric stands with <i>Arctostaphylos patula</i> or <i>A. viscida.</i> Myatt (1980) interprets moisture relations in Sierra Nevada trees.</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fa-e). Stands occur throughout the section in more sheltered and rocky sites, and range south to the Tehachapi Range (Twisselmann 1967). Klein et al. (2007) found nine different associations of the alliance in the northern and central subsections varying in character from semi-riparian to xeric and rocky.</li>
+        
+            <li><b>Southern California Coast</b> (261Bb). Stands occur in the Santa Ynez Mountains (C. Smith 1998a).</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Ba-h, Bl-p). Stands are common at middle elevations at Fern Canyon, Hall Canyon, and Millard Canyon RNAs (Cheng 2004) and more generally in the Transverse Ranges (Minnich 1976, 1980b, White and Sawyer 1995). Stands in the Peninsular Ranges occur at King Creek RNA (Reveal 1978, see Cheng 2004) and at montane elevations in Riverside and San Diego Cos. (Klein and Evens 2005, Evens and San 2005).</li>
+        
+            <li><b>Southern Cascades</b> (M261Dg, Dj, Dl-m). Stands are common at lower montane elevations as at the Iron Mountain cRNA (Taylor and Randall 1978, see Cheng 2004).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Early California settlers commonly used <i>Quercus chrysolepis </i>for farm implements, shipbuilding, furniture, and fuel. The common name of maul oak came from its use as a splitting maul (Thornburgh 1990b). These forests are habitat and acorns provide food for a large variety of wildlife. In a study at Whiskeytown National Recreation Area, Bradley et al. (2006) found that <i>Q. chrysolepis </i>is quite sensitive to low-intensity spring burns used to reduce surface fuels. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+                <p>Stands Lacking a Well-Developed Shrub Layer</p>
+            
+            <ul class="text">
+                
+                    <li>Quercus chrysolepis / Polystichum imbricans [14], [15]</li>
+                
+                    <li>Quercus chrysolepis tree [4], [9], [10], [11], [13], [18], [21], [24], [25]</li>
+                
+            </ul>
+        
+            
+                <p>Stands with a Mixed Tree Canopy</p>
+            
+            <ul class="text">
+                
+                    <li>Quercus chrysolepis - Arbutus menziesii - Notholithocarpus densiflorus var. densiflorus [2], [5], [20], [26]</li>
+                
+                    <li>Quercus chrysolepis / Calycanthus occidentalis - Vitis californica [11]</li>
+                
+                    <li>Quercus chrysolepis - Pinus jeffreyi [10]</li>
+                
+                    <li>Quercus chrysolepis - Pinus lambertiana [1], [6]</li>
+                
+                    <li>Quercus chrysolepis - Pinus ponderosa [5], [9], [11], [15]</li>
+                
+                    <li>Quercus chrysolepis - Pinus sabiniana [9], [12], [25]</li>
+                
+                    <li>Quercus chrysolepis - Quercus garryana var. garryana / Pentagramma triangularis [14]</li>
+                
+                    <li>Quercus chrysolepis - Quercus kelloggii [11], [12]</li>
+                
+                    <li>Quercus chrysolepis / Quercus (wislizeni, parvula) [11], [20], [23], [25], [26], [27]</li>
+                
+                    <li>Quercus chrysolepis - Umbellularia californica [5], [9], [11], [17], [22], [26], [27]</li>
+                
+            </ul>
+        
+            
+                <p>Stands with a Well-Developed Shrub Layer</p>
+            
+            <ul class="text">
+                
+                    <li>Quercus chrysolepis / Arctostaphylos mewukka [16]</li>
+                
+                    <li>Quercus chrysolepis / Arctostaphylos patula [9], [12], [22]</li>
+                
+                    <li>Quercus chrysolepis / Arctostaphylos viscida [9], [11], [12]</li>
+                
+                    <li>Quercus chrysolepis / Ceanothus integerrimus [7], [8]</li>
+                
+                    <li>Quercus chrysolepis / Notholithocarpus densiflorus var. echinoides [12]</li>
+                
+                    <li>Quercus chrysolepis / Rhamnus ilicifolia [3], [19]</li>
+                
+                    <li>Quercus chrysolepis / Styrax redivivus [12]</li>
+                
+                    <li>Quercus chrysolepis / Toxicodendron diversilobum [12]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Barbour, M.G. 1988</li>
+		
+		<li>[2] Campbell, B. 1980</li>
+		
+		<li>[3] Evens, J.M. 2000</li>
+		
+		<li>[4] Evens, J.M.;Klein, A.;Taylor, J.;Hickson, D.;Keeler-Wolf, T. 2006</li>
+		
+		<li>[5] Evens, J.M.;Kentner, E. 2006</li>
+		
+		<li>[6] Griffin, J.R. 1976a</li>
+		
+		<li>[7] Keeler-Wolf, T. 1986c</li>
+		
+		<li>[8] Keeler-Wolf, T. 1988e</li>
+		
+		<li>[9] Keeler-Wolf, T.;Schindel, M.;San, S.;Moore, P.;Hickson, D. 2003b</li>
+		
+		<li>[10] Klein, A.;Evens, J. 2005</li>
+		
+		<li>[11] Klein, A.;Crawford, J.;Evens, J.;Keeler-Wolf, T.;Hickson, D. 2007</li>
+		
+		<li>[12] Lee, C. 2004</li>
+		
+		<li>[13] Meier, L. 1979</li>
+		
+		<li>[14] Sawyer, J.O.;Stillman, K.T. 1977</li>
+		
+		<li>[15] Sawyer, J.O.;Stillman, K.T. 1978</li>
+		
+		<li>[16] Taylor, D.W.;Randall, D.C. 1977</li>
+		
+		<li>[17] Keeler-Wolf, T .;Schirokauer, D.;Meinke, J.;van derLeeden, P. 2003a</li>
+		
+		<li>[18] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>[19] Evens, J.M.;Sikes, K.;Hastings, D.;Ratchford,J.S. 2014</li>
+		
+		<li>[20] Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>[21] AECOM, 2013</li>
+		
+		<li>[22] NPS-SEKI, 2009</li>
+		
+		<li>[23] VegCAMP (CDFW Vegetation Classification and Mapping Program), 2015a</li>
+		
+		<li>[24] Evens, J.;San, S. 2005</li>
+		
+		<li>[25] Reyes, E.;Evens, J.;Glass, A.;Sikes, K.;Keeler-Wolf., T.;Winitsky, S.;Johnson, D.;Menke, J.;Hepburn, A. 2020a</li>
+		
+		<li>[26] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>[27] Sikes, K.;Buck-Diaz, J.;Evens, J. 2021</li>
+		
+		<li>Allen-Diaz, B.H.;Standiford, R.;Jackson, R.D. 2007</li>
+		
+		<li>Borchert, M. 1987</li>
+		
+		<li>Borchert, M.;Hibberd, M. 1984</li>
+		
+		<li>Cooper, W.S. 1922</li>
+		
+		<li>Mallory, J.I. 1980</li>
+		
+		<li>McDonald, P.M.;Minore, D.;Atzet, T. 1983</li>
+		
+		<li>Menke, J.;Reyes, E.;Hepburn, A.;Johnson, D.;Reyes, J. 2013</li>
+		
+		<li>Minnich, R.A. 1976</li>
+		
+		<li>Minnich, R.A. 1980b</li>
+		
+		<li>Minnich, R.A. 1987</li>
+		
+		<li>Myatt, R.C. 1980</li>
+		
+		<li>Pavlik, B.M.;Muick, P.C.;Johnson, S.G.;Popper, M. 1991</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Black, H.;Bleich, V.C.;Mincks, J.W. 1980</li>
+		
+		<li>Sawyer, J.O.;Thornburgh, D.A.;Griffin, J.R. 1977</li>
+		
+		<li>Shreve, F. 1927</li>
+		
+		<li>Thomas, K.;Franklin, J.;Keeler-Wolf, T.;Stine, P. 2004</li>
+		
+		<li>Thornburgh, D.A. 1990b</li>
+		
+		<li>Tirmenstein, D. 1989d</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program);AIS, 2013</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/79/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

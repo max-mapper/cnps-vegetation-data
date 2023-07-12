@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Baccharis emoryi - Baccharis sergiloides</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Baccharis</i> <i>emoryi</i> - <i>Baccharis</i> <i>sergiloides</i></span> Shrubland Alliance <br/>
+        <span class="subtitle">Emory&#39;s and Broom baccharis scrub</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>100-1800 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G4
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: AZ, CA, NM, NV, TX?, UT (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2016/11/21
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/baccharis-emoryi_darwincyn_04-95_01.jpg', '/static/images/photos/shrub/baccharis-sergiloides_willowspr_11-95.jpg', '/static/images/photos/shrub/baccharis-sergiloides_providencemtns_02.jpg', '/static/images/photos/shrub/baccharis-sergiloides_providencemtns_01.jpg', '/static/images/photos/shrub/baccharis-sergiloides_granitemtns_1997_01.jpg', '/static/images/photos/shrub/baccharis-sergiloides_granitemtns_04-05_02.jpg', '/static/images/photos/shrub/baccharis-sergiloides_granitemtns_04-05_01.jpg', '/static/images/photos/shrub/baccharis-sergiloides_granitemtns_02.jpg', '/static/images/photos/shrub/baccharis-sergiloides_granitemtns_01.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Baccharis</i> <i>emoryi</i> or <i>Baccharis</i> <i>sergiloides</i> is dominant or co-dominant in the shrub canopy with <i>Ambrosia</i> <i>salsola</i>, <i>Artemisia</i> <i>ludoviciana</i>, <i>Atriplex</i> <i>polycarpa</i>, <i>Cylindropuntia</i> <i>acanthocarpa</i>, <i>Ericameria</i> <i>linearifolia</i>, <i>Eriogonum</i> <i>fasciculatum</i>, <i>Gutierrezia</i> <i>microcephala</i>, <i>Larrea</i> <i>tridentata</i>, <i>Lotus</i> <i>rigidus</i>, <i>Prunus</i> <i>fasciculata</i>, <i>Rhus</i> <i>trilobata</i>, <i>Senegalia</i> <i>greggii</i> or <i>Tamarix</i> <i>ramosissima</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 5 m; canopy is sparse to continuous. Herbaceous layer is sparse to intermittent. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Baccharis sergiloides</i> > 3% absolute cover in the shrub canopy, and > 50% relative cover in the overstory as the dominant shrub (Evens 2000, Thomas et al. 2004).</li>
+		
+		<li><i>Baccharis sergiloides</i> or <i>Baccharis emoryi</i> > 30% relative cover in the shrub canopy (Evens et al. 2014).</li>
+		
+		<li><i>Baccharis emoryi</i> > 3% absolute cover in the shrub canopy, and exceeds any other shrub in cover (Keeler-Wolf et al. 1998b).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Arroyos, canyon bottoms, springs, washes. Soil textures are gravelly sands and sandy loam surrounding boulders and bedrock, with soils seasonally saturated and intermittently flooded. The USFWS Wetland Inventory (2012 national list) recognizes <i>Baccharis sergiloides</i> as a FAC or FACU plant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Baccharis emoryi seasonally flooded shrubland alliance, Baccharis sergiloides intermittently flooded shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Cheesebush (Burrobush), Baccharis (riparian)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Mulefat scrub, Mojave desert wash scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Creosote bush, Joshua tree woodland, Pinyon-juniper woodland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Desert wash
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>63.550.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Tree Vegetation (Forest and Woodland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate Flooded and Swamp Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North America Warm Temperate Flooded and Swamp Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Southwestern North American Riparian, Flooded and Swamp Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Southwestern North American riparian/wash scrub
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Baccharis emoryi </i>is an evergreen shrub with oblanceolate to obovate leaves that have widely spaced lobes and shiny upper surfaces. Plants appear as if they were a blend of <i>Baccharis pilularis </i>and <i>B. salicifolia. </i>Plants have composite heads with cream-colored flowers throughout the year. Like other <i>Baccharis, </i>staminate and pistillate heads are found on different plants, and seeds have long, feathery, white bristles and are wind dispersed (Hickman 1993). Some floras consider this taxon a synonym of <i>Baccharis salicina </i>(UCB 2017).<br/>
+<br/>
+<i>Baccharis sergiloides </i>is a short-lived shrub that requires relatively high subsurface moisture. Environmental conditions overlap those of <i>Salix exigua</i>. Little literature exists on its ecology. As with <i>B. pilularis, </i>it sprouts following disturbance and does not attain great age. Shrubs produce abundant, wind-dispersed seeds with substantial pappus bristles. <br/>
+<br/>
+The alliance occurs as open stands to dense thickets. Stands are typically small and occupy intermittently to seasonally flooded stretches of desert canyon bottoms and streams, or borders of springs and seeps. Boulders and bedrock often break up the stands although the rooting substrate is typically relatively fine to gravelly sand (Evens 2000).  The two indicator species of the alliance were previously viewed as separate alliances in the 2009 version of this classification, but more recently have been combined because of overlapping characteristics. More sampling is needed, though, to determine association level variation of <i>Baccharis emoryi </i>stands. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Baccharis emoryi</th>
+			
+		
+			
+			<th>Baccharis sergiloides</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Shrub; evergreen</td>
+			
+		
+			
+			<td>Shrub</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Transient</td>
+			
+		
+			
+			<td>Transient</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+			
+			<td>Short</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Wind</td>
+			
+		
+			
+			<td>Wind</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>Inundation (high moisture)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Buds on large branches or trunks (above-ground branches)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-sensitive; high sprouter</td>
+			
+		
+			
+			<td>Fire-sensitive; high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>3-50? years</td>
+			
+		
+			
+			<td>5?-70? years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>High; episodic</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Mojave Desert</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Fluvial processes rather than fire primarily disturb stands. <i>Baccharis sergiloides </i> and <i>B. emoryi </i>can sprout after disturbance, but we lack information on the alliance's response to fire.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+            <p>The range of <i>Baccharis sergiloides</i> includes the Colorado Desert (322C), the eastern lower slopes of the Sierra Nevada (M261Es), and the Sonoran Desert (322B). Also, the range of <i>Baccharis emoryi</i> is wider across southern California than is currently noted for the alliance, including the Sonoran Desert. More sampling is needed to determine full range of the alliance.</p>
+        
+
+        <ul class="text">
+        
+            <li><b>Colorado Desert</b> (322Cb). Stands of <i>Baccharis emoryi</i> have been mapped rarely in the region, including along Fish Creek Wash in Anza-Borrego Desert State Park (Keeler-Wolf et al. 1998b).</li>
+        
+            <li><b>Mojave Desert</b> (322Aa-d, Af, Ah-j, Al, An, Ap). Stands of <i>Baccharis sergiloides</i> are common in moist canyon bottoms, seeps, and springs especially in the mountains of the eastern subsections (Evens 2000, Thomas et al. 2004). The alliance is scattered throughout the Mojave National Preserve in the Granite, Providence and New York Mountains, and in Death Valley National Park in the Valley and Funeral Mountains (Evens et al. 2014). In addition, observations of small stands of <i>B. emoryi</i> include the northern and central Mojave Desert. The alliance occurs more sporadically in the western subsections.</li>
+        
+            <li><b>Southeastern Great Basin</b> (341Fb-f). Stands of <i>Baccharis sergiloides</i> occur in the Coso, Inyo,  Panamint, and Grapevine Mountains (Thomas et al. 2004, Evens et al. 2014). Additionally, stands of <i>Baccharis emoryi </i> have been observed in the Argus and Panamint Ranges.</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Bi, Bk, Bp). Stands are found in moist canyon bottoms, seeps, and springs in the desert-facing subsections with <i>Baccharis emoryi </i>(Keeler-Wolf et al. 1998). Closer to the coast the similar <i>Baccharis sarothroides</i> occupies intermittent stream channels. Stands of <i>B. emoryi</i> are also found near Lake Matthews in western Riverside Co. (Klein and Evens 2005).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text">  </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Baccharis emoryi [3], [6]</li>
+                
+                    <li>Baccharis sergiloides [5], [7], [8]</li>
+                
+                    <li>Baccharis sergiloides / (Muhlenbergia rigens - Typha domingensis) [1], [2], [5], [8]</li>
+                
+                    <li>Baccharis sergiloides - Prunus fasciculata - Rhus trilobata [1], [3], [4], [5], [7], [8]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Evens, J.M. 2000</li>
+		
+		<li>[2] Keeler-Wolf, T.;Thomas, K. 2000</li>
+		
+		<li>[3] Keeler-Wolf, T.;Roye, C.;Lewis, K. 1998b</li>
+		
+		<li>[4] Keeler-Wolf, T. 2007b</li>
+		
+		<li>[5] Evens, J.M.;Sikes, K.;Hastings, D.;Ratchford,J.S. 2014</li>
+		
+		<li>[6] Klein, A.;Evens, J. 2005</li>
+		
+		<li>[7] Reyes, E.;Evens, J.;Glass, A.;Sikes, K.;Keeler-Wolf., T.;Winitsky, S.;Johnson, D.;Menke, J.;Hepburn, A. 2020a</li>
+		
+		<li>[8] Reyes, E.;Evens, J.;Fulton, J.;Sikes, K.; Johnson, D.;Keeler-Wolf, T.;Vu, S.;LaFever-Jackson, A. 2023 (in progress)</li>
+		
+		<li>Beatley, J.C. 1976</li>
+		
+		<li>Hightower, S. 2016</li>
+		
+		<li>Keil, D. J. 1993</li>
+		
+		<li>Menke, J.;Reyes, E.;Hepburn, A.;Johnson, D.;Reyes, J. 2013</li>
+		
+		<li>NPS (National Park Service), 2005</li>
+		
+		<li>Shanfield, A.N. 1984
+1984</li>
+		
+		<li>Thomas, K.;Franklin, J.;Keeler-Wolf, T.;Stine, P. 2004</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program);AIS, 2013</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/527/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

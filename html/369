@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Centaurea (virgata)</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+	<div class="allianceHeader">
+		<span class="scientificName"><i>Centaurea</i> (<i>virgata</i><span style="padding-left: .2em">)</span></span> Provisional Herbaceous Semi-Natural Alliance <br/>
+		<span class="subtitle">Knapweed and purple-flowered star-thistle fields</span>
+	</div>
+
+	<div class="mainAllianceInfo">
+
+		<div class="allianceSideInfo">
+			<div class="quickInfoList">
+				<h4>Summary Information</h4>
+				<ul>
+					<li>
+						<span class="category">Primary Life Form</span>Herb
+					</li>
+					<li>
+						<span class="category">Elevation</span>190-2000 m
+					</li>
+					<li>
+						<span class="category">State Rarity</span>SNA
+					</li>
+					<li>
+						<span class="category">Global Rarity</span>GNA
+					</li>
+					<li>
+						<span class="category">Distribution</span>USA: CA, OR?
+					</li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2009/09/01
+                    </li>
+				</ul>
+			</div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = []
+            </script>
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+		</div>
+
+		
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Centaurea</i> <i>calcitrapa</i>, <i>Centaurea</i> <i>virgata</i> ssp. <i>squarrosa</i> or another knapweed species is dominant or co-dominant with other non-natives in the herbaceous layer. Emergent trees and shrubs may be present at low cover. </div>
+</div>
+
+		
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Herbs < 1.5 m; cover is intermittent to continuous. </div>
+</div>
+
+		
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Open disturbed sites, roadsides, upland grasslands, moist meadows, rangeland, and open hillsides.  </div>
+</div>
+
+		
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance, and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>California annual grassland series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Annual grasses and forbs, Non-native/invasive forb, Non-native/ornamental grass
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Non-native grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Valley grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Annual grassland, Perennial grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>42.043.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+	</div>
+
+
+	<!-- collapsable content below -->
+
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> DiTomaso and Healy (2007) reported 13 <i>Centaurea </i>taxa as weeds and escaped ornamentals in California. We present them in two stand types, one for the yellow star-thistles and the other for the knapweeds and purple-flowered star-thistles. The knapweed group has white, pink, blue, or purple disk flowers surrounded by spiny or comb-like bracts. They are annuals, shorted-lived perennials, or perennials to 2 m tall. The upper leaves lack wings; matted, gray hairs cover the leaves, and the lower leaves are pinnate. Wind can disperse the flower heads of <i>C. diffusa </i>and <i>C. virgata </i>over long distances, unlike those of <i>Centaurea solstitialis</i>. Animal hair and fur, vehicles, and equipment also transport the spiny seed heads of all the species. Seed banks develop. Plants are allelopathic and exclude native plants where they grow. All are natives of Europe. Cal-IPC or CDFA ranks the following species as invasive or as weeds. We present them in level of invasiveness. See Keil and Ochsmann (2006) for detailed plant descriptions. <br/>
+<br/>
+<i>Centaurea virgata </i>ssp. <i>squarrosa, </i>squarrose knapweed, has a Cal-IPC rank of High and a CDFA list of A. It is a long-lived perennial with a woody base to 50 cm tall; it has pink or purple flowers surrounded in heads by pale green to straw-colored spiny bracts with long recurved terminal spines. The flowering heads are deciduous, falling after the seeds mature. The species grows in dry, open rangeland with shallow soils in northern California (DiTomaso and Healy 2007). <br/>
+<br/>
+<i>Centaurea diffusa, </i>diffuse star-thistle, has a Cal- IPC rank of Moderate and a CDFA list of A. It is a winter-hardy short-lived perennial with a deep taproot to 80 cm tall; it has white or pink-purple flowers surrounded in long heads by narrow pale-green bracts ending in sharp spines. It grows in shrub-steppe zones and dry forest habitats with light, well-drained soils in central and northern California (DiTomaso and Healy 2007). <br/>
+<br/>
+<i>Centaurea stoebe </i>ssp. <i>micranthos, </i>spotted knapweed, has a Cal-IPC rank of Moderate and a CDFA list of A. It is a short-lived perennial with deep taproots to 60 cm tall; it has pink or purple flowers surrounded in heads by pale-green or pink-tinged bracts ending in black-tipped spines. It grows in a wide range of habitats with well-drained soils in areas that receive some summer rainfall (DiTomaso and Healy 2007). Some taxonomic references use the name <i>C. biebersteinii. <br/>
+<br/>
+Centaurea calcitrapa, </i>purple star-thistle, has a Cal- IPC rank of Moderate and a CDFA listing of B. It is an annual or short-lived perennial to 1 m tall. The flower heads are purple surrounded by greenish or strawcolored spiny bracts. It grows in heavy, fertile, often alluvial soils in cismontane California (DiTomaso and Healy 2007, Randall 2000). <br/>
+<br/>
+<i>Centaurea </i>x<i>moncktoni, </i>meadow knapweed, has a Cal-IPC rank of Moderate and has no CDFA rank. It is a deep-rooted perennial with a woody root crown. The solitary flower head is rose-purple or white surrounded by light- to dark-brown, fringed bracts. It grows in moist meadows and riparian areas in northern California (DiTomaso and Healy 2007). Some taxonomic references use the name <i>C. debeauxii </i>or <i>C. </i>x<i>pratensis or <i>C. jacea </i>nothosubsp. <i>pratensis</i> </i>see Keil and Ochsmann (2006) for a discussion of the <i>C. jacea </i>complex. Also, the related <i>Centaurea nigra</i>, black or lesser knapweed, is also found in disturbed areas in northern California.<br/>
+<br/>
+<i>Centaurea iberica, </i>Iberian star-thistle, has no Cal-IPC rank and a CDFA list of A. It is an annual or short-lived perennial to 2 m tall. The flower heads are purple with straw-colored spiny bracts. It grows on banks of watercourses and other moist sites in cismontane California (DiTomaso and Healy 2007)<i>. C. diluta, </i>North African knapweed, is a similar species that occurs in moist areas such as riparian or marsh edges; it has infested areas of southern California in Los Angeles and Ventura Cos. <br/>
+<br/>
+<i>Centaurea cyanus, </i>bachelor’s button<i>, </i>grows outside gardens and often along roadsides across most of California. It is often included in wildflower mixtures, and it easily naturalizes (DiTomaso and Healy 2007). <br/>
+<br/>
+These nine taxa have different ranges and environmental preferences, but they share the invasive character when colonizing wildland settings. They infest naturally disturbed conditions such as floodplains, gravel bars, and rangelands. </div>
+</div>
+
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Observations</h4>
+	<div class="text"> The range of <i>Centaurea</i> is across cismontane California and into the Modoc Plateau (M261G). Infestations of <i>C. calcitrapa</i> in the Sacramento-San Joaquin River delta (262Al) are small (Hickson and Keeler-Wolf 2007). We have observed stands of <i>C. stoebe</i> ssp. <i>micranthos</i> in the Klamath Range (M261A) at low elevations, in the Modoc Plateau (M261G), and in the Sierra Nevada (M261Eg, Ep) at moderate to high elevations. Stands of <i>C. diluta</i> mapped in the Santa Monica Mountains also occurred in the Ballona wetlands in the Southern California Coast (261B). Methods proposed to control <i>C. solstitialis</i> may apply to these often perennial species (http://wric. ucdavis.edu/yst/yst.html). Early detection of infestations is the best control method (CDFA 2003, DiTomso and Healy 2007). The decade-long work of the Salmon River Restoration Council has been successful in removing a major infestation of <i>C. stoebe</i> from the Salmon River watershed in northern California (http://www.srrc.org). Sampling across the range of the invasive plants will help us to resolve better their impact on California vegetation. </div>
+</div>
+
+	
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>Cal-IPC, 2002+</li>
+		
+		<li>CDFA (California Department of Food and Agriculture), 2003+</li>
+		
+		<li>DiTomaso, J.M.;Healy, E.A. 2007</li>
+		
+		<li>Keil, D.;Ochsmann, J. 2006</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+	<script src="/static/javascript/alliance_page.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

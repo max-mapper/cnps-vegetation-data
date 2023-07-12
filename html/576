@@ -1,0 +1,947 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Danthonia californica - Deschampsia cespitosa - Camassia quamash</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Danthonia</i> <i>californica</i> - <i>Deschampsia</i> <i>cespitosa</i> - <i>Camassia</i> <i>quamash</i></span> Herbaceous Alliance <br/>
+        <span class="subtitle">Oatgrass - Tufted Hairgrass - Camas wet meadow</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Herb
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>1300-3900 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S4
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>GNR
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA, ID, OR, WA, WY (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2019/10/10
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/herb/deschampsia-caespitosa_grasslake_01.jpg', '/static/images/photos/herb/deschampsia-caespitosa_hellholefen-ltbmu_07-10_01.jpg', '/static/images/photos/herb/deschampsia-caespitosa_hellholefen-ltbmu_07-10_02.jpg', '/static/images/photos/herb/deschampsia-caespitosa_grasslk_09-09_01.jpg', '/static/images/photos/herb/danthonia-californica_siskiyoumtns.jpg', '/static/images/photos/herb/danthonia-californica_klamathnf-taylorlake_07-13.jpg', '/static/images/photos/herb/hordeum-brachyantherum_bullseyelk_08-09_01.jpg', '/static/images/photos/herb/hordeum-brachyantherum_bullseyelk_08-09_02.jpg', '/static/images/photos/herb/hordeum-brachyantherum_bullseyelk_08-09_03.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Camassia</i> <i>leichtlinii</i>, <i>Camassia</i> <i>quamash</i>, <i>Danthonia</i> <i>californica</i>, <i>Danthonia</i> <i>unispicata</i>, <i>Deschampsia</i> <i>cespitosa</i> and/or <i>Hordeum</i> <i>brachyantherum</i> is present to co-dominant in the herbaceous layer with <i>Achillea</i> <i>millefolium</i>, <i>Agrostis</i> <i>exarata</i>, <i>Bistorta</i> <i>bistortoides</i>, <i>Blepharipappus</i> <i>scaber</i>, <i>Bromus</i> <i>arvensis</i>, <i>Cardamine</i> <i>breweri</i>, <i>Carex</i> <i>nebrascensis</i>, <i>Carex</i> <i>subnigricans</i>, <i>Carex</i> <i>utriculata</i>, <i>Dodecatheon</i> <i>jeffreyi</i>, <i>Elymus</i> <i>elymoides</i>, <i>Epilobium</i> <i>minutum</i>, <i>Epilobium</i> spp., <i>Juncus</i> <i>arcticus</i>, <i>Lomatium</i> <i>bicolor</i>, <i>Muhlenbergia</i> <i>filiformis</i>, <i>Oreostemma</i> <i>alpigenum</i>, <i>Perideridia</i> <i>parishii</i>, <i>Phleum</i> <i>alpinum</i>, <i>Poa</i> <i>nevadensis</i>, <i>Poa</i> <i>pratensis</i>, <i>Poa</i> <i>secunda</i>, <i>Polypogon</i> <i>monspeliensis</i>, <i>Potentilla</i> <i>gracilis</i>, <i>Senecio</i> <i>scorzonella</i>, <i>Senecio</i> <i>triangularis</i>, <i>Solidago</i> <i>multiradiata</i>, <i>Trifolium</i> <i>longipes</i> or <i>Triteleia</i> <i>hyacinthina</i>. Mosses are often present, including <i>Sphagnum</i> <i>subsecundum</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Herbs < 1 m; cover is open to continuous. Shrubs, if present, are emergent and open in cover. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Danthonia unispicata</i>, and/or broad-leaved bulbiferous monocots such as <i>Triteleia hyacinthina</i> or <i>Camassia</i> spp. conspicuous in moist meadow stands (Boul et al. 2021b).</li>
+		
+		<li><i>Hordeum brachyantherum</i> > or = 25% cover (Smith 1998b).</li>
+		
+		<li><i>Camassia quamash</i> > 50% relative cover in the herbaceous layer; usually at least 20% absolute cover (Christy 2004).</li>
+		
+		<li><i>Danthonia californica</i> generally > 25% absolute cover in the herbaceous layer (S. Smith 1998).</li>
+		
+		<li><i>Deschampsia cespitosa</i> > 50% relative cover in the herbaceous layer and usually > 20% absolute cover (S. Smith 1998, Potter 2005).</li>
+		
+		<li><i>Deschampsia cespitosa</i> has > 30% relative cover with other wet meadow herbs including <i>Juncus balticus, Eleocharis macrostachya,</i> and <i>Juncus nevadensis</i> (Boul et al. 2021b).</li>
+		
+		<li><i>Juncus nevadensis</i> > 25% relative cover in the herbaceous layer; it dominates or co-dominates with other herbaceous species (S. Smith 1998, Potter 2005).</li>
+		
+		<li><i>Juncus nevadensis</i> has 30 - 50% relative cover with <i>Juncus arcticus</i> (Boul et al. 2021b).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Montane to alpine seasonally wet meadows on flat to steep slopes. Soils are typically shallow, moderately to well-drained, with a high percentage of rock fragments and exposed rock. Soil texture varies from sandy loam to clay loam. The USFWS Wetland Inventory (2012 national list) recognizes <i>Danthonia californica</i> as FAC, and <i>Deschampsia cespitosa, Camassia quamash, Camassia leichtlinii</i> and <i>Hordeum brachyantherum</i>  as FACW plants. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>California oat grass series, Montane meadow habitat, Tufted hair grass series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Danthonia californica herbaceous alliance, Deschampsia caespitosa saturated herbaceous alliance, Hordeum brachyantherum temporarily flooded herbaceous alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Wet grasses and forbs, Perennial grasses and forbs
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Great Basin grassland, Wet montane meadow
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Douglas fir forest, Freshwater marsh, Red fir forest, Yellow pine forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Wet meadow
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>41.281.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate and Boreal Shrubland and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate Grassland, Meadow, and Shrubland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Vancouverian and Rocky Mountain Grassland and Shrubland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Western Cordilleran montane-boreal wet meadow
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Western cordilleran montane-boreal mesic wet meadow
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Danthonia californica </i>is a perennial bunchgrass with loosely clustered, coarse culms. Seedlings establish on bare soil. Plants are tolerant of moderate grazing (Heady et al. 1963). Stands of <i>D. californica </i> included in this alliance occur inland, where annual rainfall is greater than 100 cm.<br/>
+<br/>
+<i>Deschampsia cespitosa </i>is a perennial bunchgrass with slender leaves growing to 120 cm in height. In winter, dead leaves protect the immature green leaves. Inflorescences are open panicles having small, awned lemmas. Seed accumulates in the soil as stands age. Light and cold stratification enhance germination. <i>D. cespitosa </i>is an aggressive colonizer on disturbed sites and stands maintain themselves with disturbance in most environments (Walsh 1995a).<br/>
+<br/>
+<i>Deschampsia cespitosa </i>is a complex circumpolar species with three subspecies (ssp. <i>beringensis, </i>ssp. <i>cespitosa, </i>ssp. <i>holciformis</i>) reported from California (Jepson Flora Project 2020). Together they encompass stands ranging from sea level to alpine elevations. Lawrence (1945) demonstrated that coastal, montane, and alpine ecotypes were independent of taxonomic categories and so we separate the associations by habitat rather than subspecies epithet. This alliance covers only the montane stands (We treat the coastal stands in the <i>Deschampsia cespitosa </i>coastal Alliance). Stands at montane to alpine elevations associate with stands of many meadow alliances and woody stands of <i>Abies magnifica, Salix </i>species, <i>Pinus contorta </i>ssp. <i>murrayana, </i>and <i>Tsuga mertensiana </i>alliances. Typical associated herbs include <i>Eleocharis macrostachya, Hordeum brachyantherum, Juncus balticus,</i> and <i>J. nevadensis</i>.<br/>
+<br/>
+Two species of camas are found in California, <i>Camassia quamash</i> ssp. <i>breviflora</i> and <i>C. leichtlinii</i> ssp. <i>suksdorfii</i>. These perennial herbs grow from underground bulbs and have white to blue to deep purple flowers in late spring and early summer. Species in California are highly variable and may hybridize. Camas bulbs were a valued food source for many native tribes of the western United States and Canada (Jepson Flora Project 2020). <i>Camassia quamash </i>is a robust liliaceous plant to 70 cm that produces showy blooms in the spring. The leaves are grass-like, and the flowers are light blue to deep blue (sometimes white). Plants propagate from seeds or bulbs. The genus includes four species and <i>C. quamash </i>has eight subspecies in the Pacific Northwest (Ranker and Hogan 2002). Plants in California are ssp. <i>breviflora </i>and ssp. <i>suksdorfii. </i>These plants hybridize, complicating identification. <br/>
+<br/>
+The general habitats of <i>C. quamash </i>are wet meadows, wet prairies, swales, depressions, floodplains, moist hillsides, and stream banks (Stevens et al. 2000a). Christy (2004) described the habitat in Oregon as areas that are often ephemerally wet, usually drying out by late spring. <i>C. quamash </i>is conspicuous in spring, forming dense stands, then disappearing by summer as other plants replace it. We have yet to sample this phase of the alliance in northern California. Cooper and Wolf (2006) found camas stands in sloping transitional fens of the Sierra Nevada that also contained stands of the <i>Calamagrostis canadensis </i>and <i>Carex echinata </i>alliances.<br/>
+<br/>
+<i>Hordeum brachyantherum </i>is a loosely to densely tufted grass with culms to 1 m tall. The species occurs in temperate Eurasia and North America. It involves two subspecies; the larger ssp. <i>brachyantherum </i>is widespread. A less robust ssp. <i>californicum </i>grows below 500 m only in California on and off serpentine (Von Bothmer et al. 2007). We include ssp.<i>brachyantherum </i>in this alliance. <br/>
+<br/>
+Within California, this alliance describes montane meadow settings that are characterized by the presence of <i>Danthonia californica, D. unispicata, Deschampsia cespitosa, Hordeum brachyantherum</i>, and/or <i>Camassia quamash</i>. Other herbs may include <i>Lomatium bicolor, Blepharipappus scaber,</i> and <i>Epilobium minutum</i> (VegCAMP 2020). This alliance was previously multiple alliances in the 2009 version of this manual that have been combined because of overlapping environmental and floristic characteristics in moist to wet, montane meadows (Evens et al. 2014, NatureServe 2016). </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Camassia leichtlinii</th>
+			
+		
+			
+			<th>Camassia quamash</th>
+			
+		
+			
+			<th>Danthonia californica</th>
+			
+		
+			
+			<th>Danthonia unispicata</th>
+			
+		
+			
+			<th>Deschampsia cespitosa</th>
+			
+		
+			
+			<th>Hordeum brachyantherum</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Polycarpic perennial; herb; bulbiferous</td>
+			
+		
+			
+			<td>Polycarpic perennial; herb</td>
+			
+		
+			
+			<td>Perennial; herb</td>
+			
+		
+			
+			<td>Polycarpic perennial; herb</td>
+			
+		
+			
+			<td>Polycarpic perennial; herb</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Transient</td>
+			
+		
+			
+			<td>Transient</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td>Transient</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Short</td>
+			
+		
+			
+			<td>Short</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Long</td>
+			
+		
+			
+			<td>Short</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Gravity; wind</td>
+			
+		
+			
+			<td>Animal; wind</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Water/hydrological</td>
+			
+		
+			
+			<td>Animal; gravity; wind</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Stratification—winter; none (light) </td>
+			
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Underground structures</td>
+			
+		
+			
+			<td>Underground structures (culms)</td>
+			
+		
+			
+			<td>Buds on small branches (tillers)</td>
+			
+		
+			
+			<td>Underground structures (root crown)</td>
+			
+		
+			
+			<td>Underground structures; rhizomes </td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+			
+			<td>Fire-sensitive?</td>
+			
+		
+			
+			<td>Fire-hardy</td>
+			
+		
+			
+			<td>Fire-hardy;  high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Long-lived</td>
+			
+		
+			
+			<td>Life of plant</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>2 to ? years</td>
+			
+		
+			
+			<td>Life of plant</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Low; episodic</td>
+			
+		
+			
+			<td>Medium</td>
+			
+		
+			
+			<td>High</td>
+			
+		
+			
+			<td>High</td>
+			
+		
+			
+			<td>Medium</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Fluvial processes rather than fire primarily disturb stands. However, burned plants of <i>Danthonia </i> spp. and <i>Deschampsia cespitosa </i>can sprout from root crowns and caudexes. Seedlings establish after fire from soil-stored seed (Matthews 2000a, Walsh 1995a). Fires likely are not common due to the higher moisture content found in the moist meadows of this alliance; however, stands with higher biomasss can carry fire and stands are moderately resistant.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Short to medium (5 to 100 years)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Late summer-early fall (at Kings Canyon)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Large
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low to moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Low
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Low to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Surface-crown
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Subalpine areas Sierra Nevada
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+            <p>The ranges of the character species are greater than currently documented for stands of this alliance. The range of the <i>Danthonia californica - Deschampsia cespitosa - Camassia quamash</i> alliance includes northeastern California. Inclusion of subsections in the NW Basin and Range (342B) and Southern California Mountain and Valleys (M262B) ecoregions are of probable stands based on taxonomic records (Consortium of California Herbaria 2018; Calflora 2018). More study is needed in these areas to understand the distribution of this montane meadow alliance.</p>
+        
+
+        <ul class="text">
+        
+            <li><b>Klamath Mountains</b> (M261Ag, Aj-k, An, Aq, As). Stands dominated by <i>Danthonia californica</i> exist in Castle Crags State Park (Stuart et al. 1992) and otherwise in the section. Stands dominated by <i>Deschampsia cespitosa</i> occur at Preacher Meadows cRNA (Sawyer et al. 1978, see Cheng 2004) and generally in the section. Some stands occur as low as 1000 m in ultramafic terrain as in the Rattlesnake Creek and Smoky Creek RNA areas (Cheng 2004). Stand of <i>Hordeum brachyantherum</i> occur in lush, high-elevation meadows in lower slopes and basins including in the Marble Mountains (Stillman 1980). <i>Danthonia californica</i> and <i>Camassia quamash</i> also occur in the montane meadows of the ridge between Horse Mtn Botanical Area in Humboldt County and  South Fork Mountain in Trinity County; and in montane meadows of the Trinity Alps Wilderness. <i>D. californica</i> and <i>Hordeum brachyantherum</i> have been seen (Hoover, pers. comm. 2020).  More vegetation sampling is needed in this area to understand the composition and distribution of the alliance.</li>
+        
+            <li><b>Modoc Plateau</b> (M261Gb-c, Gf, Gh-m). Stands dominated by <i>Deschampsia cespitosa</i> occur in moist alluvial meadows in the Warner Mountains (S. Smith 1998b) and occasionally in other higher parts of the section. A variety of stands were sampled throughout the section, including ones from the <i>Danthonia unispicata - Poa secunda</i> association found in Pine and Fitzhugh Creek Wildlife Area (Hickson et al 2008); around Kellogg Road, near Crowder Flat Rd. by Timbered Mountain, near Snowstorm Mountain and in Secret Valley (Boul et al. 2021b). <i>H. brachyantherum</i> and <i>Poa palustris</i> meadow types with similar species composition based on plots from the Warner Mountains are described by S. Smith (1998b).</li>
+        
+            <li><b>Mono</b> (341Dd-f, Dh, Dj, Dl). Manning and Padgett (1995) cites stands dominated by  <i>Hordeum brachyantherum</i> on the eastern side of the Sierra Nevada. Stands dominated by <i>Deschampsia cespitosa</i> have been seen in the alpine areas at White Mountain RNA (Taylor 1979, see Cheng 2004) and in meadows of the Sweetwater Mountains.</li>
+        
+            <li><b>Northwestern Basin and Range</b> (342Bd-e). Stands were sampled near the base of Five Springs Mountain and near Sworinger Reservoir (Boul et al. 2020).</li>
+        
+            <li><b>Sierra Nevada</b> (M261Ea-r, Eu). Stands dominated by <i>Danthonia californica</i> exist at montane elevations in Yosemite National Park (Helms and Ratliff 1987). Cooper and Wolf (2006) sampled stands in five transitional fens in El Dorado and Plumas national forests. Small stands of <i>Danthonia californica</i> occur in moist meadows near Nevada City.
+Small stands dominated by <i>Camassia quamash</i> are often in complex fens with flowing water, surrounded by <i>Abies magnifica</i> or <i>Abies concolor-Pinus lambertiana</i> alliances and with margins of <i>Alnus incana</i> alliance.
+Mixed and pure stands dominated by <i>Deschampsia cespitosa</i>  exist in montane and subalpine moist meadows at Harvey Monroe Hall RNA (Taylor 1984, see Cheng 2004), Rock Creek area in Sequoia National Park (Benedict 1983), on the east side (Manning and Padgett 1995) and Sagehen Basin (Allen-Diaz 1991), and generally in the section (Potter 2005, Ratliff 1982, 1985). Stands dominated by  <i>H. brachyantherum.</i>  occur in moist meadows and riparian settings at mostly mid elevations. Potter (2005) identified a generic category, the miscellaneous riparian graminoid group, which includes stands dominated by <i>H. brachyantherum.</i> Weixelman et al. (1999) discussed <i>H. brachyantherum</i> meadows on the eastside of the section.</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fb). Observations of <i>H. brachyantherum</i> from samples in the central and northern areas are associated with serpentine seeps (Evens et al. 2004, Klein et al. 2007), though more study is needed to determine if the alliance is present in the section.</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Bh). More study is needed in this section to describe stands of this alliance.</li>
+        
+            <li><b>Southern Cascades</b> (M261Dd, Df, Di-j, Dl-m). Stands dominated by <i>Danthonia californica</i>  are uncommon on the western edge of the section at montane elevations (S. Smith 1998b). Stands dominated by <i>H. brachyantherum</i> occur in higher montane subsections (S. Smith 1998b). Patterson and Cooper (2007) described a meadow at Lassen Volcanic National Park whose meadow margins contained <i>H. brachyantherum</i> and <i>P. pratensis.</i> Stands dominated by <i>Deschampsia cespitosa</i> are common in moist alluvial meadows (S. Smith 1998b).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Perennial <i>Danthonia</i> spp. and <i>Deschampsia cespitosa </i>are tolerant of moderate grazing (Heady et al. 1963, Matthews 2000a, Walsh 1995a). Stands of this alliance are often utilized for livestock grazing and may be impacted by heavy grazing and/or related disturbances.
+
+Increased stream down cutting caused by interactions of timber harvest, livestock grazing, road building, and culverts impacts stands of this alliance in montane riparian zones both directly and indirectly. With continued disturbance, stands can convert to dry meadows.
+
+<i>Camassia quamash </i>was a staple food for the native peoples of the Pacific Northwest and California (Kuhnlein and Turner 1991). They dug the bulbs with a pointed digging stick, and then broke them up, planted some, and burned the meadow areas annually to enhance the number of bulbs (Anderson 2005, Boyd 1999, Stevens et al. 2000). Woody and invasive non-native plants have invaded many stands, especially at lower elevations. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Camassia quamash / Sphagnum subsecundum [18]</li>
+                
+                    <li>Carex athrostachya [11]</li>
+                
+                    <li>Carex integra [11]</li>
+                
+                    <li>Carex integra - Poa cusickii [19]</li>
+                
+                    <li>Carex praegracilis Montane [17]</li>
+                
+                    <li>Danthonia californica [11]</li>
+                
+                    <li>Danthonia californica - Elymus elymoides [4]</li>
+                
+                    <li>Danthonia californica - Muhlenbergia filiformis [3]</li>
+                
+                    <li>Danthonia unispicata - Poa secunda [16], [17]</li>
+                
+                    <li>Deschampsia cespitosa [7], [11], [17]</li>
+                
+                    <li>Deschampsia cespitosa - Bistorta bistortoides [8]</li>
+                
+                    <li>Deschampsia cespitosa - Cardamine breweri [2]</li>
+                
+                    <li>Deschampsia cespitosa - Carex nebrascensis [1], [7], [15]</li>
+                
+                    <li>Deschampsia cespitosa - Perideridia parishii [9], [15]</li>
+                
+                    <li>Deschampsia cespitosa - Senecio scorzonella [2]</li>
+                
+                    <li>Deschampsia cespitosa - Senecio scorzonella - Achillea millefolium [2]</li>
+                
+                    <li>Deschampsia cespitosa - Solidago multiradiata [5]</li>
+                
+                    <li>Deschampsia cespitosa - Trifolium longipes [10]</li>
+                
+                    <li>Hordeum brachyantherum Montane [7], [11], [17]</li>
+                
+                    <li>Hordeum brachyantherum - Poa pratensis [14]</li>
+                
+                    <li>Hordeum brachyantherum - Polypogon monspeliensis [12]</li>
+                
+                    <li>Hordeum brachyantherum - Senecio triangularis [6], [13]</li>
+                
+                    <li>Phleum alpinum - Danthonia unispicata [5]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Allen-Diaz, B.H. 1991</li>
+		
+		<li>[2] Benedict, N.B. 1983</li>
+		
+		<li>[3] Helms, J.A.;Ratliff, R.D. 1987</li>
+		
+		<li>[4] Stuart, J.D.;Worley, T.;Buell, A.C. 1992</li>
+		
+		<li>[5] Taylor, D.W. 1984</li>
+		
+		<li>[6] Stillman, K.T. 1980</li>
+		
+		<li>[7] Manning, M.E.;Padgett, W.G. 1995</li>
+		
+		<li>[8] Keeler-Wolf, T.;Schindel, M.;San, S.;Moore, P.;Hickson, D. 2003b</li>
+		
+		<li>[9] Potter, D.A. 2005</li>
+		
+		<li>[10] Ratliff, R.D. 1982</li>
+		
+		<li>[11] Smith, S. 1998b</li>
+		
+		<li>[12] Evens, J.M.;San, S.;Taylor, J. 2004</li>
+		
+		<li>[13] Sawyer, J.O.;Keeler-Wolf, T. 2007</li>
+		
+		<li>[14] Patterson, L.;Cooper, D.J. 2007</li>
+		
+		<li>[15] Sikes, K.G.;Cooper, D.J.;Weis, S.;Keeler-Wolf, T.;Barbour, M.;Ikeda, D.;Evens, J.M. 2010a</li>
+		
+		<li>[16] Hickson, D.;Boul, R.;Keeler-Wolf, T. 2008</li>
+		
+		<li>[17] Boul, R.;Keeler-Wolf, T.;Ratchford, J.;Haynes, T.;Hickson, D.;Yacoub, R.;Harbert, B.;Evens, J. 2021b</li>
+		
+		<li>[18] Cooper, D.J.;Wolf, E.C. 2006</li>
+		
+		<li>[19] Cheng, S. 2004</li>
+		
+		<li>Anderson, M.K. 2005</li>
+		
+		<li>Boyd, R. 1999</li>
+		
+		<li>Christy, J.A. 2004</li>
+		
+		<li>Heady, H.F.;Cooper, D.W.;Rible, J.W.;Hooper, J.E. 1963</li>
+		
+		<li>Jepson Flora Project, 2004-present</li>
+		
+		<li>Kuhnlein, H.V.;Turner, N.J. 1991</li>
+		
+		<li>Ratliff, R.D. 1985</li>
+		
+		<li>Schmidt, M.G. 1980</li>
+		
+		<li>Stevens, M.;Darris, D.C.;Lambert, S.M. 2000</li>
+		
+		<li>Taylor, D.W. 1976a</li>
+		
+		<li>Taylor, D.W. 1979</li>
+		
+		<li>UCB (University of California Berkeley), 2004-present</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/576/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

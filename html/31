@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Eucalyptus spp. - Ailanthus altissima - Robinia pseudoacacia</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Eucalyptus</i> spp. - <i>Ailanthus</i> <i>altissima</i> - <i>Robinia</i> <i>pseudoacacia</i></span> Woodland Semi-Natural Alliance <br/>
+        <span class="subtitle">Eucalyptus - tree of heaven - black locust groves</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Tree
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-1900 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>SNA
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>GNA
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                        <li>
+                            <span class="category">Invasive species rank</span>
+                            Cal-IPC: Limited to Moderate, see Remarks
+                        </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/tree/eucalyptus_hwy1_07-10_01.jpg', '/static/images/photos/tree/eucalyptus_hwy1_07-10_02.jpg', '/static/images/photos/tree/eucalyptus-globulus_tildenpark_08-09_01.jpg', '/static/images/photos/tree/eucalyptus_quarrycntypk-smprd_03-2019_smat0014.jpg', '/static/images/photos/tree/ailanthus-altissima_centralvalley_04-2013.jpg', '/static/images/photos/tree/eucalyptus_ailanthus-altissima_robinia-pseudoacacia_centralvalley_02-2013.jpg', '/static/images/photos/tree/eucalyptus_ailanthus-altissima_robinia-pseudoacacia_centralvalley_03-2013.jpg', '/static/images/photos/tree/eucalyptus_ailanthus-altissima_robinia-pseudoacacia_centralvalley_05-2012.jpg', '/static/images/photos/tree/robinia-pseudoacacia_centralvalley_04-2012.jpg', '/static/images/photos/tree/eucalyptus-ailanthus-altissima-robinia-pseudoacacia-genista_sanmateo-co_04-2021.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Acacia</i> <i>melanoxylon</i>, <i>Acacia</i> spp., <i>Ailanthus</i> <i>altissima</i>, <i>Eucalyptus</i> spp. or <i>Robinia</i> <i>pseudoacacia</i> is dominant in the tree canopy . </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text"> Trees < 60 m; canopy is open to continuous. Shrub layer is sparse to intermittent. Herbaceous layer is sparse to intermittent. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Eucalyptus</i> species > 80% relative cover in the tree layer (cf. Evens and San 2005, Klein and Evens 2005, Keeler-Wolf and Evens 2006).</li>
+		
+		<li><i>Ailanthus altissima</i> is > 80% relative cover in the tree layer (Hickson and Keeler-Wolf 2007, Buck-Diaz et al. 2012).</li>
+		
+		<li><i>Robinia pseudoacacia</i> is > 80% relative cover in the tree layer (Hickson and Keeler-Wolf 2007, Buck-Diaz et al. 2012).</li>
+		
+		<li>A tree species of <i>Eucalyptus, Acacia,</i> or <i>Ailanthus altissima</i> > 50% relative cover in the tree canopy (Buck-Diaz et al. 2021, Sikes et al. 2021).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Planted as trees, groves, and windbreaks; naturalized on uplands or bottomlands and adjacent to stream courses, lakes, or levees. The USFWS Wetland Inventory (2012 national list) recognizes <i>Eucalyptus camaldulensis</i> as FAC, and <i>Ailanthus altissima</i> and <i>Robinia pseudoacacia</i> as FACU plants. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Eucalyptus series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Eucalyptus spp. semi-natural forest alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Non-native/ornamental hardwood, Eucalyptus
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Southern riparian forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Woodland-savanna
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Eucalyptus
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>79.100.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Tree Vegetation (Forest and Woodland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Cool Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>North American Introduced Evergreen Broadleaf and Conifer Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Introduced North American Mediterranean woodland and forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Introduced North American Mediterranean woodland and forest
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> At least ten species of <i>Eucalyptus </i>species occur in California: <i>Eucalyptus camaldulensis, E. citriodora, E. cladocalyx, E. conferruminata, E. globulus, E. polyanthemos, E. pulchella, E. sideroxylon, E. tereticornis, </i>and <i>E. viminalis</i>. The following remarks mainly refer to <i>E. globulus, </i>but management considerations are similar for the other species where they invade wildland settings. The genus is native to Australia. <br/>
+<br/>
+<i>Eucalyptus globulus, </i>blue gum, has a Cal-IPC rank of Moderate. It has yellowish-white flowers; narrow, lanceolate leaves; and shredding bark in irregular strips. It grows throughout cismontane California. Widespread commercial plantings occurred after 1870 and in the early 1900s for lumber and firewood (Bulman 1988, Groenendaal 1983). Seedlings aggressively invade neighboring areas from original planted locations if adequate moisture is available. Plants are frost sensitive, and dieback is a regular feature of stands in the Great Valley and on the coast following major freezes. <br/>
+<br/>
+<i>Eucalyptus camaldulensis, </i>red gum, has a Cal-IPC rank of Limited. It has red flowers, lanceolate leaves, and persistent bark toward the trunk base. The red gum lerp psyllid (<i>Glycaspis brimblecombei</i>) currently plagues <i>E. camaldulensis </i>stands in southern and central California. The insects may or may not kill the trees, but they regularly defoliate them and reduce plant vigor. <br/>
+<br/>
+<i>Ailanthus altissima, </i>tree of heaven, has a Cal-IPC rank of Moderate. The small flowers are yellowish green to reddish and appear in large panicles. The leaves are large and pinnately compound. The bark is smooth and light grey, often becoming rougher as the tree ages. The tree grows rapidly and is capable of reaching heights of 15 m in 25 years. The species is also short lived, rarely living more than 50 years. However, its remarkable suckering ability makes it possible for it to clone itself indefinitely and live considerably longer. It grows throughout cismontane California. The species is native to Asia and was brought into the United States in the late 1700’s. People admired the beautiful foliage of these fast-growing trees and for over a century have been planting it as an ornamental. It is slightly toxic, causing mild dermatitis, and it has a foul-smelling odor (DiTomaso and Healy 2007).<br/>
+<br/>
+<i>Robinia pseudoacacia, </i>black locust, has a Cal-IPC rank of Limited. The species is native to the southeastern United States but has naturalized elsewhere in temperate North America, including California. It grows throughout the California floristic province and the Great Basin. It has fragrant white flowers in loose drooping racemes that bloom in the summer. The leaves are pinnately compound with a contrasting lighter underside. Young trees are often spiny while mature trees lack spines. Through sprouting and seedling establishment, <i>R. pseudoacacia,</i> creates dense stands, displacing native vegetation. Its seeds, leaves, and bark are toxic to humans and livestock and may be fatal (Hickman 1993).<br/>
+<br/>
+<i>Acacia melanoxylon, </i>blackwood acacia, has a Cal-IPC rank of Limited. It is native to southeastern Australia. This quick-growing tree is a landscape ornamental that has escaped from cultivation in coastal areas of California, sometimes forming large clonal patches. Trees have ball-like clusters of cream-colored flowers, and branches have leaf-like, green flattened stems called phyllodes. Tthey reproduce by seed or vegetatively by root suckers (Cal-IPC 2021).<br/>
+<br/>
+Understories in groves of the fast-growing, long-lived <i>Eucalyptus</i> trees are usually depauperate. A buildup of allelopathic chemicals in the soil and high volumes of debris inhibit the establishment of other plants, though sometimes other non-natives, such as <i>Hedera helix, </i>clamber extensively in stands. Seeds of <i>Eucalyptus </i>germinate when tree crowns and built-up debris are removed by fire or in other ways. Tree stumps sprout readily from the lignotuber when trees are felled (Boyd 2000, Bean and Russo 2005, Esser 1993b, Skolmen and Ledig 1990). In stands of <i>Ailanthus altissima</i> the understory may be dominated by non-native annual grasses. <i>Acacia melanoxylon</i> or <i>Robinia pseudoacacia </i>stands have an open to intermittent shrub layer and the herbaceous layer may be open or dominated by non-native grasses.<br/>
+<br/>
+Stands in this alliance occur in agricultural and urban land use areas as well as widely beyond these, typically in disturbance areas including roadside verges and upper terraces of floodplains.<br/>
+<br/>
+This alliance was cited as <i>Eucalyptus (globulus, camaldulensis)</i> Semi-Natural Woodland Stands in the 2009 edition of <i>A Manual of California Vegetation</i>, but has since been expanded to include similar naturalizing tree species. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Acacia melanoxylon</th>
+			
+		
+			
+			<th>Acacia spp.</th>
+			
+		
+			
+			<th>Ailanthus altissima</th>
+			
+		
+			
+			<th>Eucalyptus spp.</th>
+			
+		
+			
+			<th>Robinia pseudoacacia</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Tree; evergreen</td>
+			
+		
+			
+			<td>Shrub; winter deciduous</td>
+			
+		
+			
+			<td>Tree; winter deciduous; clonal</td>
+			
+		
+			
+			<td>Tree, shrub; evergreen</td>
+			
+		
+			
+			<td>Tree; winter deciduous; clonal</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Medium to long</td>
+			
+		
+			
+			<td>Short</td>
+			
+		
+			
+			<td>Long</td>
+			
+		
+			
+			<td>Long</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Animal</td>
+			
+		
+			
+			<td>Wind; gravity</td>
+			
+		
+			
+			<td>Wind</td>
+			
+		
+			
+			<td>Gravity</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Scarification</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>None; heat (fire)</td>
+			
+		
+			
+			<td>Scarification</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Underground structures (root crown)</td>
+			
+		
+			
+			<td>Underground structures</td>
+			
+		
+			
+			<td>Underground structures; buds on large branches and trunks</td>
+			
+		
+			
+			<td>Underground structures; buds on large branches or trunks</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Fire-hardy;  high sprouter</td>
+			
+		
+			
+			<td>High sprouter</td>
+			
+		
+			
+			<td>Fire-hardy; thick epidermis; high flammability</td>
+			
+		
+			
+			<td>High sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Yes</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>2 years</td>
+			
+		
+			
+			<td>10 - 50 years</td>
+			
+		
+			
+			<td>4 - 100 years</td>
+			
+		
+			
+			<td>6 - 60 years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>Medium</td>
+			
+		
+			
+			<td>Low; episodic</td>
+			
+		
+			
+			<td>Medium</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>By species</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text"><i>Eucalyptus globulus </i>and other <i>Eucalyptus </i>species have evolved in fire-prone environments in Australia. Mature trees have thick bark and resist fire. Leaves have a high content of volatile oils, and fire intensity in stands is very high (Cole 2002, Sapsis et al. 1995). Seeds of <i>E. globulus </i>have tough coats that resist burning, and annual seed production is typically high. Although the seeds do not require fire to germinate, the germination rates after fire are high.
+
+Eucalyptus groves in urban/wildland interfaces are a major cause of concern to fire managers because the trees and the debris buildup below are extremely flammable; the groves pose difficult management issues because these trees are planted widely and naturalized (Boyd 1997, Klinger et al. 2006). Large, destructive fires such as the 1991 Tunnel Fire in the Oakland-Berkeley hills became an explosive crown fire largely because of the dense plantings of <i>E. globulus</i>.
+
+The ability of<i> Ailanthus altissima</i> to establish on disturbed sites and persist into late succession suggests that it is well adapted to survive under a wide range of fire regimes. In North America, tree-of-heaven has invaded ecosystems where, for the most part, historic fire regimes are no longer functional.
+
+<i>Acacia melanoxylon </i>and <i>Robinia pseudoacacia, </i>are also well adapted to disturbances such as fire. Fires in their native ecosystems likely played a historical role in its establishment. The current distribution of <i>R. pseudoacacia, </i>in North America includes ecosystems that historically experienced both frequent and infrequent fires of various severities. Its impact on these fire regimes is largely unknown.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Aa-l). Local groves and large stands occur near urban centers, such as the San Francisco Bay and Monterey Bay areas, where they are naturalizing from plantings. In the Sacramento-San Joaquin River delta, Hickson and Keeler-Wolf (2007) identified <i>E. globulus</i> stands. In San Mateo Co., Sikes et al. (2021) identified stands of <i>Acacia melanoxylon </i>and <i>E. globulus.</i></li>
+        
+            <li><b>Great Valley</b> (262Aa-z). Stands of <i>Eucalyptus </i>spp. occur commonly as plantings, and they provide windbreaks, shade, and paper pulp from plantations (VegCAMP and GIC 2013, Buck-Diaz et al. 2012). Stands of <i>Ailanthus altissima </i>occur along roadsides, and have naturalized in riparian settings and bottomlands (Buck-Diaz et al. 2012). Small stands of <i>Robinia pseudoacacia</i> have naturalized adjacent to stream courses, lakes, and levees (Buck-Diaz et al. 2012).</li>
+        
+            <li><b>Northern California Coast</b> (263Aa-m). Local groves, especially along fencerows and roads, are common in the southern subsections, such as at Point Reyes National Seashore (Keeler-Wolf et al. 2003a), but they exist as far north at Humboldt Bay.</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fa-b, Fd). Stands of <i>Eucalyptus</i> are mapped in the Tehachapi Mountains and foothills along highway 58 and near Bealville (VegCAMP 2015a).  Some stands of <i>Eucalyptus</i> are mapped in Placer and El Dorado Counties (Menke et al. 2011).</li>
+        
+            <li><b>Southern California Coast</b> (261Ba-j). Stands include those along the Santa Clara River (Stillwater Sciences and URS 2007), in the Santa Monica Mountains (Keeler-Wolf and Evens 2006), in the San Dieguito River drainage (Evens and San 2005), and on Santa Cruz Island, all of which are over 100 years old (Junak et al. 1995). Stands typically include <i>E. globulus</i> or <i>E. camaldulensis</i>, which invade riparian areas.</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Bf, Bj-l, Bn). Stands generally occur in the western subsections, including stands mapped in western Riverside County (Klein and Evens 2005) and western San Diego County (Sproul et al. 2011) that include <i>E. camaldulensis</i>.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Burning and felling trees are effective strategies for controlling new sprouts of <i>Eucalyptus</i>. However, the most effective way to control sprouting is to apply chemicals (glyphosate or triclopyr) directly to the outer portion of a stump’s cut surface at the time of tree felling. Application of herbicides to the foliage is less effective (Boyd 2000, Bean and Russo 2005, Esser 1993b).
+
+Burning is not an effective method of controlling <i>Acacia melanoxylon, Ailanthus altissima,</i> or <i>Robinia pseudoacacia</i> and may even promote seedling germination and favorable conditions for seedling establishment (Bossard et al. 2000). Cutting stems of these species will result in prolific suckering and therefore, in order for cutting to be effective, it will need to be repeated several times a year for several years. Applying concentrated herbicide to freshly cut stumps is probably the most effective means of controlling these species (DiTomaso and Healy 2007). Herbicides can also be applied to small sprouts and young stems in the spring just after new leaves have expanded. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Acacia melanoxylon [21]</li>
+                
+                    <li>Ailanthus altissima [2], [3], [4], [16], [20]</li>
+                
+                    <li>Eucalyptus (globulus, camaldulensis) [1], [2], [3], [5], [6], [7], [8], [9], [10], [11], [12], [13], [14], [15], [16], [17], [18], [19], [21], [22]</li>
+                
+                    <li>Robinia pseudoacacia [2], [3]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Verdone, L.;Evens, J. 2010</li>
+		
+		<li>[2] Hickson, D.;Keeler-Wolf, T. 2007</li>
+		
+		<li>[3] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>[4] Keeler-Wolf, T.;Vaghti, M. 2000</li>
+		
+		<li>[5] Stillwater Sciences, 2007a</li>
+		
+		<li>[6] AIS (Aerial Information Systems Inc.), 2007b</li>
+		
+		<li>[7] Sproul, F.;Keeler-Wolf, T.;Gordon-Reedy, P.;Dunn, J.;Klein, A.;Harper, K. 2011</li>
+		
+		<li>[8] Thorne, J.H.;Kennedy, J.;Quinn, J.F.;McCoy, M.;Keeler-Wolf, T.;Menke, J. 2004</li>
+		
+		<li>[9] Menke, J.;Reyes, E.;Evens, J.;Sikes, K.;Keeler-Wolf, T.;Yacoub, R. 2011</li>
+		
+		<li>[10] AECOM, 2013</li>
+		
+		<li>[11] HDR, 2014a</li>
+		
+		<li>[12] Keeler-Wolf, T .;Schirokauer, D.;Meinke, J.;van derLeeden, P. 2003a</li>
+		
+		<li>[13] AIS (Aerial Information Systems Inc.),;ESRI, 2007</li>
+		
+		<li>[14] Evens, J.;San, S. 2005</li>
+		
+		<li>[15] Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>[16] VegCAMP (CDFW Vegetation Classification and Mapping Program), 2015a</li>
+		
+		<li>[17] VegCAMP (CDFW Vegetation Classification and Mapping Program), 2005b</li>
+		
+		<li>[18] Klein, A.;Crawford, J.;Evens, J.;Keeler-Wolf, T.;Hickson, D. 2007</li>
+		
+		<li>[19] Keeler-Wolf, T.;Evens, J. 2006</li>
+		
+		<li>[20] Reyes, E.;Evens, J.;Glass, A.;Sikes, K.;Keeler-Wolf., T.;Winitsky, S.;Johnson, D.;Menke, J.;Hepburn, A. 2020a</li>
+		
+		<li>[21] Sikes, K.;Buck-Diaz, J.;Evens, J. 2021</li>
+		
+		<li>[22] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>Bean, C.;Russo, M.J. 2005</li>
+		
+		<li>Bossard, C.C.;Randall, J.M.;Hoshovsky, M.C. 2000</li>
+		
+		<li>Boyd, D. 1985a</li>
+		
+		<li>Boyd, D. 1997</li>
+		
+		<li>Boyd, D. 2000</li>
+		
+		<li>Bulman, T.L. 1988</li>
+		
+		<li>Cal-IPC, 2002+</li>
+		
+		<li>Cole, D. 2002</li>
+		
+		<li>DiTomaso, J.M.;Healy, E.A. 2007</li>
+		
+		<li>Esser, L.L. 1993b</li>
+		
+		<li>Groenendaal, G.M. 1983</li>
+		
+		<li>Hickman, J.C. 1993</li>
+		
+		<li>Junak, S.;Ayers, T.;Scott, R.;Wilken, D.;Young, D. 1995</li>
+		
+		<li>Klein, A.;Evens, J. 2005</li>
+		
+		<li>Klinger, R.C.;Brooks, M.L.;Randall, J.M. 2006</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Black, H.;Bleich, V.C.;Mincks, J.W. 1980</li>
+		
+		<li>Rana Creek Habitat Restoration, 2002</li>
+		
+		<li>Sapsis, D.;Pearlman, D.;Martin, R. 1995</li>
+		
+		<li>Skolmen, R.G.;Ledig, F.T. 1990</li>
+		
+		<li>Stillwater Sciences and URS, 2007</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program),;GIC, 2013</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/31/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

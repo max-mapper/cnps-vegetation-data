@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Eleocharis macrostachya</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Eleocharis</i> <i>macrostachya</i></span> Herbaceous Alliance <br/>
+        <span class="subtitle">Pale spike rush marshes</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Herb
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-2500 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S4
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G4
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>CAN: AB, BC, SK. USA: AK, AZ, CA, CO, ID, MT, NE, NM, NV, OR, SD, UT, WA, WY. Mexico (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2009/09/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = []
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Eleocharis</i> <i>macrostachya</i> is dominant or co-dominant in the herbaceous layer with <i>Agrostis</i> <i>stolonifera</i>, <i>Argentina</i> <i>egedii</i>, <i>Arnica</i> <i>chamissonis</i>, <i>Carex</i> spp., <i>Damasonium</i> <i>californicum</i>, <i>Deschampsia</i> <i>danthonioides</i>, <i>Eleocharis</i> <i>acicularis</i>, <i>Eryngium</i> <i>alismifolium</i>, <i>Eryngium</i> <i>aristulatum</i>, <i>Eryngium</i> <i>castrense</i>, <i>Eryngium</i> <i>vaseyi</i>, <i>Isoetes</i> <i>howellii</i>, <i>Juncus</i> <i>arcticus</i>, <i>Juncus</i> <i>nevadensis</i>, <i>Lasthenia</i> <i>glaberrima</i>, <i>Lemna</i> <i>minuta</i>, <i>Lolium</i> <i>perenne</i>, <i>Marsilea</i> <i>vestita</i>, <i>Perideridia</i> <i>parishii</i>, <i>Polygonum</i> spp., <i>Ranunculus</i> <i>aquatilis</i>, <i>Ranunculus</i> <i>muricatus</i> and <i>Trifolium</i> <i>wormskioldii</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Herbs < 1 m; cover is open to continuous. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Eleocharis macrostachya</i> > 30% relative cover in the herbaceous layer (Potter 2005).</li>
+		
+		<li><i>Eleocharis macrostachya</i> > 70% relative cover in the herbaceous layer (Pickart 2006).</li>
+		
+		<li><i>Eleocharis macrostachya</i> often > 50% relative cover in the herbaceous layer, but > 30% relative cover with non-natives such as <i>Cynodon dactylon</i> or <i>Lolium perenne</i> (Klein et al. 2007).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Lakeshores, streambeds, swales, vernal pools, pastures, ditches, natural and artificial ponds. Soils are alluvial and often highly organic; they are flooded part of the growing season with alkaline, brackish, or fresh water. The USFWS Wetland Inventory (1996 national list) recognizes <i>Eleocharis palustris</i> as an OBL plant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Santa Rosa Plateau vernal pool habitat, Spikerush series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Eleocharis (palustris, macrostachya) seasonally flooded herbaceous alliance, Eleocharis palustris seasonally flooded herbaceous alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Wet grasses and forbs, Vernal pool
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Wet montane meadow, Freshwater seep, Coastal brackish marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Freshwater marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Fresh emergent wetland, Wet meadow
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>45.230.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate and Boreal Shrubland and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate and Boreal Freshwater Marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North American Freshwater Marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Western North America Vernal Pool
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Californian mixed annual/perennial freshwater vernal pool / swale bottomland
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Eleocharis macrostachya </i>is a perennial, mat-forming spike rush with long, firm rhizomes and characteristic single, large stems terminated by inflorescence spikes. The clone forms a dense network of long, creeping rhizomes usually creating homogeneous stands. Plants produce a large number of seeds. Seed viability is low, but a seed bank develops over time. Stratification promotes seed germination (Hauser 2006c, Ogle 2005a). As one of the taxa in the circumpolar <i>E. palustris </i>complex, <i>E. macrostachya </i>is included in that species in some manuals (Hickman 1993), but we recognize it here. <br/>
+<br/>
+<i>Eleocharis macrostachya, </i>often thought of as a vernal pool plant, grows in many habitats that are seasonally flooded. Habitats include brackish marshes, ponds and vernal pools, shallow lakes, steam sides, and wet meadows. Similarly, the alliance exists throughout much of the western United States and central Great Plains at elevations from sea level to alpine in shallow wetlands with slowed water or in ponds (NatureServe 2007a, Smith et al. 2002). </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Eleocharis macrostachya</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Polycarpic perennial; herb; rhizomatous</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Long</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; gravity; water/hydrological</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Stratification—winter </td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>Life of plant</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Fluvial processes rather than fire primarily disturb the alliance. As with <i>Eleocharis palustris, E. macrostachya </i>is top-killed by fire when actively growing, yet it survives as rhizomes and establishes from seed after fires (Hauser 2006c).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+            <p>The range of <i>Eleocharis macrostachya</i> is throughout the state.</p>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261A). Stands are widespread in marshes, pools, and other wetlands throughout most of the section.</li>
+        
+            <li><b>Central California Coast Ranges</b> (M262A). Stands occur in montane pools, including Spanish Lakes in the vicinity of San Benito Mountain (Evens et al. 2006) and in lower-elevation wetland meadows, including those in Pinnacles National Monument (Kittel et al. 2012).</li>
+        
+            <li><b>Great Valley</b> (262A). Stands occupy the deepest parts of vernal pools (Barbour et al. 2003) and other shallow wetlands that have long inundation periods.</li>
+        
+            <li><b>Klamath Mountains</b> (M261A). Stands are scattered in long-inundation pools, ponds, lake margins, and other wetlands in much of the section.</li>
+        
+            <li><b>Modoc Plateau</b> (M261G). Stands occur in seasonal ponds, along slow-moving streams, and in wet meadows (S. Smith 1998b), including at Timbered Crater RNA (Keeler-Wolf 1990c, see Cheng 2004).</li>
+        
+            <li><b>Mojave Desert</b> (322A). Stands occur along ditches and springs in the Owens Valley.</li>
+        
+            <li><b>Mono</b> (341D). Stands are common in sloughs and slow-moving streams and ponds, such as near Benton and Bridgeport.</li>
+        
+            <li><b>Northern California Coast</b> (263A). Stands occur at Humboldt Bay National Wildlife Refuge in distinctive brackish marshes with seasonal flooding and moderate salinity (Pickart 2006). Stands found in seasonally wet areas of Manchester State Park and Point Arena - Stornetta Unit of the California Coastal National Monument in Mendocino Co. (CNPS unpublished data 2020).</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261B). Stands occur at ponds and lake margins throughout the section.</li>
+        
+            <li><b>Northern California Interior Coast Ranges</b> (M261C). Stands are common in stock ponds and other wetlands in the section.</li>
+        
+            <li><b>Northwestern Basin and Range</b> (342B). Stands occur in ponds and slow-moving streams and channels in the Madeline Plain and throughout most of the section.</li>
+        
+            <li><b>Sierra Nevada</b> (M261E). Stands inhabit the margins and bottoms of shallow lakes and ponds at mid elevations throughout the section (Potter 2005).</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261F). Stands occupy the deepest parts of vernal pools (Barbour et al. 2003), ponds, deep swales, and slow-moving channels in the northern subsections (Klein et al. 2007).</li>
+        
+            <li><b>Southeastern Great Basin</b> (341F). Stands are occasional in seeps and springs in the Inyo Range.</li>
+        
+            <li><b>Southern California Coast</b> (261B). Stands are widespread in wetlands throughout the section, including those in vernal pools on San Nicolas Island (Halvorson et al. 1996) and in seasonally moist depressions on San Clemente Island (Junak et al. 2007).</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262B). Stands occur at the Santa Rosa Plateau and other locations in the Santa Ana Mountains where ponds occur, including vernal pools (Klein and Evens 2005, Kopecko and Lathrop 1975).</li>
+        
+            <li><b>Southern Cascades</b> (M261D). Stands occur commonly at higher elevations in wetland sites with slowed or still water (S. Smith 1998b).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> <i>Eleocharis macrostachya </i>spreads rapidly by rhizomes, and it develops thick root masses that are resistant to compaction and erosion. It is useful for erosion control, wildlife habitat, wetland restoration and creation, and habitat improvement in wetland and riparian sites (Ogle 2005a). It is tolerant of moderate grazing (CVIS 2007), and it can recover if subjected to disking (Pickart 2006). The alliance can be maintained in natural, created, and managed wetlands. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Eleocharis macrostachya [5], [6], [7], [8], [9], [10], [11], [12], [13], [14], [15], [16], [17], [18], [19]</li>
+                
+                    <li>Eleocharis macrostachya - Callitriche hermaphroditica [3]</li>
+                
+                    <li>Eleocharis macrostachya - Eryngium aristulatum var. parishii [4]</li>
+                
+                    <li>Eleocharis macrostachya - Lasthenia glaberrima [1], [5]</li>
+                
+                    <li>Eleocharis macrostachya - Marsilea vestita [5]</li>
+                
+                    <li>Eleocharis macrostachya - (Pleuropogon californicus) [5]</li>
+                
+                    <li>Eleocharis macrostachya - Sagittaria montevidensis ssp. calycina [2]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Barbour, M.G.;Solomeshch, A.;Witham, C.;Holland, R.;MacDonald, R.;Cilliers, S.;Molina, J.A.;Buck, J.;Hillman, J. 2003</li>
+		
+		<li>[2] Evens, J.M.;San, S.;Taylor, J. 2004</li>
+		
+		<li>[3] Kopecko, K.J.;Lathrop, E.W. 1975</li>
+		
+		<li>[4] Klein, A.;Evens, J. 2005</li>
+		
+		<li>[5] Klein, A.;Crawford, J.;Evens, J.;Keeler-Wolf, T.;Hickson, D. 2007</li>
+		
+		<li>[6] Kittel, G.;Reyes, E.;Evens, J.;Buck, J.;Johnson, D. 2012</li>
+		
+		<li>[7] Pickart, A.J. 2006</li>
+		
+		<li>[8] Potter, D.A. 2005</li>
+		
+		<li>[9] Smith, S. 1998b</li>
+		
+		<li>[10] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>[11] Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>[12] Buck-Diaz, J.;Harbert, B.;Evens, J. 2011</li>
+		
+		<li>[13] Buck-Diaz, J.;Evens, J. 2011b</li>
+		
+		<li>[14] Buck-Diaz, J.;Ratchford, J.;Evens, J. 2013</li>
+		
+		<li>[15] CNPS Vegetation Program, 2015</li>
+		
+		<li>[16] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2020</li>
+		
+		<li>[17] Boul, R.;Keeler-Wolf, T.;Ratchford, J.;Haynes, T.;Hickson, D.;Yacoub, R.;Harbert, B.;Evens, J. 2021b</li>
+		
+		<li>[18] Sikes, K.;Buck-Diaz, J.;Evens, J. 2021</li>
+		
+		<li>[19] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>Evens, J.M.;Klein, A.;Taylor, J.;Hickson, D.;Keeler-Wolf, T. 2006</li>
+		
+		<li>Hauser, A.S. 2006c</li>
+		
+		<li>Ogle, D.G. 2005a</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/386/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

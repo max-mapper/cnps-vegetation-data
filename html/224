@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Larrea tridentata - Ambrosia dumosa</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Larrea</i> <i>tridentata</i> - <i>Ambrosia</i> <i>dumosa</i></span> Shrubland Alliance <br/>
+        <span class="subtitle">Creosote bush - white bursage scrub</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>-75-1600 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S5
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G5
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: AZ, CA, NV (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2009/09/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/larrea_ambrosia_atriplex-hymenelytra-cuscuta.jpg', '/static/images/photos/shrub/larrea_amdu_opac_turtlemtns_03-95.jpg', '/static/images/photos/shrub/larrea-tridentata-ambrosia-dumosa_%20esidenopahrange_10-99.jpg', '/static/images/photos/shrub/larrea-tridentata-ambrosia-dumosa_dalelakeclarkspass.jpg', '/static/images/photos/shrub/larrea-tridentata-ambrosia-dumosa_deva_01.jpg', '/static/images/photos/shrub/larrea-tridentata-ambrosia-dumosa_deva_02.jpg', '/static/images/photos/shrub/larrea-tridentata-ambrosia-dumosa_deva_10-99_01.jpg', '/static/images/photos/shrub/larrea-tridentata-ambrosia-dumosa_eurekavalley%28northernlimitsofalliance%29_05-00.jpg', '/static/images/photos/shrub/larrea-tridentata-ambrosia-dumosa_kelso-bakerrd_04-05.jpg', '/static/images/photos/shrub/larrea-tridentata-ambrosia-dumosa_kelsoduneapron.jpg', '/static/images/photos/shrub/larrea-tridentata-ambrosia-dumosa_las%20chancerange%28northernlimitsofalliance%29.jpg', '/static/images/photos/shrub/larrea-tridentata-ambrosia-dumosa_lastchancerng_05-10_01.jpg', '/static/images/photos/shrub/larrea-tridentata-ambrosia-dumosa_lastchancerng_05-10_02.jpg', '/static/images/photos/shrub/larrea-tridentata-ambrosia-dumosa_lastchancerng_05-10_03.jpg', '/static/images/photos/shrub/larrea-tridentata-ambrosia-dumosa_redrockcyn_95.jpg', '/static/images/photos/shrub/larrea-tridentata-ambrosia-dumosa_ricevalleydunes_03-95_01.jpg', '/static/images/photos/shrub/larrea-tridentata-ambrosia-dumosa_ricevalleydunes_03-95_02.jpg', '/static/images/photos/shrub/larrea-tridentata-ambrosia-dumosa_sjotr_03-08_01.jpg', '/static/images/photos/shrub/larrea-tridentata-ambrosia-dumosa_sjotr_03-08_02.jpg', '/static/images/photos/shrub/larrea-tridentata-ambrosia-dumosa_sjotr_03-08_03.jpg', '/static/images/photos/shrub/larrea-tridentata-ambrosia-dumosa_sjotr_03-08_04.jpg', '/static/images/photos/shrub/larrea-tridentata-ambrosia-dumosa_walkerpassjcthwy14_04-95_01.jpg', '/static/images/photos/shrub/larrea-tridentata-ambrosia-dumosa_walkerpassjcthwy14_04-95_02.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Ambrosia</i> <i>dumosa</i> and <i>Larrea</i> <i>tridentata</i> are co-dominant in the shrub canopy with <i>Ambrosia</i> <i>salsola</i>, <i>Amphipappus</i> <i>fremontii</i>, <i>Atriplex</i> <i>confertifolia</i>, <i>Atriplex</i> <i>hymenelytra</i>, <i>Atriplex</i> <i>polycarpa</i>, <i>Bebbia</i> <i>juncea</i>, <i>Croton</i> <i>californicus</i>, <i>Cylindropuntia</i> <i>acanthocarpa</i>, <i>Cylindropuntia</i> <i>ramosissima</i>, <i>Dalea</i> <i>mollissima</i>, <i>Echinocactus</i> <i>polycephalus</i>, <i>Encelia</i> <i>farinosa</i>, <i>Encelia</i> <i>virginensis</i>, <i>Ephedra</i> spp., <i>Eriogonum</i> <i>fasciculatum</i>, <i>Krameria</i> spp., <i>Lepidium</i> <i>fremontii</i>, <i>Lycium</i> <i>andersonii</i>, <i>Psorothamnus</i> spp., <i>Salazaria</i> <i>mexicana</i>, <i>Senna</i> <i>armata</i>, <i>Viguiera</i> <i>parishii</i> and <i>Yucca</i> <i>schidigera</i>. Emergent trees or tall shrubs may be present at low cover, including <i>Fouquieria</i> <i>splendens</i> or <i>Yucca</i> <i>brevifolia</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 3 m; canopy is open to intermittent, and two tiered. Herbaceous layer is absent to intermittent with seasonal annuals. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li>Both <i>Larrea tridentata</i> and <i>Ambrosia dumosa</i> ≥ 1%
+absolute cover in the shrub canopy; both species
+exceeding 2 × the cover of other shrub species (Keeler-
+Wolf et al. 1998b).</li>
+		
+		<li>Both<i> L. tridentata</i> and <i>A. dumosa</i>  ≥ 1% absolute
+cover in the shrub canopy; <i>A. dumosa</i>  may be higher
+cover than <i>L. tridentata</i> . No shrub with cover greater
+than <i>L. tridentata</i>  or <i>A. dumosa</i>  with the following
+exceptions: <i>Acamptopappus sphaerocephalus, Bebbia
+juncea, Cylindropuntia acanthocarpa, Ephedra
+nevadensis, Ericameria teretefolia,</i>  or <i>Krameria</i>  spp. may have higher cover, but no more than 3 times
+(Thomas et al. 2004).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Washes and rills, alluvial fans, bajadas, valleys, basins, upland slopes, mesas, erosional highlands. Soils are well-drained, alluvial, colluvial, sandy, sometimes underlain by a hardpan that may be calcareous, igneous and/or covered with desert pavement.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Creosote bush-white bursage series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Larrea tridentata-Ambrosia dumosa shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Creosote bush, Ocotillo
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Sonoran creosote bush scrub, Mojave creosote bush scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Creosote bush scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Desert scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>33.140.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Xeromorphic Scrub and Herb Vegetation (Semi-Desert)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Warm Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Warm Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Sonoran and Chihuahuan Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Mojavean-Sonoran Desert Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Lower Bajada and Fan Mojavean-Sonoran desert scrub
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Larrea tridentata </i>is a very long-lived shrub, 10,000+ years as a clone, with low seedling recruitment (Vasek and Barbour 1977). It is an evergreen and extremely resistant to high temperatures and low precipitation. <i>L. tridentata </i>minimizes evapotranspiration by stomatal and water potential regulation daily and annually (Hamerlynck et al. 2002, Oechel et al. 1972, Ogle and Reynolds 2002). Its resinous leaves diminish transpiration more than assimilation (Meinzer et al. 1990). Further, the stem and foliage architecture minimizes self-shading under favorable photosynthetic conditions, whereas the leaves fold up and alter their angle to minimize direct solar radiation under periods of moisture stress (Ezcurra et al. 1992). Plants may die during severe droughts, though they typically persist longer than other shrubs and can sprout from the base when moisture returns. <br/>
+<br/>
+<i>Ambrosia dumosa </i>is a short-lived shrub with relatively shallow roots. It dominates sandy substrates, rocky hills, or alluvial fans, and particularly older soils with caliche or clay layers. It tends to replace <i>L. tridentata </i>on soils with high clay content (McAuliffe 1988). Plants decline under long term, moderate-tointense grazing (Marshall 1994), but they quickly colonize recently denuded sites (Vasek 1980). <br/>
+<br/>
+Stands with taller <i>L. tridentata </i>and shorter <i>A. dumosa </i>shrubs represent the major vegetation type of California’s hot deserts. This alliance covers approximately 67% of the central Mojave Desert (Thomas et al. 2004) and about 70% of the Colorado and Sonoran deserts in the state. It is the modal vegetation type of the bajadas, alluvial fans, and lower slopes. Conditions range from extremely hot dry sites with very low species diversity below sea level in Salton Sink to relatively diverse mesic sites and higher diversity at > 1100 m in the eastern Mojave Desert. <br/>
+<br/>
+Closely related ecologically to this and other upland alliances of the hot deserts, the <i>Larrea tridentata </i>alliance is often a degraded version of this alliance; the <i>Ambrosia dumosa </i>and <i>Ambrosia salsola </i>alliances are a <i>Larrea tridentata-Ambrosia dumosa </i>Shrubland Alliance 567 result of soil, grazing, or higher flood frequencies; the <i>Atriplex confertifolia, Coleogyne ramosissima, Grayia spinosa, Yucca schidigera, </i>and <i>Yucca brevifolia </i>alliances occur in moister, cooler settings; the <i>Atriplex hymenelytra </i>and <i>Larrea tridentata-Encelia farinosa </i>alliances exist in hotter, more exposed settings; and the <i>Atriplex polycarpa </i>and <i>Atriplex spinifera </i>alliances occupy heavy or alkaline soils. <br/>
+<br/>
+Natural processes in the alliance include the effects of shifting moisture availability. Both <i>A. dumosa </i>and <i>L. tridentata </i>die following severe droughts, but <i>L. tridentata </i>typically persists longer and can sprout when moisture returns. <i>A. dumosa </i>establishes more readily from seed banks and off-site sources. A study of cleared sites in the eastern Mojave Desert (Vasek 1980) found rapid colonization by <i>A. dumosa, Cylindropuntia bigelovii, Encelia farinosa, </i>and <i>Stephanomeria pauciflora; L. tridentata </i>colonized only slowly. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Ambrosia dumosa</th>
+			
+		
+			
+			<th>Larrea tridentata</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Shrub; drought deciduous</td>
+			
+		
+			
+			<td>Shrub; drought deciduous</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Medium</td>
+			
+		
+			
+			<td>Medium</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; tumbling</td>
+			
+		
+			
+			<td>Animal; gravity; wind</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>Chemical; heat</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Underground structure (root crowns)</td>
+			
+		
+			
+			<td>Underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-sensitive; no/weak sprouter</td>
+			
+		
+			
+			<td>Fire-sensitive; no/low sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>5-50 years</td>
+			
+		
+			
+			<td>Long lived (maybe 100s to 1000s of years)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>High (on open ground)</td>
+			
+		
+			
+			<td>Low to high (secondary colonizer, fire intensity dependant)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Both <i>Ambrosia dumosa </i>and <i>Larrea tridentata </i>exhibit limited sprouting ability after fire, and <i>L. tridentata </i>has resinous foliage that is highly flammable (Vasek 1979, 1983, Marshall 1995b). Low-intensity fires can cause up to 100% mortality in both <i>L. tridentata </i>and <i>A. dumosa, </i>but some shrubs can survive if crowns are only partially consumed. Mortality rates are probably related to rainfall conditions during the immediate postfire years, and both species may colonize successfully by seed from offsite sources in high rainfall years following a fire (Brooks and Minnich 2006). However, <i>A. dumosa </i>can colonize more rapidly after fire and may dominate alone for a number of years before both <i>L. tridentata </i>and <i>A. dumosa </i>regain similar pre-fire dominance.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Truncated long
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Spring-summer-fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Small to medium
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>High
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Passive-active crown fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Hot deserts
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Colorado Desert</b> (322Ca-d). Stands are common in the western subsections, and are related at upper elevations to stands of the <i>Agave deserti, Viguiera parishii,</i> and <i>Larrea tridentata-Encelia farinosa</i> alliances. Lower elevation stands border <i>Atriplex polycarpa, Encelia farinosa, Fouquieria splendens,</i> and <i>Cylindropuntia bigelovii</i> alliances in Anza-Borrego Desert State Park (Keeler-Wolf et al. 1998b).</li>
+        
+            <li><b>Mojave Desert</b> (322Aa-p). Associations in this section contain from two to more than 20 shrub species in mid-desert settings. The many associations in the alliance sort into those of higher elevations, rocky slopes, bajadas, washes, and sandy substrates and basins. In Death Valley, the alliance exists adjacent to stands of the <i>Grayia spinosa, Atriplex confertifolia,</i> and other Great Basin alliances; in the southern subsections, stands are adjacent to those of the <I>Cylindropuntia bigelovii, Encelia farinosa,</i> and <i>Viguiera parishii</i> alliances (Annable 1985, Peterson 1984a, 1984b, Thomas et al. 2004).</li>
+        
+            <li><b>Sonoran Desert</b> (322Ba-e). Stands are simpler than in the Mojave Desert, likely because of low climatic and topographic variation in this section. Low density and low diversity stands occupy old dissected alluvial fans with desert pavement. A fine-grained matrix exists between stands of this alliance and those of the <i>Cylindropuntia bigelovii, Encelia farinosa,</i> and <i>Parkinsonia florida- Olneya tesota</i> alliances (Evens and Hartman 2007).</li>
+        
+            <li><b>Southeastern Great Basin</b> (341Fb-f). Stands exist in the Eureka and Saline valleys and in areas bordering the Mojave Desert. Stands merge with those of the <i>Atriplex confertifolia, Atriplex hymenelytra, Ephedra funerea,</i> and <i>Artemisia nova</i> alliances, with the latter two particularly on calcareous substrates. Northernmost stands in Eureka Valley are relatively simple with the <i>Larrea tridentata-Ambrosia dumosa-Psorothamnus fremontii</i> association (Thomas et al. 2004).</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Bi). Stands occur in some of the lower reaches of the Little San Bernardino Mountains in Joshua Tree National Park (Keeler-Wolf et al. 2005).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> The presence of several non-native plants, particularly <i>Brassica tournefortii, Bromus </i>spp., and <i>Schismus </i>spp., has greatly increased fire frequencies and led to the degradation and destruction of many hectares of this alliance. Long-term, intensive grazing, OHV activity, mining, and military operations have also left their mark (Brooks 1999). We need to identify, monitor, and manage areas free of these degrading influences. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Larrea tridentata - Ambrosia dumosa [1], [2], [5], [6], [9], [11], [12]</li>
+                
+                    <li>Larrea tridentata - Ambrosia dumosa - Ambrosia salsola [5], [9], [11], [12]</li>
+                
+                    <li>Larrea tridentata - Ambrosia dumosa - Amphipappus fremontii [5], [9], [12]</li>
+                
+                    <li>Larrea tridentata - Ambrosia dumosa - Atriplex canescens [5]</li>
+                
+                    <li>Larrea tridentata - Ambrosia dumosa - Atriplex confertifolia [1], [5], [6], [9], [11], [12]</li>
+                
+                    <li>Larrea tridentata - Ambrosia dumosa - Atriplex hymenelytra [3], [9], [12]</li>
+                
+                    <li>Larrea tridentata - Ambrosia dumosa - Atriplex polycarpa [5]</li>
+                
+                    <li>Larrea tridentata - Ambrosia dumosa / Cryptogamic crust [2], [9], [12]</li>
+                
+                    <li>Larrea tridentata - Ambrosia dumosa - Cylindropuntia (acanthocarpa, ramosissima) [5], [9], [12]</li>
+                
+                    <li>Larrea tridentata - Ambrosia dumosa / Dalea mollissima [5]</li>
+                
+                    <li>Larrea tridentata - Ambrosia dumosa - (Echinocactus polycephalus - Opuntia basilaris) [5], [9], [12]</li>
+                
+                    <li>Larrea tridentata - Ambrosia dumosa - Encelia farinosa [5]</li>
+                
+                    <li>Larrea tridentata - Ambrosia dumosa - Encelia virginensis [5]</li>
+                
+                    <li>Larrea tridentata - Ambrosia dumosa - Ephedra funerea [5], [9], [12]</li>
+                
+                    <li>Larrea tridentata - Ambrosia dumosa - (Ephedra nevadensis - Lycium andersonii) [5], [9], [12]</li>
+                
+                    <li>Larrea tridentata - Ambrosia dumosa - Ericameria cooperi [5]</li>
+                
+                    <li>Larrea tridentata - Ambrosia dumosa - Eriogonum fasciculatum [5], [9], [10], [12]</li>
+                
+                    <li>Larrea tridentata - Ambrosia dumosa - Fagonia laevis [3]</li>
+                
+                    <li>Larrea tridentata - Ambrosia dumosa - Fouquieria splendens [2], [9]</li>
+                
+                    <li>Larrea tridentata - Ambrosia dumosa - Galium angustifolium - Lyrocarpa coulteri [3]</li>
+                
+                    <li>Larrea tridentata - Ambrosia dumosa - Gutierrezia sarothrae [5]</li>
+                
+                    <li>Larrea tridentata - Ambrosia dumosa - Krameria (erecta, grayi) [5], [9], [12]</li>
+                
+                    <li>Larrea tridentata - Ambrosia dumosa - Olneya tesota [2]</li>
+                
+                    <li>Larrea tridentata - Ambrosia dumosa / Pleuraphis rigida [2], [5], [7], [9], [12]</li>
+                
+                    <li>Larrea tridentata - Ambrosia dumosa - Psorothamnus (arborescens, fremontii) [5], [9], [12]</li>
+                
+                    <li>Larrea tridentata - Ambrosia dumosa - Psorothamnus emoryi - sandy [2], [3]</li>
+                
+                    <li>Larrea tridentata - Ambrosia dumosa - Psorothamnus schottii [3]</li>
+                
+                    <li>Larrea tridentata - Ambrosia dumosa - Psorothamnus spinosus [2]</li>
+                
+                    <li>Larrea tridentata - Ambrosia dumosa - Salazaria mexicana [5]</li>
+                
+                    <li>Larrea tridentata - Ambrosia dumosa - Senna armata [2], [8], [9], [12]</li>
+                
+                    <li>Larrea tridentata - Ambrosia dumosa - Viguiera parishii [5]</li>
+                
+                    <li>Larrea tridentata - Ambrosia dumosa - Yucca schidigera [2], [7], [8], [9], [12]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Annable, C.R. 1985</li>
+		
+		<li>[2] Evens, J.M.;Hartman, S. 2007</li>
+		
+		<li>[3] Keeler-Wolf, T.;Roye, C.;Lewis, K. 1998b</li>
+		
+		<li>[5] Keeler-Wolf, T.;Thomas, K. 2000</li>
+		
+		<li>[6] Peterson, P.M. 1984a</li>
+		
+		<li>[7] Keeler-Wolf, T.;San, S.;Hickson, D. 2005</li>
+		
+		<li>[8] Evens, J.M.;Roach-McIntosh, D.;Stout, D. 2012</li>
+		
+		<li>[9] Evens, J.M.;Sikes, K.;Hastings, D.;Ratchford,J.S. 2014</li>
+		
+		<li>[10] VegCAMP (CDFW Vegetation Classification and Mapping Program), 2015a</li>
+		
+		<li>[11] Reyes, E.;Evens, J.;Glass, A.;Sikes, K.;Keeler-Wolf., T.;Winitsky, S.;Johnson, D.;Menke, J.;Hepburn, A. 2020a</li>
+		
+		<li>[12] Reyes, E.;Evens, J.;Fulton, J.;Sikes, K.; Johnson, D.;Keeler-Wolf, T.;Vu, S.;LaFever-Jackson, A. 2023 (in progress)</li>
+		
+		<li>Brooks, M.L.;Minnich, R.A. 2006</li>
+		
+		<li>Burk, J.H. 1977</li>
+		
+		<li>Holzman, B. 1994</li>
+		
+		<li>Hunt, C.B. 1966</li>
+		
+		<li>Keeler-Wolf, T. 2007b</li>
+		
+		<li>MacMahon, J.A. 1988</li>
+		
+		<li>Marshall, K.A. 1994</li>
+		
+		<li>Marshall, K.A. 1995a</li>
+		
+		<li>McAuliffe, J.R. 1988</li>
+		
+		<li>Menke, J.;Reyes, E.;Hepburn, A.;Johnson, D.;Reyes, J. 2013</li>
+		
+		<li>Peterson, P.M. 1984b</li>
+		
+		<li>Reid, M.S.;Schulz, K.A.;Cormer, P.J.;Schindel, M.H.;Culver, D.R.;Sarr, D.A.;Damm, M.C. 1999</li>
+		
+		<li>Sawyer, J.O.;Keeler-Wolf, T. 1995</li>
+		
+		<li>Thomas, K.;Franklin, J.;Keeler-Wolf, T.;Stine, P. 2004</li>
+		
+		<li>Thorne, R.F. 1982</li>
+		
+		<li>Turner, R.M. 1982b</li>
+		
+		<li>Turner, R.M.;Brown, D.E. 1982</li>
+		
+		<li>Vasek, F.C.;Barbour, M.G. 1977</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program);AIS, 2013</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/224/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

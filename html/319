@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Anemopsis californica - Helianthus nuttallii - Solidago spectabilis</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Anemopsis</i> <i>californica</i> - <i>Helianthus</i> <i>nuttallii</i> - <i>Solidago</i> <i>spectabilis</i></span> Herbaceous Alliance <br/>
+        <span class="subtitle">Yerba mansa - Nuttall&#39;s sunflower - Nevada goldenrod alkaline wet meadows</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Herb
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-1700 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S2
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G3
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: AZ, CA, CO, KS, NE, NM, NV, OK, OR, TX, UT. Mexico (TJM2) (USDA Plants)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2009/09/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/herb/anemopsis-californica_sdrp-santaysabelranch_06-03.jpg', '/static/images/photos/herb/anemopsis-californica_ballona-wetlands_05-06_01.jpg', '/static/images/photos/herb/anemopsis-californica_ballona-wetlands_05-06_02.jpg', '/static/images/photos/herb/anemopsis-californica_ballona-wetlands_05-06_03.jpg', '/static/images/photos/herb/anemopsis-californica_ballona-wetlands_05-06_04.jpg', '/static/images/photos/herb/anemopsis-californica_fish-slough_09-11.jpg', '/static/images/photos/herb/anemopsis-solidago_deva_02-13.jpg', '/static/images/photos/herb/solidago_spectabilis_deva_04-2009.jpg', '/static/images/photos/herb/solidago_spectabilis_deva_04-2009_02.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Anemopsis</i> <i>californica</i>, <i>Helianthus</i> <i>nuttallii</i>, <i>Solidago</i> <i>confinis</i> and/or <i>Solidago</i> <i>spectabilis</i> is dominant or co-dominant in the herbaceous layer with <i>Ambrosia</i> <i>psilostachya</i>, <i>Bromus</i> <i>hordeaceus</i>, <i>Carex</i> <i>praegracilis</i>, <i>Carpobrotus</i> <i>edulis</i>, <i>Cirsium</i> <i>occidentale</i>, <i>Distichlis</i> <i>spicata</i>, <i>Euthamia</i> <i>occidentalis</i>, <i>Holocarpha</i> <i>virgata</i>, <i>Hordeum</i> <i>murinum</i> ssp. <i>leporinum</i>, <i>Juncus</i> <i>arcticus</i>, <i>Juncus</i> <i>cooperi</i>, <i>Juncus</i> <i>rugulosus</i>, <i>Lactuca</i> <i>serriola</i>, <i>Leymus</i> <i>triticoides</i>, <i>Lolium</i> <i>perenne</i>, <i>Medicago</i> <i>polymorpha</i>, <i>Rumex</i> <i>crispus</i>, <i>Schoenoplectus</i> <i>americanus</i>, <i>Sisyrinchium</i> <i>bellum</i> and <i>Sporobolus</i> <i>airoides</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Herbs < 1 m; cover is intermittent to 
+continuous. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Anemopsis californica</i> > 30% relative cover in the herbaceous layer (Evens and San 2005, Buck-Diaz et al. 2012, Sproul et al. 2011, VegCAMP 2014b).</li>
+		
+		<li><i>Anemopsis californica, Solidago confinis</i>, or <i>S. spectabilis</i> > 30% relative cover in the herbaceous layer (Evens et al. 2014).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Alkaline or saline meadows, marshes, seeps and springs, edges of playas, floodplains, and stream terraces. The USFWS Wetland Inventory (2018 national list) recognizes <i>Anemopsis californica</i> as an OBL plant and <i>Helianthus nuttallii</i> and <i>Solidago spectabilis </i> as FACW plants. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Saltgrass series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Alkaline flats, Alkaline mixed grasses and forbs, Wet grasses and forbs
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Alkali meadow, Freshwater seep, Cismontane alkali marsh, Transmontane alkali marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Alkali sink, Freshwater marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Fresh emergent wetland, Saline emergent wetland, Wet meadow
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>52.214.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate and Boreal Shrubland and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate and Boreal Salt Marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North American Interior Alkali-Saline Wetland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Warm Semi-Desert/Mediterranean Alkali-Saline Wetland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Southwestern North American alkali marsh/seep vegetation
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> The alliance includes opportunistic forbs of alkaline marshes. <i>Anemopsis californica </i>is a common marsh plant that is tolerant of alkaline or saline, clay soils. This herbaceous perennial has a woody rootstock and aromatic rhizomes. The flowers lack a perianth and form a conical-shaped head subtended by 4-8 unequal, white, petal-like bracts. The waxy, dull, gray-green leaves have a spicy smell. Many tribes in California and the Southwest used the root of the plant as a medicine (Anderson and Roderick 2000). <br/>
+<br/>
+Similarly, <i>Solidago confinis </i>and <i>S. spectabilis </i>are tolerant of clay soils, alkalinity and salinity, and seasonal flooding. Plants have plumes of small, yellow flowers, which attract bees, butterflies, and other pollinators (Calflora 2018).<br/>
+<br/>
+Stands of <i>A. californica </i>are typically small and occur in isolated inland wetlands and riparian zones. In California, it associates with <i>Platanus racemosa, Populus fremontii, Salix </i>spp., and riparian herbs. Elsewhere, <i>A. californica </i>is an understory plant of <i>Populus deltoides </i>stands in New Mexico (NatureServe 2007a). Most stands occur in a fine-scale matrix and need to be sampled individually.<br/>
+<br/>
+This alliance has been expanded to include additional species since the 2009 publication of  <i>A Manual of California Vegetation, second edition</i>.  In southeastern California stands of  <i>Solidago spectabilis</i> and  <i>Helianthus nuttallii</i> occur in a matrix with various herbs, sometimes including <i>Anemopsis californica</i>. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Anemopsis californica</th>
+			
+		
+			
+			<th>Helianthus nuttallii</th>
+			
+		
+			
+			<th>Solidago confinis</th>
+			
+		
+			
+			<th>Solidago spectabilis</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Polycarpic perennial; herb; rhizomatous</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Polycarpic perennial herb; rhizomatous</td>
+			
+		
+			
+			<td>Polycarpic perennial herb; rhizomatous</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil </td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Long</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; gravity; water/hydrological </td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Water/hydrological; wind</td>
+			
+		
+			
+			<td>Water/hydrological; wind</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Inundation; stratification—winter </td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Underground structures</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Underground structures</td>
+			
+		
+			
+			<td>Underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>Life of plant</td>
+			
+		
+			
+			<td>Life of plant</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>High </td>
+			
+		
+			
+			<td>High</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Fluvial processes rather than fire primarily disturb stands of this alliance. However, the rhizomatous nature of <i>Anemopsis californica </i> and <i>Solidago </i>spp. enable plants to regenerate quickly after a fire.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Aa, Ac, Ak-l). Stands have been observed in marshes and sloughs in Contra Costa Co. and along streams in Alameda Co. In San Luis Obispo Co., stands may be found near the coast in sand dunes and along river edges (Calflora 2018, Calphotos 2018).</li>
+        
+            <li><b>Central California Coast Ranges</b> (M262Aa, Ac-d, Aj). Stands have been observed in the section, including along the Cuyama River in San Luis Obispo Co. (Calflora 2018).</li>
+        
+            <li><b>Great Valley</b> (262Aj-k, Aq, Au, Ay-z). A meadow stand of <i>Anemopsis californica</i> occurs in a floodplain of Grapevine Creek (Moe 2004). Additional stands were sampled in the southeast and southwest portions of the ecoregion section (Buck-Diaz et al. 2012). Stands have been observed along sloughs in Solano Co. and Conta Costa Co. (Calflora 2018).</li>
+        
+            <li><b>Mojave Desert</b> (322Aa-b, Ae, Ag-j, An). Small stands occur in alkali wetlands adjacent to stands of <i>Juncus cooperi, Schoenoplectus americanus,</i> and other wetland alliances at Zzyzx Hot Springs.  Stands also occur at springs in Death Valley National Park (Evens et al. 2014). Stands have been observed throughout the Owens Valley and Rose Valley at alkali wet meadows along the valley floor and at streams crossing fans below the Sierra Nevada. Outside of Mono Co. and Inyo Co., the alliance is restricted to isolated springs and seeps, moist playas, and along rivers. <i>Solidago confinis</i> or <i>S. spectabilis</i> occupy more montane sites.</li>
+        
+            <li><b>Mono</b> (341Dh-i). Stands occur in the upper Owens River Valley near Bishop at Fish Slough (Odion et al. 1992a, VegCAMP 2014b). Stands have been observed near Mono Lake.</li>
+        
+            <li><b>Sierra Nevada</b> (M261Er, Eu). Stands of <i>A. californica</i> have been observed in wet places on the Kern Plateau and grassy wet areas and alkaline seeps along the eastern slope. <i>Solidago confinis</i> has also been observed at springs along the eastern slope (Consortium of California Herbaria 2018; Calflora 2018).</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fc-e). Stands have been sampled along the historic floodplain of the Kern River below Isabella Reservoir (CNPS 2008).</li>
+        
+            <li><b>Southeastern Great Basin</b> (341Fd-f). A stand was sampled in the Grapevine Mountains of Death Valley National Park (Evens et al. 2014). Isolated stands have been observed at springs in the Panamint Mountains and the Coso Range.</li>
+        
+            <li><b>Southern California Coast</b> (261Ba-b, Bd, Bg, Bi-j). At least one stand lies between a freshwater seep and a salt marsh in the Ballona Wetlands Wildlife Area, Los Angeles Co. (CNDDB 2008). Stands have been observed at marshes adjacent to coastal lagoons in San Diego Co. and Santa Barbara Co. and along the edge of springs in Santa Barabara Co. (Consortium of California Herbaria 2018; Calflora 2018).</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Ba-l, Bn-p). Stands occur in saturated wetlands in the Lake Hodges area east to San Felipe Valley in San Diego Co. (Evens and San 2005) and in the Santa Ana Mountains in western Riverside Co. (Klein and Evens 2005). Stands can be found in areas of wet soil and alkaline flats and seeps in valleys throughout this section (Consortium of California Herbaria 2018; Calflora 2018).
+Stands of <i>Solidago confinis</i>  have been observed in saline wetlands, meadows, and wet areas along rivers and creeks in the mountain ranges throughout this section (Consortium of California Herbaria 2018; Calflora 2018).</li>
+        
+            <li><b>Southern Cascades</b> (M261Db-c). Stands have been observed in seasonally wet grasslands and meadows in Siskiyou Co. (CCH 2018, Calphotos 2018).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Ranchers consider <i>Anemopsis californica</i>  invasive in pastures. It is unpalatable to livestock and increases with grazing. <i>Solidago </i>spp., on the other hand, have fair to good palatability for livestock. Taxa in this alliance were used by Native American tribes for various medicinal uses. Due to the rhizomatous nature of <i>Anemopsis californica </i>and <i>Solidago </i>spp., they can be used for revegetation of disturbed areas and for soil stabilization (Anderson and Roderick 2000, Pavek 2011). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Anemopsis californica [4], [5], [6], [8]</li>
+                
+                    <li>Anemopsis californica - Juncus arcticus var. mexicanus [1], [3], [7], [8]</li>
+                
+                    <li>Helianthus nuttallii [8]</li>
+                
+                    <li>Solidago (confinis, spectabilis) [2]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Evens, J.;San, S. 2005</li>
+		
+		<li>[2] Evens, J.M.;Sikes, K.;Hastings, D.;Ratchford,J.S. 2014</li>
+		
+		<li>[3] Sproul, F.;Keeler-Wolf, T.;Gordon-Reedy, P.;Dunn, J.;Klein, A.;Harper, K. 2011</li>
+		
+		<li>[4] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>[5] Buck-Diaz, J.;Harbert, B.;Evens, J. 2011</li>
+		
+		<li>[6] Buck-Diaz, J.;Ratchford, J.;Evens, J. 2013</li>
+		
+		<li>[7] VegCAMP (CDFW Vegetation Classification and Mapping Program), 2014b</li>
+		
+		<li>[8] Reyes, E.;Evens, J.;Glass, A.;Sikes, K.;Keeler-Wolf., T.;Winitsky, S.;Johnson, D.;Menke, J.;Hepburn, A. 2020a</li>
+		
+		<li>Anderson, M.K.;Roderick, W. 2000</li>
+		
+		<li>Calphotos, 2018+</li>
+		
+		<li>Klein, A.;Evens, J. 2005</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/319/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

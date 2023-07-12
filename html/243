@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Pluchea sericea</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Pluchea</i> <i>sericea</i></span> Shrubland Alliance <br/>
+        <span class="subtitle">Arrow weed thickets</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>-75-900 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3.3
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G4
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA, UT (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/pluchea-sericea_chimineas_2005_01.jpg', '/static/images/photos/shrub/pluchea-sericea_devilscornfielddvnp_10-99_01.jpg', '/static/images/photos/shrub/pluchea-sericea_picachosp_03-95_01.jpg', '/static/images/photos/shrub/pluchea-sericea_salinevalley_05-00_01.jpg', '/static/images/photos/shrub/pluchea-sericea_coloradoriverindianreservation_02-12_01.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Pluchea</i> <i>sericea</i> is dominant or co-dominant in the shrub canopy with <i>Allenrolfea</i> <i>occidentalis</i>, <i>Atriplex</i> <i>canescens</i>, <i>Atriplex</i> <i>lentiformis</i>, <i>Atriplex</i> <i>torreyi</i>, <i>Baccharis</i> <i>salicifolia</i>, <i>Baccharis</i> <i>sergiloides</i>, <i>Salix</i> <i>exigua</i>, <i>Suaeda</i> <i>moquinii</i> and <i>Tamarix</i> spp. Emergent trees may be present at low cover, including <i>Populus</i> <i>fremontii</i>, <i>Populus</i> <i>trichocarpa</i> or <i>Prosopis</i> <i>glandulosa</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 5 m; canopy is intermittent to continuous. Herbaceous layer is sparse with seasonal annuals. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Pluchea sericea</i> ≥ 2% absolute cover; no other species with greater than or equal cover in the shrub canopy (Thomas et al. 2004).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Around springs, seeps, irrigation ditches, canyon bottoms, stream borders, seasonally flooded washes. Soils are alluvial- or aeolian-derived sands or clay loams that are usually alkaline or saline. The USFWS Wetland Inventory (1996 national list) recognizes <i>Pluchea sericea</i> as a FACW plant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Arrow weed series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Pluchea sericea seasonally flooded shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Arrowweed
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Arrowweed scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Desert riparian
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>63.710.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Xeromorphic Scrub and Herb Vegetation (Semi-Desert)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Warm Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Warm Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Sonoran and Chihuahuan Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Madrean Warm Semi-Desert Wash Woodland/Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Sonoran-Coloradan semi-desert wash woodland/scrub
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Pluchea sericea </i>is a broomlike shrub to 5 m tall. It flowers and sets seed in the spring to summer, and it colonizes open moist sites readily from wind-blown seeds. Plants occur on seasonally to permanently saturated ground, usually with a high water table (Cogan et al. 2004). <br/>
+<br/>
+Stands occur as dense, narrow thickets along permanent springs and slow-flowing streams or as part of vegetation mosaics that surround alkali springs and marshes involving the <i>Distichlis spicata, Prosopis glandulosa, Salix exigua, Schoenoplectus americanus, </i>and <i>Sporobolus airoides </i>alliances. Stands can also exist with a “cornstalk” or “cornfield”-like appearance on extensive flats and playas that have strongly alkaline crusts. Ground water is typically available a few feet below the surface but is rarely present at the surface. <br/>
+<br/>
+The cornfield and spring types have different ecological regimes. The cornfield type appears to establish under abnormally wet conditions, and it persists by tapping into the subterranean water supplies. Once established, wind-induced deflation and accretion isolate the shrubs, and they build up fine sandy soil mounds around the shrub bases. The spring type experiences occasional flooding events and dieback from fluctuations in the water table. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Pluchea sericea</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Shrub; evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; water/hydrological; wind</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Unknown</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Underground structures (root crown)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>2-20+ years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Episodic</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Age, asexual reproduction, and fire effects are not well known, but plants do sprout after fire or other disturbance (Desert Workshop 2000). Fire return intervals may be increasing where stands are adjacent to stands of fire-promoting <i>Tamarix </i>(Brooks and Minnich 2006).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast Ranges</b> (M262Ai-j). Stands occur at Carrizo Plain and in Cuyama Valley, where they associate with those of the <i>Atriplex lentiformis</i> and <i>Salix exigua</i> alliances.</li>
+        
+            <li><b>Colorado Desert</b> (322Ca-d). Stands exist in Anza- Borrego Desert State Park (Keeler-Wolf et al. 1998b) and other areas scattered around alkaline springs, stream borders, and marshes.</li>
+        
+            <li><b>Great Valley</b> (262Ag, Ax-z). We know little about stands in this section, but they appear to occur sporadically in the southernmost subsections.</li>
+        
+            <li><b>Mojave Desert</b> (322Aa-p). Stands are widespread at springs throughout the section. The often-photographed stands at Devil’s Cornfield in Death Valley National Park cover extensive flats with strongly alkaline crusts. Other stands exist in eastern subsections (Thomas et al. 2004), and stands typically associate with alkali sinks in both Death Valley and Saline Valley (Keeler-Wolf 2007b).</li>
+        
+            <li><b>Sierra Nevada</b> (M261Es). Stands occur along Canebrake Creek west of Walker Pass.</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fd-e). Stands may occur in the southernmost subsections, but plot data are lacking.</li>
+        
+            <li><b>Sonoran Desert</b> (322Ba-e). Stands are common along margins of the Colorado River (Schoenherr and Burk 2007).</li>
+        
+            <li><b>Southeastern Great Basin</b> (341Fc-e). Stands with strongly alkaline crusts in Saline Valley cover extensive flats as open shrublands with wide, sparse patches of <i>Distichlis spicata.</i> Small stands occur at springs in the Grapevine Mountains as at Scotty’s Castle.</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Ba-c). Stands occur along the uppermost reach of the lower Santa Clara River drainage with <i>Arundo donax, Baccharis salicifolia,</i> and <i>S. exigua</i> (Stillwater Sciences and URS 2007), and they are increasing with disturbance in the upper Santa Clara River at the expense of willow, cottonwood, and sycamore alliances (Court et al. 2000). Stands occur in other subsections of this region on low-gradient slopes between 500 and 850 m (Calveg 2005).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Stands are typically small and reduced by a variety of disturbances including browsing by feral burros and cattle, ORV recreation, and ground water pumping. Planting <i>Pluchea sericea </i>effectively stabilizes and restores disturbed or degraded areas, though it tends to replace other plants once established (UCB 2006). Invasion by <i>Tamarix </i>is a concern, since it and <i>P. sericea </i>have similar water requirements (Cogan et al. 2004). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Pluchea sericea Seasonally Flooded [1], [2], [3], [4], [5], [6]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Keeler-Wolf, T.;Thomas, K. 2000</li>
+		
+		<li>[2] Sproul, F.;Keeler-Wolf, T.;Gordon-Reedy, P.;Dunn, J.;Klein, A.;Harper, K. 2011</li>
+		
+		<li>[3] Evens, J.M.;Sikes, K.;Hastings, D.;Ratchford,J.S. 2014</li>
+		
+		<li>[4] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>[5] Buck-Diaz, J.;Evens, J. 2011b</li>
+		
+		<li>[6] CNPS Vegetation Program, 2015</li>
+		
+		<li>Barry, W.J. 1989a</li>
+		
+		<li>Barry, W.J. 1989b</li>
+		
+		<li>Keeler-Wolf, T. 2007b</li>
+		
+		<li>Menke, J.;Reyes, E.;Hepburn, A.;Johnson, D.;Reyes, J. 2013</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Black, H.;Bleich, V.C.;Mincks, J.W. 1980</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Conrad, C.E. 1982</li>
+		
+		<li>Schoenherr, A.A.;Burk, J.H. 2007</li>
+		
+		<li>Stillwater Sciences and URS, 2007</li>
+		
+		<li>Thorne, R.F. 1976</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program);AIS, 2013</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/243/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

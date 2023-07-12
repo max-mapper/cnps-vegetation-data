@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Abies concolor</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Abies</i> <i>concolor</i></span> Forest &amp; Woodland Alliance <br/>
+        <span class="subtitle">White fir forest and woodland</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Tree
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>1400-2700 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S4
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G4
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: AZ, CA, CO, NM, NV, OR, UT, WY. Mexico (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/tree/abies-concolor_boulder_lake_trinity_alps_11-04.jpg', '/static/images/photos/tree/abies-concolor_calaverasco_09-09_01.jpg', '/static/images/photos/tree/abies-concolor_calaverasco_09-09_02.jpg', '/static/images/photos/tree/abies-concolor_cord97_modocnf_09-10_01.jpg', '/static/images/photos/tree/abies-concolor_cord97_modocnf_09-10_02.jpg', '/static/images/photos/tree/abies-concolor_cord97_modocnf_09-10_03.jpg', '/static/images/photos/tree/abies-concolor_cord97_modocnf_09-10_04.jpg', '/static/images/photos/tree/abies-concolor_pinus-jeffreyi_sslopesonpass_09-03.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Abies</i> <i>concolor</i> is dominant or co-dominant in the tree canopy with <i>Calocedrus</i> <i>decurrens</i>, <i>Cornus</i> <i>nuttallii</i>, <i>Pinus</i> <i>jeffreyi</i>, <i>Pinus</i> <i>lambertiana</i>, <i>Pinus</i> <i>ponderosa</i>, <i>Pseudotsuga</i> <i>menziesii</i>, <i>Quercus</i> <i>chrysolepis</i> and <i>Quercus</i> <i>kelloggii</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text"> Trees < 60 m; canopy is intermittent to continuous. Shrubs are infrequent or common. Herbaceous layer is sparse or abundant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Abies concolor</i> > 60% relative cover in canopy and is the most common tree species in reproduction layers; stands may be mixed with other conifer species, but if <i>Pinus lambertiana</i> is present, it is at < 1% absolute cover (Keeler-Wolf et al. 2003b).</li>
+		
+		<li><i>Abies concolor</i> is >30% relative cover in the tree layer with <i>Pinus ponderosa</i> or <i>Pinus jeffreyi</i> (Boul et al. 2021b).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Raised stream benches, terraces, slopes, ridges. Parent materials and soils are highly variable.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>White fir series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Abies concolor forest alliance, Abies concolor giant forest alliance, Abies concolor woodland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>White fir
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Sierran white fir forest, Southern California white fir forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Coniferous forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Eastside pine, Sierran mixed conifer, White fir
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>88.500.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Tree Vegetation (Forest and Woodland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Cool Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North America Cool Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Californian-Vancouverian Montane and Foothill Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Californian montane conifer forest
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Abies concolor </i>is a large conifer to 55 m in height and to 400 years in age. Trees begin producing cones at about 40 years, and mast in 3- to 9-year cycles. Wind primarily disperses the seeds in the fall. Most seeds land within a distance 1.5 times the height of the dominant trees, where they overwinter under or in the snow (McDonald 1980d). Seeds germinate in early spring at cold temperatures. Only 20-50% of seeds are sound. Bare soil favors germination. Trees are shade tolerant, and shade greatly favors seedling survival. Once established, plants can endure decades of suppression under a closed canopy. Suppressed trees may then grow rapidly if released (Laacke 1990a, Zouhar 2001a). <br/>
+<br/>
+<i>Abies concolor </i>involves var. <i>concolor </i>(the Rocky Mountain race) and var. <i>lowiana </i>(the Californian or Sierran race; Hamrick and Libby 1972). In the <i>Flora of North America </i>(1993), the varieties are awarded species rank. In addition, the closely related <i>A. grandis </i>grows along northern California coastline and forms transition populations between var. <i>lowiana </i>and <i>A. grandis </i>in the lower montane in the northern Coast Ranges and western Klamath Mountains (Griffin and Critchfield 1972). Since these forms have a similar ecology (Barbour 1988, Laacke 1990a, Zouhar 2001a), we include them in this alliance. Also, the <i>Abies grandis </i>x <i>concolor</i> hybrids found at montane elevations are included in this alliance.<br/>
+<br/>
+The ecological amplitude of <i>Abies concolor </i>is broader than for other firs in California. It is the only member of the genus in the Warner Mountains, eastern Modoc Plateau, Mojave Desert Mountains, and the Transverse and Peninsular ranges (Sawyer 2006, 2007, Fites-Kaufman et al. 2007, Minnich 2007, Thorne et al. 2007). Individuals of <i>A. concolor </i>mix with <i>Calocedrus decurrens, Pinus jeffreyi, Pinus ponderosa, Pseudotsuga menziesii, Quercus kelloggii, </i>and other trees characteristic of mixed conifer forests (including stands in <i>Pinus ponderosa-Calocedrus decurrens, Pinus ponderosa-Pseudotsuga menziesii, </i>and <i>Abies concolor-Pseudotsuga menziesii </i>alliances) on warmer and/or drier settings, while mixing with <i>A. magnifica </i>in cooler settings with higher winter snow loads. Relatively pure <i>A. concolor </i>stands are confined to intermediate positions, where fire history tends to diminish pine importance. Stands that have significant <i>Pinus lambertiana </i>are in <i>Abies concolor-Pinus lambertiana </i>alliance; stands that have insignificant <i>P. lambertiana </i>are in this alliance. Stands can have well-developed shrub layers or no shrub layer (NatureServe 2019). </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Abies concolor</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Tree; evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Transient</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; wind</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Stratification—winter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; thick epidermis (susceptible to rot when scarred); canopy architecture resistant</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>25-400 years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>High</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">With fire exclusion, and selective removal of pines during timber harvest, the <i>Abies concolor </i>alliance has expanded during the past century. According to Sugihara et al. (2006), the distribution of fire return intervals is more important than the average return interval. White fir forests tend to have longer, more irregular returns than pine-dominated forests. Long fire-free internals favor <i>A. concolor </i>establishment and growth because firs take longer to develop fire-resistant bark than do pines. Stands of montane chaparral may develop following logging or stand-replacing fires. In time, <i>A. concolor </i>and the other conifers will establish in the shrublands, if seed sources are available. In addition to fire, diseases, fungi, insects, and windstorms disturb and modify stand development and structure in stands (Laacke 1990a, Zouhar 2001a).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Short
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Summer-fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Large
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Low to moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Low to moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Surface
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Southern Cascades, Sierra Nevada (lower montane)
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Klamath Mountains</b> (M261Aa, Ad-g, Ai-l, An-s, Au). Stands are common and extensive at montane elevations at Haypress Meadows cRNA, at Manzanita Creek RNA (Cheng 2004), and regionally (Jimerson 1993, Sawyer 2006, 2007).</li>
+        
+            <li><b>Modoc Plateau</b> (M261Gc, Gf, Gh-n). Stands from the Warner Mountains at Raider Basin rRNA (Cheng 2004, Schierenbeck and Jensen 1994) lack <i>Pinus lambertiana</i> (Fites-Kaufman et al. 2007). Other stands occur within the pine-fir belt of the higher mountains of this section.</li>
+        
+            <li><b>Mono</b> (341Dl). Stands exist in the Indiana Summit RNA (Taylor 1980, see Cheng 2004). See discussion in Thorne et al. (2007).</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Ba-b). Stands occur at montane elevations in the Yolla Bolly Mountains (Keeler-Wolf and Keeler-Wolf 1974, Waddell 1982), and on higher peaks of the central portion of this section (Jimerson 1993, Sawyer 2006, 2007).</li>
+        
+            <li><b>Sierra Nevada</b> (M261Ea-h, Ej-u). Stands occur at montane elevations throughout the section including at Home Camp pRNA, South Mountaineer Creek cRNA, Babbitt Peak, Bell Meadow, Mud Lake, and Station Creek RNAs, Onion Creek study area (Cheng 2004), Yosemite National Park (NPS-YOSE 2007), Sequoia and Kings Canyon National Parks (NPS-SEKI 2009) in Sierra Co. (Conard and Radosevich 1982), and regionally (Fites-Kaufman et al. 2007).</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fe). Stands occur in the San Emigdio Mountains.</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Ba-b, Be, Bh, Bm, Bo). Stands occur at higher elevations in the Transverse Ranges at Fishermans Flat RNA (Burke 1992a, see Cheng 2004) and Peninsular Ranges (Klein and Evens 2005). See also Minnich (2007) and Minnich and Everett (2001).</li>
+        
+            <li><b>Southern Cascades</b> (M261Db, Dd, Df-j, Dl-m). Stands exist in the Soda Ridge rRNA (Conard and Robichaux 1980, see Cheng 2004), in Lava Beds National Monument (DiPaolo et al. 2015) and generally in the section (Fites-Kaufman et al. 2007).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Many stand ages suggest that seedling establishment has occurred in the last century, under disturbance regimes of fire suppression, grazing, and logging (Sugihara et al. 2007). In California, two types of fire occur in these stands with different fire return intervals: Low- to moderate-severity surface fires (only occasionally create crown gaps of varying sizes) typically occur every few decades. High intensity, stand-replacing crown fires historically occurred at a much lower frequency, but are becoming more common with increasing crown continuity, stand density, and fuel loading due to exclusion of surface fires. Underburning allows maturing trees to survive repeated fires. Stands tend to be small in size and of mixed ages. In addition to fire, fungi, insects, and windstorms disturb and modify stand development and structure. Through selective logging, many mixed stands that once contained significant <i>Pinus lambertiana </i>have been converted to <i>Abies concolor</i>-dominated forests. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+                <p>Stands Lacking a Well-Developed Shrub Layer</p>
+            
+            <ul class="text">
+                
+                    <li>Abies concolor / Achlys triphylla [1]</li>
+                
+                    <li>Abies concolor / Arnica cordifolia [2]</li>
+                
+                    <li>Abies concolor / Chimaphila spp. - Pyrola picta [1], [2], [4], [5], [6]</li>
+                
+                    <li>Abies concolor / Pseudostellaria jamesiana [7]</li>
+                
+                    <li>Abies concolor / Trillium ovatum [4]</li>
+                
+                    <li>Abies concolor / Vicia americana [4]</li>
+                
+            </ul>
+        
+            
+                <p>Stands with a Mixed Tree Canopy</p>
+            
+            <ul class="text">
+                
+                    <li>Abies concolor - Calocedrus decurrens - Pinus jeffreyi [3], [8]</li>
+                
+                    <li>Abies concolor - Calocedrus decurrens / Pyrola picta [2]</li>
+                
+                    <li>Abies concolor - Calocedrus decurrens - Quercus kelloggii [2], [3]</li>
+                
+                    <li>Abies concolor - Calocedrus decurrens / Symphoricarpos mollis [2]</li>
+                
+                    <li>Abies concolor - Chrysolepis chrysophylla [2]</li>
+                
+                    <li>Abies concolor - Pinus ponderosa / Amelanchier alnifolia [9]</li>
+                
+            </ul>
+        
+            
+                <p>Stands with a Well-Developed Shrub Layer</p>
+            
+            <ul class="text">
+                
+                    <li>Abies concolor / Acer glabrum [6]</li>
+                
+                    <li>Abies concolor / Amelanchier alnifolia [2]</li>
+                
+                    <li>Abies concolor / Arctostaphylos nevadensis [1]</li>
+                
+                    <li>Abies concolor / Ceanothus prostratus [4]</li>
+                
+                    <li>Abies concolor / Ceanothus velutinus [5]</li>
+                
+                    <li>Abies concolor / Mahonia nervosa [4]</li>
+                
+                    <li>Abies concolor / Symphoricarpos mollis [2]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Imper, D.K. 1988a</li>
+		
+		<li>[2] Jimerson, T.M. 1993</li>
+		
+		<li>[3] Evens, J.;San, S. 2005</li>
+		
+		<li>[4] Sawyer, J.O.;Thornburgh, D.A. 1977</li>
+		
+		<li>[5] Taylor, D.W.;Randall, D.C. 1977</li>
+		
+		<li>[6] Taylor, D.W.;Teare, K.A. 1979b</li>
+		
+		<li>[7] Waddell, D.R. 1982</li>
+		
+		<li>[8] Klein, A.;Evens, J. 2005</li>
+		
+		<li>[9] Boul, R.;Keeler-Wolf, T.;Ratchford, J.;Haynes, T.;Hickson, D.;Yacoub, R.;Harbert, B.;Evens, J. 2021b</li>
+		
+		<li>Barbour, M.G. 1988</li>
+		
+		<li>Barbour, M.G.;Minnich, R.A. 2000</li>
+		
+		<li>Fites-Kauffman, J.A.;Rundel, P.;Stephenson, N.;Weixelman, D. 2007</li>
+		
+		<li>Franklin, J.F. 1988</li>
+		
+		<li>Gordon, D.T. 1980b</li>
+		
+		<li>Hendrickson, J.;Prigge, B. 1975</li>
+		
+		<li>Keeler-Wolf, T. 1989a</li>
+		
+		<li>Laacke, R.J. 1990a</li>
+		
+		<li>Laacke, R.J.;Fiske, J.N. 1983a</li>
+		
+		<li>Minnich, R.A. 1987</li>
+		
+		<li>Minnich, R.A. 2007</li>
+		
+		<li>NatureServe, 2014+</li>
+		
+		<li>NPS-SEKI, 2009</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Black, H.;Bleich, V.C.;Mincks, J.W. 1980</li>
+		
+		<li>Rundel, P.W.;Parsons, D.J.;Gordon, D.T. 1977</li>
+		
+		<li>Sawyer, J.O. 2006</li>
+		
+		<li>Sawyer, J.O. 2007</li>
+		
+		<li>Stone, R.D.;Sumida, V.A. 1983</li>
+		
+		<li>Sugihara, N.G.;van Wagtendonk, J.W.;Shaffer, K.E.;Fites-Kaufman, J.;Thode, A.E. 2006</li>
+		
+		<li>Thorne, R.F.;Schoenherr, A.;Clements, C.D.;Young., J.A. 2007</li>
+		
+		<li>Vasek, F.C. 1985</li>
+		
+		<li>Zouhar, K. 2001a</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/3/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

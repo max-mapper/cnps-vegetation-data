@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Frangula californica - Rhododendron occidentale - Salix breweri</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Frangula</i> <i>californica</i> - <i>Rhododendron</i> <i>occidentale</i> - <i>Salix</i> <i>breweri</i></span> Shrubland Alliance <br/>
+        <span class="subtitle">California coffee berry - western azalea scrub - Brewer&#39;s willow</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-2700 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G3
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>CA, OR
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>Yes
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2017/01/13
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/rhododendron-occidentale_08-09_01.jpg', '/static/images/photos/shrub/rhododendron-occidentale_lagoonssp.jpg', '/static/images/photos/shrub/salix-breweri_napa_05-01.jpg', '/static/images/photos/shrub/salix-breweri_sanbenito_04-05_01.jpg', '/static/images/photos/shrub/salix-breweri_sanbenito_04-05_02.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Frangula</i> <i>californica</i>, <i>Rhododendron</i> <i>occidentale</i> and/or <i>Salix</i> <i>breweri</i> is dominant or co-dominant in the shrub canopy with <i>Baccharis</i> <i>pilularis</i>, <i>Calycanthus</i> <i>occidentalis</i>, <i>Corylus</i> <i>cornuta</i>, <i>Frangula</i> <i>purshiana</i>, <i>Garrya</i> <i>veatchii</i>, <i>Heteromeles</i> <i>arbutifolia</i>, <i>Hoita</i> <i>macrostachya</i>, <i>Malus</i> <i>fusca</i>, <i>Oemleria</i> <i>cerasiformis</i>, <i>Prunus</i> <i>virginiana</i>, <i>Quercus</i> <i>durata</i>, <i>Rubus</i> <i>parviflorus</i> and/or <i>Tamarix</i> spp. Emergent trees may be present at low cover, including <i>Abies</i> <i>grandis</i>, <i>Alnus</i> <i>rubra</i>, <i>Hesperocyparis</i> <i>sargentii</i>, <i>Picea</i> <i>sitchensis</i>, <i>Pseudotsuga</i> <i>menziesii</i>, <i>Quercus</i> <i>agrifolia</i>, <i>Quercus</i> <i>chrysolepis</i>, <i>Tsuga</i> <i>heterophylla</i> or <i>Umbellularia</i> <i>californica</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 6 m; canopy is intermittent to continuous and one or two tiered. Herbaceous layer is sparse to abundant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Frangula californica</i> has > 50% relative cover in the shrub canopy (Keeler-Wolf et al. 2003a).</li>
+		
+		<li><i>Frangula californica</i> has > 50% relative cover in the shrub canopy and > 8% absolute cover (Evens and San 2004).</li>
+		
+		<li><i>Frangula californica</i> and <i>Rhododendron occidentale</i> are dominant, individually or together (VegCAMP 2019).</li>
+		
+		<li><i>Salix breweri</i> > 50% relative cover in the shrub canopy (Evens et al. 2006).</li>
+		
+		<li><i>Frangula californica</i> and/or <i>Rhododendron occidentale</i> > 50% relative cover in the shrub canopy in a riparian setting, or both present at > 30% relative cover (Buck-Diaz et al.  2021, Sikes et al. 2021).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Seeps, springs, concave slopes, drainages, hill slopes with high water tables. Soils are moist or seasonally saturated sedimentary and serpentine substrates. The USFWS Wetland Inventory (1996 national list) recognizes <i>Rhododendron occidentale</i> and <i>Salix breweri</i> as FAC plants. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Rhododendron occidentale shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Ultramafic mixed shrub, Sargent cypress, Riparian mixed shrub, Willow (riparian scrub)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Freshwater seep, Freshwater swamp, North Coast riparian scrub, Central Coast riparian scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>North Coast coniferous forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Fresh emergent wetland, Valley foothill riparian
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>63.311.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Tree Vegetation (Forest and Woodland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate Flooded and Swamp Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North America Flooded and Swamp Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Western Cordilleran montane-boreal riparian scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Vancouverian coastal riparian scrub
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Frangula californica </i>is a long-lived, shade tolerant, evergreen shrub that can reach 6 m in height and 200 years in age. Shrubs produce fruits by 2 to 3 years of age. Animals—particularly birds, but also black bear and other mammals—disperse the drupes. Seeds are short lived and prone to rot. Germination occurs in the next growing season if favorable moisture and temperature conditions exist under filtered shade. Seedlings may grow slowly under these conditions where plants may be subjected to heavy browsing by mammals. Following fire or cutting, shrubs sprout from surviving adventitious buds on their root crowns. Old individuals renew their crowns with new sprouts (McMurray 1990d).<br/>
+<br/>
+<i>Frangula californica </i>is a morphologically variable and widespread species. The name <i>Rhamnus californica </i>has been used in most manuals, but the two sections, <i>Frangula </i>and <i>Rhamnus, </i>warrant generic status (Bolmgren and Oxelman 2004). <i>F. californica </i>has six subspecies, which have somewhat different ranges but similar ecologies: ssp. <i>californica </i>occurs along the coast to southern California; ssp. <i>crassifolia </i>in interior North Coast Ranges, especially on serpentine; ssp. <i>cuspidata </i>in the southern Sierra Nevada and the mountains in southern California; ssp. <i>occidentalis </i>on serpentine in northwestern California; ssp. <i>tomentella </i>in inland cismontane California; and ssp. <i>ursina </i>in the Mojave Desert mountains. <br/>
+<br/>
+<i>F. californica </i>fruits germinate in the shade and the shrubs slowly tend to dominate the canopy along steep foggy windswept slopes immediately up from the shore. Many shrubs show senescence, and in the vicinity of the Point Reyes National Seashore their stems have heavy lichen loads. While upland stands of <i>Frangula californica </i>occur on both north and south-facing slopes along the coast from Big Sur to Point Reyes (Ford and Hayes 2007), only those riparian stands are included in this alliance.<br/>
+<br/>
+<i>Rhododendron occidentale </i>is a deciduous shrub to 5 m in height. The showy flowers vary in color with varying amounts of pink, white, and yellow. The color variation among the shrubs is extraordinarily high at Stagecoach Hill Azalea Preserve in Humboldt Co. and appreciated by horticulturists and native plant enthusiasts. Plants readily sprout when pruned or burned. Hrusa (1995) found morphological, genetic, and environmental parameters that correlated with three groups centering in the Klamath Ranges (var. <i>paludosum</i>), the north and central coast from Humboldt County to Monterey (var. <i>occidentale</i>), and inland from the Sierra Nevada and the Peninsular Ranges (var. <i>californicum </i>(T. & G.) Hrusa ined.). He considered var. <i>sonomense </i>of Napa and Sonoma Cos. (= <i>R. sonomense </i>Greene), a dwarf form on volcanics near Mount Saint Helena, to be inseparable in morphology from var. <i>occidentale</i>. <br/>
+<br/>
+<i>Salix breweri </i>is a riparian shrub up to 4 m tall. Its leaves are silky and hairy with a silvery color. Seeds are wind-dispersed. It is characteristic of serpentine in the Coast Ranges along streamsides that have high and variable seasonal flow. A variety of wetland herbs occur in the stands with <i>S. breweri, </i>including <i>Aquilegia eximia, Solidago guiradonis </i>(a CNPS list 4.2 plant) and <i>Trichostema rubisepalum </i>(a CNPS list 4.3 plant; Evens et al. 2006).<br/>
+<br/>
+The indicator species of the alliance were previously viewed as separate alliances in the 2009 version of this classification, but more recently have been combined because of overlapping characteristics. <i>Rhododendron occidentale </i> and <i>Frangula californica </i>are common shrubs along streams, seeps, and moist slopes at low to montane elevations throughout most of cismontane California. Their riparian and spring stands are included in this alliance. More narrowly distributed is <i>Salix breweri </i>, being restricted primarily to streams and seeps.  Generally, these indicator species typically dominate or co-dominate on ultramafic (e.g., serpentine) substrates, and likely more associations and diagnostic species such as <i>S. delnortensis </i>will be added to this alliance once sampling and analysis occur across the state. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Frangula californica</th>
+			
+		
+			
+			<th>Rhododendron occidentale</th>
+			
+		
+			
+			<th>Salix breweri</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Shrub</td>
+			
+		
+			
+			<td>Shrub; winter deciduous</td>
+			
+		
+			
+			<td>Shrub; winter deciduous </td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Transient</td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td>Transient</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+			
+			<td>Short</td>
+			
+		
+			
+			<td>Short</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal</td>
+			
+		
+			
+			<td>Wind, hydrological</td>
+			
+		
+			
+			<td>Wind</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>Light</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Underground structures (root crown)</td>
+			
+		
+			
+			<td>Buds on large branches or trunks (stems); underground structures (root crowns; rhizomes)</td>
+			
+		
+			
+			<td>Underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+			
+			<td>Fire-sensitive; Canopy architecture susceptible</td>
+			
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>2-200 + years</td>
+			
+		
+			
+			<td>Life of plant</td>
+			
+		
+			
+			<td>Long-lived</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td>Low to medium; episodic</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>High</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Fluvial processes rather than fire primarily disturb stands. However, <i>Frangula californica </i> plants may rapidly regain their original size after a fire by sprouting vigorously from dormant buds located on the root crowns. Seedlings may establish after burns in bare soil, but establishment is more successful in filtered shade (McMurray 1990d). Seedlings readily germinate without fire treatment (Keeley 1987b). Rapid fire return intervals are detrimental to mature individuals despite their sprouting abilities (Zedler et al. 1983). We have no information on the fire occurrence patterns of this alliance.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+            <p>The role of this alliance in California’s vegetation warrants further sampling and analysis. For example, more data is needed on stands of <i>Salix delnortensis </i>that occur further north in the Klamath Mountains in serpentine seeps with <i>Pinus jeffreyi </i>(Sanchez-Mata 2018b, F. Hrusa, pers. comm. 2009).</p>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Af-g). Larger stands in the Santa Cruz Mountains occupy ravines. These lack encroaching conifers, and tree encroachment appears less of a problem in maintaining stands in this region.</li>
+        
+            <li><b>Central California Coast Ranges</b> (M262Aa, Ac). Stands occur in the San Benito Mountain area including at Clear Creek, Larious Canyon, Sawmill Creek, and Upper White Creek watersheds (Evens et al. 2006).</li>
+        
+            <li><b>Klamath Mountains</b> (M261Aa-b). Stands occurring in the section warrant further sampling to identify associations and additional subsections.</li>
+        
+            <li><b>Northern California Coast</b> (263Ae-m). Stands occur in the region from Del Norte to Marin Co. with varied composition typically found in serpentinite seeps and streams. Those in Humboldt Co. are along the coastline west of the redwood belt, including ones in the Azalea State Reserve on the banks of the Mad River and in the Stagecoach Hill Azalea Preserve, part of Humboldt Lagoons State Park. A stand of <i>R. occidentale </i>in the Stagecoach Hill area includes high cover of <i>Calamagrostis nutkaensis </i>(M. Brooks, pers. comm. 2007). Another stand was lost to residential development in Arcata in the 1950s. <i>Alnus rubra </i>and <i>Picea sitchensis </i>forests occupy similar conditions along the coastline; these and other woody plants have invaded abandoned Native American sites, homesteads, and logged areas. Sawyer (2006) reviewed vegetation change at Patrick’s Point State Park for the last 200 years from this perspective. In the late 1900s, trees, especially <i>P. sitchensis,</i> encroached upon azalea stands. State park personnel have removed trees in the reserves to maintain azalea dominance in this early seral vegetation type. Other small stands in Marin Co. occur in seeps and ravines on Franciscan and serpentine rock on the slopes of Mount Tamalpais (Evens and Kentner 2006), and in Sonoma Co. occur in slope seeps and streams on serpentine such as at The Cedars (Klein et al. 2015).</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Bb-c, Be-f). Stands occur on the serpentines including the North Coast ophiolite at Frenzel Creek (Cheng 2004), Walker Ridge, and the University of California’s McLaughlin Reserve in Lake Co. Stands sampled in Lake and Napa Cos. occur along creeks with serpentine substrate (CVIS 2007). Stands have been mapped in Napa Co. (Thorne et al. 2004).</li>
+        
+            <li><b>Northern California Interior Coast Ranges</b> (M261Ca). Stands occur commonly in serpentine riparian and mesic lower slope settings.</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fb). Stands have been surveyed in the northern foothills in riparian settings on ultramafic soils in Peoria Wildlife Area and Pine Hill Preserve (Klein et al. 2007).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> The development of coastal stands may require protection from fire and other disturbances for long periods. However, once established, they may benefit from occasional widely spaced fire events. Non-native species appear to be negatively impacting the vegetation through competition with native species, particularly when <i>Lolium perenne </i>dominates in the understory.
+
+The diagnostic shrubs of this alliance occur as dominants in seeps, streams, and springy hill slopes, including those with <i>Rhododendron occidentale</i> along the Northern California Coast in unusually large stands. Later seral trees have invaded some stands of this alliance across its range over the last 200 years, including <i>Picea sitchensis, Pseudotsuga menziesii, </i> and <i>Umbellularia californica</i>. Therefore, ongoing land stewardship is necessary to maintain dominance of the more early seral components of this vegetation type. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Frangula californica ssp. californica [6]</li>
+                
+                    <li>Frangula californica ssp. tomentella / Cirsium fontinale var. campylon - Mimulus guttatus [3]</li>
+                
+                    <li>Frangula californica ssp. tomentella / Hoita macrostachya [4], [5]</li>
+                
+                    <li>Rhododendron occidentale - Frangula californica ssp. tomentella [1], [6], [7], [8]</li>
+                
+                    <li>Salix breweri [6], [8]</li>
+                
+                    <li>Salix breweri / Muhlenbergia asperifolia [2], [8]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Evens, J.M.;Kentner, E. 2006</li>
+		
+		<li>[2] Evens, J.M.;Klein, A.;Taylor, J.;Hickson, D.;Keeler-Wolf, T. 2006</li>
+		
+		<li>[3] Evens, J.;San, S. 2004</li>
+		
+		<li>[4] Evens, J.M.;San, S.;Taylor, J. 2004</li>
+		
+		<li>[5] Klein, A.;Crawford, J.;Evens, J.;Keeler-Wolf, T.;Hickson, D. 2007</li>
+		
+		<li>[6] Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>[7] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>[8] Sanchez-Mata, D. 2018b</li>
+		
+		<li>Allen-Diaz, B.H.;Jackson, R.D.;Phillips, C. 2001</li>
+		
+		<li>Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>Evens, J.;San, S. 2005</li>
+		
+		<li>Kagan, J.S.;Christy, J.A.;Murray, M.P.;Titus, J.A. 2004</li>
+		
+		<li>Keeler-Wolf, T .;Schirokauer, D.;Meinke, J.;van derLeeden, P. 2003a</li>
+		
+		<li>Klein, A.;Evens, J. 2005</li>
+		
+		<li>McMurray, N. 1990d</li>
+		
+		<li>Sawyer, J.O. 2006</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program), 2019</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/547/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

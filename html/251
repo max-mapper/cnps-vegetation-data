@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Quercus berberidifolia</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Quercus</i> <i>berberidifolia</i></span> Shrubland Alliance <br/>
+        <span class="subtitle">Scrub oak chaparral</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>300-1700 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S4
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G4
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA (NatureServe). Baja California, Mexico (TJM2)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>Yes
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/quercus-berberidifolia_blueridgeberryessa_05-03.jpg', '/static/images/photos/shrub/quercus-berberidifolia_enapa_05-03_01.jpg', '/static/images/photos/shrub/quercus-berberidifolia_enapa_05-03_02.jpg', '/static/images/photos/shrub/quercus-berberidifolia_enapa_05-03_03.jpg', '/static/images/photos/shrub/quercus-berberidifolia_enapa_05-03_04.jpg', '/static/images/photos/shrub/quercus-berberidifolia_santaanamtns_06-09_01.jpg', '/static/images/photos/shrub/quercus-berberidifolia_santaanamtns_06-09_02.jpg', '/static/images/photos/shrub/quercus-berberidifolia_santaanamtns_06-09_03.jpg', '/static/images/photos/shrub/quercus-berberidifolia_adenostoma-fasciculatum_wraa.089-174.jpg', '/static/images/photos/shrub/quercus-berberidifolia_clevelandnf_01-12.jpg', '/static/images/photos/shrub/quercus-berberidifolia_adenostoma-fasciculatum_wriv0353-16.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Quercus</i> <i>berberidifolia</i> is dominant or co-dominant in the shrub canopy with <i>Adenostoma</i> <i>fasciculatum</i>, <i>Adenostoma</i> <i>sparsifolium</i>, <i>Arctostaphylos</i> <i>glandulosa</i>, <i>Arctostaphylos</i> <i>glauca</i>, <i>Ceanothus</i> <i>crassifolius</i>, <i>Ceanothus</i> <i>cuneatus</i>, <i>Ceanothus</i> <i>greggii</i>, <i>Ceanothus</i> <i>integerrimus</i>, <i>Ceanothus</i> <i>leucodermis</i>, <i>Ceanothus</i> <i>oliganthus</i>, <i>Ceanothus</i> <i>spinosus</i>, <i>Ceanothus</i> <i>thyrsiflorus</i>, <i>Ceanothus</i> <i>tomentosus</i>, <i>Cercocarpus</i> <i>montanus</i>, <i>Frangula</i> <i>californica</i>, <i>Fraxinus</i> <i>dipetala</i>, <i>Heteromeles</i> <i>arbutifolia</i>, <i>Pickeringia</i> <i>montana</i>, <i>Prunus</i> <i>ilicifolia</i>, <i>Quercus</i> <i>wislizeni</i>, <i>Rhamnus</i> <i>ilicifolia</i>, <i>Rhus</i> <i>ovata</i>, <i>Toxicodendron</i> <i>diversilobum</i> and <i>Xylococcus</i> <i>bicolor</i>. Emergent trees may be present at low cover, including <i>Aesculus</i> <i>californica</i>, <i>Juglans</i> <i>californica</i>, <i>Pinus</i> <i>attenuata</i>, <i>Pinus</i> <i>sabiniana</i>, <i>Quercus</i> <i>agrifolia</i> or <i>Quercus</i> <i>engelmannii</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 6 m; canopy is continuous. Herbaceous layer is sparse. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Quercus berberidifolia</i> > 60% relative cover in the shrub canopy (Gordon and White 1994).</li>
+		
+		<li>Both <i>Quercus berberidifolia</i> and <i>Cercocarpus montanus</i> have 30% to 60% relative cover in the shrub canopy (Gordon and White 1994).</li>
+		
+		<li>Both <i>Quercus berberidifolia</i> and <i>Cercocarpus montanus</i> have > 50% relative cover in the shrub canopy (Kittel et al. 2012).</li>
+		
+		<li>Both <i>Quercus berberidifolia</i> and <i>Adenostoma fasciculatum</i> have between 30% and 60% relative cover in the shrub canopy (Borchert et al. 2004, Evens and Klein 2005, Gordon and White 1994, Keeler-Wolf and Evens 2006, Klein and Evens 2005).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Primarily north-facing, steep slopes, though topography becomes more varied where <i>Adenostoma fasciculatum</i> co-dominates. Soils are deep to shallow, are well to extensively drained, and may be rocky.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Scrub oak series, Scrub oak-birchleaf mountain mahogany series, Scrub oak-chamise series, Scrub oak-chaparral whitethorn series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Quercus berberidifolia shrubland alliance, Quercus dumosa shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Scrub oak
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Granitic southern mixed chaparral, Mafic southern mixed chaparral, Island chaparral, Scrub oak chaparral, Northern maritime chaparral, Northern north slope chaparral, Southern north slope chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Mixed chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>37.407.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Mediterranean Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Mediterranean Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>California Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>California Chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Californian mesic chaparral
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Quercus berberidifolia </i>is a slow-growing, evergreen shrub that grows to 6 m in height. Leaves typically are shiny green on the upper surface and paler and pubescent on the lower. Shrubs produce large acorn crops at irregular intervals. Seeds germinate without stratification. California ground squirrels and jays cache the acorns, and birds, livestock, and wildlife eat them. Plants sprout from swollen root crowns and root suckers during fire-free intervals and after damage to their trunks. Other trees and shrubs act as nurse plants, moderating environmental conditions and offering oak seedlings and saplings protection. Shrubs are shade tolerant (Nixon and Muller 1997). <br/>
+<br/>
+Stands of <i>Q. berberidifolia </i>occur typically on mesic, north-facing slopes in cismontane California. This is the most common scrub oak alliance in the state, and it occurs on many substrates. Careful oak identification is necessary in correctly identifying <i>Q. berberidifolia</i>. The term “scrub oak” has been used for several shrubby live oaks: <i>Q. berberidifolia, Q. chrysolepis, Q. dumosa </i>(a CNPS list 1B plant), <i>Q. john-tuckeri, Q. pacifica, Q. palmeri, Q. turbinella, Q. cornelius-mulleri, </i>and <i>Q. wislizeni. Q. berberidifolia </i>hybridizes with <i>Q. dumosa, Q. durata, </i>and <i>Q. john-tuckeri </i>and with the tree <i>Q. engelmannii </i>(Nixon 2002). Many other shrub species occur in <i>Q. berberidifolia </i>stands, though usually at low cover. Sometimes they approach <i>Q. berberidifolia </i>in cover, such as the Scrub oak-birchleaf mountain mahogany series described by Gordon and White (1994) and Sawyer and Keeler-Wolf (1995). <br/>
+<br/>
+Expressions of this alliance where <i>Q. berberidifolia </i>and <i>Adenostoma fasciculatum </i>co-dominate typically mark an ecological interface between relatively mesic and relatively xeric sites. These settings are commonly on lower to upper concave southerly aspects, or upper convex northerly-facing aspects with well-drained soil. <i>Heteromeles arbutifolia </i> is often found in these settings but with low cover.<br/>
+<br/>
+Although <i>C. montanus </i>and <i>Q. berberidifolia </i>typically co-dominate in many stands in the state, they vary in relative cover depending on location and elevation. For example in the central Coast Ranges, Borchert et al. (2004) note that <i>C. montanus </i>ranges higher in elevation than <i>Q. berberidifolia</i>. However, there is a broad range of overlap where stands may have these two species co-dominating. Other less common shrub species are also shared between single- and two-species dominant stands, and these stands tend to occur on shaded northerly-facing slopes. The stands with strong dominance of <i>Cercocarpus montanus </i>tend not to have significant <i>Q. berberidifolia </i>and are ecologically distinct, occurring on either rocky or steeper slopes, or warmer/drier exposures. For these reasons we place shrubland stands with at least 30% relative cover of <i>Q. berberidifolia </i>despite a relatively high cover of <i>Cercocarpus montanus </i>in the <i>Q. berberidifolia </i>alliance, as stated in the Membership Rules section.<br/>
+<br/>
+This alliance concept has been expanded since MCV second edition (2005) to include the <i>Quercus berberidifolia - Adenostoma fasciculatum </i>alliance and associations. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Quercus berberidifolia</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Shrub; evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Transient</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; gravity</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Buds on large branches or trunks; underground structures (root crown; roots; stumps)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>20-250+ years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Episodic</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text"><i>Quercus berberidifolia </i>is well adapted to survive periodic fires, but it persists without fire. Shrubs sprout vigorously as soon as 10 days after fire from roots, root crowns, and stumps, and they continue growing rapidly for up to 2 years post-fire. A dense cover generally develops in the first decade after a fire, and <i>Q. berberidifolia </i>becomes dominant within 30 to 40 years as it overtops shorter-lived or shorter-stature species. Seeds are intolerant of heat and killed by fires. Instead, seedlings sporadically establish during fire-free intervals in older stands (> 60 years old) in safe sites in favorable years (Callaway and Walker 1997, Keeley 1992a, 1992b, 1994, 1998b). This oak has little dead wood and tends to be somewhat less flammable than many other chaparral species (Tirmenstein 1989c).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Medium (30 to 100+ years)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Summer-early fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Medium to large—up to and beyond stand
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low to moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>High
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>High
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Active-independent crown fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Central and southern California
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Ac, Af-g, Aj-k). Stands have been inventoried in the Santa Lucia Mountains (Borchert et al. 2004) and occur at lower elevation mountains in this section.</li>
+        
+            <li><b>Central California Coast Ranges</b> (M262Aa-c, Ae-f, Ah, Aj). Stands are common in the Santa Lucia Mountains (Borchert et al. 2004). They occur in the Mount San Benito area (Evens et al. 2006), Pinnacles National Monument (Kittel et al. 2012), and many mesic low-elevation slopes in the section.</li>
+        
+            <li><b>Great Valley</b> (262Ae). Large stands on higher slopes in Sutter Buttes (Buck-Diaz et al. 2012)</li>
+        
+            <li><b>Klamath Mountains</b> (M261Ac, Am, Ar). Stands occur at Whiskeytown National Recreation Area (Lee 2004).</li>
+        
+            <li><b>Northern California Coast</b> (263Ag, Al-m). Stands are known from Mount Tamalpais (Evens and Kentner 2006, Keeler-Wolf el al 2003a) and western Napa Co. (Thorne et al. 2004). Stands have been sampled in various locations throughout Sonoma County (Klein et al. 2015).</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Ba-f). Extensive stands occupy steep slopes in the southeastern portions of the section (Thorne et al. 2004) and occur throughout the section at low to moderate elevations.</li>
+        
+            <li><b>Northern California Interior Coast Ranges</b> (M261Ca). Stands are extensive at Devil’s Basin RNA (Newton 1987a) and throughout Napa Co. (Thorne et al. 2004).</li>
+        
+            <li><b>Sierra Nevada</b> (M261Ep, Es). Stands are known from the lower elevations in the southwestern subsections.</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fa-e). Stands scattered mostly in the northern portion of the section frequently occupy volcanic substrates (Klein et al. 2007). Stands are rare in the central and southern foothills.</li>
+        
+            <li><b>Southern California Coast</b> (261Ba-b, Be-g, Bi-j). Stands in the Santa Ynez (Borchert et al. 2004) and the Santa Monica mountains (Keeler-Wolf and Evens 2006) are wide-ranging.
+Stands in the Santa Monica Mountains can have more <i>A. fasciculatum</i> cover and less <i>Q. berberidifolia</i> cover (Keeler-Wolf and Evens 2006) than elsewhere in the section (Borchert et al. 2004).</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Ba-d, Bf-h, Bj-p). Stands exist in Cahuilla Mountain and King Creek RNAs (Cheng 2004), in the San Gabriel Mountains (Hanes 1976), in the Peninsular Ranges (Evens and San 2005, Klein and Evens 2005), and throughout the section (Gordon and White 1994). Those overlooking the desert in the Peninsular Ranges often occur adjacent to stands of <i>Q. cornelius-mulleri</i> and may contain both oaks, shrubby <i>Q. wislizeni,</i> and occasional <i>Q. palmeri.</i> These stands are confusing both taxonomically and syntaxonomically. Keeler-Wolf et al. (1998b) call them mixed scrub oak stands.</li>
+        
+            <li><b>Southern Cascades</b> (M261Dl). Stands occur in the western low elevations of this section.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Increased fire frequencies (< 30 years) in <i>Q. berberidifolia </i>stands may reduce vigor and  increase coastal sage scrub species. It is important to recognize that many associations within this type of chaparral do not require frequent fire.
+
+Co-dominating <i>Adenostoma fasciculatum </i>and <i>Quercus berberidifolia </i>stands develop fuel loads capable of supporting moderately intense fires within 15 years, so they are extremely susceptible to short-interval fires. High mortality of both seedlings and sprouts is likely when fires recur on burns seeded with annual grasses. <i>Lolium perenne</i>, a grass commonly used for revegetation following fire, inhibits growth and seedling establishment. The presence of grass increases the likelihood of early burns. Fires occurring at short intervals (< 30 years) have the potential to cause significant changes in species composition. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Quercus berberidifolia [1], [2], [4], [6], [7], [10], [12], [14]</li>
+                
+                    <li>Quercus (berberidifolia, ×acutidens) - Adenostoma fasciculatum [2], [3]</li>
+                
+                    <li>Quercus berberidifolia - Adenostoma fasciculatum [1], [2], [4], [6], [10], [12], [14], [15], [17]</li>
+                
+                    <li>Quercus berberidifolia - Adenostoma fasciculatum - Ceanothus crassifolius [3], [6]</li>
+                
+                    <li>Quercus berberidifolia - Adenostoma fasciculatum - Ceanothus greggii [3]</li>
+                
+                    <li>Quercus berberidifolia / Aesculus californica [8], [17]</li>
+                
+                    <li>Quercus berberidifolia - Arctostaphylos glauca [3]</li>
+                
+                    <li>Quercus berberidifolia - Ceanothus cuneatus [3], [4], [5], [11]</li>
+                
+                    <li>Quercus berberidifolia - Ceanothus integerrimus [3]</li>
+                
+                    <li>Quercus berberidifolia - Ceanothus leucodermis [3], [13], [14]</li>
+                
+                    <li>Quercus berberidifolia - Ceanothus (oliganthus, tomentosus) [3], [6], [12]</li>
+                
+                    <li>Quercus berberidifolia - Ceanothus spinosus [4]</li>
+                
+                    <li>Quercus berberidifolia - Cercocarpus montanus [3], [4], [6], [7], [9], [10], [11], [13], [16], [17]</li>
+                
+                    <li>Quercus berberidifolia - Heteromeles arbutifolia [3], [5], [6], [12], [13]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Borchert, M.;Lopez, A.;Bauer, C.;Knowd, T. 2004</li>
+		
+		<li>[2] Evens, J.;San, S. 2005</li>
+		
+		<li>[3] Gordon, H.J.;White, T.C. 1994</li>
+		
+		<li>[4] Keeler-Wolf, T.;Evens, J. 2006</li>
+		
+		<li>[5] Klein, A.;Crawford, J.;Evens, J.;Keeler-Wolf, T.;Hickson, D. 2007</li>
+		
+		<li>[6] Klein, A.;Evens, J. 2005</li>
+		
+		<li>[7] Kittel, G.;Reyes, E.;Evens, J.;Buck, J.;Johnson, D. 2012</li>
+		
+		<li>[8] Newton, G.B. 1987a</li>
+		
+		<li>[9] Keeler-Wolf, T.;Roye, C.;Lewis, K. 1998b</li>
+		
+		<li>[10] Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>[11] Buck-Diaz, J.;Evens, J. 2011b</li>
+		
+		<li>[12] AECOM, 2013</li>
+		
+		<li>[13] White, T. 1994a</li>
+		
+		<li>[14] White, S.D. 1994a</li>
+		
+		<li>[15] Menke, J.;Reyes, E.;Hepburn, A.;Johnson, D.;Reyes, J. 2016</li>
+		
+		<li>[16] Boul, R.;Colletti, M.J.;Gogol-Prokurat, M.;Hickson, D.;Keeler-Wolf, T.;Yacoub, R. 2011</li>
+		
+		<li>[17] VegCAMP (CDFW Vegetation Classification and Mapping Program), 2014c</li>
+		
+		<li>Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>Callaway, R.M.;Walker, L.R. 1997</li>
+		
+		<li>Cheng, S. 2004</li>
+		
+		<li>Evens, J.M.;Kentner, E. 2006</li>
+		
+		<li>Evens, J.M.;Klein, A.N. 2006</li>
+		
+		<li>Evens, J.M.;Klein, A.;Taylor, J.;Hickson, D.;Keeler-Wolf, T. 2006</li>
+		
+		<li>Fryer, J.L. 2012</li>
+		
+		<li>Hanes, T.L. 1971</li>
+		
+		<li>Hanes, T.L. 1977</li>
+		
+		<li>Hanes, T.L. 1981</li>
+		
+		<li>Horton, J.S. 1960</li>
+		
+		<li>Keeler-Wolf, T .;Schirokauer, D.;Meinke, J.;van derLeeden, P. 2003a</li>
+		
+		<li>Keeley, J.E. 1992a</li>
+		
+		<li>Keeley, J.E. 1992b</li>
+		
+		<li>Keeley, J.E. 1998b</li>
+		
+		<li>Keeley, J.E.;Keeley, S.C. 1988</li>
+		
+		<li>Lee, C. 2004</li>
+		
+		<li>McMurray, N. 1990a</li>
+		
+		<li>Menke, J.;Reyes, E.;Hepburn, A.;Johnson, D.;Reyes, J. 2013</li>
+		
+		<li>Minnich, R.;Howard, L. 1984</li>
+		
+		<li>Nixon, K.C. 2002</li>
+		
+		<li>Nixon, K.C.;Muller, C.H. 1994</li>
+		
+		<li>Pase, C.P. 1982a</li>
+		
+		<li>Sawyer, J.O.;Keeler-Wolf, T. 1995</li>
+		
+		<li>Sproul, F.;Keeler-Wolf, T.;Gordon-Reedy, P.;Dunn, J.;Klein, A.;Harper, K. 2011</li>
+		
+		<li>Thorne, J.H.;Kennedy, J.;Quinn, J.F.;McCoy, M.;Keeler-Wolf, T.;Menke, J. 2004</li>
+		
+		<li>Tirmenstein, D. 1989c</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program);AIS, 2013</li>
+		
+		<li>White, S.D. 1994b</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/251/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

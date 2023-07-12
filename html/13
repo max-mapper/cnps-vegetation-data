@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Alnus rhombifolia</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Alnus</i> <i>rhombifolia</i></span> Forest &amp; Woodland Alliance <br/>
+        <span class="subtitle">White alder groves</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Tree
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-2500 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S4
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G4
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA, ID, OR, WA, WY. Mexico (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/tree/alnus-rhombifolia_08-10_01.jpg', '/static/images/photos/tree/alnus-rhombifolia_08-10_02.jpg', '/static/images/photos/tree/alnus-rhombifolia_08-10_03.jpg', '/static/images/photos/tree/alnus-rhombifolia_08-10_04.jpg', '/static/images/photos/tree/alnus-rhombifolia_americanriver_09-03.jpg', '/static/images/photos/tree/alnus-rhombifolia_calaverassp_09-09_01.jpg', '/static/images/photos/tree/alnus-rhombifolia_lassenvnp_08-10_01.jpg', '/static/images/photos/tree/alnus-rhombifolia_lassenvnp_08-10_02.jpg', '/static/images/photos/tree/alnus-rhombifolia_lassenvnp_08-10_03.jpg', '/static/images/photos/tree/alnus-rhombifolia_lassenvnp_08-10_04.jpg', '/static/images/photos/tree/alnus-rhombifolia_sanantonioriver_04-04_01.jpg', '/static/images/photos/tree/alnus-rhombifolia_sanantonioriver_04-04_02.jpg', '/static/images/photos/tree/alnus-rhombifolia_santaysabelranch_01.jpg', '/static/images/photos/tree/alnus-rhombifolia_santaysabelranch_02.jpg', '/static/images/photos/tree/alnus-rhombifolia_yosemitevalley_09-09_01.jpg', '/static/images/photos/tree/alnus-rhombifolia_yosemitevalley_09-09_02.jpg', '/static/images/photos/tree/alnus-rhombifolia_yosemitevalley_09-09_03.jpg', '/static/images/photos/tree/alnus-rhombifolia_young_sanantonioriver_04-04.jpg', '/static/images/photos/tree/alnus-rhombifolia_lassenfoothills_08-07.jpg', '/static/images/photos/tree/alnus-rhombifolia_deercreek_06-2013_01.jpg', '/static/images/photos/tree/alnus-rhombifolia_deercreek_06-2013_02.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Alnus</i> <i>rhombifolia</i> is dominant or co-dominant in the tree canopy with <i>Acer</i> <i>macrophyllum</i>, <i>Calocedrus</i> <i>decurrens</i>, <i>Chamaecyparis</i> <i>lawsoniana</i>, <i>Notholithocarpus</i> <i>densiflorus</i>, <i>Platanus</i> <i>racemosa</i>, <i>Populus</i> <i>fremontii</i>, <i>Populus</i> <i>trichocarpa</i>, <i>Pseudotsuga</i> <i>menziesii</i>, <i>Quercus</i> <i>chrysolepis</i>, <i>Quercus</i> <i>lobata</i>, <i>Salix</i> spp. and <i>Umbellularia</i> <i>californica</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text"> Trees < 35 m; canopy is open to continuous; it may be two tiered. Shrub layer is sparse to continuous. Herbaceous layer is variable. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Alnus rhombifolia</i> > 30% relative cover in the tree canopy; it may co-dominate with <i>Umbellularia californica</i> and/or <i>Quercus chrysolepis</i> (Ratchford et al. 2022a, Klein et al. 2007, Evens and Kentner 2006, Keeler-Wolf and Evens 2006).</li>
+		
+		<li><i>Alnus rhombifolia</i> > 5% absolute cover in the tree canopy; dominant plants are mature trees (Potter 2005, Fites 1993).</li>
+		
+		<li><i>Alnus rhombifolia</i> > 50% relative cover in the tree canopy; or >30% relative cover with <i>Calocedrus decurrens</i> (Keeler-Wolf et al. 2003b).</li>
+		
+		<li><i>Alnus rhombifolia</i> comprises > 10% absolute cover in the tree canopy; <i>Salix</i> cover in the understory may be significantly higher than <i>A. rhombifolia</i> but <i>Quercus lobata</i> < 5% cover (Keeler-Wolf et al. 2003a).</li>
+		
+		<li><i>Alnus rhombifolia</i> > 50% relative cover in the tree canopy, or > 30% relative cover with <i>Acer macrophyllum</i> or <i>Umbellularia californica</i> (Buck-Diaz et al. 2021, Sikes et al. 2021, Evens and Kentner 2006)).</li>
+		
+		<li><i>Alnus rhombifolia</i> >25% relative cover in the tree canopy with <i>Calocedrus decurrens</i> (Ratchford et al. 2022a).</li>
+		
+		<li><i>Calocedrus decurrens</i> has >5% absolute cover with <i>Alnus rhombifolia</i> >30% realtive cover in the tree canopy (Potter 2005, Klein et al. 2007).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Riparian corridors, incised canyons, seeps, stream banks, mid-channel bars, floodplains, and terraces. The USFWS Wetland Inventory (1996 national list) recognizes <i>Alnus rhombifolia</i> as a FACW plant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>White alder series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Alnus rhombifolia temporarily flooded forest alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Riparian mixed shrub, White alder
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>White alder riparian forest, Southern sycamore-alder riparian woodland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Foothill woodland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Montane riparian
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>61.420.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Tree Vegetation (Forest and Woodland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate Flooded and Swamp Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North America Flooded and Swamp Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Western Cordilleran montane-boreal riparian scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Vancouverian riparian deciduous forest
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Alnus rhombifolia </i>is a deciduous hardwood that attains 35 m in height and 100 years in age. Tree root systems are shallow. Plants produce large crops of winged fruits, and wind and water disperse seeds in the autumn. Seedlings establish on many well-lighted substrates but do best on mineral soil. Plants are associated with nitrogen-fixing bacteria, and they are shade intolerant. Trees weakly stump-sprout (Uchytil 1989b). <br/>
+<br/>
+<i>Alnus rhombifolia </i>stands primarily occur in inland foothills and lower montane zones, usually as narrow strips along perennial stream courses throughout cis-montane California. <i>A. rhombifolia </i>is well adapted to many flood regimes. Stands exist usually on seasonally flooded stream banks and channel bars just at or below the bank full level, but they occur sometimes in intermittently flooded floodplains and rarely in permanently saturated seeps. Flooding typically comes from winter floods and spring runoff. By mid summer, sites usually are dry on the surface, and plants must rely on capillary rise for moisture supply (Potter 2005). <br/>
+<br/>
+Several studies (Fites 1993, Keeler-Wolf et al. 2003b, Potter 2005) involving stands in which <i>A. rhombifolia </i>mixes with <i>Calocedrus decurrens </i>or <i>Pseudotsuga menziesii </i>are placed in the <i>Calocedrus decurrens </i>or <i>Pseudotsuga menziesii </i>alliances. These stands have many of the characteristic understory plants that occur in other <i>A. rhombifolia </i>associations. In addition, the riparian setting for these associations separates them from upland settings for the conifer alliances. For these reasons, we place them here in the  <i>A. rhombifolia </i> alliance. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Alnus rhombifolia</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Tree; winter deciduous</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Transient</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Water/hydrological; wind</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Buds on large branches or trunks; buds on small branches; underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>5-100 years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Episodic; low to high</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text"><i>Alnus rhombifolia </i>is primarily adapted to disturbance by flooding. Its response to fire is related to its ability to establish rapidly by seed and to sprout weakly after disturbances including fire.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Medium to long (dependent on neighboring alliances; half the median frequency of surrounding forests)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Summer-early fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Medium to up to stand size
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Medium to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Low to moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Moderate to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Surface-passive crown fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Southwestern California, Sierra Nevada and foothills, Central Valley, Central Coast ranges
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Ac, Af-h, Aj-k). Stands are common in the northern Diablo Range south to the Santa Lucia Mountains along permanent creeks and streams.</li>
+        
+            <li><b>Central California Coast Ranges</b> (M262Aa-c, Ae-f, Ah). Stands that occur generally for the Los Padres National Forest (Borchert et al. 2004) are of the <i>Alnus rhombifolia/ Polypodium californicum</i> association.</li>
+        
+            <li><b>Great Valley</b> (262Ag, Ai-m, Ao). Stands in the Sacramento-San Joaquin River delta (Keeler-Wolf and Hickson 2006) have understories of <i>Cornus sericea, Rosa californica,</i> and <i>Salix exigua.</i></li>
+        
+            <li><b>Klamath Mountains</b> (M261Aa, Ac-e, Ag-m, Ar, At-u). Stands for Manzanita Creek RNA and Smoky Creek rRNA (Cheng 2004), for Castle Crags State Park (Stuart et al. 1992), from Whiskeytown Lake National Recreation Area (Lee 2004), along the South Fork of the Trinity River (Chambers 2003), and generally for Six Rivers National Forest (Jimerson 1993) include associations with mixed tree canopies.</li>
+        
+            <li><b>Northern California Coast</b> (263Af-g, Aj, Al-m). Stands occur from Marin north to more inland parts of Humboldt counties, mostly inland from the coastal strip.</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Ba-f). Stands exist at Doll Basin RNA (Cheng 2004), northern Yolla Bolly Mountains (Chambers 2003), and generally in the section (Clark 1937).</li>
+        
+            <li><b>Northern California Interior Coast Ranges</b> (M261Ca-b). Stands occur along permanent creeks in the section.</li>
+        
+            <li><b>Sierra Nevada</b> (M261Ef-g, Es). Stands occur in Peavine Point RNA (Cheng 2004), Yosemite National Park (Keeler-Wolf et al. 2003b), Sequoia-Kings Canyon National Park (NPS-SEKI), and generally in the section (Potter 2005).</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fa-e). Stands are described for Indian Creek cRNA (Keeler-Wolf 1990d, see Cheng 2004), and generally in the section (Ratchford et al. 2021a, Klein et al. 2007, Potter 2005).</li>
+        
+            <li><b>Southern California Coast</b> (261Ba-b, Be-f). Stands exist in the Santa Monica Mountains (Keeler-Wolf and Evens 2006) and in perennial flowing creeks in other areas of the section.</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Ba-h, Bk-p). Stands are widespread in the section as at Cleghorn Canyon cRNA (S. White 1994a, see Cheng 2004), San Gabriel River (Brothers 1985), canyon streams in northwestern Anza Borrego Desert (Keeler-Wolf et al. 1998b), perennial streams in the San Dieguito River watershed (Evens and San 2005), and the San Jacinto Mountains (Klein and Evens 2005). They may contain an important <i>Platanus racemosa</i> component.</li>
+        
+            <li><b>Southern Cascades</b> (M261Da-c, Df, Dl-m). Stands are common along permanent streams and rivers throughout the western part of this section.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Flooding conditions are highly variable, with major scouring floods in foothill and montane riparian settings, whereas Sacramento-San Joaquin River delta settings tend to flood with less scouring and finer silt deposition. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+                <p>Stands Lacking a Well-Developed Shrub Layer</p>
+            
+            <ul class="text">
+                
+                    <li>Alnus rhombifolia [7], [8], [9], [10], [11], [19], [20], [24]</li>
+                
+                    <li>Alnus rhombifolia / Aruncus dioicus [5]</li>
+                
+                    <li>Alnus rhombifolia / Carex (nudata) [10], [11], [12], [20], [24], [26]</li>
+                
+                    <li>Alnus rhombifolia / Darmera peltata [2], [11], [12], [14], [15]</li>
+                
+                    <li>Alnus rhombifolia / Galium triflorum [16]</li>
+                
+                    <li>Alnus rhombifolia / Galium triflorum - Stachys ajugoides [2]</li>
+                
+                    <li>Alnus rhombifolia / Polypodium californicum [1]</li>
+                
+                    <li>Alnus rhombifolia / Pteridium aquilinum [10]</li>
+                
+            </ul>
+        
+            
+                <p>Stands with a Mixed Tree Canopy</p>
+            
+            <ul class="text">
+                
+                    <li>Alnus rhombifolia - Acer macrophyllum [13], [20]</li>
+                
+                    <li>Alnus rhombifolia - Platanus racemosa [3], [6], [9], [11], [12], [19], [21], [22]</li>
+                
+                    <li>Alnus rhombifolia - Pseudotsuga menziesii [8]</li>
+                
+                    <li>Alnus rhombifolia - Pseudotsuga menziesii - Calocedrus decurrens [11]</li>
+                
+                    <li>Alnus rhombifolia - Pseudotsuga menziesii / Darmera peltata [4]</li>
+                
+                    <li>Alnus rhombifolia - Pseudotsuga menziesii / Rubus armeniacus [13]</li>
+                
+                    <li>Alnus rhombifolia - Salix laevigata [11], [12], [24]</li>
+                
+                    <li>Alnus rhombifolia - Umbellularia californica - (Quercus chrysolepis) [6], [12], [23], [24], [25], [26]</li>
+                
+                    <li>Calocedrus decurrens - Alnus rhombifolia [8], [11], [12], [21], [24]</li>
+                
+            </ul>
+        
+            
+                <p>Stands with a Well-Developed Shrub Layer</p>
+            
+            <ul class="text">
+                
+                    <li>Alnus rhombifolia / Baccharis salicifolia [18]</li>
+                
+                    <li>Alnus rhombifolia / Cornus sericea [7], [19]</li>
+                
+                    <li>Alnus rhombifolia / Cornus sessilis [17]</li>
+                
+                    <li>Alnus rhombifolia / Leucothoe davisiae [10]</li>
+                
+                    <li>Alnus rhombifolia / Rhododendron occidentale [11]</li>
+                
+                    <li>Alnus rhombifolia / Salix exigua - (Rosa californica) [7], [11], [12], [19], [24]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Borchert, M.;Lopez, A.;Bauer, C.;Knowd, T. 2004</li>
+		
+		<li>[2] Chambers, J.J. 2003</li>
+		
+		<li>[3] Evens, J.;San, S. 2005</li>
+		
+		<li>[4] Fites, J. 1993</li>
+		
+		<li>[5] Jimerson, T.M. 1993</li>
+		
+		<li>[6] Keeler-Wolf, T.;Evens, J. 2006</li>
+		
+		<li>[7] Hickson, D.;Keeler-Wolf, T. 2007</li>
+		
+		<li>[8] Keeler-Wolf, T.;Schindel, M.;San, S.;Moore, P.;Hickson, D. 2003b</li>
+		
+		<li>[9] Klein, A.;Evens, J. 2005</li>
+		
+		<li>[10] Lee, C. 2004</li>
+		
+		<li>[11] Potter, D.A. 2005</li>
+		
+		<li>[12] Klein, A.;Crawford, J.;Evens, J.;Keeler-Wolf, T.;Hickson, D. 2007</li>
+		
+		<li>[13] Stuart, J.D.;Worley, T.;Buell, A.C. 1992</li>
+		
+		<li>[14] Taylor, D.W. 1975a</li>
+		
+		<li>[15] Taylor, D.W.;Randall, D.C. 1977</li>
+		
+		<li>[16] Taylor, D.W.;Teare, K.A. 1979a</li>
+		
+		<li>[17] Taylor, D.W.;Teare, K.A. 1979b</li>
+		
+		<li>[18] White, S.D. 1994a</li>
+		
+		<li>[19] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>[20] Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>[21] NPS-SEKI, 2009</li>
+		
+		<li>[22] AECOM, 2013</li>
+		
+		<li>[23] Evens, J.M.;Kentner, E. 2006</li>
+		
+		<li>[24] Ratchford, J.;Boul, R.;Keeler-Wolf, T.;Evens, J. 2022a (in progress)</li>
+		
+		<li>[25] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>[26] Sikes, K.;Buck-Diaz, J.;Evens, J. 2021</li>
+		
+		<li>Bowler, P.A. 1989</li>
+		
+		<li>Boyd, S.D.;Ross, T.S.;Bramlet, D. 1995</li>
+		
+		<li>Capelli, M.H.;Stanley, S.J. 1984</li>
+		
+		<li>Faber, P.M.;Keller, E.;Sands, A.;Massey, B.M. 1989</li>
+		
+		<li>Fites-Kauffman, J.A.;Rundel, P.;Stephenson, N.;Weixelman, D. 2007</li>
+		
+		<li>Griffin, J.R.;Critchfield, W.B. 1972</li>
+		
+		<li>Hanes, T.L. 1976</li>
+		
+		<li>Holstein, G. 1984</li>
+		
+		<li>Keeler-Wolf, T. 1990d</li>
+		
+		<li>McBride, J.R. 1994</li>
+		
+		<li>Menke, J.;Reyes, E.;Hepburn, A.;Johnson, D.;Reyes, J. 2013</li>
+		
+		<li>Minnich, R.A. 1976</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Black, H.;Bleich, V.C.;Mincks, J.W. 1980</li>
+		
+		<li>Taylor, D.W. 1975b</li>
+		
+		<li>Uchytil, R.J. 1989b</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program);AIS, 2013</li>
+		
+		<li>Vogl, R.J. 1976</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/13/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

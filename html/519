@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Dudleya cymosa - Dudleya lanceolata / Lichen - Moss</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Dudleya</i> <i>cymosa</i> - <i>Dudleya</i> <i>lanceolata</i> / Lichen - Moss</span> Sparsely Vegetated Alliance <br/>
+        <span class="subtitle">Live-forever - lichen/moss sparse herbaceous rock outcrop</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Herb
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-2700 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S4
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G4
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA (NatureServe), OR; Baja California, Mexico?
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2016/06/10
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/herb/dudleya-cymosa_dudleya-lanceolata_lichen-moss_sparse_santarosaisland_05-2013.jpg', '/static/images/photos/herb/dudleya-cymosa_dudleya-lanceolata_lichen-moss_sparse_santarosaisland_07-2012.jpg', '/static/images/photos/herb/dudleya-cymosa_dudleya-lanceolata_lichen-moss_sparse_santarosaisland_04-2015_01.jpg', '/static/images/photos/herb/dudleya-cymosa_dudleya-lanceolata_lichen-moss_sparse_santarosaisland_04-2015_02.jpg', '/static/images/photos/herb/dudleya-cymosa_dudleya-lanceolata_lichen_pore-lighthouse_05-2019_marin308.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Dudleya</i> <i>cymosa</i>, <i>Dudleya</i> <i>farinosa</i> or <i>Dudleya</i> <i>lanceolata</i> are some of the characteristic herbs for this alliance . Other herbs include <i>Bromus</i> spp., <i>Clarkia</i> spp., <i>Cryptantha</i> spp., <i>Erigeron</i> <i>glaucus</i>, <i>Eriogonum</i> <i>latifolium</i>, <i>Festuca</i> spp., <i>Lewisia</i> <i>rediviva</i>, <i>Phacelia</i> spp. and <i>Vulpia</i> <i>bromoides</i>. Shrubs may be present at sparse cover, including <i>Cercocarpus</i> <i>montanus</i> var. <i>glaber</i>, <i>Diplacus</i> <i>aurantiacus</i>, <i>Eriogonum</i> spp. and <i>Heteromeles</i> <i>arbutifolia</i>. Moss and lichen are often well-developed. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  The shrub layer is sparse.  The herbaceous layer is typically sparse; moss and/or lichen is often abundant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li>A sparse to open herbaceous layer with <i>Dudleya</i> spp. > 50% relative cover (Rodriguez et al. 2017).</li>
+		
+		<li>Sparse herbaceous vegetation of steep rock outcrops where herbs are typically < 10% and shrubs < 5% (NatureServe 2015).</li>
+		
+		<li>Various plants including <i>Dudleya </i>spp., <i>Encelia californica, Lycium californicum, Eriogonum </i>spp. occur at <10% cover on steep slopes or cliffs (Verdone and Evens 2010).</li>
+		
+		<li>Bedrock and/or gravel patches with heavy lichen and/or moss covering surface; herbaceous cover and composition variable, including <i>Collinsia heterophylla, Dudleya cymosa, Lewisia rediva, Bromus rubens,</i> etc. (Kittel et al. 2012).</li>
+		
+		<li>Native <i>Dudleya farinosa</i> or other <i>Dudleya</i> spp. > 50% relative cover, or > 30% relative cover with herbs such as <i>Eriogonum latifolium, Vulpia bromoides</i>, and others. Lichen is often > 50% relative cover (Buck-Diaz et al. 2021).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Steep slopes, cliffs, rocky outcrops. Substrates are rocky or skeletal thin gravelly soils, including igneous (granitic and volcanic), sedimentary, and metamorphic parent material.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Barren, Annual grasses and forbs
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Venturan coastal sage scrub, Diablan sage scrub, Native grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Coastal sage scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Barren, Coastal scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>42.630.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Lithomorphic Vegetation (Nonvascular and Sparse Vascular Rock Vegetation)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Mediterranean, Temperate, and Boreal Nonvascular and Sparse Vegetation
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Mediterranean Cliff, Scree, and Rock Vegetation
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Mediterranean California Cliff, Scree &amp; Rock Vegetation
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>California Cliff, Scree, and Other Rock Vegetation
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Central California Coast Ranges cliff and canyon
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> This alliance contains sparse herbaceous vegetation which is variable in species composition from the coast to inland. The rocky nature of the substrate defines the alliance, and non-vascular cover may be present and high in cover. While it occurs in California's Coast Ranges, southern California mountains and valleys, off-shore islands, and Sierra Nevada foothills to mountans, it has not been well-documented across its range.<br/>
+<br/>
+Live-forevers are not always present in this alliance, but they are well adapted to the harsh rocky environment where it occurs.  The fleshy basal rosette of leaves in this perennial genus help the plant survive during long periods of dessication. While other <i>Dudleya </i>spp. may be found in this alliance, there are two species that are widespread and characteristic. Both are generally evergreen rather than drought deciduous.  <i>D. cymosa </i> has several subspecies defined.  Five subspecies are considered rare.  Ssp. <i>ovatifolia</i> is listed as federally threatened and is ranked 1B.1.  Four more are ranked as 1B.2.  Also listed as federally threatened are ssp. <i>agourensis</i> and ssp. <i>marcescens</i> (which is state listed as rare).  These are limited to small ranges and rock types (Dorsey and Wilson 2011).  Ssp. <i>cymosa</i> is the most common subspecies, found as far south as the Santa Monica mountains but ranging up to Humboldt and Tehama Counties. D. <i>lanceolata</i> is found in the southern half of the state and extends into northern Baja California.  It does not occur in the Sierra Nevada or its foothills. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Dudleya cymosa</th>
+			
+		
+			
+			<th>Dudleya farinosa</th>
+			
+		
+			
+			<th>Dudleya lanceolata</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Herbaceous perennial</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Long</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Gravity</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>After first or second year</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Moderate</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Fire fuels and ignition rates are naturally low. Other disturbances, such as shifting rock, blow-outs, and erosion along cliffs and steep slopes are typical forces of change in this alliance.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Aa-l). Stands occur along steep rock outcrops and ridges in this region.</li>
+        
+            <li><b>Central California Coast Ranges</b> (M262Aa-k). Stands occur scattered along rock outcrops on various substrates throughout this section.  Stands were sampled in Pinnacles National Monument (NatureServe 2007).</li>
+        
+            <li><b>Northern California Coast</b> (263Aa-m). Stands occur along steep rock outcrops in this region, including off-shore islands, and has been sampled in Pt. Reyes National Seashore and other parts of Marin County (Buck-Diaz et al. 2021).</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Ba-f). Stands occur in the region; more sampling is needed to document associations.</li>
+        
+            <li><b>Northern California Interior Coast Ranges</b> (M261Ca-c). Stands occur in the region; more sampling is needed to document associations.</li>
+        
+            <li><b>Sierra Nevada</b> (M261Ea-u). Stands occur in the region; more sampling is needed to document associations.</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fa-e). Stands occur in the region; more sampling is needed to document associations.</li>
+        
+            <li><b>Southern California Coast</b> (261Ba-j). The alliance occurs generally in the section; it has been sampled on the east side of Santa Rosa Island (Rodriguez et al. 2017) and along the coast in Los Angeles Co (Verdone and Evens 2010).</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Ba-p). This alliance occurs throughout this section on steep rock outcrops, though sampling is lacking.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> This alliance is threatened by invasive plants and also by air pollution, including near urban-wildland interfaces and where coastal winds move pollution off or on-shore. State and federal wildlife agents and the general public have identified a surge in <i>Dudleya </i>spp. Poaching along California coastlines. For example, along the North Coast poachers were caught stealing thousands of plants, shipping them internationally, and selling them in 2019 to 2020. Investigators estimated that poachers stole several hundreds of thousands of <i>Dudleya </i> plants.  A law  passed in 2021 makes it illegal to remove them from state and private lands without a permit or landowner permission and establishes penalties for those convicted of doing so (see Section 2024 of the Fish and Game Code). For a summary of <i>Dudleya </i>protections, also see: https://www.cnps.org/conservation/dudleya-protection. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Dudleya (blochmaniae ssp. insularis, gnoma) - Sparse Herb [1]</li>
+                
+                    <li>Dudleya farinosa / Lichen - Moss [3]</li>
+                
+                    <li>Lichen Gravel - Bedrock Nonvascular Sparse [1], [2]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Rodriguez, D.;Sikes, K.;Keeler-Wolf, T.;Kittel, G.;Curtis, J.;Curley, C.;Evens, J. 2017</li>
+		
+		<li>[2] Kittel, G.;Reyes, E.;Evens, J.;Buck, J.;Johnson, D. 2012</li>
+		
+		<li>[3] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>Dorsey, A.E.;Wilson, P. 2011</li>
+		
+		<li>Evens, J.M.;Klein, A.;Taylor, J.;Hickson, D.;Keeler-Wolf, T. 2006</li>
+		
+		<li>McCabe,S. 2016</li>
+		
+		<li>NatureServe, 2014+</li>
+		
+		<li>Verdone, L.;Evens, J. 2010</li>
+		
+		<li>Wall, M. 2009</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/519/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Quercus douglasii</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Quercus</i> <i>douglasii</i></span> Forest &amp; Woodland Alliance <br/>
+        <span class="subtitle">Blue oak woodland and forest</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Tree
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>30-1900 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S4
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G4
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA (NatureServe) (FEIS)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>Yes
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>Yes
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/tree/quercus%20douglasii_hwy140_09-03.jpg', '/static/images/photos/tree/quercus-douglasii_06-03.jpg', '/static/images/photos/tree/quercus-douglasii_chimineas_03-09_01.jpg', '/static/images/photos/tree/quercus-douglasii_chimineas_04-05_01.jpg', '/static/images/photos/tree/quercus-douglasii_chimineas_04-08_01.jpg', '/static/images/photos/tree/quercus-douglasii_chimineas_04-08_02.jpg', '/static/images/photos/tree/quercus-douglasii_fresnoco_01.jpg', '/static/images/photos/tree/quercus-douglasii_mckenziepreserve_04-10_02.jpg', '/static/images/photos/tree/quercus-douglasii_napaco_05-02_01.jpg', '/static/images/photos/tree/quercus-douglasii_q-wislizeni_p-sabiniana_enapa_05-02.jpg', '/static/images/photos/tree/quercus-douglasii_q-wislizeni_p-sabiniana_mosaichwy140_09-03.jpg', '/static/images/photos/tree/quercus-douglasii_ssnf-mckenziepreserve_04-10.jpg', '/static/images/photos/tree/quercus-douglasii_ssnf-mckenziepreserve_04-10_01.jpg', '/static/images/photos/tree/quercus-douglasii_wagoncaves_04-04_01.jpg', '/static/images/photos/tree/quercus-douglasii_wagoncaves_04-09_01.jpg', '/static/images/photos/tree/quercus-douglasii_jasperridgepreserve_07-2019_smat0254.jpg', '/static/images/photos/tree/quercus-douglasii-below_q-wislizeni_hwy49_04-11_01.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Quercus</i> <i>douglasii</i> or <i>Quercus</i> ×<i>eplingii</i> is dominant or co-dominant in the tree canopy with <i>Aesculus</i> <i>californica</i>, <i>Juniperus</i> <i>californica</i>, <i>Pinus</i> <i>sabiniana</i> and <i>Quercus</i> <i>agrifolia</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text"> Trees < 20 m; with conifers < 35 m; canopy is open (greater than 10%) to continuous, or savanna-like (less than 10%, but evenly distributed); it may be one or two tiered. Shrub layer is sparse to intermittent. Herbaceous layer is sparse or grassy, and forbs are present seasonally. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Quercus douglasii</i> > 50% relative cover in the tree canopy; other hardwoods or conifers may be < 30% relative cover in the tree canopy (Allen et al. 1989, Evens et al. 2004).</li>
+		
+		<li><i>Quercus douglasii</i> or <i>Quercus ×eplingii</i> > 50% relative cover in the tree canopy, or > 30% relative cover with <i>Quercus agrifolia</i> or <i>Arbutus menziesii</i> (Buck-Diaz et al. 2021).</li>
+		
+		<li><i>Quercus douglasii</i> > 50% relative cover in the tree canopy, or > 30% relative cover with <i>Quercus agrifolia</i> or <i>Arbutus menziesii</i> (Sikes et al. 2021).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Valley bottoms, foothills, rocky outcrops. Soils are shallow, low in fertility, moderately to excessively drained with extensive rock fragments.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Blue oak series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Quercus douglasii woodland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Blue oak
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Blue oak woodland, Alvord oak woodland, Open digger pine woodland, Digger pine-oak woodland, Juniper-oak cismontane woodland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Foothill woodland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Blue oak woodland, Blue oak-foothill pine
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>71.020.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Tree Vegetation (Forest and Woodland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Warm Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Madrean Forest and Woodland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>California Forest and Woodland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Californian broadleaf forest and woodland
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Quercus douglasii </i>is a deciduous, drought and flood-tolerant tree that grows to 20 m in height. Leaves are irregularly to slightly lobed or toothed and bluish in color. Its extensive roots can grow to 25 m and tap groundwater reserves. Trees produce acorn crops every 2 to 3 years and mast every 5 to 8 years. Birds and small mammals disperse and cache the acorns. Both acorns and seedlings are susceptible to fungal infection during first winter. Seedlings growing at the canopy edge or in open light establish more frequently than those beneath trees (Howard 1992i). Trees sprout after cutting or burning, but the level varies geographically from nonexistent to high (Haggerty 1991). <br/>
+<br/>
+The alliance establishes in varied stands and forms one of the most extensive and conspicuous oak woodland vegetation types in the state. In some cases, oak savannas of <i>Q. douglasii </i>trees are scattered across the landscape, and in other cases, trees of mixed composition form a closed tree canopy. Genetic variation is high in the species. Controlling environmental factors include moisture availability, substrate, fire, and other disturbances (Allen-Diaz and Bartolome 1992, Allen-Diaz et al. 2007, Keeley 2002c). The high number of associations begins to address this variation. Named hybrids include those between <i>Q. douglasii </i>and <i>Q. johntuckeri </i>(<I>Q. </I>x<i>alvordiana</i>), <i>Q. garryana </i>(<I>Q. </I>x<i>eplingii</i>), and <i>Q. lobata </i>(Q. x<i>jolonensis</i>) (Griffin and Critchfield 1972). </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Quercus douglasii</th>
+			
+		
+			
+			<th>Quercus ×eplingii</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Tree; winter deciduous</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Transient</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; gravity</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Buds on large branches or trunks; underground structures</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy to fire-sensitive; low/no sprouter to high sprouter (varies among populations)</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>10-200+ years</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>High</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Fire-top-killed seedlings and saplings of <i>Quercus douglasii </i>may sprout during the next growing season, while seedlings have a high rate of top-kill and mortality after burns. Larger and taller trees are more resistant to fire than young or small trees because of their greater thickness of protective bark and because of their elevated crown height. However, well-developed ladder fuels may carry fire easily into both short and tall trees (Horney et al. 2002). While mature trees replace their leaves the next year when crown-scorched, crown fires can seriously damage trees and few trees recover from severe fires. Some authors consider that blue oak woodlands evolved under a regime of low-severity grassland f ires at intervals of 8-14years (Mensing 1992) that decreased thatch and annual grass cover and increased herb cover (Parsons and Stohlgren 1989). Other authors regard blue oak woodlands tolerant of and not dependent on fire because seedlings and saplings are not positively stimulated to establish, grow, or survive after fire. Several years may be needed for trees to recover to pre-burn density; seedlings and saplings should be protected from fire for more than 10 years for oaks to regenerate (Bartolome et al. 2002, Swiecki and Bernhardt 2002).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Short (5-15 years)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Summer-early fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Medium to large—up to stand size
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Low to high, mostly low (higher with well-developed shrub understory)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Low to high, mostly low (higher with well-developed shrub understory)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Surface to passive crown
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Ecological and fire characteristics vary regionally
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Aa, Ac, Ae-h, Aj-l). Stands within 5 km of the coast in the Santa Lucia Mountains are well above the summer inversion layer. Stands occur in the south Bay Area, northern Diablo Range, and on the eastern margins of the San Francisco Peninsula. Stands in John Muir National Historic Site are within 0.5 km of the Carquinez Strait (O’Neil and Egan 2004).</li>
+        
+            <li><b>Central California Coast Ranges</b> (M262Aa-f, Ah-k). Stands are described for Wagon Caves rRNA (Keeler-Wolf 1990d, see Cheng 2004), the San Benito Mountain area in the Diablo Range (Evens et al. 2006), Pinnacles National Monument in the Gabilan Range (Kittel et al. 2012), and generally on the eastern boundary of the section (Allen et al. 1989, Borchert et al. 1993b). <i>Quercus</i> x<i>alvordiana</i> is extensive in inland parts of the section and the Tehachapi Mountains. Stands in western Fresno County at Cantua Creek occur on siliceous shale with a low pH, a very low cover of herbs, and a disjunction from other blue oak stands by several miles (Edwards 2003).</li>
+        
+            <li><b>Great Valley</b> (262Aa-c, Ae-i, An-q, As, Au, Az). Stands typically occupy marginal uplands of the Central Valley. Some occupy deep alluvial soils in Tehama and Shasta Cos. Stands are well developed on the Sutter Buttes.</li>
+        
+            <li><b>Klamath Mountains</b> (M261Ac, Ai, Am, Ar). Isolated stands exist in Hayfork Valley and at low elevations in the Sacramento River drainage (Sawyer 2006).</li>
+        
+            <li><b>Mojave Desert</b> (322Ag). No description available</li>
+        
+            <li><b>Northern California Coast</b> (263Ac, Ag, Aj, Al-m). Stands occur in the drier portions of Napa Co. (Thorne et al. 2004) and in inland Marin Co. (Evens and Kentner 2006).</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Ba-f). Stands occur through the warmer and drier portions of the section. Stands in Devil’s Basin RNA (Newton 1987a, see Cheng 2004), in the section south of Round Valley (Allen et al. 1989, Allen-Diaz et al. 2007), and eastern Napa Co. (Thorne et al. 2004) are extensive.</li>
+        
+            <li><b>Northern California Interior Coast Ranges</b> (M261Ca-c). Stands are widespread generally in the section (Allen et al. 1989, Allen-Diaz et al. 2007) and mapped in the Blue Ridge-Berryessa area (Thorne et al. 2004).</li>
+        
+            <li><b>Sierra Nevada</b> (M261Ef-g, Em, Ep, Er-s). Stands in the Jawbone Ridge study area (Fiedler 1986, see Cheng 2004), in Yosemite National Park (Keeler-Wolf et al. 2003b), and generally in the section (Allen et al. 1989, Allen-Diaz et al. 2007) occur at lower elevations.</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fa-e). Stands at Indian Creek rRNA (Cheng 2004), in Tulare Co. (McClaran 1987), at Peoria Wildlife Area of Tuolumne Co. (Evens et al. 2004), in the northern subsections (Klein et al. 2007), and generally in the section (Allen et al. 1989, Alen-Diaz et al. 2007) are large and widespread.</li>
+        
+            <li><b>Southern California Coast</b> (261Ba-b). Stands are known from the vicinity of Lake Cachuma (C. Smith 1998a) and from the Sedgwick Reserve in the Santa Ynez Mountains (Johnson et al. 2003). Isolated individuals or rarely, clumps of individuals occur in the Santa Susanna Mountains and on Santa Cruz Island (Junak et al. 1995); however, they are generally parts of other alliances.</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Ba-b). Stands occur around the base of Figueroa Mountain in Santa Barbara Co. (C. Smith 1998a). Isolated individuals occur in the Liebre Mountains, but stands are not known.</li>
+        
+            <li><b>Southern Cascades</b> (M261Dj, Dl). Isolated stands include <i>Juniperus occidentali</i> and <i>Pinus sabiniana</i> on the Hat Creek Rim. Stands also occur on the lower elevation portion of the Tuscan Formation in upper Antelope and Mill Creek drainages.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> <i>Quercus douglasii </i>appears to have low natural regeneration (Bolsinger 1989, Muick and Bartolome 1987b), and problems facing managers include lack of seedling recruitment and survivorship. Much literature exists on management implication for the species and alliance. For example, recent studies show that a combination of frequent fire and annual grazing are a prescription for eliminating <i>Q. douglasii </i>regeneration, and this practice has been used in the past to eliminate woodlands (Bartolome et al. 2002, Swiecki and Bernhardt 2002). The fifth symposium on oak woodlands addressed current management issues (Standiford et al. 2002), and the Oak Woodlands Conservation Program details conservation strategies (at http://www.wcb.ca.gov/Pages/ OakWoodlandsStatusNew.htm). 
+
+Plant establishment depends on abundant acorn production, escape from acorn predation, sufficient rainfall, and protection from desiccation during germination, limited competition from other plants for light and water, and escape from browsers and burrowing gophers (Mensing 1992). Seedling morality is high in areas with high annual grass cover. Lack of sapling recruitment is attributed mainly to livestock and wildlife. Stand establishment varies geographically (Muick and Bartolome 1987b). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+                <p>Stands Lacking a Well-Developed Shrub Layer</p>
+            
+            <ul class="text">
+                
+                    <li>Quercus douglasii / (Achnatherum lemmonii -  Nassella pulchra) [8]</li>
+                
+                    <li>Quercus douglasii / Amsinckia (intermedia, menziesii) - Plagiobothrys nothofulvus [2]</li>
+                
+                    <li>Quercus douglasii / Bromus spp. - (Daucus pusillus) [3], [5], [6], [10], [16]</li>
+                
+                    <li>Quercus douglasii / Collinsia sparsiflora - Rigiopappus leptocladus [2]</li>
+                
+                    <li>Quercus douglasii / Delphinium parryi - Phacelia imbricata [2]</li>
+                
+                    <li>Quercus douglasii / Eriogonum elongatum / Lotus subpinnatus - Plantago erecta [2]</li>
+                
+                    <li>Quercus douglasii / Erodium moschatum - Hordeum murinum ssp. leporinum [2]</li>
+                
+                    <li>Quercus douglasii / Euphorbia spathulata - Pentagramma triangularis [2]</li>
+                
+                    <li>Quercus douglasii / Galium andrewsii - Lupinus concinnus [2]</li>
+                
+                    <li>Quercus douglasii / Hordeum murinum ssp. leporinum - Viola pedunculata [2]</li>
+                
+                    <li>Quercus douglasii / Lotus wrangelianus - Nassella pulchra [2]</li>
+                
+                    <li>Quercus douglasii / Lupinus concinnus - Trifolium ciliolatum [2]</li>
+                
+                    <li>Quercus douglasii / Mixed herbaceous [4], [6], [7], [9], [10], [11], [12], [13], [14], [17], [21]</li>
+                
+                    <li>Quercus douglasii / Selaginella hansenii - Navarretia pubescens [6], [10]</li>
+                
+                    <li>Quercus douglasii / understory oak [1], [5]</li>
+                
+                    <li>Quercus ×eplingii / Grass [11], [18], [22]</li>
+                
+            </ul>
+        
+            
+                <p>Stands with a Mixed Tree Layer</p>
+            
+            <ul class="text">
+                
+                    <li>Quercus douglasii - Aesculus californica / grass [3], [6], [10], [16]</li>
+                
+                    <li>Quercus douglasii - Juniperus californica / Ceanothus cuneatus - Cercocarpus montanus [4], [6], [7], [12]</li>
+                
+                    <li>Quercus douglasii - Pinus sabiniana / Arctostaphylos viscida [1], [6]</li>
+                
+                    <li>Quercus douglasii - Pinus sabiniana / Ceanothus cuneatus - Cercocarpus montanus [1], [2], [4], [7]</li>
+                
+                    <li>Quercus douglasii - Pinus sabiniana / Grass [1], [3], [5], [6], [7], [10]</li>
+                
+                    <li>Quercus douglasii - Quercus agrifolia [1], [9], [11], [20], [21]</li>
+                
+                    <li>Quercus douglasii - Quercus wislizeni [1], [6], [10]</li>
+                
+                    <li>Quercus douglasii - Quercus wislizeni / Lithophragma cymbalaria [2]</li>
+                
+            </ul>
+        
+            
+                <p>Stands with a Well-Developed Shrub Layer</p>
+            
+            <ul class="text">
+                
+                    <li>Quercus douglasii / Arctostaphylos manzanita / herbaceous [6], [10], [11]</li>
+                
+                    <li>Quercus douglasii / Ceanothus cuneatus [1], [4], [5], [6], [16]</li>
+                
+                    <li>Quercus douglasii / Ericameria linearifolia [1], [12], [15], [19]</li>
+                
+                    <li>Quercus douglasii / Eriogonum fasciculatum / herbaceous [4]</li>
+                
+                    <li>Quercus douglasii - Juniperus californica / Ericameria linearifolia [4], [12], [19]</li>
+                
+                    <li>Quercus douglasii - Juniperus californica / Quercus john-tuckeri [4]</li>
+                
+                    <li>Quercus douglasii / Ribes californicum / Bromus diandrus [2]</li>
+                
+                    <li>Quercus douglasii / Toxicodendron diversilobum / grass [3]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Allen, B.H.;Holzman, B.A.;Evett, R.R. 1991</li>
+		
+		<li>[2] Borchert, M.;Gordon, H.;White, T. 1993a</li>
+		
+		<li>[3] Evens, J.M.;San, S.;Taylor, J. 2004</li>
+		
+		<li>[4] Evens, J.M.;Klein, A.;Taylor, J.;Hickson, D.;Keeler-Wolf, T. 2006</li>
+		
+		<li>[5] Keeler-Wolf, T.;Schindel, M.;San, S.;Moore, P.;Hickson, D. 2003b</li>
+		
+		<li>[6] Klein, A.;Crawford, J.;Evens, J.;Keeler-Wolf, T.;Hickson, D. 2007</li>
+		
+		<li>[7] Kittel, G.;Reyes, E.;Evens, J.;Buck, J.;Johnson, D. 2012</li>
+		
+		<li>[8] Newton, G.B. 1987a</li>
+		
+		<li>[9] O’Neil, S.;Egan, S. 2004</li>
+		
+		<li>[10] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>[11] Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>[12] Buck-Diaz, J.;Evens, J. 2011b</li>
+		
+		<li>[13] Buck-Diaz, J.;Ratchford, J.;Evens, J. 2013</li>
+		
+		<li>[14] Buck-Diaz, J.;Harbert, B.;Evens, J. 2011</li>
+		
+		<li>[15] CNPS Vegetation Program, 2015</li>
+		
+		<li>[16] NPS-SEKI, 2009</li>
+		
+		<li>[17] VegCAMP (CDFW Vegetation Classification and Mapping Program), 2015a</li>
+		
+		<li>[18] Buck, J.;Evens, J. 2010</li>
+		
+		<li>[19] Reyes, E.;Evens, J.;Glass, A.;Sikes, K.;Keeler-Wolf., T.;Winitsky, S.;Johnson, D.;Menke, J.;Hepburn, A. 2020a</li>
+		
+		<li>[20] Allen, B.H.;Evett, R.R. ;Holzman, B.A.;Martin, A.J. 1989</li>
+		
+		<li>[21] Sikes, K.;Buck-Diaz, J.;Evens, J. 2021</li>
+		
+		<li>[22] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>Allen-Diaz, B.H.;Bartolome, J.W. 1992</li>
+		
+		<li>Allen-Diaz, B.H.;Holtzman, B.A. 1991</li>
+		
+		<li>Allen-Diaz, B.H.;Standiford, R.;Jackson, R.D. 2007</li>
+		
+		<li>Baker, G.A.;Rundel, P.W.;Parsons, D.J. 1981</li>
+		
+		<li>Barbour, M.G. 1988</li>
+		
+		<li>Bartolome, J.W.;McClaran, M.P.;Allen-Diaz, B.H.;Dunne, J.;Ford, L.D.;Standiford, R.B.;McDougald, N.K.;Forero, L.C. 2002</li>
+		
+		<li>Borchert, M.;Davis, F.W.;Allen-Diaz, B. 1991</li>
+		
+		<li>Borchert, M.;Davis, F.W.;Michaelsen, J.;Owyler, L.D. 1989</li>
+		
+		<li>Dagit, R. 2002</li>
+		
+		<li>DeLasaux, M.J.;Pillsbury, N.H. 1987</li>
+		
+		<li>Gaman, T.;Casey, K. 2002</li>
+		
+		<li>Gemmill, B. 1980</li>
+		
+		<li>Griffin, J.R. 1971</li>
+		
+		<li>Griffin, J.R. 1977</li>
+		
+		<li>Griffin, J.R.;Critchfield, W.B. 1972</li>
+		
+		<li>Holland, R.F. 1976</li>
+		
+		<li>Howard, J.L. 1992j</li>
+		
+		<li>Keeley, J.E. 2002c</li>
+		
+		<li>Koenig, W.D.;Knops, J.M. 1997</li>
+		
+		<li>Koenig, W.D.;Knops, J.M.;Carmen, W.J. 2002</li>
+		
+		<li>Lewis, D.C.;Burgy, R.H. 1964</li>
+		
+		<li>McClaran, M.P.;Bartolome, J.W. 1989a</li>
+		
+		<li>McClaran, M.P.;Bartolome, J.W. 1989b</li>
+		
+		<li>McClaran, M.P.;Bartolome, J.W. 1990</li>
+		
+		<li>McDonald, P.M. 1990b</li>
+		
+		<li>Menke, J.;Reyes, E.;Hepburn, A.;Johnson, D.;Reyes, J. 2013</li>
+		
+		<li>Mensing, S.A. 1990</li>
+		
+		<li>Mensing, S.A. 1992</li>
+		
+		<li>Muick, P.C.;Bartolome, J.R. 1987a</li>
+		
+		<li>Muick, P.C.;Bartolome, J.R. 1987b</li>
+		
+		<li>Neal, D.L. 1980</li>
+		
+		<li>Pavlik, B.M.;Muick, P.C.;Johnson, S.G.;Popper, M. 1991</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Black, H.;Bleich, V.C.;Mincks, J.W. 1980</li>
+		
+		<li>Sawyer, J.O. 2006</li>
+		
+		<li>Swiecki, T.J.;Bernhardt, E. 2002</li>
+		
+		<li>Tucker, J.M. 1980</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program);AIS, 2013</li>
+		
+		<li>Waddell, K.L.;Barrett, T.M. 2005</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/80/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

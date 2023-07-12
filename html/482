@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Veratrum californicum</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Veratrum</i> <i>californicum</i></span> Herbaceous Alliance <br/>
+        <span class="subtitle">White corn lily patches</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Herb
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>1000-3500 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S4
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G5
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA, ID, NV, OR, UT, WY (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2009/09/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/herb/veratrum-californicum_mtrose_06-09.jpg', '/static/images/photos/herb/veratrum-californicum_bellmdw_06-02_01.jpg', '/static/images/photos/herb/veratrum-californicum_bellmdw_06-06_01.jpg', '/static/images/photos/herb/veratrum-californicum_lassenvnp_08-10_01.jpg', '/static/images/photos/herb/veratrum-californicum_lassenvnp_08-10_02.jpg', '/static/images/photos/herb/veratrum-californicum_plaskettmeadows_yollabollymtns_06-13_01.jpg', '/static/images/photos/herb/veratrum-californicum_plaskettmeadows_yollabollymtns_06-13_02.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Veratrum</i> <i>californicum</i> is dominant or co-dominant in the herbaceous layer with <i>Achillea</i> <i>millefolium</i>, <i>Aconitum</i> <i>columbianum</i>, <i>Bistorta</i> <i>bistortoides</i>, <i>Carex</i> <i>microptera</i>, <i>Deschampsia</i> <i>cespitosa</i>, <i>Deschampsia</i> <i>elongata</i>, <i>Hordeum</i> <i>brachyantherum</i>, <i>Juncus</i> <i>nevadensis</i>, <i>Ligusticum</i> <i>californicum</i>, <i>Mertensia</i> <i>ciliata</i>, <i>Mimulus</i> <i>guttatus</i>, <i>Mimulus</i> <i>primuloides</i>, <i>Oreostemma</i> <i>alpigenum</i>, <i>Perideridia</i> <i>parishii</i>, <i>Phleum</i> <i>alpinum</i>, <i>Poa</i> <i>pratensis</i>, <i>Taraxacum</i> <i>officinale</i> and <i>Thalictrum</i> <i>fendleri</i>. Emergent trees and shrubs may be present at low cover. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Herbs < 2 m; cover is intermittent to continuous. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Veratrum californicum</i> > 50% relative cover in herbaceous layer (Potter 2005).</li>
+		
+		<li><i>Veratrum californicum</i> > 50% relative cover in the herbaceous layer; stands may have a significant cover of <i>Senecio triangularis</i> (Keeler-Wolf et al. 2003b).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Raised portions of seasonally saturated meadows, stringer meadows adjacent to permanent streams, valley bottom meadows, wet meadows along slopes. Soils are usually sandy loams. The USFWS Wetland Inventory (1996 national list) recognizes <i>Veratrum californicum</i> as an OBL plant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Montane meadow habitat
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Veratrum californicum temporarily flooded herbaceous alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Wet grasses and forbs
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Wet montane meadow, Wet subalpine or alpine meadow
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Red fir forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Wet meadow
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>45.423.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate and Boreal Shrubland and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate Grassland, Meadow, and Shrubland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Vancouverian and Rocky Mountain Grassland and Shrubland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Western Cordilleran montane-boreal wet meadow
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Western Cordilleran montane-boreal summer-drying wet meadow
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Veratrum californicum </i>is a tall, coarse perennial with large, elliptical leaves. It contains alkaloids that cause developmental malformations in sheep and cause dermatitis for some people. Often seen as a single stem or clumps in mountain meadows, this species can create extensive clones from underground rhizomes. Plants die back in the late summer as the soil dries. Plants in the state are var. <i>californicum. </i><br/>
+<br/>
+Stands tend to occupy edges or raised areas of wet montane meadows, often marking a transition between wet and dry ends of a soil moisture gradient in meadows. Many stands have forest edges and are adjacent to permanent streams as stringer meadows (Potter 2005). <i>V. californicum </i>is visually striking when present and appears to be an indicator of certain disturbance and moisture regimes. Cosgriff et al. (2004) considered that the presence of this native indicates a history of heavy livestock grazing, but Potter (2005) argued that this is not always the case. Stands vary in associated mesophytic herbs depending upon subtle moisture differences, grazing history, and other meadow impacts. Large stands indicate heavy grazing under some conditions (Manning and Padgett 1995, Potter 2005). The ecological similarity to other transitional meadow alliances characterized by <i>Carex nebrascensis, Deschampsia caespitosa, Poa pratensis, Senecio triangularis, </i>and <i>Trifolium longipes, </i>as well as woody riparian alliances characterized by <i>Populus tremuloides, Salix lemmonii, </i>and <i>S. orestera, </i>suggests a need to refine the role of moisture regimes and disturbance in describing the vegetation of these meadow/riparian systems. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Veratrum californicum</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Polycarpic perennial; herb; rhizomatous</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Gravity; wind</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy? (grazing-hardy)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>Long-lived</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Fluvial processes and slope erosion rather than fire primarily disturb stands. Fires are likely to occur only in late season or in extremely dry years. Fires are unlikely to affect stands negatively because of the extensive underground rhizome system.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+            <p>The range of <i>Veratrum californicum</i> includes Northern California Coast (263A) and Southern California Mountains and Valleys (M262Bb, Be, Bm, Bo).</p>
+        
+
+        <ul class="text">
+        
+            <li><b>Klamath Mountains</b> (M261Aa, Ac-l, An, Ap-r, At-u). Stands occur throughout montane portions of the section, especially in the Marble Mountains and Trinity Alps.</li>
+        
+            <li><b>Modoc Plateau</b> (M261Gf). Stands exist in meadows at montane and elevations in the Warner Mountains (S. Smith 1998b).</li>
+        
+            <li><b>Mono</b> (341Da). Stands are found in the Carson River drainage.</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Ba). Stands are common at meadow edges and on open slopes moistened by early summer snowmelt in the Yolla Bolly Mountains (Keeler-Wolf and Keeler-Wolf 1974). The southernmost stand of<i> Populus tremuloides</i> in the North Coast Ranges is associated with a large stand of <i>V. californicum</i> on the south slopes of Black Rock Mountain.</li>
+        
+            <li><b>Sierra Nevada</b> (M261Ea-e, Eg-h, Ej-q, Et-u). This alliance is widespread in montane elevations. Stands occur in meadows in the Lake Tahoe region (Nachlinger 1985), at Harvey Monroe Hall Research Natural Area (Taylor 1984, see Cheng 2004), on the east side (Manning and Padgett 1995), and generally in the section where they are similar to stands of <i>Senecio triangularis</i> alliance (Potter 2005).</li>
+        
+            <li><b>Southern Cascades</b> (M261Df-g, Di-j, Dl-m). Stands occur throughout montane portions of the section, including from the Mount Shasta region to the Mount Lassen region.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> <i>Veratrum californicum </i>is resistant to grazing because of its toxicity to livestock. However, the herb-rich stands may be susceptible to livestock trampling, overuse through compaction, and loss of structure when sites are wet (Potter 2005). 
+
+In evaluating ways to restore degraded herb-rich meadows, Cosgriff et al. (2004) concluded that mechanical removal of <i>V. californicum </i>was cumbersome and limited to gentle topography and sites lacking surface rocks. The application of herbicides (glyphosate) was more adaptable to all types of terrain. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Veratrum californicum [2], [5], [7]</li>
+                
+                    <li>Veratrum californicum - Bistorta bistortoides [4]</li>
+                
+                    <li>Veratrum californicum - Juncus nevadensis [3]</li>
+                
+                    <li>Veratrum californicum - Senecio triangularis [1], [6]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Keeler-Wolf, T.;Schindel, M.;San, S.;Moore, P.;Hickson, D. 2003b</li>
+		
+		<li>[2] Manning, M.E.;Padgett, W.G. 1995</li>
+		
+		<li>[3] Nachlinger, J.L. 1985</li>
+		
+		<li>[4] Potter, D.A. 2005</li>
+		
+		<li>[5] Smith, S. 1998b</li>
+		
+		<li>[6] Taylor, D.W. 1984</li>
+		
+		<li>[7] Weixelman, D.A.;Zamudio, D.C.;Zamudio, K.A. 1999</li>
+		
+		<li>Cosgriff, R.;Anderson, V.J.;Monson, S. 2004</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/482/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

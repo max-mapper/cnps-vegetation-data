@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Arctostaphylos (crustacea, tomentosa)</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Arctostaphylos</i> (<i>crustacea</i>, <i>tomentosa</i><span style="padding-left: .2em">)</span></span> Shrubland Alliance <br/>
+        <span class="subtitle">Brittle leaf - woolly leaf manzanita chaparral</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-1500 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G3
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA (NatureServe) (Calflora)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>Yes
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>Yes
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/arctostaphylos-crustacea-tomentosa_alamedaco_2000_01.jpg', '/static/images/photos/shrub/arctostaphylos-crustacea-tomentosa_ftord_07-06_01.jpg', '/static/images/photos/shrub/arctostaphylos-crustacea-tomentosa_ftord_07-06_02.jpg', '/static/images/photos/shrub/arctostaphylos-crustacea-tomentosa_ftord_07-06_03.jpg', '/static/images/photos/shrub/arctostaphylos-%28crustacea%2C-tomentosa%29_santarosaisland_11-2012.jpg', '/static/images/photos/shrub/arctostaphylos-%28crustacea%2C-tomentosa%29_santarosaisland_01-2013.jpg', '/static/images/photos/shrub/arctostaphylos-%28crustacea%2C-tomentosa%29_santarosaisland_11-2012.jpg', '/static/images/photos/shrub/arctostaphylos-%28crustacea%2C-tomentosa%29_santarosaisland_03-2013.jpg', '/static/images/photos/shrub/arctostaphylos-crustacea-tomentosa_woodacre_04-2021_01.jpg', '/static/images/photos/shrub/arctostaphylos-crustacea-tomentosa_woodacre_04-2021_02.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Arctostaphylos</i> <i>crustacea</i>, <i>Arctostaphylos</i> <i>regismontana</i> or <i>Arctostaphylos</i> <i>tomentosa</i> is dominant, co-dominant, or characteristically present in the shrub canopy with <i>Adenostoma</i> <i>fasciculatum</i>, <i>Arctostaphylos</i> spp., <i>Artemisia</i> <i>californica</i>, <i>Baccharis</i> <i>pilularis</i>, <i>Ceanothus</i> spp., <i>Cercocarpus</i> <i>montanus</i>, <i>Chrysolepis</i> <i>chrysophylla</i> var. <i>minor</i>, <i>Ericameria</i> <i>ericoides</i>, <i>Eriogonum</i> <i>fasciculatum</i>, <i>Frangula</i> <i>californica</i>, <i>Heteromeles</i> <i>arbutifolia</i>, <i>Salvia</i> <i>mellifera</i> and <i>Toxicodendron</i> <i>diversilobum</i>. Emergent trees may be present at low cover, including <i>Pinus</i> <i>coulteri</i> or <i>Quercus</i> <i>agrifolia</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 3 m; canopy is intermittent to continuous. Herbaceous layer is sparse. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Arctostaphylos crustacea</i> or <i>A. tomentosa</i> > 30% relative cover in the shrub canopy (cf. Keeler-Wolf et al. 2003a).</li>
+		
+		<li><i>Arctostaphylos</i> spp. > 30% relative cover in the shrub canopy, while  <i>Quercus pacifica </i>or<i> Adenostoma fasciculatum</i> may also be > 30% relative cover (Rodriguez et al. 2017).</li>
+		
+		<li><i>Arctostaphylos crustacea</i> > 50% relative cover in the shrub canopy, or > 30% relative cover with <i>Adenostoma fasciculatum, Arctostaphylos regismontana, Frangula californica, Quercus parvula</i>, or <i>Q. wislizeni</i> var. <i>frutescens</i> (Sikes et al. 2021).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Uplands near the coast or within maritime climatic influence including bluffs, dunes, mesas, outcrops, slopes, terraces. Soils are derived from many substrates and usually nutrient-poor sandstone, shale, sand deposits, and granitics.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Woolly leaf manzanita series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Arctostaphylos tomentosa shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Manzanita chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Central maritime chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Mixed chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>37.308.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Mediterranean Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Mediterranean Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>California Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>California Chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Californian maritime chaparral
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Arctostaphylos crustacea </i>is a long-lived, erect, spreading manzanita with a well-developed lignotuber, smooth to exfoliating stem bark, and bi-facial leaves (Parker et al. 2007, 2012). <i>A crustacea </i>is a highly variable species, previously treated as part of <i>A. tomentosa </i>in <i>The Jepson Manual</i>. We follow the Parker et al. treatment of <i>A. crustacea, </i>which includes six subspecies. The more typical ssp <i>. crustacea </i>characterizes the alliance along the central coast from Napa and San Francisco to Santa Barbara Cos., and ssp. <i>crinita </i>occurs as stands in the Santa Cruz Mountains. Ssp. <i>rosei </i>occurs uncommonly from San Francisco to Monterey Co., though past herbarium records provide Santa Barbara Co. as its furthest south locale. Ssp. <i>eastwoodiana </i>(a CNPS list 1B.1 plant) has five occurrences in Santa Barbara Co., and ssp. <i>insulicola </i>and ssp. <i>subcordata </i>(CNPS list 4 plants) occur in the Channel Islands. Stands of this species have edaphic restrictions to coarse marine sandstone, aeolian sand deposits, shale, granitics, and fine textured mud and siltstones (Keeler- Wolf et al. 2003a, Sawyer and Evens 2007, UCB 2005). <br/>
+<br/>
+<i>Arctostaphylos tomentosa </i>is a long-lived manzanita with a well-developed lignotuber, persistently shredding stem bark, and bi-facial leaves. <i>A. tomentosa </i>includes four subspecies per Parker et al. (2007, 2012); ssp. <i>tomentosa </i>is the most common, occurring primarily in Monterey and San Luis Obispo Cos., though it appears to range as far north and south as Santa Cruz and Santa Barbara Cos., including Santa Cruz Island. The other subspecies, ssp. <i>bracteosa </i>and ssp. <i>hebeclada, </i>are uncommon on shale in Monterey Co., and they may range as far north as San Francisco Co.; ssp. <i>daciticola </i>(a rare CNPS list 1B plant) is endemic to dacite soils in central San Luis Obispo Co. <br/>
+<br/>
+The alliance includes stands where <i>A. c. </i>ssp. <i>crustacea, </i>ssp. <i>crinita, </i>and ssp. <i>rosei </i>are dominant or codominant in the shrub canopy; ssp. <i>eastwoodiana </i>grows in the <i>Arctostaphylos </i>( <i>purissima, rudis</i>) special stands at Burton Mesa in Santa Barbara Co. The other subspecies of <i>A. crustacea </i>are part of the island chaparral (see the discussion in the Changes Since the First Edition section). Some stands in the East Bay Hills are fragmented and degraded, with only remnant scattered individuals of <i>A. crustacea </i>and a significantly higher cover of <i>Adenostoma fasciculatum</i>. We still consider such stands as members of the <i>A. crustacea </i>alliance. Additionally, other stands include <i>A. t. </i>ssp. <i>tomentosa </i>as the dominant or co-dominant in the shrub canopy. Since <i>A. crustacea </i>and <i>A. tomentosa </i>overlap ecologically (for example, at Fort Ord Military Reservation), we have some evidence for merging of these two taxa into this one alliance. However, we need more data and analysis to understand relationships between this and other maritime chaparral types. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Arctostaphylos crustacea</th>
+			
+		
+			
+			<th>Arctostaphylos regismontana</th>
+			
+		
+			
+			<th>Arctostaphylos tomentosa</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Perennial; shrub</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Shrub; evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Long</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Animal; gravity</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Chemical; heat; stratification—winter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>?-100+ years</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>10-100+ years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Episodic; low</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Central Coast</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Seeds of <i>Arctostaphylos crustacea </i>and <i>A. tomentosa </i>germinate after a fire. Seedling mortality is high during the first year of growth. Top-killed plants sprout from the lignotuber. Shrubs gain dominance within 10-15 years and create a closed shrub canopy that adds to the seed bank. Stands require periodic fire to maintain current species composition. Greenlee and Langenheim (1990) and Van Dyke et al. (2001) considered historic fire cycle to be between 10 and 100 years for some maritime chaparral types, though an interval of > 50 years is likely to maintain the alliance.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Medium (30-100+ years)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Late summer-fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Medium to large—up to and beyond stand
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low to moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>High
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>High to very high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Active-independent crown fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Central Coast
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Ac-d, Af-h, Aj-k). Stands occur at the Fort Ord Military Reservation, associated with <i>Arctostaphylos pumila, A. tomentosa, Ceanothus cuneatus</i> var. <i>rigidus,</i> and other rare taxa (Griffin 1978, CNPS 2007); on the San Francisco Peninsula in Golden Gate National Recreation Area, associated sometimes with <i>A. montaraensis</i> (Keeler-Wolf et al. 2003a); in the Montaña de Oro State Park region on rocky shale, associated with <i>A. morroensis</i> and/or <i>Adenostoma fasciculatum</i> (Holland and Keil 2007); on the UC Santa Cruz campus associating with <i>Arctostaphylos andersonii</i> (UCSC 2006); and in the East Bay Hills sometimes associating with <i>A. pallida</i> and <i>A. auriculata</i> (CNDDB 1993). Stands sampled at Fort Ord (CNPS 2008) indicate that <i>A. crustacea</i> and <i>A. tomentosa</i> occur separately as dominants and together as co-dominants in stands. In San Mateo Co., <i>A. regismontana</i> (CRPR 1B.2) or <i>Quercus parvula </i>occurs as a co-dominant in this alliance (Sikes et al. 2021).</li>
+        
+            <li><b>Central California Coast Ranges</b> (M262Ae-f). Stands sampled in the Gabilan Range on granitic soils contain <i>Arctostaphylos crustacea</i> with the rare <i>A. gabilanensis </i>(Matthews 2006, CNPS 2006). Preliminary analysis of 23 plots suggests that <i>A. gabilanensis</i> is an indicator of a locally endemic association of the <i>A. crustacea</i> alliance, and <i>A. crustacea</i> and/or <i>Adenostoma fasciculatum</i> may be a co-dominant in these stands (Bainbridge 2007, Sawyer and Evens 2007). Stands sampled and observed at Fort Ord Military Reservation include <i>Arctostaphylos crustacea</i> as a dominant or codominant in stands.</li>
+        
+            <li><b>Southern California Coast</b> (261Bc, Bh). Stands occurring on Santa Cruz Island often contain <i>Arctostaphylos insularis</i> (Minnich 1980a). On Santa Rosa Island, most stands contain <i>A. confertiflora</i> (Rodriguez et al. 2017). <i>A. catalinae</i> occurs on Santa Catalina Island (Dixon et al. 2019).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Restrictions and plant adaptations to certain localized edaphic and climatic conditions make this alliance and other maritime chaparral types particularly vulnerable to development and agricultural conversion. Management of maritime chaparral types is problematic because fire history is not well understood. Stands appear to require periodic fire to maintain current species composition, and > 50 years may be adequate to maintain stands. Infrequent fire results in tree encroachment, decline of shrub vigor, and decline in seed bank quality. However, frequent fire tends to convert the stands to coastal scrub or grassland through reducing the chaparral seed bank. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Arctostaphylos catalinae [5]</li>
+                
+                    <li>Arctostaphylos confertiflora [4]</li>
+                
+                    <li>Arctostaphylos crustacea [2], [3], [4], [6]</li>
+                
+                    <li>Arctostaphylos crustacea - Adenostoma fasciculatum - Ceanothus (cuneatus, papillosus) [3], [6]</li>
+                
+                    <li>Arctostaphylos crustacea - Arctostaphylos gabilanensis [1], [3]</li>
+                
+                    <li>Arctostaphylos insularis [4]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Bainbridge, S. 2007</li>
+		
+		<li>[2] Keeler-Wolf, T .;Schirokauer, D.;Meinke, J.;van derLeeden, P. 2003a</li>
+		
+		<li>[3] Sawyer, J.O.;Evens, J.M. 2007</li>
+		
+		<li>[4] Rodriguez, D.;Sikes, K.;Keeler-Wolf, T.;Kittel, G.;Curtis, J.;Curley, C.;Evens, J. 2017</li>
+		
+		<li>[5] Dixon, P. 2019</li>
+		
+		<li>[6] Sikes, K.;Buck-Diaz, J.;Evens, J. 2021</li>
+		
+		<li>Davis, F.W.;Hickson, D.E.;Odion, D.C. 1988</li>
+		
+		<li>Griffin, J.R. 1978</li>
+		
+		<li>Hanes, T.L. 1977</li>
+		
+		<li>Pase, C.P. 1982a</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/115/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

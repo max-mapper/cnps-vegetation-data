@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Arbutus menziesii</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Arbutus</i> <i>menziesii</i></span> Forest Alliance <br/>
+        <span class="subtitle">Madrone forest</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Tree
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>100-1400 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S4.2
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G4
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>CAN: BC. USA: CA, OR, WA (USDA Plants)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2009/09/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/tree/arbutus-menziesii_napaco_09-02_01.jpg', '/static/images/photos/tree/arbutus-menziesii_mmwd0342-s_mttamwatershed_06-05.jpg', '/static/images/photos/tree/arbutus-menziesii_smat0035_smprd-wunderlichcp_04-19.jpg', '/static/images/photos/tree/arbutus-menziesii_mmwd_09-05_01.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Arbutus</i> <i>menziesii</i> is dominant or co-dominant in the tree canopy with <i>Acer</i> <i>macrophyllum</i>, <i>Notholithocarpus</i> <i>densiflorus</i>, <i>Pseudotsuga</i> <i>menziesii</i>, <i>Quercus</i> <i>agrifolia</i>, <i>Quercus</i> <i>chrysolepis</i>, <i>Quercus</i> <i>kelloggii</i>, <i>Quercus</i> <i>wislizeni</i> and <i>Umbellularia</i> <i>californica</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text"> Trees < 40 m; canopy is continuous. Shrub layer is sparse to intermittent. Herbaceous layer is sparse. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Arbutus menziesii</i> > 50% relative cover in tree canopy (Evens and Kentner 2006).</li>
+		
+		<li><i>Arbutus menziesii</i> > 50% relative tree cover with <i>Quercus agrifolia</i> < 30% relative cover, or > 30% relative cover with <i>Quercus kelloggii</i> and/or <i>Umbellularia californica</i> (Buck-Diaz et al. 2021, Sikes et al. 2021).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Stream terraces and upland slopes with productive soils or steep slopes with shallow, rocky, infertile soils.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Tanoak series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Pacific madrone, Tanoak
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Mixed evergreen forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Mixed evergreen forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Coastal oak woodland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>73.200.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Tree Vegetation (Forest and Woodland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Cool Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North America Cool Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Californian-Vancouverian Montane and Foothill Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Vancouverian evergreen broadleaf and mixed forest
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Arbutus menziesii </i>is a fast-growing, evergreen hardwood that grows to 40 m in height and lives for up to 500 years. Trees mast in irregular cycles. Birds and mammals disperse the berries. Seedlings emerge after winter stratification; the best establishment is on mineral soil with partial shade. Seedlings are slow growing, but older plants are fast growing and drought tolerant. <i>A. menziesii </i>sprouts from adventitious buds on basal burls following fire or other disturbances. Native and introduced pathogenic fungi, some 21 species in all, including root rot, wood rots, stem cankers, branch dieback, sudden oak death, and leaf diseases attack madrone (McDonald and Tappeiner 1990, McMurray 1989a, Sawyer 2006). <br/>
+<br/>
+<i>Arbutus menziesii </i>groves usually are considered as part of the mixed evergreen forest, and not treated as a separate type (Sawyer 2007). Even though the species is common as a secondary species in many forest types, it does form distinctive stands of high cover worthy of recognition. Stands in northern parts of the state mix with those of the <i>Pseudotsuga menziesii - (Notholithocarpus densiflorus - Arbutus menziesii) </i>alliance. Stands in the central parts of the state blend into other hardwood forest types. <i>A. menziesii </i>stands are ecologically most similar to those of <i>Umbellularia californica. </i>They tend to segregate from <i>U. californica </i>stands by occurring on upper slopes and convexities, but they tend to occur in somewhat more mesic settings than do <i>Quercus agrifolia </i>stands. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Arbutus menziesii</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Tree; evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Medium</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; gravity</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Stratification—winter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Buds on large branches or trunks; underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-sensitive; thin epidermis; low/no sprouter to high sprouter (post-burn sprouting depending on size of parent tree)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>3-500 years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text"><i>Arbutus menziesii </i>has relatively thin bark and is sensitive to top kill by fire; it prolifically sprouts from a root crown after fire. Frequent fires promote multi-stemmed shrubs, but once protected from fire, plants revert to trees as stem density thins during the fire-free period. Frequent fires maintain stands of <i>A. menziesii </i>and other hardwoods by preventing <i>Pseudotsuga menziesii </i>and other conifers from becoming established and from living long enough to overtop the hardwoods (McDonald and Tappeiner 1990, McMurray 1989a, Sawyer 2006, 2007).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Medium
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Summer-early fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Medium to large
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Moderate to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Moderate to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Low to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Surface-passive crown to passive-active crown
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Cismontane California
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Af, Aj-k). Stands occur in the Santa Cruz (Sikes et al. 2021) and Santa Lucia mountains.</li>
+        
+            <li><b>Central California Coast Ranges</b> (M262Ae). Stands at Black Butte and Cone Peak Gradient RNAs (Cheng 2004) and at higher elevations in the Santa Lucia Mountains were the ones described by Cooper (1922) as broad-sclerophyll vegetation.</li>
+        
+            <li><b>Klamath Mountains</b> (M261Aa-d, Af, Ai, Aq-r, Au). Stands occur in the canyons of the Klamath and Trinity river watersheds. Those along the lower South Fork of the Trinity River are particularly extensive (Sawyer 2006).</li>
+        
+            <li><b>Northern California Coast</b> (263Ab-d, Af-g, Aj-m). Stands approach the coastline in the King Range area south of Cape Mendocino (Sawyer 2006) and along Sonoma Co. coastline. Stands in Marin Co. (Buck-Diaz et al. 2021, Evens and Kentner 2006, Keeler-Wolf et al. 2003a) form interesting mosaics with several hardwood alliances.</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Ba-b). Stands at the Twin Rocks study area (Jokerst 1987, see Cheng 2004) and in Napa Co. mix with grasslands and other hardwood types.</li>
+        
+            <li><b>Sierra Nevada</b> (M261Ef). <i>Arbutus menziesii</i> occurs as disjunct populations (Griffin and Critchfield 1972) in the lower elevations of the section.</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fa-b). Mixed stands occur with <i>Umbellularia californica</i> and <i>Quercus</i> spp., in the northern subsections such as in Nevada County (Klein et al. 2007).</li>
+        
+            <li><b>Southern California Coast</b> (261Bb). C. Smith (1998a) reports individuals and small stands in the Santa Ynez Mountains of Santa Barbara County.</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Bn-o). Isolated groves exist in the Transverse and Peninsular ranges; the southernmost is in the Agua Tibia RNA (Cheng 2004).</li>
+        
+            <li><b>Southern Cascades</b> (M261Dl). Stands occur in the westernmost subsection.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Commercial foresters consider <i>Arbutus menziesii </i>a weed tree. Thick stands develop quickly on recently burned or logged forestlands, interfering with conifer establishment and growth (McDonald and Tappeiner 1990, McMurray 1989a). <i>A. menziesii </i>can invade older stands with more open canopies if seed sources are present (Sawyer 2007). Stable stands occupy less productive sites, lacking many conifers. Wildlife appreciate the fruit in mast years. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Arbutus menziesii - (Quercus agrifolia) [1], [2], [3], [4]</li>
+                
+                    <li>Arbutus menziesii - Umbellularia californica [1], [2], [3], [4]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Evens, J.M.;Kentner, E. 2006</li>
+		
+		<li>[2] Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>[3] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>[4] Sikes, K.;Buck-Diaz, J.;Evens, J. 2021</li>
+		
+		<li>Barbour, M.G. 1988</li>
+		
+		<li>Buck, J.;Evens, J. 2010</li>
+		
+		<li>Cheng, S. 2004</li>
+		
+		<li>Cooper, W.S. 1922</li>
+		
+		<li>Griffin, J.R.;Critchfield, W.B. 1972</li>
+		
+		<li>Jokerst, J.D. 1987</li>
+		
+		<li>Keeler-Wolf, T .;Schirokauer, D.;Meinke, J.;van derLeeden, P. 2003a</li>
+		
+		<li>Klein, A.;Crawford, J.;Evens, J.;Keeler-Wolf, T.;Hickson, D. 2007</li>
+		
+		<li>McDonald, P.M.;Tappeiner, J.C. 1990</li>
+		
+		<li>McMurray, N. 1989a</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Black, H.;Bleich, V.C.;Mincks, J.W. 1980</li>
+		
+		<li>Sawyer, J.O. 2006</li>
+		
+		<li>Sawyer, J.O. 2007</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/15/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

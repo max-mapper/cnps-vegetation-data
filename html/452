@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Pleuraphis rigida</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Pleuraphis</i> <i>rigida</i></span> Herbaceous Alliance <br/>
+        <span class="subtitle">Big galleta shrub-steppe</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Herb
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>500-1400 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S2.2
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G3
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: AZ, CA (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/herb/pleuraphis-rigida_achnatherum-hymenoides_wannuals_kelsod_04-98.jpg', '/static/images/photos/herb/pleuraphis-rigida_blythe-ricerd_03-95.jpg', '/static/images/photos/herb/pleuraphis-rigida_clarkspass_01.jpg', '/static/images/photos/herb/pleuraphis-rigida_devilsplayground_01-97_01.jpg', '/static/images/photos/herb/pleuraphis-rigida_devilsplayground_01-97_02.jpg', '/static/images/photos/herb/pleuraphis-rigida_duneapronkelsodunes_04-09_01.jpg', '/static/images/photos/herb/pleuraphis-rigida_duneapronkelsodunes_04-09_02.jpg', '/static/images/photos/herb/pleuraphis-rigida_eofsuperiorlake_11-94.jpg', '/static/images/photos/herb/pleuraphis-rigida_kelsodunes_05-09_01.jpg', '/static/images/photos/herb/pleuraphis-rigida_mitchellcaverns_04-92.jpg', '/static/images/photos/herb/pleuraphis-rigida_mitchelllcaverns_04-92_01.jpg', '/static/images/photos/herb/pleuraphis-rigida_mojavenp.jpg', '/static/images/photos/herb/pleuraphis-rigida_mojavenp_01.jpg', '/static/images/photos/herb/pleuraphis-rigida_mojavenp_02.jpg', '/static/images/photos/herb/pleuraphis-rigida_s-jotr_03-08_01.jpg', '/static/images/photos/herb/pleuraphis-rigida_s-jotr_03-08_02.jpg', '/static/images/photos/herb/pleuraphis-rigida_s-jotr_03-08_03.jpg', '/static/images/photos/herb/pleuraphis-rigida_s-jotr_03-08_04.jpg', '/static/images/photos/herb/plueraphis-rigida_kelsodunes_04-13_01.jpg', '/static/images/photos/herb/plueraphis-rigida_kelsodunes_04-13_02.jpg', '/static/images/photos/herb/plueraphis-rigida_kelsodunes-landscape_04-13_01.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Pleuraphis</i> <i>rigida</i> is dominant or co-dominant in the herbaceous and subshrub layers with <i>Achnatherum</i> <i>hymenoides</i>, <i>Bouteloua</i> <i>eriopoda</i>, <i>Bromus</i> <i>rubens</i>, <i>Dalea</i> <i>mollissima</i>, <i>Gutierrezia</i> <i>sarothrae</i>, <i>Panicum</i> <i>urvilleanum</i>, <i>Petalonyx</i> <i>thurberi</i> and <i>Sphaeralcea</i> <i>ambigua</i>. Emergent trees and shrubs may be present at low cover, including trees:<i>Chilopsis</i> <i>linearis</i> or <i>Yucca</i> <i>brevifolia</i> and shrubs:<i>Ambrosia</i> <i>dumosa</i>, <i>Ambrosia</i> <i>salsola</i>, <i>Atriplex</i> <i>canescens</i>, <i>Cylindropuntia</i> <i>acanthocarpa</i>, <i>Ephedra</i> <i>californica</i>, <i>Ephedra</i> <i>nevadensis</i>, <i>Larrea</i> <i>tridentata</i>, <i>Lycium</i> <i>andersonii</i>, <i>Senegalia</i> <i>greggii</i> and <i>Yucca</i> <i>schidigera</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Herbs < 1 m; cover is open to intermittent with seasonal annuals. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Pleuraphis rigida</i> ≥ 2% absolute cover in the herbaceous layer; herbaceous cover exceeds shrub or tree cover (Thomas et al. 2004).</li>
+		
+		<li><i>Pleuraphis rigida</i> 10-35% absolute cover in the herbaceous layer; emergent shrubs or trees < 10% absolute cover (Keeler-Wolf et al. 1998b).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Flat ridges, lower bajadas, slopes, dune aprons, and stabilized dunes. Soils may be clayey, sandy, or rocky.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Big galleta series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Hilaria rigida shrub herbaceous alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Perennial grasses and forbs
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Sonoran creosote bush scrub, Mojave creosote bush scrub, Mojave mixed steppe, Mojave yucca scrub and steppe
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Creosote bush scrub, Joshua tree woodland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Desert scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>41.030.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Xeromorphic Scrub and Herb Vegetation (Semi-Desert)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Warm Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Warm Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Sonoran and Chihuahuan Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Mojavean-Sonoran Desert Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Lower Bajada and Fan Mojavean-Sonoran desert scrub
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Pleuraphis rigida </i>is a highly branched, perennial grass that has a bushlike appearance. Its coarse, rigid culms reach 100 cm in length, and they may be erect or decumbent. Seed production is low and seedling establishment rare. It reproduces primarily by rhizomes and tillers. It is the most drought-tolerant of the <i>Pleuraphis </i>species (Matthews 2000b). This warm-season and droughttolerant grass, is rarely found in the western Mojave Desert where summer rainfall is negligible. Much of the botanical literature uses the name <i>Hilaria rigida. <br/>
+<br/>
+Pleuraphis rigida </i>is common in the understory of several shrub- and tree-dominated alliances, but in this alliance the grass has more cover than do the shrubs. It acts as a nurse plant to <i>Agave deserti, Ferocactus cylindraceus, </i>and shrubs (Matthews 2000b). The alliance is relatively rare in the state’s deserts, and its range probably has decreased with prolonged heavy grazing (Desert Workshop 2000). It has a bimodal distribution in which it occurs as open stands around dune margins and other sandy areas at low elevations, and as closed stands on upland slopes and bajadas at middle elevations where growth is reduced on clays. In dune areas, it gives way to open stands of the <i>Panicum urvilleanum </i>alliance on deeper sand deposits. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Pleuraphis rigida</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Polycarpic perennial; herb (grass); rhizomatous</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Transient</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; wind</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Underground structures (tillers)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>1 year to life of plant (long-lived)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Low (mostly vegetative)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Shifting sand and wind deflation are the primary disturbance agents, and <i>Pleuraphis rigida</i> serves as stabilizer over wide areas of sand. Fire effects are not well known. Open stands are less likely to carry fire than are those on rocky substrates. Some recently burned upland stands appear affected while other stands have expanded (Matthews 2000b).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Unknown
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Summer-early fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Small
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Low
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Low
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Surface-passive crown
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Mojave Desert
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Colorado Desert</b> (322Ca-b). Stands are rare and restricted to sandy substrates in Anza-Borrego Desert State Park (Keeler-Wolf et al. 1998b) and in Coachella Valley.</li>
+        
+            <li><b>Mojave Desert</b> (322Ac-d, Ah-p). Stands mostly occur in the eastern and southern subsections (Keeler-Wolf et al. 2005, Thomas et al. 2004). Sandy-substrate stands are typical, such as those found at Cronese Lakes, Devil’s Playground, Kelso Dunes, Pinto Basin, and along Razor Road. Upland rocky stands exist in Clipper and Lanfair valleys. Some have been grazed, burned, and contain disturbance-related shrubs. Stands in the Marine Corps Air-Ground Combat Center (Minnich et al. 1993) lack warm-season rains.</li>
+        
+            <li><b>Sonoran Desert</b> (322Ba-e). Stands occur on both sandy and upland sites throughout the section, but upland sites are uncommon and are largely restricted to sandy areas, dune fields, and narrow stringers along small drainages and washes. Stands exist near Cadiz Lake and Cadiz-Vidal Valleys (Evens and Hartman 2007), Ford Dry Lakes, as well in Palen and Rice valleys.</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Bi, Bp). Stands are restricted to the western desert margin in Anza-Borrego Desert State Park in Coyote Canyon, Earthquake Valley, and Potrero areas. They show the effects of long-term grazing and high fire frequencies resulting from human-caused ignitions and high annual grass cover. Some shrub-steppes have emergent <i>Senegalia greggii, Cylindropuntia</i> spp., and <i>Yucca schidigera</i> or disturbance-related subshrubs such as <i>Ambrosia salsola</i> and <i>Lotus scoparius,</i> which are likely better placed in the <i>Cylindropuntia acanthocarpa - Pleuraphis rigida</i> Alliance.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Livestock grazing and altered fire frequencies have affected upland non-sandy stands, while the non-native <i>Brassica tournefortii </i>frequently invades the sandy stands. In all stands, <i>Pleuraphis rigida </i>appears sensitive to fire when dry. Managers need to identify and monitor change in time and with disturbance, particularly in mid elevation, non-sandy stands. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Pleuraphis rigida [3], [6], [7]</li>
+                
+                    <li>Pleuraphis rigida / Ambrosia dumosa [3], [5], [6], [7]</li>
+                
+                    <li>Pleuraphis rigida / Atriplex canescens [2], [3]</li>
+                
+                    <li>Pleuraphis rigida - Dalea mollissima [3]</li>
+                
+                    <li>Pleuraphis rigida / Ephedra (californica, trifurca) [1]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Evens, J.M.;Hartman, S. 2007</li>
+		
+		<li>[2] Keeler-Wolf, T.;San, S.;Hickson, D. 2005</li>
+		
+		<li>[3] Keeler-Wolf, T.;Thomas, K. 2000</li>
+		
+		<li>[4] Minnich, R.A.;Sanders, A.;Wood, S.;Barrows, K.;Lyman, J. 1993</li>
+		
+		<li>[5] Evens, J.M.;Roach-McIntosh, D.;Stout, D. 2012</li>
+		
+		<li>[6] Evens, J.M.;Sikes, K.;Hastings, D.;Ratchford,J.S. 2014</li>
+		
+		<li>[7] Reyes, E.;Evens, J.;Fulton, J.;Sikes, K.; Johnson, D.;Keeler-Wolf, T.;Vu, S.;LaFever-Jackson, A. 2023 (in progress)</li>
+		
+		<li>Barry, W.J. 1989a</li>
+		
+		<li>Barry, W.J. 1989b</li>
+		
+		<li>Brown, D.E. 1982f</li>
+		
+		<li>Burk, J.H. 1977</li>
+		
+		<li>Cheatham, N.H.;Haller, J.R. 1975</li>
+		
+		<li>Keeler-Wolf, T.;Evens, J.M.;Solomeshch, A.I.;Holland, V.L.;Barbour, M.G. 2007</li>
+		
+		<li>Matthews, R.F. 2000b</li>
+		
+		<li>Menke, J.;Reyes, E.;Hepburn, A.;Johnson, D.;Reyes, J. 2013</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Black, H.;Bleich, V.C.;Mincks, J.W. 1980</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Conrad, C.E. 1982</li>
+		
+		<li>Reid, M.S.;Schulz, K.A.;Cormer, P.J.;Schindel, M.H.;Culver, D.R.;Sarr, D.A.;Damm, M.C. 1999</li>
+		
+		<li>Thorne, R.F. 1976</li>
+		
+		<li>Vasek, F.C.;Barbour, M.G. 1977</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program);AIS, 2013</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/452/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

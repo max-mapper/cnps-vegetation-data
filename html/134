@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Artemisia arbuscula ssp. arbuscula</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Artemisia</i> <i>arbuscula</i> ssp. <i>arbuscula</i></span> Shrubland Alliance <br/>
+        <span class="subtitle">Little sagebrush scrub</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>1500-3800 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S4
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G5
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA, CO, ID, MT, NM, NV, OR, UT, WA, WY (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/artemisia-arbuscula_pinus-balforiana_abies-x-shastensis_a%27seastboulderlksscottmtns.jpg', '/static/images/photos/shrub/artemisia-arbuscula_scottmtns.jpg', '/static/images/photos/shrub/artemisia-arbuscula-arbuscula_ebbettspass_09-09_01.jpg', '/static/images/photos/shrub/artemisia-arbuscula-arbuscula_ebbettspass_09-09_02.jpg', '/static/images/photos/shrub/artemisia-arbuscula-arbuscula_warrenbench_09-09_01.jpg', '/static/images/photos/shrub/artemisia-arbuscula-arbuscula_warrenbench_09-09_02.jpg', '/static/images/photos/shrub/artemisia-arbuscula-arbuscula_warrenbench_09-09_03.jpg', '/static/images/photos/shrub/artemisia-arbuscula-arbuscula_warrenbench_09-09_04.jpg', '/static/images/photos/shrub/artemisia-arbuscula-ssp.-longicaulis_%20fitzhugh-creek_06-06_01.jpg', '/static/images/photos/shrub/artemisia-arbuscula-ssp.-longicaulis_%20fitzhugh-creek_06-06_02.jpg', '/static/images/photos/shrub/artemisia-arbuscula-ssp.-longicaulis_%20fitzhugh-creek_06-06_03.jpg', '/static/images/photos/shrub/artemisia-arbuscula-arbuscula_fh7-yollabollymtns_06-13_01.jpg', '/static/images/photos/shrub/artemisia-arbuscula-arbuscula_fh7-yollabollymtns_06-13_02.jpg', '/static/images/photos/shrub/artemisia-arbuscula-arbuscula_fh7-yollabollymtns_06-13_03.jpg', '/static/images/photos/shrub/artemisia-arbuscula-arbuscula_fh7-yollabollymtns_06-13_04.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Artemisia</i> <i>arbuscula</i> or <i>Artemisia</i> <i>arbuscula</i> ssp. <i>longiloba</i> is dominant or co-dominant in the shrub canopy with <i>Artemisia</i> <i>nova</i>, <i>Artemisia</i> <i>tridentata</i> ssp. <i>vaseyana</i>, <i>Chrysothamnus</i> <i>viscidiflorus</i>, <i>Ephedra</i> <i>viridis</i>, <i>Gutierrezia</i> <i>sarothrae</i>, <i>Linanthus</i> <i>pungens</i>, <i>Purshia</i> <i>tridentata</i> and <i>Tetradymia</i> <i>canescens</i>. Emergent trees may be present at low cover, including <i>Juniperus</i> <i>occidentalis</i> or <i>Juniperus</i> <i>osteosperma</i>. Associated herbs include <i>Blepharipappus</i> <i>scaber</i>, <i>Bromus</i> <i>tectorum</i>, <i>Elymus</i> <i>elymoides</i> and <i>Poa</i> <i>secunda</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text"> Emergent trees may be present. Shrubs < 0.5 m; canopy is open to intermittent. Herbaceous layer is sparse to intermittent and grassy. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Artemisia arbuscula</i> ssp. <i>arbuscula</i> > 30% relative cover in the shrub canopy (Boul et al. 2021b).</li>
+		
+		<li><i>Artemisia arbuscula</i> ssp. <i>arbuscula</i> or <i>A. arbuscula</i> ssp. <i>longiloba</i> are > 30% relative cover in the shrub canopy (Keeler-Wolf et al. 2003b, Ratchford et al. 2022b).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Flats, depressions, slopes, mesas, ridges, mountain summits. Soils are shallow to bedrock or claypan, not alkaline, with gravels and cobbles. Sites often flood in spring.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Low sagebrush series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Artemisia arbuscula ssp. arbuscula shrub herbaceous alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Low sagebrush, Great Basin mixed scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Subalpine sagebrush scrub, White mountain fell-field
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Sagebrush scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Sagebrush
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>35.120.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Xeromorphic Scrub and Herb Vegetation (Semi-Desert)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Cool Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Cool Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North American Cool Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Western North America Dwarf Sage Shrubland and Steppe
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Intermountain low sage shrubland and steppe
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Artemisia arbuscula</i> is a low, mounding shrub that reaches less than 50 cm in height.  Leaves are up to 2 cm long and are deeply, or variably, cleft on spreading stems (McArthur and Taylor 2002a). Shrubs produce large crops of mainly wind-dispersed seed. Seedling establishment is greatest when a thin layer of soil covers the seeds. The presence of grasses and forbs enhances seedling success (Steinberg 2002a). <br/>
+<br/>
+There are four subspecies of Artemisia arbuscula, and the U.S. National Vegetation Classification has a separate alliance for each (NatureServe 2020). Only two subspecies exist in California:  ssp. <i>arbuscula </i>grows on clay soils in the mountains of northern California and throughout the Great Basin, while ssp.  <i>longiloba </i>(uncommon) is found on igneous rock east of the Sierra Nevada. <br/>
+<br/>
+We have included all California subspecies into this alliance because of their ecological equivalence. Additionally, this species is rarely identified to the subspecies level since only ssp. <i>arbuscula </i>and ssp. <i>longiloba </i>are recognized in The Jepson Manual and floral characters are needed for identification (Jepson Flora Project 2020). <br/>
+<br/>
+<i>Artemisia arbuscula</i> typically grows on flats or gradual slopes and can tolerate more impervious soils than the various subspecies of <i>A. tridentata</i>. Stands occur on shallow, rocky, heavy clayey volcanic soils that are wet in the spring and dry out quickly in the summer. Stands occur commonly on the Modoc Plateau as rocky islands in <i>Pinus jeffreyi</i> and <i>P. ponderosa</i> stands, or as high-elevation balds of the eastern Sierra on rocky, windswept ridges (Young et al. 2007). Stands may have low, scattered shrub cover with <i>Eriogonum</i> spp. Subshrubs, and a grassy herbaceous layer including species such as <i>Achnatherum thurberianum, Danthonia californica, Elymus elymoides, E. spicatus, Festuca idahoensis, Koeleria macrantha, </i>and <i>Poa secunda</i> (VegCAMP 2020). </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Artemisia arbuscula</th>
+			
+		
+			
+			<th>Artemisia arbuscula ssp. longiloba</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Perennial; shrub</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Transient</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Medium</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Wind</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Stratification - Winter; Light</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-sensitive</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Plants do not sprout after fire. Instead, stands establish by wind-dispersed seed from off-site sources in about 5 years and gain predisturbance cover levels in 30 years (Steinberg 2002a). Many stands lack sufficient fuels to carry a fire, but those with prominent <i>Bromus tectorum </i>and <i>Taeniatherum caput-medusae </i>populations carry fire and reduce fire intervals (Steinberg 2002a).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Medium to long
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Summer-early fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Small on low-productivity sites; medium on high-productivity sites
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Medium to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Low to moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Moderate to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Surface to passive crown fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Transmontane (Modoc Plateau)
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Klamath Mountains</b> (M261Ae, Ag, Aj, At). Stands exist in the Trinity Alps, Marble, and Scott mountains (Sawyer and Keeler-Wolf 2007); Stillman (1980) and Murray (1991) described stands in the Marble Mountains.</li>
+        
+            <li><b>Modoc Plateau</b> (M261Ga-d, Gf, Gh-p). Stands exist on the plateau west of the Warner Mountains (Hickson et al. 2008), in the Devils Garden area (Cheng 2004), and are generally scattered throughout the section (Smith 1998b and Boul et al. 2021b).</li>
+        
+            <li><b>Mono</b> (341Dd-f, Dh, Dj-k). Stands in the White Mountains (Major and Taylor 1977, Sawyer and Keeler-Wolf 2007, Travers 1993) are extensive. Those on the eastern slopes of the Sierra Nevada occupy high-elevation ridges as balds (Young et al. 2007) and also occur on shallow soils of lower elevations (Keeler-Wolf et al. 2003b).</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Ba). Stands are known on the high ridges associated with the Hull Mountain, Snow Mountain, and Mendocino Pass areas.</li>
+        
+            <li><b>Northwestern Basin and Range</b> (342Bb-e). Stands occur in most of the section above 1500 m.</li>
+        
+            <li><b>Sierra Nevada</b> (M261Ea, Ec, Eh, Ej-k, Em, Eo, Eq-u). Stands in the Carson Pass area of the Eldorado National Forest contain <i>Stenotus acaulis </i>(Major and Taylor 1977, Sawyer and Keeler- Wolf 2007); those west of Conway Summit contain <i>Purshia tridentata</i> (Young et al. 2007).</li>
+        
+            <li><b>Southeastern Great Basin</b> (341Fb-f). Stands exist on upper slopes of the Cottonwood, Inyo, Panamint, and White ranges, some on calcareous substrates.</li>
+        
+            <li><b>Southern Cascades</b> (M261Da-b, De-i). Stands from the Pine Creek drainage in Lassen National Forest (Smith 1998b) are the most extensive of the section. Stands also occur north into the upper parts of the Shasta Valley.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Stands are susceptible to type conversion and degraded stands may be a result of clearing, grazing, fire, or other disturbances (VegCAMP 2020). Many stands are transitioning between <i>Artemisia arbuscula</i> and non-native annual grasses such as <i>Bromus tectorum, Ventenata dubia, </i>and <i>Elymus caput-medusae</i>. Stands are also threatened by recent and rapid encroachment by <i>Juniperus occidentalis</i> which is linked to livestock introduction, fire exclusion, and climate change (Steinberg 2002a). 
+
+Some stands have sufficient fuels to carry a fire, and stands with high cover of non-native grasses have shorter fire-return intervals. <i>A. arbuscula</i> does not resprout after fires. After about 5 years, stands will re-establish by wind-dispersed seed from off-site sources and may regain pre-disturbance cover levels in approximately 30 years (Steinberg 2002a). 
+
+<i>A. arbuscula</i> is a valuable browse plant during much of the year (Steinberg 2002a). Most stands experience occasional grazing or passive recreation. Shrub density generally increases under moderate grazing, but at the expense of native grasses. <i>A. arbuscula</i> ssp. <i>longicaulis</i> is particularly important for sage grouse diet and habitat. Sage grouse occupy these stands to dig for <i>Allium tolmiei</i> bulbs in fall and consume shrub leaves during winter (Young et al. 2007).
+
+Stands in the Modoc Plateau and Cascades that occupy seasonally flooded flats are notably species rich (with more than 50 taxa/ha). They warrant special management attention. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Artemisia arbuscula [2], [5]</li>
+                
+                    <li>Artemisia arbuscula / Bromus spp. -  Elymus caput-medusae [7]</li>
+                
+                    <li>Artemisia arbuscula / Carex exserta [3]</li>
+                
+                    <li>Artemisia arbuscula / Castilleja applegatei [4]</li>
+                
+                    <li>Artemisia arbuscula / Castilleja schizotricha [4]</li>
+                
+                    <li>Artemisia arbuscula - Eriogonum (microthecum, sphaerocephalum) [1], [7]</li>
+                
+                    <li>Artemisia arbuscula / Eriogonum nudum - Monardella odoratissima [4]</li>
+                
+                    <li>Artemisia arbuscula / Festuca idahoensis [4], [7], [8]</li>
+                
+                    <li>Artemisia arbuscula / Linanthus pungens [1]</li>
+                
+                    <li>Artemisia arbuscula / Poa secunda [7], [8]</li>
+                
+                    <li>Artemisia arbuscula (ssp. longiloba) / Stenotus acaulis [6]</li>
+                
+                    <li>Artemisia arbuscula / Trifolium andersonii ssp. monoense [2]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Keeler-Wolf, T.;Schindel, M.;San, S.;Moore, P.;Hickson, D. 2003b</li>
+		
+		<li>[2] Major, J.;Taylor, D.W. 1977</li>
+		
+		<li>[3] Sawyer, J.O.;Keeler-Wolf, T. 2007</li>
+		
+		<li>[4] Stillman, K.T. 1980</li>
+		
+		<li>[5] Travers, S. 1993</li>
+		
+		<li>[6] Ratchford, J.;Boul, R.;Keeler-Wolf ,T.;Evens, J. 2022b (in progress)</li>
+		
+		<li>[7] Boul, R.;Keeler-Wolf, T.;Ratchford, J.;Haynes, T.;Hickson, D.;Yacoub, R.;Harbert, B.;Evens, J. 2021b</li>
+		
+		<li>[8] Hickson, D.;Boul, R.;Keeler-Wolf, T. 2008</li>
+		
+		<li>Barry, W.J. 1989a</li>
+		
+		<li>Barry, W.J. 1989b</li>
+		
+		<li>Cheng, S. 2004</li>
+		
+		<li>Evens, J.M.;Sikes, K.;Hastings, D.;Ratchford,J.S. 2014</li>
+		
+		<li>Jepson Flora Project, 2004-present</li>
+		
+		<li>Keeler-Wolf, T. 1984d</li>
+		
+		<li>Marchand, D.E. 1973</li>
+		
+		<li>McArthur, E.D.;Taylor, J.R. 2002a</li>
+		
+		<li>Murray, M.P. 1991</li>
+		
+		<li>NatureServe, 2014+</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Black, H.;Bleich, V.C.;Mincks, J.W. 1980</li>
+		
+		<li>Shiflet, T.N. 1994</li>
+		
+		<li>Smith, S. 1998b</li>
+		
+		<li>Steinberg, P.D. 2002</li>
+		
+		<li>Steinberg, P.D. 2002a</li>
+		
+		<li>Taylor, D.W. 1976a</li>
+		
+		<li>Thorne, R.F. 1976</li>
+		
+		<li>Thorne, R.F.;Schoenherr, A.;Clements, C.D.;Young., J.A. 2007</li>
+		
+		<li>Tisdale, E.W. 1994e</li>
+		
+		<li>UCB (University of California Berkeley), 2004-present</li>
+		
+		<li>West, N.E. 1988</li>
+		
+		<li>Young, J.A.;Clements, C.D.;Jansen, H.C. 2007</li>
+		
+		<li>Young, J.A.;Evans, R.A. 1981</li>
+		
+		<li>Young, J.A.;Evans, R.A.;Major, J. 1977</li>
+		
+		<li>Zamora, B.;Tueller, P.T. 1973</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/134/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

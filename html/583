@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Eriophyllum staechadifolium - Erigeron glaucus - Eriogonum latifolium</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Eriophyllum</i> <i>staechadifolium</i> - <i>Erigeron</i> <i>glaucus</i> - <i>Eriogonum</i> <i>latifolium</i></span> Herbaceous Alliance <br/>
+        <span class="subtitle">Seaside woolly-sunflower - seaside daisy - buckwheat patches</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Herb
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-370 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G3
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA, OR (USDA PLANTS)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>Yes
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2020/01/31
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/herb/eriophyllum_erigeron_eriogonum-lat_bigsur_07-09_01.jpg', '/static/images/photos/herb/eriophyllum_erigeron_eriogonum-lat_bigsur_07-09_02.jpg', '/static/images/photos/herb/eriophyllum_erigeron_eriogonum-lat_ptlobossp_07-09_01.jpg', '/static/images/photos/herb/eriophyllum_erigeron_eriogonum-lat_ptlobossp_07-09_02.jpg', '/static/images/photos/herb/eriophyllum_erigeron_eriogonum-lat_ptlobossp_07-09_03.jpg', '/static/images/photos/herb/eriophyllum_erigeron_eriogonum-lat_ptlobossp_07-09_04.jpg', '/static/images/photos/herb/eriophyllum_erigeron_eriogonum-lat_ptlobossp_07-09_05.jpg', '/static/images/photos/herb/eriophyllum_erigeron_eriogonum-lat_cowellranchbeach_06-20_01.jpg', '/static/images/photos/herb/eriophyllum_erigeron_eriogonum-lat_cowellranchbeach_06-20_02.jpg', '/static/images/photos/herb/eriophyllum_erigeron_eriogonum-lat_cowellranchbeach_06-20_03.jpg', '/static/images/photos/herb/eriophyllum_erigeron_eriogonum-lat_cowellranchbeach_06-20_04.jpg', '/static/images/photos/herb/eriophyllum_erigeron_eriogonum-lat_cowellranchbeach_06-20_05.jpg', '/static/images/photos/herb/eriophyllum_erigeron_eriogonum-lat_cowellranchbeach_06-20_06.jpg', '/static/images/photos/herb/eriophyllum-erigeron_smat0313_cdpr-pomponiostbeach_08-2019.jpg', '/static/images/photos/herb/eriophyllum-staechadifolium-erigeron-glaucus-eriogonum-latifolium_n-scruzco_05-2021_01.jpg', '/static/images/photos/herb/eriophyllum-staechadifolium-erigeron-glaucus-eriogonum-latifolium_n-scruzco_05-2021_02.jpg', '/static/images/photos/herb/eriophyllum-staechadifolium-erigeron-glaucus-eriogonum-latifolium_smateo_06-2021.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Artemisia</i> <i>pycnocephala</i>, <i>Erigeron</i> <i>glaucus</i>, <i>Eriogonum</i> <i>latifolium</i>, <i>Eriogonum</i> <i>parvifolium</i>, <i>Eriophyllum</i> <i>staechadifolium</i> and/or <i>Fragaria</i> <i>chiloensis</i> mix with herbaceous species such as <i>Achillea</i> <i>millefolium</i>, <i>Angelica</i> <i>hendersonii</i>, <i>Armeria</i> <i>maritima</i>, <i>Bromus</i> <i>carinatus</i>, <i>Bromus</i> <i>maritimus</i>, <i>Camissonia</i> <i>cheiranthifolia</i>, <i>Cardionema</i> <i>ramosissimum</i>, <i>Carpobrotus</i> <i>edulis</i>, <i>Daucus</i> <i>pusillus</i>, <i>Dudleya</i> <i>farinosa</i>, <i>Dudleya</i> spp., <i>Grindelia</i> <i>stricta</i> or <i>Poa</i> <i>douglasii</i>. Emergent shrubs may be present including <i>Baccharis</i> <i>pilularis</i>, <i>Lupinus</i> <i>arboreus</i>, <i>Lupinus</i> <i>versicolor</i> or <i>Rubus</i> <i>ursinus</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Herbs < 1.5 m; cover is sparse to continuous. Emergent shrubs may be present at low cover. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Erigeron glaucus, Eriophyllum staechadifolium, Fragaria chiloensis,</i> and/or <i>Eriogonum latifolium</i> > 50% relative cover in the herbaceous layer, while shrubs may be present at low cover (Buck-Diaz et al. 2021).</li>
+		
+		<li><i>Artemisia pycnocephala</i> > 50% relative cover with various other plants in the herbaceous layer, while shrubs may be present at low cover (Buck-Diaz et al. 2021, Keeler-Wolf et al. 2003a).</li>
+		
+		<li><i>Eriogonum latifolium</i> > 50% relative cover in the herbaceous layer (Keeler-Wolf et al. 2003a).</li>
+		
+		<li><i>Eriogonum parvifolium</i> > 50% relative cover in the herbaceous layer (WRA 2017a).</li>
+		
+		<li><i>Artemisia pycnocephala, Erigeron glaucus, Eriophyllum staechadifolium, Eriogonum latifolium</i>, and/or <i>Fragaria chiloensis</i> > 50% relative cover in the herbaceous layer (Buck-Diaz et al. 2021, Sikes et al. 2021).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Stabilized dunes of coastal bars, river mouths, spits along coastlines, steep coastal bluffs, and terraces immediately adjacent to the ocean. Soils are coarse to fine- textured sands.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Dune lupine-goldenbush series, Sand verbena-beach bursage series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Ambrosia chamissonis herbaceous alliance, Isocoma menziesii-Lupinus chamissonis-Ericameria ericoides shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Dunes, Beach sand, Coastal bluff scrub, California sagebrush
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Northern foredunes, Southern foredunes, Central dune scrub, Coastal bluff scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Coastal bush scrub, Coastal strand
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Coastal scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>21.310.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate and Boreal Shrubland and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate and Boreal Scrub and Herb Coastal Vegetation
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Pacific Coast Scrub and Herb Littoral Vegetation
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Vancouverian Coastal Dune and Bluff
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>California Coastal evergreen bluff and dune scrub
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Eriophyllum staechadifolium</i> is a herbaceous subshrub up to 1.5 meters tall. The plant’s size and habit are variable depending on the intensity of wind and salt spray in its coastal habitat. Leaves are typically pinnately lobed with rolled under margins. Inflorescences are clustered heads of small, golden daisy-like flowers from April to September. <i>E. staechadifolium</i> grows on coastal dunes, sea bluffs, and as a common component in coastal scrub from the Channel Islands and central coast to southern Oregon (Jepson Flora Project 2020). <br/>
+<br/>
+<i>Erigeron glaucus</i> is a perennial herb to subshrub up to 30 cm tall. It grows fleshy, spoon-shaped, and shallowly-toothed leaves from thick rhizomes. From May to July, blooms of many, narrow, white to pink or purple ray flowers surround yellow disc flowers. It grows along the coast from southern California, including the Channel Islands, to Oregon on coastal bluffs, dunes, and beaches (Jepson Flora Project 2020). <br/>
+<br/>
+<i>Eriogonum latifolium</i> is a subshrub to perennial herb mat that is variable in size, depending on its exposure to winds and salt spray in its habitat. It has mostly basal, oval leaves and the stems, leaves, and petioles are generally tomentose (occasionally glabrous or waxy). Inflorescences are dense head-like clusters of small white to pink or rose flowers that bloom year round. This is a common plant in sandy soils, on bluffs, and in coastal scrub along the Pacific coastline from the Channel Islands and central California to Oregon. A number of taxa that were once considered varieties or subspecies of <i>E. latifolium</i> are now recognized as distinct species (Jepson Flora Project 2020). Native Americans inhabiting the California coast made decoctions of this plant's roots, leaves, and stems for colds, stomach pains, and sore eyes.  It is also an important food source for the bramble hairstreak butterfly (Flora of North America Editorial Committee 1993+).<br/>
+<br/>
+<i>Artemisia pycnocephala</i> is a leafy, white-gray tomentose, perennial herb that grows from a taproot. The plant’s habit is mostly decumbent, as it grows to less than a meter tall forming mounds less than a meter wide. Leaves are faintly aromatic and finely, pinnately divided. Fuzzy, erect, inflorescences are narrow, leafy, panicle-like clusters of disciform heads that bloom June through September (Jepson Flora Project 2020). <i>A. pycnocephala</i> is tolerant to salinity and low soil moisture.<br/>
+<br/>
+This alliance occupies a narrow band along the immediate coast of California. It typically occurs on rocky or sandy soils of California coastal strand along the North Coast and Central Coast, although occurrences of the diagnostic taxa are known along the Pacific Coast found from San Diego County to central Oregon. Stands occur on inner dunes to steep slopes above dunes inland from the leading edge of the beach; they are distinct from those of the <i>Abronia latifolia - Ambrosia chamissonis </i>Alliance which is found on more active dune surfaces. Stands of this alliance are rarely impacted by saltwater overwash from storm events. However, reflective dune sand and steep coastal bluffs can have high temperatures in full sunlight. Dry sand is mobile so plants can be damaged by sand blast, root exposure, and foliage burial under the shifting sands. Additionally, beach sand has low water storage capacity and is nutrient poor and lacking in organic matter. Summer fog ameliorates surface conditions to some degree (Pickart and Barbour 2007).<br/>
+<br/>
+Species composition of this alliance is richer on the inner dunes and coastal bluffs than the related <i>Abronia latifolia - Ambrosia chamissonis </i>Alliance because of somewhat decreased salt spray yet wind intensity may vary depending on setting.  Vegetation is generally short or mounded in stature due to environmental factors such as intense winds, fluctuation in and/or high temperatures, salt spray, and sand/sandstone movement. Stands are primarily composed of perennial herbs and subshrubs but some may have woody species such as <i>Baccharis pilularis, Lupinus arboreus, L. variicolor,</i> and <i>Rubus ursinus</i>. <br/>
+<br/>
+Species dominance shifts spatially and temporally in coastal environments and dune ecosystems because environmental conditions create fine-scale vegetation patterning, in which stands of this alliance are often adjacent to stands of the <i>Abronia latifolia - Ambrosia chamissonis, Lupinus arboreus,</i> or <i>Lupinus chamissonis - Ericameria ericoides</i>  alliances. The <i>Eriophyllum staechadifolium - Erigeron glaucus - Eriogonum latifolium</i> alliance is defined following surveys of coastal stands from Mendocino to Santa Barbara county. Stands dominated by <i>Artemisia pycnocephala</i> were previously considered as various associations of the <i>Abronia latifolia - Ambrosia chamissonis</i> dune mat alliance, depending on the codominant species, but have now been included in this more recently defined dune mat alliance. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Artemisia pycnocephala</th>
+			
+		
+			
+			<th>Erigeron glaucus</th>
+			
+		
+			
+			<th>Eriogonum latifolium</th>
+			
+		
+			
+			<th>Eriogonum parvifolium</th>
+			
+		
+			
+			<th>Eriophyllum staechadifolium</th>
+			
+		
+			
+			<th>Fragaria chiloensis</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Polycarpic perennial; subshrub; drought deciduous</td>
+			
+		
+			
+			<td>Polycarpic perennial; subshrub; evergreen</td>
+			
+		
+			
+			<td>Polycarpic perennial; subshrub</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Polycarpic perennial; subshrub; evergreen</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Transient</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Medium to long</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td>Medium</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Short</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Wind</td>
+			
+		
+			
+			<td>Wind</td>
+			
+		
+			
+			<td>Animal; water/hydrological; wind</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Wind</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Underground structures</td>
+			
+		
+			
+			<td>Underground Structures</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-sensitive; no/low sprouter</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td>Fire-sensitive; thin epidermis</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>5-25+ years</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td>Long-lived</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Low to Medium</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>High</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td>High</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Stands are primarily disturbed by winds, salt spray, shifting sand, and the presence of non-native plants, and not by fire.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Af, Ah-l). Stands exist between Morro Bay and Point Arena (Casavecchia and Biondi 2001), with descriptions of associations along Monterey Peninsula (McBride and Stone 1976) and between Morro Bay and Point Reyes (Pickart and Barbour 2007, Keeler-Wolf et al. 2003a).</li>
+        
+            <li><b>Northern California Coast</b> (263Aa-b, Ad-e, Ag-l). Stands exist along dunes near Humboldt Bay (Duebendorfer 1989, Johnson 1963, Parker 1974, Pickart 1987) from Fort Bragg (CNPS unpublished data 2020) to Pt. Arena area (Buck-Diaz et al. 2019) and on south to Point Reyes National Seashore and environs (Holton and Johnson 1979, Keeler-Wolf et al. 2003a).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> The biggest threat to dune and coastal habitats across California is the increase in non-native species. For example, in northern California species such as <i>Ammophila arenaria, Carpobrotus</i> spp., and <i>Lupinus arboreus</i> (which is believed to be naturalized north of Sonoma County) have drastically changed vegetation dynamics (Pickart and Sawyer 1998). These species colonize and stabilize active dunes altering the ecology and facilitating further invasions. In many places, these non-native species are being actively managed to restore ecological processes, native-dominated stands, and enhance populations of rare plants (Pickart et al. 1989). Other non-natives in central California including <i>Plantago lanceolata, Rumex acetosella, Vulpia bromoides </i> and other annuals.
+
+In many places, non-native species are being actively managed to restore ecological processes, native-dominated stands, and enhance populations of rare plants in stands of this and related alliances such as <i>Abronia umbellata</i> var. <i>breviflora, Erysimum menziesii</i> and <i>Layia carnosa</i>, which are all CNPS List 1B species (Rare Plant Inventory 2020). Many other rare and endangered plants can be found in similar dune mat communities (Pickart et al. 1989, Skinner and Pavlik 1994). However, many stands are of small extent and low quality due to invasive exotics (NatureServe 2020).
+
+Other threats include seaside development and recreation as well as dune stabilization projects for roadways and infrastructure. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Artemisia pycnocephala [4], [5], [8], [9], [10], [13]</li>
+                
+                    <li>Artemisia pycnocephala - Cardionema ramosissimum [8]</li>
+                
+                    <li>Artemisia pycnocephala - Poa douglasii [6], [11]</li>
+                
+                    <li>Erigeron glaucus - Fragaria chiloensis [4], [13]</li>
+                
+                    <li>Eriogonum parvifolium [1], [2], [12], [13]</li>
+                
+                    <li>Eriophyllum staechadifolium - Eriogonum latifolium [3], [4], [7], [8], [12], [13]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] AIS (Aerial Information Systems Inc.), 2013</li>
+		
+		<li>[2] AIS (Aerial Information Systems Inc.), 2019</li>
+		
+		<li>[3] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2020</li>
+		
+		<li>[4] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>[5] Biondi, E.;Casavecchia, S. 2001</li>
+		
+		<li>[6] Duebendorfer, T.E. 1989</li>
+		
+		<li>[7] Holton, B.;Johnson, A.F. 1979</li>
+		
+		<li>[8] Keeler-Wolf, T .;Schirokauer, D.;Meinke, J.;van derLeeden, P. 2003a</li>
+		
+		<li>[9] Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>[10] McBride, J.R.;Stone, E.C. 1976</li>
+		
+		<li>[11] Pickart, A.J. 1987</li>
+		
+		<li>[12] WRA, 2017b</li>
+		
+		<li>[13] Sikes, K.;Buck-Diaz, J.;Evens, J. 2021</li>
+		
+		<li>Barbour, M.G.;Johnson, A.F. 1977</li>
+		
+		<li>CNPS (California Native Plant Society), 2007+</li>
+		
+		<li>Flora of North America Editorial Committee, 1993+</li>
+		
+		<li>Jepson Flora Project, 2004-present</li>
+		
+		<li>Karban, R.;Strauss, S.Y. 1993</li>
+		
+		<li>NatureServe, 2014+</li>
+		
+		<li>Pavlik, B.M.;Skinner, M.W. 1994</li>
+		
+		<li>Pickart, A.J.;Barbour, M.G. 2007</li>
+		
+		<li>Pickart, A.J.;Sawyer, J.O. 1998</li>
+		
+		<li>Pickart, A.;Miller, L.;Duebendorfer, T.E. 1989</li>
+		
+		<li>UCB (University of California Berkeley), 2004-present</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/583/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

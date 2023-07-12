@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Prunus ilicifolia - Heteromeles arbutifolia - Ceanothus spinosus</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Prunus</i> <i>ilicifolia</i> - <i>Heteromeles</i> <i>arbutifolia</i> - <i>Ceanothus</i> <i>spinosus</i></span> Shrubland Alliance <br/>
+        <span class="subtitle">Holly leaf cherry - toyon - greenbark ceanothus chaparral</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>50-1300 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S4
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G5
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA (NatureServe),  Baja California, Mexico (TJM2)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>Yes
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2016/10/27
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/ceanothus-spinosus_potrerord-samo_03-03_01.jpg', '/static/images/photos/shrub/ceanothus-spinosus_santaanamtns_06-09_01.jpg', '/static/images/photos/shrub/ceanothus-spinosus_santaanamtns_06-09_02.jpg', '/static/images/photos/shrub/ceanothus-spinosus_santamonicamnts_03-02_01.jpg', '/static/images/photos/shrub/ceanothus-spinosus_santamonicamtns_12-02_01.jpg', '/static/images/photos/shrub/heteromeles-arbutifolia_hwy49_04-11_01.jpg', '/static/images/photos/shrub/prunus-ilicifolia_pinnaclesnm_01-06_01.jpg', '/static/images/photos/shrub/prunus-ilicifolia_pinnaclesnm_01-06_02.jpg', '/static/images/photos/shrub/prunus-ilicifolia_pinnaclesnm_01-06_03.jpg', '/static/images/photos/shrub/prunus-ilicifolia_pinnaclesnm_01-06_04.jpg', '/static/images/photos/shrub/prunus-ilicifolia_pinnaclesnm_01-06_05.jpg', '/static/images/photos/shrub/heteromeles-arbutifolia_hwy49_04-11_02.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Ceanothus</i> <i>spinosus</i>, <i>Heteromeles</i> <i>arbutifolia</i> and/or <i>Prunus</i> <i>ilicifolia</i> is dominant or co-dominant in the shrub canopy with <i>Artemisia</i> <i>californica</i>, <i>Ceanothus</i> <i>megacarpus</i>, <i>Cercocarpus</i> <i>montanus</i>, <i>Clematis</i> <i>lasiantha</i>, <i>Diplacus</i> <i>aurantiacus</i>, <i>Eriogonum</i> <i>fasciculatum</i>, <i>Fraxinus</i> <i>dipetala</i>, <i>Keckiella</i> <i>antirrhinoides</i>, <i>Keckiella</i> <i>cordifolia</i>, <i>Quercus</i> <i>berberidifolia</i>, <i>Rhamnus</i> <i>ilicifolia</i>, <i>Rhus</i> <i>ovata</i> and <i>Salvia</i> <i>mellifera</i>. Emergent trees may be present at low cover, including <i>Juglans</i> <i>californica</i> or <i>Quercus</i> <i>agrifolia</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 15 m; canopy is open to continuous. Herbaceous layer is sparse to continuous. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Ceanothus spinosus</i> > 50% relative cover in shrub canopy (Borchert et al. 2004).</li>
+		
+		<li><i>Ceanothus spinosus</i> generally > 50% relative cover in the shrub canopy; when co-dominant with <i>C. megacarpus, C. spinosus</i> can be > 30% relative cover (Keeler-Wolf and Evens 2006).</li>
+		
+		<li><i>Heteromeles arbutifolia</i> > 50% relative cover in the shrub canopy (Keeler-Wolf and Evens 2006).</li>
+		
+		<li><i>Heteromeles arbutifolia</i> > 50% relative cover in the shrub canopy, except <i>Artemisia californica</i> or <i>Quercus berberidifolia</i> are > 30% relative cover (Klein and Evens 2005).</li>
+		
+		<li><i>Prunus ilicifolia</i> > 30% relative cover in the shrub canopy, with species such as <i>Heteromeles arbutifolia</i> as co-dominants (Borchert et al. 2004, Evens and San 2005, Klein and Evens 2005, Kittel et al. 2012, Rodriguez et al. 2017).</li>
+		
+		<li><i>Prunus ilicifolia</i> > 50% relative cover in the shrub canopy (Borchert et al. 2004).</li>
+		
+		<li><i>Heteromeles arbutifolia</i> is > 50% relative cover of the shrub layer or > 30% relative cover if codominant with <i>Rhus integrifolia</i> or <i>Artemisia californica. Quercus pacifica </i>may be present but <30% relative cover. (Rodriguez et al. 2017).</li>
+		
+		<li><i>Heteromeles arbutifolia</i> and/or <i>Prunus virginiana</i> > 50% relative cover in the shrub layer, or > 30% relative cover with <i>Baccharis pilularis</i> and/or <i>Toxicodendron diversilobum</i> (Buck-Diaz et al. 2021).</li>
+		
+		<li><i>Heteromeles arbutifolia</i>, <i>Prunus icifolia</i>, and/or <i>Prunus virginiana</i> > 50% relative cover in the shrub layer, or > 30% relative cover with <i>Baccharis pilularis</i> (Sikes et al. 2021).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Slopes that are often steep and north-facing. Soils are derived from bedrock or colluvium.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Hollyleaf cherry stands
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Heteromeles arbutifolia shrubland alliance, Prunus ilicifolia shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Ceanothus chaparral, Lower montane mixed chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Upper Sonoran ceanothus chaparral, Northern north slope chaparral, Southern north slope chaparral, Island cherry forest, Mainland cherry forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Mixed chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>37.912.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Mediterranean Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Mediterranean Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>California Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>California Chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Californian mesic chaparral
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Prunus ilicifolia </i>is a sclerophyllous, evergreen shrub or tree growing to 9 or 15 m tall. Shrubs often produce large annual crops of fleshy drupes beginning around 3 years of age. Seeds are dispersed by wildlife, especially birds, gray fox, coyotes, and black bears, and germinate without stratification. Seed viability is short-lived, and recruitment is episodic, often in old-aged stands. Plants sprout from swollen root crowns after damage to their branches. Other shrubs act as nurse plants moderating understory environmental conditions and offering seedlings and saplings protection from herbivory (McMurray 1990c). Leaf characteristics vary between subspecies. Mainland plants, ssp. <i>ilicifolia, </i>have spiny leaf margins whereas those on the Channel Islands, ssp. <i>lyonii, </i>have entire leaf margins. <i>P. ilicifolia </i>reproduces by seed and vegetatively. Most mainland plants are shrubby, while some mainland stands have tree-size plants; these stands are worthy of special status. The island plants are generally tree-sized.<br/>
+<br/>
+<i>Heteromeles arbutifolia </i>is a large, evergreen shrub or small tree to 10 m in height. The bright red berries ripen in late winter. Birds, small mammals, and wildlife disperse seeds that require winter stratification for germination. As with oaks, plants sprout from swollen root crowns and root suckers after damage to their trunks. Shrubs are shade tolerant. Other trees and shrubs act a nurse plants moderating environmental conditions and offering seedlings and saplings protection (Anonymous 1974). <br/>
+<br/>
+<i>Heteromeles arbutifolia </i>is one of the most widely distributed shrubs in foothills and low mountains in cismontane California, and it occurs in many chaparral and woodland alliances that occupy gradual slopes to steep, rocky canyons. Plants are variable in size and growth habit, being low and dense in exposed places, becoming open and rangy, or tree like in protected areas with long intervals between fires. Stands are heterogeneous in mesic chaparral habitats on north-facing slopes. The differences between this and other chaparral types appears to be mostly related to site history, largely time since last fire, fire frequency, and adjacent alliances. In many cases, stands appear to be small fragments in suburban landscapes where fires are rare but human disturbance is high. <br/>
+<br/>
+<i>Ceanothus spinosus </i>is an evergreen shrub with rigid, spiny branches, which grows to 5 m in height. At 5 years, shrubs begin producing seed, which is explosively cast from plants as their capsules break. Most of the seed drops beneath the crowns of the shrubs. Seed predation by small mammals and insects may be severe, but with time, seeds collect in the duff and soil as a seed bank. Heat stimulates germination by increasing permeability to water. <i>C. spinosus </i>rapidly sprouts from root crowns when branches are killed. Shrubs grow quickly (Borchert et al. 2004). <br/>
+<br/>
+<i>Ceanothus spinosus </i>involves two varieties: var. <i>spinosus, </i>with spinelike branches, and var. <i>palmeri, </i>lacking spinelike branches (Fross and Wilken 2006). The varieties are treated as species in <i>The Jepson Manual, </i>but the spine and other characters intergrade and the ecology is similar. The species occurs in the coastal mountains of California from San Luis Obispo Co. south to Baja California, including the Santa Ana and Santa Monica mountains (Epling and Lewis 1942), with var. <i>palmeri </i>extending the range to the Sierra Nevada and the interior Central Coast Ranges (San Benito Co.). <br/>
+<br/>
+The alliance often occupies relatively mesic sites including north-facing slopes, canyons, sheltered or ocean-facing slopes where summer fog may decrease evapotranspiration. The understory may be diverse and well-developed in mature stands.<br/>
+<br/>
+The alliance was previously treated as three separate alliances in the 2009 book, <i>A Manual of California Vegetation, second edition; </i> they have been since merged due to similarities in stand structure, dynamics, floristics, and environmental settings. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Ceanothus spinosus</th>
+			
+		
+			
+			<th>Heteromeles arbutifolia</th>
+			
+		
+			
+			<th>Prunus ilicifolia</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Shrub; evergreen</td>
+			
+		
+			
+			<td>Shrub; evergreen</td>
+			
+		
+			
+			<td>Tree, shrub; evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td>Transient</td>
+			
+		
+			
+			<td>Transient</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Long</td>
+			
+		
+			
+			<td>Short</td>
+			
+		
+			
+			<td>Short</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; explosion from capsules</td>
+			
+		
+			
+			<td>Animal; gravity</td>
+			
+		
+			
+			<td>Animal</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Heat; scarification; stratification—winter</td>
+			
+		
+			
+			<td>Stratification—winter </td>
+			
+		
+			
+			<td>Stratification—winter; none</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Buds on large branches or trunks; underground structures (root crown)</td>
+			
+		
+			
+			<td>Buds on small branches; buds on large branches or trunks; underground structures</td>
+			
+		
+			
+			<td>Buds on large branches or trunks; buds on small branches; underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-sensitive to fire-hardy; high sprouter</td>
+			
+		
+			
+			<td>Fire-hardy; no; low sprouter to high sprouter</td>
+			
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>Yes</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td>2-100 (200) years</td>
+			
+		
+			
+			<td>(3)10-150+ years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Low; Episodic</td>
+			
+		
+			
+			<td>Episodic; low?</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text"><i>Prunus ilicifolia</i> is well adapted to survive periodic fires, but it also persists without fire. As an obligate sprouter, shrubs sprout vigorously soon after a fire. During extended fire-free intervals, shrubs continually produce new sprouts, and outlive, overtop, and shade out shorter-lived shrubs. Few seedlings establish in early postburn years; seedlings grow into the thinning canopy as the stand ages. Significant recruitment of new individuals occurs most frequently in stands > 50 (100+) years of age. Shrubs persist until the next fire, at which time they sprout (Keeley 1992a, McMurray 1990c). <i>Heteromeles arbutifolia </i>sprouts from a root crown following fire. Its seeds are short-lived and heat-sensitive. Few seedlings establish soon after fire from seed, except during years of above average rainfall (Zedler 1981). In addition, heat treatment in short bursts at high temperature appear strongly detrimental to seed germination, as compared to heat treatment over a longer period at low temperatures (Keeley 1987b). Seedling recruitment is episodic, often in the age gaps of old-aged stands (Borchert et al. 2004), in which seeds can readily germinate without any fire treatment (Keeley 1987b). The response to fire is primarily from sprouting. <i>Ceanothus spinosus</i> regenerates both from sprouting root crowns and from seedling recruitment after fire. Rarely does a mesic chaparral shrub recruit seedlings after fire, apparently because seedlings physiologically cannot endure the moisture stress prevalent on recent burns; however, <i>C. spinosus</i> does because it is a facultative seeder and sprouter (Borchert et al. 2004). Sprouting after fire may be influenced by parent material, fire intensity, and interval length between fires, as indicated by Malanson and O’Leary (1985), who found varying heights of sprouts in the Santa Monica Mountains. <i>C. spinosus</i> continues to produce sprouts in the interval between fires (Keeley 1992b). In general, a fire return interval of > 25 to 55+ years should promote <i>C. spinosus</i>.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Medium to long
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Late summer-fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Small to large; up to and beyond stand
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low to moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>High to very high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Low to very high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Surface-passive crown to active-independent crown fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Af-g, Aj-k). Stands of holly-leaf cherry alone or mixed with toyon occur in the southern part of the Santa Lucia Mountains (Borchert et al. 2004) and in the Montara Mountain area on the San Francisco Peninsula (Keeler-Wolf et al. 2003a), often associated with stands of the <i>Baccharis pilularis</i> alliance. Some stands in Santa Clara and western Stanislaus Cos. have not burned for many decades, and they resemble the adjacent open <i>Quercus agrifolia</i> and <i>Q. douglasii</i> woodlands (e.g. Upper Cottonwood Wildlife Area).</li>
+        
+            <li><b>Central California Coast Ranges</b> (M262Aa-f). Stands of holly leaf cherry with or without toyon are scattered in this region, and occur on various substrates including serpentine on Coyote Ridge (Evens and San 2004), in the southern part of the Santa Lucia Mountains (Borchert et al. 2004), and in the San Benito Mountain area of the Diablo Range (Evens et al. 2006). Extensive stands occupy mesic slopes in Pinnacles National Monument (Kittel et al. 2012). Stands often have clambering vines, including <i>Marah fabaceous </i> and <i>Clematis lasiantha</i>.</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Bc). Stands of toyon on steep serpentine slopes have been observed on the inner edges of this section.</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fb). Stands of toyon in the northern and central subsections occur with <i>Ceanothus cuneatus</i> on steep serpentine rocky slopes, as in Mariposa and Tuolumne Cos. (Klein et al. 2007) as near Lake McClure and Red Mountain, respectively.</li>
+        
+            <li><b>Southern California Coast</b> (261Ba-c, Be-j). All three characteristic species may form stands in the Santa Monica Mountains (Keeler-Wolf and Evens 2006). Stands of toyon were mapped in the Palos Verdes Nature Preserve (Verdone and Evens 2010). Stands of toyon also occur on Catalina, Santa Cruz, and Santa Rosa Islands, while stands of <i>Prunus ilicifolia </i>ssp. <i>lyonii</i> can be found on Anacapa and San Clemente, as well as Catalina and Santa Cruz (Rodriguez et al. 2017). On the mainland <i>Prunus ilicifolia</i> stands occur in the Santa Ynez Mountains (Borchert et al. 2004). Stands of <i>Ceanothus spinosus</i> also occur further south in Camp Pendleton and Western San Diego County (Sproul et al. 2011).</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Ba, Bc-d, Bf, Bj-l, Bn-o). Stands of <i>Ceanothus spinosus</i> exist in the Los Padres National Forest in the western Traverse Ranges (Borchert et al. 2004) and in the eastern Transverse and Peninsular ranges, including the San Gabriel and Santa Ana Mountains, respectively. Stands of toyon and holly leaf cherry occur in the Peninsular Range of western Riverside Co. (Klein and Evens 2005) on north-facing sedimentary and volcanic substrates with other chaparral and coastal scrub species. Stands of holly leaf cherry occur in the San Rafael and Topatopa mountains (Borchert et al. 2004) and central San Diego Co. (Evens and San 2005). Treesized stands are rare but occur in the Transverse Ranges.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Short fire return intervals are detrimental to the long-term persistence of the alliance. Stands survive episodic fires and typically have multi-aged stems with seedling establishment > 40 years after fire. Stands on Santa Catalina Island and the mainland have been subjected to browsing by goats and other feral animals. Plants successfully sprout where herbivores have been excluded with fencing (Knapp 2005). Both subspecies of <i>Prunus ilicifolia </i>are popular ornamentals, and if they occur in the same area they hybridize. The fruits of <i>Heteromeles arbutifolia </i>and <i>Prunus ilicifolia </i>are relished by birds, thus seeds are widely dispersed, allowing stands to establish in fragmented landscapes.
+
+The genus <i>Ceanothus </i>is well suited for use in rehabilitation because of rapid growth rates and an ability to improve soil fertility through fixing nitrogen. Repeated short-interval fires (< 25 years) will deplete the seed bank of <i>C. spinosus</i> and other taxa of this alliance. Prescription burning in mesic chaparral should aim at creating a variety of intensities (Borchert et al. 2004). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Ceanothus spinosus [1], [2], [11]</li>
+                
+                    <li>Ceanothus spinosus - Ceanothus megacarpus [2]</li>
+                
+                    <li>Heteromeles arbutifolia [13]</li>
+                
+                    <li>Heteromeles arbutifolia - Artemisia californica [6], [10]</li>
+                
+                    <li>Heteromeles arbutifolia - Fraxinus dipetala [2], [6], [15]</li>
+                
+                    <li>Heteromeles arbutifolia - Malosma laurina [2]</li>
+                
+                    <li>Heteromeles arbutifolia Serpentine [8], [12]</li>
+                
+                    <li>Prunus ilicifolia ssp. ilicifolia [1], [7], [15]</li>
+                
+                    <li>Prunus ilicifolia ssp. ilicifolia - Ceanothus cuneatus [7]</li>
+                
+                    <li>Prunus ilicifolia ssp. ilicifolia - Fraxinus dipetala [7]</li>
+                
+                    <li>Prunus ilicifolia ssp. ilicifolia - Heteromeles arbutifolia [1], [2], [3], [5], [6], [7], [14], [16]</li>
+                
+                    <li>Prunus ilicifolia ssp. Ilicifolia / Sanicula crassicaulis [5], [16]</li>
+                
+                    <li>Prunus ilicifolia ssp. lyonii [4], [13]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Borchert, M.;Lopez, A.;Bauer, C.;Knowd, T. 2004</li>
+		
+		<li>[2] Keeler-Wolf, T.;Evens, J. 2006</li>
+		
+		<li>[3] Evens, J.;San, S. 2005</li>
+		
+		<li>[4] Junak, S.;Knapp, D.A.;Haller, J.R.;Philbrick, R.;Schoenherr, A.;Keeler-Wolf, T. 2007</li>
+		
+		<li>[5] Keeler-Wolf, T .;Schirokauer, D.;Meinke, J.;van derLeeden, P. 2003a</li>
+		
+		<li>[6] Klein, A.;Evens, J. 2005</li>
+		
+		<li>[7] Kittel, G.;Reyes, E.;Evens, J.;Buck, J.;Johnson, D. 2012</li>
+		
+		<li>[8] Klein, A.;Crawford, J.;Evens, J.;Keeler-Wolf, T.;Hickson, D. 2007</li>
+		
+		<li>[9] Evens, J.;San, S. 2004</li>
+		
+		<li>[10] Verdone, L.;Evens, J. 2010</li>
+		
+		<li>[11] Sproul, F.;Keeler-Wolf, T.;Gordon-Reedy, P.;Dunn, J.;Klein, A.;Harper, K. 2011</li>
+		
+		<li>[12] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>[13] Rodriguez, D.;Sikes, K.;Keeler-Wolf, T.;Kittel, G.;Curtis, J.;Curley, C.;Evens, J. 2017</li>
+		
+		<li>[14] Boul, R.;Colletti, M.J.;Gogol-Prokurat, M.;Hickson, D.;Keeler-Wolf, T.;Yacoub, R. 2011</li>
+		
+		<li>[15] Reyes, E.;Johnson, D.;Glass, A. 2019</li>
+		
+		<li>[16] Sikes, K.;Buck-Diaz, J.;Evens, J. 2021</li>
+		
+		<li>AIS (Aerial Information Systems Inc.), 2007c</li>
+		
+		<li>Anonymous, 1974</li>
+		
+		<li>Barry, W.J. 1989a</li>
+		
+		<li>Barry, W.J. 1989b</li>
+		
+		<li>Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>Conrad, C.E. 1987</li>
+		
+		<li>Griffin, J.R.;Critchfield, W.B. 1972</li>
+		
+		<li>Keeley, J.E. 1991</li>
+		
+		<li>Keeley, J.E. 1992b</li>
+		
+		<li>Keeley, J.E.;Soderstrom, T.J. 1986</li>
+		
+		<li>Malanson, G.P.;O'Leary, J.F. 1985</li>
+		
+		<li>McMurray, N. 1990b</li>
+		
+		<li>McMurray, N. 1990c</li>
+		
+		<li>Menke, J.;Reyes, E.;Hepburn, A.;Johnson, D.;Reyes, J. 2013</li>
+		
+		<li>Patric, J.H.;Hanes, T.L. 1964</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Black, H.;Bleich, V.C.;Mincks, J.W. 1980</li>
+		
+		<li>Shiflet, T.N. 1994</li>
+		
+		<li>Thorne, R.F. 1976</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program);AIS, 2013</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/525/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

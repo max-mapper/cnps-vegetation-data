@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Lepidospartum squamatum</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Lepidospartum</i> <i>squamatum</i></span> Shrubland Alliance <br/>
+        <span class="subtitle">Scale broom scrub</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>50-1500 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G3
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA. Mexico (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/lepidospartum-squamatum_clearcreekma_06-04.jpg', '/static/images/photos/shrub/lepidospartum-squamatum_cottonwoodcrcyn_01.jpg', '/static/images/photos/shrub/lepidospartum-squamatum_cottonwoodcrcyn_02.jpg', '/static/images/photos/shrub/lepidospartum-squamatum_redrockcyn_01.jpg', '/static/images/photos/shrub/lepidospartum-squamatum_redrockcyn_02.jpg', '/static/images/photos/shrub/lepidospartum-squamatum_tijungacyn_10-04_01.jpg', '/static/images/photos/shrub/lepidospartum-squamatum_tijungacyn_10-04_02.jpg', '/static/images/photos/shrub/lepidospartum-squamatum_tijungacyn_10-04_03.jpg', '/static/images/photos/shrub/lepidospartum-squamatum_tijunga-cyn_10-04_04.jpg', '/static/images/photos/shrub/lepidospartum-squamatum_tijungacyn_10-04_05.jpg', '/static/images/photos/shrub/lepidospartum-squamatum_tinminecyn_04-10_01.jpg', '/static/images/photos/shrub/lepidospartum-squamatum_tinminecyn_04-10_02.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Lepidospartum</i> <i>squamatum</i> is dominant, co-dominant,
+or conspicuous in the shrub canopy with <i>Ambrosia</i> <i>salsola</i>, <i>Artemisia</i> <i>californica</i>, <i>Baccharis</i> <i>salicifolia</i>, <i>Cleome</i> <i>isomeris</i>, <i>Cylindropuntia</i> <i>californica</i>, <i>Encelia</i> <i>farinosa</i>, <i>Eriodictyon</i> <i>crassifolium</i>, <i>Eriodictyon</i> <i>trichocalyx</i>, <i>Eriogonum</i> <i>fasciculatum</i>, <i>Hesperoyucca</i> <i>whipplei</i>, <i>Lotus</i> <i>scoparius</i>, <i>Malosma</i> <i>laurina</i>, <i>Opuntia</i> <i>littoralis</i>, <i>Rhus</i> <i>integrifolia</i>, <i>Rhus</i> <i>ovata</i>, <i>Rhus</i> <i>trilobata</i> and <i>Toxicodendron</i> <i>diversilobum</i>. Emergent trees or tall shrubs may be present at low cover, including <i>Cercocarpus</i> <i>montanus</i>, <i>Juglans</i> <i>californica</i>, <i>Juniperus</i> <i>californica</i>, <i>Platanus</i> <i>racemosa</i>, <i>Populus</i> <i>fremontii</i> or <i>Sambucus</i> <i>nigra</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 2 m; canopy is open to continuous, and two tiered. Herbaceous layer is variable and may be grassy. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Lepidospartum squamatum</i> > 1% cover in alluvial environments (Barbour and Wirka 1997, AECOM 2019).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Intermittently or rarely flooded, low-gradient alluvial deposits along streams, washes, and fans. The USFWS Wetland Inventory (1996 national list) recognizes <i>Lepidospartum squamatum</i> as a NI plant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Scalebroom series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Lepidospartum squamatum intermittently flooded shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Scalebroom, Riversidean alluvial scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Riversidian alluvial fan sage scrub, Alluvial fan chaparral, Mojave desert wash scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Coastal sage scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Coastal scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>32.070.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Xeromorphic Scrub and Herb Vegetation (Semi-Desert)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Warm Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Warm Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Sonoran and Chihuahuan Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Madrean Warm Semi-Desert Wash Woodland/Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Mojavean semi-desert wash scrub
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Lepidospartum squamatum </i>is a woody, broom-like shrub that grows up to 2 m tall. Leaves are scale-like. Peak of flowering is from late July through early September. Seeds are wind dispersed. Seedlings establish in clearings among older shrubs when soils are moist. Older plants sprout from branches and crown bases. It can reproduce asexually from plant fragments dispersed downstream in intense, scouring floods. Root crowns can sprout from deep beneath flood-deposited alluvium on alluvial fans. <br/>
+<br/>
+Stands establish after fluvial events, and they are highly variable in species composition. Some areas flood every few years, while others average more than 100 years between major events (Wells and Woods 1996). Variations in soil moisture retention among older stands may explain presence or absence of the large shrubs and trees (Barbour and Wirka 1997). <br/>
+<br/>
+Most of the early understanding of this alliance came from the studies of alluvial fan scrub, a collection of vegetation types based largely on disturbance histories at different sites (Smith 1980, Holland 1986, Hanes et al. 1989). <i>L. squamatum </i>is the indicator species of the alliance and may not be dominant. In general, stands with the most recent and regular disturbances tend to be more strongly dominated by the nominate species. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Lepidospartum squamatum</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Shrub; evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Transient</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Wind</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Buds on large branches and trunks (weak); underground structures (root crown)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-sensitive; thin epidermis; no/low sprouter; canopy architecture susceptible</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>?5-75? years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Unknown</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Unknown</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Fluvial processes rather than fire primarily disturb the alliance. <i>Lepidospartum squamatum </i>sprouts readily after fire.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast Ranges</b> (M262Ad, Ag-j). Stands in western Fresno and eastern San Benito Cos. contain coastal scrub and disturbance-related species, and they are more likely to occur along intermittent creeks as far north as eastern Alameda Co. Stands were surveyed in the Pleasant Valley Ecological Reserve (Buck-Diaz et al 2012).</li>
+        
+            <li><b>Great Valley</b> (262Ag, Aq, Aw, Ay-z). Stands were mapped and surveyed in drainages rimming the southern San Joaquin Valley on the east, west and south, including around the Kern River, Poso Creek, and Cantua Creek (GIC 2013 and VegCAMP 2015).</li>
+        
+            <li><b>Mojave Desert</b> (322Af-h, An). Stands of <i>Lepidospartum squamatum</i>/ephemeral annuals association occur near the eastern boundaries of the southern Sierra Nevada and northern boundaries of the Transverse Ranges (Barbour and Wirka 1997). Some of the best stands occur at Red Rock Canyon State Recreation Area in Big Rock Wash. The alliance occurs in wide, active washes in Fremont and Indian Wells Valleys, lower El Paso Mountains and the north side of the Lava Mountains (Menke et al. 2013).</li>
+        
+            <li><b>Sierra Nevada</b> (M261Er-s). Stands exist along Cottonwood Creek in Kern Co., and were mapped along drainages surrounding in the Tehachapi and Piute Mountains (VegCAMP 2015a).</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fd-e). Stands occur near Lake Isabella in Kern Co.</li>
+        
+            <li><b>Southern California Coast</b> (261Bb, Bd-g, Bi-j). Stands once occurred along intermittent streams and gently sloping fans in Los Angeles and Orange Cos., but few remain. The alliance occurs sparingly in the Santa Monica Mountains (Keeler-Wolf and Evens 2006). Stands were surveyed in Camp Pendleton (AECOM 2019).</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Ba-d, Bf-l, Bp). Stands exist along the few remaining alluvial fans in interior subsections in association with <i>Eriogonum fasciculatum, Eriodictyon trichocalyx,</i> and <i>Hesperoyucca whipplei.</i> The CNPS 1B plants <i>Eriastrum densifolium</i> ssp. <i>sanctorum</i> and <i>Dodecahema leptoceras</i> occur in some stands. Stands occur in the Gavilan Hills (Boyd 1983), in Cucamonga and San Gabriel Canyons and along the San Jacinto River (Hanes et al. 1989), along the San Gabriel River floodplain (Smith 1980), San Gabriel and San Bernardino Mountain fans and floodplains (Rundel 2007), in western Riverside Co. (Klein and Evens 2005), and generally for the section (Barbour and Wirka 1997).  <i>Baccharis sarothroides</i> alliance replaces <i>Lepidospartum squamatum </i>in similar conditions in San Diego County (Smith 1996).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Interruption of natural fluvial processes in this alliance occurs extensively in southern California from construction of houses and golf courses, agriculture, dams, gravel mining, and stream channelization. Interruption of natural processes is less frequent in the desert areas. Some building departments require pre-construction surveys and eradication of <i>Lepidospartum squamatum </i>due to its strong sprouting ability, perhaps even through pavement. 
+
+The destruction of many older stands are a cause for much concern. While recent conservation acquisitions have preserved some stands, upstream dams and flood control modifications do not bode well for stand persistence. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Eriogonum fasciculatum - Lepidospartum squamatum alluvial fan [3]</li>
+                
+                    <li>Lepidospartum squamatum / Amsinckia menziesii [5], [11]</li>
+                
+                    <li>Lepidospartum squamatum - Artemisia californica [2], [7], [8]</li>
+                
+                    <li>Lepidospartum squamatum - Atriplex canescens [5]</li>
+                
+                    <li>Lepidospartum squamatum - Baccharis salicifolia [5], [6], [7], [10], [12], [13]</li>
+                
+                    <li>Lepidospartum squamatum / desert ephemeral annuals [13]</li>
+                
+                    <li>Lepidospartum squamatum / ephemeral annuals [1], [6], [7], [8], [11], [12], [14]</li>
+                
+                    <li>Lepidospartum squamatum - Eriodictyon trichocalyx - Hesperoyucca whipplei [1], [4], [7], [14]</li>
+                
+                    <li>Lepidospartum squamatum - Eriogonum fasciculatum [1], [3], [5], [7], [9], [14]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Barbour, M.G.;Wirka, J. 1997</li>
+		
+		<li>[2] Evens, J.M.;Klein, A.;Taylor, J.;Hickson, D.;Keeler-Wolf, T. 2006</li>
+		
+		<li>[3] Gordon, H.J.;White, T.C. 1994</li>
+		
+		<li>[4] Kirkpatrick, J.B.;Hutchinson, C.F. 1977</li>
+		
+		<li>[5] Klein, A.;Evens, J. 2005</li>
+		
+		<li>[6] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>[7] Buck-Diaz, J.;Evens, J. 2011a</li>
+		
+		<li>[8] Buck-Diaz, J.;Evens, J. 2011b</li>
+		
+		<li>[9] AECOM, 2013</li>
+		
+		<li>[10] Stillwater Sciences and URS, 2007</li>
+		
+		<li>[11] VegCAMP (CDFW Vegetation Classification and Mapping Program), 2015a</li>
+		
+		<li>[12] Reyes, E.;Johnson, D.;Glass, A. 2019</li>
+		
+		<li>[13] Reyes, E.;Evens, J.;Glass, A.;Sikes, K.;Keeler-Wolf., T.;Winitsky, S.;Johnson, D.;Menke, J.;Hepburn, A. 2020a</li>
+		
+		<li>[14] Reyes, E.;Evens, J.;Fulton, J.;Sikes, K.; Johnson, D.;Keeler-Wolf, T.;Vu, S.;LaFever-Jackson, A. 2023 (in progress)</li>
+		
+		<li>AECOM, 2019</li>
+		
+		<li>Barry, W.J. 1989a</li>
+		
+		<li>Barry, W.J. 1989b</li>
+		
+		<li>Hanes, T.L.;Friesen, R.D.;Keane, K. 1989</li>
+		
+		<li>Holland, R.F. 1986</li>
+		
+		<li>Ingles, L.G. 1929</li>
+		
+		<li>Jones and Stokes Associates, 1993</li>
+		
+		<li>Keeler-Wolf, T.;Evens, J. 2006</li>
+		
+		<li>Magney, D.L. 1992</li>
+		
+		<li>Menke, J.;Reyes, E.;Hepburn, A.;Johnson, D.;Reyes, J. 2013</li>
+		
+		<li>Smith, D.S. 1996</li>
+		
+		<li>Smith, R.L. 1980</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program);AIS, 2013</li>
+		
+		<li>Wells, S.G.;Woods, Y. 1996</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/226/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

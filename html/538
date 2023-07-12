@@ -1,0 +1,1108 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Cynodon dactylon - Crypsis spp. - Paspalum spp.</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Cynodon</i> <i>dactylon</i> - <i>Crypsis</i> spp. - <i>Paspalum</i> spp.</span> Herbaceous Semi-Natural Alliance <br/>
+        <span class="subtitle">Bermudagrass - prickle grass - crowngrass turfs</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Herb
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-1250 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>SNA
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>GNA
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>AZ, CA (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                        <li>
+                            <span class="category">Invasive species rank</span>
+                            Cal-IPC: Moderate (Cynodon dactylon), Watch (Paspalum vaginatum)
+                        </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2022/07/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = []
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Bolboschoenus</i> <i>glaucus</i>, <i>Cotula</i> <i>coronopifolia</i>, <i>Crypsis</i> <i>alopecuroides</i>, <i>Crypsis</i> <i>schoenoides</i>, <i>Crypsis</i> <i>vaginiflora</i>, <i>Cynodon</i> <i>dactylon</i>, <i>Cyperus</i> <i>eragrostis</i>, <i>Panicum</i> <i>miliaceum</i>, <i>Paspalum</i> <i>dilatatum</i>, <i>Paspalum</i> <i>vaginatum</i> and/or <i>Polypogon</i> <i>monspeliensis</i> and/or other ruderal, non-native graminoids are dominant or co-dominate together in the herbaceous layer. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Herbs < 1.5 cm; cover is open to continuous. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Cynodon dactylon</i> > 60% relative cover in the herbaceous layer (Keeler-Wolf and Vaghti 2000).</li>
+		
+		<li><i>Crypsis schoenoides</i> > 60% relative cover in the herbaceous layer (Keeler-Wolf and Vaghti 2000).</li>
+		
+		<li><i>Cynodon dactylon, Cotula coronopifolia, Cyperus eragrostis, Panicum miliaceum, Paspalum</i> spp., <i>Bolboschoenus glaucus, </i>and/or other non-native plants > 80% relative cover individually or collectively in the herbaceous layer (Buck-Diaz et al. 2012).</li>
+		
+		<li><i>Crypsis schoenoides</i> or or <i>C. vaginiflora</i> > 80% relative cover in the herbaceous layer (Keeler-Wolf and Vaghti 2000).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Disturbed levees, managed wetlands and alkaline marshes, improved or irrigated pastures, disturbed riverbanks, intermittently flooded plains, and other disturbed soils in moist settings. The USFWS Wetland Inventory (2012 national list) recognizes <i>Cynodon dactylon</i> as a FACU plant; <i>Crypsis</i> spp. as OBL plants; and <i>Paspalum dilatatum</i> as a FAC plant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Introduced perennial grassland series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Cynodon dactylon herbaceous alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Annual grasses and forbs, Non-native/ornamental grass
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Non-native grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Annual grassland, Urban
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>42.220.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate and Boreal Shrubland and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate and Boreal Freshwater Marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North American Freshwater Marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Western North America Wet Meadow and Low Shrub Carr
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Naturalized warm-temperate riparian and wetland group
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Cynodon dactylon</i> is a perennial grass with an extensive system of creeping stolons and rhizomes. Its flowers occur along 2-6 spicate branches that form atop stems. It is a noxious weed in various sites with warm-season moisture. Plants can endure drought and dehydration, but are sensitive to prolonged freezing temperatures (DiTomaso et al.  2013). Although originally planted, <i>C. dactylon </i>regenerates and spreads spontaneously, and is therefore considered naturalized (NatureServe 2018).<br/>
+<br/>
+<i>Crypsis alopecuroides, C. schoenoides</i> and/or <i>C. vaginiflora</i> are fast-growing annuals that often occur in managed wetlands where they can form mats. Their flowers are in dense, panicle-like heads. <br/>
+<br/>
+<i>Paspalum dilatatum</i> is the most abundant naturalized species of this genus in California. It is a perennial rhizomatous grass that forms dense, spreading clumps. Its flowers occur along a few terminal spike-like branches with bead-like flower spikelets.  <i>Paspalum distichum</i> is a perennial native grass also found in wetland settings but not included in this semi-natural alliance; stands dominated by this native species are considered under the native <i>Polygonum lapathifolium - Xanthium strumarium</i> Herbaceous Alliance. <br/>
+<br/>
+Stands of these and other non-native invasives are common in managed wetlands, disturbed streambanks, irrigated pastures, and other disturbed sites. We need further sampling and analysis to differentiate stands of this alliance with the related <i>Cressa truxillensis - Distichlis spicata </i>which also can have high cover of <i>Crypsis schoenoides </i>, thought this other native alliance typically has vernal pool plants as characteristic indicators (which may be lower in cover than the <i>Crypsis</i>) and at least 10% relative cover of species native to California. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Bolboschoenus glaucus</th>
+			
+		
+			
+			<th>Cotula coronopifolia</th>
+			
+		
+			
+			<th>Crypsis alopecuroides</th>
+			
+		
+			
+			<th>Crypsis schoenoides</th>
+			
+		
+			
+			<th>Crypsis vaginiflora</th>
+			
+		
+			
+			<th>Cynodon dactylon</th>
+			
+		
+			
+			<th>Cyperus eragrostis</th>
+			
+		
+			
+			<th>Panicum miliaceum</th>
+			
+		
+			
+			<th>Paspalum dilatatum</th>
+			
+		
+			
+			<th>Paspalum vaginatum</th>
+			
+		
+			
+			<th>Polypogon monspeliensis</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Annual; herb</td>
+			
+		
+			
+			<td>Annual; herb</td>
+			
+		
+			
+			<td>Polycarpic perennial; herb; rhizomatous</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Polycarpic perennial; herb</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Soil stored</td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Short</td>
+			
+		
+			
+			<td>Short</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Short</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Gravity; water/hydrological</td>
+			
+		
+			
+			<td>Animal; water/hydrological</td>
+			
+		
+			
+			<td>Animal</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Animal; water/hydrological</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Inundation</td>
+			
+		
+			
+			<td>Chemical, Scarification</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Underground structures (stolons, rhizomes)</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Underground rhizomes allow it to survive low intensity fires.</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Yes</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>First year on</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Low seed viablitiy but high vegetative recruitment</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Moderate</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Fire in alkaline disturbed wetland systems is not well understood historically. Although the likelihood of frequent fire is high in most cismontane grasslands of the state, the variable fuel volumes and the wetter condition of the plants in this alliance with respect to surrounding uplands may minimize fire spread. Late summer to fall season fire is likely to have largely neutral to positive effects on the non-native and native plants in these systems.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+            <p>Mapped stands are indicated below with each section where they occur. Other areas contain expected stands based on Consortium of California Herbaria and Calflora records (Consortium of California Herbaria 2018; Calflora 2018).</p>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Aa-f, Ai-l). Known stands in Suisun Marsh (Keeler-Wolf and Vaghti 2000).  Some expected stands based on data from the CalWeedMapper (Cal-IPC 2018).</li>
+        
+            <li><b>Central California Coast Ranges</b> (M262Aa, Ac-e, Ag-h, Aj). Expected stands in the Kettleman Hills based on data from CalWeedMapper (Cal-IPC 2018).</li>
+        
+            <li><b>Colorado Desert</b> (322Ca-d). None</li>
+        
+            <li><b>Great Valley</b> (262Aa-o, Aq-w, Ay-z). Mapped stands around the Camanche Reservoir, the Woodward Reservoir, and in the marshlands between Colusa and the Sutter Buttes (Buck-Diaz et al. 2012).  Additionally, known stands occur on the islands north of Grizzly and Suisun Bays (Keeler-Wolf and Vaghti 2000).  Some expected stands in the southwestern San Joaquin Valley based on data from CalWeedMapper (Cal-IPC 2018).</li>
+        
+            <li><b>Klamath Mountains</b> (M261Aa). None</li>
+        
+            <li><b>Modoc Plateau</b> (M261Gc, Go). None</li>
+        
+            <li><b>Mojave Desert</b> (322Aa, Ag, Am). Stands occur in pasturelands, disturbed wetlands and valleys. Associated plants can include <i>Cynodon dactylon </i>with <i>Plantago lanceolata, Salsola tragus, Lotus corniculatus, Medicago sativa, Melilotus albus, </i>among others (Inyo Co. Water Dept. unpublished data, 2017).</li>
+        
+            <li><b>Mono</b> (341Dc, Di). None</li>
+        
+            <li><b>Northern California Coast</b> (263Ab-g, Aj-m). None</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Bb-f). None</li>
+        
+            <li><b>Northern California Interior Coast Ranges</b> (M261Ca-c). None</li>
+        
+            <li><b>Northwestern Basin and Range</b> (342Bc). None</li>
+        
+            <li><b>Sierra Nevada</b> (M261Ec-d, Ef-g, Ep, Er). None</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fa-b, Fd). None</li>
+        
+            <li><b>Sonoran Desert</b> (322Ba, Bd-e). None</li>
+        
+            <li><b>Southern California Coast</b> (261Ba-j). None</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Bb-g, Bi-p). None</li>
+        
+            <li><b>Southern Cascades</b> (M261Dc, Dj, Dm). None</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Many of the species of this alliance are managed as forage species for birds in wetlands in California, and their extent has spread particularly in the Great Valley. Most are tolerant of alkalinity, temporary inundation, drought, variable precipitation and moisture.
+
+Persistent manual removal can eliminate <i>Cynodon dactylon</i> in smaller areas; shading and mulching can also help suppress this grass, though various herbicides can be more effective (DiTomaso et al. 2013). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Crypsis (schoenoides, vaginiflora) [1], [2], [3], [4]</li>
+                
+                    <li>Cynodon dactylon [2], [3], [6]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Boul, R.;Hickson, D.;Keeler-Wolf, T.;Colletti, M.;Ougzin, A. 2018</li>
+		
+		<li>[2] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>[3] Keeler-Wolf, T.;Vaghti, M. 2000</li>
+		
+		<li>[4] O’Neil, S.;Egan, S. 2004</li>
+		
+		<li>[6] Rodriguez, D.;Sikes, K.;Keeler-Wolf, T.;Kittel, G.;Curtis, J.;Curley, C.;Evens, J. 2017</li>
+		
+		<li>Calflora, 2018+</li>
+		
+		<li>Cal-IPC, 2018+</li>
+		
+		<li>Carey, J.H. 1995d</li>
+		
+		<li>CCH (Consortium of California Herbaria), 2017+</li>
+		
+		<li>DiTomaso, J.M.;Healy, E.A. 2007</li>
+		
+		<li>DiTomaso, J.M.;Kyser, G.B, Oneto, S.R.;Wilson, R.G.;Orloff, S.B.;Anderson, L.W.;et al. 2013</li>
+		
+		<li>Hickson, D.;Keeler-Wolf, T. 2007</li>
+		
+		<li>NatureServe, 2014+</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/538/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

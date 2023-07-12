@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Ephedra nevadensis - Lycium andersonii - Grayia spinosa</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Ephedra</i> <i>nevadensis</i> - <i>Lycium</i> <i>andersonii</i> - <i>Grayia</i> <i>spinosa</i></span> Shrubland Alliance <br/>
+        <span class="subtitle">Nevada joint fir - Anderson’s boxthorn - spiny hop sage scrub</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>400-1900 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3S4
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G5
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: AZ, CA, NM, NV, UT (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2017/02/22
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/ephedra-nevadensis_deathvalleynp_10-99_01.jpg', '/static/images/photos/shrub/ephedra-nevadensis_lastchancerng_05-10_01.jpg', '/static/images/photos/shrub/ephedra-nevadensis_lastchancerng_05-10_02.jpg', '/static/images/photos/shrub/lycium-andersonii_moja9378-e_11-10.jpg', '/static/images/photos/shrub/lycium-andersonii_moja9378-n_11-10.jpg', '/static/images/photos/shrub/lycium-andersonii_moja9809-n_06-11.jpg', '/static/images/photos/shrub/lycium-andersonii_moja9809-s_06-11.jpg', '/static/images/photos/shrub/grayia_and_%20coleogyneborder_%20alliancepanamintmtns_10-99.jpg', '/static/images/photos/shrub/grayia_lycium_asoc_emigrantpasspanamints_01-98.jpg', '/static/images/photos/shrub/grayia-spinosa_lostmulepassdvnp_04-99_01.jpg', '/static/images/photos/shrub/grayia-spinosa_panamintmtns_10-99_01.jpg', '/static/images/photos/shrub/grayia-spinosa_waucobawash_01.jpg', '/static/images/photos/shrub/grayia-spinosa_waucobawash_02.jpg', '/static/images/photos/shrub/grayia-spinosa_waucobawashgrade.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Ephedra</i> <i>nevadensis</i>, <i>Grayia</i> <i>spinosa</i>, <i>Lycium</i> <i>andersonii</i> and/or <i>Lycium</i> <i>cooperi</i> are dominant or co-dominant in the shrub canopy with <i>Acamptopappus</i> <i>sphaerocephalus</i>, <i>Ambrosia</i> <i>salsola</i>, <i>Artemisia</i> <i>tridentata</i>, <i>Atriplex</i> <i>confertifolia</i>, <i>Chrysothamnus</i> <i>viscidiflorus</i>, <i>Coleogyne</i> <i>ramosissima</i>, <i>Ericameria</i> <i>cooperi</i>, <i>Eriogonum</i> <i>fasciculatum</i>, <i>Menodora</i> <i>spinescens</i>, <i>Picrothamnus</i> <i>desertorum</i> and <i>Salazaria</i> <i>mexicana</i>. Emergent trees may be present at low cover, including <i>Yucca</i> <i>brevifolia</i>. Herbaceous layer often includes <i>Achnatherum</i> <i>speciosum</i>, <i>Bromus</i> <i>rubens</i>, <i>Pleuraphis</i> spp. or <i>Sphaeralcea</i> <i>ambigua</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 3 m; canopy is open to continuous. Herbaceous layer is sparse to intermittent. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Ephedra nevadensis</i> > 2% absolute cover in the shrub canopy, and usually a strong dominant with more than two-times the cover than other species, with exceptions of <i>Acamptopappus sphaerocephalus</i> and <i>Chrysothamnus viscidiflorus</i> (Thomas et al. 2004, VegCAMP and AIS 2013).</li>
+		
+		<li><i>Lycium andersonii</i> > 50% relative cover in the shrub canopy (Keeler-Wolf et al. 2005, Klein and Evens 2005, VegCAMP and AIS 2013).</li>
+		
+		<li><i>Grayia spinosa</i> ≥ 2% absolute cover in the shrub canopy; no other shrub ≥ cover except <i>Ericameria cooperi</i> or <i>Lycium andersonii. Lycium andersonii</i> may dominate in some circumstances (Thomas et al. 2004, VegCAMP and AIS 2013).</li>
+		
+		<li><i>Ephedra nevadensis, Lycium andersonii, L. cooperi</i>, or <i>Grayia spinosa</i> > 30% relative cover in the shrub canopy. Sometimes <i>Ericameria cooperi</i> is > 50% relative cover and <i>Ephedra nevadensis</i> is sub-dominant. (Evens et al. 2014)</li>
+		
+		<li><i>Lycium cooperi</i> > 50% relative cover or co-dominant in the shrub canopy with <i>Ambrosia salsola</i> (VegCAMP and AIS 2013).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Dry, open slopes, ridges, rocky highlands, canyons, sides of arroyos, bajadas, floodplains, valleys, and washes. Soils may be gravelly or rocky, and may be alkaline or saline.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Hop-sage series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Ephedra nevadensis shrubland alliance, Grayia spinosa shrubland alliance, Grayia spinosa-Ephedra viridis shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Great Basin-Desert mixed scrub, Shadscale, Desert mixed scrub, Ephedra, Alkaline mixed scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Mojave mixed woody scrub, Blackbush scrub, Sagebrush scrub, Shadscale scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Creosote bush scrub, Shadscale scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Desert scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>33.185.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Xeromorphic Scrub and Herb Vegetation (Semi-Desert)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Cool Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Cool Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North American Cool Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Inter-Mountain Dry Shrubland and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Intermontane deep or well-drained soil scrub
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> The three primary species in this alliance were treated separately in the 2009 book, <i>A Manual of California Vegetation, second edition</i>, and have since been combined into this alliance because of overlapping floristics and environmental characteristics.  <br/>
+<br/>
+<i>Ephedra nevadensis </i>is a relatively slow-growing shrub that spreads clonally and can survive for long periods (> 100 years). Seed set is variable and prolific in wet years. Seed viability is short (most < 5 years), although seeds do germinate from rodent caches with favorable moisture. Seedlings generally establish following fall or winter rains yet may be tolerant of drought (Anderson 2004a). <br/>
+<br/>
+<i>Grayia spinosa </i>is a diffusely branched shrub that reaches 1.5 m in height. Shrubs are relatively longlived. Wind, gravity, and water disperse its dry fruit with the aid of persistent bracts. Seeds collect in a seed bank. Cold stratification improves germination, and seedlings establish in the cool season when moisture is available (Desert Workshop January 2000, Tirmenstein 1999c). <br/>
+<br/>
+<i>Lycium andersonii </i>is a spiny, rounded, much-branched shrub obtaining a height of 3 m. Its root system is extensive, often extending up to 10 m from the plant. Birds and small mammals eat the red berries and disseminate the seeds. Seeds germinate following summer rains. Roots and stems sprout. Plants can grow in poorly drained soils with high alkalinity and/or salinity, and on highly calcareous soils with desert pavement and caliche layers (Tesky 1992c). <br/>
+<br/>
+Stands are common, but widely scattered, throughout the mid-elevations of the Mojave Desert and southeastern Great Basin, stretching sporadically into cismontane southern California. These stands dominate in a narrow zone that is generally above the <i>Larrea tridentata</i>- <i>Ambrosia dumosa </i>alliance and below the <i>Coleogyne ramosissima </i>zone (Beatley 1976, Keeler-Wolf 2007b).<br/>
+These stands often have a high floristic diversity and may include up to 35 shrub species (Reid et al. 1999). Shrub density and importance tend to increase with stand age (Webb et al. 1987). </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Ephedra nevadensis</th>
+			
+		
+			
+			<th>Grayia spinosa</th>
+			
+		
+			
+			<th>Lycium andersonii</th>
+			
+		
+			
+			<th>Lycium cooperi</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Shrub; evergreen</td>
+			
+		
+			
+			<td>Shrub; drought deciduous</td>
+			
+		
+			
+			<td>Shrub; drought deciduous</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td>Soil; transient</td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short to medium</td>
+			
+		
+			
+			<td>Medium</td>
+			
+		
+			
+			<td>Medium</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Gravity; animal</td>
+			
+		
+			
+			<td>Animal; gravity; water/hydrological; wind </td>
+			
+		
+			
+			<td>Animal</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>Stratification—winter </td>
+			
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Underground structures</td>
+			
+		
+			
+			<td>Underground structures</td>
+			
+		
+			
+			<td>Underground structures </td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; high flammability; high sprouter</td>
+			
+		
+			
+			<td>Fire-sensitive; no/low sprouter</td>
+			
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>(10) 20-200+ years</td>
+			
+		
+			
+			<td>(Intermediately) long-lived</td>
+			
+		
+			
+			<td>Long-lived</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Low to medium (soil-dependent)</td>
+			
+		
+			
+			<td>Low to high (with moisture)</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Fire is likely infrequent in stands of due to lack of fine fuels and wide spacing of shrubs. <i>Lycium andersonii </i>may sprout from the root crown after being only partially burned, but high mortality (at > 50%) occurs when plants are more severely burned (Brooks and Minnich 2006). Since <i>L. andersonii </i>is a long-lived, slow-growing shrub, it takes decades to regain preburn stature and density (Tesky 1992c). <Grayia spinosa</i> is top-killed and appear to sprout weakly from the base after fires (Desert Workshop January 2000, Tirmenstein 1999c). <i>Ephedra nevadensis </i>readily sprouts from the root or crown after low to moderate intensity fires. However, hot fires may eliminate all plants, requiring off-site seed sources to reestablish stands. Periods of above-normal precipitation can contribute to increased stand flammability by promoting the growth of annuals, such as <i>Bromus rubens </i>and <i>B. tectorum </i>(Anderson 2004a). Stands may have cover of native perennial grasses such as <i>Achnatherum speciosum, Pleuraphis rigida </i>or <i>P. jamesii</i> in post-burn stands.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Long
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Spring-summer-fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Small to medium
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low to moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Moderate to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Surface to passive-active crown fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Southeastern California deserts
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+            <p>The range of <i>Ephedra nevadensis</i> includes the Central California Coast Ranges (M262Bj, Bk), desert-facing subsections of the Southern California Mountains and Valleys (M262Bb-Bd, Bi, Bp), Mono (341D), and Northwestern Basin and Range (342B). The range of <i>Grayia spinosa</i> includes Modoc Plateau (M261G). The range of <i>Lycium andersonii</I> includes the Colorado Desert (322Ca-b), Mono (341Di), and Sonoran Desert (322B).</p>
+        
+
+        <ul class="text">
+        
+            <li><b>Mojave Desert</b> (322Aa-p). Stands are widespread, but local, throughout most of the section (Thomas et al. 2004). Stands commonly associate with those of the <i>Atriplex confertifolia, Coleogyne ramosissima,</i> or <i>Eriogonum fasciculatum-Viguiera parishii</i> alliances. Stands in northern subsections occur at higher elevations with those of the <i>Atriplex confertifolia, Menodora spinescens, Yucca brevifolia,</i> and <i>Yucca schidigera</i> alliances. <i>G. spinosa</i> mixes with <i>Acamptopappus spherocephalus</i> and <i>Ambrosia salsola</i> in highly browsed stands in the Ord Mountains (Thomas et al. 2004).</li>
+        
+            <li><b>Mono</b> (341De-f, Dh-j). Stands occur on rocky uplands or upper bajadas in the section.</li>
+        
+            <li><b>Northwestern Basin and Range</b> (342Ba-b, Bd). Stands in this section with <i>Grayia spinosa </i>in California are similar to those in western Nevada (Young et al. 1977, 2007).</li>
+        
+            <li><b>Sierra Nevada</b> (M261Er). Stands occur on the older alluvial surfaces at the base of the eastern escarpment.</li>
+        
+            <li><b>Southeastern Great Basin</b> (341Fa-f). Stands are extensive in the northern ranges and probably occur in all subsections. They have been reported from the Funeral and Panamint mountains, the Alabama Hills (Yoder et al. 1983), Cottonwood Mountains (Peterson 1984a), Panamint Mountains (Webb et al. 1988), and Death Valley National Park (Johnson 1978b). They are often adjacent to the <i>Coleogyne ramosissima</i> alliance, which occurs on shallower and rocky soils, and to those of <i>Atriplex confertifolia</i> alliance, which are on the more alkaline or shallower soils (Thomas et al. 2004). In the Panamint Mountains, <i>G. spinosa </i>replaces the early colonizing <i>Atriplex </i>spp. and <i>Chrysothamnus viscidiflorus </i>shrubs, and then <i>C. ramosissima </i>increases in dominance as <i>G. spinosa </i>stands age. Pure stands of <i>G. spinosa </i>exist on deep sandy soils.</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Bi, Bk, Bp). Stands of <Lycium andersonii </i>occur in the Lake Matthews area of the Perris Valley region with largely non-native herb understories (Klein and Evens 2005). They occur in small washes and associate with stands of the Juniperus californica and Eriogonum fasciculatum alliances. Stands also occur at the edge of the desert on bouldery slopes.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> The extent and diversity of this alliance may be increasing as a result of more frequent and extensive fires, livestock use, and other disturbances over the last 100 years (Thomas et al. 2004), yet may be sensitive to climate change (e.g., warmer temperatures, droughts) and encroachment by non-native species.
+
+<i>Grayia spinosa </i>sprouts readily after trampling or light burning, but it does not colonize by seed immediately following disturbance (Webb et al. 1988). Plants tolerate browsing and are important for livestock in the Great Basin, but they are not considered good forage because of their spines. In restoration projects, living shrubs of <i>G. spinosa </i>have transplanted successfully along roadsides in eastern California (Tirmenstein 1999c).
+
+<i>Lycium andersonii </i>is sensitive to relatively short-term climatic shifts, which may have implications for the alliance’s long-range viability. Webb et al. (2003) found decreases in density and cover of <i>Grayia spinosa, Lycium andersonii, </i>and <i>Menodora spinescens </i>in the northern Mojave Desert between 1964 and 2002. They suggest that regional droughts in 1989 to 1991, and to a lesser extent the drought years of 1996 and 1999 to 2002, may be responsible. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Ephedra nevadensis / (Elymus elymoides) [11]</li>
+                
+                    <li>Ephedra nevadensis - Ericameria cooperi [3], [7], [11], [13]</li>
+                
+                    <li>Ephedra nevadensis - Lycium andersonii [1], [7], [13]</li>
+                
+                    <li>Ephedra nevadensis - (Salazaria mexicana - Ambrosia salsola) [1], [7], [10], [11], [13]</li>
+                
+                    <li>Grayia spinosa [1], [7]</li>
+                
+                    <li>Grayia spinosa - Ephedra viridis [6]</li>
+                
+                    <li>Grayia spinosa / Eriogonum ovalifolium [1]</li>
+                
+                    <li>Grayia spinosa - Larrea tridentata [1], [7], [13]</li>
+                
+                    <li>Grayia spinosa - Lycium andersonii [1], [3], [7], [13]</li>
+                
+                    <li>Grayia spinosa - Lycium pallidum [7], [13]</li>
+                
+                    <li>Grayia spinosa - Picrothamnus desertorum [4], [7], [13]</li>
+                
+                    <li>Grayia spinosa - Tetradymia (axillaris, glabrata) [11]</li>
+                
+                    <li>Lycium andersonii [2], [7], [9], [13]</li>
+                
+                    <li>Lycium andersonii - Simmondsia chinensis - Pleuraphis rigida [5]</li>
+                
+                    <li>Lycium cooperi [7], [8], [12], [13]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Keeler-Wolf, T.;Thomas, K. 2000</li>
+		
+		<li>[2] Keeler-Wolf, T.;San, S.;Hickson, D. 2005</li>
+		
+		<li>[3] Peterson, P.M. 1984a</li>
+		
+		<li>[4] Young, J.A.;Evans, R.A.;Major, J. 1977</li>
+		
+		<li>[5] Klein, A.;Evens, J. 2005</li>
+		
+		<li>[6] Kurzius, M. 1981</li>
+		
+		<li>[7] Evens, J.M.;Sikes, K.;Hastings, D.;Ratchford,J.S. 2014</li>
+		
+		<li>[8] VegCAMP (CDFW Vegetation Classification and Mapping Program);AIS, 2013</li>
+		
+		<li>[9] Buck-Diaz, J.;Evens, J. 2011b</li>
+		
+		<li>[10] VegCAMP (CDFW Vegetation Classification and Mapping Program), 2015a</li>
+		
+		<li>[11] Reyes, E.;Evens, J.;Glass, A.;Sikes, K.;Keeler-Wolf., T.;Winitsky, S.;Johnson, D.;Menke, J.;Hepburn, A. 2020a</li>
+		
+		<li>[12] Menke, J.;Reyes, E.;Hepburn, A.;Johnson, D.;Reyes, J. 2013</li>
+		
+		<li>[13] Reyes, E.;Evens, J.;Fulton, J.;Sikes, K.; Johnson, D.;Keeler-Wolf, T.;Vu, S.;LaFever-Jackson, A. 2023 (in progress)</li>
+		
+		<li>Anderson, M.D. 2004a</li>
+		
+		<li>Barry, W.J. 1989a</li>
+		
+		<li>Barry, W.J. 1989b</li>
+		
+		<li>Beatley, J.C. 1965</li>
+		
+		<li>Beatley, J.C. 1975</li>
+		
+		<li>Blaisdell, J.P.;Holmgren, R.C. 1984</li>
+		
+		<li>Johnson, H. 1978a</li>
+		
+		<li>Johnson, H. 1978b</li>
+		
+		<li>Johnson, H.B. 1976</li>
+		
+		<li>Keeler-Wolf, T. 2007b</li>
+		
+		<li>Menke, J.;Reyes, E.;Hepburn, A.;Johnson, D.;Reyes, J. 2016</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Black, H.;Bleich, V.C.;Mincks, J.W. 1980</li>
+		
+		<li>Peterson, P.M. 1984b</li>
+		
+		<li>Reid, M.S.;Schulz, K.A.;Cormer, P.J.;Schindel, M.H.;Culver, D.R.;Sarr, D.A.;Damm, M.C. 1999</li>
+		
+		<li>Shaw, N.L.;Haferkamp, M.R.;Hurd, E.G. 2002</li>
+		
+		<li>Shiflet, T.N. 1994</li>
+		
+		<li>Tesky, J.L. 1992c</li>
+		
+		<li>Thomas, K.;Franklin, J.;Keeler-Wolf, T.;Stine, P. 2004</li>
+		
+		<li>Thorne, R.F. 1976</li>
+		
+		<li>Thorne, R.F. 1982</li>
+		
+		<li>Tirmenstein, D. 1999c</li>
+		
+		<li>Webb, R.H.;Steiger, J.W.;Tuner, R.M. 1987</li>
+		
+		<li>Yoder, V.;Barbour, M.G.;Boyd, R.S.;Woodward, R.A. 1983</li>
+		
+		<li>Young, J.A.;Clements, C.D.;Jansen, H.C. 2007</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/556/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

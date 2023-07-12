@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Quercus tomentella - Lyonothamnus floribundus</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Quercus</i> <i>tomentella</i> - <i>Lyonothamnus</i> <i>floribundus</i></span> Forest &amp; Woodland Alliance <br/>
+        <span class="subtitle">Island live oak - Catalina ironwood woodland and forest</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Tree
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-450 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G3
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA. Guadalupe Island, Mexico (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>Yes
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2016/10/27
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/tree/quercus-tomentella_lyonothamnus-floribundus_santarosaisland_04-2013.jpg', '/static/images/photos/tree/quercus-tomentella_santarosais_05-12.jpg', '/static/images/photos/tree/quercus-tomentella_santarosais_08-11_01.jpg', '/static/images/photos/tree/quercus-tomentella_santarosais_08-11_02.jpg', '/static/images/photos/tree/quercus-tomentella_santarosais_08-11_03.jpg', '/static/images/photos/tree/quercus-tomentella_santarosais_08-11_04.jpg', '/static/images/photos/tree/quercus-tomentella_santarosais_08-11_05.jpg', '/static/images/photos/tree/lyanothamnus-floribundus_plot2santacruzisland_04-94.jpg', '/static/images/photos/tree/lyanothamnus-floribundus_plot3santacruzisland_04-94.jpg', '/static/images/photos/tree/lyanothamnus-floribundus_thatchergrovesantacruzisland_04-94.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Lyonothamnus</i> <i>floribundus</i> or <i>Quercus</i> <i>tomentella</i> is dominant in the tree canopy with <i>Quercus</i> <i>agrifolia</i> and <i>Rhamnus</i> <i>pirifolia</i>. Shrubs may include <i>Adenostoma</i> <i>fasciculatum</i>, <i>Arctostaphylos</i> <i>catalinae</i>, <i>Arctostaphylos</i> <i>insularis</i>, <i>Arctostaphylos</i> <i>viridissima</i>, <i>Baccharis</i> <i>pilularis</i>, <i>Comarostaphylis</i> <i>diversifolia</i>, <i>Diplacus</i> <i>parviflorus</i>, <i>Heteromeles</i> <i>arbutifolia</i>, <i>Prunus</i> <i>ilicifolia</i> ssp. <i>lyonii</i> or <i>Quercus</i> <i>pacifica</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text"> Trees < 20 m; canopy is continuous. Shrubs are infrequent to moderately continuous. Herbaceous layer is sparse to continuous. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Lyonothamnus floribundus</i> > 50% relative cover in the tree canopy (Rodriguez et al. 2017).</li>
+		
+		<li><i>Quercus tomentella</i> > 50% relative cover in the tree canopy, or co-dominant with <i>Quercus agrifolia</i> or other trees (Rodriguez et al. 2017).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Moist canyons and slopes, concavities,  rarely exposed slopes. Soils are marine sedimentary (including calcareous), granitic, or volcanic substrates.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Catalina ironwood unique stands, Island oak series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Quercus tomentella forest alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Scrub oak, Canyon live oak
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Island chaparral, Island oak woodland, Island ironwood forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Chaparral, Southern oak woodland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Coastal oak woodland, Mixed chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>77.100.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Tree Vegetation (Forest and Woodland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Warm Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Madrean Forest and Woodland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>California Forest and Woodland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Californian broadleaf forest and woodland
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Quercus tomentella </i>is an evergreen tree to 20 m in height with leaves similar to those of <i>Notholithocarpus densiflorus</i>. Trees produce large acorn crops at irregular intervals. Small mammals and island scrub jays cache the acorns. Plants sprout from swollen root crowns and root suckers after damage to their trunks. Woody plants act as nurse plants moderating environmental conditions and offering seedlings and saplings protection. Plants are shade tolerant (Kindsvater 2006, Nixon and Muller 1997). <br/>
+<br/>
+This oak, a CNPS list 4.2 plant, is an insular endemic and relict existing in late Tertiary fossil floras on the mainland. It grows on many substrates at a wide range of elevations, most frequently on steep northwest and north-facing slopes. Kindsvater (2006) found that its site preferences are quite similar to those of many chaparral plants and that the oak exists as groves of one or several clones in several vegetation types: island oak woodland, mixed oak woodland, and closed-cone pine forest (Clark et al. 1990) on Santa Rosa Island; Junak et al. (1995, 2007) placed the groves in oak woodland, pine forest, riparian woodland, and chaparral. <br/>
+<br/>
+<i>Lyonothamnus floribundus </i>is endemic to the Channel Islands with two forms: <i>L. f. </i>ssp. <i>floribundus, </i>with entire, simple leaves that is endemic to Santa Catalina, and <i>L. f. </i>ssp. <i>aspleniifolius </i>with pinnately compound leaves. It occurs on all major substrate types; many are adjacent to stands of <i>Quercus pacifica </i>alliance on mesic slopes (Junak et al. 2007). Both subspecies of <i>L. floribundus</i> are CNPS list 1B.2 plants. <br/>
+<br/>
+On Santa Cruz and Santa Catalina islands, <i>Lyonothamnus </i>grows in discrete, small clones that are often completely dominated by the trees on upper catchments of north-facing slopes (Minnich 1980a). </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Lyonothamnus floribundus</th>
+			
+		
+			
+			<th>Quercus tomentella</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Tree; evergreen</td>
+			
+		
+			
+			<td>Tree; evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td>Transient</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td>Short</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Wind</td>
+			
+		
+			
+			<td>Animal; gravity</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Underground structures</td>
+			
+		
+			
+			<td>Buds on large branches or trunks; underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>Long-lived</td>
+			
+		
+			
+			<td>25-250+ years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>Episodic</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text"></div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Southern California Coast</b> (261Bc, Bh). Stands occur on several Channel Islands including Anacapa, Santa Cruz and Santa Rosa (Rodriguez et al. 2017), as well as San Clemente and Santa Catalina (Junak et al. 2007). <i>Quercus tomentella</i> grows on five Channel Islands (Anacapa, San Clemente, Santa Catalina, Santa Cruz, and Santa Rosa) and on Guadalupe Island west of Baja California. Stands of <i>Lyonothamnus </i>have been sampled on all 4 islands on which it occurs, San Clemente, Santa Catalina, Santa Cruz, and Santa Rosa (Dixon et al. 2019, Rodriguez et al. 2017).
+
+The simple-leaved form, <i>Lyonothamnus floribundus</i> ssp. <i>floribundus</i>, grows on Santa Catalina Island in about 200 groves with 50-100 tree stems each. The compound form, ssp. <i>aspleniifolius</i>, grows on San Clemente, Santa Cruz, and Santa Rosa islands. Some 1000 groves on Santa Cruz Island are clonal and consist of one or two genetic individuals (Bushakra et al.1999). Past maps include those for Santa Cruz Island (Junak 1987, TNC 2006) and Santa Catalina Island (Minnich 1980a, CNPS 2005). The largest clonal stand mapped on Santa Cruz Island (TNC 2006) is approximately 3 ha, but most stands are < 0.5 ha.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> For <i>Quercus tomentella</i> on Santa Rosa Island, restoration of the species has been done in areas upon removal of feral animals (Kindsvater 2006). <i>Q. tomentella</i> has had difficulty in regenerating after a 2007 fire on Santa Catalina Island with the deer present (D. Knapp, pers. comm. 2007). Populations are still in decline in areas where overgrazing by feral animals continues.
+
+Stands with <i>Lyonothamnus </i>occur as open chaparral parks, shaped by feral animal grazing for more than a century. Earliest ground photographs of the islands from the mid- to late nineteenth century reveal dense chaparral and coastal sage scrub similar to that of the inland Santa Monica and Santa Inez mountains. <i>Lyonothamnus</i> ecology should be viewed in this historical context (Brumbaugh 1980, Minnich 1980a). With fencing and increasingly better control of feral animals, plants have been sprouting successfully on Santa Catalina Island and elsewhere (Junak et al. 2007, Knapp 2005). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Lyonothamnus floribundus [1], [2]</li>
+                
+                    <li>Quercus tomentella [1], [2]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Rodriguez, D.;Sikes, K.;Keeler-Wolf, T.;Kittel, G.;Curtis, J.;Curley, C.;Evens, J. 2017</li>
+		
+		<li>[2] Dixon, P. 2019</li>
+		
+		<li>Bushakra, J.M;Hodges, S.A.;Cooper, J.B.;Kaska, D.D. 1999</li>
+		
+		<li>Clark, R.A.;Halvorson, W.L.;Sawdo, A.A.;Danielsen, K.C.;Karen, C. 1990</li>
+		
+		<li>Griffin, J.R.;Critchfield, W.B. 1972</li>
+		
+		<li>Junak, S.A. 1987</li>
+		
+		<li>Junak, S.A. 2004</li>
+		
+		<li>Junak, S.;Ayers, T.;Scott, R.;Wilken, D.;Young, D. 1995</li>
+		
+		<li>Junak, S.;Knapp, D.A.;Haller, J.R.;Philbrick, R.;Schoenherr, A.;Keeler-Wolf, T. 2007</li>
+		
+		<li>Kindsvater, L.C. 2006</li>
+		
+		<li>Knapp, D.A. 2005</li>
+		
+		<li>Landis, F.C. 1997</li>
+		
+		<li>Minnich, R.A. 1980a</li>
+		
+		<li>Muller, C.H. 1967</li>
+		
+		<li>Nixon, K.C.;Muller, C.H. 1997</li>
+		
+		<li>Pavlik, B.M.;Muick, P.C.;Johnson, S.G.;Popper, M. 1991</li>
+		
+		<li>Philbrick, R.N.;Haller, J.R. 1977</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/523/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

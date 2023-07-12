@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Juniperus californica</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Juniperus</i> <i>californica</i></span> Woodland Alliance <br/>
+        <span class="subtitle">California juniper woodland</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Tree
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>600-2450 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S4
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G4
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: AZ, CA, NV (USDA Plants). Baja California, Mexico (TJM2)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/tree/juniperus-californica_anzaborrego_1997_01.jpg', '/static/images/photos/tree/juniperus-californica_chimineasranch_03-09_01.jpg', '/static/images/photos/tree/juniperus-californica_clearcreekma_06-04_01.jpg', '/static/images/photos/tree/juniperus-californica_ericameria-linearifolia_stipa_antelop.jpg', '/static/images/photos/tree/juniperus-californica_ericameria-linearifolia_stipaantelop.jpg', '/static/images/photos/tree/juniperus-californica_hwy78_02-10_01.jpg', '/static/images/photos/tree/juniperus-californica_hwy78_02-10_02.jpg', '/static/images/photos/tree/juniperus-californica_lagunamtns.jpg', '/static/images/photos/tree/juniperus-californica_pinnaclesnm_11-07_01.jpg', '/static/images/photos/tree/juniperus-californica_scodiemtns_04-91_01.jpg', '/static/images/photos/tree/juniperus-californica_wmojave.jpg', '/static/images/photos/tree/juniperus-californica_hwy36_tehamaco_04-11_01.jpg', '/static/images/photos/tree/juniperus-californica_hwy36_tehamaco_04-11_02.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Juniperus</i> <i>californica</i> is dominant or co-dominant in the small tree canopy with <i>Pinus</i> <i>monophylla</i>, <i>Pinus</i> <i>quadrifolia</i>, <i>Quercus</i> <i>cornelius</i>-<i>mulleri</i>, <i>Quercus</i> <i>douglasii</i> and <i>Yucca</i> <i>brevifolia</i>. Shrubs may include <i>Agave</i> <i>deserti</i>, <i>Artemisia</i> <i>tridentata</i>, <i>Coleogyne</i> <i>ramosissima</i>, <i>Ephedra</i> spp., <i>Hesperoyucca</i> <i>whipplei</i>, <i>Lepidospartum</i> <i>squamatum</i>, <i>Nolina</i> <i>parryi</i>, <i>Purshia</i> <i>stansburiana</i> or <i>Yucca</i> <i>schidigera</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text"> Trees < 5 m; canopy is open to intermittent. Shrub layer is open to intermittent. Herbaceous layer is sparse or grassy. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Juniperus californica</i> > 1% absolute cover, as a dominant shrub; <i>Pinus monophylla</i> < 1% cover (Thomas et al. 2004).</li>
+		
+		<li><i>Juniperus californica</i> > 3% cover over lower shrubs (Keeler-Wolf et al. 1998b).</li>
+		
+		<li><i>Juniperus californica</i> > 50% relative cover in shrub layer (Evens et al. 2006, Klein et al. 2007).</li>
+		
+		<li><i>Juniperus californica</i> as short tree (or large shrub) layer with > 1% and no other tree species equal or exceeding cover of <i>J. californica</i> (Keeler-Wolf et al. 2005).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Ridges, slopes, valleys, alluvial fans, and valley bottoms. Soils are porous, rocky, coarse, sandy, or silty, and are often very shallow.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>California juniper series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Juniperus californica woodland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>California juniper (shrub), California juniper (tree)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Mojavean juniper woodland and scrub, Peninsular juniper woodland and scrub, Cismontane juniper woodland and scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Pinyon-juniper woodland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Juniper
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>89.100.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Tree Vegetation (Forest and Woodland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Warm Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Madrean Forest and Woodland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>California Forest and Woodland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Californian evergreen coniferous forest and woodland
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Juniperus californica </i>is a slow-growing shrub or small tree that usually grows to 4 m in height. Leaves are scalelike and rounded with obvious glandular pits, and fruits are berrylike cones with reddish color. Birds and mammals eat the fleshy cones and disperse the scarified seeds (Cope 1992c). Seedlings are shade dependent and establish under nurse trees. <i>J. californica </i>is self-replacing in the absence of disturbance (Sampson and Jespersen 1963). <br/>
+<br/>
+<i>Juniperus californica </i>occurs sporadically in both cismontane and transmontane California, often as individuals in many alliances. However, it dominates stands of varied species’ composition and structure, depending on their juxtaposition to other stands of chaparral, scrub, desert scrub, or woodland vegetation. In some stands, the junipers are open-grown trees over grassy understories. In others, the junipers form a mixed canopy with other trees or shrubs. <br/>
+<br/>
+The similar <i>Juniperus osteosperma </i>alliance occupies an area east of the main distribution of <i>J. californica </i>(Griffin and Critchfield 1972). Overlap of the two juniper alliances occurs in several places in the Mojave Desert and in the southern California mountains, where identification of the two junipers is difficult. Mojave Desert plots of the two juniper alliances are strikingly similar in species composition (Thomas et al. 2004), but <i>J. californica </i>stands exist at lower elevations. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Juniperus californica</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Tree; evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None; stratification—winter </td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-sensitive; thin epidermis; high flammability; high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>25-200 years </td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text"><i>Juniperus californica </i>is an obligate seeder and does not sprout after fire. Moderate fires kill small-to-moderate-sized junipers. Associated species vary greatly between cismontane and transmontane stands, but most are not strongly fire adapted. Stand-replacing fires were probably rare before non-native annual grasses altered fire regimes, and stands are eliminated by repeated moderate fire. Currently, many stands are at risk because of the buildup of fine fuels from these grasses. In the Transverse Ranges, stand recovery from a single fire event may take upwards of 125 years (M. Brooks, pers. comm. 1999).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Truncated long (100-200 years)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Summer-early fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Medium to large
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>High
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Low to very high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Surface-passive crown
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Desert, southwestern California, Central Valley, Central Coast ranges
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast Ranges</b> (M262Ac-e, Ai-k). Stands occur largely on the drier inner edge of the Caliente, Diablo, La Panza, and Temblor ranges. The largest stands occupy dry, rocky hills lacking high annual grass cover. These settings likely have had low-severity, highly complex surface fires. Some stands bordering chaparral and coastal scrub have experienced recent crown fires. Evens et al. (2006) sampled stands off serpentine substrates in the San Benito Mountain area, which contained plants with both chaparral and sub-desert affinities, including <i>Fraxinus dipetala</i> and <i>Ericameria linearifolia</i>. In this area, <i>J. californica</i> recruitment occurs on lands released from cattle grazing. Other sampled stands occur at Pinnacles National Monument (Kittel et al. 2012).</li>
+        
+            <li><b>Mojave Desert</b> (322Ag, An, Ap). Stands described for Joshua Tree National Park (Phillips et al. 1980, Keeler- Wolf et al. 2005) and generally for the section (Thomas et al. 2004) characterize the desert aspect of the alliance. They were once extensive in Antelope Valley and along the base of the San Gabriel Mountains. Stands are associated with <i>Yucca brevifolia, Quercus john-tuckeri,</i> and <i>Quercus cornelius-mulleri</i> alliances. However, they have been lost or degraded because of increased fire, coupled with agricultural clearing and urban development. Stands are now annual grassland or those of the <i>Eriogonum fasciculatum</i> and <i>Ericameria nauseosa</i> alliances.</li>
+        
+            <li><b>Northern California Interior Coast Ranges</b> (M261Ca). Stands are small in foothill settings on grazed rangelands associated with annual grasslands and stands of the <i>Eriogonum wrightii, Ceanothus cuneatus,</i> and <i>Adenostoma fasciculatum</i> alliances. Small stands that appear to be fire protected occur on steep slopes beneath rock outcrops of the Blue Ridge of western Colusa Co.</li>
+        
+            <li><b>Sierra Nevada</b> (M261Er-s). Stands are most extensive only in the southern subsections bordering the western Mojave Desert (T. Clark and D. Clark pers. comm. 1993, Thomas 1996). Stands in the Kern River drainage have experienced extensive fires in recent decades because of fuel buildup. Stands in the Long Canyon RNA are restricted to open limestone outcrops (Keeler-Wolf 1990b).</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fa-b, Fd). Stands are scattered in the woodland and chaparral alliances throughout most of the section, some converted annual grassland, and stands of the <i>Eriogonum fasciculatum</i> alliance. Small stands in the northern foothills occur on volcanic flows associated with <i>Quercus douglasii</i> woodlands (Klein et al. 2007). Stands near Coulterville are associated with rocky serpentine soils.</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Bb-d, Bg, Bi-l, Bp). Most stands occur on the desert edge, on the eastern Los Angles Plain, and in washes associated with the Santa Ana River. They probably experienced low-severity, highly complex surface fires at 50-100-year intervals. Stands were small and mixed with chamise and other chaparral types. Many are now stands of <i>Eriogonum fasciculatum, Lotus scoparius,</i> or annual grassland because of more frequent fires associated with fine fuel buildup. Stands described for the Gavilan Hills (Boyd 1983), generally for western Riverside Co. (Klein and Evens 2005), and at the upper elevations of Anza-Borrego Desert State Park (Keeler-Wolf et al. 1998b) are frequently juxtaposed with those of desert and chaparral alliances.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Burning stands in the summer or fall with intermittent to continuous fuel buildup of non-native annual grasses leads to the near complete loss of <i>Juniperus californica, </i>as seen at Anza-Borrego Desert State Park and Joshua Tree National Park (M. Brooks, pers. comm. 1999, Keeler-Wolf et al. 1998b). Stands on rangelands in the southern Sierra Nevada and Coast Ranges are vigorous. Here, grazing may reduce fine fuels and fire risk, but this may also inhibit juniper recruitment. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+                <p>Cismontane Associations</p>
+            
+            <ul class="text">
+                
+                    <li>Juniperus californica / Adenostoma fasciculatum - Eriogonum fasciculatum [5], [12]</li>
+                
+                    <li>Juniperus californica / (Cercocarpus montanus - Fraxinus dipetala) [1]</li>
+                
+                    <li>Juniperus californica / Ericameria linearifolia / annual - perennial herb [1], [10], [11], [13]</li>
+                
+                    <li>Juniperus californica / Eriogonum fasciculatum - Artemisia californica [5]</li>
+                
+                    <li>Juniperus californica / herbaceous [5], [6], [8], [10], [11]</li>
+                
+                    <li>Juniperus californica / Salvia leucophylla [10]</li>
+                
+            </ul>
+        
+            
+                <p>Transmontane Associations</p>
+            
+            <ul class="text">
+                
+                    <li>Juniperus californica / Agave deserti [3], [12]</li>
+                
+                    <li>Juniperus californica / Coleogyne ramosissima [3], [4], [9], [12]</li>
+                
+                    <li>Juniperus californica / Prunus ilicifolia / moss [7]</li>
+                
+                    <li>Juniperus californica / Quercus cornelius-mulleri - Coleogyne ramosissima [2], [4]</li>
+                
+                    <li>Juniperus californica / Yucca schidigera / Pleuraphis rigida [4], [9]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Evens, J.M.;Klein, A.;Taylor, J.;Hickson, D.;Keeler-Wolf, T. 2006</li>
+		
+		<li>[2] Keeler-Wolf, T.;Thomas, K. 2000</li>
+		
+		<li>[3] Keeler-Wolf, T.;Roye, C.;Lewis, K. 1998b</li>
+		
+		<li>[4] Keeler-Wolf, T.;San, S.;Hickson, D. 2005</li>
+		
+		<li>[5] Klein, A.;Evens, J. 2005</li>
+		
+		<li>[6] Klein, A.;Crawford, J.;Evens, J.;Keeler-Wolf, T.;Hickson, D. 2007</li>
+		
+		<li>[7] Kittel, G.;Reyes, E.;Evens, J.;Buck, J.;Johnson, D. 2012</li>
+		
+		<li>[8] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>[9] Evens, J.M.;Sikes, K.;Hastings, D.;Ratchford,J.S. 2014</li>
+		
+		<li>[10] Buck-Diaz, J.;Evens, J. 2011b</li>
+		
+		<li>[11] CNPS Vegetation Program, 2015</li>
+		
+		<li>[12] Evens, J.;San, S. 2005</li>
+		
+		<li>[13] Reyes, E.;Evens, J.;Glass, A.;Sikes, K.;Keeler-Wolf., T.;Winitsky, S.;Johnson, D.;Menke, J.;Hepburn, A. 2020a</li>
+		
+		<li>Buck-Diaz, J.;Evens, J. 2011a</li>
+		
+		<li>Cope, A.B. 1992c</li>
+		
+		<li>Meeuwig, R.O.;Bassett, R.L. 1983</li>
+		
+		<li>Menke, J.;Reyes, E.;Hepburn, A.;Johnson, D.;Reyes, J. 2013</li>
+		
+		<li>Sampson, A.W.;Jespersen, B.S. 1963</li>
+		
+		<li>Thorne, R.F. 1982</li>
+		
+		<li>Thorne, R.F.;Schoenherr, A.;Clements, C.D.;Young., J.A. 2007</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program), 2015a</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program);AIS, 2013</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/35/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

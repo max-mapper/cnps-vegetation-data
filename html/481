@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Typha (angustifolia, domingensis, latifolia)</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Typha</i> (<i>angustifolia</i>, <i>domingensis</i>, <i>latifolia</i><span style="padding-left: .2em">)</span></span> Herbaceous Alliance <br/>
+        <span class="subtitle">Cattail marshes</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Herb
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-350 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S5
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G5
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>CAN: AB, BC, MB, ON, QC. USA: AL, AR, AZ, CA, CO, CT, DC, DE, FL, GA, IA, ID, IL, IN, KS, KY, LA, MA, MD, ME, MI, MN, MO, MS, MT, NC, ND, NE, NH, NJ, NM, NV, NY, OH, OK, OR, PA, RI, SC, SD, TN, TX, UT, VA, VT, WA, WI, WV, WY (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/herb/typha-angustifolia-domingensis-latifolia_solidadlagoon_10-09_01.jpg', '/static/images/photos/herb/typha-angustifolia-domingensis-latifolia_humboldtbayfwr_01.jpg', '/static/images/photos/herb/typha-angustifolia-domingensis-latifolia_humboldtbayfwr_02.jpg', '/static/images/photos/herb/typha-angustifolia-domingensis-latifolia_tulelk.jpg', '/static/images/photos/herb/typha-angustifolia-domingensis-latifolia_sherman-island_sacramento-delta_09-05_01.jpg', '/static/images/photos/herb/typha-angustifolia-domingensis-latifolia_sherman-island_sacramento-delta_09-05_02.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Typha</i> <i>angustifolia</i>, <i>Typha</i> <i>domingensis</i> or <i>Typha</i> <i>latifolia</i> is dominant or co-dominant in the herbaceous layer with <i>Agrostis</i> <i>stolonifera</i>, <i>Argentina</i> <i>egedii</i>, <i>Cyperus</i> spp., <i>Distichlis</i> <i>spicata</i>, <i>Echinochloa</i> <i>crus</i>-<i>galli</i>, <i>Eleocharis</i> <i>macrostachya</i>, <i>Equisetum</i> <i>telmateia</i>, <i>Juncus</i> spp., <i>Lemna</i> <i>minuta</i>, <i>Lepidium</i> <i>latifolium</i>, <i>Oenanthe</i> <i>sarmentosa</i>, <i>Persicaria</i> <i>lapathifolia</i>, <i>Persicaria</i> <i>punctata</i>, <i>Phragmites</i> <i>australis</i>, <i>Schoenoplectus</i> <i>americanus</i>, <i>Schoenoplectus</i> <i>californicus</i>, <i>Typha</i> ×<i>glauca</i> and <i>Xanthium</i> <i>strumarium</i>. Emergent trees may be present at low cover, including <i>Salix</i> spp. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Herbs < 1.5 m; cover is intermittent to continuous. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Typha angustifolia</i> > 50% relative cover at > 0.5 m tall in the herbaceous layer (Evens and Kentner 2006, Hickson and Keeler-Wolf 2007).</li>
+		
+		<li><i>Typha angustifolia, T. domingensis</i> and/or <i>T. latifolia</i> > 50% relative cover in the herbaceous layer; one or more cattail species may be present (Keeler-Wolf and Vaghti 2000, Evens and San 2005).</li>
+		
+		<li><i>Typha latifolia</i> > 50% relative cover in the herbaceous layer (Evens and Kentner 2006, Pickart 2006, Klein et al. 2007).</li>
+		
+		<li><i>Typha latifolia</i> > 50% relative cover in the herbaceous layer; <i>Phragmites australis</i> not present (Hickson and Keeler-Wolf 2007).</li>
+		
+		<li><i>Typha latifolia, T. angustifolia</i>, and/or <i>T. domingensis</i> > 50% relative cover in semi-permanently flooded freshwater or brackish marshes (Buck-Diaz et al. 2021, Sikes et al. 2021).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Semi-permanently flooded freshwater or brackish marshes. Soils are clayey or silty. The USFWS Wetland Inventory (1996 national list) recognizes <i>Typha angustifolia, T. domingensis,</i> and <i>T. latifolia</i> as OBL plants. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Cattail series, Bulrush-cattail series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Typha (angustifolia, latifolia)-(Schoenoplectus spp.) semipermanently flooded herbaceous alliance, Typha domingensis seasonally flooded temperate herbaceous alliance, Typha latifolia seasonally flooded herbaceous alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Tule-Cattail
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Coastal brackish marsh, Cismontane alkali marsh, Transmontane alkali marsh, Coastal and valley freshwater marsh, Transmontane freshwater marsh, Montane freshwater marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Coastal salt marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Fresh emergent wetland, Saline emergent wetland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>52.050.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate and Boreal Shrubland and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate and Boreal Freshwater Marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North American Freshwater Marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Western North American Freshwater Marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Arid West freshwater emergent marsh
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Typha latifolia </i>is an emergent perennial hydrophyte to 1.5 m in height. It has a distinctive inflorescence of a brown spike with congested minute achenes. Plants create shallow, branched rhizomes that terminate in additional leafy shoots. Plants die after fruiting in the second year. Local reproduction is mainly by rhizomes. Wind, water, and animals (by clinging with mud) easily disperse the minute seeds long distances. <i>T. angustifolia </i>and <i>T. domingensis, </i>with narrower leaves, are less common and tolerate deeper water and more salinity than <i>T. latifolia </i>(DiTomaso and Healy 2003). <br/>
+<br/>
+These species require special considerations for correct identification (see Smith 2000), and they commonly hybridize when they grow in mixed stands. Hybrids between <i>T. latifolia </i>and <i>T. angustifolia </i>(<I>T</I>. x <i>glauca</i>) are infertile, but plants are vigorous, and rhizome growth creates large clones, especially in eutrophic, disturbed habitats with unstable water levels. Hybrids between <i>T. angustifolia </i>and <i>T. domingensis </i>are highly fertile, and colonies are locally common in the state. <i>T. angustifolia </i>probably was introduced from Europe. Its range expansion and hybridization with <i>T. domingensis </i>make the use of plot database information difficult because of many misidentified herbarium specimens (Smith 2000). <br/>
+<br/>
+Only a few studies in California include plot data and vegetation analysis. Most studies report mixed stands, so the alliance’s name includes both mixed stands and those with a single dominant. Currently, our treatment emphasizes the ecological similarities of the three species with stand differentiation at the association level. Ecological similarities also exist with stands of larger bulrushes (<i>Schoenoplectus acutus, S. californicus</i>). We place stands where <i>Typha </i>and <i>Schoenoplectus </i>species share dominance in the <i>Schoenoplectus </i>alliances. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Typha angustifolia</th>
+			
+		
+			
+			<th>Typha domingensis</th>
+			
+		
+			
+			<th>Typha latifolia</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Polycarpic perennial; herb</td>
+			
+		
+			
+			<td>Perennial; herb; rhizomatous</td>
+			
+		
+			
+			<td>Perennial; herb; rhizomatous</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Soil stored</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Long</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Long?</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Water/hydrological; wind; animal</td>
+			
+		
+			
+			<td>Wind</td>
+			
+		
+			
+			<td>Wind; water; animal</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Moist soil</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Stratification-summer (probably)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Underground structures</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>Life of plant</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>2 - ? Years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>High</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>High</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Fluvial processes rather than fire primarily disturb stands. Burning followed by deep flooding in the spring is used to control stands (DiTomaso and Healy 2003).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+            <p>The range of <i>Typha</i> species includes all of California.</p>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Aa-l). Stands are common in marshes, lagoons, and quiet backwaters. <i>T. domingensis</i> stands become more common south of Santa Clara Co.</li>
+        
+            <li><b>Central California Coast Ranges</b> (M262Aa-k). Stands are scattered throughout in freshwater to alkali wetlands.</li>
+        
+            <li><b>Colorado Desert</b> (322Ca-d). Stands occur at marshes and in ditches throughout the section.</li>
+        
+            <li><b>Great Valley</b> (262Aa-z). Mixed stands at Suisun Marsh (Keeler-Wolf and Vaghti 2000) and in the Sacramento- San Joaquin River delta (Hickson and Keeler-Wolf 2007) include those dominated by <i>T. angustifolia</i> and <i>T. latifolia.</i> We place stands with <i>Typha</i> species and at least 10% cover of <i>Schoenoplectus acutus</i> or <i>S. californicus</i> in the <i>Schoenoplectus</i> alliances.</li>
+        
+            <li><b>Klamath Mountains</b> (M261Ac, Ae, Ah-i, Al, Ar). Stands occur in the warmer and lower elevation sections in appropriate wetland habitats.</li>
+        
+            <li><b>Modoc Plateau</b> (M261Ga-c, Ge, Gg-p). Stands occur in most of the section except the higher and more mountainous areas.</li>
+        
+            <li><b>Mojave Desert</b> (322Aa-d, Af-p). Stands occur at springs and ponds. Many are dominated by <i>T. angustifolia</i> or <i>T. Domingensis.</i></li>
+        
+            <li><b>Mono</b> (341Dd-f, Dh-i, Dk-l). Stands are in marshes and sloughs throughout most of the section.</li>
+        
+            <li><b>Northern California Coast</b> (263Aa-m). Stands of <i>T. latifolia</i> at Humboldt Bay National Wildlife Refuge (Pickart 2006) occur in localized pockets of brackish water at intermediate tidal elevations. Stands of <i>T. angustifolia</i> or <i>T. latifolia</i> occur in permanently saturated sites, including lake margins at Mount Tamalpais (Evens and Kentner 2006).</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Ba-b, Bd-f). Stands occur in most of the section, but are not known from the serpentine belt on the eastern side of the section.</li>
+        
+            <li><b>Northern California Interior Coast Ranges</b> (M261Ca-c). Stands occur throughout in marshes and adjacent to ponds and irrigation ditches.</li>
+        
+            <li><b>Northwestern Basin and Range</b> (342Ba, Bc-e). Stands occur in Honey Lake basin, in the Madeline Plain, and in other low lying areas in the section.</li>
+        
+            <li><b>Sierra Nevada</b> (M261Ef-g, Ei-j, Ep, Er-s). Stands are scattered in the section.</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fa-e). Stands sampled by Klein et al. (2007) have Typha latifolia as the dominant.</li>
+        
+            <li><b>Sonoran Desert</b> (322Ba-e). Stands are common at low lying oxbows and marshes along the Colorado Desert.</li>
+        
+            <li><b>Southeastern Great Basin</b> (341Fa, Fc, Fe-f). Scattered stands occur throughout the region.</li>
+        
+            <li><b>Southern California Coast</b> (261Ba-j). Stands of <i>T. domingensis</i> exist on many of the Channel Islands (Junak et al. 2007) and mixed ones occur in the Santa Monica Mountains (Keeler-Wolf and Evens 2006).</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Ba-d, Bf-g, Bi-l, Bn-p). Stands are widespread in the section. Stands in the San Dieguito River drainage (Evens and San 2005) include <i>T. latifolia</i> as the dominant.</li>
+        
+            <li><b>Southern Cascades</b> (M261Da-e, Dj, Dl-m). Stands are scattered mostly at lower elevations in the section, including some larger ones in Shasta Valley.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Cattails are valuable as habitat and food for wildlife, useful in removing pollutants, and important in wetland restoration. In addition, they invade canals, ditches, cultivated fields, ponds and reservoirs. Mowing, mechanical removal, and burning help manage unwanted stands (DiTomaso and Healy 2003). Cattails also have cultural importance. Leaves have been used in human dwellings and household handicrafts, and fruiting seed fluff is used as downy padding in household items (Smith 2000). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Phragmites australis ssp. americanus [8], [17], [20]</li>
+                
+                    <li>Typha angustifolia - Distichlis spicata [3]</li>
+                
+                    <li>Typha angustifolia - Typha latifolia - Typha domingensis [5]</li>
+                
+                    <li>Typha angustifolia - Typha latifolia - Typha domingensis / Distichlis spicata [5]</li>
+                
+                    <li>Typha angustifolia - Typha latifolia - Typha domingensis / Echinochloa crus-galli [5]</li>
+                
+                    <li>Typha angustifolia - Typha latifolia - Typha domingensis / Phragmites australis [5]</li>
+                
+                    <li>Typha angustifolia - Typha latifolia - Typha domingensis / Schoenoplectus americanus [5]</li>
+                
+                    <li>Typha domingensis [4], [8], [9], [10], [11], [12], [13], [15], [16], [17], [19], [20]</li>
+                
+                    <li>Typha (latifolia, angustifolia) [1], [2], [3], [5], [6], [7], [8], [18], [19], [20]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Evens, J.M.;Kentner, E. 2006</li>
+		
+		<li>[2] Evens, J.;San, S. 2005</li>
+		
+		<li>[3] Hickson, D.;Keeler-Wolf, T. 2007</li>
+		
+		<li>[4] Junak, S.;Knapp, D.A.;Haller, J.R.;Philbrick, R.;Schoenherr, A.;Keeler-Wolf, T. 2007</li>
+		
+		<li>[5] Keeler-Wolf, T.;Vaghti, M. 2000</li>
+		
+		<li>[6] Klein, A.;Crawford, J.;Evens, J.;Keeler-Wolf, T.;Hickson, D. 2007</li>
+		
+		<li>[7] Pickart, A.J. 2006</li>
+		
+		<li>[8] Evens, J.M.;Sikes, K.;Hastings, D.;Ratchford,J.S. 2014</li>
+		
+		<li>[9] Sproul, F.;Keeler-Wolf, T.;Gordon-Reedy, P.;Dunn, J.;Klein, A.;Harper, K. 2011</li>
+		
+		<li>[10] Rodriguez, D.;Sikes, K.;Keeler-Wolf, T.;Kittel, G.;Curtis, J.;Curley, C.;Evens, J. 2017</li>
+		
+		<li>[11] Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>[12] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>[13] AECOM, 2013</li>
+		
+		<li>[14] CNPS Vegetation Program, 2015</li>
+		
+		<li>[15] Buck, J.;Evens, J. 2010</li>
+		
+		<li>[16] Boul, R.;Keeler-Wolf, T.;Ratchford, J.;Haynes, T.;Hickson, D.;Yacoub, R.;Harbert, B.;Evens, J. 2021b</li>
+		
+		<li>[17] Reyes, E.;Evens, J.;Glass, A.;Sikes, K.;Keeler-Wolf., T.;Winitsky, S.;Johnson, D.;Menke, J.;Hepburn, A. 2020a</li>
+		
+		<li>[18] Sikes, K.;Buck-Diaz, J.;Evens, J. 2021</li>
+		
+		<li>[19] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>[20] Reyes, E.;Evens, J.;Fulton, J.;Sikes, K.; Johnson, D.;Keeler-Wolf, T.;Vu, S.;LaFever-Jackson, A. 2023 (in progress)</li>
+		
+		<li>DiTomaso, J.M.;Healy, E.A. 2003</li>
+		
+		<li>Evens, J.M.;Klein, A.;Taylor, J.;Hickson, D.;Keeler-Wolf, T. 2006</li>
+		
+		<li>Ferren, W.R. 1989a</li>
+		
+		<li>Ferren, W.R.;Fiedler, P.L.;Leidy, R.A. 1996</li>
+		
+		<li>Keeler-Wolf, T.;Evens, J. 2006</li>
+		
+		<li>MacDonald, K.B. 1977</li>
+		
+		<li>Menke, J.;Reyes, E.;Hepburn, A.;Johnson, D.;Reyes, J. 2013</li>
+		
+		<li>NPS-SEKI, 2009</li>
+		
+		<li>Schlosser, S.;Eicher, A. 2007</li>
+		
+		<li>Smith, S.G. 2000</li>
+		
+		<li>Stillwater Sciences and URS, 2007</li>
+		
+		<li>Thorne, R.F. 1982</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program);AIS, 2013</li>
+		
+		<li>Zedler, J.B. 1982</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/481/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

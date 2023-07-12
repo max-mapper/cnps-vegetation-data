@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Xylococcus bicolor</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Xylococcus</i> <i>bicolor</i></span> Shrubland Alliance <br/>
+        <span class="subtitle">Mission manzanita chaparral
+Mission manzanita chaparral</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>200-950 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G4
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA. Baja Californica, Mexico (TJM2)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>Yes
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/adenostoma-fasciculatum_xylococcus-bicolor_mcgintymtn_05-09_01.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Xylococcus</i> <i>bicolor</i> is dominant or co-dominant with <i>Adenostoma fasciculatum</i> in the shrub canopy with <i>Ceanothus</i> <i>crassifolius</i>, <i>Ceanothus</i> <i>tomentosus</i>, <i>Ceanothus</i> <i>verrucosus</i>, <i>Cneoridium</i> <i>dumosum</i>, <i>Hesperoyucca</i> <i>whipplei</i>, <i>Heteromeles</i> <i>arbutifolia</i>, <i>Malosma</i> <i>laurina</i>, <i>Quercus</i> <i>berberidifolia</i>, <i>Rhamnus</i> <i>ilicifolia</i>, <i>Rhus</i> <i>integrifolia</i>, <i>Rhus</i> <i>ovata</i>, <i>Salvia</i> <i>apiana</i> and <i>Salvia</i> <i>mellifera</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 3 m; canopy is intermittent to continuous. Herbaceous layer is sparse to intermittent. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Adenostoma fasciculatum</i> and <i>Xylococcus bicolor</i> average 10-30% relative cover in the shrub canopy (Gordon and White 1994).</li>
+		
+		<li><i>Adenostoma fasciculatum</i> and <i>Xylococcus bicolor</i> have 30-60% relative cover, though sometimes <i>X. bicolor</i> is less important in cover as a sub-dominant with > 1% absolute cover (Evens and San 2005, Klein and Evens 2005).</li>
+		
+		<li><i>Xylococcus bicolor</i> > 50% relative cover of the shrub canopy (Dixon et al. 2019).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Lower to upper slopes of all aspects. Soils are shallow and sandy.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Chamise-mission-manzanita-woollyleaf ceanothus series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Adenostoma fasciculatum shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Chamise, Southern mixed chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Southern mixed chaparral, Granitic southern mixed chaparral, Mafic southern mixed chaparral, Chamise chaparral, Southern maritime chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Chamise-redshank chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>37.109.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Mediterranean Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Mediterranean Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>California Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>California Chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Californian xeric chaparral
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Xylococcus bicolor </i>is an erect evergreen shrub that grows 2.5 m tall. Shrubs have well-developed lignotubers. Seeds collect in a seed bank as stones of fused seeds (Hickman 1993). The coastal distribution of <i>X. bicolor </i>suggests it is frost sensitive. <br/>
+<br/>
+Previously this alliance was published in the 2009 book as the  <i>Adenostoma fasciculatum - Xylococcus bicolor</i> Shrubland Alliance.  Additional surveys have demonstrated that <i>Adenostoma fasciculatum </i> is not always present or co-dominant.  <i>Adenostoma fasciculatum </i>is a long-lived, shade-intolerant shrub that grows to 3.5 m. Shrubs produce dimorphic seeds after 3 years of age. Some seeds are dormant, whereas others readily germinate, though viability is low. Seeds disperse during the summer near the parent plant, and seedlings may emerge during the next rainy season. Dormant seeds accumulate in the soil and are not subject to heavy predation. <i>A. fasciculatum </i>rejuvenates between fires by continually producing new sprouts from a semi-buried lignotuber (McMurray 1990a). <br/>
+<br/>
+Gordon and White (1994) was the first to recognize this localized alliance in the lower elevation chaparral of the Peninsular Range foothills, which they recognized as <i>Adenostoma fasciculatum-Xylococcus bicolor-Ceanothus tomentosus </i>series. Since then, Evens and San (2005) inventoried this vegetation elsewhere in San Diego Co., and Klein and Evens (2005) found it in western Riverside Co., where it is common and particularly variable. <br/>
+<br/>
+Holland (1986) considered localized stands with <i>Arctostaphylos glandulosa </i>ssp. <i>crassifolia </i>(a CNPS list 1B.1 plant), <i>Comarostaphylis diversifolia </i>ssp. <i>diversifolia </i>(a CNPS list 1B.2 plant), <i>Ceanothus verrucosus </i>(a CNPS list 2.2 plant), and <i>Quercus dumosa </i>(a CNPS list 1B.1 plant) to be indicative of southern maritime chaparral (see discussion of southern maritime chaparral in the Changes Since the First Edition section). Hogan et al. (1996) considered the more coastal stands with these rare plants to be members of the <i>Adenostoma fasciculatum - Salvia mellifera </i>alliance, and placed the more inland stands in this alliance. Evens and San (2005) inventoried similar stands in central San Diego Co., and Klein and Evens (2005) described <i>Arctostaphylos rainbowensis </i>(a CNPS list 1B.1 plant) in western Riverside Co. as belonging to this alliance with <i>X. bicolor</i>. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Xylococcus bicolor</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Shrub; evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Transient</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Heat (difficulty unknown)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Buds on large branches or trunks; buds on small branches; underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>? to 100+ years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>?</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text"><i>Adenostoma fasciculatum </i>and <i>Xylococcus bicolor </i>are adapted to low- to moderate-intensity fire, and they typically respond by sprouting. For <i>A. fasciculatum, </i>heat and charcoal stimulate seed germination from its seed bank during the first rainy season after a fire with low to moderate recruitment. Surviving adventitious buds vigorously sprout from the lignotuber following disturbances such as fire or cutting (McMurray 1990a). For <i>X. bicolor, </i>seeds germinate after a fire but rarely establish. Top-killed plants sprout from the lignotuber after aboveground portions after the fire. Shrub cover regains pre-burn cover levels as the shrubs age.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Medium (30-100+ years)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Late summer-fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Medium to large—up to and beyond stand
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>High
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>High
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Active-independent crown fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Southern California
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Southern California Coast</b> (261Bh-j). Stands constitute several associations on a wide variety of substrates (CVIS 1995, Evens and San 2005). One stand has been sampled on Santa Catalina Island (Dixon et al. 2019) and it is likely that this alliance occurs on other southern Channel Islands. Stands also occur at Torrey Pines State Reserve adjacent to some <i>Pinus torreyana</i> stands.</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Bf, Bn). Stands occur in the Santa Ana Mountains (Klein and Evens 2005), and central and western San Diego Co. (Evens and San 2005, Gordon and White 1994) on soils derived from granite, though some occur on gabbro.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Intense or very frequent burning regimes will eliminate shrubs, such as <i>Xylococcus bicolor.</i> Fire intervals under 10 years will favor annuals and coastal scrub species (Gordon and White 1994). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Adenostoma fasciculatum - Xylococcus bicolor [2], [4]</li>
+                
+                    <li>Adenostoma fasciculatum - Xylococcus bicolor - Ceanothus crassifolius [3], [4]</li>
+                
+                    <li>Adenostoma fasciculatum - Xylococcus bicolor - Ceanothus crassifolius - Malosma laurina [1]</li>
+                
+                    <li>Adenostoma fasciculatum - Xylococcus bicolor - Ceanothus tomentosus [2], [4]</li>
+                
+                    <li>Adenostoma fasciculatum - Xylococcus bicolor - Ceanothus verrucosus [1], [4]</li>
+                
+                    <li>Adenostoma fasciculatum - Xylococcus bicolor - Cneoridium dumosum [1]</li>
+                
+                    <li>Adenostoma fasciculatum - Xylococcus bicolor - Eriogonum fasciculatum [1]</li>
+                
+                    <li>Adenostoma fasciculatum - Xylococcus bicolor - Quercus berberidifolia [3]</li>
+                
+                    <li>Adenostoma fasciculatum - Xylococcus bicolor - Salvia mellifera - Malosma laurina [3]</li>
+                
+                    <li>Xylococcus bicolor - Rhus integrifolia [1], [5]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Evens, J.;San, S. 2005</li>
+		
+		<li>[2] Gordon, H.J.;White, T.C. 1994</li>
+		
+		<li>[3] Klein, A.;Evens, J. 2005</li>
+		
+		<li>[4] Sproul, F.;Keeler-Wolf, T.;Gordon-Reedy, P.;Dunn, J.;Klein, A.;Harper, K. 2011</li>
+		
+		<li>[5] Dixon, P. 2019</li>
+		
+		<li>Hanes, T.L. 1977</li>
+		
+		<li>Hanes, T.L. 1981</li>
+		
+		<li>Hanes, T.L. 1984</li>
+		
+		<li>Hogan, D.C.;Sawyer, J.O.;Saunders, C. 1996</li>
+		
+		<li>Horton, J.S. 1960</li>
+		
+		<li>Keeley, J.E. 1993b</li>
+		
+		<li>Keeley, J.E.;Keeley, S.C. 1988</li>
+		
+		<li>Rivas-Martinez, S. 1997</li>
+		
+		<li>Vogl, R.J.;Schorr, P.K. 1972</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/105/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

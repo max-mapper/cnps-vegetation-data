@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Phoenix dactylifera - Washingtonia filifera</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Phoenix</i> <i>dactylifera</i> - <i>Washingtonia</i> <i>filifera</i></span> Forest &amp; Woodland Semi-Natural Alliance <br/>
+        <span class="subtitle">Date palm - California fan palm groves</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Tree
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-500 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>SNR
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>GNR
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA, NV
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                        <li>
+                            <span class="category">Invasive species rank</span>
+                            Cal-IPC: Limited (Phoenix canariensis), Moderate (Washingtonia robusta), Not Rated (P. dactylifera, W. filifera)
+                        </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2016/06/10
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/tree/phoenix-dactylifera_devaratatatspr_03-2009.jpg', '/static/images/photos/tree/phoenix-dactylifera_devatravertineeast_03-2009.jpg', '/static/images/photos/tree/washingtonia-filifera_devaibexspr_01-2011.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Phoenix</i> <i>canariensis</i>, <i>Phoenix</i> <i>dactylifera</i>, <i>Washingtonia</i> <i>filifera</i> and/or <i>Washingtonia</i> <i>robusta</i> are dominant or co-dominant in the tree canopy, sometimes with <i>Populus</i> <i>fremontii</i>, <i>Prosopis</i> <i>glandulosa</i>, <i>Prosopis</i> <i>pubescens</i>, <i>Salix</i> <i>gooddingii</i>. Shrubs  include <i>Atriplex</i> spp., <i>Baccharis</i> spp., <i>Pluchea</i> <i>sericea</i>, <i>Salix</i> <i>lasiolepis</i>, <i>Tamarix</i> spp. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text"> Trees < 20 m; cover is intermittent to continuous. Shrub canopy is intermittent or open. Herbaceous canopy is sparse to open. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li>Non-native palm <i>Phoenix dactylifera</i> and/or semi-natural <i>Washingtonia filifera</i> > 50% relative cover in the overstory, or > 30% relative cover with other non-native trees (Evens et al. 2014).</li>
+		
+		<li>Non-native palms <i>Phoenix canariensis, P. dactylifera, Washingtonia robusta</i> and/or semi-natural <i>Washingtonia filifera</i> > 50% relative cover in the overstory, or > 30% relative cover with other non-native trees.</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Along desert slope stream bottoms, slope springs, coastal stream corridors, coastlines, and sometimes in or near ponds or playas at low elevation escaped from plantings. Soil is alluvial. The USACE Wetland Inventory (2018 national list) recognizes <i>Washingtonia filifera</i> and <i>Washingtonia robusta</i> as FACW plants. <i>Phoenix </i>spp. are not listed in the USACE Wetland Inventory (2018 national list). </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Fan palm series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Washingtonia filifera seasonally flooded woodland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Non-native/ornamental hardwood
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Southern riparian forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Creosote bush scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Palm oasis
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>79.300.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Tree Vegetation (Forest and Woodland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate Flooded and Swamp Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North America Warm Temperate Flooded and Swamp Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Southwestern North American Riparian, Flooded and Swamp Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Southwestern North American introduced riparian scrub
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Phoenix canariensis </i>and <i>Phoenix dactylifera </i>are date palms that have escaped from cultivation and plantings where they invade coastlines, stream corridors, and slope springs. These palms have pinnately-compound leaves that are persistent; they grow to 25 (30) m tall and tend to grow in clusters forming a dense canopy leading to a loss of native understory plants (Cal-IPC 2020, DiTomaso et al. 2013). <br/>
+<br/>
+<i>Washingtonia filifera </i>is a palm with a robust trunk that achieves a height of 15 m, and <i>W. robusta</i> grows to 25 (30) m tall. Both have palmately veined leaves to compound when torn (DiTomaso et al. 2013). The fan-shaped leaves accumulate around their trunks as a skirt of thatch. Birds and mammals eat their black drupes and disperse the seeds. Seeds remain dormant on the ground until leached of germination inhibitors. Seedlings require sunny, moist soil to establish. <i>Washingtonia </i>do not reproduce vegetatively and live up to 150 years. Disturbance patterns involve both flood and fire (Howard 1992h, Anderson and Roderick 2005, Turner et al. 1995).  <br/>
+<br/>
+Native <i>Washingtonia filifera </i>oases of the Colorado Desert and adjacent Sonoran Desert are well known and have been focal points since humans arrived in the desert more than over 10,000 years ago. However, non-native stands of this and of <i>W. robusta </i>in California have escaped from plantings and cultivation into riparian corridors and around springs, especially across southern California. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Phoenix canariensis</th>
+			
+		
+			
+			<th>Phoenix dactylifera</th>
+			
+		
+			
+			<th>Washingtonia filifera</th>
+			
+		
+			
+			<th>Washingtonia robusta</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Tree; evergreen</td>
+			
+		
+			
+			<td>Tree; evergreen</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Long</td>
+			
+		
+			
+			<td>Medium</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Animal; water</td>
+			
+		
+			
+			<td>Animal; water</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Stratification—Summer</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Life of plant</td>
+			
+		
+			
+			<td>Life of plant</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>High</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>High</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Typically, fires do not kill individual palms. They primarily burn the dead leaves and shag along their trunks and bases, and repeated burning increases the bark’s resistance to fire. However, repeated burning especially in <i>W. filifera </i>can result in fire-dwarfed palms because crown fires, a common occurrence, reduce crown size. Reductions in palm biomass and height with repeated fires also can reduce evapo-transpiration rates, allowing for a more effective use of water supplies in an oasis. Fire is also beneficial for <i>W. filifera </i>by reducing plant competition for water resources and opening sites for seed germination (Howard 1992h) especially in non-native stands that are competing for resources with other riparian plants.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+            <p>Ruderal stands may occur further north along the Central Coast (261A) and southern North Coast (263A) of California (at least as far north as Marin Co.), though more sampling is needed to identify (and then eradicate) occurrences.</p>
+        
+
+        <ul class="text">
+        
+            <li><b>Colorado Desert</b> (322Cc-d). <i>Phoenix dactylifera </i>has naturalized to a limited degree in spring and seasonally flooded wash areas in the Imperial Valley and Colorado River Valley (per CCH and pers. obs.).</li>
+        
+            <li><b>Mojave Desert</b> (322Ab, Ad, Ai, Ap). Non-native stands of <i>Phoenix dactylifera </i> and <i>Washingtonia filifera </i>were sampled at low elevations in Death Valley National Park at the southern end of the Black Mountains, in Saline Valley at Lower Warm Springs, and along and near Cow Creek, including at Nevares, Ratatat, Shoot-me-up Springs, and Travertine East Springs. Non-native stands of <i>Phoenix dactylifera </i>also occur adjacent to Joshua Tree National Park such as in Cottonwood Canyon.</li>
+        
+            <li><b>Southeastern Great Basin</b> (341Fc). Stands occur at the Lower Warm Springs.</li>
+        
+            <li><b>Southern California Coast</b> (261Bb-c, Bg-j). Escaped stands occur along coastal creeks, rivers, lakes and ponds in the section (Cal-IPC 2020) and on Santa Catalina and Santa Cruz Islands (iNaturalist 2020, Knapp 2019). Some individuals also appear to be slowly spreading in mesic chaparral such as in Elysian Park (UCB 2020).</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Ba, Bi-j, Bn). Planted and naturalized stands occur along the San Dieguito River Valley, near Ojai along the Ventura River and Stewark Canyon Creek (UCB 2020), and otherwise in the section.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Date palms and fan palms have been cultivated in California and across the world in urban settings and oasis agro-ecosystems because of their nutritional, economic, aesthetic, and symbolic uses for hundreds or thousands of years (Gros-Balthazard et al. 2016). In escaped riparian settings, they develop dense, often monospecific stands of young to old trees, posing severe fire hazards to stands (Howard 1992h, Cal-IPC 2020). Agricultural and urban development have enhanced their spread since they escape somewhat easily from cultivation, and non-native stands lower water tables for other native plants. Proper management involves an active plan of mechanical removal, stump cutting and herbicide treatment (DiTomaso et al. 2013). Depending on the County, ruderal stands of these palm have been targeted for restoration such as <i>P. canariensis </i>and <i>W. robusta </i>along the San Diego River (Burkhart and Kelly 2005), <i>W. robusta </i>on Santa Cruz Island (Knapp, 2019), and <P. dactylifera </i> and <i>W. filifera </i>in Death Valley National Park (Thomas 2006, Sada and Cooper 2012). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Phoenix dactylifera [1], [4]</li>
+                
+                    <li>Washingtonia filifera / spring (non-native) [1], [4]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Evens, J.M.;Sikes, K.;Hastings, D.;Ratchford,J.S. 2014</li>
+		
+		<li>[4] Thomas, K.A. 2006</li>
+		
+		<li>Anderson, M.K.;Roderick, W. 2005</li>
+		
+		<li>Cal-IPC, 2002+</li>
+		
+		<li>DiTomaso, J.M.;Healy, E.A. 2007</li>
+		
+		<li>DiTomaso, J.M.;Kyser, G.B, Oneto, S.R.;Wilson, R.G.;Orloff, S.B.;Anderson, L.W.;et al. 2013</li>
+		
+		<li>Howard, J.L. 1992o</li>
+		
+		<li>Keeler-Wolf, T.;Roye, C.;Lewis, K. 1998b</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/516/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

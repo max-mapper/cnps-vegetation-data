@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Mimulus (guttatus)</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Mimulus</i> (<i>guttatus</i><span style="padding-left: .2em">)</span></span> Herbaceous Alliance <br/>
+        <span class="subtitle">Common monkey flower seeps</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Herb
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-1200 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3?
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G4?
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA, CO, OR, UT (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2009/09/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/herb/mimulus-guttatus_napa_02-05_03.jpg', '/static/images/photos/herb/mimulus-guttatus_02-05_03.jpg', '/static/images/photos/herb/mimulus-guttatus_burneyfalls_08-09_01.jpg', '/static/images/photos/herb/mimulus-guttatus_burneyfalls_08-09_02.jpg', '/static/images/photos/herb/mimulus-guttatus_hwy49-mariposa_mariposaco_04-2011_01.jpg', '/static/images/photos/herb/mimulus-guttatus_hwy49-mariposaco_04-2011_01.jpg', '/static/images/photos/herb/mimulus-guttatus_hwy49-mariposaco_04-2011_02.jpg', '/static/images/photos/herb/mimulus-guttatus_hwy49-mariposaco_04-2011_03.jpg', '/static/images/photos/herb/mimulus-guttatus_sfpuc_06-2019_smat0206.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Mimulus</i> <i>guttatus</i>, <i>Mimulus</i> <i>lewisii</i>, <i>Mimulus</i> <i>moschatus</i>, <i>Mimulus</i> <i>pilosus</i> or other wetland <i>Mimulus</i> species is dominant or characteristically present in the herbaceous layer with <i>Bromus</i> <i>diandrus</i>, <i>Bromus</i> <i>hordeaceus</i>, <i>Carex</i> spp., <i>Equisetum</i> <i>arvense</i>, <i>Juncus</i> spp., <i>Lactuca</i> <i>serriola</i>, <i>Lotus</i> <i>purshianus</i>, <i>Melilotus</i> <i>indicus</i>, <i>Pentagramma</i> <i>triangularis</i>, <i>Poa</i> <i>tenerrima</i>, <i>Rumex</i> <i>crispus</i>, <i>Sonchus</i> <i>asper</i>, <i>Stachys</i> <i>albens</i>, <i>Trifolium</i> <i>microcephalum</i>, <i>Triteleia</i> <i>hyacinthina</i> and <i>Vulpia</i> <i>microstachys</i>. Emergent shrubs may be present at low cover, including <i>Baccharis</i> <i>salicifolia</i> or <i>Ceanothus</i> <i>cuneatus</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Herbs < 0.5 m; cover is sparse to continuous. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Mimulus guttatus</i> is > 50% relative cover in the herbaceous layer, though its cover may be > 30% with <i>Eleocharis acicularis</i> present; <i>Trifolium variegatum</i> is absent or < 1% absolute cover (Klein et al. 2007).</li>
+		
+		<li><i>Mimulus guttatus</i> or another wetland <i>Mimulus</i> species > 50% relative cover, or > 30% relative cover in the herbaceous layer with <i>Cirsium</i> and <i>Juncus</i> spp. or non-native grasses such as <i>Lolium perenne</i> and <i>Polypogon monspeliensis</i>. (Buck-Diaz et al. 2021, Sikes et al. 2021).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Vernally moist or saturated edges of small, steep-gradient streams, ephemeral cascades, ditches, fens, seeps, and springs. Soils are sandy or little developed lithosols usually derived from metamorphic, serpentine, or volcanic substrates. The USFWS Wetland Inventory (1996 national list) recognizes <i>Mimulus guttatus</i> as a FACW+ plant; other <i>Mimulus</i> species as OBL plants. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>California annual grassland series, Montane meadow habitat
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Mimulus guttatus temporarily flooded herbaceous alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Wet grasses and forbs
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Wet montane meadow, Freshwater seep, Fen
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Freshwater marsh, Valley grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Fresh emergent wetland, Wet meadow
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>44.111.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate and Boreal Shrubland and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate and Boreal Freshwater Marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North American Freshwater Marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Western North America Wet Meadow and Low Shrub Carr
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Californian warm temperate marsh/seep
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Mimulus guttatus </i>is an extremely variable annual herb with bright yellow bilabiate flowers, dotted with orange. It is widespread in California and the West. It has been the subject of much evolutionary biology research, largely because it has served as the basal species for the recent evolution of several other taxa, including <i>Mimulus glaucescens, M. nudatus </i>(CNPS list 4.3 plants), and <i>M. pardalis, </i>which are recently derived edaphic endemics (Alexander et al. 2007, Hughes et al. 2001, MacNair and Gardner 1998, Tilstone and MacNair 1997). <br/>
+<br/>
+The alliance often forms stands within the splash zone of small first-order streams, seeps, springs, and hanging gardens. Stands often occur as small patches or in narrow linear strips, occasionally broadening into small hollows. Some stands occur on very steep cascades and waterfalls, or along gentle streams. The floristic composition of stands is variable. As currently understood, the alliance includes stands with <i>Mimulus guttatus, M. lewisii, M. moschatus, </i>or <i>M. pilosus </i>characteristically present. Stands sometimes occur in mesic upland areas that quickly dry by mid to late spring; they are not usually on flats or in swales, unlike stands of the vernal pool alliances. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Mimulus guttatus</th>
+			
+		
+			
+			<th>Mimulus lewisii</th>
+			
+		
+			
+			<th>Mimulus moschatus</th>
+			
+		
+			
+			<th>Mimulus pilosus</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Annual; herb</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; water/hydrological; wind</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Buds on large branches or trunks (caudex)</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-sensitive</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>Life of plant</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>High</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>High</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Fluvial processes rather than fire influence the distribution and patterning of this alliance. Uneven or scarce fires occur due to the location of stands in cooler drainage bottoms and cascades, adjacent to ephemeral streams, or near an occurrence of abundant bedrock and boulders (Potter 2005).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+            <p>The range of <i>Mimulus guttatus</i> and other <i>Mimulus</i> spp. include all sections in the state.</p>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Ac, Ae-f, Aj). Stands occur on serpentine in the Diablo Range and on Coyote Ridge. A stand was surveyed at the end of Martini Creek in San Mateo County (Sikes et al. 2021). Stands are probable near Sobrante Creek in Monterey County and near Scott's Valley in Santa Cruz (Calflora 2020).</li>
+        
+            <li><b>Central California Coast Ranges</b> (M262Aa-c, Ae-f, Ah, Aj). Stands at Pinnacles National Monument (Kittel et al. 2012) and at Fort Hunter-Liggett with <i>M. guttatus</I> and <i>M. pilosus</i> occur at springs, along steep rocky stream banks, and near wet stony outcrops.</li>
+        
+            <li><b>Great Valley</b> (262Ag, Ao). A <i>Mimulus guttatus</i> stand was sampled above Fahrens Creek, and others are probable on near the banks of the streams in the region.</li>
+        
+            <li><b>Klamath Mountains</b> (M261Ac, Af, Ai-j, Am, Ar, Au). Stands are common in seeps, in springs, and along steep-gradient streams throughout the section.</li>
+        
+            <li><b>Modoc Plateau</b> (M261Ga-d, Gf-l, Gn-p). Stands are common in seeps, in springs, and along moderately steep-gradient stream channels (S. Smith 1998b).</li>
+        
+            <li><b>Northern California Coast</b> (263Ag, Al-m). Stands have been sampled in northern Marin County, in Sonoma County near Sonoma Lake, and in a drainage above Pross Creek (Klein et al 2015), and are probable in other locations in the section.</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Bf). A stand was sampled in a drainage above Knoxville Creek, and stands are probable in other locations (Consortium of California Herbaria 2020).</li>
+        
+            <li><b>Northern California Interior Coast Ranges</b> (M261Ca-b). Stands in this section occur adjacent to ephemeral watercourses.</li>
+        
+            <li><b>Sierra Nevada</b> (M261Ef-g, Ep). Stands scattered at lower montane elevations are adjacent to streams, waterfalls, or on floodplains and transitional fens with <i>M. guttatus, M. lewisii,</i> or others that are dominant. Cooper and Wolf (2006) recognized a <i>Mimulus guttatus</i> association in their fen survey. Potter (2005) did not sufficiently sample to recognize associations; instead he recognized both low and mid elevation riparian forb groups with <i>Mimulus</i> spp. dominant.</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fa-d). Stands in the northern (Klein et al. 2007) and central and southern subsections (Potter 2005) are mostly small (< 0.25 ha) and adjacent to ephemeral streams and waterfalls. Adjacent vegetation includes <i>Quercus douglasii</i> and <i>Q. lobat</i> a woodlands, as well as herbaceous stands of the <i>Lasthenia glaberrima, Layia fremontii-Achyrachaena mollis, Nassella pulchra, </i> and <i>Lasthenia californica-Plantago erecta-Vulpia microstachys</i> alliances.</li>
+        
+            <li><b>Southern Cascades</b> (M261Dd-f, Dh-j, Dl-m). Stands with <i>M. guttatus</i> and <i>M. lewisii</i> are common in the section on seeps, springs, stream banks, and other wet places (S. Smith 1998b).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Stands are typically small and any impacts to the stream flows or hydrology will influence them. Grazing negatively affects stands with <i>Mimulus guttatus </i>in the Sierra Nevada (Potter 2005). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Mimulus guttatus [1], [6], [8], [10], [11]</li>
+                
+                    <li>Mimulus guttatus - (Mimulus spp.) [3], [7], [9]</li>
+                
+                    <li>Mimulus guttatus - Vulpia microstachys [2], [5]</li>
+                
+                    <li>Mimulus lewisii [4]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Cooper, D.J.;Wolf, E.C. 2006</li>
+		
+		<li>[2] Klein, A.;Crawford, J.;Evens, J.;Keeler-Wolf, T.;Hickson, D. 2007</li>
+		
+		<li>[3] NatureServe, 2007</li>
+		
+		<li>[4] Smith, S. 1998b</li>
+		
+		<li>[5] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>[6] Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>[7] Kittel, G.;Reyes, E.;Evens, J.;Buck, J.;Johnson, D. 2012</li>
+		
+		<li>[8] VegCAMP (CDFW Vegetation Classification and Mapping Program), 2015a</li>
+		
+		<li>[9] Reyes, E.;Evens, J.;Glass, A.;Sikes, K.;Keeler-Wolf., T.;Winitsky, S.;Johnson, D.;Menke, J.;Hepburn, A. 2020a</li>
+		
+		<li>[10] Sikes, K.;Buck-Diaz, J.;Evens, J. 2021</li>
+		
+		<li>[11] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>Allen-Diaz, B.H.;Jackson, R.D.;Phillips, C. 2001</li>
+		
+		<li>Potter, D.A. 2005</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/429/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

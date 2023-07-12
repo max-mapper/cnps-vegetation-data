@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Carex heteroneura</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+	<div class="allianceHeader">
+		<span class="scientificName"><i>Carex</i> <i>heteroneura</i></span> Provisional Herbaceous Alliance <br/>
+		<span class="subtitle">Different-nerve sedge patches</span>
+	</div>
+
+	<div class="mainAllianceInfo">
+
+		<div class="allianceSideInfo">
+			<div class="quickInfoList">
+				<h4>Summary Information</h4>
+				<ul>
+					<li>
+						<span class="category">Primary Life Form</span>Herb
+					</li>
+					<li>
+						<span class="category">Elevation</span>2000-3000 m
+					</li>
+					<li>
+						<span class="category">State Rarity</span>S3?
+					</li>
+					<li>
+						<span class="category">Global Rarity</span>G3?
+					</li>
+					<li>
+						<span class="category">Distribution</span>CAN: AB, BC. USA: AZ, CA, CO, ID, MT, NM, NV, OR, UT, WA, WY (USDA Plants)
+					</li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2009/09/01
+                    </li>
+				</ul>
+			</div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/herb/carex-heteroneura_placerco_07-2002.jpg']
+            </script>
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+		</div>
+
+		
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Carex</i> <i>heteroneura</i> is dominant to co-dominant in the herbaceous layer with <i>Achillea</i> <i>millefolium</i>, <i>Antennaria</i> <i>media</i>, <i>Antennaria</i> <i>rosea</i>, <i>Astragalus</i> spp., <i>Carex</i> <i>microptera</i>, <i>Cryptogramma</i> <i>acrostichoides</i>, <i>Erigeron</i> <i>algidus</i>, <i>Juncus</i> <i>parryi</i>, <i>Lupinus</i> <i>covillei</i>, <i>Pedicularis</i> <i>attollens</i>, <i>Penstemon</i> <i>heterodoxus</i>, <i>Potentilla</i> <i>diversifolia</i>, <i>Potentilla</i> <i>drummondii</i>, <i>Sibbaldia</i> <i>procumbens</i> and <i>Trisetum</i> <i>spicatum</i>. </div>
+</div>
+
+		
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Herbs and subshrubs < 1 m; cover is intermittent to continuous. Moss cover may be abundant. </div>
+</div>
+
+		
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Mesic subalpine to alpine meadows and adjacent rocky slopes. Soils are well drained to seasonally wet. The USFWS Wetland Inventory (1996 national list) recognizes <i>Carex heteroneura</i> as a FAC plant. </div>
+</div>
+
+		
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance, and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Alpine habitat, Sedge series, Subalpine meadow habitat
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Alpine grasses and forbs, Alpine mixed scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Wet subalpine or alpine meadow, Sierra Nevada fell-field
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Alpine fell-fields, Red fir forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Alpine dwarf-shrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>45.115.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+	</div>
+
+
+	<!-- collapsable content below -->
+
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Carex heteroneura </i>is a caespitose, robust subalpine sedge with green leaves and stems to 100 cm. It usually forms 2-4 short spikelets with dark scales, though its spikelets and fruits can vary in size, shape, and color. Stands of the alliance occur in a patchwork with other mesic meadow and rocky-slope vegetation types. </div>
+</div>
+
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Observations</h4>
+	<div class="text"> The range of <i>Carex heteroneura</i> includes the Inyo Mountains (341Fb), Klamath Mountains (M261A), San Bernardino, San Gabriel, and San Jacinto mountains (M262Be, Bh, Bm), Sierra Nevada (M261Eo), Southern Cascades (M261B), Sweetwater Mountains (341Dd), and Warner Mountains (M261Gf). Benedict (1983) recognized a <i>Carex heteroneura-Achillea millefolium</i> association from three stands at Sequoia National Park, occurring on dry/wet meadow borders in the central Sierra Nevada. At least five other surveys completed during a recent vegetation mapping project of the park (S. Haultain, pers. comm. 2003) contained <i>C. heteroneura</i> as the strong dominant. Taylor (1979, see Cheng 2004) established a <i>Carex-Deschampsia</i> association at McAfee RNA in the White Mountains (341Dj) with a dense sod of <i>C. heteroneura</i> and <i>C. incurviformis</i> in wet, seepy alpine areas. We need more sampling and analysis to better characterize the alliance and understand relationships with other subalpine alliances. </div>
+</div>
+
+	
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Benedict, N.B. 1983</li>
+		
+		<li>Cheng, S. 2004</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+	<script src="/static/javascript/alliance_page.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

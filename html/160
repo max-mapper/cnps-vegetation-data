@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Ceanothus crassifolius</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Ceanothus</i> <i>crassifolius</i></span> Shrubland Alliance <br/>
+        <span class="subtitle">Hoary leaf ceanothus chaparral</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>40-1300 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S4
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G4
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA. Baja California, Mexico (TJM2)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>Yes
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/ceanothus-crassifolius_ironmtntrail_01-10_01.jpg', '/static/images/photos/shrub/ceanothus-crassifolius_ironmtntrail_01-10_02.jpg', '/static/images/photos/shrub/ceanothus-crassifolius_ironmtntrail_01-10_03.jpg', '/static/images/photos/shrub/ceanothus-crassifolius_santamonicamtnsnra_0305_01.jpg', '/static/images/photos/shrub/ceanothus-crassifolius_santamonicamtnsnra_0305_02.jpg', '/static/images/photos/shrub/ceanothus-crassifolius_simihills_03-03_01.jpg', '/static/images/photos/shrub/ceanothus-crassifolius_simihills_03-03_02.jpg', '/static/images/photos/shrub/ceanothus-crassifolius_simihills_03-03_03.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Ceanothus</i> <i>crassifolius</i> is dominant or co-dominant in the shrub canopy with <i>Adenostoma</i> <i>fasciculatum</i>, <i>Arctostaphylos</i> <i>glauca</i>, <i>Ceanothus</i> <i>leucodermis</i>, <i>Cercocarpus</i> <i>montanus</i>, <i>Diplacus</i> <i>aurantiacus</i>, <i>Eriogonum</i> <i>fasciculatum</i>, <i>Hesperoyucca</i> <i>whipplei</i>, <i>Heteromeles</i> <i>arbutifolia</i>, <i>Keckiella</i> <i>antirrhinoides</i>, <i>Malosma</i> <i>laurina</i>, <i>Quercus</i> <i>berberidifolia</i>, <i>Rhus</i> <i>ovata</i> and <i>Salvia</i> <i>mellifera</i>. Emergent trees may be present at low cover, including <i>Quercus</i> <i>agrifolia</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 3.5 m; canopy is intermittent to continuous. Herbaceous layer is open. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li>Both <i>Ceanothus crassifolius</i> and <i>Adenostoma fasciculatum</i> have 30%-60% relative cover in the shrub canopy (cf. Gordon and White 1994, Klein and Evens 2005).</li>
+		
+		<li><i>Ceanothus crassifolius</i> > 60% relative cover in the shrub canopy (Gordon and White 1994).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Slopes, often south facing. Soils are shallow and rocky.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Chamise-hoaryleaf ceanothus series, Hoaryleaf ceanothus
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Adenostoma fasciculatum shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Lower montane mixed chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Granitic southern mixed chaparral, Mafic southern mixed chaparral, Chamise chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Chamise-redshank chaparral, Mixed chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>37.208.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Mediterranean Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Mediterranean Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>California Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>California Chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Californian xeric chaparral
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Ceanothus crassifolius </i>is an evergreen shrub with rigid branches that attains 3.5 m in height. It is an obligate seeder that produces a long-persisting seed bank. As with similar <i>Ceanothus </i>species, at 5 years, shrubs begin producing seeds, which are explosively shed from the plant as the capsule breaks. Most of the seed drops beneath the crowns of the shrub, but some land far from the plant. Seed predation by small mammals and insects may be high (Quinn 1994). Under periods of prolonged drought, outer canopy branchlets may undergo progressive dieback (Davis et al. 2002). <br/>
+<br/>
+Two intergrading varieties exist, var. <i>crassifolius </i>with lower leaf blades densely tomentose and var. <i>planus </i>with lower leaf blades sparsely tomentose (Fross and Wilken 2006). They have similar ecology, so we include both in this alliance. <br/>
+<br/>
+Monotypic stands of <i>C. crassifolius </i>occur in post-fire situations where the fire cycle averages 20-25 years. Older stands are invaded by <i>Heteromeles arbutifolia </i>and <i>Quercus berberidifolia, </i>though <i>C. crassifolius </i>shrubs can persist for more than 100 years (Keeley 1992a). Mixed stands of <i>Adenostoma fasciculatum </i>with <i>C. crassifolius </i>tend to occur on south-facing slopes on granitic and metamorphic substrates. They occur in areas with recent fire disturbance, usually within the last 60 years, and in areas with frosty winter nights. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Ceanothus crassifolius</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Shrub; evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Long</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; expulsion from capsule</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Heat</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-sensitive; thin epidermis; no/low sprouter; canopy architecture susceptible</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>5-100+ years </td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Medium (obligate seeder)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text"><i>Ceanothus crassifolius </i>is an obligate seeder, and heat from a fire stimulates seed germination (Quick 1959). Thousands of seedlings establish after fire in the rainy season (Horton and Kraebel 1955, Keeley and Soderstrom 1986). Dense stands of this alliance develop within 10-20 years after a fire. Depending on the site history, <i>Adenostoma fasciculatum </i>may reach cover similar to that of <i>C. crassifolius</i>. Stands begin to self-thin after 20 years, and <i>C. crassifolius </i>can exhibit more than 50% die-off (Riggan et al. 1988). Accumulation of dead branches in older stands increases the possibility of high-intensity fires with time. <i>C. crassifolius </i>will reoccupy sites with moderate- to highintensity fires, while <i>A. fasciculatum </i>is stimulated at lower-intensity fires (Gordon and White 1994).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Medium (10-100 years)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Late summer-fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Medium to large; up to and beyond stand
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low to moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>High
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>High to very high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Active-independent crown fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Southern California
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Southern California Coast</b> (261Ba-b, Be-g, Bi). Stands exist in the higher elevations of the Santa Monica Mountains, in the Simi Hills (Keeler-Wolf and Evens 2006), and in the Santa Ynez Mountains (Borchert et al. 2004).</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Ba-d, Bf-g, Bj-l, Bn-o). Stands occur in the San Rafael, Santa Ynez, and Topatopa mountains (Borchert et al. 2004), in the Cleghorn Canyon RNA (Cheng 2004), in western Riverside Co. (Klein and Evens 2005), in central San Diego Co. (Evens and San 2005), and generally in the section (Gordon and White 1994).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> <i>Ceanothus crassifolius </i>can have intense, fast-spreading, and potentially large fires, and fire intensity increases as stands mature. Stands develop fuel loadings capable of supporting moderately intense fires within 15-20 years. High mortality of both seedlings and sprouts is likely when fires recur on burns seeded to annual grasses. <i>Lolium perenne, </i>a grass commonly used for re-vegetation following fire, inhibits seedling establishment and shrub growth. The presence of grass increases the likelihood of early burns. Fires occurring at short intervals have the potential to cause significant changes in species density and composition (Odion and Davis 2000). Although <i>C. crassifolius </i>can persist in the seed bank for many years, shrubs tend to senesce after 60-80 years. A very long interval without disturbance favors <i>Adenostoma fasciculatum. </i> </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+                <p>Associations with <i>Adenostoma fasciculatum</i> and <i>Ceanothus crassifolius</i> Co-Dominance</p>
+            
+            <ul class="text">
+                
+                    <li>Ceanothus crassifolius - Adenostoma fasciculatum [3], [5], [6], [10]</li>
+                
+                    <li>Ceanothus crassifolius - Adenostoma fasciculatum - Malosma laurina [4], [8]</li>
+                
+                    <li>Ceanothus crassifolius - Adenostoma fasciculatum - Rhus ovata [5]</li>
+                
+                    <li>Ceanothus crassifolius - Adenostoma fasciculatum - Salvia mellifera [3], [5]</li>
+                
+            </ul>
+        
+            
+                <p>Associations with <i>Ceanothus crassifolius</i> Dominance or Co-Dominance</p>
+            
+            <ul class="text">
+                
+                    <li>Ceanothus crassifolius [1], [2], [3], [4], [7]</li>
+                
+                    <li>Ceanothus crassifolius - Adenostoma fasciculatum - Xylococcus bicolor [2], [5]</li>
+                
+                    <li>Ceanothus crassifolius - Cercocarpus montanus [5]</li>
+                
+                    <li>Ceanothus crassifolius - Malosma laurina [4], [5]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Borchert, M.;Lopez, A.;Bauer, C.;Knowd, T. 2004</li>
+		
+		<li>[2] Evens, J.;San, S. 2005</li>
+		
+		<li>[3] Gordon, H.J.;White, T.C. 1994</li>
+		
+		<li>[4] Keeler-Wolf, T.;Evens, J. 2006</li>
+		
+		<li>[5] Klein, A.;Evens, J. 2005</li>
+		
+		<li>[6] White, S.D. 1994a</li>
+		
+		<li>[7] Sproul, F.;Keeler-Wolf, T.;Gordon-Reedy, P.;Dunn, J.;Klein, A.;Harper, K. 2011</li>
+		
+		<li>[8] AECOM, 2013</li>
+		
+		<li>[10] Reyes, E.;Johnson, D.;Glass, A. 2019</li>
+		
+		<li>Barry, W.J. 1989a</li>
+		
+		<li>Barry, W.J. 1989b</li>
+		
+		<li>Hanes, T.L. 1971</li>
+		
+		<li>Hanes, T.L. 1977</li>
+		
+		<li>Hanes, T.L. 1981</li>
+		
+		<li>Hanes, T.L. 1994</li>
+		
+		<li>Horton, J.S. 1960</li>
+		
+		<li>Horton, J.S.;Kraebel, C.J. 1955</li>
+		
+		<li>Keeley, J.E. 1987c</li>
+		
+		<li>Keeley, J.E. 1991</li>
+		
+		<li>Keeley, J.E. 1992a</li>
+		
+		<li>Keeley, J.E. 1993b</li>
+		
+		<li>Keeley, J.E.;Keeley, S.C. 1988</li>
+		
+		<li>Keeley, J.E.;Soderstrom, T.J. 1986</li>
+		
+		<li>McMurray, N. 1990a</li>
+		
+		<li>Menke, J.;Reyes, E.;Hepburn, A.;Johnson, D.;Reyes, J. 2013</li>
+		
+		<li>Mills, J.N. 1983</li>
+		
+		<li>Minnich, R.A. 1976</li>
+		
+		<li>Montygierd-Loyba, T.M.;Keeley, J.E. 1987</li>
+		
+		<li>Moreno, J.M.;Oechel, W.C. 1991</li>
+		
+		<li>Moreno, J.M.;Oechel, W.C. 1992</li>
+		
+		<li>Moreno, J.M.;Oechel, W.C. 1993</li>
+		
+		<li>Pase, C.P. 1982a</li>
+		
+		<li>Patric, J.H.;Hanes, T.L. 1964</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Black, H.;Bleich, V.C.;Mincks, J.W. 1980</li>
+		
+		<li>Riggan, P.J.;Goode, S.;Jacks, P.M.;Lockwood, R.N. 1988</li>
+		
+		<li>Shiflet, T.N. 1994</li>
+		
+		<li>Thorne, R.F. 1976</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program);AIS, 2013</li>
+		
+		<li>Vogl, R.J. 1976</li>
+		
+		<li>Vogl, R.J.;Schorr, P.K. 1972</li>
+		
+		<li>White, S.D. 1994d</li>
+		
+		<li>Zammit, C.A.;Zedler, P.H. 1988</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/160/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Pinus contorta ssp. contorta</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Pinus</i> <i>contorta</i> ssp. <i>contorta</i></span> Forest &amp; Woodland Alliance <br/>
+        <span class="subtitle">Beach pine forest and woodland</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Tree
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-150 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G5
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>CAN: BC. USA: AK, CA, OR, WA. (FEIS) (USDA Plants)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/tree/pinus-contorta-contorta_lanpheredunes.jpg', '/static/images/photos/tree/pinus-contorta-contorta_samoapeninsula.jpg', '/static/images/photos/tree/pinus-contorta-contorta_juncus-breweri_ma-lel_dunes_humboldtco_02-12.jpg', '/static/images/photos/tree/pinus-contorta-contorta_ma-lel_dunes_humboldtco_02-12_01.jpg', '/static/images/photos/tree/pinus-contorta-contorta_ma-lel_dunes_humboldtco_02-12_02.jpg', '/static/images/photos/tree/pinus-contorta-contorta_ma-lel_dunes_humboldtco_02-12_03.jpg', '/static/images/photos/tree/pinus-contorta-contorta_ma-lel_dunes_humboldtco_02-12_04.jpg', '/static/images/photos/tree/pinus-contorta-contorta_ma-lel_dunes_humboldtco_02-12_05.jpg', '/static/images/photos/tree/pinus-contorta-contorta_ma-lel_dunes_humboldtco_02-12_06.jpg', '/static/images/photos/tree/pinus-contorta-contorta_ma-lel_dunes_humboldtco_02-12_07.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Pinus</i> <i>contorta</i> ssp. <i>contorta</i> is dominant in the tree canopy with <i>Abies</i> <i>grandis</i>, <i>Arbutus</i> <i>menziesii</i>, <i>Picea</i> <i>sitchensis</i>, <i>Pinus</i> <i>muricata</i>, <i>Pseudotsuga</i> <i>menziesii</i> and <i>Tsuga</i> <i>heterophylla</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text"> Trees < 25 m; canopy is intermittent to continuous. Shrubs are common or rare. Herbaceous layer is sparse or abundant; moss and lichen are usually abundant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Pinus contorta</i> ssp. <i>contorta</i> > 50% relative cover in the tree layer (requires further development in California).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Coastal dunes, seaside bluffs, exposed rocky headlands with salt spray and winds. Soils are skeletal, sandy, and may be excessively or poorly drained; , some may be temporarily flooded. The USFWS Wetland Inventory (1996 national list) recognizes <i>Pinus contorta</i> ssp. <i>contorta</i> as a FAC plant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Beach pine series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Pinus contorta forest alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Shore pine
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Beach pine forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Closed-cone pine forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Closed-cone pine-cypress
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>87.060.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Tree Vegetation (Forest and Woodland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Cool Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North America Cool Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Vancouverian  Rainforest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Vancouverian hypermaritime lowland rainforest
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Pinus contorta </i>includes four subspecies that have very different ecologies (Lotan and Critchfield 1990). Cones of <i>P. contorta </i>ssp. <i>contorta </i>tend to open at maturity but remain attached to the branches. Trees grow to 15 m in height and live for 100 years. They begin producing cones within 10 years. Seed crops usually occur every other year. Seed falls within 60 m of source trees, and seed viability is as high as 80 percent. Plants are shade intolerant (Cope 1993b). <br/>
+<br/>
+Stands occur on the North Coast of California and north along the coastline to Alaska. They occur on the leeward sides of active sand, stabilized dunes, marshy sloughs, rocky headlands, and bluffs subject to fog drip, heavy wind, and salt spray. In California, stands are small and scattered (Barbour 2007, Pickart and Barbour 2007, Vogl et al. 1977). Stands typically have abundant growth of nonvascular plants on the ground and trees, including two rare maritime lichens, <i>Bryoria spiralifer </i>and <i>B. pseudocapillaris </i>(Glavich 2003). <br/>
+<br/>
+The populations of <i>P. contorta </i>in the Klamath Mountains of southwestern Oregon and northwestern California (Critchfield 1957, Peck 1961) are most confusing. Coastal trees of ssp. <i>contorta </i>have persistent cones that open on the tree. Montane trees of ssp. <i>murrayana </i>have deciduous cones that open at maturity. Trees that grow on ultramafics of the Josephine ophiolite in the western Siskiyou Mountains, only 10 km east of the coast, have cones that are persistent and closed at maturity. These trees share characters with ssp. <i>latifolia </i>of the Rocky Mountains. Critchfield (1957) referred to these populations as “the Del Norte race,” suggesting that they might be another subspecies. Biven (1986) and Oliphant (1992) found different populations to be morphological and chemically variable, sharing leaf characteristics with plants of the coast and Rocky Mountains. We await molecular studies, and we include these populations in this alliance for now. <br/>
+<br/>
+Some authors recognize another taxon as ssp. <i>bolanderi, </i>the Mendocino Sands shore pine, which is a CNPS list 1B.2 plant. However, other studies (Wheeler and Critchfield 1985, Aitken and Libby 1994) showed this to be less distinct from ssp. <i>contorta. </i>It is recognized as a variety within ssp. <i>contorta </i>as var. <i>bolanderi </i>by some, and as a synonym of <i>contorta </i>(Kral 1993). We currently accept <i>P. contorta </i>ssp. <i>bolanderi, </i>and stands with this pine occur with <i>Hesperocyparis pigmaea </i>and <i>Pinus muricata </i>alliances and in this alliance. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Pinus contorta ssp. contorta</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Tree; evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; wind</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-sensitive; high flammability </td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>(5)10-100 years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>By subspecies</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text"><i>Pinus contorta </i>ssp. <i>contorta </i>is sensitive to fire and probably killed by most fires. The foliage is moderately flammable. Presence of shade-tolerant firs and hemlocks and fire-sensitive species, such as shore pine, indicate that fire is rare in this area. Fire return intervals are likely from 150 to 350 years and may not be cyclic (Cope 1993b). Ecologists in California have included stands of this species in their discussions of the state’s closed pines (see Barbour 2007, Stuart and Stephens 2006, Vogl et al. 1977), even though this conifer lacks serotinous cones and assumedly some role of fire. Green (1999) studied stands with trees exceeding 100 years in age at the Lanphere Dunes Unit of Humboldt Bay National Wildlife Refuge, where trees lacked charred bark, fire scars, or charcoal. Wind appeared to be the agent of stand disturbance.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Truncated long
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Summer-fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Medium
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>High
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Very high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Passive-active crown
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>North Coast
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Klamath Mountains</b> (M261Ab). Stands on ultramafics described by Duebendorfer (1987) and Whittaker (1960) have distinctive understories of sclerophyllous shrubs not found elsewhere in the state (see Table 10.6 in Sawyer 2007).</li>
+        
+            <li><b>Northern California Coast</b> (263Aa, Ae, Ah-i). Larger stands are scattered mainly on coastal dunes north of Point Arena, near Fort Bragg in Mendocino Co., west of Humboldt Bay in Humboldt Co., and in the Point Saint George area in Del Norte Co. Green (1999) presented age, structure, and species composition in terms of tree density, basal area for stands at Lanphere Dunes (Barbour 2007, Pickart and Barbour 2007). Stands occur as far south as Mendocino Co. in white sand pine barrens along the coast (<i>P. contorta</i> ssp. <i>bolanderi</i>).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Many fungal pathogens, especially red ring rot (<i>Phellinus pini</i>), attack this species. Wind is another important disturbance factor in stands. Some stands are self-replacing; others are not (Green 1999). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Pinus contorta ssp. contorta [1], [2]</li>
+                
+                    <li>Pinus contorta ssp. contorta - Picea sitchensis [1]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Green, S. 1999</li>
+		
+		<li>[2] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2020</li>
+		
+		<li>Barbour, M.G. 2007</li>
+		
+		<li>Barbour, M.G.;Johnson, A.F. 1977</li>
+		
+		<li>Barry, W.J. 1989a</li>
+		
+		<li>Barry, W.J. 1989b</li>
+		
+		<li>Cheatham, N.H.;Haller, J.R. 1975</li>
+		
+		<li>Cope, A.B. 1993b</li>
+		
+		<li>Griffin, J.R.;Critchfield, W.B. 1972</li>
+		
+		<li>Koch, P. 1995</li>
+		
+		<li>Lotan, J.E.;Critchfield, W.B. 1990</li>
+		
+		<li>Sawyer, J.O. 2007</li>
+		
+		<li>Thorne, R.F. 1976</li>
+		
+		<li>Vogl, R.J.;Armstrong, W.P.;White, K.L.;Cole, K.L. 1977</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/48/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

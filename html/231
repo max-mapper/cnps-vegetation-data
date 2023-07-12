@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Lupinus chamissonis - Ericameria ericoides</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Lupinus</i> <i>chamissonis</i> - <i>Ericameria</i> <i>ericoides</i></span> Shrubland Alliance <br/>
+        <span class="subtitle">Silver dune lupine - mock heather scrub</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-30 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G3
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA. Mexico (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/lupinus-chamissonis_ericameria-ericoides_amolerasp_07-09_01.jpg', '/static/images/photos/shrub/lupinus-chamissonis_ericameria-ericoides_amolerasp_07-09_02.jpg', '/static/images/photos/shrub/lupinus-chamissonis_ericameria-ericoides_smat0166_anonuevo_06-19.jpg', '/static/images/photos/shrub/lupinus-chamissonis-ericameria-ericoides_ptreyes_2006.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Ericameria</i> <i>ericoides</i> and <i>Lupinus</i> <i>chamissonis</i> occur characteristically together or alone in the shrub canopy with <i>Artemisia</i> <i>californica</i>, <i>Artemisia</i> <i>pycnocephala</i>, <i>Ephedra</i> <i>californica</i>, <i>Isocoma</i> <i>menziesii</i>, <i>Lupinus</i> <i>arboreus</i>, <i>Opuntia</i> <i>littoralis</i>, <i>Rhus</i> <i>integrifolia</i> and <i>Toxicodendron</i> <i>diversilobum</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 1 m; canopy is open to continuous. Herbaceous layer is open to intermittent. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Lupinus chamissonis</i> and/or <i>Ericameria ericoides</i> are conspicuous (Keeler-Wolf et al. 2003a).</li>
+		
+		<li><i>Ericameria ericoides</i> and/or <i>Lupinus chamissonis</i> > 50% relative cover in the shrub canopy, or in combination with each other > 30% relative cover with <i>Baccharis pilularis</i> or <i>Lupinus arboreus</i> (Buck-Diaz et al. 2021, Sikes et al. 2021).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Stabilized dunes of coastal bars, river mouths, spits along coastlines, coastal bluffs, and terraces.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Dune lupine-goldenbush series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Isocoma menziesii-Lupinus chamissonis-Ericameria ericoides shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>California sagebrush
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Central dune scrub, Southern dune scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Coastal sage scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Coastal scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>32.160.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate and Boreal Shrubland and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate and Boreal Scrub and Herb Coastal Vegetation
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Pacific Coast Scrub and Herb Littoral Vegetation
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Vancouverian Coastal Dune and Bluff
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>California Coastal evergreen bluff and dune scrub
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Lupinus chamissonis </i>is a medium-sized shrub well adapted to open, sandy environments. Its symbiotic relationship with root bacteria enables it to fix nitrogen in the soil, enabling the plants to survive in nutrient-depleted or infertile sands. <br/>
+<br/>
+<i>Ericameria ericoides </i>is a mounded shrub branching from a compact base. Plants produce an abundance of small, viable, plumed seeds. Seeds are easily dispersed, even long distances by wind. Seedling establishment occurs in years when soil moisture allows sufficient root development. The name <i>Haplopappus ericoides </i>is used in the older literature. <br/>
+<br/>
+The alliance occurs as isolated patches along California coastlines. It shares species with the <i>Abronia latifolia</i>- <i>Ambrosia chamissonis </i>and other coastal bluff scrub alliances. Stands tend to occupy more exposed settings on stabilized dunes and near-shore uplifted terraces compared to other coastal shrubby alliances such as <i>Lupinus arboreus </i>or <i>Baccharis pilularis</i>. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Ericameria ericoides</th>
+			
+		
+			
+			<th>Lupinus chamissonis</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Shrub; evergreen</td>
+			
+		
+			
+			<td>Shrub; evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Transient</td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+			
+			<td>Long</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; gravity; wind</td>
+			
+		
+			
+			<td>Animal; expulsion from capsule; gravity </td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>None; scarification</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-sensitive; no/low sprouter</td>
+			
+		
+			
+			<td>Fire-sensitive; no/low sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>5?-50? years</td>
+			
+		
+			
+			<td>2 to 15 years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td>Low to moderate</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Fire fuels and ignition rates are naturally low. Other disturbances, such as shifting sands, blow-outs, and burial and water-caused erosion around barrier beaches and lagoon edges, are typical forces of change in this alliance.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Long
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Late summer-fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Small
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Low
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Very high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Surface-passive crown
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Central Coast
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Af, Ah-l). Stands dominated by <i>Ericameria ericoides</i> occur generally along the coast (Pickart and Barbour 2007). Stands at Salinas River State Beach (Bluestone 1981) and at Vandenberg Air Base (Barbour and Johnson 1977) are mixed with several other species.</li>
+        
+            <li><b>Northern California Coast</b> (263Ag-k). Stands range north to Mendocino Co.; they have been described at Point Reyes National Seashore (Holton and Johnson 1979, Keeler-Wolf et al. 2003a). They are rarely mixed, instead either <i>Ericameria ericoides</i> or <i>Lupinus chamissonis</i> dominates. Some stands have high cover of <i>Ambrosia chamissonis</i> or <i>Artemisia pycnocephala.</i> The presence of non-native annual grasses in some stands suggests increased nutrient status from nitrogen-fixing bacteria of <i>Lupinus</i> spp. (Pickart and Sawyer 1998).</li>
+        
+            <li><b>Southern California Coast</b> (261Ba-b, Bd, Bf-g). Stands exist at Nipomo Dunes in San Luis Obispo Co. and they occur farther south to Ventura and Los Angeles Cos. on sandy bluffs and dunes. Stands with <i>E. ericoides</i> and <i>Coreopsis gigantea</i> in the Point Dume area of the Santa Monica Mountains are members of the <i>Coreopsis gigantea</i> alliance (Keeler-Wolf and Evens 2006).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> <i>Ammophila arenaria </i>and <i>Carpobrotus edulis </i>displace species in this alliance and change environmental conditions if not controlled in this alliance. Pickart and Sawyer (1998) review methods of control. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Ericameria ericoides [1], [6]</li>
+                
+                    <li>Lupinus chamissonis [2], [5], [6]</li>
+                
+                    <li>Lupinus chamissonis - Ericameria ericoides [2], [3], [4], [5], [6]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Bluestone, V. 1981</li>
+		
+		<li>[2] Holton, B.;Johnson, A.F. 1979</li>
+		
+		<li>[3] Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>[4] Keeler-Wolf, T .;Schirokauer, D.;Meinke, J.;van derLeeden, P. 2003a</li>
+		
+		<li>[5] Sikes, K.;Buck-Diaz, J.;Evens, J. 2021</li>
+		
+		<li>[6] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>Barbour, M.G. 1970</li>
+		
+		<li>Barbour, M.G.;Johnson, A.F. 1977</li>
+		
+		<li>Barbour, M.G.;Schmida, A.;Johnson, A.F.;Holton, B. 1981a</li>
+		
+		<li>Breckon, G.J. 1974</li>
+		
+		<li>Jones, K.G. 1984</li>
+		
+		<li>Peinado, M.;Ocana-Peinado, F.M.;Aguirre, J.L.;Delgadillo, J.;Macias, M.A.;Diaz-Santiago, G. 2011</li>
+		
+		<li>Pickart, A.J.;Barbour, M.G. 2007</li>
+		
+		<li>Russell, E.W. 1983</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/231/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Simmondsia chinensis</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+	<div class="allianceHeader">
+		<span class="scientificName"><i>Simmondsia</i> <i>chinensis</i></span> Provisional Shrubland Alliance <br/>
+		<span class="subtitle">Jojoba scrub</span>
+	</div>
+
+	<div class="mainAllianceInfo">
+
+		<div class="allianceSideInfo">
+			<div class="quickInfoList">
+				<h4>Summary Information</h4>
+				<ul>
+					<li>
+						<span class="category">Primary Life Form</span>Shrub
+					</li>
+					<li>
+						<span class="category">Elevation</span>580-880 m
+					</li>
+					<li>
+						<span class="category">State Rarity</span>S3?
+					</li>
+					<li>
+						<span class="category">Global Rarity</span>G4
+					</li>
+					<li>
+						<span class="category">Distribution</span>USA: CA, AZ (NatureServe)
+					</li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2009/09/01
+                    </li>
+				</ul>
+			</div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/simmondsia-chinensis_oakgroveer_05-10_01.jpg', '/static/images/photos/shrub/simmondsia-chinensis_oakgroveer_05-10_02.jpg', '/static/images/photos/shrub/simmondsia-chinensis_oakgroveer_05-10_03.jpg']
+            </script>
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+		</div>
+
+		
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Simmondsia</i> <i>chinensis</i> is dominant or co-dominant in the shrub canopy with <i>Artemisia</i> <i>californica</i>, <i>Cylindropuntia</i> <i>californica</i>, <i>Echinocereus</i> <i>engelmannii</i>, <i>Encelia</i> <i>actonii</i>, <i>Encelia</i> <i>farinosa</i>, <i>Eriogonum</i> <i>fasciculatum</i>, <i>Gutierrezia</i> <i>sarothrae</i>, <i>Lotus</i> <i>scoparius</i>, <i>Opuntia</i> <i>basilaris</i>, <i>Rhus</i> <i>ovata</i>, <i>Salvia</i> <i>mellifera</i> and <i>Yucca</i> <i>schidigera</i>. </div>
+</div>
+
+		
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 5 m; shrub canopy is open to intermittent and two tiered. Herbaceous
+layer is open. </div>
+</div>
+
+		
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Upland, well-drained slopes and alluvial fans. Soils are loamy sands and sandy loams.  </div>
+</div>
+
+		
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance, and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Simmondsia chinensis shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Sonoran mixed woody and succulent scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Coastal scrub, Desert scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>33.005.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+	</div>
+
+
+	<!-- collapsable content below -->
+
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Simmondsia chinensis </i>is a rigid, many-branched shrub attaining a height of 2 m. The leaves are simple, evergreen, gray-green, and leathery. Its root system is extensive, often extending up to 10 m from the plant. Plants are dioecious, and pistillate plants develop nutlike capsules with one to three seeds. Small mammals collect and cache the seeds, which germinate following summer rains. Roots and stems sprout, and clones extend outward to form rings in old clones as seen in <i>Larrea tridentata. </i>Seeds are rich in oil that is used in foods, lubricants, waxes, disinfectants, and as a base for shampoos, creams, and ointments. It is cultivated extensively in many arid areas within and beyond California (Gentry 1958). </div>
+</div>
+
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Observations</h4>
+	<div class="text"> Klein and Evens (2005) described a <i>Simmondsia chinensis-Eriogonum fasciculatum-Cylindropuntia californica</i> association in the Perris Valley (M262Bk) and Cahuilla Mountains (M262Bl) in southern California. Stands containing the species in Anza-Borrego State Desert Park (Keeker-Wolf 1998b), and Joshua Tree National Park (Keeler-Wolf et al. 1998b, Keeler-Wolf et al. 2005) were included in other alliances, including <i>Eriogonum fasciculatum</i> and <i>Lycium andersonii</i> alliances, or they were identified as <i>Simmondsia chinensis</i> unique stands (Thomas et al. 2004). NVCS (NatureServe 2007a) has recognized a <i>Simmondsia chinensis</i> shrubland alliance in Arizona. We need further sampling and analysis to characterize the alliance in California. </div>
+</div>
+
+	
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Klein, A.;Evens, J. 2005</li>
+		
+		<li>Gentry, H.S. 1958</li>
+		
+		<li>Matthews, R.F. 1994d</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+	<script src="/static/javascript/alliance_page.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

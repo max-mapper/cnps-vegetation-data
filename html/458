@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Sarcocornia pacifica (Salicornia depressa)</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Sarcocornia</i> <i>pacifica</i> (<i>Salicornia</i> <i>depressa</i><span style="padding-left: .2em">)</span></span> Herbaceous Alliance <br/>
+        <span class="subtitle">Pickleweed mats</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Herb
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-2 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G4
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>CAN: BC. USA: CA, OR, WA (NatureServe) (BONAP)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/herb/sarcocornia-pacifica_salicornia-depressa_solidadlagoon_10-09_01.jpg', '/static/images/photos/herb/sarcocornia-pacifica_salicornia-depressa_solidadlagoon_10-09_02.jpg', '/static/images/photos/herb/sarcocornia-pacifica_salicornia-depressa_tijuanarvr_10-09_01.jpg', '/static/images/photos/herb/sarcocornia-pacifica_salicornia-depressa_tijuanarvr_10-09_02.jpg', '/static/images/photos/herb/sarcocornia-pacifica_salicornia-depressa_torreypinessp_07-09_01.jpg', '/static/images/photos/herb/sarcocornia-pacifica_salicornia-depressa_sandiegonwr_01-12.jpg', '/static/images/photos/herb/sarcocornia-pacifica-salicornia-depressa_ptreyes_04-2006.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Salicornia</i> <i>depressa</i> or <i>Sarcocornia</i> <i>pacifica</i> is dominant or co-dominant in the subshrub and herbaceous layers with algae and <i>Atriplex</i> <i>patula</i>, <i>Atriplex</i> <i>prostrata</i>, <i>Batis</i> <i>maritima</i>, <i>Bolboschoenus</i> <i>maritimus</i>, <i>Cotula</i> <i>coronopifolia</i>, <i>Crypsis</i> <i>schoenoides</i>, <i>Cuscuta</i> <i>salina</i>, <i>Distichlis</i> <i>spicata</i>, <i>Echinochloa</i> <i>crus</i>-<i>galli</i>, <i>Frankenia</i> <i>salina</i>, <i>Grindelia</i> <i>stricta</i>, <i>Jaumea</i> <i>carnosa</i>, <i>Juncus</i> spp., <i>Lepidium</i> <i>latifolium</i>, <i>Limonium</i> <i>californicum</i>, <i>Monanthochloe</i> <i>littoralis</i>, <i>Persicaria</i> <i>lapathifolia</i>, <i>Sesuvium</i> <i>verrucosum</i>, <i>Spartina</i> <i>foliosa</i>, <i>Suaeda</i> <i>esteroa</i>, <i>Suaeda</i> <i>taxifolia</i>, <i>Triglochin</i> <i>maritima</i> and <i>Xanthium</i> <i>strumarium</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Herbs < 1.5 m; cover is intermittent to continuous. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Sarcocornia pacifica</i> > 10% absolute cover and sometimes over a higher cover of short annual or perennial grasses; if <i>Distichlis spicata</i> ≥ 50% relative cover, stands are in the <i>Distichlis spicata</i> alliance (Keeler-Wolf and Vaghti 2000).</li>
+		
+		<li><i>Sarcocornia pacifica</i> > 50% relative cover and <i>D. spicata</i> < 30% relative cover in the herbaceous layer (Hickson and Keeler-Wolf 2007).</li>
+		
+		<li><i>Sarcocornia pacifica</i> > 50% relative cover in the herbaceous layer (Evens and San 2005, Keeler-Wolf and Evens 2006).</li>
+		
+		<li><i>Sarcocornia pacifica</i> > 50% relative cover, or > 30% relative cover with <i>Distichlis spicata, Jaumea carnosa</i>, and/or <i>Lepidium latifolium</i> (Sikes et al. 2021).</li>
+		
+		<li><i>Sarcocornia pacifica</i> or <i>Triglochin maritima</i> > 50% relative cover, or > 30% relative cover with <i>Distichlis spicata, Frankenia salina, Jaumea carnosa, Triglochin concinna</i>, and/or <i>Lepidium latifolium</i>. Sometimes, <i>Jaumea carnosa</i> or <i>Frankenia</i> is > 50% relative cover with <i>S. pacifica</i> < 30% relative cover (Buck-Diaz et al. 2021).</li>
+		
+		<li><i>Frankenia salina</i> > 30% relative cover in the herbaceous layer, sometimes co-dominant with <i>Sarcocornia pacifica</i> or other herbs and subshrubs (Keeler-Wolf and Evens 2006).</li>
+		
+		<li><i>Frankenia salina</i> > 60% relative cover in the herbaceous layer in tidal marsh settings, <i>Sarcocornia pacifica</i> may be present (Sikes et al. 2021).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Coastal salt marshes, alkaline flats. The USFWS Wetland Inventory (1996 national list) recognizes <i>Sarcocornia pacifica</i> as an OBL plant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Pickleweed series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Salicornia virginica tidal herbaceous alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Pickleweed-Cordgrass
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Northern coastal salt marsh, Southern coastal salt marsh, Cismontane alkali marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Alkali sink, Coastal salt marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Saline emergent wetland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>52.215.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate and Boreal Shrubland and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate and Boreal Salt Marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Temperate and Boreal Pacific Coastal Salt Marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>North American Pacific Coastal Salt Marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Temperate Pacific tidal salt and brackish meadow
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> Taxonomic treatments vary in their determination of pickleweed names. The <i>Jepson Manual </i>(Hickman 1993) used <i>Salicornia virginica </i>for the common perennial pickleweed along the coast of California. A more recent treatment in <i>The Flora of North America </i>(Ball 2003) used <i>Sarcocornia pacifica. </i>This somewhat shrubby perennial has scalelike leaves and fleshy green to reddish stems. It has succulent stems that increase in water content to dilute salts, and plants shed tissues and organs to remove salts (Adams 1990). This species ranges from coastal marshes to inland alkaline seeps. The annual <i>Salicornia depressa </i>grows in salt marshes of southern California and alkaline depressions of the San Francisco Bay region (UCB 2007). Another related species, <i>Salicornia bigelovii, </i>favors marshes in southern California. See also the <i>Arthrocnemum subterminale </i>alliance. <br/>
+<br/>
+In northern California, <i>Sarcocornia pacifica </i>dominates with <i>Cuscuta salina </i>in the high marsh zone slightly above those dominated by the non-native <i>Spartina densiflora; </i>in central California, <i>Sarcocornia pacifica </i>dominates in high- and mid-marsh zones above those dominated by <i>Spartina foliosa</i>. In southern California, Zedler et al. (1999) stated that elevation profiles and vegetation patterns do not have discrete zonation, but they recognize three habitats (high marsh, marsh plain, cordgrass habitat). The high marsh is associated with <i>A. subterminale </i>and <i>C. salina, </i>and the marsh plain or mid marsh is dominated by <i>Batis maritima, Distichlis spicata, Monanthochloe littoralis, </i>and <i>Sarcocornia pacifica. </i>General descriptions are found in Grewell et al. (2007). </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Salicornia depressa</th>
+			
+		
+			
+			<th>Sarcocornia pacifica</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Polycarpic perennial; herb; stem succulent</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Transient</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Short</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Animal; water/hydrological</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Fire-hardy; no/low sprouter to high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Life of plant</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>High</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Fluvial processes rather than fire primarily disturb stands, though <i>Sarcocornia pacifica </i>easily sprouts if burned. Parasitism modifies stand structure and productivity because <i>Cuscuta salina </i>prefers <i>S. pacifica. </i>This process creates natural openings in the canopy and can initiate cycles of salt marsh diversity (Grewell et al. 2007).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Aa-d, Af, Ah, Ak-l). Large stands exist in tidal marshes and diked, non-tidal salt marshes at Elkhorn Slough, Morro Bay, San Francisco Bay, and San Pablo Bay (Atwater et al. 1979, Cuneo 1987, Josselyn 1983, Duke et al. 1999, Baye et al. 2000). Younger marshes tend to have lower species diversity, and <i>Sarcocornia pacifica</i> dominates; older marshes contain complex mosaics of <i>S. pacifica</i> with other plants (Baye et al. 2000). Based on remapping of South San Francisco Bay in 1989 and 1999, a net loss of 40 ha occurred in the middle-salt marsh types of the <i>S. pacifica</i> and the <i>S. pacifica-Spartina foliosa</i> associations (Duke et al. 1999).</li>
+        
+            <li><b>Great Valley</b> (262Al). Stands are part of both natural marshes and managed alkaline wetlands at Suisun Marsh (Baye et al. 2000, Keeler-Wolf and Vaghti 2000). Stands in the Sacramento-San Joaquin River delta include 9 ha mapped in the western portion (Hickson and Keeler-Wolf 2007). However, acreages of the alliance change over short periods because of active management and differing flooding regimes. Based on remapping of Suisun Marsh, a net loss of 280 ha occurred in 4 years from stands of <i>Sarcocornia pacifica</i> to those characterized by <i>Bolboschoenus maritimus</i> and other wetland plants (VegCAMP 2007b).</li>
+        
+            <li><b>Northern California Coast</b> (263Aa, Ac, Ae, Ah-l). Small stands are scattered in marshes along the Pacific coastline at estuaries and river mouths (Grewell et al. 2007); they are extensive around Bodega Head, Drakes Bay, and Tomales Bay in Marin and Sonoma Cos. (Keeler-Wolf et al. 2003a). Stands exist in Manchester State Park in Mendocino Co. (CNPS unpublished data 2020). Stands exist in marshes around Humboldt Bay, at the mouth of the Eel River, and in tidal marshes of Big River estuary (Eicher 1987, Eicher and Sawyer 1989, Newton 1982, 1989, Barnhart et al. 1992, Pickart 2001a, 2001b, 2006, Grewell et al. 2007). Stands of irregularly flooded, diked saline marshes in the Humboldt Bay National Wildlife Refuge (Pickart 2006) are mainly <i>S. pacifica.</i></li>
+        
+            <li><b>Southern California Coast</b> (261Ba-d, Bf-h, Bj). Large stands occur in the marshes at Anaheim Bay, Bolsa Chica, Mission Bay, San Diego Bay, Tijuana Estuary, and Upper Newport Bay (Purer 1942, Vogl 1966, Peinado et al. 1994, J. Zedler 1982, Zedler et al. 1999). Other stands exist at Ballona Lagoon, Los Penasquitos Lagoon (Zedler et al. 1980), Mugu Lagoon (Keeler-Wolf and Evens 2006), and San Dieguito Lagoon (Evens and San 2005). Changes from <i>S. pacifica</i>-dominated salt marsh to <i>Typha domingensis</i>-dominated marsh occurred in San Diego River marshes after prolonged freshwater discharges and increased depth and duration of inundation (J. Zedler 1982). Small stands also exist on the larger Channel Islands (Junak et al. 2007).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Unmanaged tidal wetlands are rare in the state due to a history of diking, dredging, landfill, levees, and intensive management for wildlife (Grewell et al. 2007). Areas of Suisun Marsh (Keeler-Wolf and Vaghti 2000) have been mowed, disked, intentionally burned, and seeded with other wetlands species, such as <i>Atriplex prostrata </i>and <i>Bolboschoenus maritimus. </i>These practices reduce the vigor of <i>Sarcocornia pacifica. </i>
+
+Invasion by non-native plants is another problem. The hybrid cordgrass <i>Spartina alternifolia </i>x <i>S. foliosa </i>is a serious threat in the San Francisco Bay because it rapidly converts open mudflats and tidal marshes to monotypic stands of the hybrid (Ayres et al. 2004, Callaway and Josselyn 1992). Invasion by the non-native genotype of <i>Phragmites australis </i>impacts many stands in Suisun Marsh. <i>Spartina densiflora </i>is widespread in the Humboldt Bay, where pickleweed stands are becoming increasingly rare (Pickart 2006). <i>Polypogon monspeliensis </i>is invading locally; salt can be used to reduce seed germination and growth (Callaway and Zedler 1998). 
+
+<i>Sarcocornia pacifica </i>stands are critical habitat for several rare and listed salt marsh species, such as the California clapper rail (<i>Rallus longirostris obsoletus</i>), salt marsh harvest mouse (<i>Reithrodontomys raviventris</i>), Humboldt Bay owl’s cover (<i>Castilleja ambigua </i>ssp. <i>humboldtiensis</i>), and soft birds-beak (<i>Cordylanthus mollis </i>ssp. <i>mollis</i>). Ecologists consider species richness an important component in restoring vegetation of coastal marshes (Callaway et al. 2002, Zedler et al. 2001). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+                <p>Central California Managed Wetlands</p>
+            
+            <ul class="text">
+                
+                    <li>Sarcocornia pacifica - Atriplex prostrata [2], [7]</li>
+                
+                    <li>Sarcocornia pacifica - Cotula coronopifolia [5], [7], [13], [17]</li>
+                
+                    <li>Sarcocornia pacifica - Crypsis schoenoides [7]</li>
+                
+                    <li>Sarcocornia pacifica - Echinochloa crus-galli - Polygonum - Xanthium strumarium [7]</li>
+                
+                    <li>Sarcocornia pacifica / (Lolium perenne -  Polypogon monspeliensis) [7]</li>
+                
+                    <li>Sarcocornia pacifica - Sesuvium verrucosum [7]</li>
+                
+            </ul>
+        
+            
+                <p>Central California Tidal Marshes</p>
+            
+            <ul class="text">
+                
+                    <li>Frankenia salina - Limonium californicum - Monanthochloe littoralis - Sarcocornia pacifica [6], [18]</li>
+                
+                    <li>Sarcocornia pacifica - Atriplex prostrata [2], [7]</li>
+                
+                    <li>Sarcocornia pacifica - Distichlis spicata [1], [2], [3], [4], [5], [7], [8], [13]</li>
+                
+                    <li>Sarcocornia pacifica - Frankenia salina [2], [11], [13], [15]</li>
+                
+                    <li>Sarcocornia pacifica - Grindelia stricta [1], [2]</li>
+                
+                    <li>Sarcocornia pacifica - Jaumea carnosa [1], [4], [11]</li>
+                
+                    <li>Sarcocornia pacifica - Lepidium latifolium [2], [14]</li>
+                
+                    <li>Sarcocornia pacifica - Spartina foliosa [2]</li>
+                
+                    <li>Sarcocornia pacifica Tidal [1], [2], [7], [9], [11], [14], [17], [18]</li>
+                
+                    <li>Triglochin maritima [19]</li>
+                
+            </ul>
+        
+            
+                <p>Northern California Managed Saline Marshes</p>
+            
+            <ul class="text">
+                
+                    <li>Sarcocornia pacifica Managed [10]</li>
+                
+            </ul>
+        
+            
+                <p>Northern California Tidal Marshes</p>
+            
+            <ul class="text">
+                
+                    <li>Frankenia salina - Limonium californicum - Monanthochloe littoralis - Sarcocornia pacifica [6], [18]</li>
+                
+                    <li>Sarcocornia pacifica - Cuscuta salina - Spartina densiflora [4]</li>
+                
+                    <li>Sarcocornia pacifica - Distichlis spicata [1], [2], [3], [4], [5], [7], [8], [13]</li>
+                
+                    <li>Sarcocornia pacifica - Jaumea carnosa - Distichlis spicata [3], [6], [8], [14], [16], [17], [18]</li>
+                
+                    <li>Triglochin maritima [19]</li>
+                
+            </ul>
+        
+            
+                <p>Southern California Tidal Marshes</p>
+            
+            <ul class="text">
+                
+                    <li>Salicornia bigelovii [11]</li>
+                
+                    <li>Sarcocornia pacifica / algae [6]</li>
+                
+                    <li>Sarcocornia pacifica - Brassica nigra [6]</li>
+                
+                    <li>Sarcocornia pacifica - Distichlis spicata [12]</li>
+                
+                    <li>Sarcocornia pacifica - Frankenia salina - Suaeda taxifolia [6]</li>
+                
+                    <li>Sarcocornia pacifica - Jaumea carnosa - Batis maritima [4], [11]</li>
+                
+                    <li>Sarcocornia pacifica Tidal [1], [2], [7], [9], [11], [14], [17], [18]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Atwater, B.F.;Conrad, S.G.;Dowden, J.N.;Hedel, C.W.;MacDonald, R.L.;Savage, W. 1979</li>
+		
+		<li>[2] Duke, R.R.;Boursier, P.J.;Webb, E.;Busnardo, M.;Bourgeois, J.;Dilworth, A. 1999</li>
+		
+		<li>[3] Eicher, A.L. 1987</li>
+		
+		<li>[4] Grewell, B.J.;Callaway, J.C.;Ferren, W.C. 2007</li>
+		
+		<li>[5] Hickson, D.;Keeler-Wolf, T. 2007</li>
+		
+		<li>[6] Keeler-Wolf, T.;Evens, J. 2006</li>
+		
+		<li>[7] Keeler-Wolf, T.;Vaghti, M. 2000</li>
+		
+		<li>[8] Newton, G.B. 1989</li>
+		
+		<li>[9] Peinado, M.;Alcaraz, F.;Delgadillo, J.;De La Cruz, M.;Alvarez, J.;Aguirre, J.L. 1994</li>
+		
+		<li>[10] Pickart, A.J. 2006</li>
+		
+		<li>[11] Sproul, F.;Keeler-Wolf, T.;Gordon-Reedy, P.;Dunn, J.;Klein, A.;Harper, K. 2011</li>
+		
+		<li>[12] Rodriguez, D.;Sikes, K.;Keeler-Wolf, T.;Kittel, G.;Curtis, J.;Curley, C.;Evens, J. 2017</li>
+		
+		<li>[13] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>[14] Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>[15] AECOM, 2013</li>
+		
+		<li>[16] Buck, J.;Evens, J. 2010</li>
+		
+		<li>[17] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>[18] Sikes, K.;Buck-Diaz, J.;Evens, J. 2021</li>
+		
+		<li>[19] Tukman Geospatial;Aerial Information Systems;Kass Green & Associates, 2021</li>
+		
+		<li>Barnhart, R.A.;Boyd, M.J.;Pequegnat, J.E. 1992</li>
+		
+		<li>Chapman, V.J. 1977</li>
+		
+		<li>Cuneo, K. 1987</li>
+		
+		<li>Evens, J.;San, S. 2005</li>
+		
+		<li>Hendrickson, J. 1976</li>
+		
+		<li>Josselyn, M. 1983</li>
+		
+		<li>MacDonald, K.B. 1977</li>
+		
+		<li>MacDonald, K.B.;Barbour, M.G. 1974</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Black, H.;Bleich, V.C.;Mincks, J.W. 1980</li>
+		
+		<li>Purer, E.A. 1942</li>
+		
+		<li>Schlosser, S.;Eicher, A. 2007</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program), 2012</li>
+		
+		<li>Vogl, R.J. 1966</li>
+		
+		<li>Zedler, J.B.;Nordby, C.S.;Kus, B.E. 1992</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/458/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

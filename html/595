@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Hesperocyparis forbesii - Hesperocyparis nevadensis</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Hesperocyparis</i> <i>forbesii</i> - <i>Hesperocyparis</i> <i>nevadensis</i></span> Woodland Alliance <br/>
+        <span class="subtitle">Tecate cypress - Piute cypress woodland</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Tree
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>300-1850 None
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G3
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA. Baja California, Mexico (USDA Plants) (TJM2) (Calflora)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>Yes
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2021/08/30
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/tree/hesperocyparis-forbesii_tecatapeak.jpg', '/static/images/photos/tree/hesperocyparis-nevadensis_sequoianf_01.jpg', '/static/images/photos/tree/hesperocyparis-nevadensis_sequoianf_02.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Hesperocyparis</i> <i>forbesii</i> or <i>Hesperocyparis</i> <i>nevadensis</i> is dominant in the tree canopy with <i>Juniperus</i> <i>californica</i>, <i>Pinus</i> <i>monophylla</i>, <i>Pinus</i> <i>sabiniana</i> or <i>Quercus</i> <i>douglasii</i> and emergent above a shrub canopy with <i>Adenostoma</i> <i>fasciculatum</i>, <i>Arctostaphylos</i> <i>glandulosa</i>, <i>Arctostaphylos</i> <i>glauca</i>, <i>Arctostaphylos</i> <i>otayensis</i>, <i>Ceanothus</i> <i>crassifolius</i>, <i>Ceanothus</i> <i>cuneatus</i>, <i>Ceanothus</i> ×<i>otayensis</i>, <i>Chamaebatia</i> <i>australis</i>, <i>Dendromecon</i> <i>rigida</i>, <i>Helianthemum</i> <i>scoparium</i>, <i>Malosma</i> <i>laurina</i>, <i>Pickeringia</i> <i>montana</i>, <i>Quercus</i> <i>berberidifolia</i>, <i>Salvia</i> <i>munzii</i> or <i>Xylococcus</i> <i>bicolor</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text"> Trees < 15 m; canopy is open to intermittent. Shrub layer is intermittent to continuous. Herbaceous layer is sparse to intermittent. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Hesperocyparis forbesii</i> > 50% relative cover in the tree layer and/or emergent over a layer of chapparal  (AECOM 2013, Sproul et al. 2013).</li>
+		
+		<li><i>Hesperocyparis nevadensis</i> > 30% relative cover in the tree canopy (Ratchford et al. 2022a).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Dry, exposed hillsides and ridgetops, stream banks, and arroyos. Soils are deep or shallow over alkaline clay, sandstone, granitic, metamorphic, mafic, and ultramafic substrates.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Puite cypress unique stands, Tecate cypress stands
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Piute cypress, Tecate cypress
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Southern interior cypress forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Chaparral, Close-cone pine forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Closed-cone pine-cypress
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>81.609.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Tree Vegetation (Forest and Woodland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Warm Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Madrean Forest and Woodland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>California Forest and Woodland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Californian evergreen coniferous forest and woodland
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Hesperocyparis forbesii </i>is a fire-maintained, closed-cone conifer with multiple trunks and shrubby growth that attains a height to 10 m. On sites with high density after fire, plants can be dwarfed and only reach 1-2 m at maturity (Stottlemyer and Lathrop 1981). Trees usually grow vigorously for 90 years; the oldest known tree is more than 200 years old (Keeley and Davis 2007, Vogl et al. 1977). Seedlings are shade intolerant and establish best on bare mineral soil. Foliage is lost when growing in shade. Chaparral plants inhibit the establishment of <i>H. forbesii, </i>but most chaparral species cannot compete on infertile soils where the trees grow (Armstrong 1978, Barbour 2007). <br/>
+<br/>
+<i>Hesperocyparis nevadensis </i>is a small-sized conifer that grows to a height of 15 m. Cone production is abundant on mature trees. Cones remain closed and persist on trees until opened by heat, desiccation, or age. Seeds shed gradually over several months after cones open. Seed germination and seedling establishment are best on bare mineral soil. Seedlings are sensitive to excessive moisture (Barbour 2007, Sullivan 1993b). <i>H. nevadensis </i>is the most xerophytic of the California cypresses. Average annual precipitation of the known stands is about 22.9 cm/year. Unlike other cypresses in the state, <i>H. nevadensis </i>appears to have a relatively wide tolerance for a variety of soil types.The genus <i>Cupressus </i>is restricted to the Old World; cypresses in California belong to the genus <i>Hesperocyparis </i>(Bartel et al. 2003, Little 2006, Adams et al. 2009, Terry et al. 2012). <br/>
+<br/>
+Stands of <i>Hesperocyparis forbesii </i> exist in the Santa Ana Mountains, on Sierra Peak and in Gypsum Canyon in Orange Co., and in the California portion of the Peninsular Ranges on Guatay Mountain, Otay Mountain, and Tecata Peak in San Diego Co. It is considered a CNPS list 1B.1 plant in California. Stands are numerous in Baja California in the Sierra Bola north of Valle Guadalupe, in the hills near La Puerta, in the mountains east of the bay of Ensenada, in the coastal bluffs west of San Vicente, and locally in the coastal foothills west of the Sierra San Pedro Martir (Minnich 1987, Minnich and Franco-Vizcaino 1998).<br/>
+<br/>
+Stands of <i>Hesperocyparis nevadensis </i>occur on heavy black clay, ultrafine red clay, and decomposed or fractured granite (Twisselmann 1967). More than ten stands occur in the southern Sierra Nevada in Kern Co. Bartel (1980) described nine; Shevock (pers. comm. 2006) discovered three more recently. The largest is in the Bodfish Grove Botanical Area on the Sequoia National Forest. Stands typically occur in relatively mesic situations within a matrix of chaparral types. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Hesperocyparis forbesii</th>
+			
+		
+			
+			<th>Hesperocyparis nevadensis</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Tree; evergreen</td>
+			
+		
+			
+			<td>Tree; evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Canopy (crowns)</td>
+			
+		
+			
+			<td>Canopy </td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Medium to long</td>
+			
+		
+			
+			<td>Long; short (after dispersal)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Gravity</td>
+			
+		
+			
+			<td>Wind</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None; stratification—winter</td>
+			
+		
+			
+			<td>Heat</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-sensitive; highly flammable; canopy architecture susceptible</td>
+			
+		
+			
+			<td>Fire-sensitive; canopy architecture susceptible </td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>5-200 years</td>
+			
+		
+			
+			<td>10 years to age of the plant</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Episodic (disturbance dependent)</td>
+			
+		
+			
+			<td>Episodic (disturbance dependent)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text"><i>Hesperocyparis nevadensis </i> and <i>H. forbesii </i> are fire-adapted species with serotinous cones. Although low-intensity surface fires are lethal to most trees, their resinous foliage, thin bark, and mixed chaparral habitat ensure that fires ladder into the canopy and open the cones with extreme heat. Seeds fall from cones in the first few months following fire and germinate on bare mineral soil or in washes after water dispersal often creating even aged thickets (Sullivan 1993b). Peak cone reproduction and timing for fire is at age 40-50 years. Other estimates for fire include return intervals from 15 to 63 years in the last century, as compared to more natural fire return intervals from 50 to 100 years (Esser 1994c).
+For <i>Hesperocyparis nevadensis, </i> the Bodfish stand appears to have a varied fire history with both young and old trees. Some, such as the Back Canyon stand, are relatively old (over 100 years). Other smaller stands are even aged: examples include Hobo Ridge (fire 1966) and Stormy Canyon (fire 1924). Long Canyon RNA (Cheng 2004) has had two separate fires (ca. 1950, 1984), the more recent only burning one of the stands. Cypress seedlings at the 1984 burn had densities of 700-7300/ha and ranged from 8 to 46 cm tall in 1989 (Keeler-Wolf 1990b).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Medium
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Summer - early fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Medium up to or beyond stand size
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>High
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Very high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Active-independent crown
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Southern Sierra Nevada, Baja California, southern California
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Sierra Nevada</b> (M261Ep, Es, Eu). Bartel (1980) described the distribution and ecology of <i>Hesperocyparis nevadensis </i>stands, and reports on the basal area, density, and frequency for woody species for two of the larger stands. Keeler- Wolf (1990b) reported on these stand attributes for two stands in the Long Canyon RNA (Cheng 2004). They were within a matrix with chaparral containing <i>Arctostaphylos glauca, Ceanothus greggii,</i> and <i>Fremontodendron californicum</i> prior to the 1984 fire. These stands occur primarily on dark metamorphics; the adjacent stands on granitics lack the cypress.</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fd). Stands of <i>Hesperocyparis nevadensis </i>have been surveyed and mapped in the southern Sierra Nevada Foothills near Lake Isabella (Ratchford et al. 2021a).</li>
+        
+            <li><b>Southern California Coast</b> (261Bg, Bi). Stands of <i>Hesperocyparis forbesii </i>are expected in the Verdugo Mountains based on collections found in the Consortium of California Herbaria (2018), Los Angeles County. Stands have also been surveyed and mapped in the southeastern edge of 261Bi near the Otay Mountains.</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Bb, Bf, Bn-o). Minnich and Everett (2001) described  <i>Hesperocyparis forbesii </i>stands in the section in the Peninsular Ranges. Astand has been observed near Warm Springs Mountain.CVIS (2007) included a stand sampled on Otay Mountain, and Zedler (1981) reported tree age and stand density at Otay Mountain and Tecate Peak. Barbour (2007) noted species cover and density of perennial plants in recently burned and older stands on Sierra Ana Mountains. Those in the Guatay Mountain RNA (Cheng 2004) occur on gabbro substrates.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> California’s stands are threatened by residential development and other demands from growing near urban areas. Zedler (1977) suggested that frequent human-caused fires are causing declines in <i>Hesperocyparis forbesii </i>populations on Tecate Peak and Otay Mountain. Many of the known locations of these species have been impacted by fire in the last 20 years.
+
+Properly timed fire return intervals are important for maintaing stands. Fire return intervals should be long enough to allow a cone crop to develop, but short enough to maintain a viable seed bank in the trees. Today’s fire return intervals are shorter than historical ones (Zedler 1995), and shorter fire return intervals do not allow plants to mature and build up adequate seed reserves, leading to local population extirpation (Keeley and Davis 2007). However, it only takes one recruit to replace a mature tree, so local studies may be insufficient to evaluate a species status. A better approach would be to consider the spatial turnover of mature stands from repeat aerial photography (R. A. Minnich, pers. comm. 2007). Also, for a preservation strategy, it may be better to consider ways to maintain the maximum number of mature stands rather than trying to alter fire return intervals. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Hesperocyparis forbesii [1], [2], [3]</li>
+                
+                    <li>Hesperocyparis nevadensis [4], [5]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Gautier, C.;Zedler, P. 1980</li>
+		
+		<li>[2] Sproul, F.;Keeler-Wolf, T.;Gordon-Reedy, P.;Dunn, J.;Klein, A.;Harper, K. 2011</li>
+		
+		<li>[3] AECOM, 2013</li>
+		
+		<li>[4] Keeler-Wolf, T. 1990c</li>
+		
+		<li>[5] Ratchford, J.;Boul, R.;Keeler-Wolf, T.;Evens, J. 2022a (in progress)</li>
+		
+		<li>Adams, R.P.;Bartel, J.A.;Price, R.A. 2009</li>
+		
+		<li>Armstrong, W.P. 1978</li>
+		
+		<li>Barbour, M.G. 2007</li>
+		
+		<li>Bartel, J.A. 1980</li>
+		
+		<li>Brown, D.E. 1982c</li>
+		
+		<li>Brown, D.E. 1982e</li>
+		
+		<li>Cheng, S. 2004</li>
+		
+		<li>Dunn, A.T. 1985</li>
+		
+		<li>Esser, L.L. 1994c</li>
+		
+		<li>Farjon, A. 2005</li>
+		
+		<li>Griffin, J.R.;Critchfield, W.B. 1972</li>
+		
+		<li>Hanes, T.L. 1977</li>
+		
+		<li>Holland, R.F. 1986</li>
+		
+		<li>Keeler-Wolf, T. 1990b</li>
+		
+		<li>Lanner, R.M. 1999</li>
+		
+		<li>Minnich, R.A. 1987</li>
+		
+		<li>Minnich, R.A.;Everett, R.G. 2001</li>
+		
+		<li>Minnich, R.;Vizcaino, E.F. 1998</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Black, H.;Bleich, V.C.;Mincks, J.W. 1980</li>
+		
+		<li>Peattie, D.C. 1950</li>
+		
+		<li>Spenger, C. 1985</li>
+		
+		<li>Sullivan, J. 1993b</li>
+		
+		<li>Terry, R.G.;Bartel, J.A.;Adams, R.P. 2012</li>
+		
+		<li>Twisselmann, E.C. 1967</li>
+		
+		<li>Vogl, R.J.;Armstrong, W.P.;White, K.L.;Cole, K.L. 1977</li>
+		
+		<li>Wolf, C.B.;Wagener, W.W. 1948</li>
+		
+		<li>Zedler, P.H. 1977</li>
+		
+		<li>Zedler, P.H. 1995</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/595/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Salix gooddingii - Salix laevigata</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Salix</i> <i>gooddingii</i> - <i>Salix</i> <i>laevigata</i></span> Forest &amp; Woodland Alliance <br/>
+        <span class="subtitle">Goodding&#39;s willow - red willow riparian woodland and forest</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Tree
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-2000 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G4
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>AZ, CA, NM, NV, TX, UT. Mexico (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2016/07/20
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/tree/salix-gooddingii_sacramentodelta_09-05_01.jpg', '/static/images/photos/tree/salix-gooddingii_sacramentodelta_09-05_02.jpg', '/static/images/photos/tree/salix-laevigata_monolk_09-09_01.jpg', '/static/images/photos/tree/salix-laevigata_ssnf_04-10_01.jpg', '/static/images/photos/tree/salix-laevigata_ssnf_04-10_02.jpg', '/static/images/photos/tree/salix-laevigata_ssnf_04-10_03.jpg', '/static/images/photos/tree/salix-laevigata_ssnf_04-10_04.jpg', '/static/images/photos/tree/salix-laevigata_oldtollrd_04-11.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Salix</i> <i>gooddingii</i> and/or <i>Salix</i> <i>laevigata</i> is dominant or co-dominant in the tree or shrub canopy with <i>Acer</i> <i>negundo</i>, <i>Aesculus</i> <i>californica</i>, <i>Alnus</i> <i>rhombifolia</i>, <i>Calocedrus</i> <i>decurrens</i>, <i>Fraxinus</i> <i>latifolia</i>, <i>Pinus</i> <i>sabiniana</i>, <i>Platanus</i> <i>racemosa</i>, <i>Populus</i> <i>fremontii</i>, <i>Quercus</i> <i>agrifolia</i>, <i>Quercus</i> <i>chrysolepis</i>, <i>Quercus</i> <i>lobata</i>, <i>Salix</i> <i>lucida</i> var. <i>lasiandra</i> or <i>Washingtonia</i> <i>filifera</i>. Shrubs include <i>Baccharis</i> <i>salicifolia</i>, <i>Cornus</i> <i>sericea</i>, <i>Rosa</i> <i>californica</i>, <i>Rubus</i> <i>armeniacus</i>, <i>Salix</i> <i>exigua</i>, <i>Salix</i> <i>lasiolepis</i> or <i>Sambucus</i> <i>nigra</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text"> Trees < 30 m; canopy is open to continuous. Shrub layer is sparse to continuous. Herbaceous layer is variable. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Salix gooddingii</i> and/or <i>Salix laevigata</i> > 50% relative cover in the tree canopy (Evens et al. 2014, NatureServe 2018).</li>
+		
+		<li><i>Salix gooddingii</i> > 50% relative cover in the canopy; if other willows are present, willows may co-dominate and <i>S. gooddingii</i> > 30% relative cover in the canopy (Evens and San 2005, Klein and Evens 2005).</li>
+		
+		<li><i>Salix gooddingii</i> > 50% relative cover in the canopy; if <i>Populus fremontii</i> present, <i>S. gooddingii</i> > 60% relative cover (cf. Hickson and Keeler-Wolf 2007).</li>
+		
+		<li><i>Salix laevigata</i> > 5% absolute cover and typically dominant in the tree canopy; sometimes it is co-dominant with <i>Aesculus californica, Calocedrus decurrens, Pinus sabiniana,</i> or <i>Quercus</i> spp. (Potter 2005).</li>
+		
+		<li><i>Salix laevigata</i> > 50% relative cover in the tree canopy, or > 30% relative cover with other tree willows and often with <i>S. lasiolepis</i> in the sub-canopy (Evens and San 2005, Klein and Evens 2005).</li>
+		
+		<li><i>Salix laevigata</i> > 50% relative cover in the tree canopy (Buck-Diaz et al. 2021, Sikes et al. 2021).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Terraces along large rivers, canyons, along floodplains of streams, seeps, springs, ditches, floodplains, lake edges, low-gradient depositions. The USFWS Wetland Inventory (1996 national list) recognizes <i>Salix gooddingii</i> as a FACW plant and does not list <i>Salix laevigata</i>. The 2012 national list <i>Salix gooddingii</i> as a FACW, OBL plant and <i>Salix laevigata</i> as a FACW plant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Black willow series, Red willow series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Salix gooddingii temporarily flooded woodland alliance, Salix laevigata temporarily flooded woodland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Riparian mixed hardwood, Willow, Willow-Alder
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Central Coast cottonwood-sycamore riparian forest, Southern cottonwood-willow riparian forest, Great Valley cottonwood riparian forest, Great Valley mixed riparian forest, Modoc-Great Basin cottonwood-willow riparian forest, Mojave riparian forest, Sonoran cottonwood-willow riparian forest, Central Coast riparian scrub, Southern willow scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Desert riparian, Fresh emergent wetland, Valley foothill riparian
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>61.216.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Tree Vegetation (Forest and Woodland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate Flooded and Swamp Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North America Warm Temperate Flooded and Swamp Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Southwestern North American Riparian, Flooded and Swamp Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Southwestern North American riparian evergreen and deciduous woodland
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Salix gooddingii </i>is a moderate-sized, fast-growing willow that reaches 30 m in height. Leaves are shiny green on both surfaces and linear in shape. It blooms and fruits in early spring. The wind-dispersed seeds are viable for a few days to a few weeks (Stella 2005, Stella et al. 2006, Stillwater Sciences 2006). Seed dispersal and germination in the San Joaquin Valley generally peak in June or July (Stella 2005, Stella et al. 2006, Stillwater Sciences 2006). Germination is best on fine-grained, moist, bare soil. Seedling establishment is high if seasonal and moisture requirements are met. Disturbances during winter and spring floods modify and create riparian stands; timing of seed dispersal and spring flood patterns determine seedling success, with successful establishment of new cohorts most likely to occur when the near-river water table declines at rates of < 3 cm/day during late spring and early summer seedling recruitment period (Stella 2005, Stella et al. 2010, Stillwater Sciences 2006). Established plants tolerate seasonal inundation, and plants sprout from a root crown in lighted conditions (Reed 1993a). <br/>
+<br/>
+<i>Salix laevigata </i>is a widespread riparian tree in cismontane California. Plants bloom and fruit in early spring. The wind-dispersed seed are viable for a few days. Germination is best on fine-grained, moist, bare soil. Established plants tolerate seasonal inundation. Plants sprout from a root crown. Timing of seed dispersal and spring flood patterns determine seedling success. <br/>
+<br/>
+<i>Salix gooddingii </i> and <i>Salix laevigata </i>were formerly described and treated as separate alliances, but the two types have been merged since they often occur together and share similar habitats.<br/>
+<br/>
+<i>Salix laevigata </i>grows commonly grows with various willows and other riparian trees, but it also can solely dominate sites. Researchers have mainly recognized mixed associations that include <i>S. laevigata </i> or <i>S. gooddingii </i> in the <i>Alnus rhombifolia, Populus fremontii, and Quercus agrifolia </i> alliances. Various associations of <i>Salix laevigata-Salix lasiolepis </i>exist, where several studies done in coastal and southern California describe mainly associations characterized by two trees.  We need more sampling and study to understand this complex.<br/>
+<br/>
+<i>Salix gooddingii </i>is a common riparian tree or shrub in the West, and stands of the species occur in the southwestern United States and northern Mexico (NatureServe 2007a). Mixed and pure stands of <i>S. gooddingii </i>occur regularly in the Central Valley and southern California. However, uncertainty exists in the classification surrounding mixed stands of <i>S. gooddingii </i>and <i>Populus fremontii</i>. Stands along the Sacramento River and southern California are classified in the <i>P. fremontii </i>alliance (Vaghti 2003, Evens and San 2005, Klein and Evens 2005), whereas a study from the Sacramento-San Joaquin River delta discussed a better placement for mixed stands in the willow alliance (Hickson and Keeler-Wolf 2007). </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Salix gooddingii</th>
+			
+		
+			
+			<th>Salix laevigata</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Tree; winter deciduous</td>
+			
+		
+			
+			<td>Tree; winter deciduous</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Transient</td>
+			
+		
+			
+			<td>Transient</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+			
+			<td>Short</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Water/hydrological; wind</td>
+			
+		
+			
+			<td>Water/hydrological; wind</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Inundation? (moisture)</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Buds on large branches or trunks (stems); underground structures (rootcrown)</td>
+			
+		
+			
+			<td>Underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>2-75+ years</td>
+			
+		
+			
+			<td>2 years to life of plant</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>High</td>
+			
+		
+			
+			<td>Low to medium; episodic</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Plants are top-killed by low- and moderate-intensity fire; they sprout vigorously, but fluvial processes primarily disturb stands. Fire frequency and character are associated with neighboring upland alliances.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+            <p>The range of <i>Salix laevigata </i>includes most of the state except for the Colorado Desert (322C), Modoc Plateau (M261G), and Sonoran Desert (322B), and the range of <i>S. gooddingii </i>also includes most of the state.</p>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Aa-l). Stands of <i>Salix laevigata </i>are scattered along creeks and floodplains; they occur with other willows such as <i>S. lucida </i>ssp. <i>lasiandra </i>on the San Francisco Peninsula. Stands of <i>S. gooddingii </i>may occur on the San Francisco Peninsula and occur, uncommonly, further east at the edges of Suisun Marsh (Keeler-Wolf et al 2003a).</li>
+        
+            <li><b>Central California Coast Ranges</b> (M262Aa-h, Aj-k). Stands of <i>S. laevigata </i>occur along creeks and on lower drainage terraces, including in Pinnacles National Monument (Nature-Serve 2007b) and in Livermore Valley.</li>
+        
+            <li><b>Colorado Desert</b> (322Ca-d). Stands of <i>Salix gooddingii </i>are mixed in the overstory and include <i>Populus fremontii </i>and <i>Washingtonia filifera </i>(Keeler-Wolf et al. 1998b).</li>
+        
+            <li><b>Great Valley</b> (262Aa-z). <i>Salix gooddingii </i>is an alliance indicator, or a secondary species in <i>Populus fremontii </i>and <i>Salix exigua </i>alliances, including along the Sacramento River (Vaghti 2003, Vaghti and Greco 2007) and in the Sacramento-San Joaquin River delta (Hickson and Keeler-Wolf 2007) and the San Joaquin River and its major tributaries (McBain and Trush Inc. 2000, Stillwater Sciences 2002, Moise and Hendrickson 2002, Stella et al. 2003).  Stands of <i>S. laevigata </i>are scattered in the section. They especially occur in creeks adjacent to surrounding foothills and along edges of Suisun Marsh in creeks (Keeler-Wolf and Vaghti 2000).</li>
+        
+            <li><b>Mojave Desert</b> (322Aa-d, Af-p). Stands occur around permanent streams and springs at scattered stations; especially in the western, northern, and southern sections. Stands are local and scattered in Joshua Tree National Park (Keeler-Wolf et al. 2005) and further north in the section, including rivers with flood control dams (Thomas et al. 2004). Many isolated springs have a few individuals.</li>
+        
+            <li><b>Mono</b> (341Di). Stands occur along streams and at springs in the upper Owens Valley.</li>
+        
+            <li><b>Northern California Coast</b> (263Ac, Ag, Aj-l). Stands of <i>S. laevigata </i>are scattered in the section, including those in Marin Co. and Sonoma Co. in bottomland and stream drainages (Keeler-Wolf et al. 2003b, Evens and Kentner 2006, Klein et al. 2015).</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Bb, Bd). Stands of <i>S. laevigata</i> occur in the vicinity of Clear Lake and in northeast Sonoma County (Klein et al. 2015).</li>
+        
+            <li><b>Northern California Interior Coast Ranges</b> (M261Ca-c). Stands occur along many of the major streams originating from these mountains, including Cottonwood Cr. They are intermixed with  other riparian stands of the <i>Baccharis salicifolia, Populus fremontii, </i>and <i>Salix exigua </i>alliances.</li>
+        
+            <li><b>Sierra Nevada</b> (M261Eg, Em, Ep, Er-s). Potter (2005) described a broadly defined <i>Salix laevigata </i>association to represent the alliance, which characteristically occupies stream banks and flood plains on low-order streams with narrow channels in the section. He considered it similar to the <i>Alnus rhombifolia - Salix laevigata </i>association of the <i>A. rhombifolia </i>alliance. Stands of <i>S. gooddingii </i>also occur along lower reaches of some streams in the southern subsections including the South Fork of the Kern River.</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fa-e). Stands occur along lower reaches of some streams across the section; those in the northern foothills often contain <i>Salix exigua </i>(Klein et al. 2007). Potter (2005) suggested that stands more regularly occur in this rather in the Sierra Nevada section.</li>
+        
+            <li><b>Sonoran Desert</b> (322Ba-e). Stands of <i>S. gooddingii </i>occur commonly along the Colorado River and at other perennial water sources. Many of these contain <i>Tamarix </i>spp.</li>
+        
+            <li><b>Southeastern Great Basin</b> (341Fc-e). Stands of both species occur at springs and streams such as Darwin Falls and at springs in the Argus Range (Evens et al. 2014).</li>
+        
+            <li><b>Southern California Coast</b> (261Ba-j). Stands occur scattered and usually are mixed with other willows. Described stands occur in the Santa Monica Mountains (Keeler-Wolf and Evens 2006) and along the upper Santa Clara River in Los Angeles Co. and Ventura River in Ventura Co. (Stillwater Sciences and URS 2007). <i>S. gooddingii </i>stands are absent from the lower Santa Clara River in Ventura Co. (B. Orr, pers. comm. 2007).</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Ba-f, Bi-n, Bp). Stands of both species include pure and mixed associations, including along riparian corridors at low to mid elevations of western Riverside Co. (Klein and Evens 2005), in central San Diego Co. along the San Dieguito River and eastward (Evens and San 2005), in Anza-Borrego Desert State Park (Keeler-Wolf et al. 1998b), and in the Transverse Ranges (Bendix 1994). Small stands occur on Santa Cruz and Santa Catalina islands (Junak et al. 2007). Mixed stands with <i>P. fremontii </i>in this section are treated in the <i>Populus fremontii </i>alliance.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Stands of <i>Salix laevigata</i> occur regularly along foothill streams and low gradient riparian settings. Stands along the lower Kern River below Lake Isabella have become denser since the dam construction, a result of reduced scouring action by spring floods. Stands have enlarged along some intermittent creeks in the southern California coast area, probably as a result of increased summer irrigation runoff. 
+
+<i>Salix gooddingii </i>is one of the principal riparian trees in lower elevations of California. It has been considered an integral part of the Central Valley riparian system in both cottonwood and mixed riparian forests (Vaghti and Greco 2007). Stromberg (2001) considered mixtures of <i>Populus fremontii </i>and <i>S. gooddingii </i>to be globally imperiled, as a result of altered hydrologic regimes, flood control projects, and the presence of invasive plants. Proposals to restore stands of <i>S. gooddingii </i>and <i>P. fremontii </i>on the San Joaquin and Sacramento rivers and their major tributaries include regulation of flow releases below large dams to mimic key elements of the natural flow regime (Roberts et al. 2002, Stella 2005, Stillwater Sciences 2003, 2006, 2007b). Recent studies in San Joaquin Valley riparian systems suggest that <i>S. gooddingii </i>can tolerate slightly more rapid water table declines during first-year seedling establishment than can <i>S. exigua </i>and <i>P. fremontii, </i>which may have important implications for restoration efforts via flow management (Stella 2005, Stillwater Sciences 2006, Stella et al. 2010). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+                <p>Stands with a <i>Salix gooddingii</i> Canopy</p>
+            
+            <ul class="text">
+                
+                    <li>Salix gooddingii [6], [7], [11], [12], [13], [14], [15], [17], [22]</li>
+                
+                    <li>Salix gooddingii / Baccharis salicifolia [7], [16]</li>
+                
+                    <li>Salix gooddingii / Lepidium latifolium [7], [16]</li>
+                
+                    <li>Salix gooddingii / Rubus armeniacus [18]</li>
+                
+                    <li>Salix gooddingii / Salix exigua [13]</li>
+                
+            </ul>
+        
+            
+                <p>Stands with a <i>Salix laevigata</i> Canopy</p>
+            
+            <ul class="text">
+                
+                    <li>Salix laevigata [6], [8], [9], [10], [11], [12], [13], [17], [22]</li>
+                
+                    <li>Salix laevigata / (Cornus sericea - Ribes spp.) / Scirpus microcarpus - Carex spp. [2], [23], [24]</li>
+                
+                    <li>Salix laevigata / Rosa californica [1]</li>
+                
+                    <li>Salix laevigata / Salix lasiolepis [4], [5], [6], [7], [12], [13], [16], [19], [20], [21], [22], [23], [24]</li>
+                
+            </ul>
+        
+            
+                <p>Stands with a Mixed Tree Canopy</p>
+            
+            <ul class="text">
+                
+                    <li>Salix gooddingii - Fraxinus latifolia [13]</li>
+                
+                    <li>Salix gooddingii - Quercus lobata / wetland herb [13], [18]</li>
+                
+                    <li>Salix gooddingii - Salix laevigata [16]</li>
+                
+                    <li>Salix gooddingii - Salix lucida - Populus fremontii [7]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Bendix, J. 1994</li>
+		
+		<li>[2] Evens, J.M.;Kentner, E. 2006</li>
+		
+		<li>[4] Keeler-Wolf, T.;Evens, J. 2006</li>
+		
+		<li>[5] Keeler-Wolf, T.;Vaghti, M. 2000</li>
+		
+		<li>[6] Klein, A.;Crawford, J.;Evens, J.;Keeler-Wolf, T.;Hickson, D. 2007</li>
+		
+		<li>[7] Klein, A.;Evens, J. 2005</li>
+		
+		<li>[8] Kittel, G.;Reyes, E.;Evens, J.;Buck, J.;Johnson, D. 2012</li>
+		
+		<li>[9] Potter, D.A. 2005</li>
+		
+		<li>[10] Rodriguez, D.;Sikes, K.;Keeler-Wolf, T.;Kittel, G.;Curtis, J.;Curley, C.;Evens, J. 2017</li>
+		
+		<li>[11] Sproul, F.;Keeler-Wolf, T.;Gordon-Reedy, P.;Dunn, J.;Klein, A.;Harper, K. 2011</li>
+		
+		<li>[12] AECOM, 2013</li>
+		
+		<li>[13] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>[14] Buck-Diaz, J.;Harbert, B.;Evens, J. 2011</li>
+		
+		<li>[15] Buck-Diaz, J.;Ratchford, J.;Evens, J. 2013</li>
+		
+		<li>[16] Evens, J.;San, S. 2005</li>
+		
+		<li>[17] Evens, J.M.;Sikes, K.;Hastings, D.;Ratchford,J.S. 2014</li>
+		
+		<li>[18] Hickson, D.;Keeler-Wolf, T. 2007</li>
+		
+		<li>[19] Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>[20] Stillwater Sciences and URS, 2007</li>
+		
+		<li>[21] VegCAMP (CDFW Vegetation Classification and Mapping Program), 2015a</li>
+		
+		<li>[22] Reyes, E.;Evens, J.;Glass, A.;Sikes, K.;Keeler-Wolf., T.;Winitsky, S.;Johnson, D.;Menke, J.;Hepburn, A. 2020a</li>
+		
+		<li>[23] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>[24] Sikes, K.;Buck-Diaz, J.;Evens, J. 2021</li>
+		
+		<li>Barry, W.J. 1989a</li>
+		
+		<li>Barry, W.J. 1989b</li>
+		
+		<li>Bowler, P.A. 1989</li>
+		
+		<li>Buck-Diaz, J.;Evens, J. 2011b</li>
+		
+		<li>Capelli, M.H.;Stanley, S.J. 1984</li>
+		
+		<li>Faber, P.M.;Keller, E.;Sands, A.;Massey, B.M. 1989</li>
+		
+		<li>Holstein, G. 1984</li>
+		
+		<li>Menke, J.;Reyes, E.;Hepburn, A.;Johnson, D.;Reyes, J. 2013</li>
+		
+		<li>Menke, J.;Reyes, E.;Hepburn, A.;Johnson, D.;Reyes, J. 2016</li>
+		
+		<li>Read, R.A.;Sprackling, J. 1980</li>
+		
+		<li>Reed, W.R. 1993a</li>
+		
+		<li>Stromberg, J.C. 2001</li>
+		
+		<li>Vaghti, M. ;Greco, S. 2007</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program);AIS, 2013</li>
+		
+		<li>Vogl, R.J. 1976</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/520/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

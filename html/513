@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Chorizanthe rigida - Geraea canescens Desert Pavement</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Chorizanthe</i> <i>rigida</i> - <i>Geraea</i> <i>canescens</i> Desert Pavement</span> Sparsely Vegetated Alliance <br/>
+        <span class="subtitle">Rigid spineflower - hairy desert sunflower</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Herb
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>-70-1500 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S4
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G4
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>CA, AZ, NV; Mexico.
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2016/06/10
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/herb/chorizanthe-rigida_geraea-canescens_desertpavement_owlsheadmtnsdeathvalley_01-2011_01.jpg', '/static/images/photos/herb/chorizanthe-rigida_geraea-canescens_desertpavement_owlsheadmtnsdeathvalley_01-2011_02.jpg', '/static/images/photos/herb/chorizanthe-rigida_geraea-canescens_desertpavement_eurekavalleydeathvalley_03-2011.jpg', '/static/images/photos/herb/chorizanthe_geraea_deva_lower%20bajada_04-05.jpg', '/static/images/photos/herb/chorizanthe_geraea_picachospimperialco_3-95_01.jpg', '/static/images/photos/herb/chorizanthe_geraea_picachosp_3-95_02.jpg', '/static/images/photos/herb/chorizanthe-geraea_desertpavement_riversideco_04-12.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Chorizanthe</i> <i>rigida</i> and/or <i>Geraea</i> <i>canescens</i> is characteristically present in the herbaceous layer with <i>Allionia</i> <i>incarnata</i>, <i>Brassica</i> <i>tournefortii</i>, <i>Bromus</i> <i>rubens</i>, <i>Camissonia</i> spp., <i>Chaenactis</i> spp., <i>Chamaesyce</i> spp., <i>Chorizanthe</i> <i>brevicornu</i>, <i>Cryptantha</i> spp., <i>Eriogonum</i> spp., <i>Erodium</i> <i>cicutarium</i>, <i>Langloisia</i> <i>setosissima</i>, <i>Loeseliastrum</i> <i>schottii</i>, <i>Mentzelia</i> spp., <i>Pectocarya</i> spp., <i>Phacelia</i> spp., <i>Plantago</i> <i>ovata</i> var. <i>insularis</i>, <i>Pleuraphis</i> <i>rigida</i> or <i>Schismus</i> spp. Shrub cover is sparse if present including <i>Ambrosia</i> <i>dumosa</i>, <i>Atriplex</i> <i>hymenelytra</i>, <i>Cylindropuntia</i> <i>echinocarpa</i>, <i>Encelia</i> <i>farinosa</i>, <i>Krameria</i> <i>grayi</i>, <i>Larrea</i> <i>tridentata</i>, <i>Opuntia</i> <i>basilaris</i> or <i>Tidestromia</i> <i>oblongifolia</i>.  </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  The herb layer is sparse to intermittent, and the non-vascular (cryptogamic crust) layer is sparse to intermittent. The shrub layer is sparse. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li>Landscape typically with < 5% perennial cover and characterized by herbs such as <i>Chorizanthe rigida, Chorizanthe brevicornu, Chaenactis</i> spp., <i>Eriogonum</i> spp., and/or <i>Geraea canescens,</i> (Evens et al. 2014, VegCAMP and AIS 2013).</li>
+		
+		<li>Ground surface generally with < 2% absolute cover, including herbaceous taxa such as <i>Chamaesyce</i> spp., <i>Phacelia neglecta, Erodium texanum, </i> and <i>Gilia latifolia</i> (LaDoux et al. 2013).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Desert pavement, broad alluvial fans, and lower slopes in the desert. The ground surface is sandy and gravelly mixed alluvium, with various rocks and gravel along with interstitial fine sediments.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Barren, Creosote bush
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Sonoran desert scrub, Mojave creosote bush scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Creosote bush scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Barren, Desert scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>22.310.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Lithomorphic Vegetation (Nonvascular and Sparse Vascular Rock Vegetation)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Semi-Desert Nonvascular and Sparse Vascular Vegetation
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Warm Semi-Desert Cliff, Scree, and Rock Vegetation
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>North American Warm Semi-Desert Cliff, Scree, and Rock Vegetation
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>North American Warm Semi-Desert Cliff, Scree, and Other Rock Vegetation
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>North American warm desert bedrock cliff and outcrop
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Chorizanthe rigida</i> is a desert annual that grows up to 15 cm tall and blooms from February through June.  Cauline leaf blades become hard and thornlike as they age and are painful to step on, explaining the common name Devil’s Spineflower.  Basal leaves of the spiny plant are long-petioled and often hairy (Hickman 1993).  Following winter to spring rain, the plant is bright green and grows quickly, and in summer the plant dries and becomes less noticeable.<br/>
+<br/>
+<i>Geraea canescens </i> is an annual plant that grows from 30 to 90 cm tall and blooms from February to May, or October to November. It has bright, golden yellow sunflower-like flowers on slender, hairy stems. It is a drought evasion plant that blooms in the rainy seasons and dies off after producing seeds (DesertUSA 2017). <br/>
+<br/>
+This alliance occurs throughout most of the warm deserts of North America. Stands occur on alluvial fans around playas in valley bottoms or near washes and less commonly on dissected, eroding alluvial fans. On well-developed pavement, the ground surface is covered with closely packed, interlocking rock fragments of gravels and cobbles. Desert pavement, though, exhibits spatial heterogeneity with six visually distinct surface mosaics identified, which have textural differences in surface rock size and percent soil cover -- varying from > 65% to < 20% cover of rock clasts on the ground surface (Wood et al. 2002). Desert varnish is characteristically seen on rock clasts of desert pavement and is a paper-thin coating of clay minerals, iron and manganese oxides, and other compounds that varies in color from orange to brown and black (Dorn 1991, 2007). <br/>
+<br/>
+A variable suite of native annual plants occur in this alliance, which are warm-season annuals that develop in the late winter and flower in the spring (and sometimes in the fall).  The number and timing of germinating plants are related to the amount of fall/winter precipitation and temperature.  Colorful spring displays of flowering plants occur in El Nino years, while plants are sparse in dry years.  Thus, annual plant cover may vary (e.g., from <1% to >20%) depending on the year, while desert scrub species occur at very low cover if present. However, small islands of woody perennials may exist, especially where pavements are intertwined with more densely vegetated, wash rivulets. This alliance varies in species composition across different areas of southeastern California and beyond, and more data collection and analysis are needed to describe associations. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Chorizanthe rigida</th>
+			
+		
+			
+			<th>Geraea canescens</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Processes other than fire primarily disturb stands. Because of the harsh, open environment and the seasonal nature of herbs, fire is unlikely unless non-native plants invade sites in successive wet years and provide fine fuels to carry fire.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Colorado Desert</b> (322Ca-d). Stands are common in the valleys and bajadas of these subsections, including in the Imperial Valley and southwest of the Chocolate Mountains.</li>
+        
+            <li><b>Mojave Desert</b> (322Aa-p). Stands are scattered throughout the valleys and bajadas of these subsections including the Black Mountains, Death Valley, Owlshead Mountains, Silurian Valley, Devil's Playground, Superior Valley, Mojave Valley, Lucerne Valley, Twentynine Palms, and Pinto Basin.</li>
+        
+            <li><b>Mono</b> (341Di). The alliance occurs uncommonly in the section; additional research is needed to determine associations.</li>
+        
+            <li><b>Sonoran Desert</b> (322Ba-e). Stands are common in the valleys and bajadas of these subsections including Rice Valley, Palo Verde Mesa, Chuckwalla Valley and Mountains, Palen Valley, Vidal Valley, and the Chocolate Mountains.</li>
+        
+            <li><b>Southeastern Great Basin</b> (341Fa-c, Fe). Stands occur in Eureka Valley, Owens Valley, and other smaller valleys.</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Bp). The alliance occurs uncommonly in the section; additional research is needed to determine associations.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> These sparse desert environments are not typically disturbed by fire, except where non-native grasses and forbs have invaded and can carry fire. OHV and transportation corridors are the primary impacts to this alliance, while livestock grazing may be another impact. Annual plants of this alliance have flowers that attract bees and birds, and the seeds are an important food source for birds and rodents (DesertUSA 2017). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Aliciella latifolia - Nama pusillum - Phacelia rotundifolia [5]</li>
+                
+                    <li>Chorizanthe brevicornu - Stephanomeria pauciflora [4]</li>
+                
+                    <li>Chorizanthe rigida - Geraea canescens Desert Pavement [1], [2], [3], [5]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Evens, J.M.;Roach-McIntosh, D.;Stout, D. 2012</li>
+		
+		<li>[2] Evens, J.M.;Sikes, K.;Hastings, D.;Ratchford,J.S. 2014</li>
+		
+		<li>[3] Thomas, K.;Franklin, J.;Keeler-Wolf, T.;Stine, P. 2004</li>
+		
+		<li>[4] Southern California Edison, 2018</li>
+		
+		<li>[5] Reyes, E.;Evens, J.;Fulton, J.;Sikes, K.; Johnson, D.;Keeler-Wolf, T.;Vu, S.;LaFever-Jackson, A. 2023 (in progress)</li>
+		
+		<li>DesertUSA, 2017</li>
+		
+		<li>Dorn, R.I. 1991</li>
+		
+		<li>Dorn, R.I. 2007</li>
+		
+		<li>LaDoux, T.;Lea, C.;Babich, E. 2013</li>
+		
+		<li>Menke, J.;Reyes, E.;Hepburn, A.;Johnson, D.;Reyes, J. 2013</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program);AIS, 2013</li>
+		
+		<li>Wood, Y.A.;Graham, R.C.;Wells, S.G. 2002</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/513/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

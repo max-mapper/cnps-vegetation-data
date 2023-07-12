@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Eriogonum arborescens - Eriogonum grande</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Eriogonum</i> <i>arborescens</i> - <i>Eriogonum</i> <i>grande</i></span> Shrubland Alliance <br/>
+        <span class="subtitle">Island Buckwheat scrub</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-700 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G3
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA; Baja California, Mexico?
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>Yes
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>Yes
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2016/12/02
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/deinandra-clementina_eriogonum-giganteum_santacruzis_07-06.jpg', '/static/images/photos/shrub/eriogonum-arborescens-eriogonum-grande_santarosaisland_08-2012.jpg', '/static/images/photos/shrub/eriogonum-arborescens-eriogonum-grande_santarosaisland_04-2015.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Eriogonum</i> <i>arborescens</i> and/or <i>Eriogonum</i> <i>grande</i> are dominant, co-dominant, or characteristically 
+present in the shrub canopy with <i>Artemisia</i> <i>californica</i>, <i>Coreopsis</i> <i>gigantea</i>, <i>Diplacus</i> <i>parviflorus</i>, <i>Eriophyllum</i> <i>confertiflorum</i>, <i>Hazardia</i> <i>detonsa</i>, <i>Isocoma</i> <i>menziesii</i>, <i>Lotus</i> <i>dendroideus</i> and/or <i>Lupinus</i> <i>albifrons</i>. Herbs are variable in composition and cover including <i>Avena</i> spp., <i>Bromus</i> <i>diandrus</i>, <i>Bromus</i> <i>hordeaceus</i>, <i>Bromus</i> <i>madritensis</i>, <i>Selaginella</i> <i>bigelovii</i> and <i>Silene</i> <i>gallica</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrub layer is open to intermittent.  Herb layer is sparse to continuous. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Eriogonum arborescens, E. grande, </i>or <i>Hazardia detonsa</i> > 30% relative cover in the shrub canopy, yet if <i>Artemisia californica </i>or <i>Encelia californica</i> is co-dominant, see their respective alliances (Rodriguez et al. 2017).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Coastal bluffs and terraces, rocky slopes and canyon walls, stabilized dunes of coastal bars, spits along coastlines.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Dune lupine-goldenbush series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Isocoma menziesii-Lupinus chamissonis-Ericameria ericoides shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Coastal bluff scrub, California sagebrush
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Southern dune scrub, Southern coastal bluff scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Coastal sage scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Coastal scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>32.036.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Mediterranean Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Mediterranean Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>California Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>California Coastal Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Central and South Coastal Californian coastal sage scrub
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Eriogonum arborescens </i>is a rounded shrub that produces clusters of many crowded, frilly flowers that are white to rosy on nearly naked flowering stalks. Plants occur on Santa Rosa, Santa Cruz, and Anacapa Islands. <br/>
+<br/>
+<i>Eriogonum grande </i>is a mat-forming plant producing tall, stout clusters of white, pink or red flowers. <i>E. grande </i>involves var. <i>grande </i>(a CNPS list 4.2 plant) found on San Miguel, Santa Cruz,  Anacapa, Santa Catalina, and San Clemente islands; var. <i>rubescens </i>(a CNPS list 1B.2 plant) found on San Miguel, Santa Rosa, and Santa Cruz Islands; and var. <i>timorum </i>(a CNPS list 1B.1 plant) found on San Nicolas Island. <br/>
+<br/>
+Both buckwheat species occur together and separately on dry, rocky slopes, bluffs, and stabilized dunes in associations with other coastal shrubs, subshrubs, and various annual herbs along the northern Channel Islands. Stands also can include rare species, including <i>Castilleja hololeuca </i>(a CNPS list 1B.2 plant) and various rare <i>Dudleya </i>spp., and they are usually are invaded by non-native grasses. Junak et al. (2007) summarized survey data collected by Johnson and Rodriguez (2001), and Rodriguez et al. (2017) summarized data across the northern Channel Islands. They noted <i>E. arborescens</i> stands on Santa Cruz and Anacapa Islands, <i>E. grande </i>var. <i>grande </i> stands on Santa Cruz Island, and var. <i>rubescens </i>stands on San Miguel and Santa Rosa Island. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Eriogonum arborescens</th>
+			
+		
+			
+			<th>Eriogonum grande</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Evergreen shrub</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; wind</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-sensitive; thin epidermis</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Processes other than fire typically disturb stands, including soil erosion and colluvial rockfall.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Southern California Coast</b> (261Bc, Bh). Stands are mapped on Santa Cruz Island (AIS 2007c), and have been sampled and mapped on Santa Rosa, San Miguel, Santa Cruz and Anacapa Island (Rodriguez et al. 2017) including <i>Eriogonum arborescens, E. grande </i>var. <i>grande </i>and <i>E. grande </i>var. <i>rubescens</i>. Stands of <i>E. grande </i>var. <i>timorum </i>are present on San Nicolas Island which are similar in composition to <i>E. grande </i>var. <i>rubescens</i> stands (HDR 2014b).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Goats, sheep, cattle, and rabbits grazed heavily on native vegetation in the Channel Islands, which had previously restricted shrubland vegetation and increased non-native grassland invasion. Now that grazers have been removed, some shrub species including the endemic buckwheats appear to be expanding in cover and extent, though recovery of native plants is varied (Beltran et al. 2014, Corry 2006, Van Vuren 2014, Yelenik and Levine 2010). In particular, <i>Eriogonum arborescens </i> and <i>Artemisia californica</i>, two species considered vulnerable to grazing (Coblentz 1978, Brumbaugh 1980, Minnich 1980a), have been shown to increase variably in abundance on Santa Cruz Island after removal from sheep grazing (Van Vuren 2014); however, factors that can limit their recovery include competition from non-native annual grasses and lack of water availability in low rainfall years (Yelenik and Levine 2010). Another factor limiting native shrub recovery has been the invasion of fennel, <i>Foeniculum vulgare</i>, and other non-native herbs upon removal of grazers (Zavaleta et al. 2001); restoration efforts on Santa Cruz Island have included removal of fennel and reseeding of native shrubs (Power et al. 2014). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Artemisia californica - Eriogonum arborescens [2]</li>
+                
+                    <li>Eriogonum arborescens [1], [2], [3]</li>
+                
+                    <li>Eriogonum arborescens - Hazardia detonsa [2]</li>
+                
+                    <li>Eriogonum grande var. grande [2], [3], [4]</li>
+                
+                    <li>Eriogonum grande var. rubescens [2]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Junak, S.;Knapp, D.A.;Haller, J.R.;Philbrick, R.;Schoenherr, A.;Keeler-Wolf, T. 2007</li>
+		
+		<li>[2] Rodriguez, D.;Sikes, K.;Keeler-Wolf, T.;Kittel, G.;Curtis, J.;Curley, C.;Evens, J. 2017</li>
+		
+		<li>[3] AIS (Aerial Information Systems Inc.), 2007c</li>
+		
+		<li>[4] Dixon, P. 2019</li>
+		
+		<li>Beltran, R.S;Kreidler, N.;Van Vuren, D.H.;Morrison, S.A.;Zavaleta, E.S.;Newton, K.;Tershy, B.R.;Croll, D.A. 2014</li>
+		
+		<li>Coblentz, B.E. 1978</li>
+		
+		<li>Van Vuren, D.H. 2014</li>
+		
+		<li>Yelenik, S.G.;Levine, J.M. 2010</li>
+		
+		<li>Zavaleta, E.S.;Hobbs, R.J.;Mooney, H.A. 2001</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/524/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

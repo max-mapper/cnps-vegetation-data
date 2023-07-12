@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Sarcobatus vermiculatus</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Sarcobatus</i> <i>vermiculatus</i></span> Shrubland Alliance <br/>
+        <span class="subtitle">Greasewood scrub</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>100-2000 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3S4
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G5
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: AZ, CA, CO, ID, MT, NM, NV, OR, TX, UT, WA, WY (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/sarcobatus-vermiculatus_alturas_06-06.jpg', '/static/images/photos/shrub/sarcobatus-vermiculatus_owensl_10-99_01.jpg', '/static/images/photos/shrub/sarcobatus-vermiculatus_owensl_10-99_02.jpg', '/static/images/photos/shrub/sarcobatus-vermiculatus_surprisevalley.jpg', '/static/images/photos/shrub/atriplex-parryi_mesquitespringdeathvalley04-2011_01.jpg', '/static/images/photos/shrub/atriplex-parryi_mesquitespringdeathvalley04-2011_02.jpg', '/static/images/photos/shrub/atriplex-parryi_mesquitespr_04-11_02.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Atriplex</i> <i>parryi</i>, <i>Chrysothamnus</i> <i>albidus</i> and/or <i>Sarcobatus</i> <i>vermiculatus</i> is dominant or co-dominant in the shrub canopy with <i>Allenrolfea</i> <i>occidentalis</i>, <i>Artemisia</i> <i>tridentata</i>, <i>Atriplex</i> <i>canescens</i>, <i>Atriplex</i> <i>confertifolia</i>, <i>Atriplex</i> <i>spinifera</i>, <i>Atriplex</i> <i>torreyi</i>, <i>Chrysothamnus</i> <i>viscidiflorus</i>, <i>Ericameria</i> <i>nauseosa</i>, <i>Frankenia</i> <i>salina</i>, <i>Kochia</i> <i>californica</i> and <i>Suaeda</i> <i>moquinii</i>. Associated herbs include <i>Bromus</i> <i>tectorum</i>, <i>Cleomella</i> <i>obtusifolia</i>, <i>Distichlis</i> <i>spicata</i>, <i>Leymus</i> <i>cinereus</i>, <i>Salsola</i> <i>tragus</i>, <i>Sporobolus</i> <i>airoides</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 3 m; canopy is open to continuous. Herbaceous layer is variable and may be grassy. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Sarcobatus vermiculatus</i> > 2% absolute cover and no other shrub > cover in the shrub canopy (Thomas et al. 2004).</li>
+		
+		<li><i>Sarcobatus vermiculatus</i> ≥ 2% absolute cover and other shrubs may co-dominate in the shrub canopy; herbs may occur at higher cover than the shrubs (Evens et al. 2014).</li>
+		
+		<li><i>Atriplex parryi</i> > 2% absolute cover and > 50% relative cover in the shrub canopy (Evens et al. 2014).</li>
+		
+		<li><i>Chrysothamnus albidus </i> > 50% relative cover in the shrub canopy (VegCamp 2014b).</li>
+		
+		<li><i>Sarcobatus vermiculatus</i> is characteristically present in the shrub layer with as little as 1% absolute cover (Boul et al. 2021b).</li>
+		
+		<li><i>Sarcobatus vermiculatus</i> >30% cover in the shrub layer with <i>Artemisia tridentata, Atriplex confertifolia</i>, and/or <i>Chrysothamnus</i> spp. (Boul et al. 2021b).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Dry lake beds, old lake beds perched above current drainages, lagoon bars, badlands, plains, alkali stream terraces, stable sand dunes, and barrier beaches. The USFWS Wetland Inventory (2012 national list) recognizes <i>Sarcobatus vermiculatus</i> as a FACU plant and <i>Atriplex parryi</i> as a FAC plant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Greasewood series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Sarcobatus vermiculatus intermittently flooded shrubland alliance, Atriplex parryi shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Saltbush, Greasewood, Alkaline mixed scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Desert sink scrub, Desert greasewood scrub, Sierra-Tehachapi saltbush scrub, Interior Coast range saltbush scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Alkali sink, Shadscale scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Alkali desert scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>36.400.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate and Boreal Shrubland and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate and Boreal Salt Marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North American Interior Alkali-Saline Wetland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Cool Semi-Desert Alkali-Saline Wetlands
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Great Basin cool semi-desert alkali basin group
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Sarcobatus vermiculatus </i>is a long-lived, winter-deciduous, microphyllous, facultative halophyte that tolerates alkaline and saline soils. Seeds mature in the fall, and fruits dehisce in the winter. Seeds germinate under conditions of warm temperatures and long periods of soil moisture. Individual plant and population responses to different osmotic potentials and different salt concentrations suggest much ecotypic variation (Anderson 2004b). <br/>
+<br/>
+In general, stands of this alliance are dominated or codominated by <i>Sarcobatus vermiculatus</i> and shrubby codominants can vary by region and site salinity. Additionally, <i>Atriplex parryi</i> and <i>Chrysothamnus albidus</i> occupy similar environmental settings as <i>Sarcobatus vermiculatus</i> within California and are considered part of this alliance when dominant, including in the Owens Valley. Outside of California, these taxa have not been observed with <i>Sarcobatus, </i>such as in south Hot Creek Valley in Nevada (Beatley 1976). This is one of several alliances in the alkali sink habitat, including the <i>Allenrolfea occidentalis, Distichlis spicata, </i>and <i>Suaeda moquinii </i>alliances. <i>Allenrolfea occidentalis </i>tolerates higher salt concentrations than <i>Sarcobatus vermiculatus </i>(MacMahon and Wagner 1985). Perennial forbs are typically sparse, but annual grasses (oftentimes nonnative species) may be seasonally present to abundant (NatureServe 2019). </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Atriplex parryi</th>
+			
+		
+			
+			<th>Chrysothamnus albidus</th>
+			
+		
+			
+			<th>Sarcobatus vermiculatus</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Shrub, polycarpic perennial</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Shrub; winter deciduous</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>soil</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Medium</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Wind</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Scarification</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Long-lived</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Many stands are open and lack continuous fuel for fires; however, stands invaded by <i>Bromus tectorum </i>easily burn. <i>Sarcobatus vermiculatus </i>readily sprouts after low-intensity burns, and seeds easily disburse into recently burned areas from unburned shrubs (Anderson 2004b). Fire characteristics are little known for this alliance.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Modoc Plateau</b> (M261Gg, Gi, Gm). Small stands of <i>Sarcobatus vermiculatus </i>occur in alkali basins near Alturas with <i>Artemisia tridentata.</i></li>
+        
+            <li><b>Mojave Desert</b> (322Aa-b, Ad, Ag, Ai). Stands are locally associated with upper playa flats and low dunes along the margins of Pleistocene lake beds with <i>S. vermiculatus </i>and <i>Atriplex parryi </i>at Owens Lake (Thomas et al. 2004, Reyes et al. 2020a) and <i>S. vermiculatus </i>at Edwards Air Force Base (Charlton 2000a).</li>
+        
+            <li><b>Mono</b> (341Da, Df, Dh-i). Stands of <i>S. vermiculatus </i>exist in Carson Valley and Mono Lake Basin. Other stands of <i>S. vermiculatus, A. parryi, </i>and <i>Chrysothamnus albidus</i> occur in upper Owens Valley at Fish Slough (Odion et al. 1992a, VegCamp 2014b).</li>
+        
+            <li><b>Northwestern Basin and Range</b> (342Ba, Bc-d). Stands of <i>S. vermiculatus </i>occur in Surprise Valley and Honey Lake Basins.</li>
+        
+            <li><b>Southeastern Great Basin</b> (341Fb-c). Stands of <i>S. vermiculatus</i> and <i> A. parryi</i> occur in Death Valley National Park (Evens et al. 2014).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Shrubs are important as fall and winter browse for livestock and wildlife. Stems regenerate vigorously by sprouting after disturbance, and populations may increase with grazing (Anderson 2004b). However, <i>S. vermiculatus</i> may be moderately poisonous to livestock, especially in the fall. Fire will top-kill <i>S. vermiculatus</i>, but the shrub will promptly resprout from the root crown (NatureServe 2019).
+
+Since stands occur on sites that are intermittently flooded, stands may be reduced by evaporite mining, groundwater pumping, and drought/drying trends. Phreatophytic plants such as <i>Sarcobatus vermiculatus</i> and <i>Sporobolus airodes</i> are deep-rooted plants that depend on groundwater supplies, whereby groundwater pumping and drought in the Owens Valley in particular have been correlated with declines of phreatophytic plant cover and concomittant increases of nonphreatophyic plants including non-natives (Elmore et al. 2003). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Atriplex parryi [3], [4], [5], [7]</li>
+                
+                    <li>Chrysothamnus albidus [4], [5]</li>
+                
+                    <li>Sarcobatus vermiculatus [2]</li>
+                
+                    <li>Sarcobatus vermiculatus - Artemisia tridentata [6]</li>
+                
+                    <li>Sarcobatus vermiculatus - Atriplex confertifolia - (Picrothamnus desertorum, Suaeda moquinii) [1], [4], [5], [6], [7]</li>
+                
+                    <li>Sarcobatus vermiculatus / Distichlis spicata [3], [7]</li>
+                
+                    <li>Sarcobatus vermiculatus Disturbed [5]</li>
+                
+                    <li>Sarcobatus vermiculatus / Leymus cinereus [3], [4], [5]</li>
+                
+                    <li>Sarcobatus vermiculatus / Sporobolus airoides [5]</li>
+                
+                    <li>Sarcobatus vermiculatus - Suaeda moquinii [5], [7]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Ferren, W.R.;Davis, F.W. 1991</li>
+		
+		<li>[2] Thomas, K.;Franklin, J.;Keeler-Wolf, T.;Stine, P. 2004</li>
+		
+		<li>[3] Evens, J.M.;Sikes, K.;Hastings, D.;Ratchford,J.S. 2014</li>
+		
+		<li>[4] VegCAMP (CDFW Vegetation Classification and Mapping Program), 2014b</li>
+		
+		<li>[5] Reyes, E.;Evens, J.;Glass, A.;Sikes, K.;Keeler-Wolf., T.;Winitsky, S.;Johnson, D.;Menke, J.;Hepburn, A. 2020a</li>
+		
+		<li>[6] Boul, R.;Keeler-Wolf, T.;Ratchford, J.;Haynes, T.;Hickson, D.;Yacoub, R.;Harbert, B.;Evens, J. 2021b</li>
+		
+		<li>[7] Reyes, E.;Evens, J.;Fulton, J.;Sikes, K.; Johnson, D.;Keeler-Wolf, T.;Vu, S.;LaFever-Jackson, A. 2023 (in progress)</li>
+		
+		<li>Anderson, M.D. 2004b</li>
+		
+		<li>Beatley, J.C. 1976</li>
+		
+		<li>Burk, J.H. 1977</li>
+		
+		<li>Donovan, L.A.;Richards, J.H. 2000</li>
+		
+		<li>Encyclopedia of Life, 2016</li>
+		
+		<li>MacMahon, J.A. 1988</li>
+		
+		<li>MacMahon, J.A.;Wagner, F.H. 1985</li>
+		
+		<li>Menke, J.;Reyes, E.;Hepburn, A.;Johnson, D.;Reyes, J. 2013</li>
+		
+		<li>NatureServe, 2014+</li>
+		
+		<li>Paysen, T.E.;Ansley, R.J.;Brown, J.K.;Gottfried, G.J.;Haase, S.M.;Harrington, M.G.;Narog, M.G.;Sackett, S.S.;Wilson, R.C. 2000</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Black, H.;Bleich, V.C.;Mincks, J.W. 1980</li>
+		
+		<li>Thorne, R.F. 1982</li>
+		
+		<li>Tueller, P.T. 1994</li>
+		
+		<li>Vasek, F.C.;Barbour, M.G. 1977</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program);AIS, 2013</li>
+		
+		<li>West, N.E. 1988</li>
+		
+		<li>Young, J.A.;Clements, C.D.;Jansen, H.C. 2007</li>
+		
+		<li>Young, J.A.;Evans, R.A.;Major, J. 1977</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/294/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

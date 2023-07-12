@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Azolla (filiculoides, microphylla)</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Azolla</i> (<i>filiculoides</i>, <i>microphylla</i><span style="padding-left: .2em">)</span></span> Herbaceous Alliance <br/>
+        <span class="subtitle">Mosquito fern mats</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Herb
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-2300 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S5
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G5
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>CAN: BC. USA: CA, OR, WA (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/herb/azolla-filiculoides-mexicana_brownsis_06-05_01.jpg', '/static/images/photos/herb/azolla-filiculoides-microphylla_jacklondonsp_08-2013.jpg', '/static/images/photos/herb/azolla-filiculoides-microphylla_centralvalley_02-2013.jpg', '/static/images/photos/herb/azolla-filiculoides-microphylla_centralvalley_03-2013.jpg', '/static/images/photos/herb/azolla-filiculoides-microphylla_prvtland-mesard_05-2019_marin247.jpg', '/static/images/photos/herb/azolla-filiculoides-microphylla_smateo-co-near-butanosp_10-2004.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Azolla</i> <i>filiculoides</i> or <i>Azolla</i> <i>microphylla</i> is dominant floating on the water surface or characteristically present in the herbaceous layer with <i>Egeria</i> <i>densa</i>, <i>Lemna</i> <i>minor</i>, <i>Spirodela</i> <i>polyrrhiza</i>, <i>Wolffia</i> <i>borealis</i> and <i>Wolffiella</i> <i>lingulata</i>. Emergent plants may be present at low to high cover, including <i>Ludwigia</i> <i>peploides</i> or <i>Myriophyllum</i> <i>aquaticum</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Herbs 0.3-8 mm in size; cover is open to continuous. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Azolla filiculoides</i> and/or <i>A. microphylla</i> > 50% relative cover in the herbaceous layer and may be co-dominant with <i>Egeria densa</i> or <i>Myriophyllum</i> spp. (Buck-Diaz et al. 2012).</li>
+		
+		<li><i>Azolla filiculoides</i> or <i>Azolla mexicana (=A. microphylla)</i> > 50% relative cover in the herbaceous layer (Buck-Diaz et al. 2021).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Seasonal and perennial freshwater habitats with still or slow-moving water or on ground surfaces after water levels have dropped. The USFWS Wetland Inventory (1996 national list) recognizes <i>Azolla filiculoides</i> and <i>A. microphylla</i> as OBL plants. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Mosquito fern series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Azolla (filiculoides, mexicana) permanently flooded herbaceous alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Tule-Cattail, Water
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Coastal and valley freshwater marsh, Transmontane freshwater marsh, Montane freshwater marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Freshwater marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Fresh emergent wetland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>52.106.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Hydromorphic Vegetation (Aquatic Vegetation)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Freshwater Aquatic Vegetation
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Freshwater Aquatic Vegetation
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>North American Freshwater Aquatic Vegetation
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Western North American Freshwater Aquatic Vegetation
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Temperate freshwater floating mat
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> Individual plants of <i>Azolla </i>have slender, branched stems with minute, overlapping, scale-like leaves only 1 mm long. When growing in full sunlight, particularly in late summer and fall, <i>Azolla </i>leaves turn from bright green to red. Plants reproduce by fragmentation. Plants are highly productive because they contain nitrogen-fixing, blue-green algae, <i>Anabaena azollae, </i>within cavities in their leaves. People use <i>Azolla </i>as green manure in paddies, as stock feed, and as a method of controlling mosquitoes by blocking the water surface (Clark 1980, Lumpkin and Plucknett 1980). <br/>
+<br/>
+<i>Azolla </i>mats occur throughout California where conditions are favorable. Mats of both <i>Azolla </i>and <i>Lemna </i>occur under the same conditions, and either can dominate in the same water body.<br/>
+<br/>
+This alliance has been updated from <i>Azolla (filiculoides, mexicana)</i> Provisional Herbaceous Alliance after additional classification analyses and surveys including from the Great Valley (Buck-Diaz et al. 2012). <i>Azolla microphylla</i> is the current accepted taxon name for <i>A. mexicana</i> (UCB 2008). </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Azolla filiculoides</th>
+			
+		
+			
+			<th>Azolla microphylla</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>N/A</td>
+			
+		
+			
+			<td>N/A</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>N/A</td>
+			
+		
+			
+			<td>N/A</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Water/Hydrological/animal</td>
+			
+		
+			
+			<td>Water/Hydrological</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Inundation</td>
+			
+		
+			
+			<td>Inundation</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>N/A</td>
+			
+		
+			
+			<td>N/A</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Processes other than fire primarily disturb stands. Flooding/drying cycles are the primary processes involved in modifying stands.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Aa-l). Stands observed in ponds and small lakes and throughout these subsections. Some descriptions come from the San Francisco Bay estuary, where <i>Azolla filiculoides, Lemna gibba, </i>and <i>L. minor </i>are important floating elements of limnetic vegetation near the estuary; non-native species such as <i>Egeria densa </i>and <i>Myriophyllum aquaticum </i>were extremely significant and often predominant (Holstein 2000).</li>
+        
+            <li><b>Central California Coast Ranges</b> (M262Ad-f, Ah). Stands observed in ponds throughout these subsections.</li>
+        
+            <li><b>Great Valley</b> (262Aa-z). Stands mapped throughout the Great Valley Ecoregion (VegCAMP and GIC 2013).  Stands occur in seasonal and perennial freshwater habitats with still water or on ground surfaces after water levels have dropped (Buck-Diaz et al. 2012, Hickson and Keeler-Wolf 2007).</li>
+        
+            <li><b>Modoc Plateau</b> (M261Gg). Stands observed in ponds near the junction of the North and South Forks of the the Pit River.  Stands are probable in ponds throught this subsection.</li>
+        
+            <li><b>Mojave Desert</b> (322Aa, Ag). Stands observed along the Owens River in the Owens Valley  and along the the Mojave River in the High Desert Plains and Hills.</li>
+        
+            <li><b>Mono</b> (341Dh). <i>Azolla filiculoides</i> has been observed in the Owens River and Lake Crowley.</li>
+        
+            <li><b>Northern California Coast</b> (263Aa-m). Stands mapped in Sonoma County (Klein et al. 2015). Expect to find stands in ponds throughout these subsections.</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Bb, Bd). Stands mapped in large ponds throughout eastern Sonoma County (Klein et al. 2015).  Stands observed in embayments on the southwestern shore of Clear Lake.</li>
+        
+            <li><b>Northern California Interior Coast Ranges</b> (M261Cb-c). Stands observed in a pond along the Sacramento River (VegCAMP and GIC 2013) and along  Stony Creek.  Stands are probable in ponds elsewhere in these subsections.</li>
+        
+            <li><b>Sierra Nevada</b> (M261Eb, Ed, Er). Stands observed along the South Fork Kern River and along the Indian Creek in Indian Valley.</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fb-d). Stands observed along Cedar Creek in the Southern Granitic Foothills and in ponds throughout this section.</li>
+        
+            <li><b>Southern California Coast</b> (261Ba-b, Bd, Bf-g, Bi-j). Stands observed along creeks and rivers and in ponds and lakes throughout these sections.</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Bc, Bf, Bj-k, Bn-o). Stands observed in ponds throughout this section.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> <i>Azolla </i> is considered a desirable component of natural habitats and an important food source for waterfowl. Although this alliance is widespread and commonly seen, it occurs in freshwater habitats and may potentially be susceptible to threats affecting wetlands such as changes in hydrology, climate change, urban development, etc. Threats to this alliance also include invasive non-native aquatic species such as <i>Eichhornia crassipes, Limnobium laevigatum</i>, and <i>Ludwigia hexapetala</i>. Non-native aquatics such as <i>Egeria densa</i> and <i>Myriophyllum aquaticum</i> were significant in descriptions of the stands from both the Sacramento-San Joaquin River delta (Hickson and Keeler-Wolf 2007) and San Francisco Bay estuary (Holstein 2000). <i>Azolla </i>itself can sometimes be considered problematic when the population seemingly ‘explodes overnight’. This typically occurs if nutrients are introduced into the water through runoff or erosion (Roncoroni 2011). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Azolla (filiculoides, microphylla) [1], [2], [3], [4]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>[2] Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>[3] Hickson, D.;Keeler-Wolf, T. 2007</li>
+		
+		<li>[4] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>Clark, W. 1980</li>
+		
+		<li>Holstein, G. 2000</li>
+		
+		<li>Lumpkin, T.A;Plucknett, D.L. 1980</li>
+		
+		<li>Mason, H.L. 1957</li>
+		
+		<li>Roncoroni, J.A. 2011</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program),;GIC, 2013</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/327/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

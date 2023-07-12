@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Washingtonia filifera</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Washingtonia</i> <i>filifera</i></span> Woodland Alliance <br/>
+        <span class="subtitle">California fan palm oasis</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Tree
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>100-900 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G3
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: AZ, CA, NV. Mexico (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/tree/washingtonia_filifera_sjotr_03-08_01.jpg', '/static/images/photos/tree/washingtonia_filifera_sjotr_03-08_02.jpg', '/static/images/photos/tree/washingtonia_filifera_sjotr_03-08_03.jpg', '/static/images/photos/tree/washingtonia_filifera_sjotr_03-08_04.jpg', '/static/images/photos/tree/washingtonia-filifera_jtnp_04-99_01.jpg', '/static/images/photos/tree/washingtonia-filifera_santarosamtns_01.jpg', '/static/images/photos/tree/washingtonia-filifera_santarosamtns_02.jpg', '/static/images/photos/tree/washingtonia-filifera_whipplemtns_03-95_01.jpg', '/static/images/photos/tree/washingtonia-filifera_whipplemtns_03-95_02.jpg', '/static/images/photos/tree/washingtonia-filifera_hiddenspringsoasis_meccahills_03-07.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Washingtonia</i> <i>filifera</i> is dominant or co-dominant in the tree canopy with <i>Alnus</i> <i>rhombifolia</i>, <i>Fraxinus</i> <i>velutina</i>, <i>Platanus</i> <i>racemosa</i>, <i>Populus</i> <i>fremontii</i>, <i>Prosopis</i> <i>glandulosa</i>, <i>Prosopis</i> <i>pubescens</i>, <i>Salix</i> <i>exigua</i>, <i>Salix</i> <i>gooddingii</i>, <i>Salix</i> <i>laevigata</i> and <i>Salix</i> <i>lasiolepis</i>. Shrubs include <i>Atriplex</i> spp., <i>Baccharis</i> <i>emoryi</i>, <i>Encelia</i> <i>farinosa</i>, <i>Pluchea</i> <i>sericea</i>, <i>Suaeda</i> <i>moquinii</i> or <i>Tamarix</i> spp. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text"> Trees < 30 m; canopy is open to continuous. Shrub layer is open to intermittent. Herbaceous layer is open to continuous. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Washingtonia filifera</i> > 3% absolute cover in the tree canopy (Keeler-Wolf et al. 1998b).</li>
+		
+		<li><i>Wasingtonia filifera </i>characterizes the tree canopy with >30% relative cover (LaDoux et al. 2013, Keeler-Wolf et al. 2005).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Desert springs in canyon waterways, moist canyon bottoms, or along fault lines where underground water is continuously available. The USFWS Wetland Inventory (1996 national list) recognizes <i>Washingtonia filifera</i> as a FACW plant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Fan palm series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Washingtonia filifera seasonally flooded woodland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Fan palm
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Desert fan palm oasis woodland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Creosote bush scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Palm oasis
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>61.520.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Tree Vegetation (Forest and Woodland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate Flooded and Swamp Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North America Warm Temperate Flooded and Swamp Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Southwestern North American Riparian, Flooded and Swamp Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Southwestern North American riparian evergreen and deciduous woodland
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Washingtonia filifera </i>is a palm with a robust trunk that achieves a height of 15 m. The fan-shaped leaves accumulate around the trunk as a skirt of thatch. Birds and coyotes eat the black drupes and disperse the seeds. Seeds remain dormant on the ground until leached of germination inhibitors. Seedlings require sunny, moist soil to establish. <i>W. filifera </i>does not reproduce vegetatively and lives up to 150 years. Disturbance patterns involve both flood and fire (Howard 1992h, Anderson and Roderick 2005, Turner et al. 1995). <br/>
+<br/>
+<i>Washingtonia filifera </i>oases of the Colorado Desert and adjacent Sonoran Desert are well known and have been focal points since humans arrived in the desert over 10,000 years ago. Somewhat more than 75 stands naturally occur in California, and all major sites have been mapped (CNDDB 2003). There is great floristic variation among the palm oases, and canyon waterway oases differ consistently from those along the San Andreas Fault (Vogl and McHargue 1966). Note: Non-native stands in the Mojave Desert and otherwise are treated in the ruderal <i>Phoenix dactylifera - Washingtonia filifera</i> alliance. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Washingtonia filifera</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Tree; evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Medium</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; water</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Unknown</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>Life of plant</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>High</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Unknown</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Fire is essential in the regeneration and maintenance of <i>Washingtonia filifera. </i>Natural fires ignited by light-ning strikes and those set in 4-year intervals by Cahuilla Indians and other tribes prior to the 1900s created favorable germination sites and temporarily increased the flow of the springs or streams. Flash floods probably produce similar effects (Howard 1992h, Turner et al. 1995). 
+
+Typically, fires do not kill individual palms. They primarily burn the dead leaves and shag along their trunks and bases, and repeated burning increases the bark’s resistance to fire. However, repeated burning can result in fire-dwarfed palms because crown fires, a common occurrence, reduce crown size. Reductions in palm biomass and height with repeated fires also can reduce evapo-transpiration rates, allowing for a more effective use of water supplies and a greater number of palms in an oasis. Fire is also beneficial for <i>W. filifera </i>by reducing plant competition for water resources, opening sites for seed germination, and killing pest larvae of the giant palm borer (<i>Dinapate wrightii</i>) (Howard 1992h). However, high fuel loads created by <i>Tamarix </i>can produce flame lengths that reach the canopies of <i>W. filifera, </i>leading to high rates of mortality (M. Brooks, pers. comm. 2007).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Unknown
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Any season
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Unknown
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Unknown
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Low
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Low
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Unknown
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Unknown
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Colorado Desert</b> (322Ca-d). Oases in Anza-Borrego Desert State Park occur naturally with alkaline adapted riparian species at springs and in canyons (Keeler-Wolf et al. 1998b). Stands here and elsewhere in this section have been inventoried by Cornett (1989) and reported by Reiser (1994) along the western border of the desert.</li>
+        
+            <li><b>Mojave Desert</b> (322Am-n, Ap). Stands in Joshua Tree National Park are native and associated with springs and moist canyon bottoms containing <i>Populus fremontii</i> and <i>Salix laevigata</i> trees (Keeler-Wolf et al. 2005). Other stands furthern north such as in Death Valley National Park (Cornett 1988, Evens et al. 2014) are naturalized (see other semi-natural alliance).</li>
+        
+            <li><b>Sonoran Desert</b> (322Ba, Be). Isolated stands occur at springs in the southern Whipple Mountains and in the Chuckwalla Mountains.</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Bi, Bp). Stands occur along desert slopes  in the higher elevations of the San Jacinto and Santa Rosa Mountains (Menke and Johnson 2016) including in the Santa Rosa and San Jacinto National Monument and in Anza Borrego Desert State Park (Keeler-Wolf et al. 2005) in Palm Canyon and the Santa Rosa, San Ysidro and Jacumba mountains and generally.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Permanent subsurface water is required to maintain palm oases, as are the dynamic processes of seasonal flooding and fire. Seasonal flooding can reduce salinity at the soil surface and moisten the soil for germination, and periodic fires can clear the understory and reduce competition for water. Oases are the only desert community in which fire is an important abiotic factor (NatureServe 2020). With fire suppression occurring over the past 60 or more years in the Colorado Desert, stands have developed dense, tall understories of shrubs and young palms, posing severe fire hazards to the stands (Howard 1992h). Proper management involves an active fire plan. Agricultural and urban development have disturbed many oases; lowering or raising water tables have eliminated others. Near the San Andreas Fault, palms that receive percolating water through rock fractures sometimes perish when the fault shifts. Palm oases are popular destinations for hikers and ORV enthusiasts. Vegetation disturbance and vandalism are of continuing management concerns. <i>Tamarix </i> or <i>Prosopis </i>spp. can compete for space and limit water availability, reducing the yield of the palm oases seeps and springs (Keeler-Wolf et al. 2005). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Washingtonia filifera - Platanus racemosa / Salix spp. [1], [3]</li>
+                
+                    <li>Washingtonia filifera / spring (Atriplex - Baccharis - Pluchea) [1], [2], [3]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Keeler-Wolf, T.;Roye, C.;Lewis, K. 1998b</li>
+		
+		<li>[2] Evens, J.M.;Roach-McIntosh, D.;Stout, D. 2012</li>
+		
+		<li>[3] Menke, J.;Johnson, D. 2016</li>
+		
+		<li>Anderson, M.K.;Roderick, W. 2005</li>
+		
+		<li>Burk, J.H. 1977</li>
+		
+		<li>Cornett, J.W. 1987</li>
+		
+		<li>Cornett, J.W. 1988</li>
+		
+		<li>Cornett, J.W. 1989</li>
+		
+		<li>Howard, J.L. 1992h</li>
+		
+		<li>Howard, J.L. 1992o</li>
+		
+		<li>MacMahon, J.A. 1988</li>
+		
+		<li>McClenaghan, L.R.;Beauchamp, A.C. 1986</li>
+		
+		<li>McClintock, E. 1978</li>
+		
+		<li>Menke, J.;Reyes, E.;Hepburn, A.;Johnson, D.;Reyes, J. 2016</li>
+		
+		<li>Minckley, W.L.;Brown, D.E. 1982</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Black, H.;Bleich, V.C.;Mincks, J.W. 1980</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/98/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Oxyria digyna</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+	<div class="allianceHeader">
+		<span class="scientificName"><i>Oxyria</i> <i>digyna</i></span> Provisional Sparsely Vegetated Alliance <br/>
+		<span class="subtitle">Mountain sorrel patches</span>
+	</div>
+
+	<div class="mainAllianceInfo">
+
+		<div class="allianceSideInfo">
+			<div class="quickInfoList">
+				<h4>Summary Information</h4>
+				<ul>
+					<li>
+						<span class="category">Primary Life Form</span>Herb
+					</li>
+					<li>
+						<span class="category">Elevation</span>1800-4000 m
+					</li>
+					<li>
+						<span class="category">State Rarity</span>S3?
+					</li>
+					<li>
+						<span class="category">Global Rarity</span>G4
+					</li>
+					<li>
+						<span class="category">Distribution</span>CAN: AB, BC, LB, NF, NS, NT, NU, QC, YT. DEN: GL. USA: AK, AZ, CA, CO, ID, MT, NH, NM, NV, OR, SD, TX, UT, WA, WY (USDA Plants)
+					</li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2009/09/01
+                    </li>
+				</ul>
+			</div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = []
+            </script>
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+		</div>
+
+		
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Oxyria</i> <i>digyna</i> is characteristically present in the herbaceous layer with <i>Cystopteris</i> <i>fragilis</i>, <i>Draba</i> <i>lemmonii</i>, <i>Saxifraga</i> <i>tolmiei</i> and <i>Senecio</i> <i>fremontii</i>. </div>
+</div>
+
+		
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Herbs < 20 cm; cover is open. </div>
+</div>
+
+		
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> North-facing aspects, headwalls in rock cervices and unstable, wet snow beds, moving talus where snow remains on the ground until late July or early August. The USFWS Wetland Inventory (1996 national list) recognizes <i>Oxyria digyna</i> as a FACW plant. </div>
+</div>
+
+		
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance, and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Alpine habitat
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Senecio taraxacoides-Oxyria digyna herbaceous vegetation alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Alpine grasses and forbs, Perennial grasses and forbs
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Alpine fell-field, Wet alpine talus and scree slope
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Alpine fell-fields
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Alpine dwarf-shrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>91.122.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+	</div>
+
+
+	<!-- collapsable content below -->
+
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Oxyria digyna </i>has been the focus of ecological studies for over 50 years (see References section below). It grows in dense tufts with stems 10-20 cm high. Leaves are kidney-shaped, somewhat fleshy, and clustered at the stem base. Both flowering stems and leaf stalks are somewhat reddish. Plants produce rhizomes, but they mainly reproduce by seed. Plants are similar in appearance to rhubarb, and new growth is edible with a sour taste. <br/>
+<br/>
+<i>Oxyria digyna </i>is a circumpolar plant of the arctic, subarctic, and alpine areas throughout the northern hemisphere. Stands in California are local in extent and occur in locations where botanists do not usually conduct vegetation plots (Sawyer and Keeler-Wolf 2007). Other herbs in similar rocky subalpine to alpine locations include <i>Epilobium obcordatum, Polemonium chartaceum, P. eximium, Primula suffrutescens, </i>and <i>Saxifraga tolmiei</i>. </div>
+</div>
+
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Observations</h4>
+	<div class="text"> Stands occur in all mountain ranges that reach subalpine elevations in California. Taylor (1984) proposed an alliance, including the <i>Oxyria digyna-Draba lemmonii</i> association in the Sierra Nevada (M261Eo) for stands at the Harvey Monroe Hall RNA; <i>O. digyna</i> is also common in talus and scree habitats in the Sierra Nevada (M261Eh) at Lyon Peak/Needle Lake RNA and in the High Cascades (M261Df) at Antelope Creek Lakes RNA (Cheng 2004). We need more sampling and analysis to understand affinities of these stands that occur at high elevations in California’s mountains. </div>
+</div>
+
+	
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Taylor, D.W. 1984</li>
+		
+		<li>Amen, R.D. 1966</li>
+		
+		<li>Caldwell, M.M.;Robberecht, R.N.;Billings, W.D. 1982</li>
+		
+		<li>Cheng, S. 2004</li>
+		
+		<li>Humlum, C. 1981</li>
+		
+		<li>Mooney, H.A.;Billings, W.D. 1960</li>
+		
+		<li>Mooney, H.A.;Billings, W.D. 1961</li>
+		
+		<li>Russell, R.S. 1948</li>
+		
+		<li>Sawyer, J.O.;Keeler-Wolf, T. 2007</li>
+		
+		<li>Stocklin, J.;Baumler, E. 1996</li>
+		
+		<li>Wager, H.G. 1941</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+	<script src="/static/javascript/alliance_page.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

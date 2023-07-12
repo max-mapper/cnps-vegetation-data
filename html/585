@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Pinus ponderosa - Calocedrus decurrens - Pseudotsuga menziesii</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Pinus</i> <i>ponderosa</i> - <i>Calocedrus</i> <i>decurrens</i> - <i>Pseudotsuga</i> <i>menziesii</i></span> Forest &amp; Woodland Alliance <br/>
+        <span class="subtitle">Ponderosa pine -  Incense Cedar  - Douglas fir forest and woodland</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Tree
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>300-2000 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S4
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>GNR
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA, OR; MX: Baja, California (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2021/08/30
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/tree/pinus-ponderosa_calocedrus-decurrens_bonanzaking.jpg', '/static/images/photos/tree/pinus-ponderosa_calocedrus-decurrens_calaverasco_09-09_01.jpg', '/static/images/photos/tree/pinus-ponderosa_calocedrus-decurrens_calaverasco_09-09_02.jpg', '/static/images/photos/tree/pinus-ponderosa_calocedrus-decurrens_calaverasco_09-09_03.jpg', '/static/images/photos/tree/pinus-ponderosa_calocedrus-decurrens_yosemitevalley_09-09_01.jpg', '/static/images/photos/tree/pinus-ponderosa_pseudo-menziesii_hwy36_08-10_01.jpg', '/static/images/photos/tree/pinus-ponderosa_pseudo-menziesii_hwy36_08-10_02.jpg', '/static/images/photos/tree/pinus-ponderosa_pseudo-menziesii_hwy36_08-10_03.jpg', '/static/images/photos/tree/pinus-ponderosa_pseudo-menziesii_hwy36_08-10_04.jpg', '/static/images/photos/tree/pinus-ponderosa_pseudotsuga-menziesii_trinityalps.jpg', '/static/images/photos/tree/pinus-ponderosa_pseudotsuga-menziesii_canyoncreek.jpg', '/static/images/photos/tree/pinus-ponderosa-pseudotsuga-menziesii_hwy162_06-13_01.jpg', '/static/images/photos/tree/pinus-ponderosa-pseudotsuga-menziesii_hwy162_06-13_02.jpg', '/static/images/photos/tree/pinus-ponderosa-pseudotsuga-menziesii_hwy162_06-13_03.jpg', '/static/images/photos/tree/p.ponderosa-ps.menziesii_c.decurrens_plumas_07-2019.jpg', '/static/images/photos/tree/p.ponderosa-ps.menziesii_c.decurrens_plumas_08-2019_1.jpg', '/static/images/photos/tree/p.ponderosa-ps.menziesii_c.decurrens_plumas_08-2019_2.jpg', '/static/images/photos/tree/p.ponderosa-ps.menziesii_c.decurrens_plumas_08-2019_3.jpg', '/static/images/photos/tree/p.ponderosa-ps.menziesii_c.decurrens_sierra_07-2019_2.jpg', '/static/images/photos/tree/p.ponderosa-ps.menziesii_c.decurrens_fresno_ssnf1684_06-2015_2.jpg', '/static/images/photos/tree/p.ponderosa-ps.menziesii_c.decurrens_fresno_ssnf2118_06-2015_1.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Calocedrus</i> <i>decurrens</i>, <i>Pinus</i> <i>ponderosa</i> and/or <i>Pseudotsuga</i> <i>menziesii</i> are co-dominant in the tree canopy with <i>Abies</i> <i>concolor</i>, <i>Alnus</i> <i>rhombifolia</i>, <i>Arbutus</i> <i>menziesii</i>, <i>Calocedrus</i> <i>decurrens</i>, <i>Notholithocarpus</i> <i>densiflorus</i>, <i>Pinus</i> <i>coulteri</i>, <i>Pinus</i> <i>jeffreyi</i>, <i>Pinus</i> <i>lambertiana</i>, <i>Pseudotsuga</i> <i>macrocarpa</i>, <i>Quercus</i> <i>chrysolepis</i>, <i>Quercus</i> <i>garryana</i> or <i>Quercus</i> <i>kelloggii</i>. Associated shrubs include <i>Amelanchier</i> <i>utahensis</i>, <i>Arctostaphylos</i> spp., <i>Ceanothus</i> <i>prostratus</i>, <i>Chamaebatia</i> <i>foliolosa</i>, <i>Mahonia</i> <i>nervosa</i>, <i>Purshia</i> <i>tridentata</i> and <i>Quercus</i> <i>vacciniifolia</i>. Associated herbs include <i>Achnatherum</i> <i>occidentale</i>, <i>Antennaria</i> <i>rosea</i>, <i>Balsamorhiza</i> <i>sagittata</i>, <i>Collinsia</i> <i>parviflora</i>, <i>Elymus</i> <i>elymoides</i>, <i>Eriogonum</i> <i>nudum</i>, <i>Galium</i> <i>bolanderi</i>, <i>Poa</i> <i>secunda</i>, <i>Polygala</i> <i>cornuta</i>, <i>Polystichum</i> <i>munitum</i> and <i>Wyethia</i> <i>mollis</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text"> Trees < 75 m; canopy is continuous or intermittent. Shrub layer is sparse to intermittent. Herbaceous layer is sparse to abundant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Pinus ponderosa</i>, <i>Calocedrus decurrens</i>, and/or <i>Pseudotsuga menziesii</i> are dominant or co-dominant and together comprise  >60% relative cover in the tree canopy (Ratchford et al. 2022a, 2021b).</li>
+		
+		<li>Both <i>Pinus ponderosa</i> and <i>Calocedrus decurrens</i> > 1% absolute cover in tree canopy and/or in the regeneration layers; combined, they comprise > 60% relative cover in the tree canopy (Keeler-Wolf et al. 2003b).</li>
+		
+		<li><i>Pseudotsuga menziesii</i> and <i>Pinus ponderosa</i> both > 30% relative cover in the canopy (Bingham 1999).</li>
+		
+		<li><i>Calocedrus decurrens</i> is >30% relative cover in the tree layer with <i>Pinus ponderosa</i> (Boul et al. 2021b).</li>
+		
+		<li>Canopy layer comprised of at least 2 (usually 3) conifer species and 2 or more species are regenerating, including <i>Pinus ponderosa</i>, <i>Calocedrus decurrens</i>, and/or <i>Pseudotsuga menziesii</i> (Fites 1993).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Raised stream benches, terraces, slopes, and ridges of all aspects. Soils are deep and well drained. The USFWS Wetland Inventory (2012 national list) recognizes <i>Pinus ponderosa</i> and <i>Pseudotsuga menziesii</i> as FACU plants. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Douglas fir-ponderosa pine series, Mixed conifer series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Pinus ponderosa-Calocedrus decurrens forest alliance, Pinus ponderosa-Pseudotsuga menziesii forest alliance, Pinus ponderosa-Pseudotsuga menziesii woodland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Douglas-fir-Ponderosa pine, Mixed conifer-Pine
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Coast range mixed coniferous forest, Sierran mixed coniferous forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Yellow pine forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Sierran mixed conifer
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>87.005.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Tree Vegetation (Forest and Woodland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Cool Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North America Cool Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Californian-Vancouverian Montane and Foothill Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Californian montane conifer forest
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Pinus ponderosa </i>is a large conifer that attains a height of at least 50 m and an age of 600 years. Seed production varies geographically and temporally with high seed production every 2-7 years. Plants are shade intolerant. Seedling establishment is erratic and linked to periods of adequate soil moisture, high seed crop, and the availability of partially shaded mineral soil. It is best on light soils where extensive root proliferation is possible. The presence of grasses and shrubs reduces seedling survival (Critchfield 1984, Griffin and Critchfield 1972, Habeck 1992d, Oliver and Ryker 1990). <br/>
+<br/>
+<i>Calocedrus decurrens </i>is a conifer that attains a height of 50 m and an age of over 500 years. Seed crops vary in 3- to 6-year cycles, with seed production lacking in some years. Seeds are wind dispersed. Germination is best under partial shade on fresh mineral soil or very light litter. Established seedlings are both shade and drought tolerant, and plants grow rapidly when released. The species grows on a wide variety of parent materials. Plants can extract soil phosphorus and calcium and exclude surplus magnesium, allowing them to grow on ultramafic substrates. Trees grow fastest on deep, well-drained, productive sites, but they commonly occur on unproductive ones as well (Habeck 1992a, Powers and Oliver 1990). <br/>
+<br/>
+<i>Pseudotsuga menziesii </i>is a conifer that attains at least 75 m in height and 500 years in age. Trees begin bearing cones by 20 years of age. Seed production is cyclic, with heavy crops every 5-7 years. Wind and gravity disperse seeds; most fall within 100 m of the parent tree. Seedling establishment is best on mineral soil or on light, moist litter. First-year seedlings survive and grow best in partial shade especially on drier sites, where seedling survival and growth is best in 50 percent shade. Understory trees cannot survive in dense shade, but they are more shade tolerant on moist sites than on dry ones (Barbour et al. 2007a, Griffin and Critchfield 1972, Hermann and Lavender 1990, Uchytil 1991d).<br/>
+<br/>
+Stands of this alliance consist of a mixed conifer canopy with codominance of at least two of the three nominal species. This is a classic mixed conifer type of the lower to mid-montane zones of California. Other conifers are also often present including <i>Pinus lambertiana, P. jeffreyi,</i> and/or <i>P. attenuata</i>. <i>Abies concolor</i> is usually lacking or at very low cover in the upper canopy. However, with long periods of fire suppression <i>A. concolor</i> may increase in the understory.<br/>
+<br/>
+Bingham (1999) developed a regionwide alliance-level classification for late-seral-stage forests based on relationships between species composition and major environmental gradients. This analysis led to  separating <i>Pinus ponderosa -</i> mixed conifer stands into <i>Pinus ponderosa - Calocedrus decurrens </i>alliance and <i>Pinus ponderosa - Pseudotsuga menziesii </i>alliance in the 2009 book, <i>A Manual of California Vegetation, second edition</i>. However, these two previously described alliances have been merged into one alliance based on more recent classification analyses and surveys while standardizing California vegetation names with that of the National Vegetation Classification. Although <i>Ps. menziesii</i> tends to more often codominate in the northern regions of the alliance range while <i>C. decurrens</i> codominates more in the southern regions, we found that there is significant floristic and environmental overlap between the two previously described alliances warranting a merger of the two, particularly since all three nominate species can co-dominate. Additionally, this broader mixed-conifer alliance concept is still being kept separate from the narrower <i>Pseudotsuga menziesii - Calocedrus decurrens </i>(serpentine) alliance, yet more statewide analysis will determine whether these should remain separate. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Calocedrus decurrens</th>
+			
+		
+			
+			<th>Pinus ponderosa</th>
+			
+		
+			
+			<th>Pseudotsuga menziesii</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Tree; evergreen</td>
+			
+		
+			
+			<td>Tree; evergreen</td>
+			
+		
+			
+			<td>Tree; evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Transient</td>
+			
+		
+			
+			<td>Canopy; transient</td>
+			
+		
+			
+			<td>Transient</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+			
+			<td>Short</td>
+			
+		
+			
+			<td>Short</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Wind</td>
+			
+		
+			
+			<td>Animal; gravity; wind</td>
+			
+		
+			
+			<td>Animal; gravity; wind</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Stratification—winter</td>
+			
+		
+			
+			<td>Stratification—winter</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; thick epidermis; low flammability; canopy architecture resistant</td>
+			
+		
+			
+			<td>Fire-hardy; thick epidermis; canopy architecture resistant</td>
+			
+		
+			
+			<td>Fire-hardy; thick epidermis; canopy architecture resistant</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>20-500+ years</td>
+			
+		
+			
+			<td>7-600 years</td>
+			
+		
+			
+			<td>5-500+ years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Episodic; high</td>
+			
+		
+			
+			<td>Episodic (weather dependent; episodic on east side)</td>
+			
+		
+			
+			<td>Low to high</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">The <i> Pinus ponderosa - Calocedrus decurrens - Pseudotsuga menziesii </i>alliance is characteristic of the warmer, lower mixed conifer zone, where snow accumulates for short periods in the winter, and where fire cycles tend to favor regeneration of these principal tree species. Stands experience a range of fires with short to moderate intervals and low to moderate intensities. Historically, surface fires and drought were influential in maintaining stands with open canopies (Skinner et al. 2006, Skinner and Taylor 2006, van Wagtendonk and Fites-Kaufman 2006). Moderate- to high-severity surface fires damage trunks, however, making trees susceptible to rots and root disease (Habeck 1992a, Powers and Oliver 1990). The ability of these principal tree species to survive fire increases with age: mature trees have thick bark and crown architecture that is more resistant, protecting them from low- to moderate-severity fires. Underburning allows older trees to survive repeated fires (Habeck 1992d, Uchytil 1991d).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Short
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Summer-early fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Medium to large
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Moderate to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Low to moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Low to moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Surface-dependent crown fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Sierra Nevada and foothills, southwestern California, Klamath Mountains, Cascades, and North Coast Ranges
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Klamath Mountains</b> (M261Ac, Ae, Ag-o, Aq-r, At-u). Stands of this alliance exist at montane elevations in the eastern subsections (Sawyer 2007). Stands characterized by <i>Pinus ponderosa</i> with <i>Pseudotsuga menziesii</i> are extensive in the southeastern subsections east of the contiguous range of <i>Notholithocarpus densiflorus</i> at mid elevations (Sawyer 2007). Stands described for the Smokey Creek RNA (Taylor and Teare 1979a, see Cheng 2004) and generally for the Six Rivers National Forest (Jimerson 1993) represent the associations in the western subsections. Some stands identified as mixed conifer forest in this section may be of other alliances (<i>Abies concolor-Pseudotsuga menziesii, Pseudotsuga menziesii-(Notholithocarpus densiflorus-Arbutus menziesii)</i>  alliances).</li>
+        
+            <li><b>Modoc Plateau</b> (M261Gb-d, Gg-l, Gp). Stands of <i>Pinus ponderosa - Calocedrus decurrens / Ceanothus prostratus</i> Association were sampled in the Modoc Plateau subsections (Boul et al. 2021b).</li>
+        
+            <li><b>Northern California Coast</b> (263Am). Thorne et al. (2004) mapped 3800 ha in Napa Co.</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Ba-b, Be-f). Stands characterized by <i>Pinus ponderosa</i> with <i>Pseudotsuga menziesii</i> are extensive east of the contiguous range of <i>Notholithocarpus densiflorus</i> at low and montane elevations in the section (Sawyer 2007). Stands characterized by <i>Pinus ponderosa</i> with <i> Calocedrus decurrens </i> have not been documented for this section. Some stands identified as mixed conifer forest in this section may be of other alliances (<i>Abies concolor-Pseudotsuga menziesii, Pseudotsuga menziesii-(Notholithocarpus densiflorus-Arbutus menziesii)</i> alliances).</li>
+        
+            <li><b>Sierra Nevada</b> (M261Ea-h, Ej, Em, Eo-q, Es, Eu). Stands exist at montane elevations (Fites 1993, Fites-Kaufman et al. 2007, Gray 1978) throughout the section. Stands characterized by <i>Pinus ponderosa</i>  and <i>Calocedrus decurrens</i> have been found in Sugar Pine Point RNA (Palmer 1981, see Cheng 2004), in Yosemite National Park (Keeler-Wolf et al. 2003b), Sequoia and Kings Canyon National Parks (NPS-SEKI 2009) and generally for the Lassen, Plumas, and Eldorado national forests (Fites 1993). Stands characterized by <i>Pinus ponderosa</i>  and <i>Pseudotsuga menziesii</i> are more common in the northern subsections but can be found as far south as Yosemite National Park (Keeler-Wolf et al. 2003b).</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fa-c). Stands occur at the upper elevations of the section as far south as Lake Isabella (Menke et al. 2011, Ratchford et al. 2021a). Stands characterized by <i>Pinus ponderosa</i> and <i>Pseudotsuga menziesii</i> occur on mesic lower slopes and in canyons in the volcanic portions of the northern subsection (Menke et al. 2011).</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Ba, Bd-e, Bg-h, Bm, Bo). Stands at montane and subalpine elevations lack <i>Pseudotsuga menziesii</i>; instead, <i>Ps. macrocarpa, Pinus coulteri,</i> and <i>P. jeffreyi</i> are part of the mixture at Big Pine Mountain RNA and at Falls Canyon and Hall Canyon RNAs (Cheng 2004, also see Minnich 2007, Minnich and Everett 2001).</li>
+        
+            <li><b>Southern Cascades</b> (M261Dd, Df-h, Dj, Dl-m). Stands mix with those of other mixed conifer alliances at montane elevations (Fites-Kaufman et al. 2007, Smith 1994). Stands occur at Cub Creek RNA at montane elevations(Taylor and Randall 1978, see Cheng 2004).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Fire was an integral part of the ecology of many stands of this alliance before the intensive livestock grazing of the late 1800s. Most experienced low-severity surface fires at intervals ranging from 1 to 30 years. Underburning allowed maturing trees to survive repeated fires. Since the arrival of effective fire exclusion, there has been a fuel buildup, an increase in stem density, and a change in composition toward more shade-tolerant species <i>Abies concolor, Calocedrus decurrens, </i>and <i>Pseudotsuga menziesii</i>. Additionally, early logging practices selectively removed the large pines, encouraging stands to change in composition toward shade-tolerant species (Skinner et al. 2006, Skinner and Taylor 2007). Many stands continue to experience livestock grazing, which tends to reduce grass cover and favors shrub and tree establishment (Habeck 1992a, Oliver and Ryker 1990, Schmid 1988, van Wagtendonk and Fites-Kaufman 2006). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+                <p>Stands Lacking a Well-Developed Shrub Layer</p>
+            
+            <ul class="text">
+                
+                    <li>Pinus ponderosa - Calocedrus decurrens (mixed conifer) / Galium bolanderi - Polygala cornuta [1]</li>
+                
+                    <li>Pinus ponderosa (- Calocedrus decurrens) stream terrace [3], [11]</li>
+                
+                    <li>Pinus ponderosa - Pseudotsuga menziesii / Antennaria rosea - Eriogonum nudum [1]</li>
+                
+                    <li>Pinus ponderosa - Pseudotsuga menziesii - Calocedrus decurrens [2], [5], [8]</li>
+                
+            </ul>
+        
+            
+                <p>Stands with a Sub-Canopy of Trees</p>
+            
+            <ul class="text">
+                
+                    <li>Pseudotsuga menziesii - Notholithocarpus densiflorus / Cornus nuttallii [1]</li>
+                
+                    <li>Pseudotsuga menziesii - Notholithocarpus densiflorus / Corylus cornuta [1], [15]</li>
+                
+            </ul>
+        
+            
+                <p>Stands with a Well-Developed Shrub Layer</p>
+            
+            <ul class="text">
+                
+                    <li>Pinus ponderosa - Calocedrus decurrens / Ceanothus prostratus [4], [7], [13]</li>
+                
+                    <li>Pinus ponderosa - Calocedrus decurrens / Chamaebatia foliolosa [1], [2], [6]</li>
+                
+                    <li>Pinus ponderosa - Calocedrus decurrens / Mahonia nervosa [13]</li>
+                
+                    <li>Pinus ponderosa - Calocedrus decurrens (mixed conifer) / Arctostaphylos sp. - Chamaebatia foliolosa [1]</li>
+                
+                    <li>Pinus ponderosa - Calocedrus decurrens / Quercus chrysolepis var. nana - Quercus vacciniifolia [1]</li>
+                
+                    <li>Pinus ponderosa - Calocedrus decurrens / Quercus vacciniifolia (serpentine) [1]</li>
+                
+                    <li>Pinus ponderosa - Pseudotsuga menziesii / Purshia tridentata var. tridentata / Wyethia mollis [4]</li>
+                
+            </ul>
+        
+            
+                <p>Stands with Hardwoods in the Tree Canopy</p>
+            
+            <ul class="text">
+                
+                    <li>Pinus ponderosa - Calocedrus decurrens (mixed conifer) - Quercus chrysolepis / Chamaebatia foliolosa [1], [2], [6]</li>
+                
+                    <li>Pinus ponderosa - Calocedrus decurrens - Quercus kelloggii [2], [6]</li>
+                
+                    <li>Pinus ponderosa - Pseudotsuga menziesii [9], [10]</li>
+                
+                    <li>Pinus ponderosa - Pseudotsuga menziesii - Notholithocarpus densiflorus / Chamaebatia foliolosa [1]</li>
+                
+                    <li>Pinus ponderosa - Pseudotsuga menziesii - Quercus chrysolepis / Galium bolanderi [1], [2], [11], [14]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Fites, J. 1993</li>
+		
+		<li>[2] Keeler-Wolf, T.;Schindel, M.;San, S.;Moore, P.;Hickson, D. 2003b</li>
+		
+		<li>[3] Potter, D.A. 2005</li>
+		
+		<li>[4] Smith, S. 1994</li>
+		
+		<li>[5] Stuart, J.D.;Worley, T.;Buell, A.C. 1992</li>
+		
+		<li>[6] NPS-SEKI, 2009</li>
+		
+		<li>[7] Boul, R.;Keeler-Wolf, T.;Ratchford, J.;Haynes, T.;Hickson, D.;Yacoub, R.;Harbert, B.;Evens, J. 2021b</li>
+		
+		<li>[8] Jimerson, T.M. 1993</li>
+		
+		<li>[9] Taylor, D.W.;Teare, K.A. 1979a</li>
+		
+		<li>[10] Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>[11] Klein, A.;Crawford, J.;Evens, J.;Keeler-Wolf, T.;Hickson, D. 2007</li>
+		
+		<li>[13] Sawyer, J.O.;Thornburgh, D.A. 1977</li>
+		
+		<li>[14] Taylor, D.W.;Teare, K.A. 1979b</li>
+		
+		<li>[15] Jimerson, T.M.;McGee, E.A.;Jones, D.W.;Svilich, R.J.;Hotalen, E.;DeNitto, G.;Laurent, T.;Tenpas, J.D.;Smith, M.E.;Hefner-McClelland, K.;Mattison, J. 1996</li>
+		
+		<li>Barbour, M.G. 1988</li>
+		
+		<li>Barbour, M.G.;Keeler-Wolf, T.;Schoenherr, A.A. 2007a</li>
+		
+		<li>Bingham, B.B. 1999</li>
+		
+		<li>Cheng, S. 2004</li>
+		
+		<li>Critchfield, W.B. 1984</li>
+		
+		<li>Fites-Kauffman, J.A.;Rundel, P.;Stephenson, N.;Weixelman, D. 2007</li>
+		
+		<li>Franklin, J.F. 1988</li>
+		
+		<li>Gray, J.T. 1978</li>
+		
+		<li>Griffin, J.R.;Critchfield, W.B. 1972</li>
+		
+		<li>Habeck, R.J. 1992a</li>
+		
+		<li>Habeck, R.J. 1992d</li>
+		
+		<li>Hermann, R.K.;Lavender, D.P. 1990</li>
+		
+		<li>Kinloch, B.B.;Scheuner, W.H. 1990</li>
+		
+		<li>Laacke, R.J. 1990b</li>
+		
+		<li>Laacke, R.J.;Fiske, J.N. 1983b</li>
+		
+		<li>Minnich, R.A. 1987</li>
+		
+		<li>Minnich, R.A. 2007</li>
+		
+		<li>Minnich, R.A.;Everett, R.G. 2001</li>
+		
+		<li>Minore, D.;Kingsley, D. 1983</li>
+		
+		<li>Oliver, W.W.;Ryker, R.A. 1990</li>
+		
+		<li>Palmer, R. 1981</li>
+		
+		<li>Pase, C.P. 1982b</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Black, H.;Bleich, V.C.;Mincks, J.W. 1980</li>
+		
+		<li>Powers, R.F.;Oliver, W.W. 1990</li>
+		
+		<li>Ratchford, J.;Boul, R.;Keeler-Wolf ,T.;Evens, J. 2022b (in progress)</li>
+		
+		<li>Ratchford, J.;Boul, R.;Keeler-Wolf, T.;Evens, J. 2022a (in progress)</li>
+		
+		<li>Rundel, P.W.;Parsons, D.J.;Gordon, D.T. 1977</li>
+		
+		<li>Sawyer, J.O. 2007</li>
+		
+		<li>Schmid, J.M. 1988</li>
+		
+		<li>Skinner, C.N.;Taylor, A.H. 2006</li>
+		
+		<li>Skinner, C.N.;Taylor, AH.;Agee., J.K. 2006</li>
+		
+		<li>Stone, R.D.;Sumida, V.A. 1983</li>
+		
+		<li>Sugihara, N.G.;van Wagtendonk, J.W.;Shaffer, K.E.;Fites-Kaufman, J.;Thode, A.E. 2006</li>
+		
+		<li>Tappeiner, J.C. 1980</li>
+		
+		<li>Thorne, J.H.;Kennedy, J.;Quinn, J.F.;McCoy, M.;Keeler-Wolf, T.;Menke, J. 2004</li>
+		
+		<li>Uchytil, R.J. 1991d</li>
+		
+		<li>Vankat, J.L. 1970</li>
+		
+		<li>Vankat, J.L. 1982</li>
+		
+		<li>Vankat, J.L.;Major, J. 1978</li>
+		
+		<li>van Wagtendonk, J.W.;Fites-Kauffman, J. 2006</li>
+		
+		<li>Zouhar, K. 2001a</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/585/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

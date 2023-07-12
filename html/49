@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Pinus contorta ssp. murrayana</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Pinus</i> <i>contorta</i> ssp. <i>murrayana</i></span> Forest &amp; Woodland Alliance <br/>
+        <span class="subtitle">Lodgepole pine forest and woodland</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Tree
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>1500-3400 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S4
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G4
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA, OR, WA. Baja California, Mexico (FEIS)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/tree/pinus-contorta-murrayana_fen_sagehenfieldstation_08-10-01.jpg', '/static/images/photos/tree/pinus-contorta-murrayana_fen_sagehenfieldstation_08-10-02.jpg', '/static/images/photos/tree/pinus-contorta-murrayana_tiogacrestyose_06-02.jpg', '/static/images/photos/tree/pinus-contorta-murrayana_yosemitenp.jpg', '/static/images/photos/tree/pinus-contorta-murrayana_1misofdismalswamp.jpg', '/static/images/photos/tree/pinus-contorta-murrayana_ebbettspass_02.jpg', '/static/images/photos/tree/pinus-contorta-murrayana_grass-lake_09-09_01.jpg', '/static/images/photos/tree/pinus-contorta-murrayana_lassenvnp_08-10_01.jpg', '/static/images/photos/tree/pinus-contorta-murrayana_nearwhitewolf_10-03.jpg', '/static/images/photos/tree/pinus-contorta-murrayana_redmtnjosephineper.jpg', '/static/images/photos/tree/pinus-contorta-murrayana_talps_10_04.jpg', '/static/images/photos/tree/pinus-contorta-murrayana_tuolumnemdw_06-02.jpg', '/static/images/photos/tree/pinus-contorta-murrayana_uticareservoir_07-09_01.jpg', '/static/images/photos/tree/pinus-contorta-murrayana_warnermtns.jpg', '/static/images/photos/tree/pinus-contorta-murrayana_whitewolffen_10-03.jpg', '/static/images/photos/tree/pinus-contorta-murrayana_woodchuckbasin_01.jpg', '/static/images/photos/tree/pinus-contorta-murrayana_woodchuckbasin_02.jpg', '/static/images/photos/tree/pinus-contorta-murrayana_woodchuckbasin_03.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Pinus</i> <i>contorta</i> ssp. <i>murrayana</i> is dominant or co-dominant in the tree canopy with <i>Abies</i> <i>concolor</i>, <i>Abies</i> <i>magnifica</i>, <i>Abies</i> ×<i>shastensis</i>, <i>Juniperus</i> <i>grandis</i>, <i>Pinus</i> <i>albicaulis</i>, <i>Pinus</i> <i>balfouriana</i>, <i>Pinus</i> <i>flexilis</i>, <i>Pinus</i> <i>monticola</i>, <i>Populus</i> <i>tremuloides</i> and <i>Tsuga</i> <i>mertensiana</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text"> Trees < 40 m; canopy is open to continuous. Shrub layer is sparse to intermittent. Herbaceous layer is sparse or abundant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Pinus contorta</i> ssp. <i>murrayana</i> > 5% absolute cover in the tree canopy; other conifers such as <i>P. jeffreyi</i> and <i>Juniperus grandis</i> are < 5% absolute cover (Potter 1994).</li>
+		
+		<li><i>Pinus contorta</i> ssp. <i>murrayana</i> > 50% relative cover in the tree canopy; it may co-dominate with <i>P. albicaulis</i> (Keeler-Wolf et al. 2003b).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Terraces, lake and meadow margins, and depressions that flood seasonally; . upland slopes and ridges to the tree line. The USFWS Wetland Inventory (1996 national list) recognizes <i>Pinus contorta</i> as a FAC plant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Lodgepole pine series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Pinus contorta forest alliance, Pinus contorta seasonally flooded forest alliance, Pinus contorta temporarily flooded forest alliance, Pinus contorta woodland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Lodgepole pine, Ultramafic mixed conifer
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Lodgepole pine forest, Whitebark pine-lodgepole pine forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Lodgepole forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Lodgepole pine
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>87.080.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Tree Vegetation (Forest and Woodland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Cool Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North America Cool Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Vancouverian Subalpine Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Vancouverian mesic montane coniferous forest and woodland
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Pinus contorta </i>ssp. <i>murrayana </i>is a conifer that attains a height of 30 m and age of over 600 years. Cone crops are heavy about every 3 years. Seeds are wind dispersed and fall up to 60 m from source trees. Seeds are about 75% viable and remain viable for up to 15 years. High germination occurs in locations with high light and soils with little or no duff. Local regeneration may occur as gaps are caused by tree fall. Trees are moderately shade tolerant. Many stands have uneven-aged structure (Cope 1993c, Griffin and Critchfield 1972 Lotan and Critchfield 1990, Parker 1986).<br/>
+<br/>
+<i>Pinus contorta </i>includes four subspecies that have different ecologies (Lotan and Critchfield 1990), so we treated them in separate alliances: ssp. <i>contorta </i>grows along the coastline of northern California; ssp. <i>bolanderi </i>is a regular component of the <i>Hesperocyparis pigmaea </i>alliance; ssp. <i>latifolia </i>is thought to grow outside California (it might be on serpentine substrates in the northern Klamath Mountains; see <i>Pinus contorta </i>ssp. <i>contorta </i>alliance); and ssp. <i>murrayana </i>grows at higher elevations in California’s mountains. <br/>
+<br/>
+<i>Pinus contorta </i>ssp. <i>murrayana </i>grows in a variety of site conditions, including cold air drainages, stream banks, lakeshores, wet meadows, and dry, upland settings. Stands are most common and extensive in the Sierra Nevada. Montane stands are associated with moist meadow and lake margins; subalpine stands occupy upland settings on glaciated surfaces and till with skeletal soils (Fites-Kaufman et al. 2007). </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Pinus contorta ssp. murrayana</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Tree; evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Canopy; soil</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; wind</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-sensitive; thin epidermis; no/low sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>4-600+ years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Medium to high</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>By subspecies</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text"><i>Pinus contorta </i>ssp. <i>murrayana </i>trees are fire sensitive because of shallow roots and thin bark. Fires of moderate to high severity remove existing vegetation and prepare an ideal seedbed for seedling establishment for this post-fire colonizer. This pine typically establishes from wind-dispersed seed after stand-replacing fires; trees also establish between fires, creating even-aged stands (Cope 1993c).
+
+Fire return intervals vary. On the west side of the Cascades and Sierra Nevada, stand-replacing events are several hundred years apart (Skinner and Taylor 2006, van Wagtendonk and Fites-Kaufman 2007). Fires are usually intense and extensive, and they are related especially to insect attacks and declining vigor in older stands (Cope 1993c).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Medium to long (100+ years for large stand-replacing fires, 20-30 years for surface fires)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Late summer (short)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Medium to large
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Multiple
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Multiple
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Multiple
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Multiple
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Klamath and Cascade ranges, Modoc Plateau, Sierra Nevada, southern California mountains
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Klamath Mountains</b> (M261Ad-e, Ag, Aj, An-q, At). Stands occur in all higher mountain ranges in the section. They are mostly associated with glacial basins and lakes (Sawyer 2007).</li>
+        
+            <li><b>Modoc Plateau</b> (M261Gf). Stands are associated with depressions that are cold and seasonally saturated (Fites-Kaufman 2007). Stands are common in the northern Warner Mountains, some with an understory of <i>Vaccinium scoparium.</i></li>
+        
+            <li><b>Mono</b> (341Dd, Dj, Dl). Stands are extensive at higher elevations in upland settings, including those at Indiana Summit and Sentinel Meadow RNAs (Cheng 2004, Thorne et al. 2007). Individuals, groves, and a single valley-bottom stand occur in the White Mountains (Griffin and Critchfield 1972).</li>
+        
+            <li><b>Sierra Nevada</b> (M261Ea-h, Ej-q, Et-u). Stands are described for Bell Meadow, Grass Lake, Harvey Monroe Hall, Last Chance, Mount Pleasant, Mud Lake, and W. B. Critchfield RNAs; for the Teakettle Creek study area (Cheng 2004), for Yosemite National Park (Keeler-Wolf et al. 2003b); and generally in the section (Fites-Kaufman 2007, Potter 1994, 1998, 2005).</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Be, Bh, Bm). Stands occur in the San Gabriel, San Bernardino, and San Jacinto mountains (Hanes 1976, Minnich 1976, 2007, Klein and Evens 2005) at subalpine elevations in both upland and moist, lowlying settings.</li>
+        
+            <li><b>Southern Cascades</b> (M261Dd, Df-g, Di-j, Dl-m). Stands are associated with depressions that are cold and seasonally saturated (Fites-Kaufman 2007).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Stand-replacing fires are related to insect attacks, particularly by the lodgepine needleminer (<i>Coleotechnites milleri</i>) and mountain pine beetle (<i>Dendroctonus ponderosae</i>), and to high fuel loading in old stands (Keeley 1981, Parker 1986, Wood et al. 2003). Issues surrounding the “invasion” of <i>Pinus contorta </i>ssp<i>. murrayana </i>into subalpine meadows have raised concerns with managers because of uncertainty regarding whether these shifts are natural or human mediated. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+                <p>Stands Lacking a Well-Developed Shrub Layer</p>
+            
+            <ul class="text">
+                
+                    <li>Pinus contorta ssp. murrayana [1], [2], [3], [4]</li>
+                
+                    <li>Pinus contorta ssp. murrayana / Carex filifolia [1], [8]</li>
+                
+                    <li>Pinus contorta ssp. murrayana / Carex rossii [1], [7], [8]</li>
+                
+                    <li>Pinus contorta ssp. murrayana / Carex spp. [5]</li>
+                
+                    <li>Pinus contorta ssp. murrayana / Cistanthe umbellata [6]</li>
+                
+                    <li>Pinus contorta ssp. murrayana / Ligusticum grayi [1], [3], [5]</li>
+                
+                    <li>Pinus contorta ssp. murrayana / Penstemon newberryi [1]</li>
+                
+                    <li>Pinus contorta ssp. murrayana / Thalictrum fendleri [7]</li>
+                
+            </ul>
+        
+            
+                <p>Stands with a Well-Developed Shrub Layer</p>
+            
+            <ul class="text">
+                
+                    <li>Pinus contorta ssp. murrayana / Artemisia tridentata [1], [5], [8]</li>
+                
+                    <li>Pinus contorta ssp. murrayana / Rhododendron columbianum - Phyllodoce breweri [5]</li>
+                
+                    <li>Pinus contorta ssp. murrayana / Vaccinium cespitosum [5]</li>
+                
+                    <li>Pinus contorta ssp. murrayana / Vaccinium uliginosum [1], [10]</li>
+                
+                    <li>Pinus contorta ssp. murrayana / Vaccinium uliginosum - Rhododendron columbianum [5]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Keeler-Wolf, T.;Schindel, M.;San, S.;Moore, P.;Hickson, D. 2003b</li>
+		
+		<li>[2] Klein, A.;Evens, J. 2005</li>
+		
+		<li>[3] Potter, D.A. 1994</li>
+		
+		<li>[4] Potter, D.A. 1998</li>
+		
+		<li>[5] Potter, D.A. 2005</li>
+		
+		<li>[6] Taylor, D.W. 1980</li>
+		
+		<li>[7] Taylor, D.W. 1984</li>
+		
+		<li>[8] NPS-SEKI, 2009</li>
+		
+		<li>[10] Sikes, K.G.;Cooper, D.J.;Weis, S.;Keeler-Wolf, T.;Barbour, M.;Ikeda, D.;Evens, J.M. 2010a</li>
+		
+		<li>Alexander, R.R.;Lotan, J.E.;Larson, M.J.;Volland, L.A. 1983</li>
+		
+		<li>Barbour, M.G. 1988</li>
+		
+		<li>Cope, A.B. 1993c</li>
+		
+		<li>Griffin, J.R.;Critchfield, W.B. 1972</li>
+		
+		<li>Hanes, T.L. 1976</li>
+		
+		<li>Keeley, J.E. 1981</li>
+		
+		<li>Koch, P. 1995</li>
+		
+		<li>Lotan, J.E.;Critchfield, W.B. 1990</li>
+		
+		<li>Minnich, R.A. 1976</li>
+		
+		<li>Minnich, R.A. 2007</li>
+		
+		<li>Parker, A.J. 1986</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Black, H.;Bleich, V.C.;Mincks, J.W. 1980</li>
+		
+		<li>Pfister, R.D.;McDonald, P.M. 1980</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/49/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

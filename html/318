@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Amsinckia (menziesii, tessellata) - Phacelia spp.</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Amsinckia</i> (<i>menziesii</i>, <i>tessellata</i><span style="padding-left: .2em">)</span> - <i>Phacelia</i> spp.</span> Herbaceous Alliance <br/>
+        <span class="subtitle">Fiddleneck - Phacelia Fields</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Herb
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-1500 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S5
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G5
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA, NV. (CNPS and NPS data)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2009/09/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/herb/amsinckia-menziesii-tessellata_carrizopl_04-10_01.jpg', '/static/images/photos/herb/amsinckia-menziesii-tessellata_carrizopl_04-10_02.jpg', '/static/images/photos/herb/amsinckia-menziesii-tessellata_carrizopl_04-10_03.jpg', '/static/images/photos/herb/amsinckia-menziesii-tessellata_chimineasranch_03-09_01.jpg', '/static/images/photos/herb/amsinckia-menziesii-tessellata_chimineasranch_04-08_01.jpg', '/static/images/photos/herb/amsinckia-menziesii-tessellata_chimineasranch_04-08_02.jpg', '/static/images/photos/herb/amsinckia-menziesii-tessellata_tejonranch_01-10_01.jpg', '/static/images/photos/herb/amsinckia-menziesii-tessellata_tejonranch_01-10_02.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Amsinckia</i> <i>menziesii</i>, <i>Amsinckia</i> <i>tessellata</i> and/or <i>Phacelia</i> spp. or other <i> Amsinckia </i>sp. is seasonally co-dominant in the herbaceous layer with <i>Amblyopappus</i> <i>pusillus</i>, <i>Astragalus</i> <i>didymocarpus</i>, <i>Atriplex</i> <i>californica</i>, <i>Avena</i> spp., <i>Bromus</i> <i>diandrus</i>, <i>Bromus</i> <i>hordeaceus</i>, <i>Bromus</i> <i>rubens</i>, <i>Castilleja</i> <i>exserta</i>, <i>Centromadia</i> <i>pungens</i>, <i>Croton</i> <i>setigerus</i>, <i>Deinandra</i> <i>fasciculata</i>, <i>Dichelostemma</i> <i>capitatum</i>, <i>Erodium</i> spp., <i>Guillenia</i> <i>lasiophylla</i>, <i>Hordeum</i> <i>murinum</i>, <i>Lasthenia</i> <i>californica</i>, <i>Lasthenia</i> <i>gracilis</i>, <i>Lotus</i> <i>wrangelianus</i>, <i>Lupinus</i> <i>bicolor</i>, <i>Plagiobothrys</i> <i>canescens</i>, <i>Plagiobothrys</i> <i>collinus</i> and <i>Vulpia</i> <i>bromoides</i>. Emergent shrubs may be present at low cover, including <i>Adenostoma</i> <i>fasciculatum</i>, <i>Artemisia</i> <i>californica</i>, <i>Eastwoodia</i> <i>elegans</i>, <i>Encelia</i> <i>farinosa</i>, <i>Ericameria</i> <i>palmeri</i>, <i>Eriogonum</i> <i>fasciculatum</i>, <i>Isocoma</i> <i>menziesii</i> or <i>Lupinus</i> <i>albifrons</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Herbs < 1 m; cover is intermittent to continuous. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Amsinckia menziesii</i> ≥ 10% relative cover in herbaceous layer (Klein and Evens 2005).</li>
+		
+		<li><i>Vulpia bromoides</i> co-dominates with <i>Amsinckia menziesii</i> and <i>Plagiobothrys canescens</i> in the herbaceous layer (Kittel et al. 2012).</li>
+		
+		<li><i>Amsinckia menziesii, A. tessellata, A. vernicosa, Phacelia ciliata, P. distans </i>and/or <i>P. tanacetifolia </i>is/are dominant or seasonally characteristic in the herbaceous layer typically with greater than 10% relative cover (Buck-Diaz and Evens 2011, Buck-Diaz et al. 2011, 2012, 2013, Evens et al. 2014).</li>
+		
+		<li><i>Amsinckia intermedia, A. menziesii, </i>or <i>Amblyopappus pusillus </i> dominant, co-dominant, or seasonally characteristic at greater than 10% relative cover in the herbaceous layer (Rodriguez et al. 2018).</li>
+		
+		<li><i>Amsinckia</i> spp. and/or <i>Phacelia</i> spp. > 50% relative cover in the herbaceous layer (Buck-Diaz et al. 2021).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Upland slopes, broad valleys, ocean bluffs, grazed or recently burned hills, fallow fields. Soils are well drained and loamy, and they are often subject to high levels of bioturbation.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>California annual grassland series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Annual grasses and forbs, Perennial grasses and forbs
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Non-native grassland, Wildflower field
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Valley grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Annual grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>42.110.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Mediterranean Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Mediterranean Grassland and Forb Meadow
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>California Grassland and  Meadow
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>California Annual and Perennial Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>California annual herb/grass group
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Amsinckia </i>contains about ten species that are native to western North America and temperate South America<i>. </i>Some species are introduced weeds in Australia and other areas with Mediterranean climates<i>. A. menziesii </i> (sensu lato) and <I>A. tessellata </i>are common native annuals of the California Floristic Province. Plants are well adapted to regular site disturbance and fluctuating Mediterranean climates through their ability to bank seeds and germinate quickly during relatively high rainfall years. <i>A. tessellata </i>grows under somewhat drier climate conditions than <i>A. menziesii, </i>but both species grow together in some stands in the inner central Coast Ranges. Other species, such as <i>A. grandiflora </i>(a rare CNPS list 1B.1 plant), are more restricted to mesic slopes and are less likely to compete effectively with introduced annuals. <i>A. douglasiana </i>is restricted to droughty, semi-desert slopes. <br/>
+<br/>
+The genus <i>Phacelia</i> is taxonomically diverse with more than 200 species native to North and South America. Approximately 100 species are native to California and several of these species have additionally recognized varieties. In California, <i>Phacelia ciliata</i> and <i>Phacelia tanacetifolia</i> are two species that have been documented so far as co-dominant or sub-dominant in this alliance. Contact with the hairs of some <i>Phacelia</i> species can cause dermititis to sensitive individuals.<br/>
+<br/>
+The alliance's cover and abundance of native taxa fluctuate depending on the amount and timing of precipitation. As with other annual vegetation, stand appearance and size may vary from year to year. We need further sampling and analysis to understand the relationships of this alliance with non-native <i>Bromus </i>spp. and with other native herb alliances, including the <i>Plagiobothrys nothofulvus </i>alliance. <br/>
+<br/>
+Schiffman (2007) discussed the role of giant kangaroo rat (<i>Dipodomys ingens</i>), California ground squirrel (<i>Spermophillus beacheyi</i>), and pocket gophers (<i>Thomomys </i>spp.) in maintaining a mosaic of herbaceous vegetation types atop regularly spaced, active rodent colonies surrounded by less disturbance-adapted annuals. Prior to European colonization, patterns of disturbance-related native plants, including <i>Amsinckia </i>spp., probably occurred across much of the non-woody landscapes of lowland California. In some El Niño years, <i>Amsinckia </i>species cover large areas, displaying seasonal dominance. In other years, non-native species of <i>Bromus, Erodium, </i>and <i>Lactuca </i>dominate the same areas.<br/>
+<br/>
+This alliance was cited as <i>Amsinckia (menziesii, tessellata)</i> Herbaceous Alliance in the 2009 book, <i>A Manual of California Vegetation, second edition</i>, but has been expanded to include stands dominated by  <i>Phacelia</i> spp. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Amsinckia menziesii</th>
+			
+		
+			
+			<th>Amsinckia tessellata</th>
+			
+		
+			
+			<th>Phacelia spp.</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Annual; herb</td>
+			
+		
+			
+			<td>Annual; herb</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; gravity</td>
+			
+		
+			
+			<td>Animal; gravity</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-sensitive; high flammability</td>
+			
+		
+			
+			<td>Fire-sensitive; high flammability</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>One year</td>
+			
+		
+			
+			<td>One year</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Low to high </td>
+			
+		
+			
+			<td>High to low</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Some ecologists (Keeley 2006, Minnich 2008, Wills 2006) have contended that upland areas in central and southern California had lower over cover and lower grass than forb cover prior to European plant invasion, and fire was probably not important in such areas. Keeley (2006) also asserted that annual herbs tolerated a wide variety of fire regimes and that herbaceous landscapes burned at high frequencies close to Native American habitation, but they probably burned once or twice a century away from habitation sites because of infrequent lightning strikes. However, many native annual forbs, including <i>Amsinckia </i>spp., tend to respond favorably to fire, especially with the removal of thatch created by non-native annual grasses (Parsons and Stohlgren 1989, York 1997).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Short to medium
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Early fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Up to stand size
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Moderate to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Moderate to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Surface fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Central Coast
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Aa, Ac, Ae, Ah). Stands are common along roadsides and in disturbed settings, including grazed pastures and recent burns.</li>
+        
+            <li><b>Central California Coast Ranges</b> (M262Aa-k). <i>Amsinckia menziesii</i> and <i>A. tessellata</i> stands are abundant and widespread in some years with relatively high winter rains. In 2007 <i>A. tessellata</i> dominated thousands of hectares of the Carrizo National Monument (CNPS 2008). Stands with <i>A. grandiflora</i> and other herbs occur on steep, well-drained, north-facing slopes in the Altamont Hills of the Diablo Range; <i>A. menziesii</i> is more numerous on warm, south-facing slopes (Carlsen et al. 1999). Very dry slopes of marine sediments in the Temblor Range are seasonally dominated by the ecologically similar <i>A. vernicosa</i> and/or <i>A. douglasiana.</i></li>
+        
+            <li><b>Great Valley</b> (262Ae, Ag, Aj, Ao, Aq-r, At-z). Stands of <i>A. menziesii</i> and <i>A. tessellata</i> occur on well-drained soils throughout the section, but they do not appear to be present in soils with high clay content or in areas subject to regular flooding or ponding. Stands have been sampled in the Elk Hills.</li>
+        
+            <li><b>Mojave Desert</b> (322Ag-m, Ao). Cover of <i>A. tessellata</i> is high in some years in the western subsections, particularly in Antelope Valley. Stands often associate with <i>Achnatherum speciosum</i> or <i>Poa secunda</i> grasslands, and in wildflower fields with <i>Eschscholzia californica</i> and other herbs. <i>Amsinckia</i> stands represented in fallow fields are associated with stands of the <i>Ericameria nauseosa</i> alliance.</li>
+        
+            <li><b>Northern California Interior Coast Ranges</b> (M261Ca-c). Stands of <i>A. menziesii</i> occur on hills throughout this section, closely associated with <i>Quercus douglasii</i> woodlands and stands strongly dominated by nonnative annuals, including <i>Bromus diandrus, B. hordeaceus,</i> and <i>B. rubens.</i></li>
+        
+            <li><b>Sierra Nevada</b> (M261Er-s). Stands are similar to those in the southern Sierra Nevada foothills.</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fc-e). Stands of <i>A. tessellata</i> and <i>Phacelia</i> spp. occur often in the southern subsections. They can be associated with <i>Quercus douglasii</i> woodlands or on grazed hillsides in a patchwork with other native and non-native plants.</li>
+        
+            <li><b>Southern California Coast</b> (261Bb-c, Be-g, Bi-j). Stands of <i>A. menziesii</i> on the northern Channel Islands (Johnson and Rodriguez 2001, Junak et al. 2007) occupy upper ocean bluffs and coastal grasslands in years of high winter rainfall. Some are associated with <i>Atriplex californica</i> and other halophytic plants, while others are associated with <i>Amblyopappus pusillus</i>.</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Ba-c, Bf, Bj-k, Bn). Stands of <i>A. menziesii</i> occur at varying cover with other natives and non-native <i>Erodium</i> spp., including in western Riverside Co. (Klein and Evens 2005).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Researchers are unclear as to the proper management balance for <i>Amsinckia </i> and other natives in stands as compared to non-native invasives. Schiffman (2007) suggested that <i>Erodium </i>spp. have very similar ecologies to the native annuals, and they regularly compete with <i>Amsinckia </i>and other native annuals, even under grazing. The non-native grasses, such as <i>Bromus </i>spp., attain stronger dominance during years with high precipitation (Bartolome et al. 2007a). 
+
+In central California, ecologists (Carlsen et al. 1999, 2000, Pavlik 1995, Pavlik et al. 1993) found that the presence of non-native annual grasses contributed to the decline of the rare <i>A. grandiflora</i>. They recommended long-term management by reducing non-native grass cover and by restoring and maintaining the native perennial bunchgrass stands of <i>Poa secunda </i>at intermediate densities to ensure the persistence of this rare species. Carlsen et al. (1999) also noted an inverse correlation between the native shrub <i>Lupinus albifrons </i>cover and the density of <i>A. grandiflora </i>over a 4-year period. 
+
+Techniques used to enhance <i>Amsinckia </i>establishment include lowering the biomass of non-native species through burning, grazing, and fossorial mammal disturbance, along with planting <i>Amsinckia </i>and other native plants. As for grazing, seeds and herbage of all <i>Amsinckia </i>are toxic to livestock (especially cattle) because of high alkaloid and nitrate concentrations. This may be a reason why this native continues to persist throughout grazing lands of California. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Amsinckia (intermedia, menziesii) [4], [5], [7]</li>
+                
+                    <li>Amsinckia menziesii - Erodium spp. [1], [3]</li>
+                
+                    <li>Amsinckia menziesii - Vulpia bromoides - Plagiobothrys canescens [2]</li>
+                
+                    <li>Amsinckia tessellata - Erodium cicutarium [3], [5], [6], [7]</li>
+                
+                    <li>Astragalus didymocarpus - Lotus wrangelianus [3]</li>
+                
+                    <li>Phacelia ciliata [3], [5], [7], [9]</li>
+                
+                    <li>Phacelia tanacetifolia [3], [4], [5], [7]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Klein, A.;Evens, J. 2005</li>
+		
+		<li>[2] Kittel, G.;Reyes, E.;Evens, J.;Buck, J.;Johnson, D. 2012</li>
+		
+		<li>[3] Buck-Diaz, J.;Evens, J. 2011b</li>
+		
+		<li>[4] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>[5] Buck-Diaz, J.;Ratchford, J.;Evens, J. 2013</li>
+		
+		<li>[6] Evens, J.M.;Sikes, K.;Hastings, D.;Ratchford,J.S. 2014</li>
+		
+		<li>[7] Buck-Diaz, J.;Harbert, B.;Evens, J. 2011</li>
+		
+		<li>[9] VegCAMP (CDFW Vegetation Classification and Mapping Program), 2015a</li>
+		
+		<li>Bartolome, J.W.;Barry, W.J.;Griggs, T.;Hopkinson, P. 2007a</li>
+		
+		<li>Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>Carlsen, T.;Espeland, E.;Pavlik, B. 1999</li>
+		
+		<li>Keeley, J.E. 2006</li>
+		
+		<li>Menke, J.;Reyes, E.;Hepburn, A.;Johnson, D.;Reyes, J. 2013</li>
+		
+		<li>Pavlik, B.M. 1995</li>
+		
+		<li>Pavlik, B.M.;Nickrent, D.L.;Howald, A.M. 1993</li>
+		
+		<li>Rodriguez, D. 2015</li>
+		
+		<li>Schiffman, P. 2007</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program);AIS, 2013</li>
+		
+		<li>Wills, R. 2006</li>
+		
+		<li>York, D. 1997</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/318/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

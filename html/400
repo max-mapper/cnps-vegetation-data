@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Holcus lanatus - Anthoxanthum odoratum</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Holcus</i> <i>lanatus</i> - <i>Anthoxanthum</i> <i>odoratum</i></span> Herbaceous Semi-Natural Alliance <br/>
+        <span class="subtitle">Common velvet grass - sweet vernal grass meadows</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Herb
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>1-2300 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>SNA
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>GNA
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA, OR?
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                        <li>
+                            <span class="category">Invasive species rank</span>
+                            Cal-IPC: Moderate
+                        </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2009/09/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/herb/holcus-lanatus-anthoxanthum-odoratum_ptreyes_06-03_01.jpg', '/static/images/photos/herb/holcus-lanatus-anthoxanthum-odoratum_ptreyes_06-03_02.jpg', '/static/images/photos/herb/holcus-lanatus-anthoxanthum-odoratum_ptreyes_06-03_03.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Anthoxanthum</i> <i>odoratum</i> and/or <i>Holcus</i> <i>lanatus</i> is dominant or co-dominant in the herbaceous layer. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Herbs < 1 m; cover is intermittent to continuous. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Holcus lanatus</i> > 50% relative cover in the herbaceous layer (Pickart 2006).</li>
+		
+		<li><i>Holcus lanatus</i> and/or <i>Anthoxanthum odoratum</i> > 30% relative cover individually or > 50% relative cover in combination, or > 30% relative cover with <i>Briza maxima, Lolium perenne, Plantago lanceolata, Rumex acetosella</i>, and <i>Vulpia bromoides</i> (Buck-Diaz et al. 2021, Sikes et al. 2021).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Coastal bluffs and terraces, moist pastures, wetlands at the driest moisture levels, highest tidal elevations, and lowest salinities. The USFWS Wetland Inventory (1996 national list) recognizes <i>Holcus lanatus</i> as a FAC plant and <i>Anthoxanthum odoratum</i> as a FACU plant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Introduced perennial grassland series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Wet grasses and forbs, Perennial grasses and forbs
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Coastal terrace prairie
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Coastal prairie
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Perennial grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>42.050.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate and Boreal Shrubland and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate Grassland, Meadow, and Shrubland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Vancouverian and Rocky Mountain Grassland and Shrubland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Western North American Temperate Grassland and Meadow
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Vancouverian and Rocky Mountain naturalized perennial grassland
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Holcus lanatus, </i>common velvet grass, has a Cal-IPC rank of Moderate. It is a perennial, fibrous-rooted, non-native grass from Europe, introduced to California for forage. Plants flower and produce seeds in the second year, producing abundant, wind-dispersed seeds that form a seed bank. Plants may die after a few years, particularly after luxuriant flowering. Best growth occurs under moist conditions, where plants produce a large number of fine roots on the soil surface. Plants form dense stands where the decumbent culms root at the nodes and produce a thick layer of thatch (Watt 1978, Pitcher and Russo 1988b). <br/>
+<br/>
+<i>Anthoxanthum odoratum, </i>sweet vernal grass, has a Cal-IPC rank of Moderate. It is a perennial, fibrous-rooted, non-native grass from Eurasia, escaped from cultivation in North America. Plants flower early in the spring; form distinct, identifiable clumps; and reproduce by seed. They are competitive in the early spring due to rapid growth and early flowering. Plants can form dense surface root mats, and they contain allelopathic chemicals that suppress the growth of other plant species (Pitcher and Russo 1988a, Remison and Snaydon 1978). <br/>
+<br/>
+Stands of <i>H. lanatus </i>and <i>A. odoratum </i>are similar to those of <i>Agrostis stolonifera </i>and <i>Festuca arundinacea</i>; however, the latter species occur in wetter and more brackish sites of managed wetlands (Pickart 2006). Both <i>H. lanatus </i>and <i>A. odoratum </i>occur along coastal terraces and moist pastures in central and northern California. Both plants particularly invade stands of the <i>Calamagrostis nutkaensis, Carex obnupta, Danthonia californica, Deschampsia cespitosa, </i>and <i>Hordeum brachyantherum </i>alliances (CNPS 2005, Ford and Hayes 2007, Heady et al. 1977, Keeler-Wolf et al. 2003a). <br/>
+<br/>
+<i>Holcus lanatus </i>is a recent invader, now dominating many coastal prairies of California. It has a high capacity for rapid vegetative growth in open areas, but it has a disadvantage against taller natives that create shaded conditions (Grime 1979). Stands of <i>Calamagrostis nutkaensis </i>and <i>Festuca rubra </i>are less resistant to <i>H. lanatus </i>invasion. Their canopy height inhibits light and reduces the ability of <i>H. lanatus </i>seedlings and flowering culms to invade dense stands; however, stands of <i>Bromus carinatus </i>are resistant because higher light is available (Thomsen and D’Antonio 2007). In addition, disturbed areas and <i>Nassella pulchra </i>stands are at risk for invasion because <i>H. lanatus </i>rapidly invade open sites with greater shoot biomass production (Thomsen et al. 2006). </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Anthoxanthum odoratum</th>
+			
+		
+			
+			<th>Holcus lanatus</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Perennial; herb</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Soil stored</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Long</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Wind; Water; Animal</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Buds on small branches (tillers)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Fire-sensitive</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>High</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text"><i>Holcus lanatus </i>survives fires in wetland prairies of Oregon, but biomass may not change (Clark and Wilson 1998, 2001). However, burning may be effective in reducing its abundance, especially when combined with grazing (Pitcher and Russo 1988b).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+            <p>The range of <i>Holcus lanatus</i> includes all sections of California except the Colorado Desert (322C) and Sonoran Desert (322B); the range of <i>Anthoxanthum odoratum</i> includes the Sierra Nevada (M261E) and Sierra Nevada Foothills (M261F).</p>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Aa-l). <i>H. lanatus </i>invades coastal prairies with a patchy presence of <i>Danthonia californica </i>and non-natives such as <i>Bromus diandrus, Cirsium vulgare, </i>and <i>Vulpia bromoides. </i>Its establishment includes diverse wet meadows and coastal prairies at the University of California campus at Santa Cruz, where it is endangering the Ohlone tiger beetle (<i>Cicindela ohlone</i>), <i>Plagiobothrys diffusus </i>(a CNPS list 1B.1 plant), and other rare meadow plants.</li>
+        
+            <li><b>Colorado Desert</b> (322Ca-d). No description available</li>
+        
+            <li><b>Northern California Coast</b> (263Ae). Stands of both <i>H. lanatus </i>and <i>A. odoratum </i>occur in coastal prairies at Point Reyes National Seashore in Marin Co. (Keeler-Wolf et al. 2003a) and on north into Del Norte Co. <i>H. lanatus </i>dominates coastal prairies along the Sonoma Co. coast. Brown (1993) established monitoring sites in areas dominated by <i>H. lanatus</i>. The hayed pastures of <i>H. lanatus </i>are habitat for the migrating Aleutian Canada goose (<i>Branta canadensis leucopareia</i>) at Humboldt Bay National Wildlife Refuge (Pickart 2006) and elsewhere in coastal Del Norte and Humboldt Cos. <i>H. lanatus </i>dominates coastal prairies along the Mendocino Co. coast at Navarro Point Preserve and Van Damme State Park (CNPS unpublished data 2020).</li>
+        
+            <li><b>Sierra Nevada</b> (M261Ea-u). No description available</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fa-e). No description available</li>
+        
+            <li><b>Sonoran Desert</b> (322Ba-e). No description available</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> <i>Holcus lanatus </i>stands contain species of conservation value, especially perennial grasses. <i>H. lanatus </i>is able to use summer moisture inputs from fog, which appears to alleviate water stress and thereby extend its growing season, increasing its persistence. Its invasion threatens the remnant patches of coastal prairie, which have been resistant to invasion by non-native annuals (Corbin et al. 2005). 
+
+Cattle and elk grazing may be effective in reducing the abundance and spread of <i>H. lanatus </i>(Elliott and Wehausen 1974, Foin and Hektner 1986, Hayes and Holl 2003a, Johnson and Cushman 2007). Without fire, grazing, or other forms of clearing, native shrubs such as <i>Baccharis pilularis, Frangula californica, </i>and <i>Rubus ursinus </i>and trees such as <i>Pinus muricata </i>and <i>Pseudotsuga menziesii </i>establish in these grasslands. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Holcus lanatus [2], [3], [5], [6]</li>
+                
+                    <li>Holcus lanatus - Anthoxanthum odoratum [1], [3], [4], [6]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Keeler-Wolf, T .;Schirokauer, D.;Meinke, J.;van derLeeden, P. 2003a</li>
+		
+		<li>[2] Pickart, A.J. 2006</li>
+		
+		<li>[3] Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>[4] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2020</li>
+		
+		<li>[5] Sikes, K.;Buck-Diaz, J.;Evens, J. 2021</li>
+		
+		<li>[6] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>Ford, L.;Hayes, G. 2007</li>
+		
+		<li>Gucker, C.L. 2008</li>
+		
+		<li>Keeler-Wolf, T.;Evens, J.M.;Solomeshch, A.I.;Holland, V.L.;Barbour, M.G. 2007</li>
+		
+		<li>Pitcher, D.;Russo, M.J. 1988a</li>
+		
+		<li>Pitcher, D.;Russo, M.J. 1988b</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/400/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

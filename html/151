@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Baccharis pilularis</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Baccharis</i> <i>pilularis</i></span> Shrubland Alliance <br/>
+        <span class="subtitle">Coyote brush scrub</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-1500 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S5
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G5
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA, OR (NatureServe). Baja California, Mexico (TJM2)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>Yes
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/baccharis-pilularis_artemisia-californica_coyot015_ss.jpg', '/static/images/photos/shrub/baccharis-pilularis_garygiacominipreserve_05-10_01.jpg', '/static/images/photos/shrub/baccharis-pilularis_garygiacominipreserve_05-10_02.jpg', '/static/images/photos/shrub/baccharis-pilularis_garygiacominipreserve_05-10_03.jpg', '/static/images/photos/shrub/baccharis-pilularis_hwy1_07-10_01.jpg', '/static/images/photos/shrub/baccharis-pilularis_hwy1_07-10_02.jpg', '/static/images/photos/shrub/baccharis-pilularis_hwy1_07-10_02.jpg', '/static/images/photos/shrub/baccharis-pilularis_pomponiostbeach_05-09_01.jpg', '/static/images/photos/shrub/baccharis-pilularis_pomponiostbeach_05-09_02.jpg', '/static/images/photos/shrub/baccharis-pilularis_pomponiostbeach_05-09_03.jpg', '/static/images/photos/shrub/frangula-californica_montaramtn_09-10_01.jpg', '/static/images/photos/shrub/frangula-californica_montaramtn_09-10_02.jpg', '/static/images/photos/shrub/frangula-californica_ptreyes_03-97.jpg', '/static/images/photos/shrub/garrya-elliptica_hwy1_07-10_01.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Baccharis</i> <i>pilularis</i>, <i>Frangula</i> <i>californica</i> and/or <i>Garrya</i> <i>elliptica</i> is dominant to co-dominant in the shrub canopy with <i>Artemisia</i> <i>californica</i>, <i>Ceanothus</i> <i>thyrsiflorus</i>, <i>Corylus</i> <i>cornuta</i>, <i>Diplacus</i> <i>aurantiacus</i>, <i>Eriogonum</i> <i>fasciculatum</i>, <i>Eriophyllum</i> <i>staechadifolium</i>, <i>Gaultheria</i> <i>shallon</i>, <i>Holodiscus</i> <i>discolor</i>, <i>Lotus</i> <i>scoparius</i>, <i>Lupinus</i> <i>arboreus</i>, <i>Morella</i> <i>californica</i>, <i>Rubus</i> <i>ursinus</i>, <i>Salvia</i> <i>apiana</i>, <i>Salvia</i> <i>leucophylla</i> and <i>Toxicodendron</i> <i>diversilobum</i>. Emergent trees may be present at low cover including <i>Pinus</i> <i>muricata</i>, <i>Pseudotsuga</i> <i>menziesii</i>, <i>Quercus</i> <i>agrifolia</i> or <i>Umbellularia</i> <i>californica</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 3 m; canopy is variable. Herbaceous layer is variable. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Baccharis pilularis</i> > 15% shrub cover over grassy understory; <i>B. pilularis</i> relative cover > 50% than other shrub species (Keeler-Wolf et al. 2003a).</li>
+		
+		<li><i>Baccharis pilularis</i> > 50% absolute cover in the shrub layer (Borchert et al. 2004).</li>
+		
+		<li><i>Frangula californica</i> > 30% relative cover in the shrub canopy with <i>Baccharis pilularis, Toxicodendron diversilobum </i>and other shrubs in mesic uplands (Keeler-Wolf et al. 2003a).</li>
+		
+		<li><i>Garrya elliptica</i> > 50% relative cover in the shrub canopy with <i>Baccharis pilularis</i> and other shrubs (Buck-Diaz et al. 2021, Keeler-Wolf et al. 2003a).</li>
+		
+		<li><i>Baccharis pilularis</i> > 50% relative cover in the shrub canopy, or > 30% with <i>Frangula californica, Toxicodendron diversilobum,</i> and/or <i>Rubus</i> spp. (Buck-Diaz et al. 2021, Sikes et al. 2021).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Coastal bluffs, terraces, stabilized dunes of coastal bars, spits along the coastline, river mouths, stream sides, open exposed slopes, ridges, gaps in forest stands. Soils are variable, sandy to relatively heavy clay.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Coyote brush series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Baccharis pilularis shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Coyote brush, North coastal scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Northern dune scrub, Northern coastal bluff scrub, Northern (Franciscan) coastal scrub, Northern coyote bush scrub, Northern silk-tassel scrub, Diablan sage scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Coastal sage scrub, Northern coastal scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Coastal scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>32.060.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate and Boreal Shrubland and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate and Boreal Scrub and Herb Coastal Vegetation
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Pacific Coast Scrub and Herb Littoral Vegetation
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Vancouverian Coastal Dune and Bluff
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>California Coastal evergreen bluff and dune scrub
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Baccharis pilularis </i>is a prostrate to erect shrub that grows to 3 m tall and has evergreen leaves. Shrubs produce abundant wind-dispersed seed in the fall. Seedlings germinate on mineral soil, especially in winters with high rainfall. Plants sprout moderately when cut, but they are often killed by moderate to severe fire (Ross 2000a, Steinberg 2002b). <br/>
+<br/>
+<i>Garrya elliptica </i>is a shrub or small tree to 9 m with leathery, evergreen, opposite leaves. Flowers form long tassels of flowers that bloom in mid-winter. Plants often occur scattered in open forest and coastal scrub types in northern California, but they also form stands on coastal bluffs. The species ranges from Del Norte Co. south to Santa Barbara Co.<br/>
+<br/>
+<i>Frangula californica </i>is a long-lived, shade tolerant, evergreen shrub that can reach 6 m in height and 200 years in age. Shrubs produce fruits by 2 to 3 years of age. Animals—particularly birds, but also black bear and other mammals—disperse the drupes. Seeds are short lived and prone to rot. Germination occurs in the next growing season if favorable moisture and temperature conditions exist under filtered shade. Seedlings may grow slowly under these conditions where plants may be subjected to heavy browsing by mammals. Following fire or cutting, shrubs sprout from surviving adventitious buds on their root crowns. Old individuals renew their crowns with new sprouts (McMurray 1990d). <br/>
+<br/>
+Stands can be both transitory to forest and woodland types or persistent for a long time (Heady et al. 1977). Seedlings of <i>Baccharis pilularis </i>invade grasslands along the coast, forming stands with decreased grazing and fire (McBride and Heady 1968). Older, shady stands are transitional to forest types with <i>Pinus muricata, Pseudotsuga menziesii, Quercus agrifolia, </i>and <i>Umbellularia californica </i>(Grams et al. 1977, McBride 1974). <i>B. pilularis </i>invades recently logged land in northern California well away from the coast. Shrubs die as the forest canopy closes. <i>B. pilularis </i>also invades coastal dunes stabilized by <i>Ammophila arenaria </i>or <i>Lupinus arboreus </i>(Pickart and Sawyer 1998). <br/>
+<br/>
+In central to north coastal California, <i>Baccharis pilularis </i>stands appear to gradually transition towards co-dominance or dominance of <i>Frangula californica. </i>Coffeeberry fruits germinate in the shade and slowly tend to dominate the canopy along steep fog- and windswept slopes immediately up from the shore. Many shrubs show senescence, and in the vicinity of the Point Reyes National Seashore their stems have heavy lichen loads. These stands exist in a fine mosaic of grassland, shrubland, and woodland alliances. Ford and Hayes (2007) report <i>Frangula californica </i>stands on both north and south-facing slopes along the coast from Big Sur to Point Reyes, which are now included more broadly in this alliance. Additionally, <i>Garrya elliptica </i>occurs uncommonly as a co-dominant with <i>Baccharis pilularlis </i> in mesic coastal bluffs.<br/>
+<br/>
+Stands in the Sierra Nevada foothills, along the central coast, and in southern California also tend to be largely seral to other scrub and woodland types. However, the natural seral relationships between <i>Baccharis pilularis </i>and adjacent herbaceous and woody alliances are complex and varied. On the south coast, <i>Baccharis pilularis </i>alliance appears more disturbance related than on the central coast (Keeler-Wolf and Evens 2006). <i>B. pilularis </i>mixes with shrubs with southern affinities (<i>Artemisia californica, Encelia californica, Eriogonum fasciculatum, Salvia leucophylla, S. mellifera</i>) and with those with northern affinities (<i>Eriophyllum staechidifolium, Frangula californica, Gaultheria shallon, Holodiscus discolor, Rubus parviflorus, R. spectabilis, R. ursinus</i>). The core of diverse, older stands of <i>Baccharis pilularis </i>alliance lies along the coast from Monterey Co. to Sonoma Co. For example, Borchert et al. (2004) generally identify a <i>Baccharis pilularis </i>alliance in the northern Santa Lucia Range, where they sampled mid- to late-seral stands (with > 25 years since fire). <br/>
+<br/>
+Borchert et al. (2004) recognized a <i>Baccharis pilularis-Artemisia californica </i>alliance in which either shrub may vary from 30% to 60% relative cover in the shrub canopy. We include such stands in this <i>Baccharis pilularis </i>alliance because most stands analyzed are better characterized by <i>B. pilularis</i>. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Baccharis pilularis</th>
+			
+		
+			
+			<th>Frangula californica</th>
+			
+		
+			
+			<th>Garrya elliptica</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Shrub; evergreen</td>
+			
+		
+			
+			<td>Shrub</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil; transient</td>
+			
+		
+			
+			<td>Transient</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short to medium</td>
+			
+		
+			
+			<td>Short</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Wind</td>
+			
+		
+			
+			<td>Animal</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Underground structures (weak)</td>
+			
+		
+			
+			<td>Underground structures (root crown)</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-sensitive; no/low sprouting; canopy architecture susceptible</td>
+			
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>3?-50+ years</td>
+			
+		
+			
+			<td>2-200 + years</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Medium</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">The mortality of individual <i>Baccharis pilularis </i>plants from fire is higher when the bases are burned (Ford and Hayes 2007) and when the fire is severe (McBride and Heady 1968, Ford 1991). McBride and Heady (1968) found in the East Bay Hills that controlled burning of <i>B. pilularis </i>adults resulted in greater mortality with simulated basal burning than with simulated crown-only burning. Basal burns are facilitated by herbaceous understory fuels. Ford (1991) found the same result in Big Sur for two other post-fire-sprouting shrubs (<i>Frangula californica </i>and <i>Toxicodendron diversilobum</i>) and that all three of these shrubs sprouted readily after fire, including after extremely severe fire. In addition, seedlings of <i>B. pilularis </i>can be abundant post-fire because it produces copious, wind-dispersed seed.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Medium (15-50+ years)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Summer-early fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Medium to large; up to and beyond stand
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Moderate to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Moderate to very high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Passive-active crown fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Central Coast
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Aa-l). Stands occur throughout the section. They may contain <i>Artemisia californica, Eriogonum fasciculatum,</i> and <i>Salvia mellifera,</i> but <i>Baccharis pilularis</i> is the dominant shrub in this alliance, or it is co-dominant with <i>Artemisia californica.</i> Some stands are seral to woodland types with <i>Quercus agrifolia</i> and <i>Umbellularia californica</i> in the East Bay hills (McBride and Heady 1968). Descriptions of stands include John Muir State Historic Park (O’Neil and Egan 2004), Cone Peak RNA (Keeler-Wolf 1990d), Monterey Peninsula (McBride and Stone 1976), northern Santa Lucia Mountains (Borchert et al. 2004), and generally in San Mateo Co. (Sikes et al. 2021).</li>
+        
+            <li><b>Central California Coast Ranges</b> (M262Aa-f, Ah, Aj). Stands are widespread throughout most of the sections. Descriptions of stands include Coyote Ridge in the northern Diablo Range (Evens and San 2004) and Pinnacles National Monument (Kittel et al. 2012).</li>
+        
+            <li><b>Great Valley</b> (262Aa, Af-i, Al, Ao, Aq-r). Small stands occur along levee margins in the Sacramento-San Joaquin River delta and Suisun Marsh (Hickson and Keeler-Wolf 2007, Keeler-Wolf and Vaghti 2000).</li>
+        
+            <li><b>Northern California Coast</b> (263Aa-m). Stands are likely throughout the section. Stands along the immediate coast north of Cape Mendocino exist under humid and salt-laden conditions. They mix with the <i>Gaultheria shallon - Rubus (ursinus)</i> alliance (Belsher 1999). <i>B. pilularis</i> stands are found on the steep, rocky, drier areas exposed to salt spray. The <i>Gaultheria shallon - Rubus (ursinus)</i> alliance is found on more sheltered, shallower slopes. Some stands in the San Francisco Bay area persist without fire, and others will be intermixed with or replaced in time by longer-persisting shrubs, such as <i>Frangula californica</i> (Fiedler and Leidy 1987, Grams et al. 1977, Keeler-Wolf et al. 2003a, Parker 1974). Described stands north of Cape Mendocino include those on bluffs (Belsher 1999) and sand dunes (LaBanca 1993, Parker 1974). Uncommonly, small patches of <i>Garrya elliptica </i>occur intermixed with <i>Baccharis pilularis </i>on coastal bluffs (Keeler-Wolf et al. 2003a, Buck-Diaz et al. 2021).</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Bb). Stands occur in the western part of the section, including along Highway 101.</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fb). Small stands occupy recently disturbed areas, such as road cuts, and mesic annual grassland settings at lower elevations in the central and northern foothills.</li>
+        
+            <li><b>Southern California Coast</b> (261Ba-j). Stands occur throughout the section, with descriptions from the Santa Monica Mountains (Keeler-Wolf and Evens 2006) and San Diego Co. (Evens and San 2005), especially with an abundance of non-native grasses. On Santa Cruz Island, <i>B. pilularis</i> is rapidly invading grasslands that were maintained through grazing practices. <i>B. pilularis</i> is also shading out troublesome stands of <i>Foeniculum vulgare,</i> which immediately invaded following release from grazing.</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Bf, Bj-k, Bn-o). Stands likely occur in the lower and foothill elevations in the section.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Stands of the <i>Baccharis pilularis </i>alliance may be either desirable or not, depending upon their geographic location and their species composition. A good understanding of their regional ecology is necessary to determine desirability. Extensive early seral stands with non-native understories may occupy regularly disturbed riparian settings once populated by stands of the <i>Platanus racemosa - Quercus agrifolia </i>and <i>Juglans californica </i>alliances in southern California; other stands in central coastal California may be the second stage toward a progression from non-native annual grassland to <i>Quercus agrifolia </i>and <i>Umbellularia californica </i>alliance stands. However, <i>B. pilularis </i>stands regularly repeat along the central and north coasts with a high degree of native grass and forb species; some may be mid to late seral, and not disturbance related. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+                <p>Stands with a Mixed Shrub Canopy</p>
+            
+            <ul class="text">
+                
+                    <li>Baccharis pilularis - Artemisia californica [5], [6], [11], [12], [18], [19], [20], [22], [25], [28], [30], [31]</li>
+                
+                    <li>Baccharis pilularis - Ceanothus thyrsiflorus [5], [12], [30], [31]</li>
+                
+                    <li>Baccharis pilularis / Eriophyllum staechadifolium [1], [2], [12], [30], [31]</li>
+                
+                    <li>Baccharis pilularis - (Frangula californica) - Rubus spp. [9], [12], [23], [26], [30], [31]</li>
+                
+                    <li>Baccharis pilularis - Salvia mellifera [3]</li>
+                
+                    <li>Baccharis pilularis - Toxicodendron diversilobum [2], [5], [12], [15], [26], [27], [30], [31]</li>
+                
+            </ul>
+        
+            
+                <p>Stands with <i>Baccharis pilularis</i> Dominance</p>
+            
+            <ul class="text">
+                
+                    <li>Baccharis pilularis [3], [11], [14], [18], [19], [21], [30], [31]</li>
+                
+                    <li>Baccharis pilularis / Annual grass - herb [6], [7], [10], [11], [12], [14], [17], [18], [20], [22], [24], [26], [30], [31]</li>
+                
+                    <li>Baccharis pilularis / Carex obnupta - Juncus patens [12], [30], [31]</li>
+                
+                    <li>Baccharis pilularis / Danthonia californica [12], [26], [30], [31]</li>
+                
+                    <li>Baccharis pilularis / Deschampsia cespitosa [4], [26], [30]</li>
+                
+                    <li>Baccharis pilularis / Leymus triticoides [8]</li>
+                
+                    <li>Baccharis pilularis / (Nassella pulchra - Elymus glaucus - Bromus carinatus) [5], [12], [18], [26], [30], [31]</li>
+                
+                    <li>Baccharis pilularis / Scrophularia californica [13], [16]</li>
+                
+            </ul>
+        
+            
+                <p>Stands with Other Species Dominant</p>
+            
+            <ul class="text">
+                
+                    <li>Frangula californica ssp. californica - Baccharis pilularis / Scrophularia californica [9], [12], [30], [31]</li>
+                
+                    <li>Frangula californica ssp. tomentella [7], [29]</li>
+                
+                    <li>Garrya elliptica [23], [30], [31]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Baxter, J.W. 1992</li>
+		
+		<li>[2] Belsher, J.B. 1999</li>
+		
+		<li>[3] Borchert, M.;Lopez, A.;Bauer, C.;Knowd, T. 2004</li>
+		
+		<li>[4] Elliott, H.W.;Wehausen, J.D. 1974</li>
+		
+		<li>[5] Evens, J.M.;Kentner, E. 2006</li>
+		
+		<li>[6] Evens, J.;San, S. 2004</li>
+		
+		<li>[7] Evens, J.;San, S. 2005</li>
+		
+		<li>[8] Fiedler, P.L.;Leidy, R.A. 1987</li>
+		
+		<li>[9] Grams, H.J.;McPherson, K.R.;King, V.V.;MacLeod, S.A.;Barbour, M.G. 1977</li>
+		
+		<li>[10] Keeler-Wolf, T.;Vaghti, M. 2000</li>
+		
+		<li>[11] Keeler-Wolf, T.;Evens, J. 2006</li>
+		
+		<li>[12] Keeler-Wolf, T .;Schirokauer, D.;Meinke, J.;van derLeeden, P. 2003a</li>
+		
+		<li>[13] LaBanca, T. 1993</li>
+		
+		<li>[14] Kittel, G.;Reyes, E.;Evens, J.;Buck, J.;Johnson, D. 2012</li>
+		
+		<li>[15] O’Neil, S.;Egan, S. 2004</li>
+		
+		<li>[16] Parker, J. 1974</li>
+		
+		<li>[17] Sproul, F.;Keeler-Wolf, T.;Gordon-Reedy, P.;Dunn, J.;Klein, A.;Harper, K. 2011</li>
+		
+		<li>[18] Rodriguez, D.;Sikes, K.;Keeler-Wolf, T.;Kittel, G.;Curtis, J.;Curley, C.;Evens, J. 2017</li>
+		
+		<li>[19] Verdone, L.;Evens, J. 2010</li>
+		
+		<li>[20] AECOM, 2013</li>
+		
+		<li>[21] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>[22] Buck-Diaz, J.;Evens, J.M. 2015</li>
+		
+		<li>[23] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2020</li>
+		
+		<li>[24] HDR, 2014b</li>
+		
+		<li>[25] Kirkpatrick, J.B.;Hutchinson, C.F. 1977</li>
+		
+		<li>[26] Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>[27] McBride, J.R.;Stone, E.C. 1976</li>
+		
+		<li>[28] Stillwater Sciences and URS, 2007</li>
+		
+		<li>[29] Klein, A.;Evens, J. 2005</li>
+		
+		<li>[30] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>[31] Sikes, K.;Buck-Diaz, J.;Evens, J. 2021</li>
+		
+		<li>Barbour, M.G. 1994a</li>
+		
+		<li>Barry, W.J. 1989a</li>
+		
+		<li>Barry, W.J. 1989b</li>
+		
+		<li>DaSilva, P.G.;Bartolome, J.W. 1984</li>
+		
+		<li>Ford, L.;Hayes, G. 2007</li>
+		
+		<li>Heady, H.F.;Foin, T.C.;Hektner, M.M.;Taylor, D.W.;Barbour, M.G.;Barry, W.J. 1977</li>
+		
+		<li>Hickson, D.;Keeler-Wolf, T. 2007</li>
+		
+		<li>Hobbs, R.J.;Mooney, H.A. 1986</li>
+		
+		<li>Hoshovsky, M.C. 2000a</li>
+		
+		<li>Jones and Stokes Associates, 1993</li>
+		
+		<li>Keeler-Wolf, T. 1990d</li>
+		
+		<li>McBride, J.;Heady, H.F. 1968</li>
+		
+		<li>McBride, J.R. 1974</li>
+		
+		<li>McMurray, N. 1990d</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Black, H.;Bleich, V.C.;Mincks, J.W. 1980</li>
+		
+		<li>Pickart, A.J.;Sawyer, J.O. 1998</li>
+		
+		<li>Reid, M.S.;Schulz, K.A.;Cormer, P.J.;Schindel, M.H.;Culver, D.R.;Sarr, D.A.;Damm, M.C. 1999</li>
+		
+		<li>Ross, C. 2002a</li>
+		
+		<li>Shiflet, T.N. 1994</li>
+		
+		<li>Steinberg, P.D. 2002b</li>
+		
+		<li>Thorne, R.F. 1976</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/151/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

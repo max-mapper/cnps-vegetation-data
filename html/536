@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Nassella spp. - Melica spp.</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Nassella</i> spp. - <i>Melica</i> spp.</span> Herbaceous Alliance <br/>
+        <span class="subtitle">Needle grass - Melic grass grassland</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Herb
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-1700 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3S4
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G3G4
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA. Baja California, Mexico (NatureServe, Calflora, NRCS)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>Yes
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2016/12/02
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/herb/nassella-pulchra_04-01_01.jpg', '/static/images/photos/herb/nassella-pulchra_04-01_02.jpg', '/static/images/photos/herb/nassella-pulchra_coyotehills_03-04_01.jpg', '/static/images/photos/herb/nassella-pulchra_coyotehills_03-04_02.jpg', '/static/images/photos/herb/nassella-pulchra_coyotehills_03-04_03.jpg', '/static/images/photos/herb/nassella-pulchra_coyoterdg_03-03_cclifford.jpg', '/static/images/photos/herb/nassella-pulchra_coyoterdg_04-03_01.jpg', '/static/images/photos/herb/nassella-pulchra_garygiacominipreserve_05-10_01.jpg', '/static/images/photos/herb/nassella-pulchra_garygiacominipreserve_05-10_02.jpg', '/static/images/photos/herb/nassella-pulchra_garygiacominipreserve_05-10_03.jpg', '/static/images/photos/herb/nassella-pulchra_marinheadlands_06-03_01.jpg', '/static/images/photos/herb/nassella-pulchra_marinheadlands_06-03_02.jpg', '/static/images/photos/herb/nassella-pulchra_marinheadlands_06-03_03.jpg', '/static/images/photos/herb/nassella-pulchra_potrerord_03-03_01.jpg', '/static/images/photos/herb/nassella-pulchra_sdrp0357_04-03_01.jpg', '/static/images/photos/herb/nassella-pulchra_sdrp0357_04-03_02.jpg', '/static/images/photos/herb/nassella-pulchra_smmlajollavalley_03-02_01.jpg', '/static/images/photos/herb/nassella-pulchra_smmlajollavalley_03-02_02.jpg', '/static/images/photos/herb/nassella-pulchra_smmlajollavalley_03-02_03.jpg', '/static/images/photos/herb/nassella-pulchra_tildenpark_04-02_01.jpg', '/static/images/photos/herb/nassella-lepida_smm_04-02_01.jpg', '/static/images/photos/herb/nassella-lepida_smm_04-02_02.jpg', '/static/images/photos/herb/nassella-lepida_smm_09-02_01.jpg', '/static/images/photos/herb/nassella-cernua_americanunitcarrizo_04-08_01.jpg', '/static/images/photos/herb/nassella-cernua_poppypreserve_04-93.jpg', '/static/images/photos/herb/nassella-cernua_poppypreserve_04-93_01.jpg', '/static/images/photos/herb/melica-torreyana_coyoteridge_04-02_02.jpg', '/static/images/photos/herb/melica-torreyana_coyoteridge_04-02_01.jpg', '/static/images/photos/herb/melica-californica_knoxvillewla_04-2014_01.jpg', '/static/images/photos/herb/melica-californica_knoxvillewla_04-2014_02.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Melica</i> <i>californica</i>, <i>Melica</i> <i>torreyana</i>, <i>Nassella</i> <i>cernua</i>, <i>Nassella</i> <i>lepida</i> and/or <i>Nassella</i> <i>pulchra</i> is dominant or characteristically present in the herbaceous layer with other perennial grasses and herbs including <i>Aristida</i> <i>ternipes</i>, <i>Astragalus</i> spp., <i>Avena</i> spp., <i>Bromus</i> spp., <i>Calamagrostis</i> <i>koelerioides</i>, <i>Calochortus</i> spp., <i>Calystegia</i> spp., <i>Chlorogalum</i> <i>pomeridianum</i>, <i>Clarkia</i> spp., <i>Corethrogyne</i> <i>filaginifolia</i>, <i>Croton</i> <i>setigerus</i>, <i>Cryptantha</i> spp., <i>Daucus</i> <i>pusillus</i>, <i>Dichelostemma</i> <i>capitatum</i>, <i>Elymus</i> <i>glaucus</i>, <i>Eriogonum</i> spp., <i>Erodium</i> spp., <i>Eschscholzia</i> <i>californica</i>, <i>Festuca</i> <i>californica</i>, <i>Hirschfeldia</i> <i>incana</i>, <i>Holocarpha</i> <i>virgata</i>, <i>Hordeum</i> <i>brachyantherum</i>, <i>Koeleria</i> <i>macrantha</i>, <i>Lasthenia</i> spp., <i>Plantago</i> spp., <i>Poa</i> <i>secunda</i>, <i>Sanicula</i> spp., <i>Sisyrinchium</i> <i>bellum</i>, <i>Trifolium</i> spp. and/or <i>Vulpia</i> spp. Emergent trees and shrubs may be present at low cover . </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Herbs < 1 m; cover is open to continuous. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Nassella pulchra</i> > 5% absolute cover as a characteristic to dominant species in the herbaceous layer (Klein et al. 2007).</li>
+		
+		<li><i>Nassella pulchra</i> usually > 10% relative cover of the herbaceous layer (Evens and San 2005, Klein and Evens 2005, Keeler-Wolf and Evens 2006).</li>
+		
+		<li><i>Nassella pulchra</i> or <i>Nassella cernua</i> is characteristically present in the herbaceous layer with at least 2% absolute cover (Buck-Diaz and Evens 2011b, Buck-Diaz et al. 2012, Buck-Diaz et al. 2013).</li>
+		
+		<li><i>Nassella pulchra</i> or other <i>Nassella </i> sp. has a clear presence in the stand with > 5% absolute cover in the herbaceous layer (Rodriguez et al. 2017).</li>
+		
+		<li><i>Nassella cernua</i> > 30% relative cover in the herbaceous layer as a characteristic grass (Buck-Diaz et al. 2012, Buck-Diaz et al. 2013).</li>
+		
+		<li><i>Melica californica</i> and/or <i>Nassella pulchra</i> > 30% relative cover in the herbaceous layer. Other species including <i>Achnatherum lemmonii</i>, <i>Avena</i> spp., <i>Bromus</i> spp., <i>Hemizonia congesta</i>, <i>Lolium perenne</i>, <i>Plantago erecta</i>, and/or <i>P. lanceolata</i> may intermix as dominant, co-dominant or characteristic taxa in associations of this alliance (Klein et al. 2015).</li>
+		
+		<li><i>Melica torreyana</i> > 30% relative cover in the herbaceous layer and is commonly associated with serpentinite soils (Buck and Evens 2010).</li>
+		
+		<li><i>Elymus multisetus</i> or <i>Elymus elymoides</i> > 30% relative cover in the herbaceous layer on serpentine soils (Buck-Diaz et al. 2021)</li>
+		
+		<li><i>Melica californica, M. torreyana</i>, and/or <i>Nassella pulchra</i> are > 30% relative cover in stands. <i>Avena, Bromus, Hemizonia congesta, Lolium perenne, Plantago erecta, P. lanceolata</i>, and/or <i>Trifolium</i> spp. intermix at > 50% relative cover, or > 30% relative cover in associations of this alliance (Buck-Diaz et al. 2021, Sikes et al. 2021).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> All topographic locations. Soils may be deep with high clay content, loamy, sandy, or silty derived from mudstone, sandstone, or serpentine substrates.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Foothill needlegrass series, Nodding needlegrass series, Purple needlegrass series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Nassella cernua herbaceous alliance, Nassella lepida herbaceous alliance, Nassella pulchra herbaceous alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Perennial grasses and forbs
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Valley and foothill grassland, Native grassland, Valley needlegrass grassland, Serpentine bunchgrass
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Valley grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Perennial grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>41.151.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Mediterranean Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Mediterranean Grassland and Forb Meadow
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>California Grassland and  Meadow
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>California Annual and Perennial Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>California perennial grassland
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Nassella </i>spp. are native, cool- to warm-season perennial bunch grasses. Much of the botanical literature refers to species of <i>Nassella</i> as <i>Stipa </i> (UCB 2011). The three species represented in this alliance, <i>Nassella pulchra, </i><i>Nassella lepida, </i>and <i>Nassella cernua </i> can occur sympatrically, but they tend to segregate based on substrate and slope factors (Kellogg and Kellogg 1990, 1991).<br/>
+<br/>
+<i>Nassella pulchra </i>stands commonly exist in deep and clay-rich soils, but they also occur in sterile serpentine soils (Evens and San 2004, Gelbard and Harrison 2003, Hamilton 1997, Harrison and Viers 2007, McNaughton 1968) or in shallow soils of coastal hills in central and southern California (Keeler-Wolf et al. 2003a). Coastal stands currently occur from Baja California, and San Diego Co., northward across the Coast Ranges to Sonoma Co. (Bartolome et al. 2007a), and coastal stands tend to have more emergent shrubs, suggesting seral and/or dynamic relationships with woody vegetation types (Tyler et al. 2007).<i>N. pulchra </i>plants expand when tussocks fragment. Plants produce large quantities of viable seed, but seedling establishment is generally low. Seedlings appear to establish more successfully on bare ground. <i>N. pulchra </i>varies with seasonal weather conditions, and a wet growing season favors plants (Steinberg 2002c, Stromberg et al. 2007). <br/>
+<br/>
+<i>N. cernua </i>sometimes occurs in the same area as <i>N. pulchra</i>, especially in southern California, but they do not typically mix (Steinberg 2002c). <i>N. cernua </i>stands appear more commonly in the transition between coastal/valley grasslands and inland/desert steppes. For example, <i>N. cernua </i>and <i>Achnatherum speciosum </i>replace <i>N. pulchra </i>and <i>Leymus triticoides </i>in the transition between the eastern desert slopes of southern California mountains and the valley grassland (Bartolome et al. 2007a). <i>Nassella cernua </i> is distinguished from <i>N. lepida </i>by having longer glumes and awns in its mature spikelets and from <I>N. pulchra </i> by a glabrous upper lemma.<br/>
+<br/>
+<i>Nassella lepida </i>is found mainly in coastal central and southern California. In southern California, <i>N. lepida </i>is a common understory herb in stands of  <i>Artemisia californica </i>and <i>Salvia leucophylla </i>alliances on dry fine-textured soils. In some areas, such as the Santa Monica Mountains, small (< 1 ha) glades dominated by this species occur with a diverse mixture of native plants. These tend to occur in areas of deeper soil on upper slopes or shoulders of hills surrounded by stands of coastal scrub alliances. In other areas, stands can occur on rocky, clay soils derived from serpentine, and they are usually rich in other native perennials. <i>N. lepida </i>spikelets are single flowered with wavy mature awns, which are usually shorter than the awns of <i>N. cernua </i>and <i>N. pulchra</i>.<br/>
+<br/>
+<i>Melica californica</i> is a native tufted perennial grass that is largely restricted to the California Floristic Province.  It has a broad elevation range from near sea level on the North and Central Coast to over 1500 m elevation in the Coast Ranges, Klamath Mountains,  and the Sierra Nevada.  Stands are best described from Sonoma and Napa Cos. where they tend to occur on more mesic slopes than stands dominated by <i>Nassella pulchra.  M. californica</i> often forms small stands in openings in woodlands of <i>Quercus agrifolia, douglasii, garryana, lobata</i>, and <i>wislizeni</i>.  It is tolerant of serpentine soils and may grow in relatively deep or shallow soils.<br/>
+<br/>
+<i>Melica torreyana </i>is a native, tufted perennial grass with erect to scrambling culms that can root at the nodes. <i>M. torreyana </i>lacks corms which are characteristic of many species in this genus and is endemic to California, typically occurring under a woody canopy of chaparral or forest. It can also dominate in open habitats where plants form loose tufts of culms in localized stands within grasslands or meadows. Stands appear to occur both on and off serpentine substrates.<br/>
+<br/>
+Native American burning historically appears to have maintained stands of this alliance and other native grassland alliances in coastal California (Keeley 2002b). Fire stimulates grass germination and growth by removing litter, increasing light intensity and temperature, releasing nutrients in ash, and preventing shrubs from establishing.<br/>
+<br/>
+The long-accepted conclusion that <i>N. pulchra </i>dominated primaeval California prairies and valley grasslands (Burcham 1957, Clements 1934, Heady 1977, Holland 1986, Küchler 1964) has been disputed (Bartolome et al. 2007a, Brown 1982c, Hamilton 1997, Holstein 2001, Keeley 1990b, Minnich 2008, Stromberg et al. 2001, Webster 1981). Currently, ecologists think that <i>N. pulchra </i>was not overall dominant in inland grasslands but rather was the most opportunistic, widespread native bunchgrass in the state (Keeler-Wolf et al. 2007). Perennial grasses likely dominated the higher precipitation portions of the state’s grasslands along the coast, the windward portions of the Coast Ranges, and some portions of the Central Valley near waterways and marshlands. Annuals likely dominated drier valley grassland habitats, including large portions of the Sierra Nevada foothills, interior drier portions of the coastal ranges, and broad terraces around the Central Valley (Schiffman 2007). </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Melica californica</th>
+			
+		
+			
+			<th>Melica torreyana</th>
+			
+		
+			
+			<th>Nassella cernua</th>
+			
+		
+			
+			<th>Nassella lepida</th>
+			
+		
+			
+			<th>Nassella pulchra</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Perennial; herb</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Polycarpic perennial; herb</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Transient</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Short</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Short</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Animal; water/hydrological; wind</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Animal; gravity; wind</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Buds on large branches or trunks (caudex)</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Buds on large branches or trunks (basal buds, tillers)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Fire-sensitive</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Life of plant</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Long-lived</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>High</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>High</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>High</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Medium</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Native American burning historically appears to have maintained stands of this alliance and other native grassland alliances in coastal California (Keeley 2002b). Fire stimulates grass germination and growth by removing litter, increasing light intensity and temperature, releasing nutrients in ash, and removing or preventing shrubs from establishing.
+
+Cover, density, and seedling establishment of <i>Nassella pulchra </i>often increase with fire while
+stands with exclusion of fire and grazing are likely to have lower <i>N. pulchra </i>densities, larger individuals, and more litter accumulation (Steinberg 2002c). Consequently, fires in these areas will be more intense, and mortality may be high after continued exclusion.
+
+<i>N. cernua</i> is generally fire tolerant once established, but not fire resistant. It will sprout after spring or fall burns, but summer burns can be damaging (Dyer 2005b).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Short (1-5 years)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Early fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Up to stand size
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Surface fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Cismontane California
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Aa, Ac-l). <i>Nassella pulchra </i>stands exist inland at the Hasting Reservation (White 1966a, 1967, Hamilton et al. 2002), along the coast near the city of San Luis Obispo, and between Cayucos and Cambria (V. L. Holland, pers. comm. 2006), and at Poly Canyon (Steers et al. 2008).
+
+<i>N. lepida </i>stands are represented by general descriptions from the Gavilan Hills (Boyd 1983).  <i>N. cernua </i>is found as an understory plant in <i>Quercus douglasii </i>woodlands at Wagon Caves RNA in Monterey Co. (Keeler-Wolf 1989b, see Cheng 2004). Mixed stands of <i>N. cernua </i>and <i>N. pulchra </i> also occur at Hastings Reservation (Hamilton et al. 2002)</li>
+        
+            <li><b>Central California Coast Ranges</b> (M262Aa-k). Stands are widespread in all of the subsections. In the drier southeastern ones, stands of the <i>Nassella cernua</i> alliance and more dry-adapted annual herbaceous alliances may replace the <i>N. pulchra</i> alliance such as in the Carrizo Plain National Monument.
+
+<i>Melica torreyana </i>stands from the Coyote Ridge area occur on serpentine (Evens and San 2004) and exhibit the character of this alliance regionally.</li>
+        
+            <li><b>Great Valley</b> (262Aa-b, Ae, Ag, Aj-k, An-o, Aq, Au, Ax, Az). <i>Nassella pulchra </i>stands are uncommon in this section but appear at Jepson Prairie, Mather Field, Deer Creek Hills and Vina Plains. Small stands occur in grazed grasslands of the low foothills in Merced County and in Madera County. <i>Leymus triticoides,</i> not <i>N. pulchra,</i> appeared to dominate perennial grassland sites with clay or loam soils and flat to sloping topography in pre-agricultural times (Holstein 2001).</li>
+        
+            <li><b>Klamath Mountains</b> (M261Ak). Stands at Castle Crags State Park in Shasta Co. (Stuart et al. 1993) are at the northernmost range of <i>N. pulchra.</i></li>
+        
+            <li><b>Mojave Desert</b> (322Ag). <i>Nassella pulchra </i>stands appear to occur in the westernmost portion of the section. Individuals of <i>N. pulchra</i> and <i>N. cernua</i> mix in western Antelope Valley on heavier soils, while stands of <i>Achnatherum speciosum</i> occur on well-drained coarse soils.</li>
+        
+            <li><b>Northern California Coast</b> (263Ag-m). <i>Nassella pulchra </i>stands occur at Ring Mountain (Fiedler and Leidy 1987), Mount Tamalpais (Parker 1990b, Evens and Kentner 2006), and Point Reyes National Seashore (Keeler- Wolf et al. 2003a) in Marin Co. Other stands occur at Salt Point State Park (Bartolome et al. 2007a), Anadel State Park, Austin Creek SRA, Fort Ross, and other locations throughout Sonoma Co. In Mendocino Co., stands have been sampled at Point Arena-Stornetta National Monument.
+
+In Marin Co., <i>Melica torreyana </i>occurs on serpentine at Ring Mountain (Fiedler and Leidy 1987) and in the Marin Municipal Watershed on and off serpentine substrates.</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Ba-f). <i>Nassella pulchra </i>stands occur scattered throughout most of the section, including the Mayacamas Mountains. Some, but not all stands occur on serpentine. Stands of <i>Melica californica </i>occur at the Knoxville Wildlife Area (VegCAMP 2014c).</li>
+        
+            <li><b>Northern California Interior Coast Ranges</b> (M261Ca-c). <i>Nassella pulchra </i>stands observed in this section occur as far north as Paskenta and west of Red Bluff in Tehama Co.</li>
+        
+            <li><b>Sierra Nevada</b> (M261Ef-g, Ep). Occurrences of <i>Melica californica</i> and <i>M. torreyana</i> are observed throughout these subsections. Stands of this alliance are expected in the lower elevations of the El Dorado National Forest.</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fa-e). <i>Nassella pulchra </i>stands are widespread in the northern subsections (Klein et al. 2007) and contain <i>Lasthenia californica, Layia fremontii, Plantago erecta, Taeniatherum caput-medusae,</i> and <i>Vulpia microstachys.</i> Stands continue as far south as Kern Co.</li>
+        
+            <li><b>Southern California Coast</b> (261Ba-j). <i>Nassella pulchra </i>stands occur at Camp Pendleton Marine Corps Base (Kellogg and Kellogg 1990, 1991), in the Santa Monica Mountains (Keeler-Wolf and Evens 2006), near the coast from Santa Barbara Co. to San Diego Co. (Evens and San 2005), and on the Channel Islands (Junak et al. 2007), including extensive stands on Santa Cruz Island (AIS 2004a). These grasslands occur on coastal terraces and lower foothills.
+
+<i> N. lepida</i> tends to occur more in areas associated with <i>Artemisia californica, Salvia leucophylla,</i> and other drought-deciduous shrubland types. Stands are represented by general descriptions from the King Creek RNA (Cheng 2004), by sampling at Pendleton Marine Corps Base (Kellogg and Kellogg 1990, 1991) and in the Santa Monica Mountains (Keeler-Wolf and Evens 2006).</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Ba-d, Bf-g, Bj-p). <i>Nassella pulchra</i>stands are widespread in the section below the higher mountains and apart from the desert slopes in western Riverside Co. (Klein and Evens 2005) and central San Diego Co. (Moran 2004b, Evens and San 2005). Stands of <i>N. cernua </i> are known to occur at Santa Ysabel Ranch (Moran 2004a, b)</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> The characteristic grasses of this alliance are more cold and drought tolerant than many introduced, annual grasses (Reever-Morghan et al. 2007, Harpole 2007). However, once established, non-native annual grasses are able both to reduce seed development and seedling establishment and to reduce growth and survival of mature individuals of <i>N. pulchra </i> and other native perennial grasses (Dyer and Rice 1997a, b, 1999, Marty 2005). In addition, native perennial grass populations growing in mesic areas may respond differently to introduced annual grasses than those growing in xeric regions (Corbin et al. 2007).
+
+Both grazing and fire are important in maintaining <i>Nassella pulchra </i>grasslands, though uncertainty still exists concerning the optimum grazing regimes. Reduction in fire frequency appears to favor introduced annual grasses (Steinberg 2002c). However, persisting stands of <i>N. pulchra </i>and other native perennial grasses without a long history of grazing suggest that alteration of native to non-native grass dominance is a more complex process than overgrazing during drought years (Burcham 1957, 1981) and later seed limitation (Seabloom et al. 2003). Differences in seasonal timing of growth and seed production are important between the perennial <i>N. pulchra </i>and the competing non-native annuals. Another significant factor is whether seedlings are able to develop sufficient root systems to survive summer drought (Corbin et al. 2007). Dominance of annual grasses, especially on land disturbed for agriculture, suggests the importance of deep soil disturbance in promoting persistent stands of non-native grasses (D’Antonio et al. 2007).
+
+Managers use <i>N. cernua </i>for restoration, erosion control, forage crop, and wildlife habitat. It is viable in harsh conditions, such as low fertility soils, hot and dry meadows, road cuts, and roadsides. It does require some protection from grazing during its flowering period, so that it can set seed and store food in its crown. <i>N. cernua </i>is generally fire tolerant once established, but not fire resistant. It will sprout after spring or fall burns, but summer burns can be damaging (Dyer 2005b). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Elymus multisetus - (Eschscholzia californica - Plantago erecta) [2], [15], [24], [25], [26]</li>
+                
+                    <li>Melica californica [15], [17], [25], [26]</li>
+                
+                    <li>Melica torreyana [2], [23], [26]</li>
+                
+                    <li>Nassella cernua [14], [16], [21], [22]</li>
+                
+                    <li>Nassella lepida [12], [18], [19], [25]</li>
+                
+                    <li>Nassella pulchra [1], [8], [12], [13], [14], [15], [16], [20], [21], [26]</li>
+                
+                    <li>Nassella pulchra - Achnatherum lemmonii [15]</li>
+                
+                    <li>Nassella pulchra - Avena spp. - Bromus spp. [1], [5], [10], [13], [15], [23], [25], [26]</li>
+                
+                    <li>Nassella pulchra / Baccharis pilularis [7]</li>
+                
+                    <li>Nassella pulchra - Corethrogyne filaginifolia [13]</li>
+                
+                    <li>Nassella pulchra - Distichlis spicata - Bromus spp. [5]</li>
+                
+                    <li>Nassella pulchra - Erodium spp. - Avena barbata [3], [9]</li>
+                
+                    <li>Nassella pulchra / Hazardia squarrosa [18]</li>
+                
+                    <li>Nassella pulchra - Hemizonia congesta [15], [25], [26]</li>
+                
+                    <li>Nassella pulchra - Leontodon saxatilis [8], [14]</li>
+                
+                    <li>Nassella pulchra - Lolium perenne - Astragalus gambelianus - Lepidium nitidum [2]</li>
+                
+                    <li>Nassella pulchra - Lolium perenne - Calystegia collina [2]</li>
+                
+                    <li>Nassella pulchra - Lolium perenne - Plantago erecta Serpentine [15], [25], [26]</li>
+                
+                    <li>Nassella pulchra - Lolium perenne - (Trifolium spp.) [1], [4], [13], [23], [25], [26]</li>
+                
+                    <li>Nassella pulchra - Melica californica - annual grass [1], [15], [23]</li>
+                
+                    <li>Nassella pulchra - Sanicula bipinnatifida [11]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Evens, J.M.;Kentner, E. 2006</li>
+		
+		<li>[2] Evens, J.;San, S. 2004</li>
+		
+		<li>[3] Evens, J.;San, S. 2005</li>
+		
+		<li>[4] Fiedler, P.L.;Leidy, R.A. 1987</li>
+		
+		<li>[5] Junak, S.;Knapp, D.A.;Haller, J.R.;Philbrick, R.;Schoenherr, A.;Keeler-Wolf, T. 2007</li>
+		
+		<li>[6] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2020</li>
+		
+		<li>[7] Keeler-Wolf, T .;Schirokauer, D.;Meinke, J.;van derLeeden, P. 2003a</li>
+		
+		<li>[8] Klein, A.;Crawford, J.;Evens, J.;Keeler-Wolf, T.;Hickson, D. 2007</li>
+		
+		<li>[9] Klein, A.;Evens, J. 2005</li>
+		
+		<li>[10] Parker, V.T. 1990b</li>
+		
+		<li>[11] Stuart, J.D.;Worley, T.;Buell, A.C. 1992</li>
+		
+		<li>[12] Sproul, F.;Keeler-Wolf, T.;Gordon-Reedy, P.;Dunn, J.;Klein, A.;Harper, K. 2011</li>
+		
+		<li>[13] Rodriguez, D.;Sikes, K.;Keeler-Wolf, T.;Kittel, G.;Curtis, J.;Curley, C.;Evens, J. 2017</li>
+		
+		<li>[14] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>[15] Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>[16] Buck-Diaz, J.;Harbert, B.;Evens, J. 2011</li>
+		
+		<li>[17] VegCAMP (CDFW Vegetation Classification and Mapping Program), 2014c</li>
+		
+		<li>[18] Keeler-Wolf, T.;Evens, J. 2006</li>
+		
+		<li>[19] Verdone, L.;Evens, J. 2010</li>
+		
+		<li>[20] AECOM, 2013</li>
+		
+		<li>[21] Buck-Diaz, J.;Ratchford, J.;Evens, J. 2013</li>
+		
+		<li>[22] Buck-Diaz, J.;Evens, J. 2011b</li>
+		
+		<li>[23] Buck, J.;Evens, J. 2010</li>
+		
+		<li>[24] Evens, J.M.;Klein, A.;Taylor, J.;Hickson, D.;Keeler-Wolf, T. 2006</li>
+		
+		<li>[25] Sikes, K.;Buck-Diaz, J.;Evens, J. 2021</li>
+		
+		<li>[26] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>Barry, W.J. 1972</li>
+		
+		<li>Bartolome, J.W. 1981</li>
+		
+		<li>Bartolome, J.W.;Barry, W.J.;Griggs, T.;Hopkinson, P. 2007a</li>
+		
+		<li>Bartolome, J.W.;Gemmill, B. 1981</li>
+		
+		<li>Beetle, A.A. 1947</li>
+		
+		<li>Bittman, R. 1985</li>
+		
+		<li>Burcham, L.T. 1957</li>
+		
+		<li>Dyer, D. 2005b</li>
+		
+		<li>Griggs, F.T. 1980a</li>
+		
+		<li>Hamilton, J.G.;Griffin, J.R.;Stromberg, M.R. 2002</li>
+		
+		<li>Heady, H.F. 1977</li>
+		
+		<li>Holstein, G. 2001</li>
+		
+		<li>Hull, J.C.;Muller, C.H. 1977</li>
+		
+		<li>Keeler-Wolf, T.;Evens, J.M.;Solomeshch, A.I.;Holland, V.L.;Barbour, M.G. 2007</li>
+		
+		<li>Keeley, J.E. 1990b</li>
+		
+		<li>Keeley, J.E. 1993a</li>
+		
+		<li>Keeley, J.E. 1993b</li>
+		
+		<li>Keeley, J.E. 2002b</li>
+		
+		<li>Kruckeberg, A.R. 1984</li>
+		
+		<li>Latting, J. 1976</li>
+		
+		<li>Magney, D.L. 1992</li>
+		
+		<li>Menke, J.;Reyes, E.;Hepburn, A.;Johnson, D.;Reyes, J. 2013</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Black, H.;Bleich, V.C.;Mincks, J.W. 1980</li>
+		
+		<li>Steinberg, P.D. 2002c</li>
+		
+		<li>Stephenson, J.R.;Calcarone, G.M. 1999</li>
+		
+		<li>Stoddart, L.A.;Smith, A.D.;Box, T.W. 1975</li>
+		
+		<li>Stuart, J.D.;Grifantini, M.C.;Fox, L. 1993</li>
+		
+		<li>Turner, R.M.;Brown, D.E. 1982</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program);AIS, 2013</li>
+		
+		<li>White, K.L. 1966b</li>
+		
+		<li>White, K.L. 1967</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/536/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

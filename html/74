@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Pseudotsuga menziesii</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Pseudotsuga</i> <i>menziesii</i></span> Forest &amp; Woodland Alliance <br/>
+        <span class="subtitle">Douglas fir forest and woodland</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Tree
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>700-1400 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S4
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G5
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>CAN: AB, BC. USA: AZ, CA, CO, ID, MT, NM, OR, TX, UT, WA, WY. Mexico (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/tree/pseudotsuga-menziesii_bridgecr_10-87_01.jpg', '/static/images/photos/tree/pseudotsuga-menziesii_bridgecr_10-87_02.jpg', '/static/images/photos/tree/pseudotsuga-menziesii_garygiacominipreserve_05-10_01.jpg', '/static/images/photos/tree/pseudotsuga-menziesii_klamathriver.jpg', '/static/images/photos/tree/pseudotsuga-menziesii_lostcoastkpw.jpg', '/static/images/photos/tree/pseudotsuga-menziesii_roughgulch_1987_01.jpg', '/static/images/photos/tree/pseudotsuga-menziesii_roughgulch_1987_02.jpg', '/static/images/photos/tree/pseudotsuga-menziesii_roughgulch_1987_03.jpg', '/static/images/photos/tree/pseudotsuga-menziesii_roughgulch_1987_04.jpg', '/static/images/photos/tree/pseudotsuga-menziesii_roughgulch_1987_05.jpg', '/static/images/photos/tree/pseudotsuga-menziesii_uppergoosecr_1987_01.jpg', '/static/images/photos/tree/pseudotsuga-menziesii_uppergoosecr_1987_02.jpg', '/static/images/photos/tree/pseudotsuga-menziesii_uppergoosecr_1987_03.jpg', '/static/images/photos/tree/pseudotsuga-menziesii_yosemitevalley_09-09_01.jpg', '/static/images/photos/tree/pseudotsuga-menziesii_yosemitevalley_09-09_02.jpg', '/static/images/photos/tree/pseudotsuga-menziesii_yosemitevalley_09-09_03.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Pseudotsuga</i> <i>menziesii</i> is dominant or co-dominant with hardwoods in the tree canopy with <i>Abies</i> <i>concolor</i>, <i>Acer</i> <i>macrophyllum</i>, <i>Alnus</i> <i>rhombifolia</i>, <i>Arbutus</i> <i>menziesii</i>, <i>Calocedrus</i> <i>decurrens</i>, <i>Chamaecyparis</i> <i>lawsoniana</i>, <i>Chrysolepis</i> <i>chrysophylla</i>, <i>Cornus</i> <i>nuttallii</i>, <i>Pinus</i> <i>contorta</i>, <i>Pinus</i> <i>jeffreyi</i>, <i>Pinus</i> <i>lambertiana</i>, <i>Quercus</i> <i>agrifolia</i>, <i>Quercus</i> <i>chrysolepis</i>, <i>Quercus</i> <i>garryana</i>, <i>Quercus</i> <i>kelloggii</i> and <i>Sequoia</i> <i>sempervirens</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text"> Trees < 75 m; canopy is intermittent to continuous, and it may be two tiered. Shrubs are infrequent or common. Herbaceous layer is sparse or abundant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Pseudotsuga menziesii</i> > 50% relative cover in the tree canopy and reproducing successfully, though hardwoods may dominate or co-dominate in the subcanopy and regeneration layer; <i>Abies concolor, Chamaecyparis lawsoniana, Pinus contorta, P. ponderosa,</i> and <i>Sequoia sempervirens</i> <20% relative cover; and <i> Notholithocarpus densiflorus</i> <10% relative cover in the tree canopy (Jimerson et al. 1996).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> All topographic positions and aspects. Substrates various, including serpentine. The USFWS Wetland Inventory (1996 national list) recognizes <i>Pseudotsuga menziesii</i> as FACU plant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Douglas fir series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Pseudotsuga menziesii forest alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Pacific Douglas-fir
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Upland douglas-fir forest, Coast range mixed coniferous forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Douglas fir forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Douglas fir
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>82.200.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Tree Vegetation (Forest and Woodland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Cool Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North America Cool Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Californian-Vancouverian Montane and Foothill Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Upland Vancouverian mixed woodland and forest
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Pseudotsuga menziesii </i>trees reach 75 m in height and 500 years or more in age. Trees begin bearing cones by 20 years of age. Seed production is cyclic, with heavy production every 5-7 years. Wind and gravity primarily disperse seeds; most seeds fall within 100 m of the parent tree. Seeds remain viable for up to two years. Seedling establishment is best on mineral soil or on light, moist litter. First-year seedlings survive and grow best in partial shade, especially on drier sites where seedling survival and growth is best in 50% shade. Understory trees cannot survive in dense shade; they are more shade tolerant on moist sites than on dry ones (Griffin and Critchfield 1972, Hermann and Lavender 1990, Uchytil 1991d). <br/>
+<br/>
+The ecological literature applies the term Douglas fir forest for stands of varying species composition (Fites-Kaufman et al. 2007, Sawyer 2006, 2007). Bingham (1999) developed a region-wide alliance-level classification for late-seral-stage forests based on relationships between species composition and major environmental gradients. Stands dominated by <i>Ps. menziesii </i>segregated significantly from other alliances. This alliance is mainly a middle-elevation one in California. <i>Abies concolor </i>may be a component of the understory and a secondary species of tree canopy. For this reason, some authors place the associations into other alliances (Atzet et al. 1996, Fites 1993, Jimerson 1994, Sawyer and Thornburgh 1977). <br/>
+<br/>
+The complex relationship between <i>Ps. menziesii </i>and other conifers and hardwoods throughout northern California has led us to recognize four additional alliances defined by the combinations of co-dominants: the <i>Abies concolor-Pseudotsuga menziesii </i>alliance, the <i>Pseudotsuga menziesii- Calocedrus decurrens </i>alliance, the <i>Pseudotsuga menziesii-Notholithocarpus densiflorus </i>alliance, and the <i>Pinus ponderosa-Pseudotsuga menziesii </i>alliance. Other combinations, such as in the case of the <i>Pseudotsuga menziesii-Quercus chrysolepis </i>associations, are included in this <i>Pseudotsuga menziesii </i>alliance. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Pseudotsuga menziesii</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Tree; evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Transient</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; gravity; wind</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; thick epidermis; canopy architecture resistant</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>5-500+ years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Low to high</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text"><i>Pseudotsuga menziesii </i>is adapted to a fire regime with short to moderately long, fire-free intervals. Young <i>Ps. menziesii </i>is highly susceptible to low-severity fires, but the ability of <i>Ps. menziesii </i>to survive fire increases with age. In California, the mean historic fire interval in these forests is from 5 to 120 years. Most California stands are on the higher end of this frequency range, unlike those of the moist Pacific Northwest where intervals may be very long (N. Sugihara, pers. comm. 2007). Frequent, low- to moderate-severity fires that occasionally crown create gaps of varying sizes. Such stands tend to be small in size and of mixed ages. Underburning allows maturing trees to survive repeated fires (Sugihara et al. 2006).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Short to medium
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Summer-early fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Small to large
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Multiple
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Multiple
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Multiple
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Surface to passive crown
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Klamath, Cascade, and Coast ranges, Sierra Nevada
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Af, Aj-k). Stands are local and often associated with <i>Sequoia sempervirens,</i> usually occurring in less-protected upper-slope locations. South of the Santa Cruz Mountains, stands are local and isolated in a mosaic of broadleaf forests, chaparral, coastal sage scrub, and grassland. Only a few stands of<i> Pseudotsuga menziesii</i> alliance occur within Monterey Co.; some or perhaps all of these are naturalized (Matthews 2006).</li>
+        
+            <li><b>Klamath Mountains</b> (M261Aa-g, Ai-u). Much of this forest type was been logged in this section in the last four decades (Sawyer 2006). Stands of tree-sized <i>Chrysolepis chrysophylla</i> occur at the highest elevations of this alliance (Keeler-Wolf 1984c, 1988e). Stands are described in the southern Siskiyou Mountains (Simpson 1980), along South Fork Mountain (Laidlaw-Holmes 1981, Keeler-Wolf 1990d), at the Pearch Creek and Specimen Creek study areas, at Bridge Creek cRNA and Manzanita Creek RNA (Cheng 2004), at Castle Crags State Park (Stuart et al. 1992, 1996), and generally in the subsection (Atzet and Wheeler 1984, Jimerson et al. 1995, 1996). Additionally, mixed stands with <i>Quercus chrysolepis</i> occur in the Specimen Creek study area (Sawyer and Stillman 1977, see Cheng 2004), Whiskeytown National Recreation Area (Lee 2004), and generally in the section (Atzet and Wheeler 1984, Jimerson et al. 1996). Stands in the western Siskiyou Mountains may contain <i>Pinus contorta</i> ssp. <i>contorta</i> (see <i>Pinus contorta</i> ssp. <i>contorta</i> alliance). Elsewhere in the section, the trees are <i>P. contorta</i> ssp. <i>murrayana.</i></li>
+        
+            <li><b>Northern California Coast</b> (263Ab, Ad, Af-g, Aj-m). <i>Umbellularia californica</i> plays an important role in stands in Marin and Sonoma Cos. Stands are described at Mount Tamalpais (Parker 1990b), Annadel State Park (Wainwright and Barbour 1984), Point Reyes National Seashore, and adjacent parts of Marin Co. (Evens and Kentner 2006, Keeler-Wolf et al. 2003a). Stand exists in Salt Point State Park in Sonoma Co. (CNPS unpublished data 2020).</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Ba-b, Be-f). Most of the low-elevation stands on industrial and private lands have been logged in the last 50 years, so stands are young. Older stands occur in Mendocino and Six Rivers national forests, particularly in the Yolla Bolly-Middle Eel and North Fork wilderness areas. Mixed stands of <i>Q. chrysolepis</i> occur in canyons of the Eel, Mad, and Russian rivers inland from the redwood belt (Jimerson et al. 1996). Stands also occur on serpentine with shrub understories and pure <i>Ps. menziesii</i> overstories (Jimerson et al. 1995).</li>
+        
+            <li><b>Northern California Interior Coast Ranges</b> (M261Ca). Mixed stands of <i>Ps. menziesii</i> and <i>Q. chrysolepis</i> are common in the larger drainages, such as the Cottonwood, Elder, Stony, and Thomes creeks.</li>
+        
+            <li><b>Sierra Nevada</b> (M261Ef-g). Mixed stands of <i>Ps. menziesii</i> and <i>Q. chrysolepis</i> occur in Yosemite National Park (Keeler-Wolf et al. 2003b) and northward (Fites 1993). However, mixed stands in this section, where <i>Ps. menziesii</i> is a co-dominant with <i>A. concolor</i> or <i>Pinus ponderosa</i> (Fites 1993), are better placed in one of the mixed conifer alliances.</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fa-b). Stands have been sampled in the northern subsections in canyons (Klein et al. 2007).</li>
+        
+            <li><b>Southern Cascades</b> (M261Da, Dj, Dl). We expect stands to have similar species composition and ecology to those of the northern Sierra Nevada. Most stands in this region with the high constancy of<i> Ps. menziesii</i> described by Fites (1993) with <i>Abies concolor</i> or <i>P. ponderosa</i> as co-dominants are better placed in one of the mixed conifer alliances. Mixed stands of <i>Ps. menziesii</i> and <i>Q. chrysolepis</i> also occur in the western portion of the section (Fites 1993). They are similar to those in the adjacent Sierra Nevada section.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> In addition to fire, fungi, insects, and windstorms disturb and modify stand development and structure. Historically, fire occurred at varying frequencies at low or medium intensities on moderately to highly productive sites. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+                <p>Pure Stands  Lacking a Well-Developed Shrub Layer</p>
+            
+            <ul class="text">
+                
+                    <li>Pseudotsuga menziesii / Achlys triphylla [5]</li>
+                
+                    <li>Pseudotsuga menziesii / Adenocaulon bicolor [11]</li>
+                
+                    <li>Pseudotsuga menziesii / (Toxicodendron diversilobum) [1], [13], [14], [21], [22]</li>
+                
+                    <li>Pseudotsuga menziesii / Vancouveria planipetala [12]</li>
+                
+            </ul>
+        
+            
+                <p>Pure Stands with a Well-Developed Shrub Layer</p>
+            
+            <ul class="text">
+                
+                    <li>Pseudotsuga menziesii / Acer circinatum - Mahonia nervosa [3]</li>
+                
+                    <li>Pseudotsuga menziesii / Arctostaphylos patula [11]</li>
+                
+                    <li>Pseudotsuga menziesii / Baccharis pilularis [7], [21], [22]</li>
+                
+                    <li>Pseudotsuga menziesii / Corylus cornuta / Polystichum munitum [3], [12], [21], [22]</li>
+                
+                    <li>Pseudotsuga menziesii / Gaultheria shallon [12]</li>
+                
+                    <li>Pseudotsuga menziesii / Mahonia nervosa [15], [16]</li>
+                
+                    <li>Pseudotsuga menziesii / Quercus vacciniifolia [2]</li>
+                
+                    <li>Pseudotsuga menziesii / Quercus vacciniifolia - Notholithocarpus densiflorus var. echinoides [2], [3]</li>
+                
+                    <li>Pseudotsuga menziesii / Quercus vacciniifolia - Rhododendron macrophyllum [2], [3], [12]</li>
+                
+                    <li>Pseudotsuga menziesii / Rhododendron spp. [12]</li>
+                
+            </ul>
+        
+            
+                <p>Stands Mixed with <i>Chrysolepis chrysophylla</i></p>
+            
+            <ul class="text">
+                
+                    <li>Pseudotsuga menziesii - Chrysolepis chrysophylla - Notholithocarpus densiflorus [1], [3], [21], [22]</li>
+                
+                    <li>Pseudotsuga menziesii - Chrysolepis chrysophylla / Rhododendron macrophyllum - Gaultheria shallon [3]</li>
+                
+                    <li>Pseudotsuga menziesii - Chrysolepis chrysophylla / Rhododendron macrophyllum - Mahonia nervosa [3]</li>
+                
+                    <li>Pseudotsuga menziesii - Chrysolepis chrysophylla / Rhododendron macrophyllum - Quercus sadleriana - Gaultheria shallon [3]</li>
+                
+                    <li>Pseudotsuga menziesii - Chrysolepis chrysophylla / Rhododendron macrophyllum - Quercus sadleriana - Xerophyllum tenax [3]</li>
+                
+                    <li>Pseudotsuga menziesii - Chrysolepis chrysophylla / Xerophyllum tenax [3]</li>
+                
+            </ul>
+        
+            
+                <p>Stands Mixed with Oaks</p>
+            
+            <ul class="text">
+                
+                    <li>Pseudotsuga menziesii - Quercus agrifolia [1], [7], [20], [21], [22]</li>
+                
+                    <li>Pseudotsuga menziesii - Quercus chrysolepis [1], [3], [20], [21], [22]</li>
+                
+                    <li>Pseudotsuga menziesii - Quercus chrysolepis - Acer macrophyllum / Toxicodendron diversilobum [10]</li>
+                
+                    <li>Pseudotsuga menziesii - Quercus chrysolepis / Arctostaphylos manzanita [11]</li>
+                
+                    <li>Pseudotsuga menziesii - Quercus garryana var. garryana / grass [3]</li>
+                
+                    <li>Pseudotsuga menziesii - Quercus garryana var. garryana / Holodiscus discolor [3]</li>
+                
+                    <li>Pseudotsuga menziesii - Quercus kelloggii [3], [13], [14]</li>
+                
+            </ul>
+        
+            
+                <p>Stands Mixed with Other Hardwoods</p>
+            
+            <ul class="text">
+                
+                    <li>Pseudotsuga menziesii - Arbutus menziesii [9], [11], [20], [21], [22]</li>
+                
+                    <li>Pseudotsuga menziesii - (Umbellularia californica) / Frangula californica [7], [21], [22]</li>
+                
+                    <li>Pseudotsuga menziesii - Umbellularia californica / Holodiscus discolor [3]</li>
+                
+                    <li>Pseudotsuga menziesii - Umbellularia californica / Polystichum munitum [1], [7], [20], [21], [22]</li>
+                
+                    <li>Pseudotsuga menziesii - Umbellularia californica / (Toxicodendron diversilobum) [1], [2], [3], [18], [20], [21], [22]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Evens, J.M.;Kentner, E. 2006</li>
+		
+		<li>[2] Jimerson, T.M.;Hoover, L.D.;McGee, E.A.;DeNitto, G.;Creasy, R.M. 1995</li>
+		
+		<li>[3] Jimerson, T.M.;McGee, E.A.;Jones, D.W.;Svilich, R.J.;Hotalen, E.;DeNitto, G.;Laurent, T.;Tenpas, J.D.;Smith, M.E.;Hefner-McClelland, K.;Mattison, J. 1996</li>
+		
+		<li>[5] Keeler-Wolf, T. 1987b</li>
+		
+		<li>[7] Keeler-Wolf, T .;Schirokauer, D.;Meinke, J.;van derLeeden, P. 2003a</li>
+		
+		<li>[9] Laidlaw-Holmes, J.M. 1981</li>
+		
+		<li>[10] Lee, C. 2004</li>
+		
+		<li>[11] Sawyer, J.O.;Stillman, K.T. 1977</li>
+		
+		<li>[12] Simpson, L.G. 1980</li>
+		
+		<li>[13] Stuart, J.D.;Worley, T.;Buell, A.C. 1992</li>
+		
+		<li>[14] Stuart, J.D.;Worley, T.;Buell, A.C. 1996</li>
+		
+		<li>[15] Taylor, D.W. 1975a</li>
+		
+		<li>[16] Taylor, D.W. 1975b</li>
+		
+		<li>[18] Wainwright, T.C.;Barbour, M.G. 1984</li>
+		
+		<li>[20] Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>[21] Sikes, K.;Buck-Diaz, J.;Evens, J. 2021</li>
+		
+		<li>[22] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>Barbour, M.G. 1988</li>
+		
+		<li>Bolsinger, C.L.;Jaramillo, A.E. 1990</li>
+		
+		<li>Fites-Kauffman, J.A.;Rundel, P.;Stephenson, N.;Weixelman, D. 2007</li>
+		
+		<li>Franklin, J.F.;Cromack, K.;Denison, W.;McKee, A.;Maser, C.;Sedell, J.;Swanson, F.;Juday, G. 1981</li>
+		
+		<li>Keeler-Wolf, T. 1985c</li>
+		
+		<li>Keeler-Wolf, T. 1988e</li>
+		
+		<li>McKee, A. 1990</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Black, H.;Bleich, V.C.;Mincks, J.W. 1980</li>
+		
+		<li>Rundel, P.W.;Parsons, D.J.;Gordon, D.T. 1977</li>
+		
+		<li>Sawyer, J.O. 2007</li>
+		
+		<li>Sawyer, J.O.;Thornburgh, D.A. 1977</li>
+		
+		<li>Uchytil, R.J. 1991d</li>
+		
+		<li>Williamson, R.L. 1980</li>
+		
+		<li>Williamson, R.L.;Twombly, A.D. 1983</li>
+		
+		<li>Zuckerman, S. 1990</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/74/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Lasthenia californica - Plantago erecta - Vulpia microstachys</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Lasthenia</i> <i>californica</i> - <i>Plantago</i> <i>erecta</i> - <i>Vulpia</i> <i>microstachys</i></span> Herbaceous Alliance <br/>
+        <span class="subtitle">California goldfields - dwarf plantain - small fescue flower fields</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Herb
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>85-1150 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S4
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G4
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA (CNPS data), OR (TJM2) (BONAP), Baja California, Mexico (TJM2)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>Yes
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2009/09/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/herb/lasthenia-californica_plantago-erecta_vulpia-microstachys_04-05_01.jpg', '/static/images/photos/herb/lasthenia-californica_plantago-erecta_vulpia-microstachys_bechtelranchchico_04-06.jpg', '/static/images/photos/herb/lasthenia-californica_plantago-erecta_vulpia-microstachys_chimineas_04-05_01.jpg', '/static/images/photos/herb/lasthenia-californica_plantago-erecta_vulpia-microstachys_chimineas_04-05_02.jpg', '/static/images/photos/herb/lasthenia-californica_plantago-erecta_vulpia-microstachys_wagoncaves_04-02_01.jpg', '/static/images/photos/herb/lasthenia-californica_plantago-erecta_vulpia-microstachys_wagoncaves_04-02_02.jpg', '/static/images/photos/herb/lasthenia-californica_plantago-erecta_vulpia-microstachys_wagoncaves_04-09_02.jpg', '/static/images/photos/herb/lasthenia-californica_plantago-erecta_vulpia-microstachys_04-10_01.jpg', '/static/images/photos/herb/lasthenia-californica_plantago-erecta_vulpia-microstachys_04-10_02.jpg', '/static/images/photos/herb/lasthenia-californica_plantago-erecta_vulpia-microstachys_04-10_03.jpg', '/static/images/photos/herb/lasthenia-californica_plantago-erecta_vulpia-microstachys_04-10_04.jpg', '/static/images/photos/herb/lasthenia-californica_plantago-erecta_vulpia-microstachys_04-10_05.jpg', '/static/images/photos/herb/lasthenia-californica_plantago-erecta_vulpia-microstachys_04-10_07.jpg', '/static/images/photos/herb/lasthenia-californica_plantago-erecta_vulpia-microstachys_04-10_06.jpg', '/static/images/photos/herb/lasthenia-californica_plantago-erecta_vulpia-microstachys_joaquinriver.jpg', '/static/images/photos/herb/lasthenia-californica_plantago-erecta_vulpia-microstachys_vacamtn_2003.jpg', '/static/images/photos/herb/lasthenia-californica_plantago-erecta_vulpia-microstachys_cr018_bh.jpg', '/static/images/photos/herb/lasthenia-californica_plantago-erecta_vulpia-microstachys_cr019_bh.jpg', '/static/images/photos/herb/lasthenia-californica_plantago-erecta_vulpia-microstachys_cr024_ss.jpg', '/static/images/photos/herb/lasthenia-californica_plantago-erecta_vulpia-microstachys_cr031_ss.jpg', '/static/images/photos/herb/lasthenia-californica_plantago-erecta_vulpia-microstachys_cr032_ss.jpg', '/static/images/photos/herb/lasthenia-californica_plantago-erecta_vulpia-microstachys2_cr024_ss.jpg', '/static/images/photos/herb/lasthenia-californica_plantago-erecta_vulpia-microstachys_mariposaco_04-2011.jpg', '/static/images/photos/herb/lasthenia-california_plantago_vulpia_mcosd-lomaalta_04-2019_marin210.jpg', '/static/images/photos/herb/lasthenia_plantago_vulpia_mcosd-lomaalta_04-2019_marin210.jpg', '/static/images/photos/herb/lasthenia-californica-plantago-erecta-vulpia-microstachys_ptreyes_05-2006_01.jpg', '/static/images/photos/herb/lasthenia-californica-plantago-erecta-vulpia-microstachys_ptreyes_05-2006_02.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Lasthenia</i> <i>californica</i>, <i>Lasthenia</i> <i>gracilis</i>, <i>Lasthenia</i> <i>minor</i>, <i>Plantago</i> <i>erecta</i> and/or <i>Vulpia</i> <i>microstachys</i> are characteristically present, dominant, or co-dominant in the herbaceous layer with a variety of other other herbs. Species that are diagnostic for associations in this alliance and occur with one of the main alliance character species are <i>Achnatherum</i> <i>lemmonii</i>, <i>Agrostis</i> <i>elliottiana</i>, <i>Atriplex</i> <i>californica</i>, <i>Atriplex</i> <i>coronata</i> var. <i>notatior</i>, <i>Bromus</i> <i>hordeaceus</i>, <i>Calycadenia</i> <i>multiglandulosa</i>, <i>Calycadenia</i> <i>truncata</i>, <i>Centromadia</i> <i>fitchii</i>, <i>Chlorogalum</i> <i>angustifolium</i>, <i>Erigeron</i> <i>glaucus</i>, <i>Hemizonia</i> <i>congesta</i>, <i>Hypochaeris</i> <i>glabra</i>, <i>Juncus</i> <i>bufonius</i>, <i>Layia</i> <i>pentachaeta</i>, <i>Layia</i> <i>platyglossa</i>, <i>Lepidium</i> <i>nitidum</i>, <i>Lotus</i> <i>humistratus</i>, <i>Micropus</i> <i>californicus</i>, <i>Navarretia</i> <i>tagetina</i>, <i>Pectocarya</i> <i>linearis</i>, <i>Pectocarya</i> <i>penicillata</i>, <i>Plagiobothrys</i> <i>acanthocarpus</i>, <i>Plagiobothrys</i> <i>arizonicus</i>, <i>Plagiobothrys</i> <i>canescens</i>, <i>Sedella</i> <i>pumila</i>, <i>Selaginella</i> <i>hansenii</i> and <i>Triphysaria</i> <i>eriantha</i>. Other species may be present and of note for certain associations including <i>Amsinckia</i> <i>menziesii</i>, <i>Amsinckia</i> <i>tessellata</i>, <i>Astragalus</i> <i>didymocarpus</i>, <i>Briza</i> <i>minor</i>, <i>Brodiaea</i> spp., <i>Bromus</i> spp., <i>Calandrinia</i> <i>ciliata</i>, <i>Calycadenia</i> <i>oppositifolia</i>, <i>Camissonia</i> <i>campestris</i>, <i>Castilleja</i> spp., <i>Ceanothus</i> <i>cuneatus</i>, <i>Clarkia</i> spp., <i>Crassula</i> <i>connata</i>, <i>Dichelostemma</i> <i>capitatum</i>, <i>Distichlis</i> <i>spicata</i>, <i>Dudleya</i> <i>cymosa</i>, <i>Elymus</i> <i>elymoides</i>, <i>Eriodictyon</i> spp., <i>Eriogonum</i> <i>gracillimum</i>, <i>Erodium</i> <i>cicutarium</i>, <i>Eschscholzia</i> <i>californica</i>, <i>Eschscholzia</i> <i>lobbii</i>, <i>Gilia</i> <i>tricolor</i>, <i>Hedypnois</i> <i>cretica</i>, <i>Hesperevax</i> <i>sparsiflora</i>, <i>Holocarpha</i> <i>virgata</i>, <i>Hordeum</i> <i>murinum</i>, <i>Lessingia</i> <i>virgata</i>, <i>Linanthus</i> <i>liniflorus</i>, <i>Lolium</i> <i>perenne</i>, <i>Lomatium</i> spp., <i>Lupinus</i> <i>nanus</i>, <i>Lupinus</i> <i>spectabilis</i>, <i>Malacothrix</i> <i>coulteri</i>, <i>Medicago</i> <i>polymorpha</i>, <i>Microseris</i> <i>elegans</i>, <i>Schismus</i> spp., <i>Soliva</i> <i>sessilis</i> and <i>Trifolium</i> spp.  </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Herbs < 60 cm; cover is open to continuous. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Lasthenia californica, Lasthenia gracilis, Plantago erecta,</i> and/or <i>Vulpia microstachys</i> > 30% relative cover in stands with other native and non-native species in the herbaceous layer (Evens et al. 2004).</li>
+		
+		<li><i>Lasthenia californica, Plantago erecta</i>, and/or <i>Vulpia microstachys</i> characteristically present in stands with > 50% relative cover of native species (Klein et al. 2007).</li>
+		
+		<li><i>Lasthenia californica, Erigeron glaucus, Calycadenia multiglandulosa, Calycadenia truncata, Hemizonia congesta, Lomatium spp., Lotus humistratus, Micropus californicus, Plantago erecta,</i> and <i>Vulpia microstachys</i> > 50% relative cover individually or in combination (Klein et al. 2015).</li>
+		
+		<li><i>Lasthenia</i> spp. or <i>Extriplex californica</i> > 30% relative cover and both species are present (Rodriguez et al. 2017).</li>
+		
+		<li><i>Lasthenia californica, Plantago erecta,</i> and/or <i>Vulpia microstachys</i> characteristically present in stands and usually > 10% relative cover in the herb layer; other native species such as <i> Lepidium nitidum</i> and <i>Crassula connata</i> may be well-represented (VegCAMP 2010, VegCAMP 2015b).</li>
+		
+		<li><i>Lasthenia californica, L. gracilis, L. minor, Plantago erecta,</i> and/or <i>Vulpia microstachys</i> is/are characteristically present in herbaceous stands with various other species including <i>Lepidium nitidum, Navarretia tagetina, Triphysaria eriantha, Juncus bufonius, Chlorogalum angustifolium, Bromus hordeaceus, Layia </i>spp., or <i>Trifolium</i> spp. (Buck-Diaz et al. 2011, Buck-Diaz et al. 2012, Buck-Diaz et al. 2013).</li>
+		
+		<li><i>Erodium cicutarium</i> and <i>Bromus rubens</i> are present and sub-dominant while <i>Vulpia microstachys, Lepidium nitidum,</i> and/or <i>Trifolium gracilentum</i> occur at > 30% relative cover with other herbs (VegCAMP 2015b).</li>
+		
+		<li><i>Erodium</i> spp. and <i>Bromus</i> spp. appear sub-dominant to dominant with <i>Lasthenia (gracilis), Plantago erecta, Plagiobothrys cancescens, Crassula connata,</i> and other native forbs (VegCAMP 2015b).</li>
+		
+		<li><i>Lasthenia californica</i> or <i>L. gracilis</i> with > 30% relative cover in the herbaceous layer with various other herbs on vernal alkaline flats and low hills (Buck-Diaz et al. 2012, VegCAMP 2015b).</li>
+		
+		<li><i>Lasthenia minor</i> occurs with > 30% relative cover with other herbs on vernal alkaline flats (Buck-Diaz et al. 2012, VegCAMP 2015b).</li>
+		
+		<li><i>Lasthenia californica</i> > 50% relative cover and <i>Atriplex coronata</i> var. <i>notatior</i> is characteristically present (Klein and Evens 2005).</li>
+		
+		<li><i>Calycadenia multiglandulosa, Plantago erecta, Agoseris heterophylla,</i> and <i>Lotus humistratus</i> abundant in spring and summer, while non-natives may be co-dominant on serpentine soils (Evens and Kentner 2006).</li>
+		
+		<li><i>Layia platyglossa</i> is > 30% relative cover with other native and non-native plants including <i>Bromus rubens, Erodium cicutarium, Vulpia microstachys,</i> and <i>Lasthenia gracilis</i> (Buck-Diaz et al. 2013).</li>
+		
+		<li><i>Layia pentachaeta, Plagiobothrys canescens</i> and/or <i>P. arizonicus</i> are characteristic and occurring with other native and non-native plants including <i>Amsinckia menziesii, Bromus rubens, Erodium cicutarium, Hordeum murinum, Lasthenia</i> spp.<i>, Pectocarya</i> spp. and <i>Schismus</i> spp. (Buck-Diaz et al. 2012).</li>
+		
+		<li><i>Lepidium nitidum</i> with > 30% cover with other native and non-native plants including <i>Bromus rubens, Crassula connata, Erodium cicutarium, Lasthenia californica, Trifolium gracilentum,</i> and <i>Vulpia microstachys</i> (Buck-Diaz et al. 2012).</li>
+		
+		<li><i>Lolium perenne</i> > 60% relative cover with <i>Hemizonia congesta</i> at low to moderate cover (depending on season) along with other forb and grass species (Evens and San 2004, Klein et al. 2015).</li>
+		
+		<li><i>Lolium perenne</i> has between 30% to 60% relative cover with <i>Lasthenia californica</i> or <i>Plantago erecta</i> occurring along with other various herbs (Even and San 2004).</li>
+		
+		<li><i>Pectocarya linearis</i> or <i>P. penicillata</i> is seasonally co-dominant to dominant on sandy flats with <i>Calandrinia ciliata, Camissonia campestris, Erodium cicutarium, Lasthenia gracilis, Linanthus liniflorus, Schismus</i> sp.</i><i>, Vulpia microstachys,</i> and/or other herbs (Buck-Diaz et al. 2013, VegCAMP 2015b).</li>
+		
+		<li><i>Plagiobothrys acanthocarpa</i> occurs with > 30% relative cover along with other native and non-native plants including <i>Lasthenia californica, Plantago erecta, Juncus bufonius, Hedypnois cretica, Medicago polymorpha,</i> and <i>Soliva sessilis</i> (Buck-Diaz et al. 2012).</li>
+		
+		<li><i>Selaginella hansenii, Vulpia microstachys</i> and/or <i>Plantago erecta</i> intermix with a variety of other native species on and off serpentine soils including <i>Lupinus spectabilis, Eschscholzia lobbii, Holocarpha virgata</i> subsp. <i>virgata, Plantago erecta, Dudleya cymosa</i> and <i>Trifolium willdenovii</i> (Buck-Diaz et al. 2012, Klein et al. 2007).</li>
+		
+		<li><i>Selaginella hansenii</i> and <i>Vulpia microstachys</i> occur on rocky volcanic substrate, intermixing with other native species such as <i>Plantago erecta, Lessingia virgata, Lupinus nanus, Lupinus spectabilis, Dichelostemma capitatum, Hypochaeris glabra,Triphysaria eriantha</i> subsp. <i>eriantha,</i> or <i>Calycadenia truncata</i> (Klein et al. 2007).</li>
+		
+		<li><i>Vulpia microstachys</i> with > 30% relative cover with other annual grasses (including <i>Bromus</i> spp.) and <i>Plantago erecta</i> (Evens et al. 2006).</li>
+		
+		<li><i>Vulpia microstachys</i> and <i>Plantago erecta</i> are typically present on ultramafic (including gabbro and serpentine) or volcanic substrates, with other natives such as <i>Calycadenia truncata, C. multiglandulosa</i> (or <i>C. oppositifolia</i>)<i>, Castilleja lacera, C. tenuis,</i> and <i>Trifolium wildenovii</i> (Klein et al. 2007).</li>
+		
+		<li><i>Vulpia microstachys</i> constant with low cover, <i> Elymus elymoides</i> and/or <i>Achnatherum lemmonii</i> are present.  Shrub species <i>Ceanothus cuneatus</i> and <i>Eriodictyon</i> spp. frequently present at sparse cover.  Found on Lassen National Forest Tuscan flows (Klein et al. 2007).</li>
+		
+		<li><i>Vulpia microstachys, Plantago erecta,</i> and/or <i>Lasthenia californica</i> occur with characteristic species such as <i>Bromus hordeaceus, Briza minor, Juncus bufonius, Hypochaeris glabra, Agrostis elliottiana, Cicendia quadrangularis, Chlorogalum angustifolium, Lepidium nitidum, Navarretia tagetina,</i> and <i>Triphysaria eriantha</i> (Klein et al. 2007).</li>
+		
+		<li><i>Vulpia microstachys</i> and/or <i>Plantago erecta</i> occur with characteristic species <i>Navarretia tagetina, Bromus hordeaceus,</i> and <i>Hemizonia fitchii</i> (Klein et al. 2007).</li>
+		
+		<li><i>Vulpia microstachys</i> and <i>Plantago erecta</i> occur with other native and non-native species including <i>Trifolium depauperatum, Bromus hordeaceus,</i> and <i>Hypochaeris glabra</i> (Buck-Diaz et al. 2013).</li>
+		
+		<li><i>Vulpia microstachys</i> characterizes the herbaceous layer with a variety of other native and non-native herbs (Buck-Diaz et al. 2012).</li>
+		
+		<li><i>Lasthenia californica, Calycadenia spp., Hemizonia congesta, Hesperevax sparsiflora, Lomatium, Lotus humistratus, Micropus californicus, Plantago erecta</i>, and/or <i>Vulpia microstachys</i> > 30% relative cover individually or > 50% relative cover in combination (Buck-Diaz et al. 2021, Sikes et al. 2021).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Ridges and slopes at all aspects. Soils are shallow loams and clays, especially on volcanic and serpentine substrates. The USFWS Wetland Inventory (1996 national list) recognizes <i>Lasthenia californica</i> as a FACU* plant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>California annual grassland series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Annual grasses and forbs
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Native grassland, Wildflower field
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Valley grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Annual grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>44.108.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Mediterranean Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Mediterranean Grassland and Forb Meadow
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>California Grassland and  Meadow
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>California Annual and Perennial Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>California annual herb/grass group
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Lasthenia californica, Lasthenia gracilis,</i> and <i>Plantago erecta </i>are native, cool-season annual herbs. <i>Vulpia microstachys </i>is a native, cool-season annual grass. These characteristic species grow to 40 cm. <i>V. microstachys </i>is the most widespread native annual grass in California. <i>Lasthenia californica </i>and <i>L. gracilis </i>tend to express dominance in early spring; <i>P. erecta </i>typically has early to intermediate phenology; and <i>V. microstachys </i>develops abundantly in mid to late spring. <i>L. californica </i>also displays regional and local variability in seeds and flowering depending on soil type, likely allowing the plant to respond differently to local site conditions and contribute to a varying pattern of distribution across California (Rajakaruna and Bohm 1999). <i>P. erecta </i>and <i>V. microstachys </i>also exhibit adaptation and variation to different soil types, likely allowing plants to respond differently to local site conditions (Espeland and Rice 2007, Howard 2006). This alliance includes <i>L. gracilis  </i>which is now treated as a separate species from <i>L. californica  </i>(Chan 2001). <br/>
+<br/>
+Stands occur throughout much of cismontane California (Bartolome et al. 2007a, Evens and San 2004, Hobbs and Mooney 1991, Klein et al. 2007, McCarten 1991, Rodriguez-Rojo et al. 2001a, b, Weiss 1999). This alliance represents a triad of native species that have a broad tolerance of adaptation to the area’s Mediterranean climate. Bartolome et al. (2007a) considered native annual grassland types to replace steppe types wherever annual rainfall is below 21 cm. <i>Vulpia microstachys </i>var. <i>pauciflora </i>is the most frequent annual grass of these semi-desert grasslands. <br/>
+<br/>
+This alliance appears seasonally abundant on infertile soils of less frequent disturbance, whereas other herbaceous stands with more disturbance-related taxa appear more regularly on deeper and disturbed soils (cf. Hobbs and Mooney 1991, Seabloom et al. 2003, Howard 2006). Adaptation to local site/soil conditions allows these native species to dominate on serpentine soils (Espeland and Rice 2007, Howard 2006, Rajakaruna and Bohm 1999). The nominal species commonly co-occur, though in some areas only one or two may predominate. <i>Lasthenia californica </i>and <i>Plantago erecta </i>appear to decrease in years with low rainfall. In addition, these native species may lack a persistent seed bank and have limited dispersal distances, affecting their presence and abundance (Bartolome 1979, Seabloom et al. 2003). As we study California’s annual grasslands further, we will better characterize their associations and better delineate alliance boundaries. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Lasthenia californica</th>
+			
+		
+			
+			<th>Lasthenia gracilis</th>
+			
+		
+			
+			<th>Lasthenia minor</th>
+			
+		
+			
+			<th>Plantago erecta</th>
+			
+		
+			
+			<th>Vulpia microstachys</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Annual; herb</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Annual; herb</td>
+			
+		
+			
+			<td>Annual; herb</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Long</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Long</td>
+			
+		
+			
+			<td>Transient</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; wind</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Animal; gravity; wind</td>
+			
+		
+			
+			<td>Animal; wind</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>N/A</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>N/A</td>
+			
+		
+			
+			<td>N/A</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-sensitive, thin epidermis</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Fire-sensitive, thin epidermis</td>
+			
+		
+			
+			<td>Fire-sensitive, thin epidermis</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>One growing season</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>One growing season</td>
+			
+		
+			
+			<td>One growing season</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Low to high</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Low to high (variable)</td>
+			
+		
+			
+			<td>Low to high</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Native Americans probably burned this vegetation historically at different frequencies throughout the state. Although we know little about fire returns for this and other native annual vegetation types in cismontane California, seed banks and annual habit of the diagnostic species likely enable short fire return intervals (Reiner 2007, Wills 2006). Keeley (2002a) suggested that fires occurred in higher frequency adjacent to long-term occupation sites, and Anderson (2005) suggested that many annual plants and associated geophytes benefited from tending by Native Americans.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+            <p>The range of <i>Lasthenia californica, Plantago erecta,</i> and <i>Vulpia microstachys</i> includes cismontane California.</p>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Aa, Ac-l). Stands occur commonly on serpentine in the Coyote Ridge area, including Edgewood, Kirby Canyon, and Silver Creek Hills county parks, and at Jasper Ridge in Santa Clara Co. (Evens and San 2004, Hobbs and Mooney 1991, McCarten 1991, Weiss 1999), and in areas of Alameda Co. (Rodriguez-Rojo et al. 2001a).</li>
+        
+            <li><b>Central California Coast Ranges</b> (M262Aa-k). Stands occur on and off serpentine in the Mount San Benito area (Evens et al. 2006) in San Benito and western Fresno Cos. Stands continue to the south at least as far as the Carrizo National Monument. Stands in Monterey Co. include <i>Lasthenia leptalea</i> and <i>Plantago erecta.</i></li>
+        
+            <li><b>Great Valley</b> (262Aa-b, Ad-e, Ag-h, Aj-k, An-o, Aq, As-z). Known stands throughout the Great Valley (Buck-Diaz et al. 2012).</li>
+        
+            <li><b>Mojave Desert</b> (322Ag). Stands occur with <i>L. californica</i> and <i>P. erecta</i> but lack <i>V. microstachys</i> in the Antelope Valley and adjacent areas as far north as Inyokern.</li>
+        
+            <li><b>Northern California Coast</b> (263Ag, Aj, Al-m). Stands occur in the southern and warmer subsections.</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Bb-f). Stands occur as herbaceous openings throughout the lower elevation southern portion of the section.</li>
+        
+            <li><b>Northern California Interior Coast Ranges</b> (M261Ca-c). Stands exist in woodland openings throughout the section.</li>
+        
+            <li><b>Sierra Nevada</b> (M261Ep). Known stands in Sequoia National Forest, along the Kern River Highway.</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fa-e). Stands occur throughout the northern and central portions of the section. They range from stands on rocky substrates with a significant cover of <i>Selaginella hansenii</i> to others on vernally moist substrates with a high cover of <i>Mimulus guttatus</i> (Klein et al. 2007). Stands on serpentine and volcanic substrates have thin soils. Similar herbaceous composition occurs under the shrub canopies of stands of the <i>Ceanothus cuneatus</i> and <i>Pinus sabiniana</i> alliances on serpentine substrates.</li>
+        
+            <li><b>Southern California Coast</b> (261Ba-d, Bf-g, Bi-j). Stands create a matrix with other grassland types with <i>Bromus</i> spp., <i>Lasthenia californica, Lupinus bicolor,</i> and <i>Vulpia</i> spp. on the mainland (Bartolome et al. 2007a) and on the Channel Islands (Junak et al. 2007).</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Bf, Bk). Stands are known in the vicinity of the Santa Rosa Plateau. They also occur in the vicinity of the San Jacinto Wildlife Area on vernally moist alkaline flats (Klein and Evens 2005) with rare CNPS List 1B species (<i>Atriplex coronata</i> var. <i>notatior</i>).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> <i>Plantago erecta </i>is the food plant of two endangered butterflies: the Quino checkerspot (<i>Euphydryas editha quino</i>) and bay checkerspot (<i>Euphydryas editha bayensis</i>), a federally threatened animal. The bay checkerspot butterfly is particularly restricted to serpentine stands of this alliance in which <i>P. erecta </i>provides food for larvae and <i>Lasthenia californica </i>provides nectar for adults (USFWS 2001). A part of Coyote Ridge is managed to enhance populations of the bay checkerspot butterfly. According to Hellman et al. (2004), <i>P. erecta </i>is the most reliable food plant from year to year for the butterfly. Topographic diversity on a microscale positively influences long-term viability of populations because <i>P. erecta </i>remains green and provides food for the butterflies over longer periods on an array of various slope exposures (Fleishman et al. 2000) and in a variable climate. 
+
+In addition, small mammal activity from gophers tends to increase <i>Bromus hordeaceus </i>and other non-native cover (Hobbs and Mooney 1991), and nitrogen deposition increases <i>Lolium perenne </i>cover even on serpentine in the northern Central Coast (Weiss 1999). Kimball and Shiffman (2003) discussed the fine spatial patterning of native and non-native plants on the Carrizo Plain area by mammals. They suggested that areas of higher soil disruption by bioturbation from burrow systems of giant kangaroo rats supported stands of native <i>Amsinckia </i>and non-native <i>Bromus </i>and <i>Erodium </i>species. The immediately adjacent sites with much lower disturbance included stands of this mixed herb alliance. 
+
+Virtually all high-quality examples of this alliance are on shallow, rocky, or otherwise nutrient-deficient substrates. The short stature and seed limitations of native plants in the alliance tend to make them competitively inferior to the prevalent, taller annual non-native plants common to most herbaceous uplands today. Prior to the introduction of non-natives, this alliance presumably was much more widespread. Restoration remains problematic, but it may include seeding of native species, light to moderate grazing, and burning. Minnich (2008) discussed this and similar annual herbaceous alliances with regard to changing management and climate. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Erigeron glaucus - Lasthenia californica [14], [20]</li>
+                
+                    <li>Erodium cicutarium - Vulpia microstachys [10], [11], [12], [18]</li>
+                
+                    <li>Hemizonia congesta - Lolium perenne [1], [14], [20], [21]</li>
+                
+                    <li>Lasthenia californica - Atriplex californica [13]</li>
+                
+                    <li>Lasthenia californica - Atriplex coronata var. notatior [5]</li>
+                
+                    <li>Lasthenia (californica, gracilis) [8], [9], [10], [11], [12], [15], [18], [20]</li>
+                
+                    <li>Lasthenia californica - Lupinus bicolor - Layia platyglossa - Bromus spp. [3]</li>
+                
+                    <li>Lasthenia californica - Plagiobothrys acanthocarpa - Medicago polymorpha [9], [11], [12]</li>
+                
+                    <li>Lasthenia californica - Plantago erecta - Hesperevax sparsiflora [1], [6], [7], [16], [19], [20], [21]</li>
+                
+                    <li>Lasthenia gracilis - Plantago erecta - Plagiobothrys canescens [10], [11]</li>
+                
+                    <li>Lasthenia minor [9], [10], [11], [12], [18]</li>
+                
+                    <li>Layia pentachaeta - Plagiobothrys (canescens) [9], [11], [12]</li>
+                
+                    <li>Layia platyglossa [10], [11], [12]</li>
+                
+                    <li>Lepidium nitidum - Trifolium gracilentum - Vulpia microstachys [9], [10], [11], [12], [18]</li>
+                
+                    <li>Lotus humistratus - Plantago erecta - Lomatium spp. [14], [21]</li>
+                
+                    <li>Micropus californicus [14]</li>
+                
+                    <li>Pectocarya (linearis, penicillata) [10], [11], [12], [18]</li>
+                
+                    <li>Plantago erecta - Lolium perenne lichen-rocky [1], [6], [16], [21]</li>
+                
+                    <li>Vulpia microstachys [9], [11]</li>
+                
+                    <li>Vulpia microstachys - Elymus elymoides - Achnatherum lemmonii [4], [9]</li>
+                
+                    <li>Vulpia microstachys - Lasthenia californica - Agrostis elliottiana [4], [9]</li>
+                
+                    <li>Vulpia microstachys - Mimulus guttatus - Pentagramma triangularis [4]</li>
+                
+                    <li>Vulpia microstachys - Navarretia tagetina [4], [9]</li>
+                
+                    <li>Vulpia microstachys - Plantago erecta [1], [2], [9], [10], [11], [12]</li>
+                
+                    <li>Vulpia microstachys - Plantago erecta - Calycadenia (truncata, multiglandulosa) [1], [4], [14], [17], [20], [21]</li>
+                
+                    <li>Vulpia microstachys - Sedella pumila - Lasthenia californica [1], [4], [9], [11], [12]</li>
+                
+                    <li>Vulpia microstachys - Selaginella hansenii [4], [9]</li>
+                
+                    <li>Vulpia microstachys - Selaginella hansenii - Lupinus nanus [1], [4]</li>
+                
+                    <li>Vulpia microstachys - Selaginella hansenii - Lupinus spectabilis [4]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Evens, J.;San, S. 2004</li>
+		
+		<li>[2] Evens, J.M.;Klein, A.;Taylor, J.;Hickson, D.;Keeler-Wolf, T. 2006</li>
+		
+		<li>[3] Junak, S.;Knapp, D.A.;Haller, J.R.;Philbrick, R.;Schoenherr, A.;Keeler-Wolf, T. 2007</li>
+		
+		<li>[4] Klein, A.;Crawford, J.;Evens, J.;Keeler-Wolf, T.;Hickson, D. 2007</li>
+		
+		<li>[5] Klein, A.;Evens, J. 2005</li>
+		
+		<li>[6] McCarten, N. 1991</li>
+		
+		<li>[7] Rodriguez-Rojo, M.P.;Sanchez-Mata, D.;Gavilan, R.G.;Rivas-Martinez, S.;Barbour, M.G. 2001a</li>
+		
+		<li>[8] Taylor, D.W.;Clifton, G.L.;Holland, R.F.;Witham, C.W. 1992</li>
+		
+		<li>[9] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>[10] Buck-Diaz, J.;Evens, J. 2011b</li>
+		
+		<li>[11] Buck-Diaz, J.;Harbert, B.;Evens, J. 2011</li>
+		
+		<li>[12] Buck-Diaz, J.;Ratchford, J.;Evens, J. 2013</li>
+		
+		<li>[13] Rodriguez, D.;Sikes, K.;Keeler-Wolf, T.;Kittel, G.;Curtis, J.;Curley, C.;Evens, J. 2017</li>
+		
+		<li>[14] Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>[15] Rodriguez, D. 2015</li>
+		
+		<li>[16] Buck, J.;Evens, J. 2010</li>
+		
+		<li>[17] Evens, J.M.;Kentner, E. 2006</li>
+		
+		<li>[18] VegCAMP (CDFW Vegetation Classification and Mapping Program), 2015b</li>
+		
+		<li>[19] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2020</li>
+		
+		<li>[20] Sikes, K.;Buck-Diaz, J.;Evens, J. 2021</li>
+		
+		<li>[21] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>Evens, J.M.;San, S.;Taylor, J. 2004</li>
+		
+		<li>Hobbs, R.J.;Mooney, H.A. 1991</li>
+		
+		<li>Howard, J.L. 2006</li>
+		
+		<li>Keeler-Wolf, T.;Evens, J.M.;Solomeshch, A.I.;Holland, V.L.;Barbour, M.G. 2007</li>
+		
+		<li>Menke, J.;Reyes, E.;Hepburn, A.;Johnson, D.;Reyes, J. 2013</li>
+		
+		<li>Rodriguez-Rojo, M.P.;Sanchez-Mata, D.;Rivas Martinez, S.;Barbour, M.G. 2001b</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program), 2015a</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program);AIS, 2013</li>
+		
+		<li>Weiss, S.B. 1999</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/414/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

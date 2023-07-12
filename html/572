@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Hesperocyparis macrocarpa - Pinus radiata</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Hesperocyparis</i> <i>macrocarpa</i> - <i>Pinus</i> <i>radiata</i></span> Forest &amp; Woodland Semi-Natural Alliance <br/>
+        <span class="subtitle">Monterey cypress - Monterey pine Woodland stands</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Tree
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-1200 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>SNA
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>GNA
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA, OR
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2021/08/30
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/tree/hesperocyparis-macrocarpa-p-radiata_pedroptheadlands_04-19_smat0032.jpg', '/static/images/photos/tree/hespero_pinus_pinus_radiata_ptar0016_05-17.jpg', '/static/images/photos/tree/hespero_pinus_pinus_radiata_smat0145_05-19.jpg', '/static/images/photos/tree/hespero_pinus_pinus_radiata_smat0303_08-19.jpg', '/static/images/photos/tree/hesperocyparis-macrocarpa_ggnra_smat0009_03-19.jpg', '/static/images/photos/tree/hesperocyparis-macrocarpa_sfpuc_smat0059_04-19.jpg', '/static/images/photos/tree/hespero_pinus_pinus-halepensis_lagunabeach_01-19.jpg', '/static/images/photos/tree/hespero_pinus_pinus-pinea_elgranadahills_11-08.jpg', '/static/images/photos/tree/hespero_pinus_pinus-pinea_halfmoonbayhills_12-08.jpg', '/static/images/photos/tree/pinus-radiata-hesperocyperis-macrocarpa-semi-nat_san-mateo-co_04-2021.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Hesperocyparis</i> <i>macrocarpa</i>, <i>Pinus</i> <i>canariensis</i>, <i>Pinus</i> <i>halepensis</i>, <i>Pinus</i> <i>pinea</i> and/or <i>Pinus</i> <i>radiata</i> is dominant in the tree canopy with <i>Acacia</i> <i>cyclops</i> and <i>Eucalyptus</i> spp. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text"> Trees < 50 m; canopy is open to continuous. Shrub layer is sparse to continuous. Herbaceous layer is variable. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Pinus radiata</i> or <i>Hesperocyparis macrocarpa</i> > 50% relative cover in the tree canopy in ruderal or planted stands (Buck-Diaz et al. 2021).</li>
+		
+		<li>Introduced <i>Pinus </i>spp. or other conifers strongly dominant (> 75% relative cover) or co-dominant with other non-natives in the tree overstory (Verdone and Evens 2010).</li>
+		
+		<li>Planted or naturalized conifer species including <i>Hesperocyparis macrocarpa</i> and/or <i>Pinus radiata</i> > 50% relative cover in the tree canopy (Sikes et al 2021).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Planted as trees, groves, and windbreaks; naturalized in coastal areas.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Non-native/ornamental conifer
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Coastal closed-cone Coniferous Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Close-cone pine forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Closed-cone pine-cypress
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>79.400.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Tree Vegetation (Forest and Woodland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Cool Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>North American Introduced Evergreen Broadleaf and Conifer Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Introduced North American Mediterranean woodland and forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Introduced North American Mediterranean woodland and forest
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Pinus radiata </i>is a fast-growing conifer that attains a height of 15-35 m and an age of 80-100 years. Trees produce cones at 5-10 years of age. Cones are generally serotinous and open after a fire or on hot days. Trees have intermediate shade tolerance. The species grows in maritime zones with summer fog (McDonald and Laacke 1990). <i>Pinus radiata </i>is a rare CNPS list 1B.1 plant in its natural mainland distribution of three discrete populations in central California (Monterey Peninsula, Santa Cruz/San Mateo, and San Luis Obispo Counties) where they grow on windy, foggy slopes and terraces in the coastal marine layer. <br/>
+<br/>
+<i>Hesperocyparis macrocarpa </i>is a coastal conifer that attains a height of 25 m. It is shaped or distorted by salt and wind blasting directly along the coastline, but a short distance inland, it is erect. Estimates of maximum plant age are 200-300 years (Esser 1994f). <i>Hesperocyparis macrocarpa </i>is easily killed by fire, and it typically regenerates from seed in serotinous cones as do other California cypresses. <i>H. macrocarpa </i>is capable of seedling establishment with or without crown fire because cones can open on warm days and shed seed without the aid of fire.  <i>H. macrocarpa </i>is a rare, CNPS list 1B.2 plant and only two native groves exist on the Monterey Peninsula. <br/>
+<br/>
+Though their natural habitats are few and fragmented, both <i>H. macrocarpa</i> and<i>P. radiata</i> have been widely planted along roads on the mainland of California where they regenerate and become 'naturalized' or ruderal. Also, both trees have been widely planted across the world because they can grow rapidly, and have been used as timber trees, for windbreaks, and as ornamental trees (Cope 1993f, Esser 1994f). Beyond these two trees, other non-native Mediterranean pines have been planted and are reproducing from seed, particularly in central and southern California, including <i>Pinus halepensis</i> and <i>P. pinea.</i> Naturalized stands of these conifers collectively interdigitate with maritime chaparral, coastal bluff scrub, and coastal prairies in California . </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Hesperocyparis macrocarpa</th>
+			
+		
+			
+			<th>Pinus canariensis</th>
+			
+		
+			
+			<th>Pinus halepensis</th>
+			
+		
+			
+			<th>Pinus pinea</th>
+			
+		
+			
+			<th>Pinus radiata</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Perennial; tree; evergreen</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Tree; evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Canopy stored</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Canopy</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Medium</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Long</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Wind; Water</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Gravity; wind</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Heat; Chemical</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Heat; stratification—winter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-sensitive</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Fire-sensitive; thin epidermis; canopy architecture susceptible</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>6 to 7 years old - ?</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>5-100 years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Low to Medium?</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Episodic (fire dependent)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Both <i>H. macrocarpa </i>and <i>P. radiata </i>are easily killed by fire and typically regenerate from seed in the trees' serotinous cones. They are also capable of seedling establishment with or without crown fire because cones can open on warm days and shed seed without the aid of fire. However, stands of this ruderal alliance typically establish or invade sites after planting, land clearing, grazing, logging, etc.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>--
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>--
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>--
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>--
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>--
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>--
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>--
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>--
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Aa, Ac-d, Af-l). Planted and naturalizing, non-native stands of cypress and pine in the section include <i>H. macrocarpa, P. pinea </i>and <i>P. radiata</i> (Jepson Flora Project 2021, Sikes et al. 2021).</li>
+        
+            <li><b>Northern California Coast</b> (263Aa-m). Planted and naturalizing stands of cypress and pine in the section include <i>H. macrocarpa </i>and <i>P. radiata.</i> Naturalized populations reach as far north as Humboldt and Del Norte Co. (Jepson Flora Project 2021), and stands occur in the Point Arena-Stornetta Unit of the California Coastal Monument in Mendocino Co. (Buck-Diaz et al. 2020) and generally in Sonoma Co. (Klein et al. 2015). In Point Reyes National Seashore and elsewhere in Marin Co., trees surround ranch houses and provide shelter from strong coastal winds. Some of these plantings have natural regeneration. Keeler-Wolf et al. (2003a) reported invading trees within stands of the <i>Baccharis pilularis </i>alliance.</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Bb). Introduced stands of <i>Pinus radiata </i>are mapped in Sonoma Co. (Tukman Geospatial and Kass Green & Associates 2019).</li>
+        
+            <li><b>Southern California Coast</b> (261Ba-d, Bf-j). Planted and naturalizing, non-native stands of pines in the section include <i>P. canariensis, P. halepensis </i>and <i>P. pinea</i> (Jepson Flora Project 2021, Verdone and Evens 2010).</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Bd, Bf). Introduced pines appear to be naturalizing on slopes within chaparral (Jepson Flora Project 2021).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> <i>H. macrocarpa </i>is highly susceptible to cypress canker, <i>Seiridium (Coryneum) cardinale, </i>which can kill this and related trees in the cypress family. It can be transferred by infected nursery stock or pruning tools (UC IPM 2017). <i>P. radiata </i>is highly susceptible to pine pitch canker, <i>Fusarium circinatum</i> (UC IPM 2017). Since several species of pine native to California are susceptible to pitch canker, the spread through the horticultural trade represents a threat to forests more generally (Camilli et al. 2013). To minimize damage, it is important to prevent movement of the pathogen to non-infested areas. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Hesperocyparis macrocarpa Ruderal [1], [2], [3], [4]</li>
+                
+                    <li>Pinus radiata plantations [1], [2], [3], [4]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>[2] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2020</li>
+		
+		<li>[3] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>[4] Sikes, K.;Buck-Diaz, J.;Evens, J. 2021</li>
+		
+		<li>Camilli, K.S.;Marshall, J.;Owen, D.;Gordon, T.;Wood, D. 2013</li>
+		
+		<li>Cope, A.B. 1993f</li>
+		
+		<li>Esser, L.L. 1994f</li>
+		
+		<li>Jepson Flora Project, 2004-present</li>
+		
+		<li>Keeler-Wolf, T .;Schirokauer, D.;Meinke, J.;van derLeeden, P. 2003a</li>
+		
+		<li>McDonald, P.M.;Laacke, R.J. 1990</li>
+		
+		<li>Tukman Geospatial,;Kass Green & Associates, 2019</li>
+		
+		<li>UC IPM (University of California Statewide IPM Program), 2017</li>
+		
+		<li>Verdone, L.;Evens, J. 2010</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/572/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

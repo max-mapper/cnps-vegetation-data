@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Atriplex canescens</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Atriplex</i> <i>canescens</i></span> Shrubland Alliance <br/>
+        <span class="subtitle">Fourwing saltbush scrub</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>-75-1500 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S4
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G5
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: AZ, CA, CO, KS, NM, NV, OR, TX, UT, WY. Mexico (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/atriplex-canescens_a-polycarpa_mesquitel_4_00.jpg', '/static/images/photos/shrub/atriplex-canescens_a-spinifera_a-polycarpa_kohenlkernc.jpg', '/static/images/photos/shrub/atriplex-canescens_chrysothamnus-parryi_nofemigrantpass.jpg', '/static/images/photos/shrub/atriplex-canescens_dvnp_04-99_01.jpg', '/static/images/photos/shrub/atriplex-canescens_dvnp_04-99_02.jpg', '/static/images/photos/shrub/atriplex-canescens_mesquitel%28emoj%29_04-00_01.jpg', '/static/images/photos/shrub/atriplex-canescens_mesquitel%28emoj%29_04-00_02.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Atriplex</i> <i>canescens</i> is dominant or co-dominant in the shrub canopy with <i>Ambrosia</i> <i>dumosa</i>, <i>Ambrosia</i> <i>salsola</i>, <i>Atriplex</i> <i>confertifolia</i>, <i>Atriplex</i> <i>polycarpa</i>, <i>Chrysothamnus</i> <i>viscidiflorus</i>, <i>Cleome</i> <i>isomeris</i>, <i>Ephedra</i> <i>viridis</i>, <i>Grayia</i> <i>spinosa</i>, <i>Larrea</i> <i>tridentata</i> and <i>Suaeda</i> <i>moquinii</i>. Emergent trees may be present at low cover, including <i>Prosopis</i> <i>glandulosa</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 3 m; canopy is open or intermittent. Herbaceous layer is variable with seasonal herbs and non-native grasses. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Atriplex canescens</i> > 2% absolute cover and > 50% relative cover in the shrub canopy (Keeler-Wolf et al. 1998b, Thomas et al. 2004).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Playas, old beach and shores, lake deposits, dissected alluvial fans, rolling hills or channel beds. Soils are carbonate rich, alkaline, sandy, or sandy clay loams. The USFWS Wetland Inventory (1996 national list) recognizes <i>Atriplex canescens</i> as a FACU plant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Fourwing saltbush series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Atriplex canescens shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Saltbush
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Relictual interior dunes, Desert saltbush scrub, Valley saltbush scrub, Sierra-Tehachapi saltbush scrub, Interior Coast range saltbush scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Creosote bush scrub, Shadscale scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Alkali desert scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>36.310.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Xeromorphic Scrub and Herb Vegetation (Semi-Desert)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Cool Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Cool Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North American Cool Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Cool Semi-Desert Alkali-Saline Flats
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Shadscale-saltbush cool semi-desert scrub
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Atriplex canescens </i>is a widespread shrub in the western United States. It is extremely variable in physiology, form, and other characteristics. Plants are long-lived and resistant to salt, cold, and drought; they tolerate saline, alkaline, boron, and gypsum soils, but they are not an indicator of these conditions (Howard 2003). The species has been used extensively for rehabilitation of mine excavations in Montana and Wyoming. It colonizes readily from seed and does not appear to require mycorrhizal associations to grow vigorously. It tolerates grazing. <br/>
+<br/>
+<i>A. canescens </i>is the most rapidly evolving shrub in North America; plants have different polyploidy levels, and the species contains regional ecotypes (Howard 2003). Moreover, identification is challenging due to intraspecific variation and introgression with other saltbush species. It grows extensively in California, but the alliance is largely restricted to the deserts, the San Joaquin Valley, and surrounding foothills. Two of the six subspecies of <i>A. canescens </i>(ssp. <i>canescens </i>and ssp. <i>linearis</i>) grow in California. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Atriplex canescens</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Shrub; evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Unknown</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Wind</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Stratification—winter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; low flammability; high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>?-100 years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Episodic (rainfall dependant)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>High</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Natural disturbance processes probably do not involve fire to any great degree in most California stands, except for the cismontane ones. It can be top-killed by fire but is fire resistant because of moist, nonvolatile leaves and prolific sprouting. Fire may be more important currently for the alliance because of the invasion of annual, non-native grasses.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Long (25-150 years)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Summer-early fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Medium to large
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low to moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Moderate to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>High to very high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Surface to passive-active crown fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>California deserts
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast Ranges</b> (M262Ai-k). Local stands cover low hills and edges of valleys in the inland sections. Its robust plants may represent a different ecotype from those in the deserts.</li>
+        
+            <li><b>Colorado Desert</b> (322Ca-d). Stands occur in similar situations as the Mojave Desert, including playa edges at Clark Dry Lake in Earthquake Valley and alkaline springs in Anza-Borrego Desert State Park (Keeler- Wolf et al. 1998b).</li>
+        
+            <li><b>Great Valley</b> (262Av, Ay-z). Stands occur scattered in alkaline areas within the San Joaquin Valley.</li>
+        
+            <li><b>Mojave Desert</b> (322Aa-p). Stands exist throughout the section (Thomas et al. 2004), such as on dune aprons and low dunes in Death and Saline valleys, and on moderately alkaline playas at Silver Dry and Superior Dry lakes. Stands occur less commonly and are smaller than those of the <i>Atriplex polycarpa</i> alliance. Stands are more restricted to alkaline areas and do not occur on rocky uplands. They often mix with stands of the <i>Prosopis glandulosa</i> alliance along streams and washes or at the edges of dunes, and they commonly associate with <i>Suaeda moquinii</i> stands at playa edges.</li>
+        
+            <li><b>Northwestern Basin and Range</b> (342Ba, Bc, Be). Stands exist around the alkali lakes, such as in Surprise Valley in Modoc Co.</li>
+        
+            <li><b>Sonoran Desert</b> (322Ba, Bc-e). Stands are local around playa edges, adjacent to springs, and with <i>Prosopis glandulosa</i> and <i>Suaeda moquinii</i> stands along the Colorado River and in the Chuckwalla and Cadiz-Vidal valleys (Evens and Hartman 2007).</li>
+        
+            <li><b>Southeastern Great Basin</b> (341Fc, Ff). Stands occupy edges of playas and valleys and flats with clay soil in the northern Panamint Range. Stand elevations are higher in this section, suggesting a different ecotype than in hot deserts.</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Bi-l). Small, as yet unsampled stands occur in western Riverside Co.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> In general, this alliance is in relatively good standing throughout its range. Its ability to tolerate alkaline soils, grazing, fire, and other disturbance bodes well for its persistence. High levels of grazing and fire at certain times of the year may be detrimental (Howard 2003), especially in cismontane stands. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Atriplex canescens [1], [2], [3], [6], [8], [9]</li>
+                
+                    <li>Atriplex canescens Desert Wash [6]</li>
+                
+                    <li>Atriplex canescens / herbaceous [7]</li>
+                
+                    <li>Atriplex canescens - Krascheninnikovia lanata [4], [5], [6]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Evens, J.M.;Hartman, S. 2007</li>
+		
+		<li>[2] Keeler-Wolf, T.;Roye, C.;Lewis, K. 1998b</li>
+		
+		<li>[3] Keeler-Wolf, T.;Thomas, K. 2000</li>
+		
+		<li>[4] Peterson, P.M. 1984a</li>
+		
+		<li>[5] Peterson, P.M. 1984b</li>
+		
+		<li>[6] Evens, J.M.;Sikes, K.;Hastings, D.;Ratchford,J.S. 2014</li>
+		
+		<li>[7] Buck-Diaz, J.;Evens, J. 2011b</li>
+		
+		<li>[8] Reyes, E.;Evens, J.;Glass, A.;Sikes, K.;Keeler-Wolf., T.;Winitsky, S.;Johnson, D.;Menke, J.;Hepburn, A. 2020a</li>
+		
+		<li>[9] Reyes, E.;Evens, J.;Fulton, J.;Sikes, K.; Johnson, D.;Keeler-Wolf, T.;Vu, S.;LaFever-Jackson, A. 2023 (in progress)</li>
+		
+		<li>Bittman, R. 1985</li>
+		
+		<li>Boul, R.;Keeler-Wolf, T.;Ratchford, J.;Haynes, T.;Hickson, D.;Yacoub, R.;Harbert, B.;Evens, J. 2021b</li>
+		
+		<li>Burk, J.H. 1977</li>
+		
+		<li>Griggs, F.T. 1980b</li>
+		
+		<li>Griggs, F.T.;Zaninovich, J. 1984</li>
+		
+		<li>Howard, J.L. 2003</li>
+		
+		<li>Johnson, H.B. 1976</li>
+		
+		<li>MacMahon, J.A. 1988</li>
+		
+		<li>MacMahon, J.A.;Wagner, F.H. 1985</li>
+		
+		<li>McHargue, L.T. 1973</li>
+		
+		<li>Menke, J.;Reyes, E.;Hepburn, A.;Johnson, D.;Reyes, J. 2013</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Black, H.;Bleich, V.C.;Mincks, J.W. 1980</li>
+		
+		<li>Reid, M.S.;Schulz, K.A.;Cormer, P.J.;Schindel, M.H.;Culver, D.R.;Sarr, D.A.;Damm, M.C. 1999</li>
+		
+		<li>Thomas, K.;Franklin, J.;Keeler-Wolf, T.;Stine, P. 2004</li>
+		
+		<li>Vasek, F.C.;Barbour, M.G. 1977</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program);AIS, 2013</li>
+		
+		<li>Werschkull, G.D.;Griggs, F.T.;Zaninovich, J.M. 1984</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/144/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

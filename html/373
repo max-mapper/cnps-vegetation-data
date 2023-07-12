@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Conium maculatum - Foeniculum vulgare</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Conium</i> <i>maculatum</i> - <i>Foeniculum</i> <i>vulgare</i></span> Herbaceous Semi-Natural Alliance <br/>
+        <span class="subtitle">Poison hemlock or fennel patches</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Herb
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-1000 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>SNA
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>GNA
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA, OR?
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                        <li>
+                            <span class="category">Invasive species rank</span>
+                            Cal-IPC:  See Remarks.
+                        </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2009/09/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/herb/conium-maculatum_hwy1_07-10_01.jpg', '/static/images/photos/herb/conium-maculatum_foeniculum-vulgare_nicasio%20reservoir_05_2005.jpg', '/static/images/photos/herb/conium_foeniculum_06-19_jme.jpg', '/static/images/photos/herb/conium_foeniculum_mmwd0091_n_dipsacus_nicasioreservoir_05-05.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Ageratina</i> <i>adenophora</i>, <i>Conium</i> <i>maculatum</i>, <i>Dipsacus</i> <i>fullonum</i>, <i>Dipsacus</i> <i>sativus</i> and/or <i>Foeniculum</i> <i>vulgare</i> or another non-native invasive plant of the <i>Apiaceae</i> is dominant or co-dominant with other non-native plants in the herbaceous layer. Emergent trees and shrubs may be present at low cover, including trees <i>Quercus</i> spp. and shrubs:<i>Baccharis</i> <i>pilularis</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Herbs < 2 m; cover is open to continuous. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Conium maculatum</i> > 50% relative cover in the herbaceous layer (Keeler-Wolf and Vaghti 2000).</li>
+		
+		<li><i>Foeniculum vulgare</i> > 50% relative cover in the herbaceous layer (Keeler-Wolf and Evens 2006).</li>
+		
+		<li><i>Conium maculatum, Ageratina adenophora, Dipsacus fullonum, D. sativus</i>, and/or <i>Foeniculum vulgare</i> >90% relative cover in the herbaceous layer (Buck-Diaz et al. 2021, Sikes et al. 2021).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> All topography including wetlands. The USACE Wetland Inventory (2018 national list) recognizes <i>C. maculatum </i>as FACW and FAC in the AW and WMVC regions, respectively. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Non-native/invasive forb, Non-native/ornamental grass
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Non-native grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Valley grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Pasture, Perennial grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>45.556.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Mediterranean Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Mediterranean Grassland and Forb Meadow
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>California Grassland and  Meadow
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>California Annual and Perennial Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Mediterranean California naturalized annual and perennial grassland
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> DiTomaso and Healy (2007) consider many members of the <i>Umbelliferae </i>in California as weeds, and Cal-IPC lists <i>Conium maculatum </i>and <i>Foeniculum vulgare </i>invasive in wildland settings in the state. Both are short-lived perennial herbs. The first-year plants produce ground-level rosettes and deep taproots. Plants in the second growing season send up tall stems, called canes, which flower, fruit, and die. In <i>F. vulgare</i>, some canes continue growing for an additional year. <i>C. maculatum </i>is usually a biennial as well. Old canes take several years to decay. Plants produce abundant seed that establishes a short- or long-lived seed bank in the soil (Bean and Russo 2001, DiTomaso and Healy 2007, Drewitz 2000, Klinger 2000). Both species are from Europe, are ecologically similar, and may coexist in the same stand, but <i>C. maculatum </i>tends to occur in relatively more moist locations and is tolerant of semi-shade, such as bottomlands and swales, whereas <i>F. vulgare </i>tends to occur in sunny uplands such as steep and eroded banks, levee tops, or hills. <br/>
+<br/>
+<i>Conium maculatum, </i>poison hemlock, has a Cal-IPC rank of Moderate. Plants grow to 3 m tall during the second year with ferny leaves and stems with distinctive purplish streaks or splotches. Its seed bank is short-lived. All plant parts are toxic to humans, especially seeds and young leaves, and some people develop dermatitis from touching plants. The ancient Greeks used poison hemlock to carry out judicial executions, including that of Socrates (DiTomaso and Healy 2007). <br/>
+<br/>
+<i>Foeniculum vulgare, </i>fennel, has a Cal-IPC rank of Moderate. It grows to 2 m tall with finely dissected leaves with a strong anise-like odor, and the stems are green. Its seed bank is short-lived. People have used this plant for medicinal and culinary purposes since ancient times (DiTomaso and Healy 2007). <br/>
+<br/>
+<i>Daucus carota, </i>wild carrot, is an unlisted weed that can dominate roadsides, pastures, and grasslands, especially in coastal parts of California. It is an annual or short-lived perennial with a life history like that of <i>C. maculatum </i>and <i>F. vulgare, </i>but its seed bank is long-lived (DiTomaso and Healy 2007).<br/>
+<br/>
+This forb-dominated ruderal herbaceous alliance has been expanded since the 2009 edition of the Manual of California Vegetation to include other non-native plants that similarly occur in moist roadside verges, ditches, agricultural waysides, and other disturbed moist to wet areas. Other plants include <i>Ageratina adenophora </i>and <i>Dipsacus </i>spp.. <i>Dipsacus sativus.</i> has a Cal-IPC rating of Moderate. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Ageratina adenophora</th>
+			
+		
+			
+			<th>Conium maculatum</th>
+			
+		
+			
+			<th>Dipsacus fullonum</th>
+			
+		
+			
+			<th>Dipsacus sativus</th>
+			
+		
+			
+			<th>Foeniculum vulgare</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Monocarpic perrenial; herb</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Monocarpic perennial; herb</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Transient; soil stored</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Soil stored</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Medium</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Medium</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Gravity</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Water; animal</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Stratification- winter; stratification- summer</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Stratification- winter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Underground structures</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Higher sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>2 years</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Mature plants form dense patches that pose a fire hazard and increase fire frequency and intensity. We need more research on fire characteristics of these plants.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Ab-k). Stands of <i>Ageratina adenophora, Conium maculatum, Dipsacus </i>spp. and other non-native mesic to wet forbs appear commonly along road cuts and steep unstable coastal slopes associated with coastal scrub.</li>
+        
+            <li><b>Central California Coast Ranges</b> (M262Aa). No description available</li>
+        
+            <li><b>Great Valley</b> (262Aa-z). Stands of <i>C. maculatum </i>and <i>Foeniculum vulgare </i>occur in disturbed sites. Over 100 ha of <i>C. maculatum </i>were mapped at Suisun Marsh (Keeler-Wolf and Vaghti 2000).</li>
+        
+            <li><b>Mono</b> (341Db-c). Several stands are present in the irrigated grazing area in Antelope Valley (Boul et al. 2021b).</li>
+        
+            <li><b>Northern California Coast</b> (263Ae, Ag, Ak-l). Stands of all three non-natives are abundant in the section. Stands of<i>Dipsacus </i> spp. And <i>C. maculatum </i>exist at Point Reyes National Seashore and otherwise in Marin Co. (Buck-Diaz et al 2021, Keeler-Wolf et al. 2003a) with or without high grass cover. <i>C. maculatum </i>and <i>F. vulgare </i>are two of the invasive plants targeted at Humboldt Bay National Wildlife Refuge (Clifford and Walter 2005).</li>
+        
+            <li><b>Sierra Nevada</b> (M261Ej). Small stands of <i>Dipsacus fullonum</i> are probable along the Truckee River and elsewhere in this subsection. Cal IPC characterizes <i>Dipsacus</i> species in the area as low in abundance with increasing spread.</li>
+        
+            <li><b>Southern California Coast</b> (261Ba-j). Some 76 ha of <i>F. vulgare </i>were mapped at Santa Monica Mountains (AIS and ESRI 2007, Keeler-Wolf and Evens 2006) and included <i>Brassica nigra, Bromus diandrus, Carduus pycnocephalus, Leymus condensatus, Malacothrix saxatilis, Raphanus sativus, </i>and <i>Urtica dioica. </i>On Santa Cruz Island, AIS (2007) mapped 110 ha of <i>F. vulgare </i>using a > 50% dominance rule. Shrubs, particularly, <i>Baccharis pilularis, </i>are common and have increased in cover during the past decade (C. Cory, pers. comm. 2006). However, many native shrubs such as <i>Eriogonum arborescens </i> have only shown significant increases in restoration plots where fennel was treated with herbicide and native shrubs were seeded or planted, suggesting that the areas invaded by fennel lack a seed bank of native shrubs to re-establish (James et al. 2014, Power et al. 2014).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Stands often have plants of conservation value. Enhancing native plant qualities requires several years of treatment, including cutting, fire, plant removal, and/or herbicides. The European palearctic moth (<i>Agonopterix alstroemeriana</i>) can control <i>Conium maculatum </i>infestations. Some <i>Daucus carota </i>plants form a tolerance to herbicides (DiTomaso and Healy 2007). As on Santa Cruz Island, R. Klinger reports that removing these non-natives often leads to other invasive non-natives dominating mainland stands (pers. comm. 1998). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Conium maculatum [2], [3], [6], [7]</li>
+                
+                    <li>Dipsacus (fullonum, sativus) [7]</li>
+                
+                    <li>Foeniculum vulgare [1], [4], [5]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Keeler-Wolf, T.;Evens, J. 2006</li>
+		
+		<li>[2] Keeler-Wolf, T.;Vaghti, M. 2000</li>
+		
+		<li>[3] Sproul, F.;Keeler-Wolf, T.;Gordon-Reedy, P.;Dunn, J.;Klein, A.;Harper, K. 2011</li>
+		
+		<li>[4] Rodriguez, D.;Sikes, K.;Keeler-Wolf, T.;Kittel, G.;Curtis, J.;Curley, C.;Evens, J. 2017</li>
+		
+		<li>[5] Verdone, L.;Evens, J. 2010</li>
+		
+		<li>[6] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>[7] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>Bean, C.;Russo, M.J. 2001</li>
+		
+		<li>Cal-IPC, 2018+</li>
+		
+		<li>DiTomaso, J.M.;Healy, E.A. 2007</li>
+		
+		<li>Drewitz, J. 2000</li>
+		
+		<li>James, M.L.;Hubbard,D.M.;Cory, C. 2014</li>
+		
+		<li>Klinger, R. 2000</li>
+		
+		<li>Power, P.J.;Stanley, T.;Cowan,C.;Roberts, J.R. 2014</li>
+		
+		<li>Sikes, K.;Buck-Diaz, J.;Evens, J. 2021</li>
+		
+		<li>USACE (U.S. Army Corps of Engineers), 2018</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/373/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

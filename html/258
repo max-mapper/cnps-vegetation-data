@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Quercus dumosa - Quercus pacifica</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Quercus</i> <i>dumosa</i> - <i>Quercus</i> <i>pacifica</i></span> Shrubland Alliance <br/>
+        <span class="subtitle">Coastal sage and Island scrub oak chaparral</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-600 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G3
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>Yes
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>Yes
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2009/09/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/quercus-pacifica_santacruzis_04-94_01.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Quercus</i> <i>dumosa</i> or <i>Quercus</i> <i>pacifica</i> is dominant in the shrub canopy with <i>Adenostoma</i> <i>fasciculatum</i>, <i>Arctostaphylos</i> <i>catalinae</i>, <i>Arctostaphylos</i> <i>insularis</i>, <i>Arctostaphylos</i> <i>viridissima</i>, <i>Artemisia</i> <i>californica</i>, <i>Baccharis</i> <i>pilularis</i>, <i>Ceanothus</i> <i>arboreus</i>, <i>Ceanothus</i> <i>megacarpus</i> var. <i>insularis</i>, <i>Cercocarpus</i> <i>montanus</i> var. <i>blancheae</i>, <i>Comarostaphylis</i> <i>diversifolia</i>, <i>Diplacus</i> <i>parviflorus</i>, <i>Heteromeles</i> <i>arbutifolia</i>, <i>Lotus</i> <i>dendroideus</i>, <i>Prunus</i> <i>ilicifolia</i> ssp. <i>lyonii</i>, <i>Quercus</i> <i>parvula</i> var. <i>parvula</i>, <i>Rhamnus</i> <i>pirifolia</i>, <i>Rhus</i> <i>integrifolia</i>, <i>Salvia</i> <i>mellifera</i> and <i>Xylococcus</i> <i>bicolor</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 6 m; canopy is intermittent to continuous. Herbaceous layer is sparse or grassy. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Quercus pacifica</i> > 25% absolute cover in the shrub canopy (Landis 1997).</li>
+		
+		<li><i>Quercus dumosa </i>or<i> Q. pacifica</i> > 30% relative cover in the shrub canopy while <i>Arctostaphylos</i> spp. < 30% relative cover (Rodriguez et al. 2017).</li>
+		
+		<li><i>Quercus dumosa</i> > 50% relative cover in the shrub canopy in coastal settings (Sproul et al. 2011).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Coastal slopes and ridges. Soils deep to shallow that are well to extensively drained.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Scrub oak series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Quercus berberidifolia shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Ceanothus chaparral, Scrub oak
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Island chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Mixed chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>37.416.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Mediterranean Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Mediterranean Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>California Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>California Chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Californian maritime chaparral
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Quercus pacifica </i>is a slow-growing, evergreen shrub that can vary in growth form and size, from prostrate and less than half a meter, to arborescent and 6 m in height. Shrubs produce large acorn crops at irregular intervals. Seeds germinate without stratification. Small mammals and island scrub jays cache the acorns, which other wildlife also eat. Plants sprout from swollen root crowns and root suckers after damage to their trunks. Trees and shrubs act as nurse plants, moderating environmental conditions and offering seedlings and saplings protection. Shrubs are shade tolerant (Nixon and Muller 1997). <br/>
+<br/>
+<i>Quercus pacifica </i>is a recently recognized scrub oak that has been referred to as <i>Q. berberidifolia </i>or <i>Q. dumosa </i>in older ecological literature. <i>Q. pacifica </i>is restricted to three of the Channel Islands: Santa Catalina, Santa Rosa, and Santa Cruz (Nixon and Muller 1994, 1997). It closely resembles <i>Q. berberidifolia </i>and differs mainly in acorn characters. <i>Q. pacifica </i>may be a hybrid between <i>Q. berberidifolia </i>and <i>Q. douglasii</i>. Stabilized hybrids of <i>Q. pacifica </i>and <i>Q. lobata </i>(<I>Q. </i>x<i>macdonaldii</i>) grow as small trees on the three Channel Islands (Nixon 2002). <br/>
+<br/>
+This alliance has been expanded to include <i>Quercus dumosa </i>since the 2009 publication of <i>A Manual of California Vegetation, second edition</i>. <i>Q. dumosa </i> is a similar scrub oak restricted to the fog belt of the southern California mainland and northern Baja California up to 200 m in elevation (Rodriguez et al. 2017).  It is a CNPS List 1B plant, and it often occurs on mesic, concave slopes close to the coast (Sproul et al. 2011).<br/>
+<br/>
+A description of stands of <i>Quercus pacifica </i>on Santa Catalina Island (Landis 1997) was made before they were burned in a 2007 fire. These stands were composed of arborescent plants that formed an open high canopy over grasses. Landis (1997) agreed with Minnich (1980a) that this unusual chaparral was the result of decades of intense grazing by feral goats, sheep, and cattle, coupled with a lack of fire. Under late 1990’s conditions, with reduced feral populations, oaks and toyon began to establish in the shade of the shrubs. The Channel Islands have an abundance of rare plants. <i>Q. pacifica</i> stands sampled by Landis included the following CNPS list 1B plants: <i>Arctostaphylos catalinae, Cercocarpus montanus </i>var. <i>blancheae, Crossosoma californicum, </i>and <i>Ribes viburnifolium; </i>and the following CNPS list 4 plants: <i>Eriogonum giganteum </i>var. <i>giganteum, Rhamnus pirifolia, </i>and <i>Q. pacifica</i>. Those sampled more recently on Santa Cruz Island and Santa Rosa Island (Rodriguez et al. 2017) include other CNPS list 1B plants:  <i>Arctostaphylos confertiflora</i> and <i>Eriogonum grande </i>var. <i>rubescens</i>; and the following CNPS list 4 plants:  <i>Lotus dendroideus, Eriogonum grande </i>var.  <i>grande, Diplacus parviflorus, Arctostaphylos crustacea </i>ssp. <i>subcordata, A. viridissima, </i>and others. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Quercus dumosa</th>
+			
+		
+			
+			<th>Quercus pacifica</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Evergreen, sclerophyllous shrub to tree</td>
+			
+		
+			
+			<td>Shrub; evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td>Transient</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+			
+			<td>Short</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; Gravity</td>
+			
+		
+			
+			<td>Animal; gravity </td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Buds on large branches or trunks; Underground structures (burls)</td>
+			
+		
+			
+			<td>Underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy</td>
+			
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td>25-250+ years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Episodic</td>
+			
+		
+			
+			<td>Low; episodic </td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">We know little about the fire relationships for this alliance, although it is clear that natural fire frequency is low on all Channel Islands (Junak et al. 2007). Stands that have endured recent fire on Santa Cruz Island show several effects ranging from moderate basal sprouting to complete kill. There are arborescent plants on Santa Cruz Island that have a similar history to those on Santa Catalina Island.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Medium to long (50 to 100+ years)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Summer-early fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Medium to large—up to and beyond stand
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>High
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Moderate to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Active-independent crown fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Channel Islands, southwestern California
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Southern California Coast</b> (261Bc, Bh-j). Stands of <i>Quercus pacifica</i> occur on Santa Catalina, Santa Rosa, and Santa Cruz Islands. Junak et al. (2007) consider these stands under the general category of island chaparral. 
+Stands of the <i>Quercus dumosa </i>association are reported from western San Diego Co. and Orange Co. occurring in the Coastal Hills and the Coastal Terraces subsections (Sproul et al. 2011, Buck-Diaz and Evens 2015).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> <i>Quercus pacifica</i> is a keystone species of California Channel Islands’ chaparral and has been the focus of extensive conservation efforts (Knapp 2010a). For example, the Catalina Island Conservancy has worked to restore natural processes to island chaparral. Removal of feral goats and sheep neared completion in 2001, at a time when the island began experiencing an oak decline. The dying trees were infected with an <i>Armillaria </i>fungus that invades stressed trees, probably in this case by air pollution (Knapp 2002). Poor regeneration, invasive plant and animal species, and large-scale dieoff continue to threaten this island chaparral (Franklin and Knapp 2007).  
+
+It is unlikely that fire was a regular component to the development of this type of chaparral. The 2007 fire on Santa Catalina Island was devastating, especially with deer still present, because they have targeted the endemics. The fire burned many oaks, and the oaks are having a hard time regenerating with deer present. The Santa Catalina Island Conservancy is hunting deer and concentrating on the burned area (D. Knapp, pers. comm. 2007), though the oak has experienced 35 percent dieback within the last 60 years (Knapp 2010b). On Santa Cruz Island, previous ranching activity and herbivory by livestock were impacts before their removal. Feral pigs had seriously disturbed the herbaceous layer in many stands. With pigs removed in 2006, many stands are experiencing the development of understories, and stands are rebounding with sheep and pig removal. Only on Santa Cruz Island is there a mutualist, avian disperser of acorns, island scrub-jay (<i>Aphelocoma insularis</i>). On the other islands, Santa Catalina and Santa Rosa, recovery will rely on active seed planting by managers. Restoration efforts on Santa Catalina Island suggest that microhabitat variation and protection from seed predation and seedling herbivory will play an important role in seedling survival (Stratton 2009). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Quercus dumosa [3]</li>
+                
+                    <li>Quercus pacifica [1], [2], [4]</li>
+                
+                    <li>Quercus pacifica - (Arctostaphylos insularis - Ceanothus megacarpus var. insularis) [2], [4]</li>
+                
+                    <li>Quercus pacifica / grass [2], [4]</li>
+                
+                    <li>Quercus pacifica - Rhus integrifolia [2], [4]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Landis, F.C. 1997</li>
+		
+		<li>[2] Rodriguez, D.;Sikes, K.;Keeler-Wolf, T.;Kittel, G.;Curtis, J.;Curley, C.;Evens, J. 2017</li>
+		
+		<li>[3] Sproul, F.;Keeler-Wolf, T.;Gordon-Reedy, P.;Dunn, J.;Klein, A.;Harper, K. 2011</li>
+		
+		<li>[4] Dixon, P. 2019</li>
+		
+		<li>Carroll, M.C.;Laughrin, L.L.;Bromfield, A.C. 1987</li>
+		
+		<li>Coblentz, B.E. 1980</li>
+		
+		<li>Dunkle, M.B. 1950</li>
+		
+		<li>Franklin, J.;Knapp, D.A. 2007</li>
+		
+		<li>Fryer, J.L. 2012</li>
+		
+		<li>Junak, S.;Knapp, D.A.;Haller, J.R.;Philbrick, R.;Schoenherr, A.;Keeler-Wolf, T. 2007</li>
+		
+		<li>Knapp, D.A. 2002</li>
+		
+		<li>Knapp, D.A. 2010a</li>
+		
+		<li>Knapp, D.A. 2010b</li>
+		
+		<li>Landis, F.C. 1994</li>
+		
+		<li>Laughrin, L;Carroll, M.;Bromfield, A.;Carroll, J. 1994</li>
+		
+		<li>Minnich, R.A. 1980a</li>
+		
+		<li>Muller, C.H. 1967</li>
+		
+		<li>Nixon, K.C.;Muller, C.H. 1994</li>
+		
+		<li>Nixon, K.C.;Muller, C.H. 1997</li>
+		
+		<li>Pavlik, B.M.;Muick, P.C.;Johnson, S.G.;Popper, M. 1991</li>
+		
+		<li>Philbrick, R.N.;Haller, J.R. 1977</li>
+		
+		<li>Stratton, L. 2002</li>
+		
+		<li>Stratton, L. 2009</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/258/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

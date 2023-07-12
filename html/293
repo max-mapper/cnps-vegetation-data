@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Salvia mellifera</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Salvia</i> <i>mellifera</i></span> Shrubland Alliance <br/>
+        <span class="subtitle">Black sage scrub</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>1-1350 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S4
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G4
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA (NatureServe), Baja California, Mexico (TJM2)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>Yes
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/salvia-mellifera_bigconejocreekrdsamo_03-03_01.jpg', '/static/images/photos/shrub/salvia-mellifera_offkimberleydragourahills_03-03_01.jpg', '/static/images/photos/shrub/salvia-mellifera_pinnaclesnm_01-06_01.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Salvia</i> <i>mellifera</i> is dominant or co-dominant in the shrub canopy with <i>Adenostoma</i> <i>fasciculatum</i>, <i>Artemisia</i> <i>californica</i>, <i>Baccharis</i> <i>pilularis</i>, <i>Diplacus</i> <i>aurantiacus</i>, <i>Encelia</i> <i>californica</i>, <i>Eriogonum</i> <i>cinereum</i>, <i>Eriogonum</i> <i>fasciculatum</i>, <i>Hesperoyucca</i> <i>whipplei</i>, <i>Lotus</i> <i>scoparius</i>, <i>Malacothamnus</i> <i>fasciculatus</i>, <i>Malosma</i> <i>laurina</i>, <i>Opuntia</i> <i>littoralis</i>, <i>Rhus</i> <i>integrifolia</i> and <i>Salvia</i> <i>apiana</i>. Emergent trees may be present at low cover. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 2 m; canopy is continuous or intermittent. Herbaceous layer is variable; grasses and herbs are seasonal. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Salvia mellifera</i> > 60% relative cover in the shrub canopy (Borchert et al. 2004, Evens and San 2005).</li>
+		
+		<li><i>Salvia mellifera</i> usually > 60% or combined with a coastal shrub species > 30% relative cover in the shrub canopy (Klein and Evens 2005, Keeler-Wolf and Evens 2006).</li>
+		
+		<li><i>Salvia mellifera</i> > 50% relative cover, or > 30% relative cover when <i>Rhus integrifolia</i> or <i>Opuntia littoralis</i> is present (Rodriguez et al. 2019).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Dry slopes and alluvial fans. Soils are shallow.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Black sage series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Salvia mellifera shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Sage
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Southern coastal bluff scrub, Central (Lucian) coastal scrub, Venturan coastal sage scrub, Diablan sage scrub, Riversidian upland sage scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Coastal sage scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Coastal scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>32.020.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Mediterranean Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Mediterranean Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>California Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>California Coastal Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Central and South Coastal Californian coastal sage scrub
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Salvia mellifera </i>is an open, shallow-rooted shrub that grows to 2 m in height. Twigs and leaves are glandular and highly aromatic. Plants produce numerous volatile compounds that may be important in herbivore or pathogen defense. They are drought tolerant by leaf curling rather than through leaf drop (Gill and Hanlon 1998) but are still considered to have a suite of drought-deciduous characteristics by Rundel (2007). Winter- and spring-blooming flowers are a rich source of nectar for native and introduced bees. Gravity and ants disperse seeds, which collect in the soil as a seed bank. Seeds often have low germination rates unless exposed to light or components of fire, but heat from fire may reduce germination rates (Keeley and Fotheringham 1998). Seedlings establish in clearings among older shrubs when soils are moist. Plants take two or more growing seasons to reach maturity. Plants sometimes sprout from the base. Recruitment is primarily by seed (Montalvo and McMillan 2002b). <br/>
+<br/>
+<i>Salvia mellifera </i>has the widest range of any of the <i>Salvia </i>shrubby sage species of the coastal sage scrub. In the northern portion of its range, stands usually appear on relatively xeric, well-drained exposures, whereas, in the south, stands tend to be on more mesic slopes with shallow soils. <i>S. mellifera </i>hybridizes with <i>S. apiana. </i>Where their ranges in southern California overlap, <i>S. mellifera </i>tends to occur in flatter and wetter microsites, while <i>S. apiana </i>occurs on drier slopes. Conversely, where <i>S. mellifera </i>overlaps in range with <i>S. leucophylla, </i>the latter tends to occupy more mesic sites. Hybrids between <i>S. mellifera </i>and <i>S. apiana </i>occur in recently disturbed areas and elsewhere in the coastal sage scrub (Kirkpatrick and Hutchinson 1977, Malanson 1984, Mooney 1977.) </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Salvia mellifera</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Shrub; drought deciduous, evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Long</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; gravity; wind</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Underground structures (variable by geography and by age of plant)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-sensitive; high flammability; no/low sprouter to fire-hardy; high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>2-50 years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Episodic? (variable)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Soil; sprouting ability varies with coastal vs. inland populations</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text"><i>Salvia mellifera </i>sprouts moderately well after lowintensity fire, and stands are likely to survive and regenerate through root crown sprouting and through abundant seed germination. <i>S. mellifera </i>regenerates mostly from soil-stored seed after higher severity fire (Gordon and White 1994, Horton and Kraebel 1955, Keeley 1998b, McMurray 1990e). In addition, postburn reestablishment varies geographically. <i>S. mellifera </i>sprouts more often at lower elevation, maritime sites where coastal sage scrub species are more common as compared to higher elevation inland sites where chaparral species are more common (Westman 1991, Malanson and O’Leary 1982).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Medium (15-90+ years)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Late summer-fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Medium to large; up to or beyond stand size
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>High to very high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Active-independent crown fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Southern California
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Ac, Aj-l). Stands vary in plant height, cover, and species composition at Cone Peak Gradient RNA (Cheng 2004).</li>
+        
+            <li><b>Central California Coast Ranges</b> (M262Aa-f, Ah, Aj). Stands on Coyote Ridge (Evens and San 2004) and the San Benito Mountain (Evens et al. 2006) areas in the Diablo Range, from the Santa Lucia Mountains (Borchert et al. 2004), from Pinnacles National Monument (Kittel et al. 2012), and as far north as Mount Diablo and at Briones Regional Park in Contra Costa Co. occur adjacent to stands of the <i>Adenostoma fasciculatum</i> alliance on fine-grained sediments.</li>
+        
+            <li><b>Southern California Coast</b> (261Ba-j). Stands sampled in central San Diego Co. (Evens and San 2005), Santa Monica Mountains, (Keeler-Wolf and Evens 2006), and generally in the section (Borchert et al. 2004) are extensive. On the Channel Islands, <i>Salvia mellifera </i>forms stands on Santa Catalina (Dixon et al. 2019) and Santa Cruz (Rodriguez et al. 2017).</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Ba-d, Bf, Bj-l, Bn). Stands in this section best characterize the alliance (Kirkpatrick and Hutchinson 1977, Malanson 1984, Mooney 1977, White and Padley 1997, Borchert et al. 2004).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> <i>Salvia mellifera </i>stands are declining in wildland settings. Invasions of non-native annual grasses have increased fire frequency and reduced seed banks. Fire, these grasses, <i>Brassica nigra</i>, and air pollution reduce the success of <i>S. mellifera</i>. Successful restoration must create conditions in which shrubs can establish, mature, and develop seed banks (Montalvo and McMillan 2002b). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Salvia mellifera [2], [3], [4], [6], [7], [9], [11], [19]</li>
+                
+                    <li>Salvia mellifera - Artemisia californica - Malosma laurina [4], [5], [6], [10], [12], [14], [16], [17], [18], [19]</li>
+                
+                    <li>Salvia mellifera - Eriogonum cinereum [4], [11]</li>
+                
+                    <li>Salvia mellifera - Eriogonum fasciculatum [10], [14]</li>
+                
+                    <li>Salvia mellifera - Eriogonum fasciculatum / Bromus rubens [5], [9], [13]</li>
+                
+                    <li>Salvia mellifera - Eriogonum fasciculatum var. foliolosum - Eriodictyon tomentosum [1]</li>
+                
+                    <li>Salvia mellifera - Malacothamnus fasciculatus [4]</li>
+                
+                    <li>Salvia mellifera - Opuntia littoralis - Rhus integrifolia [15], [16]</li>
+                
+                    <li>Salvia mellifera - Rhus ovata [4], [6]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Evens, J.M.;Klein, A.;Taylor, J.;Hickson, D.;Keeler-Wolf, T. 2006</li>
+		
+		<li>[2] Evens, J.;San, S. 2004</li>
+		
+		<li>[3] Evens, J.;San, S. 2005</li>
+		
+		<li>[4] Keeler-Wolf, T.;Evens, J. 2006</li>
+		
+		<li>[5] Kirkpatrick, J.B.;Hutchinson, C.F. 1977</li>
+		
+		<li>[6] Klein, A.;Evens, J. 2005</li>
+		
+		<li>[7] Malanson, G.P. 1984</li>
+		
+		<li>[8] Montalvo, A.M.;McMillan, P.A. 2002b</li>
+		
+		<li>[9] Kittel, G.;Reyes, E.;Evens, J.;Buck, J.;Johnson, D. 2012</li>
+		
+		<li>[10] Sproul, F.;Keeler-Wolf, T.;Gordon-Reedy, P.;Dunn, J.;Klein, A.;Harper, K. 2011</li>
+		
+		<li>[11] Verdone, L.;Evens, J. 2010</li>
+		
+		<li>[12] Buck-Diaz, J.;Evens, J. 2011a</li>
+		
+		<li>[13] Buck-Diaz, J.;Evens, J. 2011b</li>
+		
+		<li>[14] AECOM, 2013</li>
+		
+		<li>[15] Rodriguez, D.;Sikes, K.;Keeler-Wolf, T.;Kittel, G.;Curtis, J.;Curley, C.;Evens, J. 2017</li>
+		
+		<li>[16] Dixon, P. 2019</li>
+		
+		<li>[17] DeSimone, S.A.;Burk, J.H. 1992</li>
+		
+		<li>[18] Gordon, H.J.;White, T.C. 1994</li>
+		
+		<li>[19] Reyes, E.;Johnson, D.;Glass, A. 2019</li>
+		
+		<li>Axelrod, D.I. 1978</li>
+		
+		<li>Barbour, M.G. 1994a</li>
+		
+		<li>Barbour, M.G. 1994b</li>
+		
+		<li>Burk, J.H. 1977</li>
+		
+		<li>Gill, D.S.;Hanlon, B.J. 1998</li>
+		
+		<li>Haidinger, T.L.;Keeley, J.E. 1993</li>
+		
+		<li>Jones and Stokes Associates, 1993</li>
+		
+		<li>Keeley, J.E. 1988</li>
+		
+		<li>Keeley, J.E.;Fotheringham, C.J. 1998</li>
+		
+		<li>Mooney, H.A. 1977</li>
+		
+		<li>O'Leary, J.F. 1990</li>
+		
+		<li>O'Leary, J.F. 1995</li>
+		
+		<li>Pase, C.P.;Brown, D.E. 1982</li>
+		
+		<li>Rundel, P.W. 2007</li>
+		
+		<li>Stillwater Sciences and URS, 2007</li>
+		
+		<li>Westman, W.E. 1981a</li>
+		
+		<li>Westman, W.E. 1981b</li>
+		
+		<li>Westman, W.E. 1981c</li>
+		
+		<li>Westman, W.E. 1983</li>
+		
+		<li>White, S.D. 1994b</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/293/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

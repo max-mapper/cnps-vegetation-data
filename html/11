@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Acer negundo</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Acer</i> <i>negundo</i></span> Forest &amp; Woodland Alliance <br/>
+        <span class="subtitle">Box-elder forest and woodland</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Tree
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-600 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G5
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA, CO, ID, UT, WY (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2009/09/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/tree/acer-negundo_sacramentoriver_06-03.jpg', '/static/images/photos/tree/acer-negundo_prvt-land-canyonrd_06-2019_smat0205.jpg', '/static/images/photos/tree/acer-negundo_prvt-land-pescaderocreek_06-2019_smat0182.jpg', '/static/images/photos/tree/acer-negundo_henrycowellsp_06-04_01.jpg', '/static/images/photos/tree/acer-negundo_henrycowellsp_06-04_02.jpg', '/static/images/photos/tree/acer-negundo_gazos-cr_04-2021.jpg', '/static/images/photos/tree/acer-negundo_pescadero-cr_04-2021.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Acer</i> <i>negundo</i> is dominant or co-dominant in the tree canopy with <i>Alnus</i> <i>rhombifolia</i>, <i>Fraxinus</i> <i>latifolia</i>, <i>Juglans</i> <i>hindsii</i>, <i>Juglans</i> <i>hindsii</i> × <i>regia</i>, <i>Platanus</i> <i>racemosa</i>, <i>Populus</i> <i>fremontii</i>, <i>Populus</i> <i>trichocarpa</i>, <i>Quercus</i> <i>lobata</i>, <i>Salix</i> <i>gooddingii</i> and <i>Salix</i> spp. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text"> Trees < 20 m; cover is intermittent to continuous, and it may be two tiered. Shrub layer is open to intermittent. Herbaceous layer is sparse to abundant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Acer negundo</i> > 50% relative cover in the tree canopy (Stillwater Sciences 2001).</li>
+		
+		<li><i>Acer negundo</i> > 50% relative cover in the tree canopy, with <i>Fraxinus latifolia, Populus fremontii, Quercus lobata,</i> and <i>Salix gooddingii</i> at < 5% cover (Hickson and Keeler-Wolf 2007).</li>
+		
+		<li><i>Acer negundo</i> > 50% relative cover in the tree canopy, with other riparian plants (Buck-Diaz et al. 2021, Sikes et al. 2021).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Streams, bottomlands. Soils are deep alluvium. The USFWS Wetland Inventory (1996 national list) recognizes <i>Acer negundo</i> as a FACW plant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Acer negundo seasonally flooded forest alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Fremont cottonwood
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>North Coast riparian forests, Central Coast riparian forest, Great Valley mixed riparian forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Fresh emergent wetland, Valley foothill riparian
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>61.440.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Tree Vegetation (Forest and Woodland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate Flooded and Swamp Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North America Warm Temperate Flooded and Swamp Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Southwestern North American Riparian, Flooded and Swamp Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Southwestern North American riparian evergreen and deciduous woodland
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Acer negundo </i>is a deciduous hardwood that grows to 20 m in height and lives 60 years or more. Its short-lived seeds are dispersed by heavy, double-winged fruits. Seeds germinate during the following winter on various seedbeds. Shaded seedlings usually die, but they grow fast in forest openings. <i>A. negundo </i>is a very wide-ranging species in Northern and Central America, represented by 6 varieties (Rosario 1988); var. <i>californicum </i>occurs at low elevations in northern California. <br/>
+<br/>
+The alliance is mainly limited in California to riparian zones of the major streams and rivers that are regularly flooded. Individual trees often occur as an understory component in stands of <i>Populus fremontii, Quercus lobata, </i>and <i>Salix gooddingii </i>alliances. <i>A. negundo </i>stands may result from removal of the overstory trees in stands of those alliances. The <i>Acer negundo </i>alliance is rare in the state, where small stands form and sometimes are monospecific. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Acer negundo</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Tree; winter deciduous</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Unknown</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; wind</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Unknown</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Underground structures (exposed roots, root crown, or stump)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-sensitive; thin epidermis</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>Unknown</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>60+ years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>High</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Unknown</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text"><i>Acer negundo </i>is top-killed by low and moderate intensity fire; plants sprout vigorously, but fluvial processes primarily disturb stands. Fire frequency and character are associated with neighboring upland alliances.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+            <p><i>Acer negundo</i> occurs in riparian areas throughout coastal California and the Great Valley.</p>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Ae-f, Ah). Stands observed along the San Lorenzo River and other areas of the Santa Cruz Mountains are small (Sikes et al. 2021).</li>
+        
+            <li><b>Great Valley</b> (262Aa-d, Af-i, Ak-u, Aw). Stands of <i>Acer negundo</i> are typically small and rare in the section. <i>A. negundo</i> is a common associate in <i>Populus fremontii</i> stands along the Sacramento River (Vaghti 2003, Vaghti and Greco 2007). Stands in the Sacramento-San Joaquin River delta study are small, with mapping of 10 stands covering 14 ha (Hickson and Keeler-Wolf 2007). Small stands occur along the lower Merced River where 38 stands were mapped in just over 8 ha (Stillwater Sciences 2001, Stella et al. 2003). Small stands also occur in the lower Tuolumne River, where 148 stands were mapped in 45 ha (McBain and Trush Inc. 2000).</li>
+        
+            <li><b>Northern California Coast</b> (263Ag, Aj, Al-m). Small stands occur in Marin (Buck-Diaz et al. 2021), Sonoma (Klein et al. 2015) and Napa counties.</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Bb). Stands observed along the Russian River in Sonoma Co. (Klein et al. 2015) and in Little Lake Valley north of Willits in Mendocino Co. are small.</li>
+        
+            <li><b>Northern California Interior Coast Ranges</b> (M261Cb). Stands occur along some of the larger tributaries to the Sacramento River in this section.</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fa-b). No description available</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Vaghti and Greco (2007) considered <i>Acer negundo </i>as a late seral species in the Sacramento River along with <i>Fraxinus latifolia, Juglans hindsii </i>and hybrids, and <i>Quercus lobata</i>. These trees have established in openings or along forest edges, and they have increased in forest understories of many riparian stands since botanical records of the early 1900s. These trends appear to correlate contrarily with extreme flooding events, which are now rare because of the construction of regulatory dams on the Sacramento River and its tributaries. 
+
+<i>Acer negundo </i>is susceptible to fire, mechanical damage, and pathogens because of its thin bark. Both rot-causing fungi known as verticillium wilt (Overton 1999) and box elder bugs (Rosario 1988) impact this fast growing tree. <i>A. negundo </i>is generally considered flood-tolerant, although tolerance is age-dependent with adult trees better able to withstand prolonged inundation than seedlings or saplings. In riparian habitats, mortality from scour or inundation caused by high flows typically limits the streamward distribution of this species (Friedman and Auble 1999). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Acer negundo / (Rubus ursinus) [2], [3], [4]</li>
+                
+                    <li>Acer negundo - Salix gooddingii [1], [2]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Hickson, D.;Keeler-Wolf, T. 2007</li>
+		
+		<li>[2] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>[3] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>[4] Sikes, K.;Buck-Diaz, J.;Evens, J. 2021</li>
+		
+		<li>Friedman, J.M.;Auble, G.T. 1999</li>
+		
+		<li>Hosner, J.F. 1960</li>
+		
+		<li>Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>Maeglin, R.R.;Ohmann, L.F. 1973</li>
+		
+		<li>Overton, R.P. 1990</li>
+		
+		<li>Rosario, L.C. 1988</li>
+		
+		<li>Vaghti, M.G. 2003</li>
+		
+		<li>Vaghti, M. ;Greco, S. 2007</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/11/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

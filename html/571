@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Quercus lobata Riparian</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Quercus</i> <i>lobata</i> Riparian</span> Forest &amp; Woodland Alliance <br/>
+        <span class="subtitle">Valley oak riparian forest and woodland</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Tree
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-1250 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G3
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA (NatureServe) (FEIS)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>Yes
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>Yes
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2021/08/30
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/tree/quercus%20lobata_delta_06-05.jpg', '/static/images/photos/tree/quercus-lobata_alnus-rhombifolia_lindseysl_08-05.jpg', '/static/images/photos/tree/quercus-lobata_cosumnes_06-94.jpg', '/static/images/photos/tree/quercus-lobata_cosumnes_1994.jpg', '/static/images/photos/tree/quercus-lobata_napaco_05-02_01.jpg', '/static/images/photos/tree/quercus-lobata_oldriversanjoaquinriver_06-05_01.jpg', '/static/images/photos/tree/quercus-lobata_oldriversanjoaquinriver_06-05_02.jpg', '/static/images/photos/tree/quercus-lobata_oldriversanjoaquinriver_06-05_04.jpg', '/static/images/photos/tree/quercus-lobata_oldrivesanjoaquinriver_06-05_03.jpg', '/static/images/photos/tree/quercus-lobata_redding_1994_01.jpg', '/static/images/photos/tree/quercus-lobata_shastaco_04-94_01.jpg', '/static/images/photos/tree/quercus-lobata_wagoncaves_04-05_03.jpg', '/static/images/photos/tree/quercus-lobata_wagoncaves_04-05_04.jpg', '/static/images/photos/tree/quercus-lobata_woodsonbr_11-92_01.jpg', '/static/images/photos/tree/quercus-lobata_woodsonbr_11-92_02.jpg', '/static/images/photos/tree/quercus-lobata_woodsonbr_11-92_03.jpg', '/static/images/photos/tree/quercus-lobata_yoloco_05-03_01.jpg', '/static/images/photos/tree/quercus-lobata_yoloco_05-03_02.jpg', '/static/images/photos/tree/quercus_lobata_riparian_marin155_08_2018_marincoparks.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Quercus</i> <i>lobata</i> is dominant to co-dominant in the tree canopy with <i>Acer</i> <i>negundo</i>, <i>Alnus</i> <i>rhombifolia</i>, <i>Fraxinus</i> <i>latifolia</i>, <i>Quercus</i> <i>chrysolepis</i>, <i>Quercus</i> <i>wislizeni</i>, <i>Salix</i> <i>gooddingii</i>, <i>Salix</i> <i>laevigata</i> and/or <i>Salix</i> <i>lasiolepis</i>. The understory is characterized by riparian species including <i>Aristolochia</i> <i>californica</i>, <i>Carex</i> <i>barbarae</i>, <i>Rhus</i> <i>trilobata</i>, <i>Rosa</i> <i>californica</i>, <i>Rubus</i> <i>armeniacus</i>, <i>Rubus</i> <i>ursinus</i> and <i>Vitis</i> <i>californica</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text"> Trees < 30 m tall; canopy is open (greater than 10%) to continuous, or savanna-like (less than 10%, but evenly distributed). Shrub layer is open to continuous. Herbaceous layer may be grassy. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Quercus lobata</i> > 35% relative cover in the tree canopy with <i>Acer negundo, Alnus rhombifolia, Fraxinus latifolia, Populus fremontii,</i> or <i>Platanus racemosa</i> present (Hickson and Keeler-Wolf 2007).</li>
+		
+		<li><i>Quercus lobata</i> > 30% relative cover in the tree canopy with <i>Alnus rhombifolia, Fraxinus latifolia, </i> or <i>Salix lasiolepis</i> present (Klein et al. 2015, Ratchford et al. 2022a).</li>
+		
+		<li><i>Quercus lobata</i> > 50% relative cover in the tree canopy, or > 30% relative cover with <i>Fraxinus latifolia, Salix lasiolepis</i> and/or <i>Umbellularia californica</i> in a riparian habitat (Buck-Diaz et al. 2021).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Valley bottoms, floodplains, creeks, and stream terraces that have seasonally saturated soils and may be intermittently flooded. Soils are alluvial or residual. The USACE Wetland Inventory (2018 national list) recognizes <i>Quercus lobata</i> as a FACU plant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Valley oak series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Quercus lobata woodland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Valley oak
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Great Valley valley oak riparian forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Northern oak woodland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Valley oak woodland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>71.045.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Tree Vegetation (Forest and Woodland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate Flooded and Swamp Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North America Warm Temperate Flooded and Swamp Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Southwestern North American Riparian, Flooded and Swamp Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Southwestern North American riparian evergreen and deciduous woodland
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Quercus lobata </i>is a large, deciduous oak that attains a height of 30 m and an age of 500 years. Recruitment from acorn seed is little in many areas as a result of both natural and human causes. Birds and small mammals disperse and cache the acorns. Germination can occur as soon at the acorns fall. Roots penetrate moist soil rapidly, and survival is high under the partial shade. Buried seeds have a greater chance of germination and successful establishment, as acorn predation and desiccation are usually high. <i>Q. lobata </i>is intermediate in shade tolerance, but has a high degree of tolerance to flood and drought (Howard 1992l). <br/>
+<br/>
+ <i>Quercus lobata </i>is endemic to California, and stands vary from open savannas to closed-canopy forests (Allen-Diaz et al. 2007). Riparian and upland forests of <i>Q. lobata </i>occur in the deep, rich soil typical of floodplains and valley floors. This alliance represents the riparian expressions of <i>Quercus lobata </i> stands. Riparian stands typically exist on higher portions of the floodplain than do stands of <i>Populus fremontii </i>and willows (Holstein 1984, Vaghti and Greco 2007). What remains of these forests are only remnants of what once existed in the Central Valley, other valleys, and foothill locations in California (Allen-Diaz et al. 2007). Many stands have have experienced heavy grazing or other disturbances that alter the hydrological regimes. Other riparian species in the these disturbed stands may be absent (Ratchford et al. 2021a).<br/>
+<br/>
+Upland and riparian expressions of  <i>Q. lobata</i> stands were previously combined in a single alliance in <i>A Manual of California Vegetation, Second Edition </i>(2009). Riparian and upland stands of <i>Q. lobata</i> have now been split into this <i>Q. lobata</i>  Riparian alliance and the upland <i>Q. lobata</i> alliance respectively. This alliance split follows the revised National Vegetation Classification's recognition of riparian groups separately from upland groups (NatureServe 2020). </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Quercus lobata</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Tree; winter deciduous</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil; transient</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; gravity</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Buds on large branches or trunks; underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; thick epidermis; high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>10-500 years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>High</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Literature describing post-fire natural regeneration and long-term fire recovery of <i>Quercus lobata </i>woodlands is minimal. Stands probably burned frequently and hot, with dry grasses and oak litter carrying surface fires. Larger mature trees are usually resistant to moderate-severity fire because of their thick bark. While seedlings and saplings are top-killed by such fire, juveniles sprout from root crowns. However, older mature trees that are top-killed do not have this same ability. Animals such as scrub jays also facilitate regeneration of <i>Q. lobata, </i>because they prefer burned areas as acorn-caching sites, and buried acorns usually survive fire (Howard 1992l, Wills 2006). Hot surface fires may kill large trees that have extensive internal rot, and such fires usually kill small trees. Crown fires will kill a large number of valley oak of all size classes (Howard 1992l).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Short to medium (5-100+ years)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Summer-early fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Medium to large; up to or beyond stand size
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low to moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Low to moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Low to moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Surface-passive crown
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Sierra Nevada and foothills, southwestern California
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Aa, Ae-h, Aj). Stands exist in Santa Clara Co. (Evens and San 2004), and generally in the section (Allen et al. 1989, 1991).</li>
+        
+            <li><b>Central California Coast Ranges</b> (M262Ac-f, Ah). Stands occupy valley bottom settings in the Santa Lucia Mountains (Allen et al. 1989, 1991, Griffin 1977), Pinnacles National Monument (Kittel et al. 2012), and generally in the section (Allen et al. 1989, 1991).</li>
+        
+            <li><b>Great Valley</b> (262Aa-j, Al-u). Early explorers in California noted <i>Quercus lobata</i> as dense forest and woodlands ranging over 3 km away from the main stem of the Sacramento River in the mid-1800s (Anderson 2005). Riparian stands occur at the Boblaine Audubon Sanctuary (Knudsen 1987), along the Cosumnes River (Robichaux 1980), along the Sacramento River (Vaghti 2003), in the Sacramento-San Joaquin River delta (Hickson and Keeler-Wolf 2007), and generally in the section (Buck et al. 2012).</li>
+        
+            <li><b>Klamath Mountains</b> (M261Ai). Small stands occur at low elevations on alluvium (Sawyer 2007) such as in the Sacramento River drainage, just downstream from Shasta Lake. Most are along upper river terraces.</li>
+        
+            <li><b>Northern California Coast</b> (263Ag, Aj, Al-m). Stands occur in riparian sites, usually adjacent to other oak alliances in Marin Co. (Buck-Diaz et al. 2021) and Sonoma Co. (Klein et al. 2015).</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Bb, Be-f). Stands exist scattered in the section, including in valley bottoms and streamsides.</li>
+        
+            <li><b>Northern California Interior Coast Ranges</b> (M261Ca-c). Stands occupy riparian benches and terraces along many of the major creeks in the section (Allen et al. 1989, 1991).</li>
+        
+            <li><b>Sierra Nevada</b> (M261Eg, Es). Stands occur to 1500 m elevation in the Tehachapi Mountains near Kernville and the town of Tehachapi, found in larger river valleys and in structural valleys of the western portion of the range.</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fa-e). Riparian stands of <i>Q. lobata</i> exist in the section (Allen et al. 1989, 1991, Klein et al. 2007).</li>
+        
+            <li><b>Southern California Coast</b> (261Be-f). Bottomland stands occur in the Santa Monica Mountains (Thomas 1987, Keeler-Wolf and Evens 2006).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Anderson (2005) estimated that approximately 90% of <i>Quercus lobata </i>stands that existed prior to European contact have been destroyed by urbanization and intensive land conversion. Modified water patterns and non-native plants have affected most remaining stands. Problems facing managers include lack of sapling recruitment, loss of mature trees because of lowered water tables, and saline irrigation runoff. Mature trees are sensitive to overwatering, pruning, grade changes, and asphalt covering their root systems. Feral pigs cause considerable damage (Howard 1992l). Recent efforts at restoring riparian stands along the Sacramento River have experienced great variation in <i>Q. lobata </i>growth and survivorship (Griggs and Golet 2002). The California Oak Foundation (http://www.californiaoaks.org/), Oak Woodlands Conservation Program (http://www.wcb. ca.gov/Pages/oak_woodlands_Act.asp) and others promote preservation and restoration (Griggs and Golet 2002). Restorationists have seen feasibility in establishing native oaks with the aid of weed control and irrigation (Alpert et al. 1999). 
+
+As a result of fire exclusion, valley oak woodlands frequently contain an understory of shrubs, evergreen oaks, and conifer saplings and trees, and a deep litter of oak leaves, needles, and downed woody debris. Prescribed burning in non-drought years could increase oak abundance. More regular fires could reduce or eliminate invasion by evergreen oaks and conifers and open up sites for valley oak seedling establishment or oak sprouting. However, the threat of severe fire in oak stands has increased greatly where valley oak woodlands border conifer forests. Also, deeply fire-scarred trees are susceptible to various heart-rot fungi and to wind throw (Howard 1992l). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+                <p>Stands with a Mixed Tree Canopy</p>
+            
+            <ul class="text">
+                
+                    <li>Quercus lobata - Quercus chrysolepis / Vitis californica [5]</li>
+                
+            </ul>
+        
+            
+                <p>Stands with a Mixed Tree Layer</p>
+            
+            <ul class="text">
+                
+                    <li>Quercus lobata - Alnus rhombifolia [1], [3], [5]</li>
+                
+                    <li>Quercus lobata - Fraxinus latifolia / Vitis californica [1], [2], [3], [8]</li>
+                
+                    <li>Quercus lobata - Quercus wislizeni [1], [5]</li>
+                
+                    <li>Quercus lobata - Salix lasiolepis [1], [3], [4], [7], [8]</li>
+                
+            </ul>
+        
+            
+                <p>Stands with a Simple Tree Layer</p>
+            
+            <ul class="text">
+                
+                    <li>Quercus lobata / Carex barbarae [1], [3], [6]</li>
+                
+                    <li>Quercus lobata / herbaceous semi-riparian [1], [5]</li>
+                
+                    <li>Quercus lobata / Rubus armeniacus [1], [3], [5]</li>
+                
+                    <li>Quercus lobata / Rubus ursinus - Rosa californica [1], [2], [3], [8]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>[2] Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>[3] Hickson, D.;Keeler-Wolf, T. 2007</li>
+		
+		<li>[4] Keeler-Wolf, T.;Evens, J. 2006</li>
+		
+		<li>[5] Klein, A.;Crawford, J.;Evens, J.;Keeler-Wolf, T.;Hickson, D. 2007</li>
+		
+		<li>[6] Vaghti, M.G. 2003</li>
+		
+		<li>[7] Evens, J.;San, S. 2004</li>
+		
+		<li>[8] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>Allen, B.H.;Evett, R.R. ;Holzman, B.A.;Martin, A.J. 1989</li>
+		
+		<li>Allen, B.H.;Holzman, B.A.;Evett, R.R. 1991</li>
+		
+		<li>Allen-Diaz, B.H.;Standiford, R.;Jackson, R.D. 2007</li>
+		
+		<li>Alpert, P.;Griggs, F.T.;Peterson, D.R. 1999</li>
+		
+		<li>Anderson, M.K. 2005</li>
+		
+		<li>Berman, J.T.;Bledsoe, C.S. 1998</li>
+		
+		<li>Bernhardt, E.A.;Swiecki, T.J. 1997</li>
+		
+		<li>Danielsen, K.C.;Halvorson, W.L. 1990</li>
+		
+		<li>Gaman, T.;Casey, K. 2002</li>
+		
+		<li>Griffin, J.R. 1973</li>
+		
+		<li>Griffin, J.R. 1977</li>
+		
+		<li>Griggs, F.T. 1990</li>
+		
+		<li>Griggs, F.T.;Golet, G.H. 2002</li>
+		
+		<li>Holstein, G. 1984</li>
+		
+		<li>Howard, J.L. 1992l</li>
+		
+		<li>Kittel, G.;Reyes, E.;Evens, J.;Buck, J.;Johnson, D. 2012</li>
+		
+		<li>Knudsen, M.D. 1987</li>
+		
+		<li>Koenig, W.D.;Knops, J.M. 1997</li>
+		
+		<li>Koenig, W.D.;Knops, J.M.;Carmen, W.J. 2002</li>
+		
+		<li>Meyer, V.C. 2002</li>
+		
+		<li>NatureServe, 2014+</li>
+		
+		<li>Pavlik, B.M.;Muick, P.C.;Johnson, S.G.;Popper, M. 1991</li>
+		
+		<li>Ratchford, J.;Boul, R.;Keeler-Wolf, T.;Evens, J. 2022a (in progress)</li>
+		
+		<li>Robichaux, R. 1980</li>
+		
+		<li>Sawyer, J.O. 2007</li>
+		
+		<li>Thomas, T.W. 1987</li>
+		
+		<li>Thompson, K. 1961</li>
+		
+		<li>Tyler, C.M.;Mahall, B.E.;Davis, F.W.;Hall, M. 2002</li>
+		
+		<li>Vaghti, M. ;Greco, S. 2007</li>
+		
+		<li>Warner, R.E.;Hendrix, K.M. 1984</li>
+		
+		<li>Wills, R. 2006</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/571/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Amelanchier utahensis - Cercocarpus montanus - Cercocarpus intricatus</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Amelanchier</i> <i>utahensis</i> - <i>Cercocarpus</i> <i>montanus</i> - <i>Cercocarpus</i> <i>intricatus</i></span> Shrubland Alliance <br/>
+        <span class="subtitle">Utah serviceberry - birch leaf mountain mahogany - small leaf mountain mahogany scrub</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>500-3050 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G4
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: AZ, CA, CO, NM, NV, UT, WY (USDA Plants)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2009/09/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/cercocarpus-intricatus_calcareousinyomtns_05-00.jpg', '/static/images/photos/shrub/cercocarpus-intricatus_inyomtnd_05-00_01.jpg', '/static/images/photos/shrub/cercocarpus-intricatus_inyomtnd_05-00_02.jpg', '/static/images/photos/shrub/cercocarpus-intricatus_inyomtnd_05-00_03.jpg', '/static/images/photos/shrub/cercocarpus-intricatus_aguereberryptdvnp_10-99.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Amelanchier</i> <i>utahensis</i>, <i>Cercocarpus</i> <i>intricatus</i>, <i>Cercocarpus</i> <i>montanus</i> or <i>Philadelphus</i> <i>microphyllus</i> is dominant or co-dominant in the shrub canopy with <i>Amelanchier</i> <i>alnifolia</i>, <i>Arctostaphylos</i> <i>patula</i>, <i>Artemisia</i> <i>nova</i>, <i>Artemisia</i> <i>tridentata</i>, <i>Chrysothamnus</i> <i>viscidiflorus</i>, <i>Ephedra</i> <i>viridis</i>, <i>Glossopetalon</i> <i>spinescens</i>, <i>Prunus</i> <i>virginiana</i> and/or <i>Purshia</i> <i>tridentata</i>. Emergent trees may be present at low cover, including <i>Juniperus</i> <i>occidentalis</i>, <i>Juniperus</i> <i>osteosperma</i>, <i>Pinus</i> <i>longaeva</i> or <i>Pinus</i> <i>monophylla</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 3 m; canopy is sparse to intermittent. Herbaceous layer is sparse. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Cercocarpus intricatus</i> > 55% relative cover in the shrub canopy (Thomas et al. 2004).</li>
+		
+		<li><i>Amelanchier utahensis</i> or <i>Cercocarpus montanus</i> > 50% relative cover in the shrub canopy (Boul et al. 2021b).</li>
+		
+		<li><i>Cercocarpus intricatus</i> or <i>Philadelphus microphyllus</i> is > 30% relative cover in the shrub layer (Reyes et al. 2020a).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Xeric mountain ridges, rocky outcrops, and steep upper slopes. Soils are skeletal and often calcareous or volcanic.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Curl leaf mountain mahogany series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Cercocarpus intricatus montane shrubland alliance, Amelanchier utahensis shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Littleleaf mountain mahogany, Great Basin mixed scrub, Lower montane mixed chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Great Basin scrub, Mojavean piñon and juniper woodlands
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Pinyon-juniper woodland, Sagebrush scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Montane chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>76.300.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Xeromorphic Scrub and Herb Vegetation (Semi-Desert)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Cool Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Cool Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North American Cool Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Inter-Mountain Dry Shrubland and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Intermountain shallow/calcareous soil scrub
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Amelanchier utahensis </i>is a multi-branched, deciduous shrub from 2 to 4 m in height. Its fruits are purplish berry-like pomes. It can be a prolific seeder especially in years of good moisture. Historically, it was considered a variety of <i>A. alnifolia </i> (Zlatnik 1999e). Similar to other taxa of this alliance, it grows on open rocky slopes and frequently occurs in the understory of many other alliances.<br/>
+<br/>
+<i>Cercocarpus intricatus </i>is a long-lived, intricately branched, tall shrub that grows up to 3 m in height. It is characteristic of nutrient- and water-deficient, mountainous desert environments in the Great Basin. Little is known about its reproductive biology, though it is likely similar to <i>C. ledifolius</i>. It mainly reproduces by seed and is a sporadic producer (Kitchen 2002).  Some references consider this taxon to be a variety of <i>C. ledifolius</i> (Jepson Flora Project, 2019).<br/>
+<br/>
+<i>Cercocarpus intricatus </i>has a narrow distribution in California. It locally dominates, often as the sole shrub, on calcareous rock outcrops with soil in the northern Mojave Desert and southeastern Great Basin. The environment is usually significantly warmer and drier than that of <i>C. ledifolius </i>stands. <i>C. intricatus </i>usually occurs in the low sagebrush belt, the <i>Pinus monophylla </i>belt, and rarely near or at timberline. Hybrid plants of these two <i>Cercocarpus </i> species occur between 2750 and 3050 m in a zone between the <i>P. monophylla </i>woodlands and subalpine forests of <i>P. flexilis </i>and <i>P. longaeva </i>(Brayton and Mooney 1966).<br/>
+<br/>
+<i>Cercocarpus montanus </i>is a long-lived shrub or small tree that grows up to 8 m in height. In fruit, the styles expand with silvery, plumose hairs and seeds are wind dispersed. Most California references use the names <i>C. betuloides </i>and <i>C. minutiflorus </i>for this species and its varieties.  Stands outside the Modoc Plateau region are ascribed to the <i>Cercocarpus montanus </i>Alliance.<br/>
+<br/>
+<i>Philadelphus microphyllus </i>is an erect, multi-stemmed deciduous shrub that can grow from 0.9 to 3 m in height. It is found on rocky slopes, cliffs, and within pinyon/juniper woodlands. Its seeds are gravity and wind dispersed. Morphological variability in <i>Philadelphus microphyllus </i>has resulted in past complexities with synonymy (Bonner and Karrfalt 2008). Currently only <i>Philadelphus microphyllus </i>is recognized by USDA PLANTS (2020) and the Jepson Flora Project (2019), though many subspecies and varieties have been described in the past. Like other associations within this alliance, stands of <i>Philadelphus microphyllus </i> are found along xeric, calcareous mountain ridges and rocky slopes, thus vegetation stands dominated by this species have been provisionally placed within this alliance. Further sampling of this type is necessary to resolve its placement. <br/>
+<br/>
+This alliance has been expanded from the <i>Cercocarpus intricatus </i>Alliance that was cited in the 2009 publication <i>A Manual of California Vegetation, Second Edition</i> to include stands of <i>Amelanchier utahensis </i>, <i>Philadelphus microphyllus, </i>and <i>Cercocarpus montanus </i> that occur on the Modoc Plateau and other areas of transmontane California. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Amelanchier utahensis</th>
+			
+		
+			
+			<th>Cercocarpus intricatus</th>
+			
+		
+			
+			<th>Cercocarpus montanus</th>
+			
+		
+			
+			<th>Philadelphus microphyllus</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Shrub; winter deciduous</td>
+			
+		
+			
+			<td>Shrub</td>
+			
+		
+			
+			<td>Shrub; evergreen</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td>Transient</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Long</td>
+			
+		
+			
+			<td>Medium?</td>
+			
+		
+			
+			<td>Short</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal</td>
+			
+		
+			
+			<td>Wind</td>
+			
+		
+			
+			<td>Animal; wind</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Stratification—winter</td>
+			
+		
+			
+			<td>Stratification—winter</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Underground structures (root crown)</td>
+			
+		
+			
+			<td>None (or weak sprouting)</td>
+			
+		
+			
+			<td>Underground structures (root crown)</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-sensitive; low-moderate sprouter</td>
+			
+		
+			
+			<td>Fire-sensitive</td>
+			
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>8 years to life of plant; long-lived</td>
+			
+		
+			
+			<td>10 (30) years to life of plant; long-lived </td>
+			
+		
+			
+			<td>5-100+ years</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Episodic</td>
+			
+		
+			
+			<td>Episodic (sporadic producer)</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Moderate</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>High</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">################</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Modoc Plateau</b> (M261Gj-k). Stands of <i>Amelanchier utahensis</i> have been sampled at the top of Hermit Butte (M261Gk) and stands of <i>Cercocarpus montanus </i>have been sampled in Silva Flat (M261Gj) (Boul et al. 2021b).</li>
+        
+            <li><b>Mojave Desert</b> (322Aj). Sparse stands of <i>Cercocarpus intricatus</i> have been sampled in Mojave National Preserve at Clark Mountain (Evens et al. 2014).</li>
+        
+            <li><b>Mono</b> (341Dj). Stands of <i>Cercocarpus intricatus</i> and <i>Philadelphus microphyllus</i> occur at Wyman Canyon and Silver Canyon in the White Mountains (Brayton and Mooney 1966). Stands are found primarily on steep, rocky canyon walls and outcrops along creeks feeding into Deep Springs Valley (Reyes et al. 2020a).</li>
+        
+            <li><b>Sierra Nevada</b> (M261Ei). One stand of <i>Amelanchier utahensis</i> has been sampled on a northeast facing slope at the northwest corner of Sierra Valley (Ratchford et al 2021b, in progress).</li>
+        
+            <li><b>Southeastern Great Basin</b> (341Fb-d, Ff). Stands of <i>Cercocarpus intricatus</i> at Whippoorwill Flat RNA (Keeler-Wolf 1990d) in the Inyo Mountains are similar to those scattered on calcareous outcrops in the Cottonwood, Last Chance, Panamint, and other large ranges in the section (Thomas et al. 2004). Other stands of <i>Philadelphus microphyllus </i>occur sporadically in the section including near Cerro Gordo Mine on steep calcareous cliffs.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> <i>Cercocarpus intricatus </i>provides cover for wild animals and forage for wild ungulates and domesticated animals in rugged and remote terrain. The species may possess nitrogen-fixing roots similar to its close relatives, though seedling and shrub growth rates are slow (Kitchen 2002).
+
+<i>Amelanchier utahensis </i>provides forage for wildlife and ungulates, including domesticated animals. Its berries are preferred fruit for small mammals and birds, including sage grouse. It can be used for erosion control in revegetation projects, though establishment may be slow (Zlatnick 1999e).
+
+Fires occurring at short intervals have the potential to cause significant changes in species composition and deplete seed banks. <i>Cercocarpus montanus </i>is valuable browse in much of the state, but excessive browsing kills branches (Uchytil 1991b). Stands on steep, rocky slopes are not as threatened by unnaturally high fire frequency as those in other sites with more fuel buildup.
+
+<i>Philadelphus microphyllus </i>can resprout after fire and has been useful in revegetation efforts on steep, rocky slopes after disturbance (Monsen et al. 2004). This species is known to provide forage and cover for wildlife, including deer, and less commonly by livestock (Bonner and Karrfalt 2008, USDA Forest Service 1937). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Amelanchier utahensis [3]</li>
+                
+                    <li>Cercocarpus intricatus [1], [2]</li>
+                
+                    <li>Cercocarpus intricatus - Glossopetalon spinescens [2]</li>
+                
+                    <li>Cercocarpus montanus / Pseudoroegneria spicata [3]</li>
+                
+                    <li>Philadelphus microphyllus [4]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Thomas, K.;Franklin, J.;Keeler-Wolf, T.;Stine, P. 2004</li>
+		
+		<li>[2] Evens, J.M.;Sikes, K.;Hastings, D.;Ratchford,J.S. 2014</li>
+		
+		<li>[3] Boul, R.;Keeler-Wolf, T.;Ratchford, J.;Haynes, T.;Hickson, D.;Yacoub, R.;Harbert, B.;Evens, J. 2021b</li>
+		
+		<li>[4] Reyes, E.;Evens, J.;Glass, A.;Sikes, K.;Keeler-Wolf., T.;Winitsky, S.;Johnson, D.;Menke, J.;Hepburn, A. 2020a</li>
+		
+		<li>Bonner, F.T.;Karrfalt, R.P. 2008</li>
+		
+		<li>Brayton, R.;Mooney, H.A. 1966</li>
+		
+		<li>Cogan, D.;Reid, M.;Schulz, M.;Pucherelli, M. 2004</li>
+		
+		<li>Imper, D.K. 1991b</li>
+		
+		<li>Keeler-Wolf, T. 1990b</li>
+		
+		<li>Kitchen, S.G. 2002</li>
+		
+		<li>Monsen, S.B.;Stevens, R.;Shaw, L.;;compilers 2004</li>
+		
+		<li>Noller, G.L. 2008</li>
+		
+		<li>Sawyer, J.O.;Keeler-Wolf, T.;Evens, J.M. 2009</li>
+		
+		<li>Shaw, N. L.; Hurd, G. E.; Stickney, P. F. 2008</li>
+		
+		<li>USDA Forest Service (USFS), 1937</li>
+		
+		<li>Zlatnik, E. 1999e</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/173/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Arctostaphylos montereyensis</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+	<div class="allianceHeader">
+		<span class="scientificName"><i>Arctostaphylos</i> <i>montereyensis</i></span> Provisional Shrubland Alliance <br/>
+		<span class="subtitle">Monterey manzanita chaparral</span>
+	</div>
+
+	<div class="mainAllianceInfo">
+
+		<div class="allianceSideInfo">
+			<div class="quickInfoList">
+				<h4>Summary Information</h4>
+				<ul>
+					<li>
+						<span class="category">Primary Life Form</span>Shrub
+					</li>
+					<li>
+						<span class="category">Elevation</span>30-350 m
+					</li>
+					<li>
+						<span class="category">State Rarity</span>S1
+					</li>
+					<li>
+						<span class="category">Global Rarity</span>G1
+					</li>
+					<li>
+						<span class="category">Distribution</span>USA: CA (NatureServe) (Calflora)
+					</li>
+                    <li>
+                        <span class="category">Endemic to California</span>Yes
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>Yes
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2009/09/01
+                    </li>
+				</ul>
+			</div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/arctostaphylos-montereyensis_ftord001_09-07.jpg']
+            </script>
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+		</div>
+
+		
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Arctostaphylos</i> <i>montereyensis</i> is dominant or co-dominant in the shrub canopy with <i>Adenostoma</i> <i>fasciculatum</i>, <i>Arctostaphylos</i> <i>crustacea</i> ssp. <i>crinita</i>, <i>Arctostaphylos</i> <i>tomentosa</i> ssp. <i>tomentosa</i>, <i>Artemisia</i> <i>californica</i>, <i>Ceanothus</i> <i>cuneatus</i> var. <i>rigidus</i>, <i>Diplacus</i> <i>aurantiacus</i>, <i>Frangula</i> <i>californica</i>, <i>Garrya</i> <i>fremontii</i>, <i>Heteromeles</i> <i>arbutifolia</i> and <i>Salvia</i> <i>mellifera</i>. Emergent trees may be present at low cover, including <i>Quercus</i> <i>agrifolia</i>. </div>
+</div>
+
+		
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 3 m; canopy is intermittent to continuous. Herbaceous layer is sparse. </div>
+</div>
+
+		
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Sandstone outcrops, mesas, slopes. Soils are thin to deep, excessively drained, loams derived from old sand dunes and soft weathered sandstones.  </div>
+</div>
+
+		
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance, and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Woolly leaf manzanita series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Arctostaphylos tomentosa shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Manzanita chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Central maritime chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Mixed chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>37.314.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+	</div>
+
+
+	<!-- collapsable content below -->
+
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Arctostaphylos montereyensis </i>is a long-lived manzanita that lacks a lignotuber and is an obligate seeder. Seeds germinate after fire from heat scarification, and seedling establishment is abundant after fires. Shrubs gain dominance with time and create a closed shrub canopy that adds to the seed bank. Stands require periodic fire to maintain current species composition. Infrequent fire results in tree encroachment and decline in shrub vigor and seed bank quality, while frequent fire tends to convert stands to coastal scrub or grassland. Greenlee and Langenheim (1990) and Van Dyke et al. (2001) consider the historic fire cycle to be between 10 and 100 years, though fire return intervals are likely > 30 years to maintain stands. <br/>
+<br/>
+Stands dominated by <i>Arcostaphylos montereyensis </i>(a CNPS list 1B plant) contain several other rare and federally listed taxa. <i>A. hookeri </i>ssp. <i>hookeri, A. pajaroensis, Ericameria fasciculata, </i>and <i>Piperia yadonii </i>are CNPS list 1B plants; <i>Ceanothus cuneatus </i>var. <i>rigidus </i>is a CNPS list 4 plant. <i>Chorizanthe pungens </i>var. <i>pungens </i>is federally listed as threatened, and <i>P. yadonii </i>is listed as endangered. This alliance is a component of the maritime chaparral (see maritime chaparral discussion in the Changes Since the First Edition section). </div>
+</div>
+
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Observations</h4>
+	<div class="text"> Stands occur in the Central California Coast (261B) on Bureau of Land Management lands at Fort Ord Military Reservation, at Jacks Peak and Toro county parks, and at nearby areas. Further study will determine the differences between this and other maritime chaparral alliances, especially the <i>Arctostaphylos</i> (<i>crustacea, tomentosa</i>) alliance. </div>
+</div>
+
+	
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>Griffin, J.R. 1978</li>
+		
+		<li>Van Dyke, E.;Holl, K.D.;Griffin, J.R. 2001</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+	<script src="/static/javascript/alliance_page.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

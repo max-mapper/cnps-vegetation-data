@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Chilopsis linearis - Psorothamnus spinosus</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Chilopsis</i> <i>linearis</i> - <i>Psorothamnus</i> <i>spinosus</i></span> Woodland Alliance <br/>
+        <span class="subtitle">Desert-willow - smoketree wash woodland</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Tree
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-1200 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G4
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: AZ, CA, NM, NV, TX. Mexico (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2017/01/25
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/tree/chilopsis-linearis_kanewash_04-99_01.jpg', '/static/images/photos/tree/chilopsis-linearis_granitemtns_04-05_01.jpg', '/static/images/photos/tree/chilopsis-linearis_granitemtns_02.jpg', '/static/images/photos/tree/chilopsis-linearis_granitemtns_01.jpg', '/static/images/photos/tree/chilopsis-linearis_earlyspringgranites_4_05.jpg', '/static/images/photos/tree/chilopsis-linearis_clarkmtns_04-00_01.jpg', '/static/images/photos/tree/psorothamnus-spinosus_eastofeaglemtn_12-11_02.jpg', '/static/images/photos/tree/psorothamnus-spinosus_eastofeaglemtn_12-11_01.jpg', '/static/images/photos/tree/psorothamnus-spinosus_sjotr_03-08_02.jpg', '/static/images/photos/tree/psorothamnus-spinosus_sjotr_03-08_01.jpg', '/static/images/photos/tree/psorothamnus-spinosus_nearpalenlake_12-11.jpg', '/static/images/photos/tree/psorothamnus-spinosus_granitemtns_05-98_02.jpg', '/static/images/photos/tree/psorothamnus-spinosus_granitemtns_05-98_01.jpg', '/static/images/photos/tree/psorothamnus-spinosus_bristolmtns_1998_01.jpg', '/static/images/photos/tree/psorothamnus-spinosus_anzaborrego_01_97.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Chilopsis</i> <i>linearis</i> and/or <i>Psorothamnus</i> <i>spinosus</i> is dominant or co-dominant in the tree or tall shrub canopy with <i>Olneya</i> <i>tesota</i>, <i>Parkinsonia</i> <i>florida</i>, <i>Prosopis</i> <i>glandulosa</i> or <i>Yucca</i> <i>brevifolia</i>. Shrubs may include <i>Ambrosia</i> <i>eriocentra</i>, <i>Ambrosia</i> <i>salsola</i>, <i>Atriplex</i> <i>polycarpa</i>, <i>Bebbia</i> <i>juncea</i>, <i>Brickellia</i> <i>incana</i>, <i>Cylindropuntia</i> <i>acanthocarpa</i>, <i>Ericameria</i> <i>paniculata</i>, <i>Eriogonum</i> <i>fasciculatum</i>, <i>Larrea</i> <i>tridentata</i>, <i>Senecio</i> <i>flaccidus</i>, <i>Senegalia</i> <i>greggii</i>, <i>Stephanomeria</i> <i>pauciflora</i> or <i>Viguiera</i> <i>parishii</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text"> Trees < 8 m tall; canopy is open to intermittent. Shrub layer is open to intermittent. Herbaceous layer is sparse to seasonally abundant with annuals. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Chilopsis linearis</i> > 2% absolute cover as a small tree or tall shrub canopy; with > 50% relative cover in the tall shrub or small tree canopy (Evens 2000, Thomas et al. 2004, Evens et al. 2014).</li>
+		
+		<li><i>Psorothamnus spinosus</i> > 2% absolute cover in the small tree or tall shrub canopy and dominant in the overstory; smaller shrubs such as <i>Ambrosia salsola</i> or <i>Larrea tridentata</i> may have up to two times the cover of the <i>Psorothamnus</i> (Evens 2000, Evens and Hartman 2007, Evens et al. 2014, Keeler-Wolf et al. 1998b, Thomas et al. 2004).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Washes, intermittent channels, canyon bottoms, arroyos, along floodplains, and wash terraces where flooding is infrequent but where subterranean water is available. Soils are well-drained sands and gravels that are moderately acidic to slightly alkaline. The USFWS Wetland Inventory (2012 national list) recognizes <i>Chilopsis linearis</i> as a FAC plant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Blue palo verde-ironwood-smoke tree series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Chilopsis linearis shrubland alliance, Psorothamnus spinosus intermittently flooded shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Desert willow, Smoke tree
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Mojave desert wash scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Creosote bush scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Desert wash
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>61.555.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Xeromorphic Scrub and Herb Vegetation (Semi-Desert)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Warm Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Warm Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Sonoran and Chihuahuan Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Madrean Warm Semi-Desert Wash Woodland/Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Sonoran-Coloradan semi-desert wash woodland/scrub
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Chilopsis linearis </i>is a relatively long-lived (>100 years), tall shrub or tree that attains 6 m in height. Plants are part facultatively winter deciduous phreatophytes that opportunistically delay leaf output until water is available. It is sensitive to salinity and alkalinity (Desert Workshop January 2000). Plants shed their seeds in the winter, and seedling establishment is sporadic. Stands have multiple age classes, though a single size class often dominates. Moderate flooding in wet years provides favorable conditions for seedling establishment (Uchytil 1990b). <br/>
+<br/>
+<i>Psorothamnus spinosus </i>is a relatively short-lived species with maximum ages approaching 50 years. Sprouting is weak. Seeds have a hard seed coat that requires scarification to germinate (Monzingo 1987). Seeds possibly survive for relatively long time periods in the substrate and may even out-survive existing plants. <i>P. spinosus </i>is dependent upon flooding events for stand establishment. Even-aged stands are common, although some stands have several age classes. Flood intensities are highly variable. Peak discharge in many of the washes occurs at 100-year intervals (Waananen and Crippen 1977). It is likely that low discharges are adequate to initiate stand establishment. The largest and densest stands occur primarily on sand or small gravel, suggesting that minor flooding events are responsible for establishment of the denser stands in most cases. <br/>
+<br/>
+The two characteristic species were previously viewed as separate alliances (see Thomas et al. 2004), but more recently have been combined because of overlapping environmental and floristic characteristics (Evens et al. 2014, NatureServe 2015). This alliance is restricted to washes and arroyos in California’s hot deserts. It is one of the common alliances characterized by tall, woody shrubs and small trees in the hot deserts of the Southwest. It occurs farther north into the Mojave Desert and at higher elevations than the <i>Parkinsonia florida - Olneya tesota </i>Alliance. <br/>
+<br/>
+Although the alliance is widely distributed, stands are local and absent in many washes that appear suitable. Most stands receive sheet flooding at least every 10-20 years (Uchytil 1990b), and flood frequencies and intensity levels are highly variable (Waananen and Crippen 1977). Stands typically occur in sandy or gravelly washes with relatively wide flood paths across pediments, and in natural “narrows” in valleys; most large-stature stands are on small terraces above the active wash channels. Stands appear to be restricted to washes with intermittent flooding and where the plants can reach shallow water tables. Also, the presence of faults in very old alluvium that create preferred paths for moisture and thus root systems have been found as optimum sites for <i>Chilopsis linearis </i>(Lancaster et al. 2014). Stands do not range as high into mountain valleys and narrow arroyos as do the<i>Senegalia greggii - Hyptis emoryi - Justicia californica </i>or <i>Prunus fasciculata - Salazaria mexicana </i>alliances, nor do they occupy the most active wash centers as do stands of <i>Ericameria paniculata </i>or <i>Ambrosia salsola - Bebbia juncea </i>scrubs. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Chilopsis linearis</th>
+			
+		
+			
+			<th>Psorothamnus spinosus</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Shrub, tree; winter deciduous</td>
+			
+		
+			
+			<td>Shrub, tree; drought deciduous</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Transient</td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+			
+			<td>Long</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Wind</td>
+			
+		
+			
+			<td>Animal; water/hydrological</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>Scarification</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Underground structures (root crown)</td>
+			
+		
+			
+			<td>Underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; high sprouter?</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>Life of plant</td>
+			
+		
+			
+			<td>Short-lived, 50+ years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>High</td>
+			
+		
+			
+			<td>Episodic (after flood)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Fluvial processes rather than fire primarily disturb stands. <i>Psorothamnus spinosus</i> sprouts after distubance, and <i>Chilopsis linearis </i>sprouts after fire and can continue to dominate. Stand species composition, though, will vary under different fire regimes.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Colorado Desert</b> (322Ca-d). Stands occur commonly in all subsections. In some stands, it shares washes with a matrix of <i>Agave deserti, Ambrosia salsola - Bebbia juncea, Ericameria paniculata, Senegalia greggii - Hyptis emoryi - Justicia californica, Parkinsonia florida - Olneya tesota </i>and <i>Prosopis </i>spp. alliances. Flood frequencies are relatively high on the western side of the section as in Anza-Borrego State Park, where large stands occur along many major washes (Keeler-Wolf et al. 1998b).</li>
+        
+            <li><b>Mojave Desert</b> (322Ac, Ah-p). Stands occur along mostly moderate-sized washes in southern subsections. They reach elevations of over 800 m in Sleeping Beauty Wash (Thomas et al. 2004) and in Willow Wash (Evens 2000), and they occur at lower elevations in the Buillon Mountains-Bristol Lake and Pinto Basin areas (Evens and Hartman 2007, Keeler-Wolf et al. 2005). Stands also exist in the Alvord Mountains, Devil’s Playground, and Ivanpah Valley. They are similar to those in the Granite and Providence Mountains (Evens 2000), and elsewhere in the central, southern (Keeler-Wolf et al. 2005), and eastern (Thomas et al. 2004) subsections.</li>
+        
+            <li><b>Sonoran Desert</b> (322Ba-e). Small stands are scattered throughout the section (Evens and Hartman 2007, Keeler-Wolf et al. 2005), usually in the most active wash centers. In the Cadiz and Vidal valleys, <i>Psorothamnus spinosus </i>dominates in washes more often than in the other subsections without the larger trees, where it exists as long, narrow stringers surrounded by the <i>Larrea tridentata-Ambrosia dumosa </i>alliance.</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Bk-l, Bo-p). Scattered stands in western Riverside and eastern San Diego Cos. (Klein and Evens 2005, Evens and San 2005) occur in valleys at the eastern edge of the Peninsular Ranges adjacent to stands of the <i>Populus fremontii, Prosopis glandulosa,</i> and <i>Salix laevigata</i> alliances. Stands also occur in washes on the eastern desert slopes of the Peninsular Ranges such as San Felipe Valley in Anza-Borrego Desert State Park (Keeler-Wolf et al. 1998b).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> The stands are small and scattered, suggesting that seedling establishment has rather exacting requirements. Some stands show partial senescence. Stands can go in and out of existence depending upon shifting fluvial disturbance. Longtime sustainability of these stands may involve several flood events and periods of sprouting on wet sands before seedling establishment occurs. Thus, large wash systems are needed in conservation planning to represent the alliance. Intensive use of washes by off-road vehicles and gravel mining is detrimental the alliance. <i>Tamarix </i>exists in stands in the Anza-Borrego Desert State Park, but most stands are not prone to its invasion. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Chilopsis linearis [1], [3], [5], [6], [8], [9]</li>
+                
+                    <li>Chilopsis linearis / (Ambrosia eriocentra - Salvia dorrii) [1], [4], [6], [9]</li>
+                
+                    <li>Chilopsis linearis / Ambrosia salsola [1], [4], [6], [9]</li>
+                
+                    <li>Chilopsis linearis / Atriplex polycarpa [2]</li>
+                
+                    <li>Chilopsis linearis / Ericameria paniculata [1], [4], [6], [9]</li>
+                
+                    <li>Chilopsis linearis / Prunus fasciculata [1], [4], [6], [9]</li>
+                
+                    <li>Psorothamnus spinosus [4], [5], [7]</li>
+                
+                    <li>Psorothamnus spinosus / Ambrosia salsola - (Bebbia juncea -  Ephedra californica) [4], [6], [9]</li>
+                
+                    <li>Psorothamnus spinosus /Senegalia greggii - (Hyptis emoryi) [4], [6], [9]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Evens, J.M. 2000</li>
+		
+		<li>[2] Keeler-Wolf, T.;Roye, C.;Lewis, K. 1998b</li>
+		
+		<li>[3] Keeler-Wolf, T.;San, S.;Hickson, D. 2005</li>
+		
+		<li>[4] Keeler-Wolf, T.;Thomas, K. 2000</li>
+		
+		<li>[5] Spolsky, A.M. 1979</li>
+		
+		<li>[6] Evens, J.M.;Sikes, K.;Hastings, D.;Ratchford,J.S. 2014</li>
+		
+		<li>[7] Evens, J.M.;Hartman, S. 2007</li>
+		
+		<li>[8] Evens, J.;San, S. 2005</li>
+		
+		<li>[9] Reyes, E.;Evens, J.;Fulton, J.;Sikes, K.; Johnson, D.;Keeler-Wolf, T.;Vu, S.;LaFever-Jackson, A. 2023 (in progress)</li>
+		
+		<li>Johnson, H.B. 1976</li>
+		
+		<li>Lancaster, J.T.;Boul, R.;Keeler-Wolf, T. 2014</li>
+		
+		<li>MacMahon, J.A. 1988</li>
+		
+		<li>Menke, J.;Reyes, E.;Hepburn, A.;Johnson, D.;Reyes, J. 2013</li>
+		
+		<li>Mozingo, H.N. 1987</li>
+		
+		<li>NatureServe, 2014+</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Black, H.;Bleich, V.C.;Mincks, J.W. 1980</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Conrad, C.E. 1982</li>
+		
+		<li>Sawyer, J.O.;Keeler-Wolf, T. 1995</li>
+		
+		<li>Schoenherr, A.A.;Burk, J.H. 2007</li>
+		
+		<li>Thomas, K.;Franklin, J.;Keeler-Wolf, T.;Stine, P. 2004</li>
+		
+		<li>Thorne, R.F. 1982</li>
+		
+		<li>Turner, R.M.;Brown, D.E. 1982</li>
+		
+		<li>Uchytil, R.J. 1990b</li>
+		
+		<li>Vasek, F.C.;Barbour, M.G. 1977</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program);AIS, 2013</li>
+		
+		<li>Waananen, G.R.;Crippen, H. 1977</li>
+		
+		<li>Young, J.A.;Young, C.G. 1986</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/549/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Aegilops triuncialis</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+	<div class="allianceHeader">
+		<span class="scientificName"><i>Aegilops</i> <i>triuncialis</i></span> Provisional Herbaceous Semi-Natural Alliance <br/>
+		<span class="subtitle">Barbed goatgrass patches</span>
+	</div>
+
+	<div class="mainAllianceInfo">
+
+		<div class="allianceSideInfo">
+			<div class="quickInfoList">
+				<h4>Summary Information</h4>
+				<ul>
+					<li>
+						<span class="category">Primary Life Form</span>Herb
+					</li>
+					<li>
+						<span class="category">Elevation</span>190-350 m
+					</li>
+					<li>
+						<span class="category">State Rarity</span>SNA
+					</li>
+					<li>
+						<span class="category">Global Rarity</span>GNA
+					</li>
+					<li>
+						<span class="category">Distribution</span>USA: CA, MD, NY, PA (USDA Plants)
+					</li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2009/09/01
+                    </li>
+				</ul>
+			</div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/herb/aegilops-triuncialis_yubaco_06-2001.jpg', '/static/images/photos/herb/aegilops-triuncialis_yubaco_05-2007.jpg', '/static/images/photos/herb/aegilops-triuncialis_placerco_2008.jpg']
+            </script>
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+		</div>
+
+		
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Aegilops</i> <i>triuncialis</i> is dominant or co-dominant in the herbaceous layer. </div>
+</div>
+
+		
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Herbs < 1 m; cover is intermittent to continuous. </div>
+</div>
+
+		
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Upper slopes and outcrops on and off serpentine substrates. Soils are clayey.  </div>
+</div>
+
+		
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance, and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>California annual grassland series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Annual grasses and forbs, Non-native/ornamental grass
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Non-native grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Valley grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Annual grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>42.003.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+	</div>
+
+
+	<!-- collapsable content below -->
+
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Aegilops triuncialis </i>is a winter annual rangeland weed introduced from Mediterranean Europe and western Asia. It invades dry, disturbed sites, fields, pastures, roadsides, and rangelands throughout California as well as grasslands and oak woodlands, but usually not chaparral. Livestock, especially sheep, disperse the spikes at maturity; the spikes ultimately break apart into joints (sections of inflorescence axis that contain the seeds). The long-barbed awns entangle in hair and clothes. The lowest seed in a spikelet is dormant the first fall after maturation, loses dormancy that winter, and becomes dormant again the following spring if it does not germinate or decay. Upper seeds are not dormant. Seeds can remain viable up to 5 years. Seeds germinate on the surface of undisturbed soil. Soil compaction appears to enhance seed germination and seedling establishment. Most germination occurs after fall rains under cool temperatures. Plants tend to mature later than most other annual grasses (CDFA 2003). <br/>
+<br/>
+CDFA lists <i>A. cylindrica </i>and <i>A. geniculata </i>(<i>A. ovata</i>) as noxious List B plants. Another goatgrass, <i>A. neglecta</i>, is known now to occur in northern California. It is easily confused with <i>A. triuncialis </i>and may be more common (S. Smith, pers. comm. 2008). All four species have the potential to become important invasive plants in the state’s wildlands. Of these, <i>A. triuncialis </i>is notable for tolerating serpentine substrates and hard, shallow, dry, gravelly soils, including those at sites with vernal pools. Harrison and Viers (2007) discussed the species in relation to its abilities to colonize nutrient-poor or toxic soils, including serpentine, where <i>A. triuncialis </i>slows carbon and nutrient cycling over native plants (Drenovsky and Batten 2007). <br/>
+<br/>
+The spread of <i>A. triuncialis </i>is relatively recent in California (Davy 2007), and road corridors act as a means for its spread (Harrison et al. 2002). <i>A. triuncialis </i>can form nearly pure stands with 50% or greater cover (DiTomaso et al. 2001, Drenovsky and Batten 2007), reducing habitat for native species. <i>A. triuncialis </i>also reduces forage for livestock and wildlife because its awns can be mechanically injurious (Kennedy 1928, Peters et al. 1996). To control its spread, land managers have tried appropriately timed grazing and/or fire along with re-seeding of desirable species, and repeat fire may increase the habitat for native species (Davy 2007, DiTomaso et al. 2001). On the University of California Natural Reserves, managers are attempting control by prescribed fire in early spring, grazing, mowing, hand pulling, and other means (Davy 2007). </div>
+</div>
+
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Observations</h4>
+	<div class="text"> Evens and San (2004) recognized an <i>Aegilops triuncialis-Hemizonia congesta</i> association from Coyote Ridge in the western Diablo Range (M262Aa) with <i>A. triuncialis, Eschscholzia californica, Lolium perenne, Nassella pulchra</i>, and <i>Plantago erecta</i>. The same association also appears to occur in the Northern California Coast Ranges (M261B) in Napa Co. on serpentine with Pope Valley adobe clay and Maxwell clay (CNPS 2006); adjacent types are stands of the <i>Lasthenia californica-Plantago erecta-Vulpia microstachys</i> and <i>Nassella pulchra</i> alliances. We need sampling throughout the range of the species to understand its impact on the state’s native vegetation. </div>
+</div>
+
+	
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Evens, J.;San, S. 2004</li>
+		
+		<li>Cal-IPC, 2002+</li>
+		
+		<li>CDFA (California Department of Food and Agriculture), 2003+</li>
+		
+		<li>Davy, D. 2007</li>
+		
+		<li>DiTomaso, J.M.;Heise, K.L.;Kyser, G.B.;Merenlender, A.M.;Keiffer, R.J. 2001</li>
+		
+		<li>Drenovsky, R.E.;Batten, K.M. 2007</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+	<script src="/static/javascript/alliance_page.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

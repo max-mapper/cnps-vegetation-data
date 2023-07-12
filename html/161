@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Ceanothus cuneatus</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Ceanothus</i> <i>cuneatus</i></span> Shrubland Alliance <br/>
+        <span class="subtitle">Wedge leaf ceanothus chaparral, Buck brush chaparral</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>15-1800 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S4
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G4
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA, OR. Baja California, Mexico (TJM2)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>Yes
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/ceanothus-cuneatus_blmpotrerocynrd_03-10_01.jpg', '/static/images/photos/shrub/ceanothus-cuneatus_blmpotrerocynrd_03-10_02.jpg', '/static/images/photos/shrub/ceanothus-cuneatus_boxcanyon_01.jpg', '/static/images/photos/shrub/ceanothus-cuneatus_boxcanyon_02.jpg', '/static/images/photos/shrub/ceanothus-cuneatus_hwy36_08-10_01.jpg', '/static/images/photos/shrub/ceanothus-cuneatus_hwy36_08-10_02.jpg', '/static/images/photos/shrub/ceanothus-cuneatus_peoriawa_04-04_01.jpg', '/static/images/photos/shrub/ceanothus-cuneatus_peoriawa_04-04_02.jpg', '/static/images/photos/shrub/ceanothus-cuneatus_pinnaclesnm_0106_01.jpg', '/static/images/photos/shrub/ceanothus-cuneatus_spenceville_03-04_01.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Ceanothus</i> <i>cuneatus</i> is dominant or co-dominant in the shrub canopy with <i>Adenostoma</i> <i>fasciculatum</i>, <i>Arctostaphylos</i> <i>glauca</i>, <i>Arctostaphylos</i> <i>manzanita</i>, <i>Arctostaphylos</i> <i>patula</i>, <i>Arctostaphylos</i> <i>tomentosa</i>, <i>Ceanothus</i> <i>integerrimus</i>, <i>Cercocarpus</i> <i>montanus</i>, <i>Eriogonum</i> <i>fasciculatum</i>, <i>Garrya</i> <i>fremontii</i>, <i>Hesperoyucca</i> <i>whipplei</i>, <i>Heteromeles</i> <i>arbutifolia</i>, <i>Quercus</i> <i>berberidifolia</i>, <i>Quercus</i> <i>john</i>-<i>tuckeri</i>, <i>Rhus</i> <i>ovata</i> and <i>Salvia</i> <i>mellifera</i>. Emergent trees may be present at low cover, including <i>Calocedrus</i> <i>decurrens</i>, <i>Juniperus</i> <i>californica</i>, <i>Pinus</i> <i>jeffreyi</i>, <i>Pinus</i> <i>ponderosa</i>, <i>Pinus</i> <i>sabiniana</i>, <i>Quercus</i> <i>douglasii</i> or <i>Quercus</i> <i>wislizeni</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 3.5 m; canopy is intermittent to continuous. Herbaceous layer is sparse to grassy. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li>Both <i>Adenostoma fasciculatum</i> and <i>Ceanothus cuneatus</i> have 30%-60% relative cover in the shrub canopy (Gordon and White 1994).</li>
+		
+		<li><i>Ceanothus cuneatus</i> > 60% relative cover in the shrub canopy (Keeler-Wolf et al. 2003a, Borchert et al. 2004).</li>
+		
+		<li><i>Ceanothus cuneatus</i> > 50% relative cover in the shrub canopy, or > 30% relative cover with <i>Adenostoma fasciculatum</i> (Buck-Diaz et al. 2021, Sikes et al. 2021).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Ridges and upper slopes. Soils are shallow, rocky, and well drained.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Wedgeleaf ceanothus series, Chamise-wedgeleaf ceanothus series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Ceanothus cuneatus shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Ultramafic mixed shrub, Chamise, Wedgeleaf ceanothus, Lower montane mixed chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Northern mixed chaparral, Chamise chaparral, Serpentine chaparral, Buck brush chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Chamise-redshank chaparral, Mixed chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>37.211.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Mediterranean Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Mediterranean Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>California Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>California Chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Californian xeric chaparral
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Ceanothus cuneatus </i>is an evergreen shrub with thorny, rigid branches that grows to 3.5 m in height. At 5 years, shrubs begin producing seeds, many of which are explosively ejected from the capsule when it dehisces (Evans et al. 1987) Most seeds drop beneath the shrub crown, but some are propelled up to 10 m from the plant. Seed predation by small mammals and insects may be high, but seeds gradually collect in the duff and soil, where they remain viable for decades. Heat stimulates germination by cracking the seed coat, thereby increasing permeability to water (Quick and Quick 1961), but exposure to fire is not required for germination. Exposure to high soil temperatures is also sufficient to break dormancy. Sprouting from exposed roots or root crowns occurs, but it is rare (Tirmenstein 1989b). <br/>
+<br/>
+<i>Ceanothus cuneatus </i>occurs as an understory shrub in various forest and woodland types in northern California, and it is present as a secondary species in many chaparral alliances in California. Self-perpetuating stands are typically restricted to rocky, harsh exposures or substrates. Many stands establish after fire and form an important part of the chaparral in northern and central California. Stands are often dense, with interlocking crowns that may contain abundant deadwood, or they can have a grassy ground layer. There also may be open stands with much bare ground. Mixed stands with co-dominant <i>Adenostoma fasciculatum </i>are common in the central coast and inner North Coast Ranges, and occur more sporadically in the Sierra Nevada and in southern California. These mixed stands occur on a variety of exposures along steep lower to upper slopes. Substrates are usually sedimentary and metamorphic. Because of ecological overlap between mixed and pure <i>C. cuneatus </i>stands, the former practice of segregating them into separate series or alliances has been discontinued here. <br/>
+<br/>
+<i>Ceanothus cuneatus </i>involves five varieties (Fross and Wilken 2006). All but var. <i>cuneatus </i>occur along the central coast. Three, var. <i>dubius </i>of the Santa Cruz Mountains, var. <i>fascicularis </i>that grows from southwest San Obispo Co. to northwest Santa Barbara Co. and var. <i>rigidus </i>that grows from Monterey Co. to Santa Barbara Co. (the last two CNPS List 4.2 plants) are considered stands or plants of the maritime chaparral (see the discussion in the Changes Since the First Edition section). The last form, var. <i>ramulosus, </i>ranges from north of San Francisco Bay to Santa Barbara Co., and is considered synonymous with var. <i>cuneatus </i>in <i>The Jepson Manual </i>(Hickman 1993). We include var. <i>cuneatus </i>and var. <i>ramulosus </i>in this alliance. See Fross and Wilken (2006) for details. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Ceanothus cuneatus</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Shrub; evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Long</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; expulsion from capsule; gravity</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Chemical; heat; stratification—winter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>None (rare)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-sensitive; high flammability; no/low sprouting; canopy architecture susceptible</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>10-100+ years (varies by site; crowded out at moist sites)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Low to high</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Conditions vary with substrate</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text"><i>Ceanothus cuneatus </i>is an obligate seeder, and plants are highly flammable (League 2005b). Seedlings establish from soil-stored seeds, which accumulate between fires (Keeley et al. 2006). Heat breaks seed dormancy, and germination occurs with winter rains. Most seedlings emerge during the first year after a fire, and seedling mortality is high. Post-fire growth is correlated with site quality. <i>C. cuneatus </i>typically grows on shallow, well-drained, gravelly soils, including nutrient-deficient serpentine soils. Historic fire frequencies for chaparral types with <i>C. cuneatus </i>are estimated to have been 25-40 years in southern California, 30-60 years in the central part of the state, and 50-100 years in montane zones and northern California (Southwestern California Workshop 2000). In general, fire return intervals that range between 30 and 100 years favor the maintenance of <i>C. cuneatus </i>alliance (Minnich 1999, League 2005b). Fires can be intense, fast spreading, and potentially large, and they can increase in intensity as stands age. Stands quickly develop fuel loadings capable of supporting moderately intense fires.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Medium (20-100 years)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Summer-early fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Medium to large; up to and beyond stand
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low to moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Moderate to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Very high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Active-independent crown fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Cascades; Central Coast, Sierra Nevada; southern California
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Ac, Ae-g, Aj-k). Stands are common on drier inland settings, such as in the Diablo Range, Santa Cruz Mountains, and Santa Lucia Mountains (Borchert et al. 2004).</li>
+        
+            <li><b>Central California Coast Ranges</b> (M262Aa-f, Ah, Aj). Stands are fairly common on and off serpentine throughout the Diablo Range (Evens et al. 2006), in the Gabilan Range (NatureServe 2007), continuing south to the Temblor Range, and generally in the Los Padres National Forest (Borchert et al. 2004).</li>
+        
+            <li><b>Klamath Mountains</b> (M261Aa-c, Ae-f, Ah-i, Ak-m, Ar, Au). Stands occur throughout at lower elevations throughout section; they are extensive on 442 Ceanothus cuneatus Shrubland Alliance Sawyer08_11bC1.qxd 8/4/09 1:41 PM Page 442 the eastern and southern parts on all substrates. On serpentine, they may persist for long periods (Alexander et al. 2007). Stands have been described for the Smoky Creek RNA (Cheng 2004) and Castle Crags State Park (Stuart et al. 1992).</li>
+        
+            <li><b>Northern California Coast</b> (263Ag, Aj-m). Stands exist locally on rocky soils in a matrix of forest types away from the fog belt.</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Ba-f). Stands of varying size are common throughout the section on and off serpentine. They often occur within a matrix of other chaparral types, as at Hale Rridge RNA (Cheng 2004).</li>
+        
+            <li><b>Northern California Interior Coast Ranges</b> (M261Ca-b). Stands exist throughout the section except in the lowest elevations close to the Great Valley. Stands are often encountered on and off serpentine mixed with annual grassland, chaparral, woodland types.</li>
+        
+            <li><b>Sierra Nevada</b> (M261Ef-g, Ep). Stands commonly occur adjacent to chaparral and woodland types at lower elevations at Grizzly Mountain RNA (Cheng 2004), in Yosemite National Park (Keeler-Wolf et al. 2003b) and in Sequoia National Park (Haultain pers. comm. 2003).</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fa-e). Stands are common in all subsections bordering grassland and woodland types, including those in the Indian Creek RNA (Cheng 2004) and at Tuolumne Table Mountain (Evens et al. 2004). They occur on all substrates, but particularly on volcanic and serpentine substrates (Alexander et al. 2007) in the central and northern subsections (Klein et al. 2007).</li>
+        
+            <li><b>Southern California Coast</b> (261Ba-b, Bd-g, Bi-j). Stands occur throughout most of the section except the Channel Islands. Stands are localized in the central Santa Monica Mountains (Keeler-Wolf and Evens 2005) and occur throughout the Los Padres National Forest (Borchert et al. 2004).</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Ba-d, Bf-g, Bj-o). Stands are widely scattered and uncommon in the Peninsular Ranges (Klein and Evens 2005), in the San Bernardino Mountains (Minnich 1999), and in the western Transverse Ranges (Borchert et al. 2004).</li>
+        
+            <li><b>Southern Cascades</b> (M261Da-c, Dj). Stands are abundant in the Shasta Valley and surrounding hills, and occasional in the Pit River drainage at lower elevations. These stands often occur adjacent to scrubby stands of <i>Quercus garryana</i> var. <i>fruticosa.</i></li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> High mortality of both seedlings and sprouts is likely when fires recur on burns seeded to annual grasses. <i>Lolium perenne, </i>a grass commonly used for revegetation following fire, inhibits seedling establishment and shrub growth. The presence of grass increases the likelihood of early burns. Fires occurring at short intervals (< 20-30 years) may remove <i>Ceanothus cuneatus </i>from the area. Long intervals (> 65 years) will favor <i>Adenostoma fasciculatum, </i>while <i>C. cuneatus </i>may only persist as seeds in the seed bank until the next fire. Repeated short-interval fires (of < 30 years) are seen especially near cities and towns (League 2005b). The genus is well suited for use in rehabilitation because of rapid growth rates and an ability to improve soil fertility through fixing nitrogen. Some cultivars are now commercially available. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+                <p>Associations with <i>Ceanothus cuneatus</i> Dominant</p>
+            
+            <ul class="text">
+                
+                    <li>Ceanothus cuneatus [1], [2], [4], [6], [7], [8], [11], [12], [15], [17], [19]</li>
+                
+                    <li>Ceanothus cuneatus / Calocedrus decurrens [9]</li>
+                
+                    <li>Ceanothus cuneatus / Elymus elymoides [11]</li>
+                
+                    <li>Ceanothus cuneatus / Eriophyllum lanatum [10]</li>
+                
+                    <li>Ceanothus cuneatus / Plantago erecta [2], [6], [12]</li>
+                
+            </ul>
+        
+            
+                <p>Mixed Associations</p>
+            
+            <ul class="text">
+                
+                    <li>Ceanothus cuneatus - Adenostoma fasciculatum [1], [3], [4], [6], [8], [12], [13], [14], [16], [18], [19]</li>
+                
+                    <li>Ceanothus cuneatus - Adenostoma fasciculatum - Salvia mellifera - Malosma laurina [5]</li>
+                
+                    <li>Ceanothus cuneatus - Eriodictyon californicum - (Fremontodendron californicum) [6], [17]</li>
+                
+                    <li>Ceanothus cuneatus - Frangula californica - Arctostaphylos patula [10]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Borchert, M.;Lopez, A.;Bauer, C.;Knowd, T. 2004</li>
+		
+		<li>[2] Evens, J.M.;San, S.;Taylor, J. 2004</li>
+		
+		<li>[3] Gordon, H.J.;White, T.C. 1994</li>
+		
+		<li>[4] Keeler-Wolf, T.;Schindel, M.;San, S.;Moore, P.;Hickson, D. 2003b</li>
+		
+		<li>[5] Keeler-Wolf, T.;Evens, J. 2006</li>
+		
+		<li>[6] Klein, A.;Crawford, J.;Evens, J.;Keeler-Wolf, T.;Hickson, D. 2007</li>
+		
+		<li>[7] Klein, A.;Evens, J. 2005</li>
+		
+		<li>[8] Kittel, G.;Reyes, E.;Evens, J.;Buck, J.;Johnson, D. 2012</li>
+		
+		<li>[9] Stuart, J.D.;Worley, T.;Buell, A.C. 1992</li>
+		
+		<li>[10] Stuart, J.D.;Worley, T.;Buell, A.C. 1996</li>
+		
+		<li>[11] Taylor, D.W.;Teare, K.A. 1979a</li>
+		
+		<li>[12] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>[13] Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>[14] Buck-Diaz, J.;Evens, J. 2011b</li>
+		
+		<li>[15] VegCAMP (CDFW Vegetation Classification and Mapping Program), 2015a</li>
+		
+		<li>[16] Buck, J.;Evens, J. 2010</li>
+		
+		<li>[17] Reyes, E.;Evens, J.;Glass, A.;Sikes, K.;Keeler-Wolf., T.;Winitsky, S.;Johnson, D.;Menke, J.;Hepburn, A. 2020a</li>
+		
+		<li>[18] Sikes, K.;Buck-Diaz, J.;Evens, J. 2021</li>
+		
+		<li>[19] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>Barry, W.J. 1989a</li>
+		
+		<li>Barry, W.J. 1989b</li>
+		
+		<li>Evens, J.M.;Klein, A.;Taylor, J.;Hickson, D.;Keeler-Wolf, T. 2006</li>
+		
+		<li>Hanes, T.L. 1977</li>
+		
+		<li>Hanes, T.L. 1981</li>
+		
+		<li>Keeley, J.E. 1975</li>
+		
+		<li>Keeley, J.E.;Keeley, S.C. 1988</li>
+		
+		<li>League, K.R. 2005b</li>
+		
+		<li>Menke, J.W.;Villasenor, R. 1977</li>
+		
+		<li>Minnich, R.A. 1999</li>
+		
+		<li>Noble, I.R.;Slatyer, R.O. 1977</li>
+		
+		<li>NPS-SEKI, 2009</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Black, H.;Bleich, V.C.;Mincks, J.W. 1980</li>
+		
+		<li>Reid, M.S.;Schulz, K.A.;Cormer, P.J.;Schindel, M.H.;Culver, D.R.;Sarr, D.A.;Damm, M.C. 1999</li>
+		
+		<li>Shiflet, T.N. 1994</li>
+		
+		<li>Thorne, R.F. 1976</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/161/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

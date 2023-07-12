@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Poa secunda - Muhlenbergia richardsonis - Carex douglasii</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Poa</i> <i>secunda</i> - <i>Muhlenbergia</i> <i>richardsonis</i> - <i>Carex</i> <i>douglasii</i></span> Herbaceous Alliance <br/>
+        <span class="subtitle">Onesided bluegrass - mat muhly - Douglas&#39; sedge moist meadow</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Herb
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>900-4000 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G4?
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>CAN: AB, BC, MB, NB, NT, ON, QC, SK, YT. USA: AK, AZ, CA, CO, ID, ME, MI, MN, MT, ND, NE, NM, NV, OR, SD, UT, WA, WI, WY. Mexico (TJM2) (USDA Plants)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2016/07/21
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/herb/carex-douglasii_devahuntermtn_02-13_01.jpg', '/static/images/photos/herb/carex-douglasii_devahuntermtn_02-13_02.jpg', '/static/images/photos/herb/carex-douglasii_devahuntermtn_02-13_03.jpg', '/static/images/photos/herb/muhlenbergia-richardsonis_curtzlake_09-09_01.jpg', '/static/images/photos/herb/muhlenbergia-richardsonis_curtzlk_09-09_01.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Carex</i> <i>douglasii</i>, <i>Muhlenbergia</i> <i>richardsonis</i> and/or <i>Poa</i> <i>secunda</i> is dominant or co-dominant in the herbaceous layer with <i>Achnatherum</i> <i>hymenoides</i>, <i>Achnatherum</i> <i>pinetorum</i>, <i>Astragalus</i> <i>whitneyi</i>, <i>Carex</i> <i>filifolia</i>, <i>Carex</i> <i>rossii</i>, <i>Hulsea</i> <i>algida</i>, <i>Ivesia</i> <i>muirii</i>, <i>Leptosiphon</i> <i>nuttallii</i>, <i>Linanthus</i> <i>pungens</i>, <i>Lotus</i> <i>purshianus</i>, <i>Microsteris</i> <i>gracilis</i>, <i>Monardella</i> <i>odoratissima</i>, <i>Penstemon</i> <i>heterodoxus</i> or <i>Penstemon</i> <i>speciosus</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Herbs < 60 cm; cover is open to continuous. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li>Stands dominated by low, freshwater emergent vegetation, including <i>Carex douglasii</i>, <i>Juncus articus</i> spp. <i> littoralis</i> (=<i>Juncus balticus</i>), or <i>Juncus mexicanus</i> (Evens et al. 2014).</li>
+		
+		<li><i>Carex douglasii</i> or <i>Muhlenbergia richardsonis</i> > 50% relative cover in stands, occuring in moist to dry, often alkaline meadows at higher elevations. (Reyes et al. 2020a).</li>
+		
+		<li><i>Poa secunda</i> ssp.<i> juncifolia</i> has the highest cover in the herbaceous layer and co-occurs with a variety of species, such as <i>Distichlis spicata</i> and <i>Juncus arcticus</i>, on alkaline soils (VegCAMP 2014b).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Drier fringes of moist meadows, valley bottoms with shallow water tables, inactive floodplains, terraces, dry basins, in swales, on upland gentle slopes and drainage bottoms. Soils are sandy to clay loams and vary in pH, though are often alkaline. The USFWS Wetland Inventory recognizes <i>Carex douglasii</i> as a FACU (1996 list) and FAC (2012 list) plant, <i>Poa secunda</i> as a FACU (1996 and 2012 list) plant, and <i>Muhlenbergia richardsonis</i> as a and FAC* (1996 and 2012 list) plant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Montane meadow habitat, One-sided bluegrass series, Sedge series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Carex douglasii herbaceous alliance, Poa secunda seasonally flooded herbaceous alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Alkaline mixed grasses and forbs, Wet grasses and forbs, Perennial grasses and forbs
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Dry montane meadow, Dry subalpine or alpine meadow, Alkali meadow
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Sagebrush scrub, Subalpine forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Alpine dwarf-shrub, Perennial grassland, Wet meadow
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>41.279.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate and Boreal Shrubland and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate Grassland, Meadow, and Shrubland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Vancouverian and Rocky Mountain Grassland and Shrubland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Western Cordilleran Montane Shrubland and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Western Cordilleran montane moist graminoid meadow
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Carex douglasii </i> is a non-tufted sedge with slender rhizomes and culms to 30 cm. Plants tolerate alkaline conditions. Individuals or turfs of this species may occur along compacted edges of dirt and paved roads where additional runoff may provide higher than ambient moisture. <br/>
+<br/>
+<i>Muhlenbergia richardsonis </i> is a slender, perennial grass that grows in loose to dense tufts or mats, sometimes forming a sod. The stems, which may reach 2-6 dm in height, arise from the prostrate bases of old stems or from rhizomes. <br/>
+<br/>
+Stands of <i>M. richardsonis </i>are turf-like and occur in more xeric settings than <i>M. filiformis </i>(Ratliff 1985), such as sandy and gravelly soils (Benedict 1983). Stands avoid depressions, instead occurring in snowfree areas with a long growing season (Major and Taylor 1977). Similar to <i>M. filiformis, </i>S. Smith (1998) found <i>M. richardsonis </i>in high mountain meadows with grazing disturbance, which she considered degraded stands of <i>Carex nebrascensis, Deschampsia cespitosa, </i>or other moist meadow sod-forming alliances. <br/>
+<br/>
+Also, <i>C. douglasii </i> stands occur in similar turf-like conditions. Manning (1998) described stands on alluvial fill located along the drier fringes of meadows in valley meadow systems in northwestern Nevada.  Smith (1998) suggested that stands of this type in northeastern Califonia have a history of heavy grazing and soil compaction.<br/>
+<br/>
+<i>Poa secunda </i>is a native, cool-season, perennial bunchgrass that is shallowly rooted. It regenerates by tillers, by seed, and by facultatively apomictic seed. It is not shade tolerant. It produces little litter, and its small size along with its sparse litter reduces the amount of heat transferred to perennating buds in the soil (Howard 1997b). <br/>
+<br/>
+The species occurs throughout California but the habitats of the two subspecies differ (Soreng 2007); ssp. <i>juncifolia </i>(including ecotypes called <i>P. ampla, P. juncifolia, </i>and <i>P. nevadensis</i>) is associated with mesic flood plains and internally drained basins and is the primary subspecies found in this alliance; whereas ssp. <i>secunda </i>(including ecotypes called <i>P. canbyi, P. gracillima, P. incurva, P. sandbergii, P. scabrella</i>) grows in scablands in ridges, plateaus, and benches on steep canyon slopes and is usually placed in drier alliances such as <i>Aristida purpurea - Elymus elymoides - Poa secunda</i> Alliance. We include the former <i>Poa </i>taxa and hybrids with <i>P. pratensis </i>(Hickman 1993) within this alliance. <br/>
+<br/>
+<i>Muhlenbergia richardsonis, Carex douglasii</i> and <i>Poa secunda </i>Alliances were previously treated separately in the 2009 edition of <i>A Manual of California Vegetation</i>.  They have been combined because they overlap in habitat and species composition, occurring in moist to drier edges of meadows (often alkaline meadows) throughout the interior western United States (NatureServe 2018). </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Carex douglasii</th>
+			
+		
+			
+			<th>Muhlenbergia richardsonis</th>
+			
+		
+			
+			<th>Poa secunda</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Perennial; herb</td>
+			
+		
+			
+			<td>Polycarpic perennial; herb (grass); rhizomatous</td>
+			
+		
+			
+			<td>Polycarpic perennial; herb</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Moderate</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Water/hydrological, animal</td>
+			
+		
+			
+			<td>Animal; gravity; wind</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Stratification - Winter</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Underground structures</td>
+			
+		
+			
+			<td>Underground structures (rhizomes)</td>
+			
+		
+			
+			<td>Buds on large branches or trunks (basal buds, tillers)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy</td>
+			
+		
+			
+			<td>Fire hardy</td>
+			
+		
+			
+			<td>Fire-sensitive; no/low  sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Life of plant</td>
+			
+		
+			
+			<td>Life of plant</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Low to high</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td>By subspecies</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Fluvial processes rather than fire primarily disturb the alliance, but the indicator species of this alliance have a strong ability to regenerate after disturbance.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+            <p>The ranges of <i>Carex douglasii </i>and <i>Muhlenbergia richardsonis </i>include montane and subalpine areas throughout the state’s mountains, whereby more sampling is warranted to fully document the alliance.</p>
+        
+
+        <ul class="text">
+        
+            <li><b>Modoc Plateau</b> (M261Ga-p). Stands of <i>Poa secunda</i> ssp. <i>juncifolia</i> mix in a matrix with <i>Juniperus occidentalis</i> woodlands, <i>Artemisia arbuscula</i> shrublands, meadows, and seeps. Hickson et al. (2007) suggested that mesic areas contained <i>Juncus occidentalis, Triteleia hyacinthina,</i> and other facultative wetland species. The range of <i>Carex douglasii</i> includes montane and subalpine areas throughout the state’s mountains. S. Smith (1998b) described a <i>Carex douglasii</i> community type for a meadow on Modoc Plateau. S. Smith (1998b) described two surveys in which <i>Muhlenbergia richardsonis</i> was dominant in moist meadow edges and floodplains of the Modoc Plateau.</li>
+        
+            <li><b>Mono</b> (341Dd-f, Dh-l). Stands of <i>Poa secunda</i> appear at meadow edges adjacent to <i>Juncus arcticus</i> and <i>Artemisia cana</i> stands throughout much of the section, including Fish Slough (VegCAMP 2014b). The range of <i>Carex douglasii</i> includes montane and subalpine areas with small stands occuring in the Mono area along Buckeye Creek and on flats on the northwest side of Mono Lake, as well as near Mammoth Lakes and near Crooked Creek in the White Mountains (Reyes et al. 2020a).</li>
+        
+            <li><b>Sierra Nevada</b> (M261Ej, En, Et-u). Stands of <i>Poa secunda</i> in mesic meadows in the Carson Range have <i>P. secunda</i> ssp. <i>juncifolia</i> mixing with <i>Hordeum brachyantherum, Juncus arcticus,</i> and <i>Poa pratensis</i> (Manning and Padgett 1995). Major and Taylor (1977) described a <i>Muhlenbergia richardsonis-Achnatherum pinetorum</i> association as dry-site alpine type, which is present (Pemble 1970) in the Sierra Nevada. Ratliff (1985) recognized a <i>Muhlenbergia richardsonis</i> association in xeric meadows in the Sierra Nevada, and Benedict (1983) documented this same association as a drier meadow type related to <i>Carex filifolia</i> alliance.</li>
+        
+            <li><b>Southeastern Great Basin</b> (341Fc). <i>Carex douglasii</i>  stands have been sampled in the Cottonwood Mountains of Death Valley National Park (Evens et al. 2014).</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Bi). The range of <i>Carex douglasii</i> includes montane and subalpine areas with small stands occuring along moist arroyos in southern California, as observed in the Little San Bernardino Mountains during the reconnaissance work in Joshua Tree National Park (Keeler-Wolf et al. 2005).</li>
+        
+            <li><b>Southern Cascades</b> (M261Da-m). S. Smith (1998b) described two surveys in which <i>Muhlenbergia richardsonis</i> was dominant in moist meadow edges and floodplains of the Southern Cascades.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Both <i>Carex douglasii </i> and <i>Muhlenbergia richardsonis </i>tolerate grazing disturbance, and they can support a diversity of other graminoids and forbs. Ratliff (1985) and Smith (1998) noted that the abundance of these graminoids can increase at the expense of other natives in over-grazed meadows.
+
+<i>Poa secunda </i> also is tolerant of disturbances, which include not only fire but also grazing, frost heaving, and invasion by non-native plants. In the Great Basin, <i>P. secunda </i>is one of few native grasses that can compete successfully with the invasive non-native <i>Bromus tectorum </i>by maintaining more positive and stable growth rates at all temperatures than <i>B. tectorum </i>(Monaco et al. 2005). 
+
+Bioturbation and relatively high water tables in meadows of the Great Basin facilitate the establishment and persistence of ssp. <i>juncifolia</i>. Saturated rooting zones during the spring and early summer prevent the establishment and persistence of <i>Artemisia tridentata </i>and other shrubs (Ganskopp 1986). Wright and Chambers (2002) studied meadows in a mosaic with sagebrush scrub in the Great Basin, where past grazing and road construction had lowered water tables and enabled the encroachment of shrubs into meadows. Their research showed that perennial grass cover and density increased following burning and removal of <i>A. tridentata; </i>thus, burning is an effective tool in restoring meadows with formerly higher water tables. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Carex douglasii [2], [3], [5]</li>
+                
+                    <li>Muhlenbergia richardsonis [1], [4], [5], [6]</li>
+                
+                    <li>Muhlenbergia richardsonis - Achnatherum pinetorum [8], [12]</li>
+                
+                    <li>Poa secunda Moist [14], [16]</li>
+                
+                    <li>Poa secunda ssp. secunda [13]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Benedict, N.B. 1982</li>
+		
+		<li>[2] Evens, J.M.;Sikes, K.;Hastings, D.;Ratchford,J.S. 2014</li>
+		
+		<li>[3] Boul, R.;Keeler-Wolf, T.;Ratchford, J.;Haynes, T.;Hickson, D.;Yacoub, R.;Harbert, B.;Evens, J. 2021b</li>
+		
+		<li>[4] Ratliff, R.D. 1985</li>
+		
+		<li>[5] Smith, S. 1998b</li>
+		
+		<li>[6] Brown, D.E.;Lowe, C.H.;Pase, C.P. 1980</li>
+		
+		<li>[8] Major, J.;Taylor, D.W. 1977</li>
+		
+		<li>[12] Pemble, R.H. 1970</li>
+		
+		<li>[13] Manning, M.E.;Padgett, W.G. 1995</li>
+		
+		<li>[14] Weixelman, D.A.;Zamudio, D.C.;Zamudio, K.A. 1999</li>
+		
+		<li>[16] VegCAMP (CDFW Vegetation Classification and Mapping Program), 2014b</li>
+		
+		<li>Aleksoff, K.C. 1999c</li>
+		
+		<li>Benedict, N.B. 1983</li>
+		
+		<li>Hickson, D.;Boul, R.;Keeler-Wolf, T. 2008</li>
+		
+		<li>Manning, M. 1988</li>
+		
+		<li>NatureServe, 2014+</li>
+		
+		<li>Padgett, W.G.;Manning, M.E. 1988</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/506/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

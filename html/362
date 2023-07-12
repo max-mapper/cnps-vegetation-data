@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Carex simulata</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Carex</i> <i>simulata</i></span> Herbaceous Alliance <br/>
+        <span class="subtitle">Short-beaked sedge fens</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Herb
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>1100-3300 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G4
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA, CO, ID, MT, NM, NV, OR, UT, WA, WY (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2009/09/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/herb/carex-simulata_alpineco_08-2006.jpg', '/static/images/photos/herb/carex-simulata_shasta-trinity_09-2011.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Carex</i> <i>simulata</i> is dominant or co-dominant in the herbaceous layer with <i>Bistorta</i> <i>bistortoides</i>, <i>Carex</i> <i>aquatilis</i>, <i>Carex</i> <i>nebrascensis</i>, <i>Carex</i> <i>scopulorum</i>, <i>Carex</i> <i>utriculata</i>, <i>Deschampsia</i> <i>cespitosa</i>, <i>Dodecatheon</i> <i>jeffreyi</i>, <i>Epilobium</i> <i>ciliatum</i>, <i>Juncus</i> <i>arcticus</i>, <i>Juncus</i> <i>nevadensis</i>, <i>Mimulus</i> <i>primuloides</i>, <i>Muhlenbergia</i> <i>filiformis</i>, <i>Scirpus</i> <i>microcarpus</i> and/or <i>Viola</i> <i>macloskeyi</i>. Mosses may be abundant, including <i>Aulacomnium</i> <i>palustre</i>, <i>Philonotis</i> <i>fontana</i> or <i>Sphagnum</i> spp. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Herbs < 1 m; cover is intermittent to continuous. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Carex simulata</i> > 50% relative cover in the herbaceous layer (Potter 2005).</li>
+		
+		<li><i>Carex simulata</i> present and conspicuous (Boul et al. 2021b).</li>
+		
+		<li><i>Carex simulata</i> ranges from 25-65% cover (NatureServe 2019).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Basins or riparian meadows, seeps, fens, stream banks. Soils are often dark brown to black in color. Soils are deep and mucky from high organic content and are typically saturated to the surface. The USFWS Wetland Inventory (2012 national list) recognizes <i>Carex simulata</i> as a OBL plant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Sedge series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Carex simulata saturated herbaceous alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Wet grasses and forbs, Tule-Cattail
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Wet montane meadow, Wet subalpine or alpine meadow, Fen
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Freshwater marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Wet meadow
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>45.190.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate and Boreal Shrubland and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate and Boreal Freshwater Marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North American Freshwater Marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Western North America Wet Meadow and Low Shrub Carr
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Western Cordilleran montane-boreal summer-saturated meadow
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Carex simulata </i>is a robust, rhizomatous sedge with tufted culms to 90 cm. Plants are dioecious with few flowering individuals present; this characteristic may be useful for field identification because stands often appear as all-staminate or all-pistillate plants (Potter 2005). <br/>
+<br/>
+The National Vegetation Classification recognizes a <i>Carex simulata </i>Association throughout the western cordillera of North America at foothill and montane elevations in perennially saturated sites (NatureServe 2019). The ground surface is often hummocky and may 'quake' due to deep organic mats and subsurface groundwater (Hansen et al. 1995, Johnston 1987, Padgett et al. 1989, Youngblood et al. 1985, 1989). <br/>
+<br/>
+From Oregon to Wyoming, deep-water stands of <i>C. simulata </i>have deep mud and organic matter accumulations and sparsely to continuously distributed plants (Christy 2004). In California, herbaceous cover is generally more continuous and stands are less hydric than other montane alliances, such as the <i>Carex</i> (<i>utriculata, vesicaria</i>) or <i>Eleocharis quinqueflora </i>alliances (Potter 2005). <br/>
+<br/>
+In general, stands of this alliance are characterized by more or less continuous cover of grass-like plants: <i>Carex simulata</i> is dominant, but other typical species include <i>C. aquatilis, C. utriculata, C. nebrascensis, Juncus balticus</i>, and various forbs. (If these associated species are present, but <i>C. simulata</i> is absent, then the stand does not belong to this alliance) (NatureServe 2019). Stands develop from one or more rhizomatous individuals of <i>C. simulata, </i>which has dense root systems. Stands typically have low species richness, and there may be areas of mud, shallow water, litter, and/or high cover of <i>Sphagnum</i> spp. or other mosses between plants.<br/>
+<br/>
+The high cover and constancy of <i>Carex nebrascensis</i> in stands of northeastern California and the Sierra Nevada (Manning and Padget 1995, S. Smith 1998, Potter 2005) suggest that the <i>C. simulata</i> and <i>C. nebrascensis</i> alliances are closely allied ecologically. Stands of <i>C. simulata</i> may also intergrade with stands of <i>Eleocharis quinqueflora</i> or <i>C. limosa</i> alliances (NatureServe 2019). Further review of wet meadow and fen alliances is needed to determine if broader alliance designations combining related types are warranted. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Carex simulata</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Polycarpic perennial; herb; rhizomatous</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Transient</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; gravity; water/hydrological</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Stratification—winter </td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>Long-lived</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Low; episodic</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Fluvial processes rather than fire primarily disturb the alliance.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+            <p>The range of <i>Carex simulata</i> includes the Central California Coast (261A), Klamath Mountains (M261A), Mono (341D), and Northern California Coast (263A).</p>
+        
+
+        <ul class="text">
+        
+            <li><b>Modoc Plateau</b> (M261Gf). Stands in the Warner Mountains, which are not herb rich, occur mostly in perennially saturated seeps and springs (S. Smith 1998b).</li>
+        
+            <li><b>Sierra Nevada</b> (M261Ed-e, Eg-h, Ek-o, Eq-r, Et-u). Stands in the Lake Tahoe area (Beguin and Major 1975, Burke 1987, Nachlinger 1985) in the eastern Sierra Nevada, including the Carson Range (Manning and Padgett 1995, Weixelman et al. 1999), and elsewhere in the section (Potter 2005) occur in basin and transitional fens (Cooper and Wolf 2006). Potter (2005) suggested that stands typically are not found on the volcanic substrates in the high elevations north of Yosemite National Park.</li>
+        
+            <li><b>Southern Cascades</b> (M261Da, Dc-d, Df, Di-j, Dl-m). Stands occur at montane elevations (S. Smith 1998b) in basin and transitional fens (Cooper and Wolf 2006).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> <i>Carex simulata </i>stands appear to be relatively stable. They typically occur in extremely wet sites not attractive to livestock; however, they are susceptible to grazing, especially in drier areas (S. Smith 1998b, Potter 2005). Livestock trampling or disrupted water supplies associated with continuous grazing or a lowering water table allow stands to transition to <i>C. nebrascensis </i>stands (S. Smith 1998b). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Carex simulata [3], [4], [5], [6], [7], [8]</li>
+                
+                    <li>Carex simulata / Aulacomnium palustre [3]</li>
+                
+                    <li>Carex simulata - Carex utriculata [1], [2], [3]</li>
+                
+                    <li>Carex simulata - Carex vesicaria [2]</li>
+                
+                    <li>Carex simulata / Philonotis fontana [3]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Beguin, C.N.;Major, J. 1975</li>
+		
+		<li>[2] Burke, M.T. 1987</li>
+		
+		<li>[3] Cooper, D.J.;Wolf, E.C. 2006</li>
+		
+		<li>[4] Manning, M.E.;Padgett, W.G. 1995</li>
+		
+		<li>[5] Nachlinger, J.L. 1985</li>
+		
+		<li>[6] Potter, D.A. 2005</li>
+		
+		<li>[7] Smith, S. 1998b</li>
+		
+		<li>[8] Boul, R.;Keeler-Wolf, T.;Ratchford, J.;Haynes, T.;Hickson, D.;Yacoub, R.;Harbert, B.;Evens, J. 2021b</li>
+		
+		<li>Christy, J.A. 2004</li>
+		
+		<li>NatureServe, 2014+</li>
+		
+		<li>Padgett, W.G.;Youngblood, A.P.;Winward, A.H. 1989</li>
+		
+		<li>Weixelman, D.A.;Zamudio, D.C.;Zamudio, K.A. 1999</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/362/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Artemisia californica - (Salvia leucophylla)</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Artemisia</i> <i>californica</i> - (<i>Salvia</i> <i>leucophylla</i><span style="padding-left: .2em">)</span></span> Shrubland Alliance <br/>
+        <span class="subtitle">California sagebrush - (purple sage) scrub</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-1200 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S5
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G5
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA. Baja California, Mexico (TJM2)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>Yes
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2018/12/21
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/artemisia-californica_almaden_12-04_01.jpg', '/static/images/photos/shrub/artemisia-californica_ceanothus-ferrisiae_coyot021_ss.jpg', '/static/images/photos/shrub/artemisia-californica_eschscholzia_coyot033_ss.jpg', '/static/images/photos/shrub/artemisia-californica_eschscholzia_coyot053_ss.jpg', '/static/images/photos/shrub/artemisia-californica_eschscholzia_coyot070_je.jpg', '/static/images/photos/shrub/artemisia-californica_eschscholzia_coyot080_ss.jpg', '/static/images/photos/shrub/artemisia-californica_eschscholzia_coyot087_ss.jpg', '/static/images/photos/shrub/artemisia-californica_eschscholzia_coyot093_ss.jpg', '/static/images/photos/shrub/artemisia-californica_eschscholzia2_coyot053_ss.jpg', '/static/images/photos/shrub/artemisia-californica_eschscholzia-californica_crra007.jpg', '/static/images/photos/shrub/artemisia-californica_garapatasp_10-00_01.jpg', '/static/images/photos/shrub/artemisia-californica_garapatasp_10-00_02.jpg', '/static/images/photos/shrub/artemisia-californica_garapatasp_10-00_03.jpg', '/static/images/photos/shrub/artemisia-californica_ironmtntrail_01-10.jpg', '/static/images/photos/shrub/artemisia-californica_ptlobossp_montereyco_07-09_01.jpg', '/static/images/photos/shrub/artemisia-californica_eriogonum-fasciculatum_04-03_01.jpg', '/static/images/photos/shrub/artemisia-californica_eriogonum-fasciculatum_04-03_02.jpg', '/static/images/photos/shrub/artemisia-californica_eriogonum-fasciculatum_04-03_03.jpg', '/static/images/photos/shrub/artemisia-californica_eriogonum-fasciculatum_mcgintymtn_05-09_01.jpg', '/static/images/photos/shrub/salvia-leucophylla_chimineas_03-09_01.jpg', '/static/images/photos/shrub/salvia-leucophylla_chimineas_03-09_02.jpg', '/static/images/photos/shrub/salvia-leucophylla_nearmoorparkrdsamo_03-03_01.jpg', '/static/images/photos/shrub/salvia-leucophylla_potrerocynrd_03-10_01.jpg', '/static/images/photos/shrub/salvia-leucophylla_potrerocynrd_03-10_02.jpg', '/static/images/photos/shrub/salvia-leucophylla_presillardsamo_03-03_01.jpg', '/static/images/photos/shrub/salvia-leucophylla_presillardsamo_03-03_02.jpg', '/static/images/photos/shrub/salvia-leucophylla_thousandoakssamo_03-04_01.jpg', '/static/images/photos/shrub/salvia-leucophylla_thousandoakssamo_03-04_02.jpg', '/static/images/photos/shrub/salvia-leucophylla_thousandoakssamo_03-04_03.jpg', '/static/images/photos/shrub/artemisia-californica_eriogonum-fasciculatum_wfresno_06-05.jpg', '/static/images/photos/shrub/artemisia-californica_santarosaisland_03-2014_01.jpg', '/static/images/photos/shrub/artemisia-californica_santarosaisland_03-2014_02.jpg', '/static/images/photos/shrub/artemisia-californica_mmwd0358_s_mttamwatershed_06-05.jpg', '/static/images/photos/shrub/artemisia-californica_smat0007_montarasb_03-19.jpg', '/static/images/photos/shrub/artemisia-californica-salvia-leucophylla_san-mateo-co-pacifica_04-2021_01.jpg', '/static/images/photos/shrub/artemisia-californica-salvia-leucophylla_san-mateo-co-pacifica_04-2021_02.jpg', '/static/images/photos/shrub/artemisia-californica-salvia-leucophylla_san-mateo-co-pacifica_04-2021_03.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Artemisia</i> <i>californica</i> and/or <i>Salvia</i> <i>leucophylla</i> are dominant or co-dominant in the shrub canopy with <i>Adenostoma</i> <i>fasciculatum</i>, <i>Baccharis</i> <i>pilularis</i>, <i>Cleome</i> <i>isomeris</i>, <i>Diplacus</i> <i>aurantiacus</i>, <i>Encelia</i> <i>californica</i>, <i>Encelia</i> <i>farinosa</i>, <i>Ephedra</i> <i>californica</i>, <i>Ericameria</i> <i>linearifolia</i>, <i>Eriogonum</i> <i>cinereum</i>, <i>Eriogonum</i> <i>fasciculatum</i>, <i>Eriophyllum</i> <i>confertiflorum</i>, <i>Hesperoyucca</i> <i>whipplei</i>, <i>Isocoma</i> <i>menziesii</i>, <i>Keckiella</i> <i>cordifolia</i>, <i>Lonicera</i> <i>subspicata</i>, <i>Lotus</i> <i>scoparius</i>, <i>Malosma</i> <i>laurina</i>, <i>Opuntia</i> <i>littoralis</i>, <i>Rhamnus</i> <i>ilicifolia</i>, <i>Rhus</i> <i>integrifolia</i>, <i>Rhus</i> <i>ovata</i>, <i>Salvia</i> <i>apiana</i>, <i>Salvia</i> <i>mellifera</i> and <i>Toxicodendron</i> <i>diversilobum</i>. Emergent trees or tall shrubs may be present at low cover, including <i>Juglans</i> <i>californica</i>, <i>Quercus</i> <i>agrifolia</i> or <i>Sambucus</i> <i>nigra</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrub < 2 m or in two tiers with a second at < 5 m tall; canopy is intermittent to continuous. Herbaceous layer is variable both seasonally and annually. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Artemisia californica</i> > 3 times cover of <i>Baccharis pilularis</i> and other shrub species (Keeler-Wolf et al. 2003a).</li>
+		
+		<li><i>Artemisia californica</i> > 60% relative cover in the shrub canopy (Gordon and White 1994, Borchert et al. 2004).</li>
+		
+		<li><i>Artemisia californica</i> > 60% relative cover in the shrub canopy or <i>Malosma laurina</i> or <i>Diplacus aurantiacus</i> sometimes > 30% relative cover (Keeler-Wolf and Evens 2006).</li>
+		
+		<li>Both <i>Artemisia californica</i> and <i>Eriogonum fasciculatum</i> have 30%-60% relative cover in the shrub canopy (Gordon and White 1994).</li>
+		
+		<li><i>Salvia leucophylla</i> > 30% relative cover, often codominant with <i>Artemisia californica</i> (Keeler-Wolf and Evens 2006).</li>
+		
+		<li><i>Salvia leucophylla</i> > 60% relative cover in the shrub canopy (Borchert et al. 2004).</li>
+		
+		<li><i>Artemisia californica</i> > 50% relative cover in the shrub canopy (Buck-Diaz et al. 2021, Sikes et al. 2021).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Slopes of variable aspects, but usually steep and rarely flooded, low-gradient deposits along streams. Soils are alluvial or colluvial derived.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>California sagebrush series, California sagebrush-California buckwheat series, Purple sage series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Artemisia californica shrubland alliance, Artemisia californica-Eriogonum fasciculatum shrubland alliance, Salvia leucophylla shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Riversidean alluvial scrub, California buckwheat, Sage, California sagebrush
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Northern coastal bluff scrub, Southern coastal bluff scrub, Central (Lucian) coastal scrub, Venturan coastal sage scrub, Diegan coastal sage scrub, Diablan sage scrub, Riversidian upland sage scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Coastal sage scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Coastal scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>32.015.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Mediterranean Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Mediterranean Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>California Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>California Coastal Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Central and South Coastal Californian coastal sage scrub
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Artemisia californica </i>is a much-branched shrub up to 2 m tall with shallow roots. Leaves have a strong aroma and are gray green, soft, and entire to divided into narrow, linear segments. Leaves are drought deciduous and seasonally dimorphic. Leaves, shrub litter, and soil below the shrubs contain chemicals that inhibit germination or growth of some plants. Herbivores and seed eaters may contribute to conspicuous bare zones seen at the edge of shrub crowns. Seeds of these fall-blooming plants are dispersed in the winter and spring. They germinate best when fresh under high light conditions. Seeds germinate in canopy openings and seedlings suffer high mortality from herbivory (Montalvo 2002a). <br/>
+<br/>
+<i>Eriogonum fasciculatum </i>is a semi-woody, multi-stemmed shrub with woody, many-branched roots that penetrate 1.5 m in depth. Plants often occur on coarse-textured soils that may be moderately saline. Plants lose some leaves in the dry season and most leaves during severe drought. Plants flower from early spring through summer. Ants, wind, and water disperse seeds. Seedling success is high in wet years. Seed germination requires light (Montalvo 2002b). <br/>
+<br/>
+<i>Salvia leucophylla </i>is an erect shrub with shallow roots that grows to 1.5 m. Twigs and leaves are highly aromatic. Plants produce numerous volatile compounds that may be important in herbivore or pathogen defense. Plants are drought tolerant and leaves dry during periods of water stress. Ants and gravity disperse the seeds, which collect in the soil as a seed bank. Seedlings establish in clearings among older shrubs when soils are moist. Plants sprout from the base and are highly variable among populations. Recruitment is primarily by seed. <br/>
+<br/>
+This alliance occurs in the Coast, Peninsular, and Transverse ranges and varies from relatively hot, dry conditions to sites closer to the coast within the fog belt. <br/>
+<br/>
+Stands strongly dominated by <i>Artemisia californica</i> are found particularly on steep slopes and in high abundance on protected, north-facing hillsides. Closer to the coast in the northern portion of its range, <i>A. californica </i>commonly mixes with <i>Baccharis pilularis </i>and transitions into the <i>Baccharis pilularis </i>alliance when that species becomes co-dominant. Farther inland and in drier portions of the southern coastal area, <i>A. californica </i>mixes with <i>Eriogonum fasciculatum </i> where both co-dominate (Rundel 2007).<br/>
+<br/>
+Stands codominated by <i>Artemisia californica</i> and <i>Eriogonum fasciculatum</i> commonly occur well inland of the fog belt and usually on fine-textured soils developed from granitic or sedimentary rocks. They often interface with annual grasslands or <i>Quercus agrifolia </i>woodlands on slopes with deeper soils and transition to xeric chaparral such as the <i>Adenostoma fasciculatum </i>alliance on rockier, higher slopes. In more mesic settings on rockier soil, often closer to the coast, <i>Salvia mellifera </i>increases in importance, which shifts stands to the <i>Artemisia californica - Salvia mellifera </i>alliance (Mooney 1977, Rundel 2007).<br/>
+<br/>
+Stands that are strongly dominated <i>Salvia leucophylla</i> are largely endemic to the Venturan coastal scrub of Axelrod (1978) and Westman (1981a, b) in Santa Barbara and Ventura Counties. Some associations are found commonly near the coast, such as those with <i>Eriogonum cinereum </i>and <i>Malosma laurina; </i>some are found commonly on north-facing slopes, such as those with <i>Artemisia californica </i>(Kirkpatrick and Hutchinson 1977, Keeler-Wolf and Evens 2006). Rundel (2007) discussed the ecological segregation of stands of <i>Salvia mellifera </i>and <i>S. leucophylla. </i>Sometimes sharp boundaries are not discernable between the <i>S. leucophylla </i>scrub and other coastal scrub types, as occurrence may be tied to past fire history and chance recruitment after fire (Kirkpatrick and Hutchinson 1977). <br/>
+<br/>
+This alliance merges the <i>Artemisia californica</i>, <i>Artemisia californica - Eriogonum fasciculatum</i>, and <i>Salvia leucophylla</i> alliances that were treated separately in the 2009 book, <i>A Manual of California Vegetation, Second Edition</i>. A southern California ecoregional analysis conducted by VegCAMP showed much overlap in species composition of the three alliances merged here, further suggesting the need to treat them as a single alliance (VegCAMP, in progress). </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Artemisia californica</th>
+			
+		
+			
+			<th>Salvia leucophylla</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Shrub; drought deciduous</td>
+			
+		
+			
+			<td>Shrub; drought deciduous, evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Medium to long</td>
+			
+		
+			
+			<td>Long</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Wind</td>
+			
+		
+			
+			<td>Animal; wind</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Chemical (for some); none (photoperiod)</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Underground structures</td>
+			
+		
+			
+			<td>Underground structures (variable by geography)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-sensitive; canopy architecture susceptible; no/low sprouter</td>
+			
+		
+			
+			<td>Fire-sensitive; high flammability; medium/high sprouter to fire-hardy/high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>5-25+ years</td>
+			
+		
+			
+			<td>5-50 years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Low to medium</td>
+			
+		
+			
+			<td>Low to high (variable)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Moderate</td>
+			
+		
+			
+			<td>Sprouting ability geographically variable</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text"></div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Aa, Ae-l). Stands characterized by <i>Artemisia californica</i> are described for Cone Peak Gradient RNA (Cheng 2004), mapped along the Salinas River (Aerial Information Systems 2008), and occur generally within the section (Borchert et al. 2004).  Stands dominated by <i>Salvia leucophylla</i> exist in the Los Padres National Forest, including the Santa Lucia Range and Sierra Madre Mountains (Borchert et al. 2004). Most are within a few miles of the coast.</li>
+        
+            <li><b>Central California Coast Ranges</b> (M262Aa-f, Ah, Aj). Stands dominated by <i>Artemisia californica</i>  or co-dominated by <i>A. californica</i> and <i>Eriogonum fasciculatum</i>  are described on serpentine at the Coyote Ridge area (Evens and San 2004), on sedimentary rock in the San Benito Mountain area (Evens et al. 2006a) of the Diablo Range, and on volcanics at Pinnacles National Monument (Kittel et al. 2012). Stands are also in the Gabilan Range (AIS, 2006 and 2007d). Stands have been mapped in Canada de los Osos ER in Santa Clara County (CDFG 2008).   Stands were also sampled and mapped in the Panoche Hills (CNPS 2018) and in the mountains surrounding the Carrizo Plain (Buck-Diaz and Evens 2011). Stands co-dominated by <i>Eriogonum fasciculatum</i> in Alameda Co. are mostly inland and not strongly influenced by the summer maritime temperatures.
+
+Stands dominated by <i>Salvia leucophylla </i>occur well inland in the Caliente Range overlooking the Carrizo Plain, where they are common (Buck and Evens 2011b). These and similar stands in the Cuyama Valley may be co-dominated by <i>Eriogonum fasciculatum, Hesperoyucca whipplei,</i> or <i>Artemisia californica.</i></li>
+        
+            <li><b>Northern California Coast</b> (263Ag, Ak-l). Stands dominated by <i>Artemisia californica</i> are described for Point Reyes National Seashore and associated parks (Keeler-Wolf et al. 2003a), but stands were uncommon in mapping projects through other areas of Marin County (Buck and Evens 2010, Evens and Ketner 2006). A small stand was sampled in Sonoma County on hills just above the coast near Ft. Ross (Klein et al 2015).</li>
+        
+            <li><b>Southern California Coast</b> (261Ba-j). Stands dominated by <i>Artemisia californica</i> occur throughout the section. They are described for the Santa Monica Mountains (Keeler-Wolf and Evens 2006), Rancho Palos Verdes (Verdone and Evens 2010), Santa Ynez Mountains, western Transverse Ranges (Borchert et al. 2004), and coastal San Diego Co. (Evens and San 2005, Sproul et al. 2011). Many stands were sampled and classified as part of an effort to map the northern Channel Islands (Rodrigues et al. 2017). Stands were mapped along the Santa Clara River (Stillwater Sciences 2007a). Stands are extensive in Cabrillo National Monument (Klein and Keeler-Wolf 2010).  
+
+Stands co-dominated by <i>Artemisia californica</i> and <i>Eriogonum fasciculatum</i> occur across most of the section. Described stands include those from Santa Monica Mountains in Los Angeles and Ventura Cos. (Keeler-Wolf and Evens 2006) and coastal San Diego Co. (Evens and San 2005 and AECOM 2019). Associations of this type were mapped extensively in the Santa Susanas (Reyes et al. 2019) and in Orange County (AECOM 2013). The shift between stronger dominance <i>Artemisia californica</i> to co-dominance with <i>Eriogonum fasciculatum</i> in this coastal section has been related to local exposure and dryness (Sproul et al 2011).
+
+Stands dominated by <i>Salvia leucophylla</i> occur in the coastal range surrounding Jalama Creek in Santa Barbara County (WRA 2017), in the Santa Monica Mountains (Keeler-Wolf and Evens 2006), Rancho Palos Verdes (Verdone and Evens 2010), and generally in the section (Kirkpatrick and Hutchinson 1977), including Orange County (AECOM 2013). However, stands become rare south of Orange Co. and are not known from the Channel Islands.</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Ba-d, Bf, Bj-l, Bn-o). Stands are described for Antonia Canyon (Hanes et al. 1989), Gavilan Hills (Boyd 1983), Purissima Hills (Cole 1980), central San Diego Co. (Evens and San 2005, Sproul et al 2011, and AECOM 2016), western Riverside Co. (White and Padley 1997, Klein and Evens 2005), and generally within the section (DeSimone and Burk 1992, Gordon and White 1994, Kirkpatrick and Hutchinson 1977).  Stands from the Santa Ana Mountains (Gordon and White 1994) and throughout the western and lower elevation portions of the section (Borchert et al. 2004, Kirkpatrick and Hutchinson 1977, Malanson 1984, White et al. 1993) mostly have mixed canopies which include, but aren’t necessarily dominated by, <i>Salvia leucophylla</i>.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> <i>Artemisia californica </i>and <i>Eriogonum fasciculatum </i>decrease with increased fire frequency, presence of non-native grasses, and air pollution (Minnich and Dezzani 1998, Westman 1979a, 1983). Successful restoration requires conditions where shrubs can establish, mature, and develop seed banks (Montalvo 2002a, 2002b).
+
+At Santa Monica Mountains, <i>Salvia leucophylla </i>frequently colonizes areas that have been cleared of either chaparral species, such as <i>Adenostoma fasciculatum, </i>or coastal scrub species, such as <i>Artemisia californica</i>. Seedling recruitment is successful in a variety of settings. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+                <p>Dominated by a Single Shrub</p>
+            
+            <ul class="text">
+                
+                    <li>Artemisia californica [1], [5], [6], [9], [11], [12], [14], [15], [16], [17], [18], [19], [20], [21], [22], [23], [24], [25]</li>
+                
+                    <li>Artemisia californica / Amsinckia menziesii [10]</li>
+                
+                    <li>Artemisia californica / Eschscholzia californica [8]</li>
+                
+                    <li>Artemisia californica / Nassella (pulchra) [21], [22], [23], [24], [25]</li>
+                
+                    <li>Salvia leucophylla [7], [12], [14], [16], [23]</li>
+                
+            </ul>
+        
+            
+                <p>Mixed Stands with Other Shrubs</p>
+            
+            <ul class="text">
+                
+                    <li>Artemisia californica - Ceanothus ferrisiae [8]</li>
+                
+                    <li>Artemisia californica - Cleome isomeris [21]</li>
+                
+                    <li>Artemisia californica - Diplacus aurantiacus [12], [13], [15], [18], [24], [25]</li>
+                
+                    <li>Artemisia californica - Eriogonum cinereum [12], [14]</li>
+                
+                    <li>Artemisia californica - Eriogonum fasciculatum [9], [10], [12], [16], [17], [20], [23]</li>
+                
+                    <li>Artemisia californica - Eriogonum fasciculatum - Ephedra californica [11]</li>
+                
+                    <li>Artemisia californica - Eriogonum fasciculatum - Opuntia littoralis / Dudleya (edulis) [15], [18]</li>
+                
+                    <li>Artemisia californica - Eriogonum fasciculatum - Rhus ovata [5]</li>
+                
+                    <li>Artemisia californica - Eriogonum fasciculatum - Salvia apiana [1], [3], [10]</li>
+                
+                    <li>Artemisia californica - Eriogonum fasciculatum - Salvia leucophylla [12]</li>
+                
+                    <li>Artemisia californica - Eriogonum fasciculatum - Salvia mellifera [12]</li>
+                
+                    <li>Artemisia californica - Eriogonum fasciculatum - Viguiera laciniata [15]</li>
+                
+                    <li>Artemisia californica - Keckiella cordifolia [5]</li>
+                
+                    <li>Artemisia californica - Lepidospartum squamatum [11]</li>
+                
+                    <li>Artemisia californica - Lotus scoparius [3]</li>
+                
+                    <li>Artemisia californica - Opuntia littoralis [14], [22]</li>
+                
+                    <li>Artemisia californica - Salvia brandegeei [21]</li>
+                
+                    <li>Artemisia californica - Salvia leucophylla [5], [23]</li>
+                
+                    <li>Artemisia californica - Salvia leucophylla - Eriogonum cinereum / Nassella spp. [12]</li>
+                
+                    <li>Artemisia californica - (Salvia leucophylla) / Leymus condensatus [1], [12], [14], [23]</li>
+                
+                    <li>Salvia leucophylla - Artemisia californica [1], [2], [4], [7], [12], [14], [16], [18]</li>
+                
+                    <li>Salvia leucophylla - Eriogonum cinereum / annual herb [12]</li>
+                
+                    <li>Salvia leucophylla - Malosma laurina [1]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Kirkpatrick, J.B.;Hutchinson, C.F. 1977</li>
+		
+		<li>[2] Malanson, G.P. 1984</li>
+		
+		<li>[3] DeSimone, S.A.;Burk, J.H. 1992</li>
+		
+		<li>[4] White, T.;Gordon, H.J.;Borchart, M. 1993</li>
+		
+		<li>[5] Gordon, H.J.;White, T.C. 1994</li>
+		
+		<li>[6] Keeler-Wolf, T .;Schirokauer, D.;Meinke, J.;van derLeeden, P. 2003a</li>
+		
+		<li>[7] Borchert, M.;Lopez, A.;Bauer, C.;Knowd, T. 2004</li>
+		
+		<li>[8] Evens, J.;San, S. 2004</li>
+		
+		<li>[9] Evens, J.;San, S. 2005</li>
+		
+		<li>[10] Klein, A.;Evens, J. 2005</li>
+		
+		<li>[11] Evens, J.M.;Klein, A.;Taylor, J.;Hickson, D.;Keeler-Wolf, T. 2006</li>
+		
+		<li>[12] Keeler-Wolf, T.;Evens, J. 2006</li>
+		
+		<li>[13] Buck, J.;Evens, J. 2010</li>
+		
+		<li>[14] Verdone, L.;Evens, J. 2010</li>
+		
+		<li>[15] Sproul, F.;Keeler-Wolf, T.;Gordon-Reedy, P.;Dunn, J.;Klein, A.;Harper, K. 2011</li>
+		
+		<li>[16] Buck-Diaz, J.;Evens, J. 2011b</li>
+		
+		<li>[17] Kittel, G.;Reyes, E.;Evens, J.;Buck, J.;Johnson, D. 2012</li>
+		
+		<li>[18] AECOM, 2013</li>
+		
+		<li>[19] HDR, 2014b</li>
+		
+		<li>[20] CNPS Vegetation Program, 2015</li>
+		
+		<li>[21] Rodriguez, D.;Sikes, K.;Keeler-Wolf, T.;Kittel, G.;Curtis, J.;Curley, C.;Evens, J. 2017</li>
+		
+		<li>[22] Dixon, P. 2019</li>
+		
+		<li>[23] Reyes, E.;Johnson, D.;Glass, A. 2019</li>
+		
+		<li>[24] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>[25] Sikes, K.;Buck-Diaz, J.;Evens, J. 2021</li>
+		
+		<li>Axelrod, D.I. 1978</li>
+		
+		<li>Barbour, M.G. 1994b</li>
+		
+		<li>Barry, W.J. 1989a</li>
+		
+		<li>Barry, W.J. 1989b</li>
+		
+		<li>DeSimone, S.A.;Zedler, P.H. 1999</li>
+		
+		<li>Eliason, S.A.;Allen, E.B. 1997</li>
+		
+		<li>Gray, J.T. 1982</li>
+		
+		<li>Gray, J.T. 1983a</li>
+		
+		<li>Halligan, J.P. 1973</li>
+		
+		<li>Jones and Stokes Associates, 1993</li>
+		
+		<li>Keeler-Wolf, T.;Thomas, K. 2000</li>
+		
+		<li>Keeley, J.E. 1988</li>
+		
+		<li>Keeley, J.E.;Keeley, S.C. 1988</li>
+		
+		<li>Malanson, G.P.;O'Leary, J.F. 1982</li>
+		
+		<li>Malanson, G.P.;O'Leary, J.F. 1995</li>
+		
+		<li>Malanson, G.P.;Westman, W.E. 1991</li>
+		
+		<li>Minnich, R.A.;Dezzani, R.J. 1998</li>
+		
+		<li>Montalvo, A.M. 2002a</li>
+		
+		<li>Montalvo, A.M. 2002b</li>
+		
+		<li>Mooney, H.A. 1977</li>
+		
+		<li>O'Leary, J.F. 1988</li>
+		
+		<li>O'Leary, J.F. 1990</li>
+		
+		<li>O'Leary, J.F. 1995</li>
+		
+		<li>Pase, C.P.;Brown, D.E. 1982</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Black, H.;Bleich, V.C.;Mincks, J.W. 1980</li>
+		
+		<li>Shiflet, T.N. 1994</li>
+		
+		<li>Stillwater Sciences and URS, 2007</li>
+		
+		<li>Thorne, R.F. 1976</li>
+		
+		<li>Westman, W.E. 1979a</li>
+		
+		<li>Westman, W.E. 1981a</li>
+		
+		<li>Westman, W.E. 1981b</li>
+		
+		<li>Westman, W.E. 1981c</li>
+		
+		<li>Westman, W.E. 1983</li>
+		
+		<li>White, S.D. 1995</li>
+		
+		<li>White, S.D.;Padley, W.D. 1997</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/566/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

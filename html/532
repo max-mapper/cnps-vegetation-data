@@ -1,0 +1,1305 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Juncus (effusus, patens) - Carex (pansa, praegracilis)</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Juncus</i> (<i>effusus</i>, <i>patens</i><span style="padding-left: .2em">)</span> - <i>Carex</i> (<i>pansa</i>, <i>praegracilis</i><span style="padding-left: .2em">)</span></span> Herbaceous Alliance <br/>
+        <span class="subtitle">Soft and western rush - Sedge marshes</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Herb
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-1600 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3S4
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G4?
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: AZ?, CA, OR, WA?. Mexico. (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2022/07/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/herb/carex-pansa_lanpheredunes_09-12.jpg', '/static/images/photos/herb/carex-pansa_w-distichlis_juncus-arcticus_santarosais_08-24-11.jpg', '/static/images/photos/herb/carex-pansa-praegracilis_santarosaisland_05_19_2013b_sri_2235_%20northeast.jpg', '/static/images/photos/herb/carex-pansa-praegracilis_sonomacoaststpk_05_14_2014_p1030019.jpg', '/static/images/photos/herb/carex-serratodens_05-04_01.jpg', '/static/images/photos/herb/carex-serratodens_05-04_02.jpg', '/static/images/photos/herb/juncus-effusus_hwy1_07-10_01.jpg', '/static/images/photos/herb/juncus-effusus_pore_01-01_01.jpg', '/static/images/photos/herb/juncus-effusus_pore_12-02_01.jpg', '/static/images/photos/herb/juncus-patens_pore_12-02_01.jpg', '/static/images/photos/herb/juncus-effusus_smat0107_post-wavecrestosp_05-2019.jpg', '/static/images/photos/herb/juncus-effusus-patens-carex-pansa-praegracilis_ptreyes_05-2006_01.jpg', '/static/images/photos/herb/juncus-effusus-patens-carex-pansa-praegracilis_ptreyes_05-2006_02.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Carex</i> <i>amplifolia</i>, <i>Carex</i> <i>densa</i>, <i>Carex</i> <i>gynodynama</i>, <i>Carex</i> <i>pansa</i>, <i>Carex</i> <i>praegracilis</i>, <i>Carex</i> <i>serratodens</i>, <i>Carex</i> <i>subbracteata</i>, <i>Carex</i> <i>tumulicola</i>, <i>Juncus</i> <i>covillei</i>, <i>Juncus</i> <i>effusus</i>, <i>Juncus</i> <i>hesperius</i>, <i>Juncus</i> <i>occidentalis</i>, <i>Juncus</i> <i>patens</i> and/or <i>Juncus</i> <i>phaeocephalus</i> is dominant or co-dominant in the herbaceous layer with <i>Agoseris</i> <i>heterophylla</i>, <i>Argentina</i> <i>egedii</i>, <i>Cirsium</i> <i>vulgare</i>, <i>Holcus</i> <i>lanatus</i>, <i>Hypochaeris</i> <i>radicata</i>, <i>Juncus</i> <i>arcticus</i>, <i>Juncus</i> <i>bufonius</i>, <i>Leymus</i> <i>triticoides</i>, <i>Lolium</i> <i>perenne</i>, <i>Mentha</i> <i>pulegium</i>, <i>Plantago</i> <i>lanceolata</i> and <i>Ranunculus</i> <i>californicus</i>. Emergent shrubs may be present at low cover, including <i>Baccharis</i> <i>pilularis</i> or <i>Rubus</i> <i>ursinus</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Herbs < 1.3 m; cover is intermittent to continuous. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Juncus effusus</i> > 50% relative cover in the herbaceous layer (Keeler-Wolf et al. 2003a, Evens and Kentner 2006, Klein et al. 2007).</li>
+		
+		<li><i>Juncus effusus</i> > 60% relative cover in the herbaceous layer (Evens and San 2005).</li>
+		
+		<li><i>Juncus effusus, J. patens, J. covillei, J. hesperius, J. occidentalis, </i>and/or <i>Juncus phaeocephalus</i> > 50% relative cover or > 30% relative cover with <i>Carex densa, Holcus lanatus, Hypochaeris radicata, J. bufonius, </i>and <i>Vulpia bromoides</i> in the herbaceous layer (Buck-Diaz et al. 2021).</li>
+		
+		<li><i>Carex densa, C. praegracilis, C. pansa, C. subbracteata,</i>and/or <i>C. tumulicola</i> > 50% relative cover or > 30% relative cover with <i>Holcus lanatus, Lolium perenne, Mentha pulegium, Plantago lanceolata, Juncus</i> spp. and <i>Ranunculus californicus</i> in wet meadows and hillside depressions (Buck-Diaz et al. 2021, Klein et al. 2015).</li>
+		
+		<li><i>Carex amplifolia</i> > 50% relative cover with <i>Carex gynodynama</i> and <i>Juncus</i> spp. in wet meadows (Buck-Diaz et al. 2021).</li>
+		
+		<li><i>Carex serratodens</i> > 50% relative cover or > 30% relative cover with <i>Agoseris heterophylla, Juncus arcticus, J. occidentalis</i> spp. Or <i>Leymus triticoides</i> in wet meadows and seeps (Buck-Diaz et al. 2021, Evens and San 2005, Klein et al. 2015).</li>
+		
+		<li><i>Carex amplifolia, C. densa, C. pansa, C. praegracilis, C. serratodens, C. subbracteata, C. tumulicola, Juncus effusus, J. patens, J. covillei, J. hesperius, J. occidentalis</i>, and/or <i>J. phaeocephalus</i> > 30% relative cover individually or > 50% relative cover in combination. <i>Holcus lanatus, Hypochaeris radicata, Juncus bufonius, Lolium perenne</i>, and <i>Vulpia bromoides</i> may be > 30% relative cover (Buck-Diaz et al. 2021, Sikes et al. 2021).</li>
+		
+		<li><i>Carex pansa </i>or <i>Carex praegracilis</i> is > 30% relative cover in the herbaceous layer (Klein et al. 2015, Rodriguez et al. 2017).</li>
+		
+		<li><i>Carex praegracilis, C. pansa</i>, or <i>C. tumulicola</i> > 50% relative cover, or > 30% relative cover with <i>Holcus lanatus</i> or <i>Lolium perenne</i> (Buck-Diaz et al. 2021).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Seasonally saturated soils on flats, depressions, or gentle slopes including in stock ponds, minor depressions, wet meadows, and seeps near the coast or farther inland. Soils are clayey or silty alluvium. The USACE Wetland Inventory (2018 national list) recognizes <i>Carex praegracilis, Carex serratodens, Juncus effusus</i> and <i>Juncus patens</i> as FACW plants,  <i>Carex pansa</i> as a FACU/FAC plant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Sedge series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Juncus effusus seasonally flooded herbaceous alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Wet grasses and forbs
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Freshwater seep, Freshwater marsh, Vernal marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Freshwater marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Fresh emergent wetland, Wet meadow
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>45.570.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate and Boreal Shrubland and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate and Boreal Freshwater Marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North American Freshwater Marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Western North American Freshwater Marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Vancouverian coastal/tidal marsh and meadow
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Juncus effusus </i>is a perennial rush that forms distinct, often large clumps with stems that grow to 1.3 m. Plants produce abundant seed that annually adds to a seed bank. Seedlings have autotoxic sensitivity to dead tissues of adult plants that reduces growth and shoot development (Ervin and Wetzel 2000). The <i>J. effusus </i>complex is circumpolar in range, and botanists have treated it in various ways. We follow Brooks and Clements (2000) in not recognizing seven infraspecific taxa proposed by different authors for California plants.<br/>
+<br/>
+<i>Juncus patens </i>is a perennial rush species that forms both distinct clumps and short rhizomes of plants, up to 1 m in height. Most plants are characteristically blue-green in color and are easily differentiated from other rushes, even at a distance. <i>J. patens </i>can be dominant in wetter areas within coastal prairie and is often associated with coast sedge (<i>Carex obnupta</i>), brown-head rush (<i>Juncus phaeocephalus</i>), toad rush (<i>Juncus bufonius</i>), Italian rye grass (<i>Lolium perenne</i>), and bull clover (<i>Trifolium wormskioldii</i>).<br/>
+<br/>
+<i>Juncus phaeocephalus </i>is distributed in meadows and wetland borders in coastal regions from Los Angeles County to Oregon. It is a short stature rush to 1 ½ feet high that can form dense stands by sending out creeping rhizomes. Brownhead rush looks like a sedge or an iris because it has flattened instead of round stems and leaves.<br/>
+<br/>
+<i>Carex pansa </i>is a rhizomatous sedge species that grows coastally from the California central coast and Channel Islands north to British Columbia. It has clustered inflorescences at the stem tips and the flower bracts are dark brown, shiny, pointed, and sometimes white-margined.  <i>C. pansa</i> and <i>C. praegracilis</i> grow in similar situations along the coast and can be difficult to distinguish from each other.  However, <i>C. praegracilis</i> is a more widely ranging species and may dominate other alliances of interior and montane California (UCB 2008).  It also is rhizomatous, though it has lighter brown flower bracts and light margins. It can grow to 1 m tall, while <i>C. pansa </i> usually only grows to 0.4 m tall (Wilson et al. 2008).<br/>
+<br/>
+<i>Carex densa </i>grows from cismontane California to Washington in seasonally wet and riparian sites. Its wrinkled leaf sheaths sometimes appear spotted. Its inflorescences are clustered as head-like spikes with pistillate spikelets that are brown with lighter, ciliate margins. <i>C. densa </i>is widely variable and has been subdivided into as many as four species (Ball and Reznicek 2002).<br/>
+<br/>
+<i>Carex serratodens </i>is a somewhat tufted perennial to 130 cm tall. It has a terminal staminate spikelet that is above two or more pistillate spikelets. Plants grow in wet places in California, and the species is rare in Oregon. It appears on wet-to-moist serpentine substrates (Alexander et al. 2007). Stands occur in gently sloping seeps, broad meadows, and narrow riparian stringers with a mixture of plants including serpentine endemics.<br/>
+<br/>
+Stands of various <i>Juncus </i>spp. and <i>Carex </i>spp. occur scattered across California in wetland flats and depressions. Ecological relationships between caespitose to somewhat rhizomatous rushes and sedges along the coast appear close, therefore the species (e.g., <i>C. densa, C. pansa, C. praegracilis, C. serratodens, J. effusus, J. patens </i>), which were previously treated in separate alliances in the 2009 book, <i>A Manual of California Vegetation, Second Edition</i> have been combined along with other rushes and sedges in this broader alliance concept. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Carex amplifolia</th>
+			
+		
+			
+			<th>Carex densa</th>
+			
+		
+			
+			<th>Carex gynodynama</th>
+			
+		
+			
+			<th>Carex pansa</th>
+			
+		
+			
+			<th>Carex praegracilis</th>
+			
+		
+			
+			<th>Carex serratodens</th>
+			
+		
+			
+			<th>Carex subbracteata</th>
+			
+		
+			
+			<th>Carex tumulicola</th>
+			
+		
+			
+			<th>Juncus covillei</th>
+			
+		
+			
+			<th>Juncus effusus</th>
+			
+		
+			
+			<th>Juncus hesperius</th>
+			
+		
+			
+			<th>Juncus occidentalis</th>
+			
+		
+			
+			<th>Juncus patens</th>
+			
+		
+			
+			<th>Juncus phaeocephalus</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Polycarpic perennial; herb; rhizomatous</td>
+			
+		
+			
+			<td>Polycarpic perennial; herb; rhizomatous</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Polycarpic perennial; herb; rhizomatous</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Polycarpic perennial; herb; rhizomatous</td>
+			
+		
+			
+			<td>Perennial; herb; rhizomatous</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Transient</td>
+			
+		
+			
+			<td>Transient</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Short</td>
+			
+		
+			
+			<td>Short</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Long</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Long</td>
+			
+		
+			
+			<td>Long</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Animal; water/hydrological</td>
+			
+		
+			
+			<td>Animal; gravity; water/hydrological</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Animal; gravity; water/hydrological</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Animal; gravity; water/hydrological</td>
+			
+		
+			
+			<td>Gravity; expulsion from capsule</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Light</td>
+			
+		
+			
+			<td>Light; inundation; stratification—winter</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Underground structures (rhizomes)</td>
+			
+		
+			
+			<td>Underground structures (rhizomes)</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Underground structures; rhizomes</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Underground structures; rhizomes</td>
+			
+		
+			
+			<td>Underground structures; rhizomes</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Fire-sensitive; no/low sprouter to high sprouter</td>
+			
+		
+			
+			<td>Fire-sensitive to Fire-hardy; no/low sprouter to high sprouter</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+			
+			<td>Fire-sensitive</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>Yes</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Life of plant</td>
+			
+		
+			
+			<td>Life of plant</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Long-lived</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Long-lived</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Low (seed germination); High (vegetative)</td>
+			
+		
+			
+			<td>Low (seed germination); High (vegetative)</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>High</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>High</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Medium</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Fluvial processes rather than fire primarily disturb stands.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+            <p>The range of <i>Carex praegracilis</i> and <i>Juncus effusus </i>are much wider than this designated alliance. More sampling is needed to determine alliance placement and association definition of the more inland stands.</p>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Aa-l). Stands are relatively widespread along the coast in this section, with a more restricted distribution further inland (Buck-Diaz et al. 2021, Evens and San 2005). More common associations occur in saturated wetlands including meadows, depressions, and draws, while rare associations occur in serpentine seeps. Pickart and Barbour (2007) described dune swales along the Central Coast as having stands dominated by <i>Carex</i> and <i>Juncus species</i>, including <i>C. pansa, C. praegracilis, J. breweri</i>, and <i>J. textilis</i>. McBride and Stone (1976) identified the <i>Carex pansa</i> and <i>Carex pansa-Baccharis pilularis</i> types from the Monterey Peninsula, where they considered stands of <i>C. pansa</i> successional to <i>B. pilularis</i> stands. Stromberg et al. (2001) also noted areas of high <i>C. pansa</i> cover at Bird Rock on the Monterey Co. coast.</li>
+        
+            <li><b>Central California Coast Ranges</b> (M262Aa-k). <i>Carex serratodens</i> stands sampled in a serpentine seep at Coyote Ridge in Santa Clara County (Sikes et al. 2021), as well as in the Clear Creek Management Area (Evens et al. 2006).</li>
+        
+            <li><b>Great Valley</b> (262Aa, Ag, Al, Ao, Ar-u). Small stands of <i>Juncus </i>spp. observed in the Sacramento-San Joaquin River delta include those adjacent to stands of the <i>Schoenoplectus acutus</i> alliance.</li>
+        
+            <li><b>Klamath Mountains</b> (M261Ac, Ai, Ak, Am, As, Au). Stuart et al. (1996) sampled stands with <i>J. patens </i>and <i>Poa pratensis</i> at Castle Crags State Park, though, we need more sampling and analysis to understand the ecological similarities between stands of this and other alliances.</li>
+        
+            <li><b>Northern California Coast</b> (263Aa-m). Stands are relatively widespread along the coast in this section, with a more restricted distribution further inland (Klein et al. 2015, Buck-Diaz et al. 2021). Stands occur in seasonally moist, low-lying areas which may retain moisture throughout much of the growing season such as coastal terraces, seeps, springs, grazed pasturelands, and pond edges (Keeler-Wolf et al. 2003a, Buck-Diaz et al. 2019, Evens and Kentner 2006). However, stands of this alliance are in drier sites than those of <i>Carex obnupta </i>and <i>Scirpus microcarpus.</i> Includes stands at Hearn Gulch and Navarro Point Preserve in Mendocino Co. occuring in wetland areas (CNPS unpublished data 2020). Stands in the Humboldt Bay area occupy drifting sands and borders of estuaries along the coast (A. Pickart, pers. comm. 2007).</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Ba-f). Stand dominated by <i>Juncus patens</i> sampled in Sonoma Co. (Klein et al. 2015). Stand dominated by <i>Carex serratodens</i> sampled in Butts Canyon, Napa County (CNPS unpublished data, 2002)</li>
+        
+            <li><b>Northern California Interior Coast Ranges</b> (M261Ca-c). Stands of <i>Carex serratodens</i> observed in Frenzel Creek RNA (Keeler-Wolf 1983, see Cheng 2004).</li>
+        
+            <li><b>Sierra Nevada</b> (M261Es). Stand of <i>Carex densa</i> sampled in a small fresh water spring in granitic rock in the Piute Mountains (VegCAMP 2015a).</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fa-e). Infrequent inland stands occur in the northern subsections (Klein et al. 2007). Stands of <i>Carex serratodens</i> occur at the Peoria Wildlife Area south of New Melones Lake (Evens et al. 2004).</li>
+        
+            <li><b>Southern California Coast</b> (261Ba-d, Bf, Bh-i). Stands occupy wet flats and seeps, including in the Santa Monica Mountains (Keeler-Wolf and Evens 2006) and Channel Islands including San Miguel and Santa Rosa islands (Rodriguez et al. 2017).</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Ba, Bn-o). Uncommon stands in central San Diego Co. (Evens and San 2005, Moran 2004a, 2004b) inhabit saturated wetlands such as depressions, draws, ponds, and seeps.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> The alliance occurs from slightly brackish to freshwater wetlands to moist meadows that are of natural origin or are sometimes human-made. Long-term grazing by cattle is apparent, particularly in some <i>Juncus </i>spp. stands, and surrounding vegetation may include perennial grasslands dominated by non-natives such as <i>Festuca arundinacea, Holcus lanatus, </i>and <i>Lolium perenne.</i> Some stands without disturbance can become dominated by <i>Baccharis pilularis</i>.
+
+Sedges such as <i>Carex pansa </i>and <i>Carex praegracilis </i>are used as alternatives to lawn grass because they form a low-maintenance, traffic-tolerant turf with dark-green foliage. They also tolerate various types of soil conditions and temperatures, from coastal sandy soils to inland valley clays and alkalinity. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Carex densa [8], [11]</li>
+                
+                    <li>Carex pansa [1], [10], [11]</li>
+                
+                    <li>Carex pansa - Baccharis pilularis [1]</li>
+                
+                    <li>Carex praegracilis [4], [10], [11]</li>
+                
+                    <li>Carex serratodens [11], [12], [14], [15]</li>
+                
+                    <li>Carex tumulicola [11]</li>
+                
+                    <li>Juncus covillei [11], [13]</li>
+                
+                    <li>Juncus effusus [2], [3], [4], [5], [6], [8], [9], [11], [12], [13]</li>
+                
+                    <li>Juncus occidentalis - Juncus patens [4], [11]</li>
+                
+                    <li>Juncus patens [3], [4], [7], [11]</li>
+                
+                    <li>Juncus patens - Holcus lanatus [4], [11]</li>
+                
+                    <li>Juncus phaeocephalus [4], [10], [11], [12], [13]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] McBride, J.R.;Stone, E.C. 1976</li>
+		
+		<li>[2] Evens, J.;San, S. 2005</li>
+		
+		<li>[3] Keeler-Wolf, T .;Schirokauer, D.;Meinke, J.;van derLeeden, P. 2003a</li>
+		
+		<li>[4] Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>[5] Moran, V. 2004a</li>
+		
+		<li>[6] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>[7] Allen-Diaz, B.H.;Jackson, R.D.;Phillips, C. 2001</li>
+		
+		<li>[8] Evens, J.M.;Kentner, E. 2006</li>
+		
+		<li>[9] Klein, A.;Crawford, J.;Evens, J.;Keeler-Wolf, T.;Hickson, D. 2007</li>
+		
+		<li>[10] Rodriguez, D.;Sikes, K.;Keeler-Wolf, T.;Kittel, G.;Curtis, J.;Curley, C.;Evens, J. 2017</li>
+		
+		<li>[11] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>[12] Sikes, K.;Buck-Diaz, J.;Evens, J. 2021</li>
+		
+		<li>[13] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2020</li>
+		
+		<li>[14] Evens, J.M.;San, S.;Taylor, J. 2004</li>
+		
+		<li>[15] Evens, J.M.;Klein, A.;Taylor, J.;Hickson, D.;Keeler-Wolf, T. 2006</li>
+		
+		<li>Alexander, E.B.;Coleman, R.G.;Keeler-Wolf, T.;Harrison, S. 2007</li>
+		
+		<li>Allen, E. 2015</li>
+		
+		<li>Ball, P.W.;Reznicek, A.A. 2002</li>
+		
+		<li>Bartow, A. 2015</li>
+		
+		<li>Brooks, R.E.;Clements, S.E. 2000</li>
+		
+		<li>CNPS (California Native Plant Society), 2016</li>
+		
+		<li>Ervin, G.N.;Wetzel, R.G. 2000</li>
+		
+		<li>Flora of North America Editorial Committee, 1993+</li>
+		
+		<li>Jeffery (Immel), D.;Luke, C.;Kraft, K. 2020</li>
+		
+		<li>Pickart, A.J.;Barbour, M.G. 2007</li>
+		
+		<li>Piper, C.V. 1906</li>
+		
+		<li>Stromberg, M.R.;Kephart, P.;Yadon, V. 2001</li>
+		
+		<li>UCB (University of California Berkeley), 2004-present</li>
+		
+		<li>USDA-NRCS (US Department of Agriculture - Natural Resource Conservation Service), Various dates (2000-2021)</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program), 2015a</li>
+		
+		<li>Wilson, B.L.;Brainerd, R.;Lytjen, D.;Newhouse, B.;Otting, N. 2008</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/532/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

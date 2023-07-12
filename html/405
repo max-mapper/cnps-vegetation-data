@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Juncus arcticus (var. balticus, mexicanus)</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Juncus</i> <i>arcticus</i> (var. <i>balticus</i>, <i>mexicanus</i><span style="padding-left: .2em">)</span></span> Herbaceous Alliance <br/>
+        <span class="subtitle">Baltic and Mexican rush marshes</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Herb
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-2200 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S4
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G5
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>CAN: AB, BC. USA: CA, CO, ID, MT, NE, NM, NV, OR, PA, SD, UT, WA, WY (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2009/09/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/herb/juncus-arcticus-balticus-mexicanus_hwy89_08-01-10_01.jpg', '/static/images/photos/herb/juncus-arcticus-balticus-mexicanus_hwy89_08-01-10_02.jpg', '/static/images/photos/herb/juncus-arcticus-balticus-mexicanus_sdrp0355_04-03.jpg', '/static/images/photos/herb/juncus-arcticus-balticus-mexicanus_hermitvalley_01.jpg', '/static/images/photos/herb/juncus-arcticus-balticus-mexicanus_hermitvalley_02.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Juncus</i> <i>arcticus</i> var. <i>balticus</i> or <i>Juncus</i> <i>arcticus</i> var. <i>mexicanus</i> is dominant or co-dominant in the herbaceous layer with <i>Achillea</i> <i>millefolium</i>, <i>Argentina</i> <i>egedii</i>, <i>Bolboschoenus</i> <i>robustus</i>, <i>Bromus</i> <i>diandrus</i>, <i>Carex</i> spp., <i>Conium</i> <i>maculatum</i>, <i>Deschampsia</i> <i>cespitosa</i>, <i>Distichlis</i> <i>spicata</i>, <i>Eleocharis</i> <i>acicularis</i>, <i>Geum</i> <i>macrophyllum</i>, <i>Iris</i> <i>missouriensis</i>, <i>Juncus</i> <i>effusus</i>, <i>Juncus</i> <i>phaeocephalus</i>, <i>Lepidium</i> <i>latifolium</i>, <i>Leymus</i> <i>cinereus</i>, <i>Poa</i> <i>pratensis</i>, <i>Ranunculus</i> <i>alismifolius</i>, <i>Schoenoplectus</i> <i>pungens</i>, <i>Sporobolus</i> <i>airoides</i>, <i>Taraxacum</i> <i>officinale</i> and <i>Trifolium</i> <i>longipes</i>. Emergent trees and shrubs may be present at low cover. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Herbs < 1 m; cover is intermittent to continuous. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Juncus arcticus</i> > 25% relative cover in the herbaceous layer (Manning and Padgett 1995).</li>
+		
+		<li><i>Juncus arcticus</i> > 50% relative cover in the herbaceous layer (Keeler-Wolf and Vaghti 2000, Evens and San 2005, Evens et al. 2006).</li>
+		
+		<li><i>Juncus balticus</i>, <i>Juncus mexicanus</i> and/or <i>Juncus arcticus</i> is > 30% relative cover in the herb layer (Boul et al. 2021b).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Wet and mesic meadows; along stream banks, rivers, lakes, ponds, fens, and sloughs; and freshwater, brackish, and alkaline marshes. Soils are poorly drained, often with a thick, organic layer. The USFWS Wetland Inventory (2012 national list) recognizes <i>Juncus balticus</i> and <i>J. mexicanus</i> as FACW plants. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Saltgrass series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Juncus balticus seasonally flooded herbaceous alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Perennial grasses and forbs
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Wet montane meadow, Coastal brackish marsh, Cismontane alkali marsh, Coastal and valley freshwater marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Freshwater marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Fresh emergent wetland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>45.562.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate and Boreal Shrubland and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate and Boreal Freshwater Marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North American Freshwater Marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Western North America Wet Meadow and Low Shrub Carr
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Californian warm temperate marsh/seep
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> Botanists have treated the circumboreal <i>Juncus arcticus-balticus </i>complex in a plethora of ways. We follow the <i>Flora of North America </i>treatment (Brooks and Clements 2000) that recognizes <i>J. arcticus </i>with four varieties, of which two occur in California. <br/>
+<br/>
+Plants in most of the state lack leaf blades and are identified as <i>Juncus arcticus</i> var. <i>balticus</i>. This variety is a creeping, sod-forming, cool season, perennial rush that grows to 1 m tall. Plants produce abundant rhizomes as well as seeds that annually add to a seed bank. Plants grow in shallow soil, but root depth varies greatly. The variety ranges from sea level to subalpine elevations (Hauser 2005). Plants that have obvious leaf blades are identified as <i>Juncus arcticus</i> var. <i>mexicanus</i>. This variety occupies isolated wetlands. <br/>
+<br/>
+Older, taxonomic literature uses the names <i>J. balticus </i>and <i>J. mexicanus</i>. The Jepson eFlora uses <i>J. balticus </i>ssp. <i>ater</i> (Jepson Flora Project 2011) while the PLANTS Database uses the name <i>J. arcticus </i>ssp. <i>littoralis </i>instead of <i>J. arcticus </i>var. <i>balticus, </i>and gives <i>J. mexicanus</i> species rank instead of <i>J. arcticus </i>var. <i>mexicanus </i> (USDA-NRCS 2006).<br/>
+<br/>
+<i>Juncus arcticus </i>is a member of many alliances throughout its wide range, and the alliance exists throughout the state in seasonally flooded sites from the coast to high montane altitudes. Stands occur in many types of wet meadows and associated species vary greatly depending on location. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Juncus arcticus var. balticus</th>
+			
+		
+			
+			<th>Juncus arcticus var. mexicanus</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Polycarpic perennial; herb; rhizomatous</td>
+			
+		
+			
+			<td>Perennial; herb; rhizomatous</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Transient</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; gravity; water/hydrological</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Underground structures</td>
+			
+		
+			
+			<td>Underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+			
+			<td>Fire-hardy</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>Life of plant</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>High</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Fluvial processes, rather than fire, primarily disturb the alliance. <i>Juncus arcticus </i>is able to sprout after disturbance.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+            <p>The range of <i>Juncus arcticus</i> is statewide.</p>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Aa-l). Stands occur in all subsections, though most are small. Many along the coast are associated with freshwater intrusions into upper salt marshes. Stands in brackish marshes and wet, clayey swales in the San Francisco Bay estuary (Baye et al. 2000, Holstein 2000) involve var. <i>balticus</i> or <i>J. lescurii</i> (Baye et al. 2000).</li>
+        
+            <li><b>Central California Coast Ranges</b> (M262Aa-j). Stands of both varieties are scattered in wetland sites in the Clear Creek Management Area (Evens et al. 2006).</li>
+        
+            <li><b>Great Valley</b> (262Aa-z). Stands of var. <i>balticus</i> at Suisun Marsh occupy both managed and unmanaged brackish marshes (Baye 2000, Keeler-Wolf and Vaghti 2000), often mixing with non-native stands of <i>Conium maculatum</i> and <i>Lepidium latifolium.</i> Some of these stands may represent <i>J. lescurii.</i> Stands of var. <i>mexicanus</i> occur in a mosaic of wetland vegetation along the San Joaquin River (Moise and Hendrickson 2002).</li>
+        
+            <li><b>Klamath Mountains</b> (M261Ac, Ae, Ah-i, Ak-m, Ar, At-u). Stands of var. <i>balticus</i> are mostly associated with low-elevation wetlands in the eastern portion of the section.</li>
+        
+            <li><b>Modoc Plateau</b> (M261Ga-p). Stands of var. <i>balticus</i> are common throughout (Smith 1998b), including in the Pine and Fitzhugh Creek Wildlife Areas (Hickson and Keeler-Wolf 2008).</li>
+        
+            <li><b>Mojave Desert</b> (322Aa-b). Stands occur in grazed meadows and pastures in the Owens Valley. Stands are probable in isolated alkaline wetlands elsewhere in the section (Thomas et al. 2004).</li>
+        
+            <li><b>Mono</b> (341Da, Dc-f, Dh, Dl). Stands of var. <i>balticus</i> with <i>Distichlis spicata</i> occur in alkali meadows at Fish Slough (Odion et al. 1992a) at the Inyo-Mono Co. boundary. Stands also occur in Bridgeport Valley and several other low-elevation riparian and meadow systems.</li>
+        
+            <li><b>Northern California Coast</b> (263Aa-m). Stands of var. <i>balticus</i> are widespread in meadows and pastures. Stands also occur at the edges of salt marshes, although some may be more properly defined as <i>J. lescurii.</i></li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Ba-b, Bd-f). Stands of var. <i>balticus</i> occur in lower elevation meadows and riparian systems throughout most of the section.</li>
+        
+            <li><b>Northern California Interior Coast Ranges</b> (M261Ca-c). Stands of var. <i>balticus</i> occur in pastures and in riparian settings throughout the section.</li>
+        
+            <li><b>Northwestern Basin and Range</b> (342Ba, Bc-e). Stands are common in low-lying areas throughout the section.</li>
+        
+            <li><b>Sierra Nevada</b> (M261Ec, Ef-g, Ej-l, En-p, Er-t). Stands of var. <i>balticus</i> occur in Yosemite National Park (Keeler-Wolf et al. 2003b) and on the eastside and the Carson Range (Manning and Padgett 1995, Weixelman et al. 1999). Potter (2005) encountered stands with var. <i>balticus</i> as a significant understory species for several woody riparian types.</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fa-e). Stands of var. <i>balticus</i> occur in all of the subsections in meadows, seeps, and irrigated pastures. Some of these stands of include a significant cover of <i>Carex praegracilis</i> (Klein et al. 2007).</li>
+        
+            <li><b>Southeastern Great Basin</b> (341Fd). One stand has been observed at Surprise Springs near Grapevine Canyon (Evens et al. 2014).</li>
+        
+            <li><b>Southern California Coast</b> (261Ba-j). Stands occur throughout in edges of salt marshes, riparian stringers, and permanently moist wetlands.</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Ba-d, Bf-g, Bj-p). Stands of var. <i>mexicanus</i> occur in northern San Diego Co. (Evens and San 2005) and on Santa Cruz Island (Junak et al. 2007). Stands occur at the desert edge in Anza-Borrego Desert State Park as high as 1700 m near Laguna Mountain.</li>
+        
+            <li><b>Southern Cascades</b> (M261Da-e, Dh-j, Dl-m). Stands of var. <i>balticus</i> are common in the section (S. Smith 1998b).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Natural stands of <i>Juncus arcticus</i> var. <i>balticus</i> occur as native plant communities in low-disturbance areas. Stands appear to be stable, climax plant communities, but this alliance is more commonly encountered as an effect of heavy, prolonged livestock grazing. <i>J. arcticus</i> is tolerant of moderate intensity grazing but has low forage value (NatureServe 2019). In riparian and meadow settings throughout the western United States, it is an indicator of poor quality, heavily utilized riparian vegetation (Ratliff 1985, S. Smith 1998b). 
+
+Its dense, rhizomatous habit affords good soil stabilization properties, and it has been planted for riparian bank stabilization restoration (Manning and Padgett 1995, Weixelman et al. 1999). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+                <p>Associations at Foothill and Montane Elevations</p>
+            
+            <ul class="text">
+                
+                    <li>Juncus arcticus var. balticus - Carex praegracilis [5], [11], [14]</li>
+                
+                    <li>Juncus arcticus var. balticus - (var. mexicanus) [1], [2], [3], [4], [5], [6], [7], [8], [9], [10], [11], [12], [13], [15], [16]</li>
+                
+            </ul>
+        
+            
+                <p>Associations of Coastal Salt Marshes</p>
+            
+            <ul class="text">
+                
+                    <li>Juncus arcticus var. balticus - Argentina egedii [4]</li>
+                
+                    <li>Juncus arcticus var. balticus - Conium maculatum [4]</li>
+                
+                    <li>Juncus arcticus var. balticus - Lepidium latifolium [4], [11]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Evens, J.M.;Klein, A.;Taylor, J.;Hickson, D.;Keeler-Wolf, T. 2006</li>
+		
+		<li>[2] Evens, J.;San, S. 2005</li>
+		
+		<li>[3] Keeler-Wolf, T.;Schindel, M.;San, S.;Moore, P.;Hickson, D. 2003b</li>
+		
+		<li>[4] Keeler-Wolf, T.;Vaghti, M. 2000</li>
+		
+		<li>[5] Klein, A.;Crawford, J.;Evens, J.;Keeler-Wolf, T.;Hickson, D. 2007</li>
+		
+		<li>[6] Manning, M.E.;Padgett, W.G. 1995</li>
+		
+		<li>[7] Smith, S. 1998b</li>
+		
+		<li>[8] Taylor, D.W. 1984</li>
+		
+		<li>[9] Weixelman, D.A.;Zamudio, D.C.;Zamudio, K.A. 1999</li>
+		
+		<li>[10] Rodriguez, D.;Sikes, K.;Keeler-Wolf, T.;Kittel, G.;Curtis, J.;Curley, C.;Evens, J. 2017</li>
+		
+		<li>[11] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>[12] Evens, J.M.;Sikes, K.;Hastings, D.;Ratchford,J.S. 2014</li>
+		
+		<li>[13] Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>[14] VegCAMP (CDFW Vegetation Classification and Mapping Program), 2015a</li>
+		
+		<li>[15] Reyes, E.;Evens, J.;Glass, A.;Sikes, K.;Keeler-Wolf., T.;Winitsky, S.;Johnson, D.;Menke, J.;Hepburn, A. 2020a</li>
+		
+		<li>[16] Boul, R.;Keeler-Wolf, T.;Ratchford, J.;Haynes, T.;Hickson, D.;Yacoub, R.;Harbert, B.;Evens, J. 2021b</li>
+		
+		<li>Baye, P.R.;Faber, P.M.;Grewell, B. 2000</li>
+		
+		<li>Brooks, R.E.;Clements, S.E. 2000</li>
+		
+		<li>Buck-Diaz, J.;Evens, J. 2011b</li>
+		
+		<li>Hauser, A.S. 2005</li>
+		
+		<li>Hickson, D.;Boul, R.;Keeler-Wolf, T. 2008</li>
+		
+		<li>Holstein, G. 2000</li>
+		
+		<li>Jepson Flora Project, 2004-present</li>
+		
+		<li>Junak, S.;Knapp, D.A.;Haller, J.R.;Philbrick, R.;Schoenherr, A.;Keeler-Wolf, T. 2007</li>
+		
+		<li>Menke, J.;Reyes, E.;Hepburn, A.;Johnson, D.;Reyes, J. 2013</li>
+		
+		<li>Moise, G.W.;Hendrickson, B. 2002</li>
+		
+		<li>NatureServe, 2014+</li>
+		
+		<li>Odion, D.C.;Callaway, R.M.;Ferren, W.R.;Davis, F.W. 1992a</li>
+		
+		<li>Potter, D.A. 2005</li>
+		
+		<li>Ratliff, R.D. 1985</li>
+		
+		<li>Thomas, K.;Franklin, J.;Keeler-Wolf, T.;Stine, P. 2004</li>
+		
+		<li>USDA-NRCS (US Department of Agriculture - Natural Resource Conservation Service), Various dates (1999-2021)</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program);AIS, 2013</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/405/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

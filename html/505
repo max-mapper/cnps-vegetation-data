@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Corethrogyne filaginifolia - Eriogonum (elongatum, nudum)</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Corethrogyne</i> <i>filaginifolia</i> - <i>Eriogonum</i> (<i>elongatum</i>, <i>nudum</i><span style="padding-left: .2em">)</span></span> Herbaceous Alliance <br/>
+        <span class="subtitle">Sand-aster and perennial buckwheat fields</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Herb
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>10-2000 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S4
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G4
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA (NatureServe), Baja California?
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>Yes
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2016/04/13
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/herb/corethrogyne-filaginifolia_eriogonum-%28elongatum%2C-nudum%29_santarosaisland_03-2013.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Corethrogyne</i> <i>filaginifolia</i>, <i>Eriogonum</i> <i>elongatum</i> or <i>Eriogonum</i> <i>nudum</i> is a co-dominant or characteristic herb. Commonly associated herbs include <i>Bromus</i> <i>diandrus</i>, <i>Bromus</i> <i>rubens</i>, <i>Cardionema</i> <i>ramosissimum</i>, <i>Clarkia</i> spp., <i>Erodium</i> spp., <i>Eschscholzia</i> <i>californica</i>, <i>Gutierrezia</i> spp., <i>Lupinus</i> <i>bicolor</i>, <i>Mentzelia</i> spp., <i>Nassella</i> spp. and <i>Vulpia</i> spp. Shrubs present at low cover may include <i>Baccharis</i> <i>pilularis</i>, <i>Eriodictyon</i> spp., <i>Eriogonum</i> <i>fasciculatum</i> or <i>Lupinus</i> <i>excubitus</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Herbs < 1 m; cover is open to intermittent. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Corethrogyne filaginifolia </i>has highest cover in the forb layer and occurs with a mix of annual grasses. Native herbs overall have > 30% relative cover. <i>Nassella </i>spp. may or may not be present at < 10% relative cover (Rodriguez et al. 2017).</li>
+		
+		<li><i>Corethrogyne filaginifolia </i>> 50% relative cover in the herb layer (Buck-Diaz and Evens 2011).</li>
+		
+		<li><i>Corethrogyne filaginifolia </i> characterizes the stand usually having the highest cover. Regenerating shrubs may intermix with lower cover than <i>C. filaginifolia</i> (VegCAMP 2013).</li>
+		
+		<li><i>Eriogonum elongatum </i>> 30% relative cover, often with <i>Bromus rubens </i>(Buck-Diaz and Evens 2011).</li>
+		
+		<li><i>Eriogonum elongatum </i>or <i>Eriogonum nudum </i>> 50% relative cover with <i>Bromus rubens, Clarkia </i>spp., and other herbs (Kittel et al. 2012).</li>
+		
+		<li><i>Eriogonum nudum </i> is characteristic in the herbaceous layer with variable cover. Other herbs may be co-dominant (Buck-Diaz et al. 2013).</li>
+		
+		<li><i>Eriogonum nudum </i>> 30% relative cover with other herb species (Buck-Diaz and Evens 2011, Klein et al. 2015).</li>
+		
+		<li><i>Lupinus excubitus</i> or another lupine species > 30% relative cover in the subshrub canopy on disturbed sites. Low cover of other shrubs may be present (Reyes et al. 2020a).</li>
+		
+		<li><i>Eriogonum nudums</i> or <i>Corethrogyne filaginifolias</i> > 30% relative cover with <i>Bromus diandrus, Erodium botrys, Vulpia bromoides</i> (Buck-Diaz et al. 2021).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Upland slopes, hills, or flats. Soils are well drained, sandy to loamy, and derived from many substrates, including granitic,  gabbro, sedimentary, and serpentinite.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Perennial grasses and forbs
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Bald Hills prairie, Valley and foothill grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Valley grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Perennial grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>32.230.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Mediterranean Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Mediterranean Grassland and Forb Meadow
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>California Grassland and  Meadow
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>California Annual and Perennial Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>California perennial grassland
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Corethrogyne filaginifolia </i>is a perennial herb to subshrub that is native to California, southwestern Oregon, and Baja California. It has densely woolly leaves that can be several centimeters long and toothed or lobed on the lower stems. It has a wide blooming period from late spring to early winter. The flower heads contain many purple, lavender, pink, or white ray flowers, and yellow disk flowers. This taxon has also been known as <i>Lessingia filaginifolia</i>. Some taxonomists recognize varieties, and others recognize a single, polymorphic species with no infraspecific taxa. Two formerly recognized varieties of the species are ranked currently on CNPS list 1B.1: var. <i>incana </i>and var. <i>linifolia</i>.<br/>
+<br/>
+<i>Eriogonum elongatum </i>is a perennial herb to subshrub with gray-green foliage and white wooly leaf undersides. It has long delicate stems of white to pink flowers in head-like clusters distributed along the stems. Its blooming period is from summer to winter. It is native to central and southern California and Baja California.  Some taxonomists recognize varieties, but var. <i>elongatum</i> is the only one that occurs in California.<br/>
+<br/>
+<i>Eriogonum nudum </i>is a perennial to subshrub that includes over 10 different varieties in California from the coast to the mountains. It occurs from Washington to Baja California, and east to Nevada. Its leaves form a basal rosette that is greenish on top and white wooly below. Long, slender inflorescence stalks bear clusters of flowers in branched cymes. Flowers vary from white to red to yellow. Its blooming period is from late spring to fall. At least six varieties of the species are ranked on the CNPS list as 1B, 2B, and 4.<br/>
+<br/>
+Upland perennial forb stands occurring on well-drained, sandy, loamy, and often rocky soils have been treated in various alliances in the past. For example, in the inner Central Coast Range of Fresno and San Benito Counties, Evens et al. (2005) named a provisional <i>Eriogonum nudum</i> Alliance. In Pinnacles National Park, Kittel et al. (2012) identified an <i>Eriogonum elongatum</i> Alliance. In their Carrizo National Monument classification, Buck-Diaz and Evens (2011) included a provisional <i>Corethrogyne filaginifolia</i> Alliance and an <i>Eriogonum (elongatum, nudum)</i> Alliance. These types have been merged to form this alliance. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Corethrogyne filaginifolia</th>
+			
+		
+			
+			<th>Eriogonum elongatum</th>
+			
+		
+			
+			<th>Eriogonum nudum</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Polycarpic perennial; herb, subshrub</td>
+			
+		
+			
+			<td>Polycarpic perennial; herb, subshrub</td>
+			
+		
+			
+			<td>Evergreen subshrub; polycarpic perennial, herb</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Transient</td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td>Medium</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Wind; Animal</td>
+			
+		
+			
+			<td>Animal; gravity</td>
+			
+		
+			
+			<td>Animal; gravity</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Stratification—Winter; None</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>Stratification—winter; none</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Buds on small branches; Underground structures (Taproots)</td>
+			
+		
+			
+			<td>Underground structures</td>
+			
+		
+			
+			<td>Underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy to fire-sensitive; high resprouter (low intensity), thin epidermis</td>
+			
+		
+			
+			<td>Fire-sensitive; thin epidermis</td>
+			
+		
+			
+			<td>Fire-sensitive; thin epidermis</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>Medium</td>
+			
+		
+			
+			<td>Medium</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>After first year</td>
+			
+		
+			
+			<td>After first year</td>
+			
+		
+			
+			<td>After first year</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>High</td>
+			
+		
+			
+			<td>High</td>
+			
+		
+			
+			<td>High</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>High</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>High</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text"></div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Short to medium (1-25 years)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Early fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Up to or beyond stand size
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Low
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Surface
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+            <p>The ranges of the character species are greater than currently documented for stands of this alliance, including the Sierra Nevada (M261E), Sierra Nevada Foothills (M261F), Klamath Range (M261A), and beyond.</p>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast Ranges</b> (M262Ac-f, Ai-k). Stands in Carrizo Plain National Monument are found in shallow soils derived from sedimentary substrate, which typically have grazing or other disturbance history. The perennial buckwheat associations of this alliance are usually found on low hills, mounds, and toe slopes that often have bare ground and rocky soils, whereas the <i>Corethrogyne filiginifolia</i> Association is more often found on gentle to moderate slopes with sandy soils (Buck-Diaz and Evens 2011). Stands of both the <i>Eriogonum elongatum </i>and <i>Eriogonum nudum </i>Associations were sampled in Pinnacles National Park (Kittel et al. 2012) and stands of the <i>Eriogonum nudum</i> var. <i>indictum - Eriogonum vestitum</i> Association were found in the Clear Creek Management Area (Evens et al. 2006).</li>
+        
+            <li><b>Great Valley</b> (262Aq, Aw). In the Ciervo-Panoche Natural Area, the <i>Eriogonum nudum</i> var. <i>indictum - Eriogonum vestitum</i> Association occurs on open barren slopes of sedimentary substrates with high clay content and/or slate (CNPS Vegetation Program 2015).</li>
+        
+            <li><b>Mojave Desert</b> (322Ag). Stands are found near the southeastern edge of this ecoregion (VegCAMP and AIS 2013).</li>
+        
+            <li><b>Northern California Coast</b> (263Ac, Ag, Ai-j, Al-m). In this region, the alliance appears to be successional between annual grasslands and shrublands.</li>
+        
+            <li><b>Southern California Coast</b> (261Bc, Bi-j). In the Channel Islands, the <i>Corethrogyne filaginifolia</i> Association occurs on Santa Rosa Island, often on upper portions of the slope and ridgetops. <i>Lotus dendroideus</i> var. <i>dendroideus</i> (CRPR 4.2) is sometimes associated with this alliance. <i>Dichondra occidentalis</i> (CRPR 4.2) occurs at less than 20% constancy (Rodriguez et al. 2017).</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Bf, Bn-o). The alliance was documented in the Western Granitic Foothills of San Diego Co. (Sproul et al. 2011).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> This upland herbaceous vegetation can persist with some degree of grazing and bioturbation by small mammals. The three indicator plants of the alliance are important pollinator plants for bees, syrphid flies, and butterflies (Montalvo et al. 2010a). The buckwheats act as host plants for certain butterflies including copper and metalmark butterflies (Garth and Tilden 1986). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Corethrogyne filaginifolia [1], [6], [7], [9], [10], [12]</li>
+                
+                    <li>Eriogonum elongatum [1], [2], [3], [10]</li>
+                
+                    <li>Eriogonum nudum [1], [2], [3], [8], [9], [10], [11]</li>
+                
+                    <li>Eriogonum nudum var. indictum - Eriogonum vestitum [4], [5]</li>
+                
+                    <li>Lupinus excubitus - Mentzelia albicaulis - Eriogonum spp. [13]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Buck-Diaz, J.;Evens, J. 2011b</li>
+		
+		<li>[2] Kittel, G.;Reyes, E.;Evens, J.;Buck, J.;Johnson, D. 2012</li>
+		
+		<li>[3] VegCAMP (CDFW Vegetation Classification and Mapping Program), 2010</li>
+		
+		<li>[4] Evens, J.M.;Klein, A.;Taylor, J.;Hickson, D.;Keeler-Wolf, T. 2006</li>
+		
+		<li>[5] CNPS Vegetation Program, 2015</li>
+		
+		<li>[6] Sproul, F.;Keeler-Wolf, T.;Gordon-Reedy, P.;Dunn, J.;Klein, A.;Harper, K. 2011</li>
+		
+		<li>[7] Rodriguez, D.;Sikes, K.;Keeler-Wolf, T.;Kittel, G.;Curtis, J.;Curley, C.;Evens, J. 2017</li>
+		
+		<li>[8] Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>[9] Buck-Diaz, J.;Ratchford, J.;Evens, J. 2013</li>
+		
+		<li>[10] Buck-Diaz, J.;Harbert, B.;Evens, J. 2011</li>
+		
+		<li>[11] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>[12] Reyes, E.;Johnson, D.;Glass, A. 2019</li>
+		
+		<li>[13] Reyes, E.;Evens, J.;Glass, A.;Sikes, K.;Keeler-Wolf., T.;Winitsky, S.;Johnson, D.;Menke, J.;Hepburn, A. 2020a</li>
+		
+		<li>Cole, N.H. 1967</li>
+		
+		<li>Garth, J.S.;Tilden, J.W. 1986</li>
+		
+		<li>Hemingway, M. 2012</li>
+		
+		<li>Markos,S.;Strother,J.L. 2016</li>
+		
+		<li>Menke, J.;Reyes, E.;Hepburn, A.;Johnson, D.;Reyes, J. 2013</li>
+		
+		<li>Montalvo, A.M.;Goode, L.K.;Beyers, J.L. 2010a</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program);AIS, 2013</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/505/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

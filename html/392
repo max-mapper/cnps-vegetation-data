@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Eschscholzia (californica) - Lupinus (nanus)</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Eschscholzia</i> (<i>californica</i><span style="padding-left: .2em">)</span> - <i>Lupinus</i> (<i>nanus</i><span style="padding-left: .2em">)</span></span> Herbaceous Alliance <br/>
+        <span class="subtitle">California poppy - lupine fields</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Herb
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-1000 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S4
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G4
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA. (CNPS data), Baja California, Mexico (TJM2)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>Yes
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2009/09/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/herb/eschscholzia-coreopsis_annual2tejonr04-91.jpg', '/static/images/photos/herb/eschscholzia_hwy46nearshellcynrd_04-10_02.jpg', '/static/images/photos/herb/eschscholzia-californica_04-08.jpg', '/static/images/photos/herb/eschscholzia-californica_2antelopev_4-10.jpg', '/static/images/photos/herb/eschscholzia-californica_antelope_04-10.jpg', '/static/images/photos/herb/eschscholzia-californica_chimineas_04-08.jpg', '/static/images/photos/herb/eschscholzia-californica_hwy46nearshellcynrd_04-10_01.jpg', '/static/images/photos/herb/eschscholzia-coreopsis%20annual%20ephemeral%20tejon%20r%204-91.jpg', '/static/images/photos/herb/lasthenia-californica_plantago-erecta_vulpia-microstachys_wagoncaves_04-09_01.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Eschscholzia</i> <i>californica</i>, <i>Lupinus</i> <i>nanus</i> and/or another <i>Eschscholzia</i> species is characteristically abundant in the herbaceous layer with <i>Amsinckia</i> <i>menziesii</i>, <i>Avena</i> <i>barbata</i>, <i>Bromus</i> spp., <i>Chaenactis</i> <i>glabriuscula</i>, <i>Clarkia</i> spp., <i>Eriogonum</i> spp., <i>Erodium</i> <i>cicutarium</i>, <i>Hirschfeldia</i> <i>incana</i>, <i>Hypochaeris</i> <i>radicata</i>, <i>Lotus</i> <i>purshianus</i>, <i>Lupinus</i> <i>bicolor</i>, <i>Rumex</i> <i>salicifolius</i>, <i>Salvia</i> <i>carduacea</i> and <i>Vulpia</i> <i>myuros</i>. Emergent trees and shrubs may be present at low cover, including trees <i>Pinus</i> <i>sabiniana</i> and shrubs:<i>Eriogonum</i> <i>fasciculatum</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Herbs < 0.5 m; cover is intermittent to continuous. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Eschscholzia californica</i> > 50% relative cover in the herbaceous layer; many annual grasses, such as <i>B. hordeaceus</i>, may be common (Kittel et al. 2012).</li>
+		
+		<li><i>Eschscholzia californica, Lupinus bicolor,</i> and/or <i>L. nanus</i>  > 30% relative cover in the herbaceous layer with a variety of native and non-native forbs and grasses (Klein et al. 2015).</li>
+		
+		<li><i>Salvia carduacea</i>  > 30% relative cover in the herbaceous layer (cf. Buck-Diaz and Evens 2011).</li>
+		
+		<li><i>Eschscholzia californica, Lupinus bicolor,</i> and/or <i>L. nanus</i>  > 50% relative cover in the herbaceous layer, > 30% relative cover with a variety of native and non-native forbs and grasses (Buck-Diaz et al. 2021).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Upland slopes or flats. Soils are well drained, sandy to loamy, derived from many substrates, including serpentine, and often have high levels of bioturbation.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>California annual grassland series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Annual grasses and forbs
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Wildflower field
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Valley grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Annual grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>43.200.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Mediterranean Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Mediterranean Grassland and Forb Meadow
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>California Grassland and  Meadow
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>California Annual and Perennial Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>California annual herb/grass group
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> The genus <i>Eschscholzia </i>involves approximately 12 species of western North America<i>. E. californica </i>is the most widespread species in the genus, extending from southwestern Washington south into the Baja California and east to western Texas. The species is highly variable, including long-lived, prostrate perennials along the coast, erect perennials in inland valleys, and annuals in the interior. The coastal form tends to have yellow flowers, whereas inland forms range from yellow to orange (Leger 2004). <br/>
+<br/>
+<i>Eschscholzia californica, </i>the state flower of California, has contributed significantly to the iconic vision of the state’s wildflower displays. Many areas of the state, especially the drier portions of central and southwestern California, experience brilliant poppy displays. Recently, ecologists (Minnich 2008, Schiffman 2007, Wills 2006) have suggested that prior to European influence the dominant plants in dry areas were mainly native forbs, rather than grasses, due to relatively low and unpredictable annual rainfall. <br/>
+<br/>
+This alliance has been expanded to include additional genera of annual forbs since the Manual's publication in 2009. Lupines, such as <i>Lupinus bicolor</i> and <i>L. nanus</i> fluctuate in abundance from year to year, but often co-occur with poppies.  <i>Salvia carduacea</i> is another annual wildflower that may co-dominate in this alliance. These stands are highly seasonal and are dependent upon favorable rainfall patterns.<br/>
+<br/>
+This alliance represents one of several annual herbaceous types that are widespread in the southern and central portion of cismontane California, where disturbances such as grazing, fire, occasional flooding, and slope movement are moderately frequent. These stands appear to shift radically year-to-year in species composition depending primarily on the amount and timing of precipitation. <br/>
+<br/>
+Stands may include <i>E. californica, E. lemmonii, E. caespitosa, </i>and related taxa. Other species, especially the non-natives, may mask <i>Eschscholzia </i>and <i>Lupinus </i>abundance in some years, and competition with nonnative plants is common. Robinson et al. (1995) showed that <i>E. californica </i>competes closely with non-native <i>Bromus diandrus </i>for resources. A study by Cook (1965) suggested <i>E. californica </i>grows principally where <i>Avena fatua </i>cannot exist, as on rocky, steep sites with porous, sterile, or serpentine soils. <i>E. californica </i>is adapted to these conditions through its deep taproot and physiological tolerance to different soil conditions. <br/>
+<br/>
+We do not completely understand the relationships between this and other herbaceous alliances. <i>E. californica </i> and related taxa appear to tolerate relatively well-drained, disturbed, sandy soils whereas plants of the <i>Lasthenia californica- Plantago erecta-Vulpia microstachys </i>alliance tolerate shallow, skeletal soils; those of the <i>Plagiobothrys nothofulvus </i>alliance tolerate soils with higher moisture content. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Eschscholzia californica</th>
+			
+		
+			
+			<th>Lupinus nanus</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Annual, polycarpic perennial; herb</td>
+			
+		
+			
+			<td>Annual; herb</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+			
+			<td>Long</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; wind</td>
+			
+		
+			
+			<td>Gravity, Expulsion from capsule</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Buds on large branches or trunks (caudex)</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-sensitive</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>Life of plant</td>
+			
+		
+			
+			<td>Life of plant (annual)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>High</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>High</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Fires in annual herb types result in a short-term increase in available nitrogen and phosphorus (Menke and Rice 1981). Because fine stems generally create low-intensity fires, little heat is transported more than a few centimeters into the soil, and seeds in the soil are generally unaffected.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Short
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Early fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Up to stand size
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Moderate to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Moderate to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Surface fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Central Coast
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+            <p>The range of<i> Eschscholzia</i>, when forming wildflower displays, includes the Northern California Interior Coast Ranges (M261C) and Southern California Coast (261B).</p>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Ac, Aj). Stands of <i>E. californica</i> occur in the East Bay Hills on shallow soils, and stands of <i>E. lemmonii</i> are sometimes showy on steep southerly facing slopes of marine sediments in the inner Santa Lucia Mountains.</li>
+        
+            <li><b>Central California Coast Ranges</b> (M262Aa-f, Ah-k). Stands of <i>E. californica</i> at Pinnacles National Monument (Kittel et al. 2012) characterize the alliance. Most stands are small (< 0.5 ha) and associated with stream channels, steep slopes, and recently burned slopes. Stands of E. caespitosa and <i>E. californica</i> also occur in Monterey and San Luis Obispo Cos., especially in high rain years.</li>
+        
+            <li><b>Great Valley</b> (262Ag, Au-z). Stands occur in the Elk Hills and at the base of the Grapevine and may be very showy in good flower years.</li>
+        
+            <li><b>Mojave Desert</b> (322Ag). Wildflower displays of <i>E. californica</i> and other herbs occur in the western subsections in high rain years. Some of the most spectacular are in the Antelope Valley at the California Poppy Preserve southwest of Lancaster, where stands also include high cover of <i>Castilleja exserta, Lasthenia californica,</i> and <i>Lupinus bicolor</i> (Clark and Charest 1992).</li>
+        
+            <li><b>Northern California Coast</b> (263Ac, Ag, Ai-j, Al-m). No description available</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Bb, Be). No description available</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fc-e). Stands occur in the San Emigdio Mountains and are showy in the vicinity of the Grapevine.</li>
+        
+            <li><b>Southern California Coast</b> (261Bc, Bh). No description available</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Bb, Bj-l). Stands observed in the Lake Matthews area of western Riverside Co. rival those of the western Mojave Desert in high rain years.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Many stands have a history of grazing, trampling, fire, or other recent disturbances. Inventoried stands have moderate to heavy cover of non-natives, which is extreme in some years. We are unclear as to the proper management to emphasize <i>Eschscholzia californica</i>. Schiffman (2007) suggested that the non-native <i>Erodium </i>spp. have ecologies very similar to native annual forbs, including <i>Eschscholzia californica. </i>The non-native <i>Bromus </i>spp. attain stronger dominance in high winter rainfall years (Bartolome et al. 2007a). Clark and Charest (1992) suggested that fire is an important feature in the western Mojave Desert in maintaining stands of herbs. Long periods lacking fire in the California Poppy Preserve appear to lead to higher <i>Ericameria nauseosa </i>cover. 
+
+<i>Eschscholzia californica </i>has been widely planted as a slope stabilizer, as an ornamental, and as a naturalizing landscape item for many years. <i>E. californica </i>has escaped from cultivation. It is often possible to identify native populations by their seed dormancy, which is generally absent in plants of cultivated seed (Clark and Charest 1992). Preserving genetic heritage of seeds is important when conducting restoration, because population differences in seed dormancy and leaf pigmentation may be adaptive (Espeland and Myatt 2001). Managers should collect and plant seeds of the coastal, inland, and annual ecotypes in the appropriate region. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Bromus hordeaceus - Lupinus nanus - Trifolium spp. [3], [4], [8], [10], [11]</li>
+                
+                    <li>Eschscholzia californica [1], [2], [4], [6], [7], [9], [10], [11]</li>
+                
+                    <li>Lupinus bicolor [5], [6], [7], [9], [11]</li>
+                
+                    <li>Salvia carduacea [6], [7], [9]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Kittel, G.;Reyes, E.;Evens, J.;Buck, J.;Johnson, D. 2012</li>
+		
+		<li>[2] Rodriguez, D.;Sikes, K.;Keeler-Wolf, T.;Kittel, G.;Curtis, J.;Curley, C.;Evens, J. 2017</li>
+		
+		<li>[3] Evens, J.M.;San, S.;Taylor, J. 2004</li>
+		
+		<li>[4] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>[5] Boul, R.;Colletti, M.J.;Gogol-Prokurat, M.;Hickson, D.;Keeler-Wolf, T.;Yacoub, R. 2011</li>
+		
+		<li>[6] Buck-Diaz, J.;Evens, J. 2011b</li>
+		
+		<li>[7] Buck-Diaz, J.;Ratchford, J.;Evens, J. 2013</li>
+		
+		<li>[8] Klein, A.;Crawford, J.;Evens, J.;Keeler-Wolf, T.;Hickson, D. 2007</li>
+		
+		<li>[9] Buck-Diaz, J.;Harbert, B.;Evens, J. 2011</li>
+		
+		<li>[10] Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>[11] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>Bartolome, J.W.;Barry, W.J.;Griggs, T.;Hopkinson, P. 2007a</li>
+		
+		<li>CDFW (California Department of Fish and Wildlife),;NOAA, 2001</li>
+		
+		<li>Clark, C.;Charest, N.A. 1992</li>
+		
+		<li>Cook, S.A. 1965</li>
+		
+		<li>Knops, J.;Barthell, J. 1996</li>
+		
+		<li>Leger, E.A. 2004</li>
+		
+		<li>Menke, J.;Reyes, E.;Hepburn, A.;Johnson, D.;Reyes, J. 2013</li>
+		
+		<li>Robinson, G.R.;Quinn, J.F.;Stanton, M.L. 1995</li>
+		
+		<li>Schiffman, P. 2007</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program);AIS, 2013</li>
+		
+		<li>Wills, R. 2006</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/392/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

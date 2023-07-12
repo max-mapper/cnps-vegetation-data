@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Bromus carinatus - Elymus glaucus</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Bromus</i> <i>carinatus</i> - <i>Elymus</i> <i>glaucus</i></span> Herbaceous Alliance <br/>
+        <span class="subtitle">California brome - blue wildrye prairie</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Herb
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>10-1600 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G3
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>California, Oregon (Christy 2004), Washington?
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2016/12/07
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/herb/elymus-glaucus_sonoma_03-05_01.jpg', '/static/images/photos/herb/elymus-glaucus_sonoma_03-05_02.jpg', '/static/images/photos/herb/elymus-glaucus_sonoma_03-05_03.jpg', '/static/images/photos/herb/bromus-carinatus_elymus-glaucus_pteridium-aquilinum_santarosaisland_07-2013.jpg', '/static/images/photos/herb/bromus-carinatus_elymus-glaucus_pteridium-aquilinum_santarosaisland_04-2013.jpg', '/static/images/photos/herb/bromus-carinatus_elymus-glaucus_pteridium-aquilinum_santarosaisland_03-2013.jpg', '/static/images/photos/herb/bromus-carinatus_elymus-glaucus_pteridium-aquilinum_sonoma_08-30-2013.jpg', '/static/images/photos/herb/bromus-carinatus_elymus-glaucus_pteridium-aquilinum_fairfield_osborn_preserve_09-10-2013.jpg', '/static/images/photos/herb/bromus%20carinatus-elymus%20glaucus-pteridium%20aquilinum_calabasascreekopenspacepreserve_05-2014.jpg', '/static/images/photos/herb/bromus-carinatus_garygiacominipreserve_05-10_01.jpg', '/static/images/photos/herb/bromus-carinatus_garygiacominipreserve_05-10_02.jpg', '/static/images/photos/herb/bromus-car_elymus-gla_mmwd0033_thermopsis_mt.tamwatershed_04-05.jpg', '/static/images/photos/herb/bromus-car_elymus-gla_mmwd0035_pteridium_mt.tamwatershed_04-05.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Bromus</i> <i>carinatus</i>, <i>Bromus</i> <i>maritimus</i>, <i>Elymus</i> <i>glaucus</i> and/or <i>Pteridium</i> <i>aquilinum</i> is dominant or co-dominant in the herbaceous layer with <i>Achillea</i> <i>millefolium</i>, <i>Agoseris</i> <i>grandiflora</i>, <i>Anagallis</i> <i>arvensis</i>, <i>Avena</i> <i>barbata</i>, <i>Bromus</i> <i>diandrus</i>, <i>Bromus</i> <i>hordeaceus</i>, <i>Corethrogyne</i> <i>filaginifolia</i>, <i>Daucus</i> <i>pusillus</i>, <i>Dichelostemma</i> <i>capitatum</i>, <i>Geranium</i> <i>dissectum</i>, <i>Ranunculus</i> <i>californicus</i>, <i>Rumex</i> <i>acetosella</i>, <i>Sisyrinchium</i> <i>bellum</i>, <i>Vulpia</i> <i>bromoides</i> and <i>Vulpia</i> <i>myuros</i>. Emergent shrubs may be present at low cover, including <i>Toxicodendron</i> <i>diversilobum</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Herbs < 1 m; cover is open to continuous. Shrub layer is sparse to open. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Bromus carinatus, Bromus maritimus</i>, or <i>Pteridium aquilinum </i>characteristically present with native plants > 25% relative cover in the herbaceous layer (Rodriguez et al. 2017).</li>
+		
+		<li><i>Elymus glaucus </i> > 30% relative cover in the herbaceous layer (Buck-Diaz et al. 2012).</li>
+		
+		<li><i>Bromus carinatus, Thermopsis californica</i>, and/or <i>Pteridium aquilinum</i> > 30% relative cover in the herbaceous layer (Evens and Kentner 2006).</li>
+		
+		<li><i>Bromus carinatus,  Elymus glaucus</i>, or <i>Pteridium aquilinum</i> > 30% relative cover in the herbaceous layer (Klein et al. 2015).</li>
+		
+		<li><i>Bromus carinatus </i>characteristically present with native plants > 10% relative cover in the herbaceous layer (Buck-Diaz et al. 2013).</li>
+		
+		<li><i>Bromus carinatus, Bromus maritimus, Elymus glaucus, Pteridium aquilinum</i> and/or <i>Thermopsis californica</i> > 30% relative cover in the herbaceous layer (Buck-Diaz et al. 2021, Sikes et al. 2021).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Basins, terraces, dry floodplains, steep mesic slopes, forest openings.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Elymus glaucus herbaceous alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Perennial grasses and forbs
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Coastal prairie, Native grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Coastal prairie, Valley grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Perennial grassland, Wet meadow
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>41.131.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate and Boreal Shrubland and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate Grassland, Meadow, and Shrubland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Vancouverian and Rocky Mountain Grassland and Shrubland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Western North American Temperate Grassland and Meadow
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Western dry upland perennial grassland
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Elymus glaucus </i>is a cool-season, short-lived bunchgrass native to the western United States. The species grows in small tufts of only a few stems per plant. The root system is well branched and penetrates deeply. Plants produce stolons or they lack horizontal stems. The species produces abundant seed that builds a seed bank. Seed stratification is not necessary for germination (Johnson 1999). Both ssp. <i>glaucus</i> and ssp. <i>jepsonii</i> grow at coastal to montane elevations; ssp. <i>virescens</i> is strictly coastal. We include all subspecies in this alliance. <br/>
+<br/>
+<i> Bromus carinatus </i>is a  cool-season, variable annual to short-lived perennial bunchgrass native to the western United Stands. The root system is deep and widespread. Different subspecies occur in California, including var. <i>californicus </i>(California brome) and var.<i> marginatus  </i>(mountain brome). California and mountain brome can intergrade (Darris 2007). <i>Bromus maritimus </i>(maritime brome) is a similar species, and some taxonomists treat it as <i>B. carinatus  </i>var. <i>maritimus</i>.<br/>
+<br/>
+<i>Pteridium aquilinum </i>is a variable species occurring in the northern and southern hemisphere.  California has one variety, var. <i>pubescens</i>, that spans across western North America. This fern does not persist in forests beyond approximately 200 years and is a useful indicator of seral forest communities.<br/>
+<br/>
+<i>Bromus carinatus, Bromus maritimus, Elymus glaucus, </i>and <i>Pteridium aquilinum </i>occur in a matrix of grasslands, coastal and montane forests, and montane woodlands throughout the western United States. Perennial plants have formed an important component of Great Valley grasslands before heavy grazing and the invasion of non-native plants (Amme et al. 1990, Keeley 1990b), and have been dominant in southern California grasslands (Paysen et al. 1980). <br/>
+<br/>
+While previous reports included separate alliances to encompass the three dominant, character species (e.g., Buck and Evens 2010, Buck-Diaz et al. 2012, 2013), we have combined these ecologically similar types into this one alliance such as was done in Sonoma County for the <i>Elymus glaucus - Bromus carinatus </i>Alliance (Klein et al. 2015). <br/>
+<br/>
+Those stands of <i>Elymus glaucus</i> along the coast and foothills of California in this mixed alliance also include <i>Bromus carinatus </i>and <i>Pteridium aquilinum </i>as characteristic species.  These species form stands throughout California but they are relatively uncommon within any given region.  This alliance is newly differentiated from the montane elevation stands of <i>Elymus glaucus, </i>and other graminoids in the Sierra Nevada and elsewhere, which are now ascribed to the <i>Elymus glaucus </i>Montane Alliance (analogous to the <i>Elymus glaucus - Carex pellita - Carex feta </i>Herbaceous Alliance in the NVC). The latter is a higher elevation, wet meadow alliance distinct from the mesic perennial alliance treated here. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Bromus carinatus</th>
+			
+		
+			
+			<th>Bromus maritimus</th>
+			
+		
+			
+			<th>Elymus glaucus</th>
+			
+		
+			
+			<th>Pteridium aquilinum</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Polycarpic perennial; grass; bunchgrass</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Polycarpic perennial; herb</td>
+			
+		
+			
+			<td>Perennial herb</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Transient</td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Medium</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Short</td>
+			
+		
+			
+			<td>Medium</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Wind; animal</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Animal; wind</td>
+			
+		
+			
+			<td>Wind; Water/hydrological</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Stratification—spring/early fall; warmer temperatures(60-85 F)/ higher elevation colder moist temperatures</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Buds on large branches or trunks</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Buds on large branches or trunks (culms)</td>
+			
+		
+			
+			<td>Underground structures (rhizomes)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy to fire-sensitive; moderate sprouter (crown)</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+			
+			<td>Fire-hardy; High flammability</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>Yes</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>Life of plant</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Life of plant</td>
+			
+		
+			
+			<td>End of the third or fourth growing season</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>High</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Moderate</td>
+			
+		
+			
+			<td>Episodic (mainly vegetative spreading)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Moderate</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text"><i>Elymus glaucus </i>sprouts from surviving stolons and tillers after fires (Johnson 1999). It establishes quickly after low- to moderate-intensity fire and may form an early seral type in recently burned woodlands. <i>Bromus carinatus </i>withstands fall fires and controlled burns, and it typically will sprout from surviving root crowns. In other cases, stands may top kill, yet full stand recovery occurs after a few years (Darris 2007), though this depends on fire intensity.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Short
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Early fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Up to stand size
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Surface fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Cismontane California
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Ac). Stands of <i>Bromus carinatus</i> association occur in the region (Buck-Diaz et al. 2013).</li>
+        
+            <li><b>Great Valley</b> (262Aa-t). Stands of <i>Elymus glaucus</i> association include moist sites in the northeastern and northwestern parts of the Great Valley (Buck-Diaz et al. 2012).</li>
+        
+            <li><b>Northern California Coast</b> (263Ac, Ag, Ai-j, Al-m). Stands occur in both Marin and Sonoma Co. (Evens and Kentner 2006, Buck and Evens 2010, Klein et al. 2015). Stands are typically small (< 1 ha) and surrounded by <i>Baccharis pilularis</i> scrub, other grasslands, and second-growth stands of <i>Pseudotsuga menziesii. </i>Stands close to the coast can have a variety of natives including <i>Danthonia californica.</i> Stands in Mendocino Co. found along the coast (CNPS unpublished data 2020).</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Bb, Be). Stands have been observed in the region and sampled in moist meadows (Klein et al. 2015).</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fb). A stand was sampled within Auburn State Recreation Area.</li>
+        
+            <li><b>Southern California Coast</b> (261Bc, Bh). Associations of <i>Bromus carinatus (Bromus maritimus)</i> and <i>Pteridium aquilinum</i> occur on Santa Rosa Island (Rodriguez et al. 2017).</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Bb). Stands of the <i>Bromus carinatus</i> association were sampled in this region (Buck-Diaz et al. 2013).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> All the character species of this alliance tolerate disturbances such as grazing, soil erosion, fire, and flooding, and can occur in recently disturbed sites that otherwise may have woody plants dominant.  <i> Bromus carinatus </i>is valued for its rapid and easy establishment in revegetation and erosion control (Darris 2007).  <i>Elymus glaucus </i>is valued in restoration of streambank and meadow areas, and for burned or disturbed areas. It is very tolerant of fire (Johnson 1999). Both of these native grasses also provide excellent wildlife habitat for forage. 
+
+ <i>Pteridium aquilinum </i>is a competitive plant that invades disturbed areas and cultivated fields worldwide. The fronds of this plant are toxic to livestock since they may release hydrogen cyanide (HCN) when they are damaged (cyanogenesis). Herbivores, including sheep and deer, selectively graze young fronds that are acyanogenic (without HCN). Many uses of this fern are known, including food sources by pickling or salting the young fiddlenecks, or by grinding cooked rhizomes into a flour (Crane 1990). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Bromus carinatus [1], [3], [5], [6], [7], [9], [10]</li>
+                
+                    <li>Elymus glaucus [2], [5], [9], [10]</li>
+                
+                    <li>Pteridium aquilinum - Grass [1], [5], [6], [8], [9], [10]</li>
+                
+                    <li>Thermopsis californica - Bromus carinatus - Annual Brome [4], [9]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Buck, J.;Evens, J. 2010</li>
+		
+		<li>[2] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>[3] Buck-Diaz, J.;Ratchford, J.;Evens, J. 2013</li>
+		
+		<li>[4] Evens, J.M.;Kentner, E. 2006</li>
+		
+		<li>[5] Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>[6] Rodriguez, D.;Sikes, K.;Keeler-Wolf, T.;Kittel, G.;Curtis, J.;Curley, C.;Evens, J. 2017</li>
+		
+		<li>[7] Buck-Diaz, J.;Harbert, B.;Evens, J. 2011</li>
+		
+		<li>[8] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2020</li>
+		
+		<li>[9] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>[10] Sikes, K.;Buck-Diaz, J.;Evens, J. 2021</li>
+		
+		<li>Crane, M.F. 1990b</li>
+		
+		<li>Darris, D. 2007</li>
+		
+		<li>Dyer, D.;O’Beck, R. 2005a</li>
+		
+		<li>Keeler-Wolf, T.;Evens, J.M.;Solomeshch, A.I.;Holland, V.L.;Barbour, M.G. 2007</li>
+		
+		<li>Tollefson, J.E. 2006</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/499/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

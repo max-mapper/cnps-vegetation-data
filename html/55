@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Pinus longaeva</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Pinus</i> <i>longaeva</i></span> Woodland Alliance <br/>
+        <span class="subtitle">Bristlecone pine woodland</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Tree
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>2600-3600 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S2.3
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G4
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA, NV, UT (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/tree/pinus-longaeva_whitemtns_01.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Pinus</i> <i>longaeva</i> is dominant or co-dominant in the tree canopy with <i>Pinus</i> <i>flexilis</i>. Shrubs include <i>Acer</i> <i>glabrum</i>, <i>Artemisia</i> <i>dracunculus</i>, <i>Artemisia</i> <i>tridentata</i>, <i>Cercocarpus</i> <i>intricatus</i>, <i>Cercocarpus</i> <i>ledifolius</i>, <i>Chrysothamnus</i> <i>viscidiflorus</i>, <i>Ericameria</i> <i>discoidea</i>, <i>Ribes</i> <i>cereum</i> or <i>Ribes</i> <i>montigenum</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text"> Trees < 18 m; canopy is open to intermittent. Shrubs are infrequent or common. Herbaceous layer is sparse. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Pinus longaeva</i> > 55% relative cover and > 25% absolute cover in the tree canopy (Thomas et al. 2004).</li>
+		
+		<li><i>Pinus longaeva</i> > 50% relative cover in the tree canopy or > 33% relative cover with <i>Pinus flexilis</i> (Evens et al. 2014).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> All slopes, especially ridges and upper slopes at and below the forest line. Soils are nutrient deficient and derived from dolomite, granite, and limestone.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Bristlecone pine series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Pinus longaeva woodland alliance, Pinus longaeva-Pinus flexilis woodland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Bristlecone pine
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Bristlecone pine forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Bristle-cone pine forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Subalpine conifer
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>87.140.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Tree Vegetation (Forest and Woodland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Cool Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North America Cool Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Rocky Mountain Subalpine and High Montane Conifer Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Western Cordilleran xeric subalpine coniferous forest and woodland
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Pinus longaeva </i>is a long-lived, multistemmed tree that attains nearly 4900 years in age and 12 m in height. Trees are intolerant of shade and grow slowly in low-moisture, high elevations with a growing season of fewer than 50 days. Branches retain needles for as long as 30 years, and the trees have deep, spreading roots. Cone ripening and seed dispersal occur in the fall. Clark’s nutcrackers, other birds, and small mammals disperse and cache seeds. The species’ longevity enables it to bridge long periods between seedling establishments (Ahlenslager 1987). Trees produce dense, resinous wood that is resistant to rot and disease. Mature trees have massive, contorted trunks with mostly dead and gnarled wood. <i>Pinus longaeva </i>is a rare CNPS list 4 plant. <br/>
+<br/>
+The alliance occurs as scattered subalpine woodlands in Utah and Nevada; it extends into eastern California, where it is the timberline tree of high desert ranges. This woodland alliance endures harsh, dry, high-elevation conditions in California, such as in the White Mountains, with their nutrient-deficient soils and precipitation of less than 40 cm a year, mostly in the form of snow (Thorne et al. 2007). Stands have only <i>Pinus longaeva </i>or are mixed with <i>Pinus flexilis </i>in the overstory. Stands are usually pure, even aged, and open, with canopy cover usually less than 20%. Trees reach their greatest densities on north-facing slopes. Although the understory is sparse, it is usually diverse, with natives including <i>Arenaria kingii, Astragalus kentrophyta, Cryptantha </i>spp., <i>Eriogonum ovalifolium, E. gracilipes, Koeleria macrantha</i> and <i>Linanthus pungens</i>. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Pinus longaeva</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Tree; evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Transient </td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Stratification—winter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No </td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>50-4000+ years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Low; episodic</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Stands have low density and sparse litter, usually lacking the fuel to carry a fire (Brooks and Minnich 2006). Most fires are infrequent and lighting caused, and affect individual trees. Surface fires are infrequent, slow burning, and of low intensity (Ahlenslager 1987). Stand dynamics are influenced more by climate and seed dispersal patterns than by fire (Howard 2004b).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Truncated long (200+ years)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Late summer (short)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Small
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>High
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Low
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Low
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Single tree fires
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Great Basin
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Mono</b> (341Dj). <i>Pinus longaeva</i> ranges from 2620 to 3540 m in elevation in the White Mountains (Lloyd and Mitchell 1973). The most famous stands are in the Schulman Grove in the White Mountain RNA and in the Patriarch Grove, both of which occur in the Ancient Bristlecone Pine Forest. <i>P. longaeva</i> is usually the only conifer present at these locations. Stands at Whippoorwill Flat RNA in the Inyo Mountains are mixed with <i>P. flexilis</i> (Cheng 2004, Taylor 1979).</li>
+        
+            <li><b>Southeastern Great Basin</b> (341Fb, Fd, Ff). Stands clothe the ridges and peaks of the Grapevine, Inyo, Last Chance, and Panamint mountains, including both pure stands and stands mixed with <i>P. flexilis</i> (Evens et al. 2014).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> <i>Pinus longaeva </i>stands have high recreational and wildlife habitat value: the Ancient Bristlecone Pine Forest, for example, protects nearly 11,735 ha in the White Mountains of Inyo National Forest as a result of the California Wild Heritage Act of 2007. Stands have high-use habitats for mammals and small birds because the stands are a major source for cover and nesting in high elevations (Howard 2004b). 
+
+<i>Pinus longaeva </i>provides the longest continual and some of the most climatically sensitive tree ring chronologies in the world; the best chronologies are obtained from slow-growing pines on harsh sites, such as in the White Mountains. However, stands are vulnerable to fungi, parasites, and insect attacks, including mountain pine beetle infestations. Populations in the White and Inyo mountains are at great risk for blister rust infection and spread because they are close to moderately-high infection centers in the Sierra Nevada (Howard 2004b). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Pinus longaeva [1]</li>
+                
+                    <li>Pinus longaeva / Cercocarpus intricatus [1]</li>
+                
+                    <li>Pinus longaeva / (Ericameria discoidea, Ribes spp.) [2]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Taylor, D.W. 1979</li>
+		
+		<li>[2] Evens, J.M.;Sikes, K.;Hastings, D.;Ratchford,J.S. 2014</li>
+		
+		<li>Ahlenslager, K.E. 1987</li>
+		
+		<li>Barry, W.J. 1989a</li>
+		
+		<li>Barry, W.J. 1989b</li>
+		
+		<li>Beasley, R.S.;Klemmedson, J.O. 1980</li>
+		
+		<li>Billings, W.D.;Thompson, J.H. 1957</li>
+		
+		<li>Brown, D.E.;Lowe, C.H.;Pase, C.P. 1980</li>
+		
+		<li>Cheng, S. 2004</li>
+		
+		<li>Fritts, H.C. 1969</li>
+		
+		<li>Griffin, J.R.;Critchfield, W.B. 1972</li>
+		
+		<li>Hawksworth, F.G.;Bailey, D.K. 1980</li>
+		
+		<li>Howard, J.L. 2004b</li>
+		
+		<li>Lanner, R.M. 1984</li>
+		
+		<li>Lloyd, R.M.;Mitchell, R.S. 1973</li>
+		
+		<li>Marchand, D.E. 1973</li>
+		
+		<li>Mooney, H.A. 1973</li>
+		
+		<li>Mooney, H.A.;St. Andre, G.;Wright, R.D. 1962</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Black, H.;Bleich, V.C.;Mincks, J.W. 1980</li>
+		
+		<li>Schulman, E. 1954</li>
+		
+		<li>Thorne, R.F. 1976</li>
+		
+		<li>Thorne, R.F.;Schoenherr, A.;Clements, C.D.;Young., J.A. 2007</li>
+		
+		<li>Vasek, F.C.;Thorne, R.F. 1977</li>
+		
+		<li>Wright, R.D.;Mooney, H.A. 1965</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/55/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

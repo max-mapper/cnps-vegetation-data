@@ -1,0 +1,1117 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Brassica nigra - Centaurea (solstitialis, melitensis)</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Brassica</i> <i>nigra</i> - <i>Centaurea</i> (<i>solstitialis</i>, <i>melitensis</i><span style="padding-left: .2em">)</span></span> Herbaceous Semi-Natural Alliance <br/>
+        <span class="subtitle">Upland mustards or star-thistle fields</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Herb
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-2800 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>SNA
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>GNA
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA, OR?, Baja California?
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                        <li>
+                            <span class="category">Invasive species rank</span>
+                            See remarks
+                        </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2018/12/21
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/herb/brassica-nigra-and-other-mustards_chimineasranch_04-08_01.jpg', '/static/images/photos/herb/brassica-nigra-and-other-mustards_chimineasranch_04-08_02.jpg', '/static/images/photos/herb/brassica-nigra-and-other-mustards_nearmoorkparkrd-samo_03-03_01.jpg', '/static/images/photos/herb/brassica-nigra-and-other-mustards_trinitylake_01.jpg', '/static/images/photos/herb/brassica-nigra-and-other-mustards_trinitylake_02.jpg', '/static/images/photos/herb/brassica-nigra-and-other-mustards_trinitylake_03.jpg', '/static/images/photos/herb/centaurea-solstitialis-melitensis_collinsville_08-05_01.jpg', '/static/images/photos/herb/centaurea-solstitialis-melitensis_collinsville_08-05_02.jpg', '/static/images/photos/herb/brassica-nigra-centaurea_smat0248_jasperridgepreserve_07-2019.jpg', '/static/images/photos/herb/brassica-nigra_centaurea_prvtland-simmonsslough_05-2019_marin267.jpg', '/static/images/photos/herb/brassica-nigra-centaurea-solstialis-melitensis_san-mateo-half-moon-bay_04-2021_01.jpg', '/static/images/photos/herb/brassica-nigra-centaurea-solstialis-melitensis_san-mateo-half-moon-bay_04-2021_02.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Brassica</i> <i>nigra</i>, <i>Brassica</i> <i>rapa</i>, <i>Carduus</i> <i>pycnocephalus</i>, <i>Centaurea</i> <i>melitensis</i>, <i>Centaurea</i> <i>solstitialis</i>, <i>Cynara</i> <i>cardunculus</i>, <i>Euphorbia</i> <i>terracina</i>, <i>Hirschfeldia</i> <i>incana</i>, <i>Isatis</i> <i>tinctoria</i> or <i>Raphanus</i> <i>sativus</i> or similar ruderal forb is dominant in the herbaceous layer. Emergent trees and shrubs may be present at low cover. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Herbs < 3 m; cover is open to continuous. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Brassica nigra, Hirshfeldia incana, Raphanus sativus</i>, or other mustards occur with non-native plants at > 80% relative cover in the herbaceous layer, and mustards are the dominant herbs (Keeler-Wolf and Evens 2006, Sproul et al. 2011, Buck-Diaz et al. 2012, VegCAMP 2013,  Klein et al. 2015).</li>
+		
+		<li><i>Euphorbia terracina</i> > 30% relative cover in the herbaceous layer with other non-natives, including <i>Brassica nigra</i> (Keeler-Wolf and Evens 2006, Verdone and Evens 2010).</li>
+		
+		<li><i>Euphorbia terracina</i> or <i>Cynara cardunculus</i> > 50% relative cover in the herbaceous layer with other non-natives, including <i>Brassica nigra </i>and <i>Bromus diandrus</i> (Buck-Diaz and Evens 2015).</li>
+		
+		<li><i>Centaurea melitensis</i> > 90% relative cover with other non-natives in the herbaceous layer (Keeler-Wolf and Evens 2006).</li>
+		
+		<li><i>Centaurea melitensis</i> or <i>C. solstitialis</i> along with <i>Brachypodium distachyon</i> > 90% relative cover in the herbaceous layer (Evens et al. 2004).</li>
+		
+		<li><i>Centaurea solstitialis</i> > 50% relative cover in the herbaceous layer (Keeler-Wolf and Vaghti 2000, Keeler-Wolf et al. 2003b).</li>
+		
+		<li><i>Centaurea solstitialis</i> dominant at > 90% relative cover with other non-natives in the herbaceous layer (Klein et al. 2007).</li>
+		
+		<li><i>Brassica nigra, Raphanus sativus, Carduus pycnocephalus, Centaurea solstitialis,</i> or another non-native forb > 50% relative cover in the herbaceous layer, often in old or active agriculture lands (Buck-Diaz et al. 2021).</li>
+		
+		<li><i>Brassica nigra, Raphanus sativus, Carduus pycnocephalus, Carthamus lanatus, Centaurea solstitialis, Carthamus lanatus,</i> or another non-native forb > 50% relative cover in the herbaceous layer, often in old or active agriculture lands (Buck-Diaz et al. 2021, Sikes et al. 2021).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Fallow fields, rangelands, grasslands, roadsides, levee slopes, disturbed coastal scrub, riparian areas, cleared roadsides, waste places. Soils are clays to sandy loams.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>California annual grassland series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Annual grasses and forbs, Non-native/invasive forb, Non-native/ornamental grass
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Non-native grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Valley grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Annual grassland, Perennial grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>42.013.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Mediterranean Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Mediterranean Grassland and Forb Meadow
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>California Grassland and  Meadow
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>California Annual and Perennial Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Mediterranean California naturalized annual and perennial grassland
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> We have included five mustards within this alliance based on their ecological similarities, and we also have updated the alliance to include other non-native invasive forbs including <i>Cynara cardunculus, Euphorbia terracina, Carduus pycnocephalus, Centaurea solstitialis, C. melitensis</i>, and <i>C. sulphurea</i>. As a whole, stands of this alliance form dense colonies that overtop other plants whether they are native or non-native. All respond positively to regular frequent disturbance, whether it be fire, disking, intermittent flooding, or heavy grazing. <i>Brassica nigra </i>was one of the early invaders and has been a part of the California landscape for over 200 years (D’Antonio et al. 2007). The species, however, tend to segregate by moisture and temperature tolerance. Local and regional studies can recognize stand types characterized by a single mustard. <br/>
+<br/>
+DiTomaso and Healy (2007) considered 24 species in the mustard family (Brassicaceae) as weedy in California. Many are associated with agricultural lands, but some form large stands in wildland settings. Listed below are open-branched, tall (1-3 m), aromatic, fast-growing annuals or short-lived perennials from Europe. All create seed banks. Many have allelopathic properties. <br/>
+<br/>
+In order of Cal-IPC status, <i>Brassica nigra</i>, has a Cal-IPC rank of Moderate; <i>B. rapa </i>is ranked as Limited; <i>B. napus </i>is unranked. The mustards are yellow-flowered winter annuals that can grow up to 3 m in height. <i>B. nigra, </i>black mustard, forms dense stands in coastal to inland grasslands with mild winter climates, especially in areas that have been plowed or left fallow. <i>B. rapa, </i>field mustard, grows in more cold-winter inland areas; <i>B. napus, </i>rapeseed, is tied more to roadsides and disturbed waste places. These mustards’ broad basal rosettes of leaves tend to crowd out surrounding native plants, and the tall dead stems tend to persist for several years following good rainfall, increasing the fuel loading and probability of fires. <br/>
+<br/>
+<i>Hirschfeldia incana, </i>shortpod mustard, has a Cal-IPC rank of Moderate. This summer-blooming, short-lived perennial mustard has distinctively beaked, indehiscent pods. It ranges throughout cismontane California at low elevations and the western Mojave Desert, but it is most invasive in grasslands, coastal scrub, and riparian areas in southern California. <br/>
+<br/>
+<i>Isatis tinctoria, </i>dyer’s woad, has a Cal-IPC rank of Moderate and a CDFA list of B. Its bright yellow, dense-flowered panicles give way to distinctive black, flat, single-seeded, indehiscent pods as the plants mature. This short-lived mustard forms extensive, showy patches in rangelands, agricultural lands, and meadows in the state’s northern mountain ranges, especially in the Klamath Mountains and on the Modoc Plateau. <i>I. tinctoria </i>has been used as a purple dye, ink, and medicines. It is a troublesome weed in grain fields and has invaded roadsides and open <i>Artemisia tridentata </i>stands in the Great Basin. <br/>
+<br/>
+<i>Raphanus sativus, </i>cultivated radish, has a Cal-IPC rank of Moderate; <i>R. raphanistrum, </i>wild radish, is unranked. Both radishes are winter or summer annuals that grow to 1 m in height. <i>R. sativus </i>has purple to white petals with dark veins, and <i>R. raphanistrum </i>has yellow to white petals with dark veins. Their beaked, jointed pods are indehiscent. They grow throughout cismontane California at lower elevations and on the Modoc Plateau in grasslands, meadows, coastal scrubs, and disturbed waste places.<br/>
+<br/>
+<i>Carduus cardunculus </i>and <i>Euphorbia terracina</i> have a Cal-IPC rank of Moderate. The former has spiny leaves and flowering heads with pink-purple flowers, and the latter has small yellowish umbels of flowers that are surrounded by yellow-green bracts. They are summer-flowering perennial herbs that can grow to 1 m or more in height. They dominate in fields, fire clearance areas, grasslands, and roadsides along the immediate coast. They appear to be expanding rapidly in extent, displacing native vegetation (DiTomaso et al. 2013).<br/>
+<br/>
+<i>Centaurea solstitialis </i>and other yellow star-thistles have yellow disk flowers surrounded by spiny bracts. They are annuals or shorted-lived perennials to 2 m tall. The upper leaves may be winged; matted, gray hairs cover the leaves, and the lower ones are lobed or dissected and sharply pointed. They develop seed banks, with seeds viable for around three years. DiTomaso and Healy (2007) considered that California has 13 <i>Centaurea </i>taxa as weeds and escaped ornamentals. All are natives of Eurasia. The three species detailed below have invaded significant areas of southern California, the Central Valley, and associated foothills. See Keil and Ochsmann (2006) for detailed plant descriptions. <br/>
+<br/>
+<i>Centaurea solstitialis, </i>yellow star-thistle, has a Cal-IPC rank of High and a CDFA rank of C. It is an annual or short-lived perennial to 1 m tall with very stout spiny flowering bracts and yellow spines, which surround the small heads of large yellow flowers. It is the most serious range weed in the western United States, covering millions of hectares in California. This thistle causes the fatal chewing disease in horses (DiTomaso and Gerlach 2000, DiTomaso and Healy 2007). <br/>
+<br/>
+<i>Centaurea melitensis, </i>Maltese star-thistle, or tocalote, has a Cal-IPC rank of Moderate and a CDFA rank of C. It is an annual to 2 m tall with stout spiny flowering bracts and purplish spines, which surround the large heads of small yellow flowers. It is most invasive in central and southern California (DiTomaso and Gerlach 2000, DiTomaso and Healy 2007). <br/>
+<br/>
+<i>Centaurea sulphurea, </i>Sicilian star-thistle, is unranked by Cal-IPC rank and has a CDFA rank of B. It is an annual to 1 m tall with stout spiny flowering bracts and spine tips that are yellowish to straw-colored and bases that are blackish to dark brown, which surround the heads of pale yellow flowers. It is less invasive than the other species and is localized in central California (DiTomaso and Healy 2007). <br/>
+<br/>
+<i>Centaurea solstitialis </i>uses deep soil moisture reserves earlier in the growing season than do natives such as <i>Nassella pulchra </i>and <i>Quercus douglasii; </i>as a result, the natives experience drought conditions even in years with normal rainfall. In contrast, less competition exists with the shallow-rooted annuals that mature early in the growing season (D. Dudley 2000, Gerlach et al. 1998). Many stands are rife with other non-natives, but many native plant species are able to grow in star-thistle stands as well. Restorationists should keep these natives in mind.<br/>
+<br/>
+This alliance is a merger of the <i>Centaurea (solstitialis, melitensis)</i> and <i>Brassica (nigra) </i> and other mustards alliances that were treated separately in the 2009 book, <i>A Manual of California Vegetation, second edition</i>. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Brassica nigra</th>
+			
+		
+			
+			<th>Brassica rapa</th>
+			
+		
+			
+			<th>Carduus pycnocephalus</th>
+			
+		
+			
+			<th>Centaurea melitensis</th>
+			
+		
+			
+			<th>Centaurea solstitialis</th>
+			
+		
+			
+			<th>Cynara cardunculus</th>
+			
+		
+			
+			<th>Euphorbia terracina</th>
+			
+		
+			
+			<th>Hirschfeldia incana</th>
+			
+		
+			
+			<th>Isatis tinctoria</th>
+			
+		
+			
+			<th>Raphanus sativus</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Annual; herb</td>
+			
+		
+			
+			<td>Annual; herb</td>
+			
+		
+			
+			<td>Annual; biennial</td>
+			
+		
+			
+			<td>Annual; herb</td>
+			
+		
+			
+			<td>Annual; herb</td>
+			
+		
+			
+			<td>Perennial; herb</td>
+			
+		
+			
+			<td>Perennial; herb</td>
+			
+		
+			
+			<td>Perennial; herb</td>
+			
+		
+			
+			<td>Monocarpic perennial; herb</td>
+			
+		
+			
+			<td>Annual/biennial; herb</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td>Soil stored</td>
+			
+		
+			
+			<td>Soil stored</td>
+			
+		
+			
+			<td>Soil stored</td>
+			
+		
+			
+			<td>Soil stored</td>
+			
+		
+			
+			<td>Soil stored</td>
+			
+		
+			
+			<td>Soil stored</td>
+			
+		
+			
+			<td>Soil stored</td>
+			
+		
+			
+			<td>Soil stored</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Long; 50+ years (if deeply buried)</td>
+			
+		
+			
+			<td>Long; 50+ years (if buried)</td>
+			
+		
+			
+			<td>Medium</td>
+			
+		
+			
+			<td>Medium</td>
+			
+		
+			
+			<td>Medium</td>
+			
+		
+			
+			<td>Medium</td>
+			
+		
+			
+			<td>Medium</td>
+			
+		
+			
+			<td>Medium</td>
+			
+		
+			
+			<td>Medium</td>
+			
+		
+			
+			<td>Medium</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Gravity</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Gravity; wind</td>
+			
+		
+			
+			<td>Wind; Gravity</td>
+			
+		
+			
+			<td>Wind; Animal</td>
+			
+		
+			
+			<td>Gravity; wind</td>
+			
+		
+			
+			<td>Expulsion from capsule; animal; water</td>
+			
+		
+			
+			<td>Gravity</td>
+			
+		
+			
+			<td>Gravity; water; wind</td>
+			
+		
+			
+			<td>Gravity</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Heat (fire)</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Stratification - Winter</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Stratification-winter</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Scarification; winter stratification</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Underground structures (root)</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Underground structures</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Underground structures</td>
+			
+		
+			
+			<td>Underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire hardy</td>
+			
+		
+			
+			<td>Fire hardy</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Fire-sensitive</td>
+			
+		
+			
+			<td>Fire-sensitive</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>1-? Years</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>High</td>
+			
+		
+			
+			<td>High</td>
+			
+		
+			
+			<td>High</td>
+			
+		
+			
+			<td>High?</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">The tall mustards increase fire fuel loads and fire intensity, especially in areas already altered by non-native grasses with which they commonly grow. The cover of <i>Brassica nigra </i>increased to 100% following fires in the Santa Monica Mountains (DiTomaso and Johnson 2006).
+
+Prescribed burning can control <i>Centaurea, </i>but it might not be appropriate in many cases (http://wric. ucdavis.edu). The best time for burning is in early to mid summer before the plants have produced seed. Fire has little impact on seeds in the seed bank, and many are stimulated to geminate in the next growing season. Three consecutive years of burning reduces the seed bank significantly (DiTomaso et al. 1999).
+
+<i>Carduus pycnocephalus </i>increases fire frequency in island scrub chaparral and can carry fire into low oak canopy (CAL-IPC 2020).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+            <p>The range of <i>Brassica, Hirschfeldia, Isatis</i>, and <i>Raphanus</i> species includes all sections across California. The range of <i>Centaurea melitensis</i> and <i>C. solstitialis</i> includes cismontane California and the western Mojave Desert (322A), but stands of this alliance have not been documented in the desert.</p>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Aa-l). No description available</li>
+        
+            <li><b>Central California Coast Ranges</b> (M262Aa-k). No description available</li>
+        
+            <li><b>Great Valley</b> (262Aa-z). Stands of <i>Centaurea solstitialis</i> in Suisun Marsh occur in narrow upland belts, on levee tops. They occupy broad expanses in uplands adjacent to the marsh, and in some cases occur within drier managed areas (Keeler-Wolf and Vaghti 2000). Within a 4-year interval, the acreage of stands increased by 5 ha (Vaghti and Keeler-Wolf 2003).
+Keeler-Wolf and Vaghti (2000) recognized sufficient areas of <i>Brassica nigra </i>and <i>Raphanus sativus</i> to map at Suisun Marsh. <i>R. sativus </i>tends to occur in slightly more moist and lowland settings than <i>B. nigra</i>. Neither species changed appreciably over a 4-year period. Stands of <i>Hirschfeldia incana </i>occur adjacent to agricultural fields in wildlands and in grazing lands.</li>
+        
+            <li><b>Klamath Mountains</b> (M261Aa-f, Ah-n, Ap-r, Au). No description available</li>
+        
+            <li><b>Northern California Coast</b> (263Aa-m). No description available</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Ba-f). No description available</li>
+        
+            <li><b>Northern California Interior Coast Ranges</b> (M261Ca-c). No description available</li>
+        
+            <li><b>Sierra Nevada</b> (M261Ea-n, Ep-u). Stands occur in small patches at lower montane elevations, including the Yosemite National Park and environs (Keeler-Wolf et al. 2003b).</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fa-e). Stands occur throughout the section in upland grasslands on a variety of substrates and soil textures (Klein et al. 2007). Evens et al. (2004) placed stands with high <i>Brachypodium distachyon </i>and <i>Centaurea </i>cover in a <i>Brachypodium distachyon </i>alliance, but we place them here. Many stands contained low cover of natives such as <i>Amsinckia menziesii, Brodiaea elegans, Chlorogalum pomeridianum, Clarkia purpurea, Elymus glaucus, Madia </i>spp., and <i>Plagiobothrys nothofulvus.</i></li>
+        
+            <li><b>Southeastern Great Basin</b> (341Fb). No description available</li>
+        
+            <li><b>Southern California Coast</b> (261Ba-j). Stands of <i>C. melitensis </i>with other non-natives including <i>C. solstitialis </i>occur in upland grasslands at Santa Monica Mountains (Keeler-Wolf and Evens 2006). Stands included <i>Calochortus catalinae </i>(a CNPS list 4 plant), <i>Dichelostemma capitatum, Leymus condensatus, Lupinus succulentus, Nassella lepida, Phacelia cicutaria, </i>and emergent <i>Juglans californica </i>(a CNPS list 4 plant) trees. <i>Brassica nigra-Centaurea melitensis </i>association stands from Keeler-Wolf and Evens (2006) typically develop after extreme disturbance through grazing, fire, clearing, and mechanical treatments.
+
+Keeler-Wolf and Evens (2006) recognized <i>Brassica nigra </i>types in the Santa Monica Mountains with <i>Bromus diandrus, Centaurea melitensis, Hirschfeldia incana, </i>and <i>Leymus condensatus</i>. Stands of <i>H. incana </i>were large enough to map along the Santa Clara River (Stillwater Sciences and URS 2007).</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Ba-p). No description available</li>
+        
+            <li><b>Southern Cascades</b> (M261Da-m). No description available</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> People have planted mustard species as cover crops to reduce runoff and preserve nitrogen, as well as to suppress other weeds, nematodes, and soil-borne pathogens (Bryant 2003). However, mustard species have become invasive in fallow areas and in adjacent wildlands. See DiTomaso and Healy (2007) and DiTomaso et al. (2013) for ecology and management of the different species.
+
+With active management of star-thistle, it is possible to reduce its impact and enhance the presence of native species. In many cases, three or more years of intensive management may be necessary to significantly reduce a yellow star-thistle population (DiTomaso and Gerlach 2000). Any approach should consider the advantages and disadvantages of mechanical control, grazing, burning, biological control, and herbicides to identify the best fit for a long-term program. In addition, the program should consider preventing new seedling recruitment (DiTomaso and Gerlach 2000, http://wric.ucdavis.edu). Also see the CDFA website (http://www.cdfa.ca.gov/plant/ipc/biocontrol/) for more on biological control. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Brassica nigra [4], [7], [8], [10], [11], [12]</li>
+                
+                    <li>Brassica nigra - Bromus diandrus [4], [6], [9]</li>
+                
+                    <li>Carduus pycnocephalus - Silybum marianum [12], [13]</li>
+                
+                    <li>Centaurea melitensis [4]</li>
+                
+                    <li>Centaurea solstitialis [5], [8], [10], [13]</li>
+                
+                    <li>Centaurea spp. - Brachypodium distachyon [3]</li>
+                
+                    <li>Cynara cardunculus [9]</li>
+                
+                    <li>Euphorbia terracina [4], [6]</li>
+                
+                    <li>Hirschfeldia incana [8]</li>
+                
+                    <li>Raphanus sativus [1], [2], [10], [12], [13]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Keeler-Wolf, T.;Vaghti, M. 2000</li>
+		
+		<li>[2] Keeler-Wolf, T .;Schirokauer, D.;Meinke, J.;van derLeeden, P. 2003a</li>
+		
+		<li>[3] Evens, J.M.;San, S.;Taylor, J. 2004</li>
+		
+		<li>[4] Keeler-Wolf, T.;Evens, J. 2006</li>
+		
+		<li>[5] Klein, A.;Crawford, J.;Evens, J.;Keeler-Wolf, T.;Hickson, D. 2007</li>
+		
+		<li>[6] Verdone, L.;Evens, J. 2010</li>
+		
+		<li>[7] Sproul, F.;Keeler-Wolf, T.;Gordon-Reedy, P.;Dunn, J.;Klein, A.;Harper, K. 2011</li>
+		
+		<li>[8] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>[9] AECOM, 2013</li>
+		
+		<li>[10] Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>[11] Rodriguez, D.;Sikes, K.;Keeler-Wolf, T.;Kittel, G.;Curtis, J.;Curley, C.;Evens, J. 2017</li>
+		
+		<li>[12] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>[13] Sikes, K.;Buck-Diaz, J.;Evens, J. 2021</li>
+		
+		<li>DiTomaso, J.M.;Gerlach, J.D. 2000</li>
+		
+		<li>DiTomaso, J.M.;Healy, E.A. 2007</li>
+		
+		<li>DiTomaso, J.M.;Kyser, G.B, Oneto, S.R.;Wilson, R.G.;Orloff, S.B.;Anderson, L.W.;et al. 2013</li>
+		
+		<li>Dudley, D.R. 2000</li>
+		
+		<li>Gerlach, J.D.;Dyer, A.;Rice, K.J. 1998</li>
+		
+		<li>Menke, J.;Reyes, E.;Hepburn, A.;Johnson, D.;Reyes, J. 2013</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program);AIS, 2013</li>
+		
+		<li>Zouhar, K. 2002a</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/564/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

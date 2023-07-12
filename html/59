@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Pinus ponderosa</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Pinus</i> <i>ponderosa</i></span> Forest &amp; Woodland Alliance <br/>
+        <span class="subtitle">Ponderosa pine forest and woodland</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Tree
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>300-2100 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S4
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G5
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>CAN: BC. USA: AZ, CA, CO, ID, MT, ND, NE, NM, NV, OK, OR, SD, TX, UT, WA, WY. Mexico (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/tree/pinus-ponderosa_napaco_09-02_01.jpg', '/static/images/photos/tree/pinus-ponderosa_plaskettmeadows_yollabollymtns_06-13.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Pinus</i> <i>ponderosa</i> is dominant or co-dominant in the tree canopy with <i>Abies</i> <i>concolor</i>, <i>Calocedrus</i> <i>decurrens</i>, <i>Juniperus</i> <i>grandis</i>, <i>Juniperus</i> <i>occidentalis</i>, <i>Notholithocarpus</i> <i>densiflorus</i>, <i>Pinus</i> <i>contorta</i> ssp. <i>murrayana</i>, <i>Pinus</i> <i>coulteri</i>, <i>Pinus</i> <i>jeffreyi</i>, <i>Pinus</i> <i>lambertiana</i>, <i>Pseudotsuga</i> <i>menziesii</i>, <i>Quercus</i> <i>chrysolepis</i>, <i>Quercus</i> <i>kelloggii</i> and <i>Quercus</i> <i>wislizeni</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text"> Trees < 50 m; canopy is open to continuous. Shrub layer is open to continuous. Herbaceous layer is sparse, abundant, or grassy. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Pinus ponderosa</i> > 50% relative cover, hardwoods such as <i>Quercus chrysolepis</i> and <i>Q. kelloggii</i> are low in cover, if present (Klein et al. 2007).</li>
+		
+		<li><i>Pinus ponderosa,</i> the principal canopy species, > 10 % absolute cover. <i>Quercus kelloggii,</i> if present, substantially lower cover than <i>P. ponderosa. Calocedrus decurrens, Abies concolor</i> < 1% (Keeler-Wolf et al. 2003b).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> All upland topography, floodplains, low-gradient depositions along streams, and raised benches. The USFWS Wetland Inventory (2012 national list) recognizes <i>Pinus ponderosa</i> as a FACU plant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Ponderosa pine series, Stands on San Benito Mountain, Jeffrey pine-ponderosa pine series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Pinus ponderosa forest alliance, Pinus ponderosa temporarily flooded woodland alliance, Pinus ponderosa woodland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Eastside pine, Yellow pine-Western juniper, Ponderosa pine, Ponderosa pine-White fir
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Upland Coast range ponderosa pine forest, Maritime Coast range ponderosa pine forest, Westside ponderosa pine forest, Eastside ponderosa pine forest, Ponderosa dune forest, Sierran mixed coniferous forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Yellow pine forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Eastside pine, Ponderosa pine
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>87.010.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Tree Vegetation (Forest and Woodland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Cool Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North America Cool Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Californian-Vancouverian Montane and Foothill Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Californian montane conifer forest
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Pinus ponderosa </i>is a long-lived conifer that attains at least 50 m in height and up to 600 years in age. Seed production varies geographically and temporally, with high seed production every 2-7 years. Plants are shade intolerant. Seedling establishment is erratic and linked to periods of adequate soil moisture, high seed crop, and the availability of light mineral soil. It is best on light soils where extensive root proliferation is possible. The presence of grasses and shrubs reduces seedling survival. The status of this widespread species varies among the many forest types in which it occurs (Barbour et al. 2007a, Critchfield 1984, Griffin and Critchfield 1972, Habeck 1992d, Oliver and Ryker 1990). <br/>
+<br/>
+Stands of <i>P. ponderosa </i>occur at low and montane elevations throughout the state’s mountains (Barbour et al. 2007a). Coastal stands in central and southern California are isolated or small compared to surrounding vegetation types. Inland stands in northern Coast Ranges to the interior mountains and valleys typically form a broad belt that is adjacent to fir forests. Stands commonly have other conifers or hardwoods present, and most associations of this alliance have well-developed shrub layers. <br/>
+<br/>
+Genetic work on the extensive and variable <i>P. ponderosa </i>has suggested the definition of four or more subspecies with distinct environmental tolerances. However, there is far from complete agreement on these concepts among taxonomists (see <i>Pinus ponderosa </i>var. <i>washoensis </i>alliance). Trees called Pacific ponderosa pine (<i>P. ponderosa </i>ssp. <i>benthamiana</i>) by the Gymnosperm database (http://www.conifers.org/pi/pin/benthamiana.htm) are most distinctive of forests west of the Cascade-Sierra divide, while <i>P. ponderosa </i>ssp. <i>ponderosa </i>is characteristic of the harsher winters of the transmontane areas of the state (Patten and Brunsfeld 2002). Similarly, Haller and Vivrette (2011) have recognized the Pacific race as <i>P. ponderosa </i>var. <i>pacifica</i>, as well as </i>var. <i>ponderosa</i> and var. <i>washoensis</i>. Currently our classification research emphasizes the putative Pacific race and suggests many stands west of the Cascade- Sierra crest containing <i>P. ponderosa </i>fall better into other alliances. <br/>
+<br/>
+Bingham (1999) developed a regionwide alliance-level classification for late-seral-stage forests based on relationships between species composition and major environmental gradients. Stands with <i>P. ponderosa </i>dominance segregated significantly from other alliances containing mixed conifer species (<i>A. concolor, C. decurrens, P. lambertiana, P. ponderosa, Ps. menziesii</i>). The <i>Pinus ponderosa-Calocedrus decurrens </i>alliance has an important component of <i>C. decurrens </i>and is mostly a cismontane alliance. Stands of the <i>Pinus ponderosa-Calocedrus decurrens </i>alliance are extensive in the Sierra Nevada. Mixed stands of <i>P. ponderosa </i>and <i>Q. kelloggii </i>are members of the <i>Quercus kelloggii </i>alliance. Stands with more equal mixtures of <i>P. ponderosa </i>and <i>Ps. menziesii </i>are widespread in the moister northern half of the state and are also considered separately (see <i>P. ponderosa- Pseudotsuga menziesii </i>alliance). <br/>
+<br/>
+The <i>Pinus ponderosa </i>alliance in California is now more narrowly defined, characterized by stands with strong dominance by Pacific subspecies west of the mountain divide, or by pure and mixed stands east of the divide, composed of the Rocky Mountain race. It is likely that with more research the definition of this and these related alliances will be further modified. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Pinus ponderosa</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Tree; evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Canopy; transient</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; gravity; wind</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Stratification—winter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; thick epidermis; canopy architecture resistant</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>7-600 years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Episodic (weather dependent; episodic on east side)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Historically, surface fire and drought were influential in maintaining stands with open canopies in many areas (Sugihara et al. 2006). Most experienced low-severity surface fires at intervals ranging from 1 to 30 years. Low-intensity surface fires allowed maturing trees to survive repeated burns. Since the introduction of fire exclusion, there has been fuel buildup, stem density increase, and a change in composition toward the more shade-tolerant conifers.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Short
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Summer-early fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Medium to large
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Moderate to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Low to moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Low to moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Surface to passive crown fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>California except for the hot deserts
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Af, Aj-k). Isolated trees, groves, and stands occur at low elevations in the Santa Cruz and Santa Lucia mountains, including ones overlooking the Pacific Ocean at the University of California’s Landels-Hill Big Creek Reserve on the Big Sur coast.</li>
+        
+            <li><b>Central California Coast Ranges</b> (M262Ab, Ae). Isolated trees and groves exist in the Mount Hamilton area of the western Diablo Range. These are less extensive than they were in the 1930s, and the stands contain two or more oaks. Stands also occur in the interior Santa Lucia Mountains.</li>
+        
+            <li><b>Klamath Mountains</b> (M261Ac, Ae-f, Ah-n, Ar, Au). Stands occur mainly in the eastern subsections (Sawyer 2007). Descriptions exist for the southern Siskiyou Mountains (Simpson 1980), Salmon Mountains (Sawyer and Thornburgh 1977), and Whiskeytown Lake National Recreation Area (Lee 2004).</li>
+        
+            <li><b>Modoc Plateau</b> (M261Gc-d, Gf, Gi-j, Gl-p). Stands are extensive and mix with those of the <i>Juniperus occidentalis,</i> and <i>Pinus jeffreyi</i> alliances (Riegel et al. 2006). Stands in the cooler upper elevations of this section can have an important component of <i>Abies concolor</i> (Smith 1994).</li>
+        
+            <li><b>Mono</b> (341Da, Dj). Isolated trees and groves occur in the White Mountains (Elliot-Fisk 1986). These stands are in harsh cool climates, like stands of <i>P. ponderosa </i>var. <i>washoensis, </i>further north.</li>
+        
+            <li><b>Northern California Coast</b> (263Af-g, Am). Isolated trees and groves are scattered in the section at low-montane elevations (Sawyer 2007).</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Ba-b, Be). Stands occur scattered among stands of the more extensive <i>Pseudotsuga menziesii-Lithocarpus densiflorus, Quercus chrysolepis,</i> and <i>Quercus kelloggii</i> alliances in the eastern subsections (Sawyer 2007). Stands in the Yolla Bolly Mountains (Keeler-Wolf and Keeler-Wolf 1974, Waddell 1982) occupy ridges and steep southfacing slopes. The alliance is extensive in the Mayamas Mountains and ranges south into Napa and Sonoma Cos. Open stands occur in some of the broader valleys, such as near Laytonville and Covelo. Relationships with <i>Pinus ponderosa-Calocedrus decurrens, Pinus ponderosa-Pseudotsuga menziesii,</i> and <i>Quercus kelloggii</i> alliances needs further exploration in the section.</li>
+        
+            <li><b>Northern California Interior Coast Ranges</b> (M261Ca-b). Isolated trees and groves occur along streams to as low as 100 m in the section (Sawyer 2007). Isolated trees grow along streams in the northern edge of the Sacramento Valley, often mixed with <i>P. sabiniana</i> and various oaks.</li>
+        
+            <li><b>Northwestern Basin and Range</b> (342Bc, Be). Isolated trees and groves occur on sand dunes in the Madeline Plains and on the western and southwestern edges of the Honey Lake Basin. Their relationships to <i>P. ponderosa </i>var. <i>washoensis</i> and the northern plateau race (var. <i>ponderosa sensu</i> Patten and Brunsfeld 2002) should be investigated.</li>
+        
+            <li><b>Sierra Nevada</b> (M261Ea-j, El-n, Ep, Er-t). Stands are scattered in lower portions of the western montane zone as far south as the Greenhorn Mountains (Fites-Kaufman et al. 2007). Many have been logged or have suffered reductions from recent crown fires. North of Lake Tahoe, stands are extensive on the east side, where they mix those of the <i>P. jeffreyi</i> alliance. Further south on the eastern slopes, the stands are small. Stands described for Bishop Creek Ponderosa Pine cRNA, the Peavine Point and Grizzly Mountain RNAs (Cheng 2004), Sierra Co. (Gray 1978), and generally for the Plumas, Tahoe, and Eldorado national forests (Fites 1993) characterize the <i>Pinus ponderosa-Calocedrus decurrens</i> alliance. Individual trees and groves occur in the Tehachapi Mountains.</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fa-e). Isolated trees and groves occur along streams, canyon bottoms, and lower slopes. Klein et al. (2007) surveyed stands in the northern subsections (Klein et al. 2007). Most are either riparian or associated with chaparral without <i>C. decurrens</i> or <i>Q. kelloggii.</i></li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Ba-e, Bg-h, Bm, Bo). In the northern Transverse Ranges, most stands are small. They are more extensive in the San Gabriel and San Bernardino mountains, and are scattered in the Peninsular Ranges, including the San Jacinto Mountains. Isolated trees and groves occur as far south as Cuyamaca Peak (Keeley 2006, Minnich 2007). Stands in Fern Canyon and Hall Canyon RNAs (Cheng 2004), as throughout the section, are limited to mesic lower slopes, flats, and valley bottoms. These low-elevation stands may be threatened by climate change and changes in fire frequency and intensity.</li>
+        
+            <li><b>Southern Cascades</b> (M261Da-j, Dl-m). Descriptions exist for Black’s Mountain Experimental Forest (Vora 1988), Iron Mountain cRNA, Shasta Mudflow RNA, Soda Ridge rRNA (Cheng 2004), and generally for the Klamath, Lassen, Modoc, and Shasta-Trinity national forests (Smith 1994). Smith placed her mixed associations with <i>P. jeffreyi</i> in a <i>Pinus ponderosa-Pinus jeffreyi</i> alliance. Stands are extensive on the east side, where stands mix with those of <i>Pinus jeffreyi</i> alliance. Stands on the west side mix with those of the<i>Pinus ponderosa-Pseudotsuga menziesii</i> alliance (Fites- Kaufman et al. 2007, Skinner and Taylor 2006). Low-elevation west-side stands occur in “pineries,” which are often surrounded by relatively non-flammable stands of <i>Q. kelloggii</i> (see Skinner et al. 2006).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Although this alliance is widely distributed in the state, many areas have relatively small natural stands that are currently threatened. In the mountains of southern California and in the southern Sierra Nevada, pollutants and drought-induced bark beetle attacks have reduced tree vigor and stand size (Minnich et al. 1995, Minnich and Everett 2001). In northern California, logging practices selectively have removed large <i>Pinus ponderosa </i>trees. Both logging and fire exclusion have changed the composition toward shade-tolerant trees. Many stands have had a history of livestock grazing, which tends to reduce grass cover and favors shrub and tree establishment Approximately 200 insects and diseases impact this pine throughout its life cycle, the most important being the ponderosa pine cone beetle (<i>Conophthorus ponderosae</i>) and the pine seed chalcid (<i>Megastigmus albifrons; </i>Habeck 1992d, Oliver and Ryker 1990, Schmid 1988). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+                <p>Stands Lacking a Well-Developed Shrub Layer</p>
+            
+            <ul class="text">
+                
+                    <li>Pinus ponderosa / Achnatherum nelsonii [11]</li>
+                
+                    <li>Pinus ponderosa / Bromus carinatus [2]</li>
+                
+                    <li>Pinus ponderosa / Ceanothus prostratus [7], [9]</li>
+                
+                    <li>Pinus ponderosa / Galium angustifolium [3], [4]</li>
+                
+            </ul>
+        
+            
+                <p>Stands Mostly Cismontane with a Mixed Tree Canopy</p>
+            
+            <ul class="text">
+                
+                    <li>Pinus ponderosa - Abies concolor / Notholithocarpus densiflorus var. echinoides [6]</li>
+                
+                    <li>Pinus ponderosa - Notholithocarpus densiflorus [6]</li>
+                
+                    <li>Pinus ponderosa - Pinus lambertiana / Arctostaphylos patula - Notholithocarpus densiflorus var. echinoides [6]</li>
+                
+                    <li>Pinus ponderosa - Pinus lambertiana - Quercus chrysolepis / Notholithocarpus densiflorus var. echinoides [6]</li>
+                
+            </ul>
+        
+            
+                <p>Stands Mostly Cismontane with a Shrub Layer</p>
+            
+            <ul class="text">
+                
+                    <li>Pinus ponderosa / Arctostaphylos patula - Chamaebatia foliolosa [1]</li>
+                
+                    <li>Pinus ponderosa / Arctostaphylos viscida [5], [14]</li>
+                
+                    <li>Pinus ponderosa / Ceanothus cuneatus [10]</li>
+                
+                    <li>Pinus ponderosa / Chamaebatia foliolosa [1], [12]</li>
+                
+                    <li>Pinus ponderosa / Notholithocarpus densiflorus var. echinoides [6]</li>
+                
+                    <li>Pinus ponderosa / Symphoricarpos longiflorus [13]</li>
+                
+            </ul>
+        
+            
+                <p>Stands Mostly Transmontane with a Mixed Tree Canopy</p>
+            
+            <ul class="text">
+                
+                    <li>Pinus ponderosa - Pinus contorta ssp. murrayana / Amelanchier alnifolia [11]</li>
+                
+                    <li>Pinus ponderosa - Pinus jeffreyi / Achnatherum occidentale [11]</li>
+                
+                    <li>Pinus ponderosa - Pinus jeffreyi / Artemisia tridentata ssp. vaseyana - Purshia tridentata var. tridentata [11]</li>
+                
+                    <li>Pinus ponderosa - Pinus jeffreyi / Balsamorhiza sagittata [11]</li>
+                
+                    <li>Pinus ponderosa - Pinus jeffreyi / Cercocarpus ledifolius / Pseudoroegneria spicata [11]</li>
+                
+                    <li>Pinus ponderosa - Pinus jeffreyi / Frangula rubra / Poa secunda [11]</li>
+                
+                    <li>Pinus ponderosa - Pinus jeffreyi / Purshia tridentata var. tridentata / Festuca idahoensis [11]</li>
+                
+                    <li>Pinus ponderosa - Pinus jeffreyi / Purshia tridentata var. tridentata / Senecio integerrimus / granite [11]</li>
+                
+                    <li>Pinus ponderosa - Pinus jeffreyi / Quercus vacciniifolia [11]</li>
+                
+                    <li>Pinus ponderosa - Pinus jeffreyi / Quercus vacciniifolia / Wyethia mollis [11]</li>
+                
+            </ul>
+        
+            
+                <p>Stands Mostly Transmontane with a Well-Developed Shrub Layer</p>
+            
+            <ul class="text">
+                
+                    <li>Pinus ponderosa / Amelanchier alnifolia - Mahonia repens / Arnica cordifolia [11]</li>
+                
+                    <li>Pinus ponderosa / Amelanchier alnifolia - Prunus virginiana [11]</li>
+                
+                    <li>Pinus ponderosa / Artemisia tridentata [2], [4]</li>
+                
+                    <li>Pinus ponderosa / Artemisia tridentata ssp. vaseyana / Festuca idahoensis [11]</li>
+                
+                    <li>Pinus ponderosa / Artemisia tridentata ssp. vaseyana - Purshia tridentata var. tridentata [11]</li>
+                
+                    <li>Pinus ponderosa / Ceanothus velutinus / Achnatherum nelsonii [11]</li>
+                
+                    <li>Pinus ponderosa / Cercocarpus ledifolius / Pseudoroegneria spicata [11]</li>
+                
+                    <li>Pinus ponderosa / Cercocarpus ledifolius - Purshia tridentata var. tridentata / Festuca idahoensis [11]</li>
+                
+                    <li>Pinus ponderosa / Purshia tridentata var. tridentata [2], [13]</li>
+                
+                    <li>Pinus ponderosa / Purshia tridentata var. tridentata / Achnatherum nelsonii / pumice [11]</li>
+                
+                    <li>Pinus ponderosa / Purshia tridentata var. tridentata - Arctostaphylos patula / Achnatherum nelsonii [11]</li>
+                
+                    <li>Pinus ponderosa / Purshia tridentata var. tridentata / Balsamorhiza sagittata [11]</li>
+                
+                    <li>Pinus ponderosa / Purshia tridentata var. tridentata - Ceanothus velutinus [11]</li>
+                
+                    <li>Pinus ponderosa / Purshia tridentata var. tridentata / Galium bolanderi [1]</li>
+                
+                    <li>Pinus ponderosa / Purshia tridentata var. tridentata - Prunus virginiana / Bromus orcuttianus [11]</li>
+                
+                    <li>Pinus ponderosa / Purshia tridentata var. tridentata - Ribes cereum / Bromus orcuttianus [11]</li>
+                
+                    <li>Pinus ponderosa / Purshia tridentata var. tridentata / Senecio integerrimus / granite [11]</li>
+                
+                    <li>Pinus ponderosa / Symphoricarpos longiflorus [13]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Fites, J. 1993</li>
+		
+		<li>[2] Keeler-Wolf, T. 1984a</li>
+		
+		<li>[3] Keeler-Wolf, T. 1986b</li>
+		
+		<li>[4] Keeler-Wolf, T. 1988d</li>
+		
+		<li>[5] Klein, A.;Crawford, J.;Evens, J.;Keeler-Wolf, T.;Hickson, D. 2007</li>
+		
+		<li>[6] Lee, C. 2004</li>
+		
+		<li>[7] Muldavin, E.H. 1982</li>
+		
+		<li>[9] Sawyer, J.O.;Thornburgh, D.A. 1977</li>
+		
+		<li>[10] Simpson, L.G. 1980</li>
+		
+		<li>[11] Smith, S. 1994</li>
+		
+		<li>[12] Taylor, D.W.;Randall, D.C. 1977</li>
+		
+		<li>[13] Vora, R.S. 1988</li>
+		
+		<li>[14] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>Barbour, M.G. 1988</li>
+		
+		<li>Barbour, M.G.;Keeler-Wolf, T.;Schoenherr, A.A. 2007a</li>
+		
+		<li>Barrett, J.W.;Martin, R.E.;Wood, D.C. 1983</li>
+		
+		<li>Barrett, J.W.;McDonald, P.M.;Ronco, F.;Ryker, R.A. 1980</li>
+		
+		<li>Griffin, J.R. 1985</li>
+		
+		<li>Griffin, J.R.;Critchfield, W.B. 1972</li>
+		
+		<li>Habeck, R.J. 1992d</li>
+		
+		<li>Haller, J.R.;Vivrette, N.J. 2011</li>
+		
+		<li>Keeler-Wolf, T. 1986c</li>
+		
+		<li>McDonald, P.M. 1980b</li>
+		
+		<li>NPS-SEKI, 2009</li>
+		
+		<li>Oliver, W.W.;Ryker, R.A. 1990</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Black, H.;Bleich, V.C.;Mincks, J.W. 1980</li>
+		
+		<li>Potter, D.A. 2005</li>
+		
+		<li>Rundel, P.W.;Parsons, D.J.;Gordon, D.T. 1977</li>
+		
+		<li>Sawyer, J.O. 2006</li>
+		
+		<li>Sawyer, J.O. 2007</li>
+		
+		<li>Schmid, J.M. 1988</li>
+		
+		<li>Solinas, P.;Spycher, G.;Topik, C. 1985</li>
+		
+		<li>Sugihara, N.G.;van Wagtendonk, J.W.;Shaffer, K.E.;Fites-Kaufman, J.;Thode, A.E. 2006</li>
+		
+		<li>Talley, S.N.;Griffin, J.R. 1980</li>
+		
+		<li>Thorne, R.F. 1977</li>
+		
+		<li>Thorne, R.F. 1982</li>
+		
+		<li>Waddell, D.R. 1982</li>
+		
+		<li>Yeaton, R.I.;Yeaton, R.W.;Horenstein, J.E. 1980</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/59/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

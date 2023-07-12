@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Polygonum lapathifolium - Xanthium strumarium</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Polygonum</i> <i>lapathifolium</i> - <i>Xanthium</i> <i>strumarium</i></span> Herbaceous Alliance <br/>
+        <span class="subtitle">Smartweed - cocklebur patches</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Herb
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-1500 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S4
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G5
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: AZ?, CA, NV?, OR?, WA?
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2009/09/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/herb/persicaria-lapathifolia_xanthium-strumarium_2tulelake_08-09.jpg', '/static/images/photos/herb/persicaria-lapathifolia_xanthium-strumarium_curtzlake_09-09_01.jpg', '/static/images/photos/herb/persicaria-lapathifolia_xanthium-strumarium_curtzlake_09-09_02.jpg', '/static/images/photos/herb/persicaria-lapathifolia_xanthium-strumarium_curtzlake_09-09_03.jpg', '/static/images/photos/herb/persicaria-lapathifolia_xanthium-strumarium_tule%20lake.jpg', '/static/images/photos/herb/persicaria-lapathifolia_xanthium-strumarium_tule%20lake_08-%2009_01.jpg', '/static/images/photos/herb/persicaria-lapathifolia_xanthium-strumarium_tule%20lake_08-09_04.jpg', '/static/images/photos/herb/polygonum-lapathifolium_xanthium-strumarium_marin105_mcp_08-2018.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Alisma</i> <i>lanceolatum</i>, <i>Alisma</i> <i>triviale</i>, <i>Helianthus</i> <i>annuus</i>, <i>Polygonum</i> <i>lapathifolium</i> and/or <i>Xanthium</i> <i>strumarium</i> or other knotweed or smartweed species are dominant or co-dominant in the herbaceous layer with <i>Cuscuta</i> <i>pentagona</i>, <i>Cyperus</i> <i>eragrostis</i>, <i>Echinochloa</i> spp., <i>Eleocharis</i> <i>macrostachya</i>, <i>Euthamia</i> <i>occidentalis</i>, <i>Juncus</i> spp., <i>Mentha</i> <i>pulegium</i>, <i>Phyla</i> <i>nodiflora</i> and <i>Rumex</i> <i>conglomeratus</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Herbs < 1.5 m; cover is open to continuous. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Helianthus annuus, Polygonum </i>spp., or <i>Xanthium strumarium</i> are > 50% relative cover in the herbaceous layer (Buck-Diaz et al. 2012).</li>
+		
+		<li><i>Polygonum</i> spp., and/or <i>Xanthium</i> spp. > 50% relative cover in marshes and regularly disturbed vernally wet ponds, fields, and stream terraces (Klein et al. 2015).</li>
+		
+		<li><i>Persicaria (= Polygonum)</i> spp., <i>Alisma</i> spp. and/or <i>Xanthium strumarium</i> are > 50% relative cover in the herbaceous layer (Buck-Diaz et al. 2021, Sikes et al. 2021).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Marshes, regularly disturbed vernally wet ponds, lakeshores, reservoirs, fields, stream terraces, floodplains, and mudflats. Soils are clay-rich or silty. The USACE Wetland Inventory (2018 national list) recognizes <i>Alisma lanceolatum</i> and <i>A. trivale </i>as OBL, <i>Helianthus annuus</i> as a FACU plant, <i>Polygonum lapathifolium</i> as a FACW plant and <i>Xanthium strumarium</i> as a FAC plant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Wet grasses and forbs
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Coastal and valley freshwater marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Freshwater marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Fresh emergent wetland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>42.207.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate and Boreal Shrubland and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate and Boreal Freshwater Marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North American Freshwater Marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Western North America Wet Meadow and Low Shrub Carr
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Californian warm temperate marsh/seep
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> This alliance was cited as <i>Persicaria lapathifolia - Xanthium strumarium </i>Provisional Herbaceous Alliance in the 2009 book, <i>A Manual of California Vegetation, second edition</i>.  The main diagnostic species in this alliance are considered native to California and North America, but many (including <i>Helianthus annuus</i>) are globally widespread due to their disturbance-adapted "weedy" nature.  This is an example of an annual ruderal alliance with native diagnostic species.  <br/>
+<br/>
+<i>Polygonum lapathifolium, </i>pale smartweed, is a coarse, annual native smartweed to 1 m tall. It has narrowly to broadly lanceolate leaves and arching or nodding inflorescences with white flowers. This is one of several smartweeds and knotweeds with long creeping rhizomes; plants create dense colonies in wild wetlands in the state. It grows with various natives and invasive non-natives in the state’s wetlands; other native smartweeds in stands may include <i>Polygonum amphibium, P. hydropiperoides, </i>or <i>P. punctatum. </i>Many botanical references use the name <i>Persicaria </i>. <br/>
+<br/>
+<i>Xanthium strumarium, </i>common cocklebur, is a robust, native annual herb to 1.5 m tall. It has coarsely toothed and hairy, broadly triangular leaves and distinctive burlike head clusters of two flowers that form large, glandular spiny fruits. It occurs worldwide, particularly in disturbed areas such as seasonally flooded streamsides and alluvial flats. <br/>
+<br/>
+Cal-IPC and the CDFA list three non-native knotweed species from Asia that have similar ecologies to that of <i>P. lapathifolium </i>and are found in similar wetlands. <i>Polygonum cuspidatum, </i>Japanese knotweed, has a Cal-IPC rank of Moderate and a CDFA list B. It has broadly ovate leaves; it forms clumps to 3 m tall in riparian corridors (DiTomaso and Healy 2007). Many references use the name <i>Fallopia japonica. <br/>
+<br/>
+Polygonum sachalinense, </i>giant knotweed, has a Cal-IPC rank of Moderate and a CDFA list B. It has broadly lanceolate leaves; it forms clumps to 4 m tall in marshy areas (DiTomaso and Healy 2007). Many references use the name <i>Fallopia sachalinensis. <br/>
+<br/>
+Polygonum polystachyum, </i>Himalayan knotweed, has a Cal-IPC rank of Moderate, and a CDFA list B. It has lanceolate leaves. It forms clumps to 2 m tall; it is most common in Del Norte and Humboldt Co. marshes (DiTomaso and Healy 2007). Many references use the name <i>Persicaria wallichii. </i><br/>
+<br/>
+Similarly, <i>Alisma triviale </i>and non-native relative <i>A. lanceolatum</i>, water plaintains, occur in seasonally wet ponds, lakeshores, broad floodplains, and wet meadows as semi-aquatic plants occuring in shallow water and mud.  They grow to 0.5-1 m tall, with lanceolate to ovate, pointed leaves. Flowers grow in branched, whorled, airy stalks. The native has white flowers, the non-native pink (Jepson Flora Project 2021). </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Alisma lanceolatum</th>
+			
+		
+			
+			<th>Alisma triviale</th>
+			
+		
+			
+			<th>Helianthus annuus</th>
+			
+		
+			
+			<th>Polygonum lapathifolium</th>
+			
+		
+			
+			<th>Xanthium strumarium</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Polycarpic perennial; herb</td>
+			
+		
+			
+			<td>Annual; herb</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Annual; herb</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Soil stored</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Soil stored</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Medium</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Medium</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Gravity</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Animal; Gravity; Water</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Stratification—Winter</td>
+			
+		
+			
+			<td>Stratification - Summer; Scarification</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Light</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Underground structures</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Fire-sensitive; no sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Life of plant</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Medium</td>
+			
+		
+			
+			<td>Medium to High</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>High</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Hydrologic processes rather than fire primarily disturb the alliance.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+            <p>More sampling is needed to determine full range of this alliance including in the Klamath Mountains (M261A), Modoc Plateau (M261G), and Northern California Coast Ranges (M261B).</p>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Aa, Af). Stands were sampled near Crystal Springs Reservoir and Searseville Lake in San Mateo County (Sikes et al. 2021), and mapped north of Suisun Marsh (Boul et al. 2018).</li>
+        
+            <li><b>Great Valley</b> (262Aa, Ac, Af-i, Al-m, Ao-v, Ay). Stands in disturbed marshlands at Suisun Marsh (262Al) include those of <i>Polygonum lapathifolium</i> mixed with <i>Echinochloa crus-galli, Xanthium strumarium</i>, and agricultural weeds (Keeler-Wolf and Vaghti 2000). Other stands sampled in the Great Valley include the floodplain stands at the Cosumnes River Preserve (Buck 2007) and along the Sacramento and Feather Rivers (VegCAMP and GIC 2013). Where smartweeds and/or <i>Xanthium strumarium</i> are strongly dominant with <i>Bidens frondosa, Cuscuta pentagona, Echinochloa</i> spp.,<i> Eleocharis macrostachya, Euthamia occidentalis</i>, and <i>Phyla nodiflora</i>. Stands observed further south in the San Joaquin Valley occur along seasonally flooded alluvial flats and disturbed wetland areas managed for wildlife.</li>
+        
+            <li><b>Northern California Coast</b> (263Aj, Al). Stands sampled in the floodplain of Laguna de Santa Rosa in Sonoma County (Klein et al. 2015) and sampled between Olema and Point Reyes Station, near the shore of Nicasio Reservoir, and Stafford Lake in Marin County (Buck-Diaz et al 2021) include with <i>Alisma </i>spp., <i>Polygonum </i>spp., and/or <i>Xanthium strumarium</i>. More sampling is needed further north to determine full extent of alliance.</li>
+        
+            <li><b>Sierra Nevada</b> (M261Ed, Er). Stand surveyed along the edge of Lake Isabella. A number of CalFlora observations of <i>Xanthium strumarium </i>in the area between Quincy and Greenville are also suggestive of this alliance in the region.</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fb-c). Sampled in disturbed areas along the Yuba River (Buck-Diaz et al. 2012). Sampled at the margin of Hensley Lake as well as other wet areas in the foothills.</li>
+        
+            <li><b>Southern California Coast</b> (261Bi). Stands are possible based on observations and plant collections (Consortium of California Herbaria 2020; Calflora 2020). However, a number of vegetation classification projects have occurred in the Section with no samples classified to this alliance. More study is needed.</li>
+        
+            <li><b>Southern Cascades</b> (M261Dm). A stand was sampled in Lassen Volcanic National Park.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> <i>Polygonum lapathifolium </i>forms dense stands in many managed wetlands and wildlife areas throughout the state. Although it is considered a weed in some parts of Europe and elsewhere, it produces abundant and nutritious seeds relished by waterfowl (Simmonds 1946). It is considered a valuable winter food source by many waterfowl managers in California. Extensive areas dominated by this species are maintaned in managed wetlands from Modoc County to Imperial County.
+
+ <i>Xanthium strumarium, </i>is a major weed of row crops in many parts of the world, including North America, Southern Europe, the Middle East, South Africa, India and Japan (Webster and Coble 1997). It also is considered a nuisance by livestock producers because the burs attach themselves to animals and the seeds and cotyledons are poisonous to livestock (Uchytil 1992c). However, in California it is limited to seasonally flooded areas and is not considered a serious weed. 
+
+<i>Helianthus annuus </i>is native to North America. It is grown commercially for the seeds and the oil extracted from them, both for human consumption and as a wildlife food.  Stands of the <i>Polygonum lapathifolium - Xanthium strumarium </i>alliance dominated by <i>Helianthus annuus </i>occur in seasonally flooded bottomlands associated with regular disturbance from agriculture or livestock grazing. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Alisma (triviale) [5]</li>
+                
+                    <li>Helianthus annuus [1]</li>
+                
+                    <li>Polygonum (amphibium, lapathifolium) [1], [5], [6]</li>
+                
+                    <li>Xanthium strumarium [1], [3], [4], [5]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>[3] Buck-Diaz, J.;Harbert, B.;Evens, J. 2011</li>
+		
+		<li>[4] Buck-Diaz, J.;Ratchford, J.;Evens, J. 2013</li>
+		
+		<li>[5] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>[6] Sikes, K.;Buck-Diaz, J.;Evens, J. 2021</li>
+		
+		<li>DiTomaso, J.M.;Healy, E.A. 2007</li>
+		
+		<li>Keeler-Wolf, T.;Vaghti, M. 2000</li>
+		
+		<li>Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>Simmonds, N.W. 1946</li>
+		
+		<li>Uchytil, R.J. 1992c</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program),;GIC, 2013</li>
+		
+		<li>Webster, T.M.;Coble, H.D. 1997</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/445/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

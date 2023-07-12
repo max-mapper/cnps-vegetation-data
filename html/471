@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Spartina (alterniflora, densiflora)</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Spartina</i> (<i>alterniflora</i>, <i>densiflora</i><span style="padding-left: .2em">)</span></span> Herbaceous Semi-Natural Alliance <br/>
+        <span class="subtitle">Smooth or Chilean cordgrass marshes</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Herb
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-1 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>SNA
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>None
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA, OR?, WA?
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                        <li>
+                            <span class="category">Invasive species rank</span>
+                            See remarks
+                        </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2009/09/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/herb/spartina-densiflora_humboldtco_08-2001.jpg', '/static/images/photos/herb/spartina-densiflora_08-2010.jpg', '/static/images/photos/herb/spartina-densiflora_arcata-marsh_05-2005.jpg', '/static/images/photos/herb/spartina-densiflora_eel%20river_09-2008.jpg', '/static/images/photos/herb/spartina-densiflora_10-2005.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Spartina</i> <i>alterniflora</i>, <i>Spartina</i> <i>densiflora</i> or another non-native cordgrass is dominant in the herbaceous layer. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Herbs < 1.5 m; cover is continuous. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Spartina densiflora</i> > 50% relative cover in the herbaceous layer (Pickart 2006).</li>
+		
+		<li><i>Spartina foliosa</i> > 50% relative cover on mudflats, banks, berms, and margins of bays and deltas (Buck-Diaz et al. 2021).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Coastal salt marshes on mudflats, banks, berms, margins of bays, and diked marshes. The USFWS Wetland Inventory (1996 national list) recognizes <i>Spartina alterniflora</i> and <i>S. densiflora</i> as OBL plants. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Cordgrass series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Pickleweed-Cordgrass
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Northern coastal salt marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Coastal salt marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Saline emergent wetland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>41.070.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate and Boreal Shrubland and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate and Boreal Salt Marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Temperate and Boreal Pacific Coastal Salt Marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>North American Pacific Coastal Salt Marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Temperate Pacific tidal salt and brackish meadow
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> DiTomaso and Healy (2007) consider four of the six cordgrass species that occur in California to be non-native. These are perennials that grow to 2.5 m in height. Their leaves have flat or inrolled blades, and their inflorescences are open to dense and narrow. Some plants have fleshy to wiry rhizomes. Water and tides disperse their short-lived seeds and rhizome fragments. Seeds germinate in a few months in lighted substrates (DiTomaso and Healy 2007). See also the <i>Spartina foliosa </i>alliance description. Grewell et al. (2007) have provided a description of the state’s coastal salt marshes, including the importance of these grasses. <br/>
+<br/>
+<i>Spartina alterniflora, </i>smooth cordgrass, has a Cal-IPC rank of High. It grows to 2.5 m in height with flat leaves and open inflorescences. The rhizomes are large and fleshy. It was unintentionally planted in San Francisco Bay in the 1970s; currently, <i>S. alterniflora </i>x <i>S. foliosa </i>hybrids form an important aspect of the bay’s marshes. Compared to the native <i>S. foliosa, </i>it grows higher in the salt marshes and at higher water levels, invading mudflats and changing the species composition of the upper marshes. Since the two species hybridize, introgression may eventually eliminate <i>S. foliosa</i>. This introduction is native to the Atlantic coast of the United States (DiTomaso and Healy 2007). <br/>
+<br/>
+<i>Spartina densiflora, </i>Chilean cordgrass, has a Cal-IPC rank of High. It grows to 1.5 m in height with inrolled leaf blades and dense, narrow inflorescences. The rhizomes are mostly lacking. Once considered a northern, tussock form of the native <i>S. foliosa, </i>botanists now regard it an introduction from ship ballasts in the mid-1880s (Faber 2000, Spicher and Josselyn 1985). Plants are locally common in San Francisco Bay and extensive in Humboldt Bay. <i>S. densiflora </i>is native to Argentina and Chile (DiTomaso and Healy 2007). <br/>
+<br/>
+<i>Spartina anglica, </i>common cordgrass, has a Cal-IPC rank of Moderate. It is an amphidiploid derived from hybridization of <i>S. alterniflora </i>and <i>S. maritima</i>. It developed in Britain after the introduction of <i>S. alterniflora </i>in the 1880s. It grows to 1.3 m in height, with flat leaf blades and slightly open inflorescences. The rhizomes are lacking or wiry. Stands occur in northern San Francisco Bay (DiTomaso and Healy 2007). <br/>
+<br/>
+<i>Spartina patens, </i>salt-meadow cordgrass, has a Cal-IPC rank of Limited. It grows to 1.2 m in height with inrolled leaf blades and open inflorescences. The rhizomes are lacking or wiry. Stands occur in salt marshes from Sonoma to Santa Barbara Co. (Grewell et al. 2007). It is native to southeastern United States (DiTomaso and Healy 2007). </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Spartina alterniflora</th>
+			
+		
+			
+			<th>Spartina densiflora</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Perennial; herb; rhizomatous</td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Transient?</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Water?</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Stratification - Winter</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Buds on small branches (tillers); Underground structures</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; low sprouter</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Processes other than fire disturb <i>Spartina </i>stands.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Ab). Stands of all four invasive <i>Spartina </i>species threaten <i>S. foliosa </i>and other salt marsh natives in San Francisco Bay and other coastal marshes in the section.</li>
+        
+            <li><b>Northern California Coast</b> (263Aa-m). Stands of <i>S. densiflora </i>are the most extensive salt marsh type around Humboldt Bay (Barnhart et al. 1992, Eicher 1987, Eicher and Sawyer 1989, Grewell et al. 2007). <i>S. anglica </i>is also reported from Humboldt Bay, and <i>S. alterniflora </i>was effectively eliminated in 1996 (Faber 2000). <i>S.  densiflora </i>also occurs in former tidal channels and other areas that receive saltwater inputs from leaking tide gates. It is relatively rare in these saline, diked marshes, and eradication is still quite feasible (Pickart 2006).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> These cordgrasses have changed the species composition of several major coastal salt marsh areas by reducing natives and altering historic vegetation and biological processes (Grewell et al. 2007). The Invasive Spartina Project (http://www.spartina.org/) is a coordinated regional effort among local, state, and federal organizations to eliminate introduced species of <i>Spartina</i>. The project offers a plant field guide, a best practices guide, and the annual Pesticide Application Plan on its website. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Spartina densiflora [1], [2]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Eicher, A.L. 1987</li>
+		
+		<li>[2] Pickart, A.J. 2006</li>
+		
+		<li>Barnhart, R.A.;Boyd, M.J.;Pequegnat, J.E. 1992</li>
+		
+		<li>DiTomaso, J.M.;Healy, E.A. 2007</li>
+		
+		<li>Eicher, A.L.;Sawyer, J.O. 1989</li>
+		
+		<li>Faber, P.M. 2000</li>
+		
+		<li>Grewell, B.J.;Callaway, J.C.;Ferren, W.C. 2007</li>
+		
+		<li>MacDonald, K.B. 1977</li>
+		
+		<li>Schlosser, S.;Eicher, A. 2007</li>
+		
+		<li>Spicher, D.;Josselyn, M. 1985</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/471/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

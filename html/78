@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Quercus agrifolia</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Quercus</i> <i>agrifolia</i></span> Forest &amp; Woodland Alliance <br/>
+        <span class="subtitle">Coast live oak woodland and forest</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Tree
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-1200 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S4
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G5
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA. Baja California, Mexico (TJM2)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>Yes
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/tree/quercus-agrifolia.jpg', '/static/images/photos/tree/quercus-agrifolia_artemisia-californica_coyot037_je.jpg', '/static/images/photos/tree/quercus-agrifolia_contracostaco_1994_01.jpg', '/static/images/photos/tree/quercus-agrifolia_heteromeles-arbutifolia_cr047_ss.jpg', '/static/images/photos/tree/quercus-agrifolia_mcgintymtn_05-09_01.jpg', '/static/images/photos/tree/quercus-agrifolia_palomarmtns_06-09_01.jpg', '/static/images/photos/tree/quercus-agrifolia_rhamnus-tomentella_crra010_je.jpg', '/static/images/photos/tree/quercus-agrifolia_santaanamtns_06-09_01.jpg', '/static/images/photos/tree/quercus-agrifolia_santaanamtns_06-09_02.jpg', '/static/images/photos/tree/quercus-agrifolia_thousandoaks_03-05_01.jpg', '/static/images/photos/tree/quercus-agrifolia_thousandoaks_samo_03-04_01.jpg', '/static/images/photos/tree/quercus-agrifolia_toxicodendron-diversilobum_coyot004_ss.jpg', '/static/images/photos/tree/quercus-agrifolia_umbellularia-californica_acoyot075_jf.jpg', '/static/images/photos/tree/quercus-agrifolia_umbellularia-californica_acoyot091_s_ss.jpg', '/static/images/photos/tree/quercus-agrifolia_umbellularia-californica_acrra106_cc.jpg', '/static/images/photos/tree/quercus-agrifolia_umbellularia-californica_gcoyot076_jf.jpg', '/static/images/photos/tree/quercus-agrifolia_umbellularia-californica_gcoyot101_ss.jpg', '/static/images/photos/tree/quercus-agrifolia_n-scruz-co_05-2021.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Quercus</i> <i>agrifolia</i> is dominant or co-dominant in the upland tree canopy with <i>Acer</i> <i>macrophyllum</i>, <i>Arbutus</i> <i>menziesii</i>, <i>Juglans</i> <i>californica</i>, <i>Quercus</i> <i>douglasii</i>, <i>Quercus</i> <i>engelmannii</i>, <i>Quercus</i> <i>kelloggii</i>, <i>Quercus</i> <i>lobata</i> and <i>Umbellularia</i> <i>californica</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text"> Trees < 30 m tall; canopy is open (greater than 10%) to continuous, or savanna-like (less than 10%, but evenly distributed). Shrub layer is sparse to intermittent. Herbaceous layer is sparse or grassy. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Quercus agrifolia</i> > 50% relative cover in the tree canopy; if <i>Umbellularia californica</i> trees present, then < 33% relative cover in the tree canopy (Keeler-Wolf et al. 2003a, Evens and San. 2004, Keeler-Wolf and Evens 2006).</li>
+		
+		<li><i>Quercus agrifolia</i> > 60% relative cover in the tree canopy (Evens and San 2005, Klein and Evens 2005).</li>
+		
+		<li><i>Quercus agrifolia</i> > 50% relative cover in the tree canopy, or > 30% relative cover with <i>Arbutus menziesii</i> (Buck-Diaz et al. 2021, Sikes et al. 2021).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Canyon bottoms, slopes, flats. Soils are deep; sandy or loamy with high organic matter.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Coast live oak series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Quercus agrifolia woodland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Coastal mixed hardwood, Coast live oak
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Central Coast live oak riparian forest, Southern Coast live oak riparian forest, Coast live oak woodland, Coast live oak forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Foothill woodland, Southern oak woodland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Coastal oak woodland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>71.060.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Tree Vegetation (Forest and Woodland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Warm Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Madrean Forest and Woodland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>California Forest and Woodland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Californian broadleaf forest and woodland
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Quercus agrifolia </i>is a drought-resistant evergreen tree that grows to 25 m in height. The root system contains both roots that tap groundwater and roots that surface-feed extensively (Callaway 1990). It is the most susceptible of the California oaks to soil drought. Acorns develop in the first year and crops vary greatly in size. Crop failures are common. Most acorns drop in fall, and scrub jays and California ground squirrels disperse and cache them, but some remain attached to trees until spring. Seed predation is high. Seeds germinate soon after they fall and develop deep lateral roots. Shoot growth can be rapid, but browsing by livestock, black-tailed deer, pocket gophers, grasshoppers, cutworms, and feral pigs is high (Steinberg and Howard 2002). Seedlings survive best under larger nurse plants or in rock outcrops (Callaway and Davis 1998, Parikh and Gale 1998a). <br/>
+<br/>
+Stands of this extensive alliance include upland savannas and woodlands, to moist north-facing slope forests with closed tree canopies (Allen-Diaz et al. 2007). Genetic variation is high in the species, with two main recognized varieties. Most plants represent var. <i>agrifolia, </i>while plants recognized as var. <i>oxyadenia </i>in the Peninsular Ranges of southern California have hairs completely covering the lower leaf surfaces (Roberts 1995). Hybrids include <I>Q</I>. X<i>ganderi </i>(<i>Q. agrifolia</i> var. <i>oxyadenia </i>x <i>Q. kelloggii</i>) in San Diego County and <I>Q. </I>x<i>chasei </i>(<i>Q. agrifolia</i> var. <i>agrifolia </i>x <i>Q. kelloggii</i>) in Monterey and Santa Cruz Counties. The species also hybridizes with <i>Q. dumosa, Q. lobata, </i>and <i>Q. wislizeni </i>to varying degrees (Kathleen et al. 2002, Dodd et al. 1993, Brophy and Parnell 1974). A shrub form, <i>Q. agrifolia</i> var. <i>frutescens, </i>may only represent frequently burned or salt-spray pruned plants.<br/>
+<br/>
+Since the publication of the 2009 book, <i>A Manual of California Vegetation, Second Edition</i>, the riparian associations that were previous placed in this alliance have been moved to the<i> Platanus racemosa - Quercus agrifolia </i>Alliance. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Quercus agrifolia</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Tree; evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Transient</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; gravity</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Buds on large branches or trunks; underground structures?</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; thick epidermis; low flammability; high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>25-250+ years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Low to medium; episodic</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>High</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Large trees are exceptionally fire resistant with the thickest bark of any California oak. They generally recover well from a fire, although severely burned crowns, trunks, and root crowns may require several years to sprout. Smaller trees are less resistant, but even low to moderately severe fires often kill seedlings and saplings. Stands may attain 80-100% of their pre-fire densities within 10 years after a fire, though fire return intervals in natural conditions vary widely (Sugihara et al. 2006, Steinberg and Howard 2002).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Medium (30-100+ yrs)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Summer-early fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Medium to large; up to or beyond stand size (highly variable, depends on surrounding vegetation)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Low to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Low to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Surface; passive crown; passive-active crown
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>North Coast, Central Coast, southern California
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Aa-l). Stands described from Cone Peak Gradient RNA (Keeler-Wolf and Keeler-Wolf 1977, see Cheng 2004), John Muir National Historic Site (O’Neil and Egan 2004), the San Francisco Peninsula (Keeler-Wolf et al. 2003a), and are generally extensive in the section (Allen et al. 1989).</li>
+        
+            <li><b>Central California Coast Ranges</b> (M262Aa-c, Ae-f, Ah, Aj). Stands occur at Coyote Ridge in the Diablo Range (Evens and San 2004), Wagon Caves RNA in the Santa Lucia Mountains (Keeler-Wolf 1989a, see Cheng 2004), at Pinnacles National Monument in the Gabilan Range (Kittel et al. 2012), and generally in the section (Allen et al. 1989).</li>
+        
+            <li><b>Great Valley</b> (262Ai, Ak-l, Aq). Stands were mapped in San Joaquin River Delta (Kreb et al. 2019) and Great Valley (Buck-Diaz et al. 2012).</li>
+        
+            <li><b>Northern California Coast</b> (263Ac, Ag, Ai-m). Stands from Point Reyes National Seashore and on Mount Tamalpais in Marin Co. (Evens and Kentner 2006, Keeler-Wolf et al. 2003a), and from Mendocino and Napa Cos. (Allen et al. 1989) contain <i>Arbutus menziesii</i> and <i>Umbellularia californica.</i> The understories are commonly grassy.</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Bb, Bf). Stands occur in southeastern Napa Co. where <i>Q. douglasii</i> is a common associate (Thorne et al. 2004).</li>
+        
+            <li><b>Northern California Interior Coast Ranges</b> (M261Ca). Stands occur in the southern end of the inner north Coast Ranges in eastern Napa County. In western Yolo County, some riparian stands extend almost to the edge of the Great Valley.</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261F). Stands were surveyed in Southern Sierra Nevada Foothills (Ratchford 2021a).</li>
+        
+            <li><b>Southern California Coast</b> (261Ba-j). Stands are diverse in the Santa Monica Mountains (Keeler-Wolf and Evens 2006) and across the section (Allen et al. 1989). Stands occur on the larger northern Channel Islands (Junak et al. 2007, Philbrick and Haller 1977), including well-developed stnads on Santa Cruz Island (TNC 2007).</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Ba, Bc-g, Bj-p). Stands exist in Guatay Mountain RNA, Fern Canyon RNA, Organ Valley RNA (Cheng 2004), in the Gavilan Hills (Boyd 1983), in the Purisima Hills (Cole 1980), along Santa Margarita and Santa Ana Rivers in Orange Co. (Zembal 1989), in coastal hills to western desert slopes in San Diego Co. (Evens and San 2005), at low elevations in western Riverside Co. (Klein and Evens 2005), and generally in the section (Allen et al. 1989). Some stands (<i>Q. agrifolia</i> var. <i>oxyadenia</i>) can be found above 1500 m in elevation and may associate with montane shrubs such as <i>Artemisia tridentata.</i></li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> The alliance has a number of management issues ranging from residential development pressures to sudden oak death syndrome. Frequent fires in this alliance may create shrublands or limit oak invasion of chaparral and grasslands (Mensing 1998), while long fire-free intervals may have allowed the oaks to expand (Van Dyke et al. 2001). The Fifth Symposium on Oak Woodlands (Standiford et al. 2002) addresses current management issues and the UC Integrated Hardwood Range Management Program addresses conservation strategies (at http://danr.ucop.edu/ihrmp/).
+
+The impact of sudden oak death on vegetation in the Marin Municipal Watershed was measured over a 10-year period from 2004 to 2014. Die-off and canopy gaps were noted in stands historically containing <i>Quercus agrifolia</i>. The gaps created from dead <i>Q. agrifolia</i> were typically sparsely vegetated, with little to no new shrubs or trees regenerating in the location (AIS 2015). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+                <p>Pure Stands</p>
+            
+            <ul class="text">
+                
+                    <li>Quercus agrifolia [2], [10], [13], [20], [26]</li>
+                
+                    <li>Quercus agrifolia / Adenostoma fasciculatum - (Salvia mellifera) [1], [10], [11], [22], [28]</li>
+                
+                    <li>Quercus agrifolia / Arctostaphylos (crustacea) [27]</li>
+                
+                    <li>Quercus agrifolia / Arctostaphylos (insularis) [20]</li>
+                
+                    <li>Quercus agrifolia / Artemisia californica [1], [4], [5], [10], [19], [23]</li>
+                
+                    <li>Quercus agrifolia / Ceanothus (oliganthus, spinosus) [6], [10]</li>
+                
+                    <li>Quercus agrifolia / Eriogonum wrightii [17]</li>
+                
+                    <li>Quercus agrifolia / Frangula californica - Heteromeles arbutifolia [1]</li>
+                
+                    <li>Quercus agrifolia / grass [1], [3], [5], [10], [11], [14], [16], [21], [23], [27], [28]</li>
+                
+                    <li>Quercus agrifolia / Heteromeles arbutifolia [1], [4], [10]</li>
+                
+                    <li>Quercus agrifolia / Holodiscus discolor - Symphoricarpos albus [1]</li>
+                
+                    <li>Quercus agrifolia / Quercus (berberidifolia, xacutidens) [10], [19], [23]</li>
+                
+                    <li>Quercus agrifolia / Quercus pacifica [20]</li>
+                
+                    <li>Quercus agrifolia / Rubus spp. / Pteridium aquilinum [1], [25]</li>
+                
+                    <li>Quercus agrifolia / Symphoricarpos albus [8]</li>
+                
+                    <li>Quercus agrifolia / Toxicodendron diversilobum [1], [3], [4], [5], [9], [10], [11], [16], [19], [21], [23], [27], [28]</li>
+                
+            </ul>
+        
+            
+                <p>Stands with a Mixed Tree Layer</p>
+            
+            <ul class="text">
+                
+                    <li>Quercus agrifolia - Acer macrophyllum / Frangula californica - Holodiscus discolor [1]</li>
+                
+                    <li>Quercus agrifolia - Aesculus californica [16]</li>
+                
+                    <li>Quercus agrifolia - Arbutus menziesii / Corylus cornuta - Rubus spp. [1], [9], [27], [28]</li>
+                
+                    <li>Quercus agrifolia - Arbutus menziesii - Umbellularia californica [3], [9], [21], [27], [28]</li>
+                
+                    <li>Quercus agrifolia - Pinus coulteri [17]</li>
+                
+                    <li>Quercus agrifolia - Quercus engelmannii / Eriogonum fasciculatum [5]</li>
+                
+                    <li>Quercus agrifolia - Quercus kelloggii [5], [15], [24], [27], [28]</li>
+                
+                    <li>Quercus agrifolia - Quercus tomentella / (Prunus ilicifolia ssp. lyonii) [20]</li>
+                
+                    <li>Quercus agrifolia - Umbellularia californica [4], [9], [10], [12]</li>
+                
+                    <li>Quercus agrifolia - Umbellularia californica / Heteromeles arbutifolia - Quercus berberidifolia [1], [4], [28]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Allen, B.H.;Evett, R.R. ;Holzman, B.A.;Martin, A.J. 1989</li>
+		
+		<li>[2] Campbell, B. 1980</li>
+		
+		<li>[3] Evens, J.M.;Kentner, E. 2006</li>
+		
+		<li>[4] Evens, J.;San, S. 2004</li>
+		
+		<li>[5] Evens, J.;San, S. 2005</li>
+		
+		<li>[6] Gordon, H.J.;White, T.C. 1994</li>
+		
+		<li>[8] Keeler-Wolf, T. 1990a</li>
+		
+		<li>[9] Keeler-Wolf, T .;Schirokauer, D.;Meinke, J.;van derLeeden, P. 2003a</li>
+		
+		<li>[10] Keeler-Wolf, T.;Evens, J. 2006</li>
+		
+		<li>[11] Klein, A.;Evens, J. 2005</li>
+		
+		<li>[12] O’Neil, S.;Egan, S. 2004</li>
+		
+		<li>[13] Parker, V.T. 1990b</li>
+		
+		<li>[14] Shuford, W.D.;Timossi, I.C. 1989</li>
+		
+		<li>[15] Wainwright, T.C.;Barbour, M.G. 1984</li>
+		
+		<li>[16] Kittel, G.;Reyes, E.;Evens, J.;Buck, J.;Johnson, D. 2012</li>
+		
+		<li>[17] Keeler-Wolf, T.;Roye, C.;Lewis, K. 1998b</li>
+		
+		<li>[19] Sproul, F.;Keeler-Wolf, T.;Gordon-Reedy, P.;Dunn, J.;Klein, A.;Harper, K. 2011</li>
+		
+		<li>[20] Rodriguez, D.;Sikes, K.;Keeler-Wolf, T.;Kittel, G.;Curtis, J.;Curley, C.;Evens, J. 2017</li>
+		
+		<li>[21] Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>[22] Buck-Diaz, J.;Evens, J. 2011b</li>
+		
+		<li>[23] AECOM, 2013</li>
+		
+		<li>[24] Buck, J.;Evens, J. 2010</li>
+		
+		<li>[25] McBride, J.R.;Stone, E.C. 1976</li>
+		
+		<li>[26] Reyes, E.;Johnson, D.;Glass, A. 2019</li>
+		
+		<li>[27] Sikes, K.;Buck-Diaz, J.;Evens, J. 2021</li>
+		
+		<li>[28] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>AIS (Aerial Information Systems Inc.), 2015</li>
+		
+		<li>Allen, B.H.;Holzman, B.A.;Evett, R.R. 1991</li>
+		
+		<li>Barbour, M.G. 1988</li>
+		
+		<li>Barry, W.J. 1989a</li>
+		
+		<li>Barry, W.J. 1989b</li>
+		
+		<li>Boyd, S.D.;Ross, T.S.;Bramlet, D. 1995</li>
+		
+		<li>Brown, D.E. 1982b</li>
+		
+		<li>Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>Callaway, R.M.;Davis, F.W. 1998</li>
+		
+		<li>Cooper, W.S. 1922</li>
+		
+		<li>Dagit, R. 2002</li>
+		
+		<li>Dunning, C.E.;Paine, T.D.;Redak, R.A. 2002</li>
+		
+		<li>Faber, P.M.;Keller, E.;Sands, A.;Massey, B.M. 1989</li>
+		
+		<li>Ferren, W.R. 1989a</li>
+		
+		<li>Finch, S.J.;McCleery, D. 1980</li>
+		
+		<li>Gaman, T.;Casey, K. 2002</li>
+		
+		<li>Griffin, J.R. 1971</li>
+		
+		<li>Griffin, J.R. 1977</li>
+		
+		<li>Griffin, J.R.;Critchfield, W.B. 1972</li>
+		
+		<li>Hanes, T.H.;Hecht, B.;Stromberg, L.P. 1990</li>
+		
+		<li>Koenig, W.D.;Knops, J.M. 1997</li>
+		
+		<li>Koenig, W.D.;Knops, J.M.;Carmen, W.J.;Stanback, M.T. 1999</li>
+		
+		<li>Koenig, W.D.;Knops, J.M.;Carmen, W.J.;Stanback, M.T.;Mumme, R.L. 1996</li>
+		
+		<li>Koenig, W.D.;Mumme, R.L.;Carmen, W.J.;Stanback, M.T. 1994</li>
+		
+		<li>Lathrop, E.W.;Zuill, H.A. 1984</li>
+		
+		<li>Menke, J.;Reyes, E.;Hepburn, A.;Johnson, D.;Reyes, J. 2013</li>
+		
+		<li>Minnich, R.A. 1976</li>
+		
+		<li>Minnich, R.A. 1987</li>
+		
+		<li>Parikh, A.;Gale, H. 1998a</li>
+		
+		<li>Parker, V.T.;Muller, C.H. 1982</li>
+		
+		<li>Pavlik, B.M.;Muick, P.C.;Johnson, S.G.;Popper, M. 1991</li>
+		
+		<li>Paysen, T.E.;Ansley, R.J.;Brown, J.K.;Gottfried, G.J.;Haase, S.M.;Harrington, M.G.;Narog, M.G.;Sackett, S.S.;Wilson, R.C. 2000</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Black, H.;Bleich, V.C.;Mincks, J.W. 1980</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Conrad, C.E. 1982</li>
+		
+		<li>Plumb, T.R. 1980</li>
+		
+		<li>Plumb, T.R.;Gomez, A.P. 1983</li>
+		
+		<li>Shiflet, T.N. 1994</li>
+		
+		<li>Shreve, F. 1927</li>
+		
+		<li>Snow, G.E. 1973</li>
+		
+		<li>Steinberg, P.D.;Howard, K.L. 2002</li>
+		
+		<li>Stillwater Sciences and URS, 2007</li>
+		
+		<li>Sweitzer, R.A.;VanVuren, D.H. 2002</li>
+		
+		<li>Thorne, R.F. 1976</li>
+		
+		<li>Tyler, C.M.;Mahall, B.E.;Davis, F.W.;Hall, M. 2002</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program);AIS, 2013</li>
+		
+		<li>Vogl, R.J. 1976</li>
+		
+		<li>Wells, P.V. 1962</li>
+		
+		<li>Zuill, H.A. 1967</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/78/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

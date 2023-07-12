@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Rhododendron columbianum</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Rhododendron</i> <i>columbianum</i></span> Shrubland Alliance <br/>
+        <span class="subtitle">Western Labrador-tea thickets</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>10-2500 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S2
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G4
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA, NV, OR (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2009/09/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/rhododendron-columbianum_hellholefen-ltbmu_07-10_01.jpg', '/static/images/photos/shrub/rhododendron-columbianum_hellholefen-ltbmu_07-10_02.jpg', '/static/images/photos/shrub/rhododendron-columbianum_hellholefen-ltbmu_07-10_03.jpg', '/static/images/photos/shrub/rhododendron-columbianum_ggnra-tomalesbaystpk_06-2019_2_marin314.jpg', '/static/images/photos/shrub/rhododendron-columbianum_ggnra-tomalesbaystpk_06-2019_marin314.jpg', '/static/images/photos/shrub/rhododendron-columbianum_point-reyes_05-2006.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Rhododendron</i> <i>columbianum</i> is dominant in the shrub canopy with <i>Frangula</i> <i>californica</i>, <i>Gaultheria</i> <i>shallon</i>, <i>Kalmia</i> <i>microphylla</i>, <i>Lonicera</i> <i>cauriana</i>, <i>Lonicera</i> <i>involucrata</i>, <i>Morella</i> <i>californica</i>, <i>Rubus</i> <i>ursinus</i>, <i>Salix</i> <i>orestera</i>, <i>Sambucus</i> <i>racemosa</i>, <i>Spiraea</i> <i>douglasii</i>, <i>Spiraea</i> <i>splendens</i> and <i>Vaccinium</i> <i>uliginosum</i>. Emergent trees may be present at low cover, including <i>Alnus</i> <i>rubra</i>, <i>Hesperocyparis</i> <i>pigmaea</i>, <i>Pinus</i> <i>contorta</i>, <i>Pinus</i> <i>muricata</i> or <i>Umbellularia</i> <i>californica</i>. Mosses may be present, including <i>Sphagnum</i> <i>subsecundum</i> and <i>Sphagnum</i> <i>teres</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 2 m; canopy is intermittent to continuous. Herbaceous layer is open to continuous; mosses may be present. Tree layer is sparse to intermittent. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Rhododendron columbianum</i> > 50% relative cover in the shrub layer (cf. Christy 2004, NatureServe 2007, VegCAMP 2019, Buck-Diaz et al. 2021).</li>
+		
+		<li><i>Rhododendron columbianum</i> > 50% relative cover in the shrub layer and <i>Pinus contorta </i>ssp. <i>murrayana</i> may be emergent in fen stands (Sikes et al. 2010a).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Moderate to gentle concave slopes and meadows at the bottom of broad valleys adjacent to streams, seeps, lakes, ponds, and saturated swales. Sites receive water from subsurface flows. Soils are high in organic matter and loamy. The USFWS Wetland Inventory (2012 national list) recognizes <i>Rhododendron columbianum</i> as an OBL plant in California. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Fen habitat, Pygmy cypress series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Ledum glandulosum saturated shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Lodgepole pine, Pygmy cypress, North coastal scrub, Riparian mixed shrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Ledum swamp, Mendocino pygmy cypress forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Closed-cone pine forest, Lodgepole forest, Northern coastal scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Fresh emergent wetland, Montane riparian
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>63.425.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate and Boreal Shrubland and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate and Boreal Bog and Fen
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>North American Scrub and Herb Peatland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Western North American Montane/Boreal Peatland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>MG063. Western North American Montane/Boreal Peatland
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Rhododendron columbianum </i>is an evergreen resinous shrub that grows to 1.5 m tall. The simple, leathery leaves with revolute margins cluster at the stem tips with fragrant, white flowers. Plants produce numerous, wind-dispersed seeds after their capsules split. Seeds require light to germinate from short-lived seed bank. Seedlings are small, grow slowly, and establish best in moist areas with discontinuous moss cover. Plants have shallow roots and rhizomes. Buds sprout from stems, root crowns, and rhizomes when plants are damaged (Gucker 2006b). Older manuals use the name <i>Ledum glandulosum </i>(Hickman 1993)<i>, </i>but morphological and molecular methods confirm the plant as a member of <i>Rhododendron </i>(Harmaja 1990, 1991, Kron and Judd 1990). This is a wetland shrub closely related to the circumboreal Labrador tea, <i>Rhododendron </i>(<i>Ledum</i>) <i>groenlandicum</i>, and it also has been considered taxonomically a hybrid <i>Ledum ×columbianum</i> (USDA-NRCS 2012).<br/>
+<br/>
+<i>Rhododendron columbianum </i>grows along the coast of the Pacific Northwest and in northern California mountains on acidic soils with or without mosses. Although the species is common, we know only a few shrubland stands in California scattered along the coast in coastal valleys, and other stands occur in fen/meadow complexes in the Sierra Nevada (Holland 1986, Cooper and Wolf 2006). Along the coast, they resemble associations described by Christy (2004) for Oregon in which <i>Carex obnupta, Gaultheria shallon, </i>and <i>Sphagnum </i>spp. are associates. Associations are often in early seral settings in Oregon and Washington, such as disturbed coastal swamps and heavily elk-browsed edges of moist lowland forests associated with fens and other wetlands (Christy 2004, NatureServe 2007). Coastal and montane stands are currently combined in this alliance, though future analysis of wetland data may warrant splitting them into different shrub alliances as has been done in the NVC within North Pacific acidic bog & fen and Rocky Mountain fen groups.<br/>
+<br/>
+Over most of the range in California, <i>R. columbianum </i>clusters in swampy areas under tree canopies that may represent many alliances, including both subspecies of <i>Pinus contorta, </i>as in the coastal zone (Holland 1986) and in the Sierra Nevada (Potter 2005). Coastal, wet temperate as well as montane, cold temperate stands that lack tree canopies are included in this shrub alliance. However, cover and physiognomy across stands are quite variable with some as scrub with few scattered trees and others as woodland communities with a well-developed understory of shrubs. Stands can sometimes have higher tree cover (>10%). More sampling and analysis is needed to clarify the distribution and relationships of these wetland stands with varying cover in the tree layer, especially to determine if a <i>Pinus contorta </i>Swamp Forest Alliance is warranted as compared to this shrubland alliance.  In many sites along the North Coast where Mendocino cypress occur, Rhododendron columbianum often has the highest cover in stands that fall under the <i>Hesperocyparis pigmaea - Pinus contorta ssp. bolanderi / Rhododendron columbianum</i> association of the California Coastal Cypress Coodland Alliance. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Rhododendron columbianum</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Shrub; evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil </td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Wind</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Light</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Buds on large branches or trunks (stems); underground structures (root crowns; rhizomes)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; no/low sprouter to high sprouter </td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>Life of plant</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Stands do not carry fire regularly in California. <i>Rhododendron columbianum </i>sprouts when disturbed; <i>R. groenlandicum </i>is widely known in Canada as a post-fire sprouter (Gucker 2006b).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Medium
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Early fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Up to stand size
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Low
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Low to moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Surface
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>North Coast
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+            <p>The range of <i>Rhododendron columbianum</i> includes the Central California Coast (261A), Northern California Coast (263A), Central California Coast Ranges (M262A), Klamath Mountains (M261A), Mono (341D), Southern Cascade (M261D), Sierra Nevada (M261E), and Warner Mountains (M261Gf).</p>
+        
+
+        <ul class="text">
+        
+            <li><b>Klamath Mountains</b> (M261Aj). <i>Rhododendron columbianum </i> stands occur in the Upper Scott Mountains in the Shasta-Trinity National Forest (Sikes et al. 2012).</li>
+        
+            <li><b>Modoc Plateau</b> (M261Gf). <i>Rhododendron columbianum </i> stands occur in the Lassen Creek Fen complex in the Warner Mountains and near Mineral Spring near the Oregon - California border (Cooper and Wolf 2006, Sikes et al. 2010a).</li>
+        
+            <li><b>Northern California Coast</b> (263Aa-b, Ad-e, Ag-k). Stands on the Point Reyes Peninsula, including Inverness Ridge, in Marin Co. (Buck-Diaz et al. 2021), are ecologically similar to those of <i>Carex obnupta</i> and <i>Rubus spectabilis - Morella californica</i> alliances. Stands also occur north to Humboldt and Del Norte Cos., including observations at Big Lagoon County Park, Patrick’s Point State Park, Lake Earl Wildlife Area, and Tolowa State Park. A vegetation survey of Crescent City Marsh Wildlife Area (Imper and Sawyer 1992) found <i>Rhododendron columbianum</i> growing with <i>Calamagrostis nutkaensis, Carex obnupta, Deschampsia cespitosa,</i> and <i>Menyanthes trifoliata,</i> and with emergent <i>Morella californica</i> and <i>Picea sitchensis.</i> Stands have been mapped along the coast in Mendocino Co. (VegCAMP 2019). Herbarium records also suggest that stands of this species historically occurred at Pitkin Marsh in Sonoma Co. (CCH 2018).</li>
+        
+            <li><b>Sierra Nevada</b> (M261Ed-e, Eg-h, Ek-l, Et). Sampled stands occur in acidic fens with relatively poor mineral ion supplies on the Eldorado, Plumas, and Tahoe national forests; they include fens with a dense ericaceous shrub canopy and <i>Pinus contorta</i> stunted or contorted, or with a pine canopy and shrub subcanopy (Cooper and Wolf 2006, Sikes et al. 2010a). Stands also occur in Yosemite and Sequoia-Kings Canyon National Parks (Keeler-Wolf et al. 2003b).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> In California, known stands are restricted to a few sites along the foggy North Coast and the montane Sierra Nevada. Stands are often small (e.g., < 0.5 hectares), and some are adjacent to and affected by human activity such as housing developments, change in water tables, or timber harvest. Encroachment by taller, woody plants adversely affects stand species composition, which includes rare plants such as <i>Lilium occidentale, </i>a CNPS list 1B.1 plant, on the North Coast. These stands require periodic disturbance.
+
+This alliance is ranked rare in California due to a low area of occupancy, a low number of occurrences, narrow environmental specificity, as well as several pervasive threats with negative population impacts, notably droughts and habitat alteration due to climate change. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Rhododendron columbianum - Gaultheria shallon / Carex obnupta [2], [6]</li>
+                
+                    <li>Rhododendron columbianum / Pinus contorta ssp. murrayana [1], [3], [4], [5], [7]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Cooper, D.J.;Wolf, E.C. 2006</li>
+		
+		<li>[2] Holland, R.F. 1986</li>
+		
+		<li>[3] Keeler-Wolf, T.;Schindel, M.;San, S.;Moore, P.;Hickson, D. 2003b</li>
+		
+		<li>[4] Sikes, K.G.;Cooper, D.J.;Weis, S.;Keeler-Wolf, T.;Barbour, M.;Ikeda, D.;Evens, J.M. 2010a</li>
+		
+		<li>[5] Potter, D.A. 2005</li>
+		
+		<li>[6] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>[7] Taylor, D.W. 1984</li>
+		
+		<li>CCH (Consortium of California Herbaria), 2017+</li>
+		
+		<li>Christy, J.A. 2004</li>
+		
+		<li>Gucker, C.L. 2006b</li>
+		
+		<li>Harmaja, H. 1990</li>
+		
+		<li>Harmaja, H. 1991</li>
+		
+		<li>Hickman, J.C. 1993</li>
+		
+		<li>Imper, D.K.;Sawyer, J.O. 1992</li>
+		
+		<li>Kron, K.A.;Judd, W.S. 1990</li>
+		
+		<li>NatureServe, 2007</li>
+		
+		<li>Sikes, K.G.;Roach-McIntosh, D.;Stout, D. 2012</li>
+		
+		<li>USDA-NRCS (US Department of Agriculture - Natural Resource Conservation Service), Various dates (1999-2021)</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program), 2019</li>
+		
+		<li>Wallace, G.D. 1992</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/264/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

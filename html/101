@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Acer glabrum</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+	<div class="allianceHeader">
+		<span class="scientificName"><i>Acer</i> <i>glabrum</i></span> Provisional Shrubland Alliance <br/>
+		<span class="subtitle">Rocky Mountain maple thickets</span>
+	</div>
+
+	<div class="mainAllianceInfo">
+
+		<div class="allianceSideInfo">
+			<div class="quickInfoList">
+				<h4>Summary Information</h4>
+				<ul>
+					<li>
+						<span class="category">Primary Life Form</span>Shrub
+					</li>
+					<li>
+						<span class="category">Elevation</span>1500-2800 m
+					</li>
+					<li>
+						<span class="category">State Rarity</span>S3?
+					</li>
+					<li>
+						<span class="category">Global Rarity</span>G5
+					</li>
+					<li>
+						<span class="category">Distribution</span>USA: CA, OR?, NV?, MT, WY (NatureServe)
+					</li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2009/09/01
+                    </li>
+				</ul>
+			</div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/acer-glabrum_mcgeecanyonjohnmuirwild_09-94.jpg']
+            </script>
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+		</div>
+
+		
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Acer</i> <i>glabrum</i> is dominant or co-dominant in the shrub canopy with <i>Alnus</i> <i>incana</i> ssp. <i>tenuifolia</i>, <i>Alnus</i> <i>viridis</i> ssp. <i>sinuata</i>, <i>Cornus</i> <i>sericea</i>, <i>Paxistima</i> <i>myrsinites</i>, <i>Sambucus</i> <i>nigra</i> and <i>Sorbus</i> <i>scopulina</i>. </div>
+</div>
+
+		
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text"> Emergent, avalanche-damaged conifers may be present. Shrubs < 5 m: canopy is continuous. Herbaceous layer is variable and possibly diverse. </div>
+</div>
+
+		
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Along streambanks, edges of the avalanche tracks, and other mesic disturbance zones. The USFWS Wetland Inventory (1996 national list) recognizes <i>Acer glabrum</i> var. <i>torreyi</i> as a FAC plant. </div>
+</div>
+
+		
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance, and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Montane wetland shrub habitat
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Acer glabrum shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Montane riparian scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Red fir forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Montane riparian
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>61.430.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+	</div>
+
+
+	<!-- collapsable content below -->
+
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Acer glabrum </i>is a deciduous, tall, multi-stemmed shrub or small tree to 6 m. It has a wide, spreading root system with deep lateral roots. Plants begin producing seed before 10 years of age. The winged samaras contain large seeds dispersed by wind and animals. Large seed crops occur every 1 to 3 years, and seeds remain viable for a short time. Seedlings establish in partial shade on mineral soil. Plants readily sprout and grow vigorously from the root crown when disturbed. The species is a common understory plant and conspicuous in areas with recurring disturbances such as avalanche chutes (Anderson 2001a, Nesom 2000). <br/>
+<br/>
+<i>Acer glabrum </i>grows throughout the mountains of the western cordillera. The typical variety, var. <i>glabrum, </i>occurs in the Rocky Mountains where the NVCS (NatureServe 2007a) recognizes an alliance. The alliance occurs in mesic, rocky settings, along streambanks, and moist seepage areas at mid- to high elevations where snowpack conditions are unstable or in drainage bottoms. Stands develop rapidly following disturbances from fire and avalanche in the Rocky Mountains (Nesom 2000, NatureServe 2007a). Further refinement of the alliance name is preferred with other diagnostic species, since the current alliance name in the NVC includes <i>Abies lasiocarpa</i>, yet most stands including all California stands do not. </div>
+</div>
+
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Observations</h4>
+	<div class="text"> California has three varieties of <i>Acer glabrum</i> var. <i>torreyi</i> is most common and occurs in the Klamath Mountains (M261A), Southern Cascades (M261D), and Sierra Nevada (M261). We know of local stands in avalanches chutes in the Trinity Alps, in the Marble Mountains, in the Siskiyou Mountains (Kagan et al. 2000), and in similar settings along the eastern escarpment of the Sierra Nevada between Yosemite National Park and Lone Pine in Inyo Co. Stands of var. <i>diffusum</i> appear to occur in the Inyo, Panamint, and White mountains, and stands of var. <i>greenei</i> may occur in the southern Sierra Nevada. </div>
+</div>
+
+	
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Evens, J.M.;Sikes, K.;Hastings, D.;Ratchford,J.S. 2014</li>
+		
+		<li>[2] NatureServe, 2007</li>
+		
+		<li>Anderson, M.D. 2001a</li>
+		
+		<li>Kagan, J.S.;Christy, J.A.;Murray, M.P.;Titus, J.A. 2004</li>
+		
+		<li>Nesom, G. 2000</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+	<script src="/static/javascript/alliance_page.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

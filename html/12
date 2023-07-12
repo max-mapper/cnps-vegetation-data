@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Aesculus californica</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Aesculus</i> <i>californica</i></span> Forest &amp; Woodland Alliance <br/>
+        <span class="subtitle">California buckeye groves</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Tree
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>100-1500 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G3
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA (NatureServe) (FEIS)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>Yes
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>Yes
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/tree/aesculus-californica_q-douglasii_interdigitizationarroyomocho_04-05.jpg', '/static/images/photos/tree/aesculus-californica_fresnoco_05-28-04_01.jpg', '/static/images/photos/tree/aesculus-californica_scmtns_fall-04.jpg', '/static/images/photos/tree/aesculus-californica_jasperridge_smat0251_07-19.jpg', '/static/images/photos/tree/aesculus-californica_oldtollroad_mariposaco_201104.jpg', '/static/images/photos/tree/aesculus-californica_peoriawildlifearea_tuolumneco_jtaylor_2004.jpg', '/static/images/photos/tree/aesculus-californica_san-gregorio_2004.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Aesculus</i> <i>californica</i> is dominant or co-dominant in the tree canopy with <i>Fraxinus</i> <i>dipetala</i>, <i>Heteromeles</i> <i>arbutifolia</i>, <i>Pinus</i> <i>sabiniana</i>, <i>Prunus</i> <i>ilicifolia</i>, <i>Quercus</i> <i>wislizeni</i> and <i>Umbellularia</i> <i>californica</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text"> Trees < 10 m; canopy is open to continuous, one or two-tiered. Shrubs are common. Herbaceous layer is sparse or grassy. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Aesculus californica</i> > 50% relative cover in the tree canopy (Evens and Kentner 2006).</li>
+		
+		<li><i>Aesculus californica</i> > 50% relative cover or conspicuous in the tree canopy (Keeler-Wolf et al. 2003b).</li>
+		
+		<li><i>Aesculus californica</i> > 60% relative cover in the tree canopy (Klein et al. 2007).</li>
+		
+		<li><i>Aesculus californica</i> > 50% relative cover in the tree canopy, if <i>Umbellularia californica</i> is present it is < 30% relative cover (Buck-Diaz et al. 2021, Sikes et al. 2021).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Varied slopes and topography. Soils are shallow and moderately to excessively drained.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>California buckeye series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Aesculus californica woodland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>California buckeye
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Mixed north slope forest, Mainland cherry forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Foothill woodland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Montane hardwood
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>75.100.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Tree Vegetation (Forest and Woodland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Warm Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Madrean Forest and Woodland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>California Forest and Woodland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Californian broadleaf forest and woodland
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Aesculus californica </i>is a large shrub or tree up to 7 m tall. Trees produce large seeds annually, which are dispersed mainly by gravity or water. Seeds remain viable for only a year, germinating when soil temperatures and moisture are suitable. Trees can sprout from the stumps or root crowns. Interestingly, leaves dry up and drop in late spring or early summer in many inland areas, but trees may retain their leaves through fall in coastal populations when soil moisture remains available (Howard 1992a). <br/>
+<br/>
+Stands are small and often occur in relative mesic concavities inland or on steep lower to mid slopes in more coastal areas. They intermix with stands of many chaparral and woodland alliances at low elevations. Stands in Sierra Nevada foothills lack <i>Prunus ilicifolia</i>; otherwise, they have similar composition to those in the central Coast Ranges (Klyver 1931). </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Aesculus californica</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Tree; drought deciduous</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Transient</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal (rarely); gravity; water/hydrological</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Buds on large branches or trunks; underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>5-10 years to life of plant</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Low to medium</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">During much of the fire season, trees do not have leaves and are not prone to burning. Plants grow to trees in locations that experience low fire frequency (Griffin 1977) though many stands under-burn with short fire return intervals.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Short (1-10 years)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Summer-early fall (starts earlier now because of annual grasses)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Medium to up to stand size
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Low to moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Low to moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Surface-passive crown
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Sierra Nevada and foothills; Central Valley, Central Coast ranges
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Aa-g, Aj). The alliance is sampled in Golden Gate National Recreation Area (Keeler-Wolf et al. 2003a). Stands are common throughout the section with stands of <i>Quercus agrifolia</i>, <i>Q. wislizeni</i>, and <i>Umbellularia californica</i>.</li>
+        
+            <li><b>Central California Coast Ranges</b> (M262Aa-e, Ah, Aj). Stands typically occupy north-facing slopes mixed with the <i>Quercus agrifolia</i> and <i>Quercus douglasii</i> alliances and with grasslands in the Pinnacles National Monument (Kittel et al. 2012) and on the eastern side of the Santa Lucia Mountains.</li>
+        
+            <li><b>Great Valley</b> (262Ag, Ao). Stands occur adjacent to the foothills in the eastern portion of the section.</li>
+        
+            <li><b>Klamath Mountains</b> (M261Ai). Individual trees and small groves occur at low elevations in the Sacramento River watershed and at the confluence of the main and south of the Trinity River. Shrubby stands on limestone in the Devil’s Rock-Hosselkus RNA (Keeler-Wolf 1989a, Keeler-Wolf and Keeler-Wolf 1975, see Cheng 2004) contain <i>Cercis occidentalis</i>, <i>Philadelphus lewisii</i>, and <i>Toxicodendron diversilobum</i>.</li>
+        
+            <li><b>Northern California Coast</b> (263Aj, Al-m). Stands are occasional on steep rocky slopes adjacent to mixed oak stands or grasslands as at Mount Tamalpais (Evens and Kentner 2006). Rarely are they adjacent to stands of <i>Sequoia sempervirens</i> or <i>Pseudotsuga menziesii</i>.</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Bd-f). Stands occur on steep rocky slopes in the southern and drier portions of the section.</li>
+        
+            <li><b>Northern California Interior Coast Ranges</b> (M261Ca). Stands occasionally occur on steep northerly-facing slopes and concavities at low elevations adjacent to stands of <i>Quercus douglasii</i> or <i>Q. wislizeni</i> (Sawyer 2006).</li>
+        
+            <li><b>Sierra Nevada</b> (M261Ef-g, Ep, Es). Stands are relatively common on steep north-facing slopes in Yosemite National Park (Keeler-Wolf et al. 2003b) and in the Kaweah, Kern, Kings, and Tule river drainages up to 1500 m. They usually associate with <i>Quercus chrysolepis</i> or <i>Q. wislizeni</i> woodlands.</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fa-e). Stands associated with several rock types occur in narrow defiles or at cliff bases adjacent to <i>Quercus wislizeni</i> stands in the section. Annual grassland or evergreen oak forest types surround some in the Merced and Stanislaus river drainages.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> <i>Aesculus californica </i>stands are usually small and arrayed in a matrix of other foothill woodland and shrubland types, often on steep sites with lower productivity. Ranchers consider <i>A. californica </i>an undesirable plant as it is toxic to livestock. All parts of the plant contain glucosidal compounds that depress the central nervous system if ingested. Despite its toxicity, flowers, leaves, and shoots are palatable and preferred by black-tailed deer and cattle. Seeds were staple food for California Indians, who would mash the roasted seeds and then leach them to remove the poison (Howard 1992a). Conservation should consider stands in relation to large blocks of the foothill landscape. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Aesculus californica [4], [8], [9]</li>
+                
+                    <li>Aesculus californica / Datisca glomerata [3]</li>
+                
+                    <li>Aesculus californica / Lupinus albifrons [3]</li>
+                
+                    <li>Aesculus californica / Toxicodendron diversilobum / moss [1], [4], [5], [6], [7], [10], [11]</li>
+                
+                    <li>Aesculus californica - Umbellularia californica [2], [10], [11]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Evens, J.M.;San, S.;Taylor, J. 2004</li>
+		
+		<li>[2] Evens, J.M.;Kentner, E. 2006</li>
+		
+		<li>[3] Keeler-Wolf, T.;Schindel, M.;San, S.;Moore, P.;Hickson, D. 2003b</li>
+		
+		<li>[4] Klein, A.;Crawford, J.;Evens, J.;Keeler-Wolf, T.;Hickson, D. 2007</li>
+		
+		<li>[5] Kittel, G.;Reyes, E.;Evens, J.;Buck, J.;Johnson, D. 2012</li>
+		
+		<li>[6] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>[7] Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>[8] VegCAMP (CDFW Vegetation Classification and Mapping Program), 2015a</li>
+		
+		<li>[9] Reyes, E.;Evens, J.;Glass, A.;Sikes, K.;Keeler-Wolf., T.;Winitsky, S.;Johnson, D.;Menke, J.;Hepburn, A. 2020a</li>
+		
+		<li>[10] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>[11] Sikes, K.;Buck-Diaz, J.;Evens, J. 2021</li>
+		
+		<li>Baker, G.A.;Rundel, P.W.;Parsons, D.J. 1982</li>
+		
+		<li>Barbour, M.G. 1987</li>
+		
+		<li>Barry, W.J. 1989a</li>
+		
+		<li>Clark, H.W. 1937</li>
+		
+		<li>Griffin, J.R. 1977</li>
+		
+		<li>Griffin, J.R.;Critchfield, W.B. 1972</li>
+		
+		<li>Halvorson, W.L.;Clark, R.A. 1989</li>
+		
+		<li>Howard, A.Q. 1992</li>
+		
+		<li>Menke, J.;Reyes, E.;Hepburn, A.;Johnson, D.;Reyes, J. 2013</li>
+		
+		<li>NPS-SEKI, 2009</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program);AIS, 2013</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/12/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

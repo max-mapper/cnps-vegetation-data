@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Rhus trilobata - Crataegus rivularis - Forestiera pubescens</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Rhus</i> <i>trilobata</i> - <i>Crataegus</i> <i>rivularis</i> - <i>Forestiera</i> <i>pubescens</i></span> Shrubland Alliance <br/>
+        <span class="subtitle">Basket bush - river hawthorn - desert olive patches</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>385-2200 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3.2?
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G4
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: AZ, CA, CO, NM, OK, TX, UT, WY. Mexico (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2009/09/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/foresteria_celtis_b-sergiloides_willowspr_11-95.jpg', '/static/images/photos/shrub/foresteria_celtis_baccharis-sergiloides_salix_willowspr_11-95.jpg', '/static/images/photos/shrub/foresteria_celtis_baccharis-sergiloides_salix_willowspr_2.jpg', '/static/images/photos/shrub/foresteria-pubescens_alabamahills_04-05_01.jpg', '/static/images/photos/shrub/foresteria-pubescens_cimadome_01-97_01.jpg', '/static/images/photos/shrub/foresteria-pubescens_grapevinecyn_04-99_01.jpg', '/static/images/photos/shrub/forestiera-pubescens_blmpotrerocynrd_03-10_01.jpg', '/static/images/photos/shrub/forestiera-pubescens_blmpotrerocynrd_03-10_02.jpg', '/static/images/photos/shrub/forestieria-pubescens_alabamahills_2005.jpg', '/static/images/photos/shrub/forestieria-pubescens_wnymtns_09-09_01.jpg', '/static/images/photos/shrub/forestieria-pubescens_wnymtns_09-09_02.jpg', '/static/images/photos/shrub/forestieria-pubescens_wnymtns_09-09_03.jpg', '/static/images/photos/shrub/forestieria-pubescens_wnymtns_09-09_04.jpg', '/static/images/photos/shrub/forestieria-pubescens_wnymtns_09-09_05.jpg', '/static/images/photos/shrub/forestieria-pubescens_wnymtns_09-09_06.jpg', '/static/images/photos/shrub/forestiera-pubescens_mojacnymtns_09-09_01.jpg', '/static/images/photos/shrub/forestiera-pubescens_mojacnymtns_09-09_02.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Forestiera</i> <i>pubescens</i>, <i>Rhus</i> <i>trilobata</i> and/or <i>Sambucus</i> <i>nigra</i> are dominant or co-dominant in the shrub canopy with <i>Atriplex</i> <i>canescens</i>, <i>Baccharis</i> <i>emoryi</i>, <i>Baccharis</i> <i>sergiloides</i>, <i>Ericameria</i> <i>linearifolia</i>, <i>Gutierrezia</i> <i>sarothrae</i>, <i>Phragmites</i> <i>australis</i>, <i>Prunus</i> <i>fasciculata</i>, <i>Salix</i> <i>exigua</i> and <i>Vitis</i> <i>girdiana</i>. Emergent trees may be present at low cover, including <i>Populus</i> <i>fremontii</i>, <i>Quercus</i> spp. or <i>Salix</i> <i>laevigata</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 5 m; canopy is intermittent to continuous and may be two tiered. Herbaceous layer is sparse to intermittent. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Forestiera pubescens</i> > 50% relative cover in the shrub layer (Klein and Evens 2005, Buck-Diaz and Evens 2011, Evens et al. 2014).</li>
+		
+		<li><i>Rhus trilobata</i> > 50% relative cover in the shrub layer (Evens and San 2005, Keeler-Wolf et al. 1998, Klein and Evens 2005).</li>
+		
+		<li><i>Sambucus nigra</i> > 50% relative cover in the shrub canopy (Buck-Diaz et al. 2021).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Floodplains, stream banks, springs, river terraces, washes, swales, shallow valleys, or upland topography. Soils range from silty clays to coarse sands. The USFWS Wetland Inventory (1996 national list) recognizes <i>Forestiera pubescens</i> as a FAC plant and <i>Rhus trilobata</i> as a FACU plant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Forestiera pubescens temporarily flooded shrubland alliance, Rhus trilobata shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Desert mixed wash scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Mojave desert wash scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Desert riparian, Desert wash
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>61.580.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Tree Vegetation (Forest and Woodland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate Flooded and Swamp Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North America Warm Temperate Flooded and Swamp Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Southwestern North American Riparian, Flooded and Swamp Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Southwestern North American riparian/wash scrub
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Forestiera pubescens </i>is a long-lived, spreading shrub or small tree. Mature plants produce abundant crops of black drupes. Animals such as birds disperse the seeds. Plants form clonal thickets and sprout after stem damage (USDA-NRCS 2005b). The typical variety, var. <i>pubescens, </i>occurs in California and adjacent states; var. <i>glabrifolia </i>exists from New Mexico to Oklahoma. <br/>
+<br/>
+<i>Rhus trilobata </i>is an upright shrub to 2 m that forms large thickets. Roots are deep and branched extensively. Its woody, shallow rhizomes give rise to aerial stems that form clonal thickets. Leaves are deciduous with generally three leaflets. Fruits are red, hairy drupes. Shrubs produce long-lived seeds nearly every year. Birds and small mammals cache and disperse the seeds that collect in a seed bank. The seeds have dormancy broken by cold stratification. Seedlings are shade intolerant, and stems and rhizomes can live for more than 30 years (Nesom 2003). <br/>
+<br/>
+Leaf and stem characteristics in <i>Rhus trilobata </i>vary greatly, with up to four varieties that may be recognized in the state: the widespread var. <i>quinata </i>and var. <i>pilosissima; </i>var. <i>anisophylla </i>of the Mojave Desert; and var. <i>simplicifolia </i>(a CNPS list 2.3 plant). The <i>Jepson Manual </i>(Baldwin et al. 2012) does not recognize varieties, and vegetation surveys rarely do either. It and other recent taxonomic sources (Cronquist et al. 1997; Pell 2004) consider <i>R. trilobata </i>synonymous with <i>R. aromatica </i>of the eastern United States.  This species is an important basketry species for many southwestern tribes and like <i>Corylus cornuta, </i>may have been historically managed through fire and pruning (Anderson 2005).<br/>
+<br/>
+The <i>Forestiera pubescens </i>Shrubland Alliance has been expanded to include stands dominated or co-dominated by <i>Rhus trilobata</i> or <i>Sambucus nigra</i> (NatureServe 2015, Evens et al. 2014). Stands occur as scattered, small patches in California (McMinn 1939). They are not common and usually occur in slightly drier conditions upslope from flowing water in areas with subsurface moisture such as washes and river terraces, springs in hilly terrain, and narrows in desert canyon bottoms where moisture is forced to the surface. These stands are often associated with other riparian types dominated by <i>Baccharis salicifolia, B. sergiloides, Populus fremontii, Salix exigua, </i>and <i>Tamarix</i>. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Forestiera pubescens</th>
+			
+		
+			
+			<th>Rhus trilobata</th>
+			
+		
+			
+			<th>Sambucus nigra</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Shrub; evergreen; clonal</td>
+			
+		
+			
+			<td>Shrub; winter deciduous</td>
+			
+		
+			
+			<td>Shrub; winter deciduous</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td>Long</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal</td>
+			
+		
+			
+			<td>Animal; water/hydrological</td>
+			
+		
+			
+			<td>Animal; gravity</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>Stratification—winter</td>
+			
+		
+			
+			<td>Stratification—winter </td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Buds on large branches or trunks (stem)</td>
+			
+		
+			
+			<td>Underground structures</td>
+			
+		
+			
+			<td>Buds on large branches or trunks (stem); underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+			
+			<td>Fire-hardy; no/low sprouter to high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>Long-lived</td>
+			
+		
+			
+			<td>6-100+ years</td>
+			
+		
+			
+			<td>Short-lived</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Episodic </td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>High</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Fluvial processes rather than fire are the major disturbances. Plants are not resistant to fires, though they may sprout easily after disturbance. Plants may increase after fire, though average plant size is reduced in the short-term.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast Ranges</b> (M262Ac-d, Ag, Aj-k). Stands of <i>Forestiera pubescens </i>occur locally in Contra Costa Co. including at Mt. Diablo, and they occur elsewhere south to the Temblor and Caliente Ranges (Twisselmann 1967).</li>
+        
+            <li><b>Great Valley</b> (262Ae). <i>Forestiera pubescens </i>grows at the Sutter Buttes, though stands remain unsampled.</li>
+        
+            <li><b>Mojave Desert</b> (322Ad, Ag-h, Aj-l, An). Stands exist in the eastern subsections around springs and in canyons (Thomas et al. 2004), and are found in Castle Mountains National Monument and Mojave National Preserve in the New York Mountains (Evens et al. 2014), and near Lancaster in the Antelope Valley (VegCamp and AIS 2013).</li>
+        
+            <li><b>Sierra Nevada</b> (M261Er-s). Stands of <i>Forestiera pubescens </i>occur along Caliente Creek in the Tehachapi Mountains (Twisselman 1967) and along the base of the eastern escarpment in the Owens Valley as in the Alabama Hills.</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fa-e). Stands of <i>Forestiera pubescens </i>and <i>Rhus trilobata </i>may occur in the foothills of the Tehachapi Mountains, such as along Caliente Creek (VegCAMP 2015a). Stands of <i>Rhus trilobata </i>also occur scattered along foothill stream terraces generally, including in Butte Co. adjacent to <i>Quercus lobata</i> woodlands.</li>
+        
+            <li><b>Southeastern Great Basin</b> (341Fb-f). Stand density is high in the Argus, Coso, and Inyo Mountains (Thomas et al. 2004), especially at east-side canyon springs, some of which are foraging habitat for the endemic Inyo race of the California towhee (M. Bagley, pers. comm. 2000). Stands also occur in Death Valley National Park in the Panamint Mountains (Evens et al. 2014).</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Bb-d, Bg, Bi-l, Bo-p). Occasional stands of <i>Forestiera pubescens</i> and <i>Rhus trilobata </i>occur around springs, seeps, washes, and river terraces in western Riverside Co., often adjacent to woodlands of the <i>Platanus racemosa, Quercus agrifolia,</i> and <i>Salix laevigata</i> alliances, including in the Perris Valley area on rocky, exposed upper slopes (Klein and Evens 2005). Stands in the Volcan Mountain area of San Diego Co. occur adjacent to dry meadows (Evens and San 2005). Stands also occur in swales and valleys adjacent to chaparral in the uplands of Anza-Borrego Desert State Park, such as in Ignacio Canyon (Keeler-Wolf et al. 1998b) and on the desert margins of the San Bernardino Mountains associated with stands of the <i>Baccharis emoryi - Baccharis sergiloides, Ericameria nauseosa,</i> and <i>Salix laevigata</i> alliances.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> This semi-wetland alliance may be sensitive to invasion by <i>Tamarix</i>. We need to make efforts to protect stands of this alliance across its localized range in California. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Forestiera pubescens [2], [6], [7], [8]</li>
+                
+                    <li>Forestiera pubescens - Sambucus nigra [1], [5]</li>
+                
+                    <li>Rhus trilobata [3], [4], [7]</li>
+                
+                    <li>Sambucus nigra [4], [5], [9], [10]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Klein, A.;Evens, J. 2005</li>
+		
+		<li>[2] Keeler-Wolf, T.;Thomas, K. 2000</li>
+		
+		<li>[3] Keeler-Wolf, T.;Roye, C.;Lewis, K. 1998b</li>
+		
+		<li>[4] Evens, J.;San, S. 2005</li>
+		
+		<li>[5] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>[6] Evens, J.M.;Sikes, K.;Hastings, D.;Ratchford,J.S. 2014</li>
+		
+		<li>[7] VegCAMP (CDFW Vegetation Classification and Mapping Program), 2015a</li>
+		
+		<li>[8] Reyes, E.;Evens, J.;Glass, A.;Sikes, K.;Keeler-Wolf., T.;Winitsky, S.;Johnson, D.;Menke, J.;Hepburn, A. 2020a</li>
+		
+		<li>[9] Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>[10] AECOM, 2013</li>
+		
+		<li>Buck-Diaz, J.;Evens, J. 2011b</li>
+		
+		<li>Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>Crane, M.F. 1989</li>
+		
+		<li>Crane, M.F. 1989a</li>
+		
+		<li>Holland, R.F. 1986</li>
+		
+		<li>Keeler-Wolf, T.;Evens, J. 2006</li>
+		
+		<li>McMinn, H.E. 1939</li>
+		
+		<li>Menke, J.;Reyes, E.;Hepburn, A.;Johnson, D.;Reyes, J. 2013</li>
+		
+		<li>Nesom, G. 2003</li>
+		
+		<li>Reid, M.S.;Schulz, K.A.;Cormer, P.J.;Schindel, M.H.;Culver, D.R.;Sarr, D.A.;Damm, M.C. 1999</li>
+		
+		<li>USDA-NRCS (US Department of Agriculture - Natural Resource Conservation Service), Various dates (2000-2021)</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program);AIS, 2013</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/207/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

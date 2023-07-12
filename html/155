@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Betula occidentalis</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Betula</i> <i>occidentalis</i></span> Shrubland Alliance <br/>
+        <span class="subtitle">Water birch thicket</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>600-2500 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G4
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>CAN: AB. USA: CA, CO, ID, MT, NM, NV, OR, SD, UT, WA, WY (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/betula-occidentalis_bigpinecreek_09-07.jpg', '/static/images/photos/shrub/betula-occidentalis_bigpinecreek_09-07_02.jpg', '/static/images/photos/shrub/betula-occidentalis_bigpinecreek_09-07_03.jpg', '/static/images/photos/shrub/betula-occidentalis_lonepinecrk_09-94_01.jpg', '/static/images/photos/shrub/betula-occidentalis_lonepinecrk_09-94_02.jpg', '/static/images/photos/shrub/betula-occidentalis_mcgeeck_01.jpg', '/static/images/photos/shrub/betula-occidentalis_mcgeeck_02.jpg', '/static/images/photos/shrub/betula-occidentalis_onionvalleycrk_09-94_01.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Betula</i> <i>occidentalis</i> is dominant or co-dominant in the tall shrub or low tree canopy with <i>Acer</i> <i>negundo</i>, <i>Alnus</i> spp., <i>Artemisia</i> <i>tridentata</i> ssp. <i>vaseyana</i>, <i>Cornus</i> <i>sericea</i>, <i>Pinus</i> <i>jeffreyi</i>, <i>Pinus</i> <i>monophylla</i>, <i>Populus</i> <i>fremontii</i>, <i>Populus</i> <i>tremuloides</i>, <i>Populus</i> <i>trichocarpa</i>, <i>Prunus</i> <i>virginiana</i>, <i>Rosa</i> <i>woodsii</i> and <i>Salix</i> spp. If <i>B. occidentalis</i> is shrubby, emergent trees may be present at low cover. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text"> Otherwise, low trees < 30 m; canopy is intermittent to continuous. Shrubs are typically sparse if the birch forms a low tree canopy. Herbaceous layer is sparse. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Betula occidentalis</i> > 25% cover in the tall shrub or short tree canopy (NatureServe 2007).</li>
+		
+		<li><i>Betula occidentalis</i> > 30% cover in the shrub layer (Boul et al. 2021b).</li>
+		
+		<li><i>Betula occidentalis</i> > 50% relative cover in the shrub layer or > 30% relative cover with <i>Salix</i> spp. (Reyes et al. 2020a).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Intermittently, temporarily saturated stream banks, alluvial terraces, and seeps. Substrates are typically alluvial and range from fairly shallow, finely textured to gravelly and bouldery sands and loams. The USFWS Wetland Inventory (2018 national list) recognizes <i>Betula occidentalis</i> as a FACW plant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Water birch series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Betula occidentalis intermittently flooded shrubland alliance, Betula occidentalis seasonally flooded shrubland alliance, Betula occidentalis temporarily flooded shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Water birch, Riparian mixed shrub, Riparian mixed hardwood, Cottonwood-Alder, Willow
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Modoc-Great Basin riparian forest, Modoc-Great Basin riparian scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Montane riparian
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>63.610.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Tree Vegetation (Forest and Woodland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate Flooded and Swamp Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North America Flooded and Swamp Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Western Cordilleran montane-boreal riparian scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Great Basin montane riparian scrub
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Betula occidentalis </i>usually has many spreading trunks and takes the shape of a tall shrub or short tree. It produces many wind-dispersed seeds by early summer. Seedling establishment occurs in shaded areas with sufficient soil water (Uchytil 1989f). <i>B. occidentalis</i> can form dense, closed tree or shrub-like canopies and as a result the herbaceous understory is generally limited and sparse. <br/>
+<br/>
+ <i>Betula occidentalis </i>produces distinct riparian corridors along streams, primarily in transmontane California, but regional descriptions commonly include these stands in broadly defined riparian types. This alliance generally develops along small creeks, well-defined incised channels, steep stream banks, and alluvial terraces where <i>B. occidentalis </i>can stabilize the substrate with its deep roots. Stands are also found on wider stream benches and floodplains, or on hillside seeps in mountains and foothills (NatureServe 2019). Stands of <i>B. occidentalis </i>have environmental conditions similar to <i>Populus</i> spp. and <i>Salix</i> spp. alliances.<br/>
+<br/>
+The alliance ranges throughout the West. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Betula occidentalis</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Shrub; tree; winter deciduous</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Transient</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short; medium</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Water/hydrological; wind</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>Short-lived</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>High</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Hydrological processes primarily influence this alliance. Fires that do occur spread largely from adjacent burning vegetation. Stems and trunks are easily top-killed by fire, but plants sprout from basal buds.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Long (rarely burns; fire regime depends on adjacent alliances)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Summer-early fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Small; up to or beyond stand size (depends on landscape)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>High
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Low
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Low
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Surface fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Klamath, Cascade, Modoc Plateau
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Klamath Mountains</b> (M261Ah, Aj, Al). Stands occur in seeps and along streams surrounding Scott Valley and in the Scott Mountains.</li>
+        
+            <li><b>Modoc Plateau</b> (M261Gf). Stands occur on the eastern escarpment of the Warner Mountains. The few stands in the southern Warners have similar settings to those along the Sierra Nevada escarpment.</li>
+        
+            <li><b>Mojave Desert</b> (322Aa). Desert scrublands surround the few stands in foothill drainages of the lower Owens Valley.</li>
+        
+            <li><b>Mono</b> (341Dh, Dj, Dl). The Sierra Nevada stands continue into this section in the Mammoth area at Convict and McGee creeks. They also occur in the White Mountains.</li>
+        
+            <li><b>Northwestern Basin and Range</b> (342Bd). Stands present along creeks at the northern end of the subsection, on the eastern slopes of the Warner Mountains (Menke et al. 2021).</li>
+        
+            <li><b>Sierra Nevada</b> (M261Ej, Eo, Er). Most stands exist along the eastern escarpment from Mammoth south to the vicinity of Olancha. They line most of the major permanent streams and range from stands surrounded by coniferous vegetation to high desert shrublands. They are rare along the eastern slope of Babbitt Peak. Stands north of Reno are adjacent to <i>Quercus kelloggii</i> stands. Harris (1988) denotes eastside locations of stands in steep, narrow valleys on glacial till.</li>
+        
+            <li><b>Southern Cascades</b> (M261Dh). Stands are local in riparian areas at lower elevations.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> <i>Betula occidentalis </i>often forms dense, pure stands that provide cover for wildlife (Uchytil 1989f). They require permanent flowing water during the growing season. 
+
+Formerly extensive stands along the eastern Sierra Nevada and adjacent Owens Valley area have been reduced as a result of water export to Los Angeles, California (S. Manning, pers. Comm. 2006). 
+
+<i>Betula occidentalis</i> is highly adapted to most forms of disturbance, but heavy grazing eliminates native graminoids that are typically replaced by introduced species in the understory (NatureServe 2019). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Betula occidentalis / Mesic graminoids [3]</li>
+                
+                    <li>Betula occidentalis / Salix spp. [1], [2]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Harris, R.R. 1988</li>
+		
+		<li>[2] Reyes, E.;Evens, J.;Glass, A.;Sikes, K.;Keeler-Wolf., T.;Winitsky, S.;Johnson, D.;Menke, J.;Hepburn, A. 2020a</li>
+		
+		<li>[3] NatureServe, 2014+</li>
+		
+		<li>Boul, R.;Keeler-Wolf, T.;Ratchford, J.;Haynes, T.;Hickson, D.;Yacoub, R.;Harbert, B.;Evens, J. 2021b</li>
+		
+		<li>Holstein, G. 1984</li>
+		
+		<li>Manning, M.E.;Padgett, W.G. 1995</li>
+		
+		<li>Uchytil, R.J. 1989f</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/155/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

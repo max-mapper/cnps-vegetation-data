@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Abies concolor - Pseudotsuga menziesii</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Abies</i> <i>concolor</i> - <i>Pseudotsuga</i> <i>menziesii</i></span> Forest &amp; Woodland Alliance <br/>
+        <span class="subtitle">White fir - Douglas fir forest and woodland</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Tree
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>1000-1800 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S4
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G5
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: AZ, CA, CO, NM, NV, OR, UT, WY. Mexico (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2009/09/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/tree/abies-concolor_pseudotsuga-menziesii_placerco_05-2008.jpg', '/static/images/photos/tree/abies-concolor_pseudotsuga%20menziesii_rough%20gulch_11-1984.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Abies</i> <i>concolor</i> and <i>Pseudotsuga</i> <i>menziesii</i> are co-dominant in the tree canopy with <i>Calocedrus</i> <i>decurrens</i>, <i>Chrysolepis</i> <i>chrysophylla</i>, <i>Cornus</i> <i>nuttallii</i>, <i>Pinus</i> <i>lambertiana</i>, <i>Pinus</i> <i>ponderosa</i>, <i>Quercus</i> <i>chrysolepis</i> and <i>Quercus</i> <i>kelloggii</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text"> Trees < 60 m; canopy is intermittent to continuous. Shrubs are infrequent or common. Herbaceous layer is sparse or abundant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Abies concolor</i> and <i>Pseudotsuga menziesii</i> both 30-60% relative cover in the tree canopy (Jimerson 1993).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Raised stream benches, terraces, slopes, ridges. Parent materials and soils are highly variable.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>White fir series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Abies concolor forest alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Douglas-fir-White fir, Klamath mixed conifer, White fir
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Sierran mixed coniferous forest, Sierran white fir forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Coniferous forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>White fir
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>88.530.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Tree Vegetation (Forest and Woodland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Cool Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North America Cool Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Californian-Vancouverian Montane and Foothill Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Upland Vancouverian mixed woodland and forest
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Abies concolor </i>is a large conifer that can gain 55 m in height and grow to 400 years in age. Trees begin producing cones at about 25 years and mast in 3- to 9-year cycles. Wind primarily disperses the seeds in the fall; most fall within a distance of 1.5 times the height of the dominant trees (McDonald 1980) where they overwinter under or in the snow. Most seeds germinate in early spring at cold temperatures. Only 20-50% of seeds are sound. Bare soil is the best substrate for seeding germination. Trees are shade tolerant, and shade greatly favors seedling survival. Once established, plants can endure decades of suppression under a closed canopy. Suppressed trees may begin growing vigorously when released (Laacke 1990a, Zouhar 2001a). <br/>
+<br/>
+<i>Pseudotsuga menziesii </i>grows up to 75 m in height and lives to 500 years in age. Trees begin bearing cones by 20 years of age. Seed production is cyclic, with heavy years every 5-7 years. Wind and gravity disperse the seeds; most fall within 100 m of the parent tree. Seeds remain viable up to two years. Seedling establishment is best on mineral soil or on litter. First year seedlings survive and grow best in partial shade, especially on drier sites where seedling survival and growth is best in 50% shade. Trees cannot survive in dense shade, but they are more shade tolerant on moist sites than on dry ones (Griffin and Critchfield 1972, Hermann and Lavender 1990, Uchytil 1991d). <br/>
+<br/>
+<i>Abies concolor </i>and <i>Pseudutsuga menziesii </i>are important components of several alliances. Bingham (1999) developed a regionwide alliance level classification for late-seral stages forests based on relationships between species composition and major environmental gradients. Stands, where <i>A. concolor </i>and <i>P. menziesii </i>shared dominance, segregated significantly from the <i>Abies concolor, Abies magnifica-Abies concolor, Pseudotsuga menziesii, </i>and <i>Pinus ponderosa-Pseudotsuga menziesii, </i>alliances (Sawyer 2006, 2007). </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Abies concolor</th>
+			
+		
+			
+			<th>Pseudotsuga menziesii</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Tree; evergreen</td>
+			
+		
+			
+			<td>Tree; evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Transient</td>
+			
+		
+			
+			<td>Transient</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+			
+			<td>Short</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; wind</td>
+			
+		
+			
+			<td>Animal; gravity; wind</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Stratification—winter</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; thick epidermis (susceptible to rot when scarred); canopy architecture resistant</td>
+			
+		
+			
+			<td>Fire-hardy; thick epidermis; canopy architecture resistant</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>25-400 years</td>
+			
+		
+			
+			<td>5-500+ years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>High</td>
+			
+		
+			
+			<td>Low to high</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Montane chaparral commonly develops following logging or stand-replacing fires. In time, <i>Abies concolor </i>and <i>Pseudotsuga menziesii </i>trees will establish in these shrublands if seed sources are available. <i>P. menziesii </i>comes in more rapidly, and in time <i>A. concolor </i>mixes with <i>P. menziesii</i>. Long fire-free intervals favor <i>A. con-color. </i>Consequently, surface fires that are lower in severity and lower intensity are more typical for this mixed alliance (Sugihara et al. 2007). The ability of <i>A. concolor </i>and <i>P. menziesii </i>to survive fire also increases with age, as mature trees have a thick bark and canopy architecture becomes more resistant, protecting them from low to moderate-severity fires. In addition, fire, diseases, fungi, insects, and windstorms disturb and modify stand development and structure (Laacke 1990a, Uchytil 1991d, Zouhar 2001a).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Medium
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Summer-early fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Small to large
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Low to very high; mostly low-moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Multiple, mostly low
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Multiple; mostly surface
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Western Cascades, eastern Klamath Mountains, interior North Coast ranges, northern Sierra Nevada
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Klamath Mountains</b> (M261Aa-g, Ai-j, Am-u). Stands are common and extensive in the western subsections (Sawyer 2006, 2007). Stands at North Trinity Mountain rRNA (Sawyer 1981a, see Cheng 2004), on the slopes of South Fork Mountain (Laidlaw-Holmes 1981) including Rough Gulch rRNA (Taylor 1975a, see Cheng 2004), and those in the Six Rivers National Forest (Jimerson 1993) represent numerous associations.</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Ba-b). Stands are dominated more strongly in this section by <i>Abies concolor</i> and <i>Pseudotsuga menziesii</i> than are those in the Sierra Nevada (Sawyer 2006, 2007). Stands at Ruth RNA (Thornburgh 1981, see Cheng 2004) and those regionally (Jimerson 1993) are similar to those in the Klamath Mountains.</li>
+        
+            <li><b>Sierra Nevada</b> (M261Ed-g). Stands often have more diverse tree canopies than stands in the Klamath Mountains (Fites-Kaufman et al. 2007). Fites (1993) described four associations, each of which she ascribed to four ecological groups of a Sierran mixed conifer forest series. We place her associations here and relate them to other associations in the Cascades and Klamath Mountains.</li>
+        
+            <li><b>Southern Cascades</b> (M261Dc, Df-g, Dj, Dl-m). Stands often have more diverse tree canopies than stands in the Klamath Mountains (Fites-Kaufman et al. 2007). Most stands described have characteristically mesic shrub or small tree understories with <i>Cornus nuttallii</i>, <i>Corylus cornuta</i>, and other shrubs (Fites 1993).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Many stands contain large <i>Pseudotsuga menziesii </i>trees and more understory <i>Abies concolor </i>trees, suggesting more <i>A. concolor </i>establishment in the last century, which has been a time of fire suppression, grazing, and logging. Frequent, low- to moderate-severity fires occasionally crown, creating gaps of varying sizes. Underburning allows maturing trees to survive repeated fires. Stands tend to be small in size and of mixed ages. In addition to fire, fungi, insects, and windstorms modify stand development and structure. With continued fire exclusion, <i>A. concolor </i>will continue to become more well represented in the tree canopy. As they fill in the crown spaces, create greater crown fuel continuity, and increase the overall fuel loading, crown fire is likely to become a greater concern in many of these forests (Skinner et al. 2006, van Wagtendonk and Fites-Kaufman 2006). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+                <p>Stands Lacking Well-Developed Shrub Layer</p>
+            
+            <ul class="text">
+                
+                    <li>Abies concolor - Pseudotsuga menziesii / Arnica cordifolia [2]</li>
+                
+                    <li>Abies concolor - Pseudotsuga menziesii / Melica subulata [2]</li>
+                
+                    <li>Abies concolor - Pseudotsuga menziesii / Pteridium aquilinum [5]</li>
+                
+                    <li>Abies concolor - Pseudotsuga menziesii / Xerophyllum tenax [2]</li>
+                
+                    <li>Pseudotsuga menziesii - Abies concolor / Sparse understory [8]</li>
+                
+            </ul>
+        
+            
+                <p>Stands with a More Mixed Tree Canopy</p>
+            
+            <ul class="text">
+                
+                    <li>Abies concolor - Pseudotsuga menziesii / Amelanchier utahensis [1]</li>
+                
+                    <li>Abies concolor - Pseudotsuga menziesii - Calocedrus decurrens [3]</li>
+                
+                    <li>Abies concolor - Pseudotsuga menziesii / Cornus nuttallii [7]</li>
+                
+                    <li>Abies concolor - Pseudotsuga menziesii / Cornus nuttallii / Corylus cornuta [1]</li>
+                
+                    <li>Abies concolor - Pseudotsuga menziesii / Corylus cornuta [1], [2]</li>
+                
+                    <li>Abies concolor - Pseudotsuga menziesii / Corylus cornuta / Adenocaulon bicolor [1]</li>
+                
+                    <li>Abies concolor - Pseudotsuga menziesii - (mixed conifer) / Acer circinatum - Chrysolepis sempervirens [1]</li>
+                
+                    <li>Abies concolor - Pseudotsuga menziesii - Notholithocarpus densiflorus [1]</li>
+                
+                    <li>Abies concolor - Pseudotsuga menziesii - (Quercus chrysolepis) [2]</li>
+                
+                    <li>Abies concolor - Pseudotsuga menziesii / Trientalis latifolia [1]</li>
+                
+            </ul>
+        
+            
+                <p>Stands with Well-Developed Shrub Layer</p>
+            
+            <ul class="text">
+                
+                    <li>Abies concolor - Pseudotsuga menziesii / Quercus sadleriana [2], [5]</li>
+                
+                    <li>Abies concolor - Pseudotsuga menziesii / Quercus sadleriana - Arctostaphylos nevadensis [2]</li>
+                
+                    <li>Abies concolor - Pseudotsuga menziesii / Quercus sadleriana - Quercus vacciniifolia [2]</li>
+                
+                    <li>Abies concolor - Pseudotsuga menziesii / Quercus sadleriana - Rhododendron macrophyllum [2]</li>
+                
+                    <li>Abies concolor - Pseudotsuga menziesii / Quercus vacciniifolia [1], [2], [4]</li>
+                
+                    <li>Abies concolor - Pseudotsuga menziesii / Rhododendron macrophyllum - Quercus sadleriana [2]</li>
+                
+                    <li>Abies concolor - Pseudotsuga menziesii / Rosa gymnocarpa / Linnaea borealis [2]</li>
+                
+                    <li>Abies concolor - Pseudotsuga menziesii / Rosa gymnocarpa - Linnaea borealis - Symphoricarpos mollis [2]</li>
+                
+                    <li>Abies concolor - Pseudotsuga menziesii / Rosa gymnocarpa - Symphoricarpos mollis [2]</li>
+                
+                    <li>Abies concolor - Pseudotsuga menziesii / Rubus armeniacus [6]</li>
+                
+                    <li>Abies concolor - Pseudotsuga menziesii / Rubus parviflorus [2]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Fites, J. 1993</li>
+		
+		<li>[2] Jimerson, T.M. 1993</li>
+		
+		<li>[3] Keeler-Wolf, T.;Schindel, M.;San, S.;Moore, P.;Hickson, D. 2003b</li>
+		
+		<li>[4] Laidlaw-Holmes, J.M. 1981</li>
+		
+		<li>[5] Sawyer, J.O. 1981b</li>
+		
+		<li>[6] Stuart, J.D.;Worley, T.;Buell, A.C. 1992</li>
+		
+		<li>[7] Taylor, D.W.;Teare, K.A. 1979b</li>
+		
+		<li>[8] Ratchford, J.;Boul, R.;Keeler-Wolf ,T.;Evens, J. 2022b (in progress)</li>
+		
+		<li>Barbour, M.G. 1988</li>
+		
+		<li>Fites-Kauffman, J.A.;Rundel, P.;Stephenson, N.;Weixelman, D. 2007</li>
+		
+		<li>Franklin, J.F. 1988</li>
+		
+		<li>Gordon, D.T. 1980b</li>
+		
+		<li>Griffin, J.R.;Critchfield, W.B. 1972</li>
+		
+		<li>Hendrickson, J.;Prigge, B. 1975</li>
+		
+		<li>Hermann, R.K.;Lavender, D.P. 1990</li>
+		
+		<li>Laacke, R.J. 1990a</li>
+		
+		<li>Laacke, R.J.;Fiske, J.N. 1983a</li>
+		
+		<li>Sawyer, J.O. 1981a</li>
+		
+		<li>Sawyer, J.O. 2006</li>
+		
+		<li>Sawyer, J.O. 2007</li>
+		
+		<li>Stone, R.D.;Sumida, V.A. 1983</li>
+		
+		<li>Sugihara, N.G.;van Wagtendonk, J.W.;Shaffer, K.E.;Fites-Kaufman, J.;Thode, A.E. 2006</li>
+		
+		<li>Uchytil, R.J. 1991d</li>
+		
+		<li>Zouhar, K. 2001a</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/5/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

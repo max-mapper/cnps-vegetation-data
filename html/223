@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Larrea tridentata</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Larrea</i> <i>tridentata</i></span> Shrubland Alliance <br/>
+        <span class="subtitle">Creosote bush scrub</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>-75-1300 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S5
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G5
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: AZ, CA, NM, NV, TX. Mexico (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/larrea-tridentata_closeup_jotr_04-10.jpg', '/static/images/photos/shrub/larrea-tridentata_deva.jpg', '/static/images/photos/shrub/larrea-tridentata_devapanamintvalley.jpg', '/static/images/photos/shrub/larrea-tridentata_devasalinevalley.jpg', '/static/images/photos/shrub/larrea-tridentata_fieldofspring_sjotr_03_08_01.jpg', '/static/images/photos/shrub/larrea-tridentata_fieldofspring_sjotr_03_08_02.jpg', '/static/images/photos/shrub/larrea-tridentata_withlasthenia_wmojave_ia.jpg', '/static/images/photos/shrub/larrea-tridentata_coloradodesert_riversideco_04-12.jpg', '/static/images/photos/shrub/larrea-tridentata_coloradodesert_riversideco_2011-12.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Larrea</i> <i>tridentata</i> is dominant or co-dominant in the shrub canopy with <i>Acamptopappus</i> <i>shockleyi</i>, <i>Acamptopappus</i> <i>sphaerocephalus</i>, <i>Ambrosia</i> <i>dumosa</i>, <i>Ambrosia</i> <i>salsola</i>, <i>Atriplex</i> <i>confertifolia</i>, <i>Atriplex</i> <i>hymenelytra</i>, <i>Atriplex</i> <i>polycarpa</i>, <i>Brickellia</i> <i>incana</i>, <i>Encelia</i> <i>farinosa</i>, <i>Ephedra</i> <i>californica</i>, <i>Ephedra</i> <i>nevadensis</i> and <i>Lycium</i> <i>andersonii</i>. Emergent trees may be present at low cover, including <i>Prosopis</i> <i>glandulosa</i> or <i>Yucca</i> <i>brevifolia</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 3 m; canopy is intermittent to open. Herbaceous layer is open to intermittent with seasonal annuals or perennial grasses. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Ambrosia dumosa</i> or <i>Encelia farinosa</i> absent or < 1% cover, if present. No shrub with cover greater than <i>Larrea tridentata</i> with the following exceptions: <i>Acamptopappus sphaerocephalus, Bebbia juncea, Ericameria teretifolia,</i> or <i>Krameria</i> spp. <i>Ephedra nevadensis</i> or <i>Cylindropuntia acanthocarpa</i> may have higher cover, but no more than 2 × the cover of <i>L. tridentata</i> (Thomas et al. 2004).</li>
+		
+		<li><i>Larrea tridentata</i> exceeds other shrubs in cover, and if <i>Ambrosia dumosa</i> or <i>Encelia farinosa</i> are present, their cover is < 3 times cover of <i>Larrea </i>(Evens et al. 2014), or if <i>Ambrosia dumosa</i> present, < 2 × the cover of <i>L. tridentata</i> (Evens and Hartman 2007).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Alluvial fans, bajadas, upland slopes, minor intermittent washes. Soils are well drained, sometimes with desert pavement.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Creosote bush series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Larrea tridentata shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Creosote bush
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Sonoran creosote bush scrub, Mojave creosote bush scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Creosote bush scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Desert scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>33.010.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Xeromorphic Scrub and Herb Vegetation (Semi-Desert)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Warm Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Warm Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Sonoran and Chihuahuan Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Mojavean-Sonoran Desert Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Lower Bajada and Fan Mojavean-Sonoran desert scrub
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Larrea tridentata </i>is a very long-lived shrub, 10,000+ years as a clone, with low seedling recruitment. It is an evergreen and extremely resistant to high temperatures. Plants minimize evapotranspiration by stomatal and water potential regulation daily and annually (Hamerlynck et al. 2002, Oechel et al. 1972, Ogle and Reynolds 2002). The resinous leaves diminish transpiration more than assimilation (Meinzer et al. 1990). Further, the stem and foliage architecture minimizes self-shading under favorable photosynthetic conditions. The leaves fold up and alter their angle to minimize direct solar radiation under periods of moisture stress (Ezcurra et al. 1992). Plants may die during severe droughts, though they typically persist longer than other shrubs, and can sprout from the base when moisture returns. <br/>
+<br/>
+Individuals of <i>L. tridentata </i>grow better in deep, sandy soils than other desert shrubs because of deep, spreading root systems (Marshall 1995b). They also grow on weakly developed soils of alluvial sites that permit water infiltration. In largely unaltered settings, they grow with other shrub species, especially <i>Ambrosia dumosa, </i>which may act as a nurse plant for <i>L. tridentata </i>(McAuliffe 1988). Mature plants may be allelopathic to their own seedlings, encouraging an open community structure (Vasek and Barbour 1977). <br/>
+<br/>
+In sandy situations, it often co-occurs with perennial grasses, and along certain washes and wash terrace deposits with somewhat alkaline soils, it co-dominates with <i>Atriplex polycarpa. </i>Plants also may form semi-riparian stands along low-gradient sandy or silty washes. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Larrea tridentata</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Shrub; drought deciduous</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Medium</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; gravity; wind</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Chemical; heat</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-sensitive; no/low sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>Long lived (maybe 100s to 1000s of years)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Low to high (secondary colonizer, fire intensity dependant)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text"><i>Larrea tridentata </i>is poorly adapted to fire because of its limited sprouting ability and resinous foliage, which is highly flammable (Marshall 1995b). Even light intensity fires can cause almost 100% mortality (Brown and Minnich 1986). Recent invasions of non-native grasses into California’s deserts have increased fire frequencies and have led to the destruction and degradation of large areas of this alliance, particularly in the western Mojave and Colorado deserts. Although thought of as a natural exclusionary process in desert grasslands of the southwest (Marshall 1995b), fire destabilizes stand dynamics in the wetter, cooler range of the species where stands have historically lacked fire. This alliance is less common and less diverse than other alliances where <i>L. tridentata </i>is a co-dominant. The presence of this alliance can indicate a disturbance history that degrades stands of the more modal <i>Larrea tridentata-Ambrosia dumosa </i>alliance. In contrast, open stands of large individual shrubs of <i>L. tridentata </i>that occupy sandy expanses do not carry fires.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Truncated long
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Spring-summer-fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Small to medium
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>High
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Passive-active crown fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Hot deserts
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Colorado Desert</b> (322Ca-d). Pure stands occupy silty basins and wash terraces with <i>Atriplex polycarpa</i> in Anza-Borrego Desert State Park and in the Ocotillo Wells State Vehicular Area (Keeler-Wolf et al. 1998b). Sandy stands exist on stabilized parts of the Algodones Dunes; and others cover the bajadas, hillsides, and dune lands in the Coachella Valley (McHargue 1973).</li>
+        
+            <li><b>Mojave Desert</b> (322Aa-p). Some stands are greatly degraded and are the result of the combined effects of fire, grazing, military operations, and ORV activities (Davidson and Fox 1974, Randall 1972). Other intact stands occur on sandy soils and desert pavement, some with a well-developed cryptogam layer (Evens and Hartman 2007). Stands occur at Twentynine Palms Marine Corps Base (Minnich et al. 1993), Death Valley (Annable 1985, Peterson 1984a), and generally for eastern and southern subsections (Thomas et al. 2004, Keeler-Wolf et al. 2005).</li>
+        
+            <li><b>Sonoran Desert</b> (322Ba-e). Stands with desert pavement are common in the Chocolate Mountains (Evens and Hartman 2007), and they are likely to occur across the section.</li>
+        
+            <li><b>Southeastern Great Basin</b> (341Fc-f). Stands occur at the lower elevations and in intermountain basins such as Eureka Valley and Saline Valley (Thomas et al. 2004).</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Bi, Bp). Upper elevation stands in Anza- Borrego Desert State Park on fine silts associate with low-alkalinity playas (e.g., Blair Valley). Some stands may have had substantial grazing in the past. Others occur in the Little San Bernardino-Bighorn Mountains region (Evens and Hartman 2007).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> In many settings, the alliance indicates prolonged burro or livestock grazing, mechanical disturbance by vehicles, or perhaps prolonged drought. Other stands in a more natural state occupy stabilized dunes and desert pavement. Prolonged drought may account for the simple stands on rocky slopes or with desert pavements. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Larrea tridentata [1], [2], [4], [5], [6], [7], [8]</li>
+                
+                    <li>Larrea tridentata - Atriplex confertifolia [4], [6], [8]</li>
+                
+                    <li>Larrea tridentata - Atriplex polycarpa [2], [3], [4], [7], [8]</li>
+                
+                    <li>Larrea tridentata / Cryptogamic crust [2]</li>
+                
+                    <li>Larrea tridentata - Ephedra nevadensis [4], [7], [8]</li>
+                
+                    <li>Larrea tridentata - Krameria grayi - Pleuraphis rigida [3]</li>
+                
+                    <li>Larrea tridentata - Pleuraphis rigida [2], [4], [5], [7], [8]</li>
+                
+                    <li>Larrea tridentata - Pleuraphis rigida - Lycium andersonii [4]</li>
+                
+                    <li>Larrea tridentata (sparse post-burn / herbaceous) [7]</li>
+                
+                    <li>Larrea tridentata / wash [3], [8]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Annable, C.R. 1985</li>
+		
+		<li>[2] Evens, J.M.;Hartman, S. 2007</li>
+		
+		<li>[3] Keeler-Wolf, T.;Roye, C.;Lewis, K. 1998b</li>
+		
+		<li>[4] Keeler-Wolf, T.;Thomas, K. 2000</li>
+		
+		<li>[5] Minnich, R.A.;Sanders, A.;Wood, S.;Barrows, K.;Lyman, J. 1993</li>
+		
+		<li>[6] Peterson, P.M. 1984a</li>
+		
+		<li>[7] Evens, J.M.;Sikes, K.;Hastings, D.;Ratchford,J.S. 2014</li>
+		
+		<li>[8] Reyes, E.;Evens, J.;Fulton, J.;Sikes, K.; Johnson, D.;Keeler-Wolf, T.;Vu, S.;LaFever-Jackson, A. 2023 (in progress)</li>
+		
+		<li>Brown, D.E.;Minnich, R.A. 1986</li>
+		
+		<li>Burk, J.H. 1977</li>
+		
+		<li>Davidson, E.;Fox, M. 1974</li>
+		
+		<li>Evens, J.;San, S. 2005</li>
+		
+		<li>Holzman, B. 1994</li>
+		
+		<li>Hunt, C.B. 1966</li>
+		
+		<li>Keeler-Wolf, T.;San, S.;Hickson, D. 2005</li>
+		
+		<li>MacMahon, J.A. 1988</li>
+		
+		<li>Marshall, K.A. 1995a</li>
+		
+		<li>McHargue, L.T. 1973</li>
+		
+		<li>Menke, J.;Reyes, E.;Hepburn, A.;Johnson, D.;Reyes, J. 2013</li>
+		
+		<li>O'Leary, J.F.;Minnich, R.A. 1981</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Black, H.;Bleich, V.C.;Mincks, J.W. 1980</li>
+		
+		<li>Peterson, P.M. 1984b</li>
+		
+		<li>Phillips, D.L.;MacMahon, J.A. 1981</li>
+		
+		<li>Randall, D.C. 1972</li>
+		
+		<li>Randall, J.J. 2000</li>
+		
+		<li>Reid, M.S.;Schulz, K.A.;Cormer, P.J.;Schindel, M.H.;Culver, D.R.;Sarr, D.A.;Damm, M.C. 1999</li>
+		
+		<li>Spolsky, A.M. 1979</li>
+		
+		<li>Thomas, K.;Franklin, J.;Keeler-Wolf, T.;Stine, P. 2004</li>
+		
+		<li>Turner, R.M. 1982a</li>
+		
+		<li>Turner, R.M.;Brown, D.E. 1982</li>
+		
+		<li>Vasek, F.C. 1978</li>
+		
+		<li>Vasek, F.C.;Barbour, M.G. 1977</li>
+		
+		<li>Vasek, F.C.;Johnson, H.B.;Eslinger, D.H. 1975</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program);AIS, 2013</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/223/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

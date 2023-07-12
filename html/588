@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Arctostaphylos (nummularia, sensitiva) - Chrysolepis chrysophylla</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Arctostaphylos</i> (<i>nummularia</i>, <i>sensitiva</i><span style="padding-left: .2em">)</span> - <i>Chrysolepis</i> <i>chrysophylla</i></span> Shrubland Alliance <br/>
+        <span class="subtitle">Glossy leaf manzanita - Golden chinquapin chaparral</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>10-760 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S2
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G2
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA, OR (NatureServe) (Calflora)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>Yes
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>Yes
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2021/08/30
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/arctostaphylos-nummularia_horseshoecove_01.jpg', '/static/images/photos/shrub/arctostaphylos-nummularia_horseshoecove_02.jpg', '/static/images/photos/shrub/arctostaphylos-nummularia_horseshoecove_03.jpg', '/static/images/photos/shrub/arctostaphylos-nummularia_horseshoecove_04.jpg', '/static/images/photos/shrub/arctostaphylos-nummularia-sensitiva_bolinasrdg_06-04_01.jpg', '/static/images/photos/shrub/arctostaphylos-nummularia-sensitiva_bolinasrdg_06-04_02.jpg', '/static/images/photos/shrub/arctostaphylos-nummularia-sensitiva_mmwd_10-05_01.jpg', '/static/images/photos/shrub/chrysolepis-chrysophylla_alamedaco_2000_01.jpg', '/static/images/photos/shrub/chrysolepis-chrysophylla_bolinasr_03-04_01.jpg', '/static/images/photos/shrub/chrysolepis-chrysophylla_bolinasr_03-04_02.jpg', '/static/images/photos/shrub/chrysolepis-chrysophylla_bolinasr_03-04_03.jpg', '/static/images/photos/shrub/chrysolepis-chrysophylla_southforkmtn_1987.jpg', '/static/images/photos/shrub/chrysolepis-chrysophylla-mendocinopygmy-hone001.jpg', '/static/images/photos/shrub/chrysolepis-chrysophylla-mendocinopygmy-sky15022121105.jpg', '/static/images/photos/shrub/arctostaphylos-nummularia-sensitiva-c-chrysophylla_mt.tamwatershed_06-2005_mmwd0203.jpg', '/static/images/photos/shrub/arctostaphylos-nummularia-sensitiva-c-chrysophylla_mt.tamwatershed_mmwd0414_07-2005.jpg', '/static/images/photos/shrub/arctostaphylos-nummularia-sensitiva-c-chrysophylla_sempervirensfund-weldenos_08-2019_smat0308.jpg', '/static/images/photos/shrub/arcto-sensitiva-a-virgata_bolinasridge_05-2007.jpg', '/static/images/photos/shrub/arcto-sensitiva-chrysolepis-chrysophylla_eastwoodtr-mttam_10-2016.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Arctostaphylos</i> <i>imbricata</i>, <i>Arctostaphylos</i> <i>montaraensis</i>, <i>Arctostaphylos</i> <i>nummularia</i>, <i>Arctostaphylos</i> <i>sensitiva</i>, <i>Arctostaphylos</i> <i>virgata</i> and/or <i>Chrysolepis</i> <i>chrysophylla</i> is dominant or co-dominant in the shrub or small tree canopy with <i>Arctostaphylos</i> <i>glandulosa</i>, <i>Ceanothus</i> <i>thyrsiflorus</i>, <i>Frangula</i> <i>californica</i>, <i>Pickeringia</i> <i>montana</i> or <i>Vaccinium</i> <i>ovatum</i>. Emergent trees may be present at low cover, including <i>Pinus</i> <i>attenuata</i>, <i>Pinus</i> <i>muricata</i>, <i>Pseudotsuga</i> <i>menziesii</i> or <i>Sequoia</i> <i>sempervirens</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs or small trees < 10 m; canopy is intermittent to continuous. Herbaceous layer is sparse. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Arctostaphylos sensitiva</i> > 50% relative cover in the shrub canopy (Evens and Kentner 2006, Keeler-Wolf 2003a).</li>
+		
+		<li><i>Chrysolepis chrysophylla</i> > 30% relative cover in the shrub or tree canopy (Evens and Kentner 2006).</li>
+		
+		<li><i>Chrysolepis chrysophylla</i> > 50% relative cover in the shrub or tree canopy (Keeler-Wolf et al. 2003a, VegCAMP 2019).</li>
+		
+		<li><i>Arctostaphylos nummularia</i> > 30% relative cover in the shrub canopy (Klein et al. 2015, VegCAMP 2019).</li>
+		
+		<li><i>Arctostaphylos sensitiva, A. virgata, Chrysolepis chrysophylla</i> var. <i>minor,</i> or <i>Vaccinium ovatum</i> > 30% relative cover in the shrub canopy in maritime chaparral settings (Buck-Diaz et al. 2021, Sikes et al. 2021).</li>
+		
+		<li><i>Arctostaphylos imbricata</i> or <i>A. montaraensis</i> > 30% relative cover in the shrub canopy of maritime chaparral (Sikes et al. 2021).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Slopes and terraces of sedimentary rock types of the Franciscan metasedimentary or granitic substrates near the coast. Soils are thin and well drained, sandy loams and generally oligotrophic.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Bishop pine series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Arctostaphylos nummularia shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Pygmy (Ft. Bragg) manzanita, Manzanita chaparral, Tree chinquapin
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Northern (Franciscan) coastal scrub, Northern maritime chaparral, Mixed evergreen forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Chaparral, Mixed evergreen forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Mixed chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>37.340.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Mediterranean Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Mediterranean Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>California Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>California Chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Californian maritime chaparral
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Arctostaphylos nummularia </i>maintains considerable variation in habit. Plants in understories of coastal, closed-cone forests tend to be prostrate to decumbent, whereas on more inland or sunny sites the plants are decumbent to erect, compact shrubs (McMinn 1939). These evergreen shrubs lack a lignotuber. Seeds collect in the duff and ground in a seed bank as stones as plants age. Seeds germinate when heated. Plants reproduce by layering. <br/>
+<br/>
+Taxonomic treatments of the <i>Arctostaphylos nummularia</i> complex vary (Hickman 1993, McMinn 1939, Parker et al. 2007, 2012). Parker et al. recognize <i>Arctostaphylos sensitiva, A. nummularia</i> ssp. <i>nummularia</i>, and <i>A. nummularia</i> ssp. <i>mendocinoensis</i> based on bark and habit differences. <i>Arctostaphylos sensitiva</i> grows in Marin and Santa Cruz Counties and it is included in this alliance. <i>Arctostaphylos nummularia</i> occurs from Sonoma to Mendocino County. The more erect plants of this species, from 0.5 to 3 m tall with lower stems gray and shredding (ssp. <i>nummularia</i>), are also included in this alliance. The more prostrate plants, <0.5 meters tall with lower stems gray or reddish and shredding (ssp. mendocinoensis), are more often associated with stands of the <i>Hesperocyparis pigmaea</i> and<i> Pinus muricata</i> Alliances in Mendocino County. <br/>
+<br/>
+Stands of other rare manzanitas are also placed in this alliance. Two manzanitas are found only in San Mateo County, <i>Arctostaphylos imbricata</i> is restricted to San Bruno Mountain, and <i>Arctostaphylos montaraensis</i> is primarily on Montara Mountain. <i>Arctostaphylos virgata</i> is found only in Marin County.<br/>
+<br/>
+<i>Chrysolepis chrysophylla </i>is an evergreen small tree or shrub with bright golden, dense hairs on the leaf undersides.  Plants produce large crops of nuts in spiny burrs at irregular intervals. Seeds germinate without stratification. They are subject to disease and invertebrate predation. Seeds have short viability and are nutritious and tasty; most are consumed by animals. Many close-packed stands characteristic of this vegetation type are clonal thickets underlain by one to several large burls (McMurray 1989b). <br/>
+<br/>
+The <i>Jepson Manual </i>(Hickman 1993) recognizes two varieties, <i>C. chrysophylla</i> var. <i>minor</i>, a shrub with folded leaves with upturned margins, and <i>C. chrysophylla</i>  var. <i>chrysophylla</i>, a tree with flat leaf blades. This alliance includes only the short tree and shrubby stands of <i>C. chrysophylla</i>, as the tall tree rarely forms stands. Instead, it is usually a subdominant in other forest types such as <i>Pseudotsuga menziesii </i> alliance at mid elevations in the western Klamath Mountains (Keeler-Wolf 1988e). Some recent authors regard var. <i>minor </i>as a shrubby ecotype that intergrades with the tree-like form (McMurray 1989b). Alternatively, as with <i>Quercus wislizeni</i> (White and Sawyer 1995) in southern California, <i>C. chrysophylla</i> shrublands may be the result of frequent sprouting after fires. <br/>
+<br/>
+Stands of this alliance are part of the maritime chaparral -- see the maritime chaparral discussion in Sawyer et al. (2009). While <i>A Manual of California Vegetation, second edition</i> had described <i>Arctostaphylos (nummularia, sensitiva)</i> and <i>Chrysolepis chrysophylla</i> var. <i>minor Shrubland alliances separately, we consider them to be ecologically and floristically similar enough to merge them into this broader alliance concept, based on additional classification analyses and surveys from the Greater Bay Area (Buck et al. 2021, Sikes et al. 2021). This alliance occurs on coastal slopes with nutrient poor soils and relatively high amounts of the spring-summer fog, with its distribution in the northern Central Coast to North Coast from Santa Cruz to Mendocino Co., while the <i>Arctostaphylos (crustacea, tomentosa)</i> alliance has a broader distribution in the Central Coast region from San Mateo to Santa Barbara Co. on out to the Channel Islands. The associations dominated by <i>Chrysolepis chrysophylla</i> in Marin Co. form groves 5-10 m tall on upper slopes and ridges. In many stands, <i>Vaccinium ovatum </i>forms a dense understory. In coastal Mendocino County, stands occur in relatively drier, well-drained oligotrophic soils. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Arctostaphylos imbricata</th>
+			
+		
+			
+			<th>Arctostaphylos montaraensis</th>
+			
+		
+			
+			<th>Arctostaphylos nummularia</th>
+			
+		
+			
+			<th>Arctostaphylos sensitiva</th>
+			
+		
+			
+			<th>Arctostaphylos virgata</th>
+			
+		
+			
+			<th>Chrysolepis chrysophylla</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Shrub; evergreen</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Tree, shrub; evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Transient</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Long</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Short</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Animal; gravity</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Animal</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Heat</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Buds on large branches or trunks; buds on small branches (above ground structures; stem layering)</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Buds on large branches or trunks; underground structures (sprouts from buds on stumps or basal burls)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Fire-sensitive</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Fire-sensitive; thin epidermis; no/low sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>?-100+ years</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Low; episodic</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>By habit</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">The seeds of character manzanita species germinate after a fire. Seedling mortality is high during the first year of growth. Above-ground stems of <i>Chrysolepis chrysophylla </i>are killed in fire, but dormant buds located underground burls sprout (McMurray 1989b). Burl development enhances survival after repeated burning. Estimated historic fire intervals for the Monterey Bay area are from 10 to 100 years (Greenlee and Langenheim 1990), but we poorly understand the historic fire cycles of this wetter alliance on the North and Central Coast.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Medium (30-100+ years)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Summer-fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Medium to large - up to and beyond stand
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low to moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>High
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Moderate to very high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Active - independent crown fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Marin Co., North Coast
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Ac, Af-k). Mapped and recorded stands occur in the Santa Cruz Mountains (Keeler-Wolf et al. 2003a).  Expected stands in the East Bay Hills-Mt. Diablo, Leeward Hills, Watsonville Plain-Salinas Valley, and North and South Coastal Santa Lucia Range ecoregional subsections based on CCH records (Consortium of California Herbaria 2017). Stands of the narrowly distributed <i>Arctostaphylos montaraensis - Arctostaphylos imbricata </i>occur in San Bruno Mountain State Park (Sikes et al. 2021).</li>
+        
+            <li><b>Central California Coast Ranges</b> (M262Af). Expected stands in the Gabilan Range (pers. comm. Todd Keeler-Wolf 2020).</li>
+        
+            <li><b>Northern California Coast</b> (263Ag-i, Ak-l). Mapped stands occur in coastal Mendocino and Sonoma counties (VegCAMP 2019).  Additionally, stands are documented in Pt. Reyes as well as other areas of Marin County (Keeler-Wolf et al. 2003a; Evens and Kentner 2006, Buck-Diaz et al. 2021).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Stands may require periodic, medium to long-interval fires to maintain current species composition in some areas. Infrequent fire results in tree encroachment and a decline in shrubs and their seed banks. However, frequent fire tends to convert the stands to coastal scrub or grassland. The ability of <i>Chrysolepis chrysophylla </i>to grow on harsh sites and sprout after fire suggests it may be important for soil stabilization in watersheds. Birds, mammals and insects eat the nuts. The shrub may interfere with conifer growth on some sites and has been targeted for control efforts through the use of herbicide, though we do not recommend this treatment since this is a sensitive natural community. Impacts to this alliance include development, roads, fire supression, decreasing fog, and drought. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Arctostaphylos montaraensis - Arctostaphylos imbricata [7]</li>
+                
+                    <li>Arctostaphylos nummularia [4], [5]</li>
+                
+                    <li>Arctostaphylos sensitiva [1], [2], [6], [7]</li>
+                
+                    <li>Chrysolepis chrysophylla - Arctostaphylos glandulosa [1], [6]</li>
+                
+                    <li>Chrysolepis chrysophylla / Vaccinium ovatum [1], [2], [3], [4], [6], [7]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Evens, J.M.;Kentner, E. 2006</li>
+		
+		<li>[2] Keeler-Wolf, T .;Schirokauer, D.;Meinke, J.;van derLeeden, P. 2003a</li>
+		
+		<li>[3] Buck, J.;Evens, J. 2010</li>
+		
+		<li>[4] VegCAMP (CDFW Vegetation Classification and Mapping Program), 2019</li>
+		
+		<li>[5] Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>[6] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>[7] Sikes, K.;Buck-Diaz, J.;Evens, J. 2021</li>
+		
+		<li>AIS (Aerial Information Systems Inc.), 2005</li>
+		
+		<li>CCH (Consortium of California Herbaria), 2017+</li>
+		
+		<li>Greenlee, J.M.;Langenheim, J.H. 1990</li>
+		
+		<li>Hickman, J.C. 1993</li>
+		
+		<li>Keeler-Wolf, T. 1988e</li>
+		
+		<li>McMinn, H.E. 1939</li>
+		
+		<li>McMurray, N. 1989b</li>
+		
+		<li>Parker, V.T.;Vasey, M.C.;Keeley, J.E. 2007</li>
+		
+		<li>Parker, V.T.;Vasey, M.C.;Keeley, J.E. 2012</li>
+		
+		<li>Sawyer, J.O.;Keeler-Wolf, T.;Evens, J.M. 2009</li>
+		
+		<li>White, S.D.;Sawyer, J.O. 1994</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/588/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

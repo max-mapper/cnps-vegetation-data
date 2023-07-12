@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Sporobolus airoides - Muhlenbergia asperifolia - Spartina gracilis</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Sporobolus</i> <i>airoides</i> - <i>Muhlenbergia</i> <i>asperifolia</i> - <i>Spartina</i> <i>gracilis</i></span> Herbaceous Alliance <br/>
+        <span class="subtitle">Alkali sacaton - scratchgrass - alkali cordgrass alkaline wet meadow</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Herb
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-2100 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S2
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G4
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>CAN. USA: CA, CO, NM, NV, OR, UT, WA (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2018/08/08
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/herb/spartina-gracilis_fishslough_09-11.jpg', '/static/images/photos/herb/sporobolus-airoides_deathvalleynp_01.jpg', '/static/images/photos/herb/sporobolus-airoides_tecopahotspr_10-99_01.jpg', '/static/images/photos/herb/sporopolus-airoides_mesquitel_04-00_01.jpg', '/static/images/photos/herb/sporopolus-airoides_mesquitel_04-00_02.jpg', '/static/images/photos/herb/muhlenbergia-asperifolia_monolake_09-2016.jpg', '/static/images/photos/herb/muhlenbergia-asperifolia_fishslough_09-2011.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Muhlenbergia</i> <i>asperifolia</i>, <i>Puccinellia</i> <i>lemmonii</i>, <i>Puccinellia</i> <i>nuttalliana</i>, <i>Spartina</i> <i>gracilis</i> and/or <i>Sporobolus</i> <i>airoides</i> is dominant in the herbaceous layer with <i>Bromus</i> <i>diandrus</i>, <i>Bromus</i> <i>hordeaceus</i>, <i>Bromus</i> <i>rubens</i>, <i>Centromadia</i> <i>pungens</i>, <i>Cressa</i> <i>truxillensis</i>, <i>Distichlis</i> <i>spicata</i>, <i>Erodium</i> <i>botrys</i>, <i>Frankenia</i> <i>salina</i>, <i>Hordeum</i> <i>depressum</i>, <i>Hordeum</i> <i>marinum</i>, <i>Hordeum</i> <i>murinum</i>, <i>Lactuca</i> <i>serriola</i>, <i>Leymus</i> <i>triticoides</i>, <i>Pascopyrum</i> <i>smithii</i>, <i>Phalaris</i> <i>lemmonii</i>, <i>Poa</i> <i>secunda</i> and <i>Vulpia</i> <i>myuros</i>. Emergent trees and shrubs may be present at low cover, including <i>Allenrolfea</i> <i>occidentalis</i>, <i>Atriplex</i> <i>canescens</i>, <i>Atriplex</i> <i>lentiformis</i>, <i>Ericameria</i> <i>nauseosa</i>, <i>Isocoma</i> <i>acradenia</i>, <i>Prosopis</i> <i>glandulosa</i>, <i>Sarcobatus</i> <i>vermiculatus</i> or <i>Suaeda</i> <i>moquinii</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Herbs < 1.5 m; cover is open to continuous. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Sporobolus airoides</i> > 50% relative cover in the herbaceous layer (Thomas et al. 2004, Evens et al. 2014, VegCAMP 2014b).</li>
+		
+		<li><i>Muhlenbergia asperifolia</i> > 50% relative cover in the herbaceous layer (VegCAMP 2014b).</li>
+		
+		<li><i>Spartina gracilis</i> > 30% absolute cover in the herbaceous layer (NatureServe 2007, VegCAMP 2014b).</li>
+		
+		<li><i>Sporobolus airoides</i> > 30% relative cover in the herbaceous layer with other grasses including non-native and native plants (Buck-Diaz et al. 2012).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Moist, poorly drained, often alkaline areas along ephemeral, intermittent, or perennial streams, as well as alluvial flats, basins, swales, meadows, and margins of marshes and ponds. Soils are nonsaline to moderately saline. The USFWS Wetland Inventory (2012 national list) recognizes <i>Sporobolus airoides</i> as a FAC plant and both <i>Spartina gracilis</i>  and <i>Muhlenbergia asperifolia</i> as FACW plants. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Alkali sacaton series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Spartina gracilis seasonally flooded herbaceous alliance, Sporobolus airoides herbaceous alliance, Sporobolus airoides intermittently flooded herbaceous alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Alkaline mixed grasses and forbs, Perennial grasses and forbs
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Valley sacaton grassland, Alkali meadow
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Alkali sink
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Alkali desert scrub, Saline emergent wetland, Wet meadow
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>52.060.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate and Boreal Shrubland and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate and Boreal Salt Marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North American Interior Alkali-Saline Wetland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Warm Semi-Desert/Mediterranean Alkali-Saline Wetland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Southwestern North American alkali marsh/seep vegetation
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Spartina gracilis </i>and <i>Sporobolus airoides </i>were treated in separate alliances in the 2009 book, <i>A Manual of California Vegetation, second edition</i>.  They are now merged into a combined alliance along with <i>Muhlenbergia asperifolia, Puccinellia lemmonii, </i>and <i>Puccinellia nuttalliana</i> where any of these species can form monotypic or co-dominant stands (NatureServe 2017).  Stands defined by <i>Puccinelia lemmonii </i>and <i>P. nuttalliana </i>have not been sampled yet in California, although both species occur in the state. <br/>
+<br/>
+<i>Spartina gracilis </i>is a perennial grass with rhizomes. It grows throughout the arid regions of the West in moist alkaline sites (Weaver 1965, Ungar 1974a-c, Hansen et al. 1988) where stands are large and grazed by cattle. The species is rare in California but dominates stands of this alliance at Fish Slough (Odion et al. 1992a). <i>Spartina gracilis </i>also dominates stands of this alliance in Washington (Crawford 2003) and Alberta (Wheatley and Bentz 2002).<br/>
+<br/>
+<i>Sporobolus airoides </i>is a long-lived, warm-season, tussock-forming grass that grows to 1 m in height. It has a broad tolerance to salinity and pH conditions. It reproduces from seeds and tillers. Seed production is high, and seeds remain viable for many years. Seeds undergo an after-ripening period for good germination (Johnson 2000b). <br/>
+<br/>
+<i>Muhlenbergia asperifolia </i>is a native perennial bunchgrass that grows to 1 m in height. It reproduces from seeds, rhizomes and stolons. It has a broad tolerance to salinity and pH conditions, and it also has tolerance to drought and water inundation. It grows in moist, alkaline meadows, playa edges, around seeps and springs, and sandy washes, similar to other species in this alliance (Hershdorfer et al. 2007).<br/>
+<br/>
+Stands occur in seasonally wet, alkaline areas.  In areas where three or more of these diagnostic species co-occur, they each tend to form distinct monospecific stands. These often form a matrix with other meadow and shrubland types, such as those of the <i>Allenrolfea occidentalis, Distichlis spicata, Ericameria nauseosa, Juncus balticus, Prosopis glandulosa, </i>and <i>Suaeda moquinii </i>alliances. The most widespread and constant indicator of the alliance in California is <i>Sporobolus airoides</i>.  Although specimen collections exist for many ecoregions, the main distribution of the alliance in California includes the Mojave Desert, Mono, and Great Valley ecological sections. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Muhlenbergia asperifolia</th>
+			
+		
+			
+			<th>Puccinellia lemmonii</th>
+			
+		
+			
+			<th>Puccinellia nuttalliana</th>
+			
+		
+			
+			<th>Spartina gracilis</th>
+			
+		
+			
+			<th>Sporobolus airoides</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Polycarpic perennial; herb (grass); rhizomatous</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Polycarpic perennial; herb (grass); rhizomatous</td>
+			
+		
+			
+			<td>Polycarpic perennial; herb (grass)</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Medium</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Short</td>
+			
+		
+			
+			<td>Medium</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Water/hydrological, wind</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Water/hydrological</td>
+			
+		
+			
+			<td>Water/hydrological; wind</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Inundation (freshwater) </td>
+			
+		
+			
+			<td>None; after-ripening  </td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Underground structures (rhizomes, culms)</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Underground structures (rhizomes)</td>
+			
+		
+			
+			<td>Underground structures (culms)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire hardy</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Fire-hardy</td>
+			
+		
+			
+			<td>Fire-hardy(?); high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>Life of plant</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Life of plant</td>
+			
+		
+			
+			<td>Life of plant</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Medium to high</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Low?</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text"><i>Sporobolus airoides </i>is fire tolerant; plants recover within 2-4 years after a fire. Plants are likely top-killed in low to moderate fires, and they die in severe fires. Records of fires in this type are rare, and reported fire effects are from outside California (Johnson 2000b). <i>Muhlenbergia asperifolia</i> and<i>Spartina gracilis </i> sprout after disturbance.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Medium to long
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Summer-early fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Beyond stand size
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low to medium
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Low
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Low
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Surface
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Mojave Desert, Great Basin
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+            <p>The most widespread and constant indicator of the alliance in California is <i>Sporobolus airoides</i>. The main distribution of the alliance in California includes the Mojave Desert, Mono, and Great Valley ecological sections. According to CCH collections, the range of <i>Muhlenbergia asperifolia</i> extends to the Sierra Nevada and small portions of both the Northern California Coast Ranges and Northern California Interior Coast Ranges, but stands seem unlikely. The range of <i>Sporobolus airoides</i>, based on CCH records, also includes small portions of the N. California Interior Coast Ranges, as well as the Northern and Central Coasts, but again, stands are unlikely. Probable stands below based on CCH collections and Calflora records (Consortium of California Herbaria 2018; Calflora 2018).</p>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast Ranges</b> (M262Ad, Ai). Stands occur on the Carrizo Plain, in Cuyama Valley, and in other locations as far north as eastern Alameda Co. They contain many annual invasive grasses (S. Bainbridge, pers. comm. 2005).</li>
+        
+            <li><b>Colorado Desert</b> (322Cb). Bazell et al. recorded a stand in Anza-Borego Desert State Park in 2007 (CCH 2018).</li>
+        
+            <li><b>Great Valley</b> (262Ag, Aq-w, Ay-z). Stands from San Luis National Wildlife Refuge, Los Banos Wildlife Area, Great Valley Grasslands State Park, and the Tulare Lake Basin occur as remnants greatly reduced by land conversion for agriculture. Most stands are adjacent to stands of the <i>Allenrolfea occidentalis</i> or <i>Suaeda moquinii </i>alliances and frequently near claypan vernal pools; stands may be floristically rich in both native and non-native species (Solomeshch and Barbour 2006, Buck-Diaz et al. 2012).</li>
+        
+            <li><b>Modoc Plateau</b> (M261Ga, Gd-e, Gg, Gm). Probable <i>M. asperifolia</i> stands in alkali wet meadows throughout region.</li>
+        
+            <li><b>Mojave Desert</b> (322Aa-o). Alkali meadows in this section have <i>Sporobolus airoides </i>stands mixed with those of the <i>Allenrolfea occidentalis, Atriplex canescens, Atriplex lentiformis, Distichlis spicata, Prosopis glandulosa, </i>and <i>Suaeda moquinii </i>alliances. Notable in the Amargosa Desert area (Thomas et al. 2004), stands occupy alkali meadow margins, springs, and playa bottoms at Mesquite Dry Lake, surrounded by stands of the <i>Atriplex canescens</i>.  Stands of this <i>Sporobolus airodes </i>also occur near the New York Mountains in Mojave National Preserve and near Furnace Creek in Death Valley National Park on valley floors (Evens et al. 2014). <i>Spartina gracilis </i> rarely occurs in stands while <i>Sporobolus airoides </i> is more representative in the section, including around Owens Lake.  Additionally, the Whipple Mountains may have small stands scattered along gravelly or rocky streamcourses (CCH 2018).</li>
+        
+            <li><b>Mono</b> (341Dd-f, Dh-i, Dk). Stands exist in the upper Owens Valley, notably at Fish Slough (Ferren and Davis 1991, Odion et al. 1992a), and in Long Valley. Stands can be dominated or co-dominated by <i>Muhlenbergia asperifolia, Spartina gracilis, </i> and/or <i>Sporobolus airoides.</i></li>
+        
+            <li><b>Northwestern Basin and Range</b> (342Ba, Bc). Stands are rare in this section.  A single CCH collection of <i>Sporobolus airoides</i> suggests stands may occur at the northern shores of Honey Lake, in addition to several <i>M. asperifolia</i> collections in areas adjacent to the lake. A single CCH specimen collection of <i>Spartina gracilis</i> is from Middle Alkali Lake (Leonard Hot Spring).</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fd). One recorded stand in the Lake Isabella area (Ratchford et al. 2021a).</li>
+        
+            <li><b>Sonoran Desert</b> (322Bd). One CCH record indicates a small stand at a desert seep surrounded by mesquite trees north of Blythe.</li>
+        
+            <li><b>Southeastern Great Basin</b> (341Fb-d). Stands of <i>Spartina gracilis </i>and <i>Sporobolus airoides </i>exist in Deep Springs Valley. Most California collections of <i>Spartina gracilis</i> are known from this ecological section between Mono Lake and the upper Owens Valley.</li>
+        
+            <li><b>Southern California Coast</b> (261Bi-j). Small stands of <i>Sporobolus airoides</i> exist on the margins of the Tijuana River Estuary at the upper edge of the salt marsh.</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Bb, Bf-l, Bn-p). Stands occur sporadically in this section, including alluvial soil near riparian corridors in western Riverside Co. (Klein and Evens 2005), in semi-desert.</li>
+        
+            <li><b>Southern Cascades</b> (M261Da, Dc, De, Dh, Dm). Probable  <i>M. asperifolia</i> stands in alkali wet meadows throughout the region.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> <i>Muhlenbergia asperifolia </i>is used for restoration of riparian areas and erosion, and it may be a competitor with invasive species such as <i>Tamarix</i>. It is highly palatable to both livestock and wildlife, making it at risk for overgrazing (Hershdorfer et al. 2007). The rough-edged leaves of <i>Spartina gracilis </i>make for poor forage of wildlife and livestock, but excellent hay (Weaver 1965, Hansen et al. 1988). Historical research in central California and the arid Southwest suggests that stands of <i>Sporobolus airoides </i>were previously more abundant on playas, floodplains, hills, and terraces. Currently, they occupy primarily alkaline flats and alluvial floodplains (Johnson 2000b). A study in the Owens Valley (Manning 1999) found that stands of this alliance have transitioned into <i>Atriplex </i>or <i>Ericameria </i>scrubs after groundwater pumping lowered water tables. Groundwater pumping, less-frequent flooding, and non-native plants threaten this rare and declining alliance in California. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Ivesia kingii - Spartina gracilis [10]</li>
+                
+                    <li>Muhlenbergia asperifolia [5], [10]</li>
+                
+                    <li>Puccinellia nuttalliana [11]</li>
+                
+                    <li>Spartina gracilis [3], [10]</li>
+                
+                    <li>Sporobolus airoides [2], [4], [5], [6], [7], [8], [9], [10]</li>
+                
+                    <li>Sporobolus airoides / Allenrolfea occidentalis [3], [7], [8], [9], [10]</li>
+                
+                    <li>Sporobolus airoides - Distichlis spicata [10]</li>
+                
+                    <li>Sporobolus airoides / Ericameria nauseosa [1], [10]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Ferren, W.R.;Davis, F.W. 1991</li>
+		
+		<li>[2] Keeler-Wolf, T.;Thomas, K. 2000</li>
+		
+		<li>[3] Odion, D.C.;Callaway, R.M.;Ferren, W.R.;Davis, F.W. 1992a</li>
+		
+		<li>[4] Solomeshch, A.;Barbour, M. 2006</li>
+		
+		<li>[5] VegCAMP (CDFW Vegetation Classification and Mapping Program), 2014b</li>
+		
+		<li>[6] Evens, J.M.;Sikes, K.;Hastings, D.;Ratchford,J.S. 2014</li>
+		
+		<li>[7] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>[8] Buck-Diaz, J.;Harbert, B.;Evens, J. 2011</li>
+		
+		<li>[9] Buck-Diaz, J.;Ratchford, J.;Evens, J. 2013</li>
+		
+		<li>[10] Reyes, E.;Evens, J.;Glass, A.;Sikes, K.;Keeler-Wolf., T.;Winitsky, S.;Johnson, D.;Menke, J.;Hepburn, A. 2020a</li>
+		
+		<li>[11] NatureServe, 2014+</li>
+		
+		<li>Barry, W.J. 1989a</li>
+		
+		<li>Barry, W.J. 1989b</li>
+		
+		<li>Bittman, R. 1985</li>
+		
+		<li>Brown, D.E. 1982f</li>
+		
+		<li>Griggs, F.T. 1980a</li>
+		
+		<li>Griggs, F.T. 1980b</li>
+		
+		<li>Hershdorfer, M.;Garner, R.;Wood, L. 2007</li>
+		
+		<li>Johnson, K.A. 2000b</li>
+		
+		<li>Menke, J.;Reyes, E.;Hepburn, A.;Johnson, D.;Reyes, J. 2013</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Black, H.;Bleich, V.C.;Mincks, J.W. 1980</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Conrad, C.E. 1982</li>
+		
+		<li>Ratchford, J.;Boul, R.;Keeler-Wolf, T.;Evens, J. 2022a (in progress)</li>
+		
+		<li>Thorne, R.F. 1982</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program);AIS, 2013</li>
+		
+		<li>Werschkull, G.D.;Griggs, F.T.;Zaninovich, J.M. 1984</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/555/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Pinus torreyana</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Pinus</i> <i>torreyana</i></span> Woodland Alliance <br/>
+        <span class="subtitle">Torrey pine woodland</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Tree
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-175 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S1.2
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G1
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA (NRCS) (Calflora)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>Yes
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>Yes
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/tree/pinus-torreyana_sandiegoco_07-09_01.jpg', '/static/images/photos/tree/pinus-torreyana_sandiegoco_07-09_02.jpg', '/static/images/photos/tree/pinus-torreyana_torreypinesp.jpg', '/static/images/photos/tree/pinus-torreyana_torreypinesp_10-03_01.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Pinus</i> <i>torreyana</i> is dominant in the tree canopy or is emergent over a shrub canopy with <i>Adenostoma</i> <i>fasciculatum</i>, <i>Arctostaphylos</i> <i>confertiflora</i>, <i>Artemisia</i> <i>californica</i>, <i>Baccharis</i> <i>pilularis</i>, <i>Ceanothus</i> <i>arboreus</i>, <i>Ceanothus</i> <i>verrucosus</i>, <i>Cneoridium</i> <i>dumosum</i>, <i>Coreopsis</i> <i>gigantea</i>, <i>Coreopsis</i> <i>maritima</i>, <i>Diplacus</i> <i>parviflorus</i>, <i>Eriogonum</i> <i>fasciculatum</i>, <i>Eriophyllum</i> <i>confertiflorum</i>, <i>Heteromeles</i> <i>arbutifolia</i>, <i>Lotus</i> <i>dendroideus</i>, <i>Quercus</i> <i>berberidifolia</i>, <i>Quercus</i> <i>pacifica</i>, <i>Rhus</i> <i>integrifolia</i> and <i>Salvia</i> spp. The herbaceous layer commonly includes <i>Achillea</i> <i>millefolium</i>, <i>Bromus</i> <i>diandrus</i>, <i>Carex</i> <i>globosa</i>, <i>Corethrogyne</i> <i>filaginifolia</i>, <i>Pentagramma</i> <i>triangularis</i> or <i>Pseudognaphalium</i> <i>biolettii</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text"> Trees < 15 m; canopy is intermittent or open. Shrub layer is sparse to intermittent. Herbaceous layer is sparse or abundant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Pinus torreyana</i> is the sole dominant in the tree canopy (Evens and San 2005, Sproul et al. 2011, Rodriguez et al. 2017).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Coastal bluffs, maritime terraces, slopes. Soils are sandstone or diatomaceous derived.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Torrey pine stands
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Torrey pine
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Torrey pine forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Closed-cone pine-cypress
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>87.190.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Tree Vegetation (Forest and Woodland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Warm Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Madrean Forest and Woodland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>California Forest and Woodland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Californian evergreen coniferous forest and woodland
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Pinus torreyana </i>is a slow-growing pine that attains an age of about 150 years. It is the rarest pine in North America, occurring as disjunct populations on the mainland and on an island off southern California. Three populations exist, with about 9,000 trees. The two subspecies of <i>P. torreyana </i>differ in needle and cone characters (Haller 1967). Both subspecies are rare CNPS list 1B plants (CNPS 2001). The species grows with coastal scrub and chaparral alliances. Local endemics include CNPS list 1B plants <i>Arctostaphylos glandulosa </i>ssp. <i>crassifolia, Baccharis vanessae, </i>and <i>Quercus dumosa, </i>and CNPS list 2 plants <i>Coreopsis maritima </i>and <i>Ceanothus verrucosus</i>. <br/>
+<br/>
+<i>Pinus torreyana </i> is adapted to a harsh environment of nutrient-poor soils, low winter rainfall, and frequent fog in a maritime climate.  The alliance is localized, occurring along coastal bluffs associated with maritime chaparral and coastal scrub on both Santa Rosa Island and the mainland in northern San Diego Co. This vegetation type has been upgraded to a full alliance from "Special Stands," as it was cited originally in <i>A Manual of California Vegetation, second edition</i>  (2009) and in Sproul et al. (2011), subsequent to classification analyses of surveys in the northern Channel Islands (Rodriguez et al. 2017). </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Pinus torreyana</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Tree; evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Canopy</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Long</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; gravity</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Heat; stratification—winter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-sensitive; canopy architecture susceptible</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>10-150 years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Episodic (disturbance dependent)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Infrequent, severe fires are important for seedling establishment although disturbance is not essential (McMaster 1980). <i>Pinus torreyana </i>has a delayed seed response, probably in response to varying and infrequent fire cycles. It is fire-intolerant. Low-severity fires will kill small trees
+even if no crown damage is sustained (Zedler et al. 1987), and severe fires kills trees of all sizes (McMaster 1980). Seed drop from cones is substantial immediately after crown fire; some seeds gradually release from cones for over 10 years after a fire (McMaster 1980, 1982, McMaster and Zedler 1981). According to Zedler et al. (1987), maintaining a natural system may require that it be allowed to burn to the ground every century.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Medium to long (20-100)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Summer-early fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Small to large
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Low to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Multiple
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Multiple
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Southern California
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Southern California Coast</b> (261Bc, Bj). The larger mainland population and stands of <i>Pinus torreyana</i> ssp. <i>torreyana</i> occur in the vicinity of Del Mar and Torrey Pines State Reserve in San Diego Co. (Holland 1986); two island populations and stands of ssp. <i>insularis</i> occur on Santa Rosa Island in Santa Barbara Co. (Clark et al. 1990, Rodriguez et al. 2017). CVIS (1995) has vegetation plot data on file for Torrey Pines State Park in San Diego Co., and Evens and San (2006) and Sproul et al. (2011) sampled the nearby localized stands in the Del Mar region of that county; these stands are identified as <i>Pinus torreyana / Artemisia californica - Rhus integrifolia</i> association.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> <i>Pinus torreyana </i> has little capacity to respond to change through natural selection because of low genetic variability. Native populations need management to maintain a maximum number of trees while minimizing the chance of catastrophic loss (Ledig 1984). If fires occur in a Torrey pine stand at intervals shorter than 12 to 18 years, (when saplings begin to produce cones), they could seriously impair the ability of the population to survive. 
+
+This pine (as well as other coastal and interior conifers) has delayed seed dispersal after fire and reduced serotiny, which likely has arisen from a fire pattern in which large scale, intense crown fires have alternated with long intervals of no fires or of only low-severity surface fires (McMaster 1980). Seed dispersal has been studied by McMaster and Zedler (1981) and Johnson et al. (2003).
+
+Both the island and mainland stands are threatened by air pollution, since the densely populated areas of southern California generate extreme amounts of air pollution which is carried by Santa Ana winds to the coast and offshore islands (Little 1975, Davis 1989). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Pinus torreyana / Artemisia californica - Rhus integrifolia [1]</li>
+                
+                    <li>Pinus torreyana ssp. insularis [2], [3]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Evens, J.;San, S. 2005</li>
+		
+		<li>[2] Junak, S.;Knapp, D.A.;Haller, J.R.;Philbrick, R.;Schoenherr, A.;Keeler-Wolf, T. 2007</li>
+		
+		<li>[3] Rodriguez, D.;Sikes, K.;Keeler-Wolf, T.;Kittel, G.;Curtis, J.;Curley, C.;Evens, J. 2017</li>
+		
+		<li>Clark, R.A.;Halvorson, W.L.;Sawdo, A.A.;Danielsen, K.C.;Karen, C. 1990</li>
+		
+		<li>Davis, G.E. 1989</li>
+		
+		<li>Esser, L.L. 1993e</li>
+		
+		<li>Griffin, J.R.;Critchfield, W.B. 1972</li>
+		
+		<li>Holland, R.F. 1986</li>
+		
+		<li>Ledig, F.T. 1984</li>
+		
+		<li>Little, E.L., Jr. 1975</li>
+		
+		<li>McMaster, G.S. 1980</li>
+		
+		<li>McMaster, G.S. 1982</li>
+		
+		<li>McMaster, G.S.;Zedler, P.H. 1981</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Black, H.;Bleich, V.C.;Mincks, J.W. 1980</li>
+		
+		<li>Philbrick, R.N.;Haller, J.R. 1977</li>
+		
+		<li>Sproul, F.;Keeler-Wolf, T.;Gordon-Reedy, P.;Dunn, J.;Klein, A.;Harper, K. 2011</li>
+		
+		<li>Vogl, R.J.;Armstrong, W.P.;White, K.L.;Cole, K.L. 1977</li>
+		
+		<li>Zedler, P.H.;Scheid, G.;Scheidlinger, C. 1987</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/65/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

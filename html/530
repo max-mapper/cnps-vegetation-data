@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Senegalia greggii - Hyptis emoryi - Justicia californica</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Senegalia</i> <i>greggii</i> - <i>Hyptis</i> <i>emoryi</i> - <i>Justicia</i> <i>californica</i></span> Shrubland Alliance <br/>
+        <span class="subtitle">Catclaw acacia - desert lavender - chuparosa scrub</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>10-1500 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S4
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G4
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: AZ, CA, NV. Mexico (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2016/11/22
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/hyptis-emoryi_riversideco_westofhwy177_04-12_02.jpg', '/static/images/photos/shrub/justicia-californica_joshuatreenp_riversideco_03-08_01.jpg', '/static/images/photos/shrub/hyptis-emoryi_lizardcyn_02-10_01.jpg', '/static/images/photos/shrub/hyptis-emoryi_lizardcyn_02-10_02.jpg', '/static/images/photos/shrub/acacia-greggii_granitemtns_05-98_01.jpg', '/static/images/photos/shrub/acacia-greggii_granitemtns_04-99_01.jpg', '/static/images/photos/shrub/acacia-greggii_granitemtns_04-99_02.jpg', '/static/images/photos/shrub/hyptis-emoryi_05-99.jpg', '/static/images/photos/shrub/hyptis-emoryi_anzaborrego_01-10_01.jpg', '/static/images/photos/shrub/hyptis-emoryi_anzaborrego_01-10_02.jpg', '/static/images/photos/shrub/hyptis-emoryi_sjotr_03-08_01.jpg', '/static/images/photos/shrub/justicia-californica_sjotr_03-08_01.jpg', '/static/images/photos/shrub/justicia-californica_sjotr_03-08_02.jpg', '/static/images/photos/shrub/hyptis-emoryi_riversideco_02-12_01.jpg', '/static/images/photos/shrub/hyptis-emoryi_riversideco_02-12_02.jpg', '/static/images/photos/shrub/hyptis-emoryi_riversideco_02-12_03.jpg', '/static/images/photos/shrub/hyptis-emoryi_riversideco_05-12_01.jpg', '/static/images/photos/shrub/hyptis-emoryi_riversideco_westofhwy177_04-12_01.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Hyptis</i> <i>emoryi</i>, <i>Justicia</i> <i>californica</i> and/or <i>Senegalia</i> <i>greggii</i> are dominant or co-dominant in the shrub canopy with <i>Adenophyllum</i> <i>porophylloides</i>, <i>Ambrosia</i> <i>eriocentra</i>, <i>Ambrosia</i> <i>salsola</i>, <i>Bebbia</i> <i>juncea</i>, <i>Cylindropuntia</i> <i>acanthocarpa</i>, <i>Encelia</i> <i>farinosa</i>, <i>Encelia</i> <i>virginensis</i>, <i>Ephedra</i> <i>californica</i>, <i>Ephedra</i> <i>nevadensis</i>, <i>Ericameria</i> <i>teretifolia</i>, <i>Eriogonum</i> <i>fasciculatum</i>, <i>Larrea</i> <i>tridentata</i>, <i>Opuntia</i> <i>basilaris</i>, <i>Phoradendron</i> <i>californicum</i>, <i>Prunus</i> <i>fasciculata</i>, <i>Psorothamnus</i> <i>schottii</i>, <i>Rhus</i> <i>ovata</i>, <i>Salazaria</i> <i>mexicana</i>, <i>Salvia</i> <i>dorrii</i>, <i>Senna</i> <i>armata</i>, <i>Trixis</i> <i>californica</i>, <i>Viguiera</i> <i>parishii</i> and <i>Yucca</i> <i>schidigera</i>. Emergent trees or tall shrubs may be present at low cover, including <i>Chilopsis</i> <i>linearis</i>, <i>Fouquieria</i> <i>splendens</i>, <i>Juniperus</i> <i>californica</i>, <i>Juniperus</i> <i>osteosperma</i>, <i>Olneya</i> <i>tesota</i>, <i>Parkinsonia</i> <i>florida</i> or <i>Psorothamnus</i> <i>spinosus</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 3 m; canopy is open to intermittent. Herbaceous layer is sparse to intermittent with seasonal annuals. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Senegalia greggii</i> > 2% absolute cover and > 50% relative cover in the tall shrub or low tree canopy (Keeler-Wolf et al. 1998b).</li>
+		
+		<li><i>Senegalia greggii</i> ≥ 2% cover in the tall shrub canopy. No other single, tall shrub species with greater cover, but <i>Prunus fasciculata</i> or <i>Hyptis emoryi</i> may be equal to or slightly greater in cover than <i>Senegalia</i>. Smaller shrubs, such as <i>Ericameria paniculata</i> or <i>Ambrosia salsola,</i> may have cover up to 2x the cover of <i>S.
+greggii</i> (Keeler-Wolf et al. 2005, Thomas et al. 2004).</li>
+		
+		<li><i>Hyptis emoryi</i> ≥ 2% absolute cover in the shrub canopy; it exceeds any other shrub in cover (LaDoux et al. 2013, Keeler- Wolf et al. 1998b, VegCAMP and AIS 2013).</li>
+		
+		<li><i>Senegalia greggii</i> ≥ 2% absolute cover and > 30% relative cover in the shrub layer, only shorter shrubs may have higher cover (Evens et al. 2014).</li>
+		
+		<li><i>Hyptis emoryi</i> > 30% relative cover in the shrub canopy often with <i>Senegalia gregii, Bebbia juncea, </i>and other shrubs (Evens et al. 2014).</li>
+		
+		<li><i>Justicia californica </i>characteristically present and often co-dominant with other shrubs such as <i>Hyptis emoryi, Ambrosia salsola, Larrea tridentata, </i>and others (LaDoux et al. 2013).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Arroyos, channels, washes, bajadas, seeps, canyon walls, rocky colluvial slopes, and valleys. Soils are coarse, well-drained, gravelly sands and loams, and moderately acidic to slightly saline. The USFWS Wetland Inventory (2012 national list) recognizes <i>Senegalia greggii</i> as a FACU plant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Catclaw acacia series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Acacia greggii shrubland alliance, Hyptis emoryi intermittently flooded shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Desert mixed scrub, Catclaw acacia
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Desert dry wash woodland, Mojave desert wash scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Creosote bush scrub, Joshua tree woodland, Shadscale scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Desert wash
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>33.045.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Xeromorphic Scrub and Herb Vegetation (Semi-Desert)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Warm Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Warm Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Sonoran and Chihuahuan Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Madrean Warm Semi-Desert Wash Woodland/Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Mojavean semi-desert wash scrub
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Senegalia greggii (= Acacia greggii) </i>is a long-lived tall shrub or small tree that is parasitized by mistletoe (<i>Phoradendron californicum</i>). Plants have deep root systems, and stems have curved spines with deciduous bipinnate leaves. Flowering occurs in spring and may continue through fall. Small mammals cache its seeds. Animal activity or abrasion scarifies seed coats before germination. <i>S. greggii </i>vigorously sprouts following flood damage, heavy browsing, or fire (Uchytil 1990d). <br/>
+<br/>
+<i>Hyptis emoryi </i>is a drought deciduous shrub or small tree. Little is known about its ecology. Shrubs appear tolerant of a high degree of flood disturbance, as they grow in the center of small washes that flood at least every 10 years (Thomas et al. 2004). Stems ramify following flood damage. The plant’s range appears to be limited by temperature. Shrubs are top killed by temperatures below 0 °C (Thomas et al. 2004). <br/>
+<br/>
+<i>Justicia californica </i>is a medium-sized, rounded shrub that is cold- and drought-deciduous. Plants are frost hardy to -5 °C, and they can reach 2 m in height. The showy flowers are an attractive red color and tubular shape that hummingbirds visit. Landscapers use this plant as a xeriscape ornamental. <i>J. californica </i>is a common plant in the Colorado and Sonoran deserts in California. Some manuals use the name <i>Beloperone californica</i>.<br/>
+<br/>
+The alliance occupies wash habitats similar to those of microphyll wash woodland alliances of the desert Southwest but extends farther north into the Mojave Desert than these frost-sensitive trees. It is characteristic of hot, low elevations, where stands occupy washes, valley bottoms, and slopes on which outcrops and boulders channel the surface water to roots. Stands are typically uneven-aged (Uchytil 1990d).  Stands with <i>Hyptis emoryi</i> and <i>Justicia californica </i>occur intermittently in the Colorado and Sonoran deserts and in the southern portion of the Mojave Desert, below 800 m.  They often occur as narrow strips that ascend drainages in old dissected alluvial fans or badlands or are associated with rocky and boulder-strewn stretches. Stands with <i>Senegalia greggii </i>are more widespread across the Mojave, though they overlap with the other indicator species in the other regions of California. They were previously viewed as separate alliances in the 2009 version of this classification and other reports (e.g., LaDoux et al. 2013, VegCAMP and AIS 2013), but more recently have been combined because of overlapping environmental and floristic characteristics. <br/>
+<br/>
+Little information exists on variation in flood frequencies (Waananen and Crippen 1977). It is likely that only the largest 100-year floods act as stand-replacing events, while lower flood intervals and intensities establish seedlings in favorable microsites. Also, plants can resprout from underground roots. Flooding intensities in stands along washes are highly variable; however, relatively low discharges are sufficient in small concentrated channels to initiate seed dispersal and germination and resprouting (Uchytil 1990d). </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Hyptis emoryi</th>
+			
+		
+			
+			<th>Justicia californica</th>
+			
+		
+			
+			<th>Senegalia greggii</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Shrub; evergreen</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Shrub, tree; winter deciduous</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Medium</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Medium</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Water/hydrological</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Animal</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>None; scarification</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Underground structures</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Underground structures (root crown)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>2-100 years</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>2 years to life of plant; long-lived</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Fluvial processes rather than fire primarily disturb the alliance, but <i>Senegalia greggii </i> and other indicator shrubs have a strong ability to sprout from underground roots after disturbance. Invasions of non-native annual grasses such as <i>Bromus rubens </i>create fine fuels that can carry ground fires. Repeated burning could increase the importance of <i>S. greggii </i>over time, and <i>S. greggii </i> or <i>B. rubens </i>stands may replace other upland types with prolonged browsing or fire.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Truncated long
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Spring-summer-fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Small
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>High
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Low
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Surface-passive crown fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Southeastern California deserts
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Colorado Desert</b> (322Ca-d). Stands occur throughout the section, except for the lower portion of the Coachella Valley. They occupy washes and incised drainages in relatively alkaline mud hills (badlands) or along narrow, boulder-strewn arroyos and canyons. Upland stands are absent at lower elevations, but they appear in upland valleys on granitic slopes up to 1400 m that are south-facing and rocky at the desert boundary with the Peninsular Ranges. Fire is unimportant except on the western boundary, where <i>Bromus rubens</i> and other introduced grasses become important. Stands dominated by <i>Hyptis emoryi</i> or <i>Justicia californica</i> have been seen throughout Anza-Borrego Desert State Park (Keeler-Wolf et al. 1998).</li>
+        
+            <li><b>Mojave Desert</b> (322Ag-p). Stands occur in the southern and eastern subsections, those with <i>Senegalia greggii</i> occur further north to the southern end of Death Valley National Park. Inventories and descriptions of stands with <i>Senegalia greggii</i> include the Whipple Mountains (Vasek and Barbour 1977), the Granite and Providence Mountains (Evens 2000), and generally in the central, southern and eastern subsections (Evens and Hartman 2007, Evens et al. 2014, Keeler-Wolf et al. 2005, Thomas et al. 2004). Stands are common in arroyos and washes, and upland stands occur on south-facing slopes up to 1400 m in the Granite Mountains and Mid Hills. Stands with <i>Hyptis emoryii</i> and <i>Justicia</i> in Joshua Tree National Park occur at least as far north as the southern bajadas of the Marble Mountains (Thomas et al. 2004). <i>Senegalia greggii</i> appears to tolerate fire and grazing in this section and may be increasing in distribution in the Cima Dome area.</li>
+        
+            <li><b>Sonoran Desert</b> (322Ba-e). Stands occupy washes throughout the section. Flooding intensities have similar effects as in the Mojave Desert; fire and grazing have little influence here.</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Bi, Bl, Bo-p). A few stands with <i>Senegalia greggii</i> occur west of the mountain crest of San Diego Co. surrounded by chaparral (J. Rottenberry, pers. comm. 1997) and along bajadas and washes near desert margins in western Riverside and San Diego Cos. (Evens and San 2005, Klein and Evens 2005). The cover and extent of some stands likely have increased due to fire and cattle grazing.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Natural flooding regimes in most riparian settings perpetuate stands rangewide. Continued high-frequency fire in upland stands with non-native grasses benefit the alliance to the detriment of other alliances not adapted to fire. Also, burros and ORV recreation impact stands in the Colorado and Sonoran deserts, and their effects need better quantification. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Hyptis emoryi [4], [5], [9], [11]</li>
+                
+                    <li>Justicia californica [5]</li>
+                
+                    <li>Senegalia greggii - (Ambrosia eriocentra - Salvia dorrii) [1], [6], [9], [11]</li>
+                
+                    <li>Senegalia greggii - Ambrosia salsola [1], [6], [9], [11]</li>
+                
+                    <li>Senegalia greggii - annual herbs (Bromus rubens) [3]</li>
+                
+                    <li>Senegalia greggii - (Bebbia juncea - Hyptis emoryi) [2], [4], [5], [6], [8], [11]</li>
+                
+                    <li>Senegalia greggii / Eriogonum davidsonii [7], [10]</li>
+                
+                    <li>Senegalia greggii - Eriogonum fasciculatum [4], [8], [9], [11]</li>
+                
+                    <li>Senegalia greggii - Prunus fasciculata [1], [5], [6], [9], [11]</li>
+                
+                    <li>Senegalia greggii - Viguiera parishii [1], [6], [9], [11]</li>
+                
+                    <li>Senegalia greggii Wash [9], [11]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Evens, J.M. 2000</li>
+		
+		<li>[2] Evens, J.M.;Hartman, S. 2007</li>
+		
+		<li>[3] Evens, J.;San, S. 2005</li>
+		
+		<li>[4] Keeler-Wolf, T.;Roye, C.;Lewis, K. 1998b</li>
+		
+		<li>[5] Keeler-Wolf, T.;San, S.;Hickson, D. 2005</li>
+		
+		<li>[6] Keeler-Wolf, T.;Thomas, K. 2000</li>
+		
+		<li>[7] Barbour, M.G.;Wirka, J. 1997</li>
+		
+		<li>[8] Evens, J.M.;Roach-McIntosh, D.;Stout, D. 2012</li>
+		
+		<li>[9] Evens, J.M.;Sikes, K.;Hastings, D.;Ratchford,J.S. 2014</li>
+		
+		<li>[10] Buck-Diaz, J.;Evens, J. 2011a</li>
+		
+		<li>[11] Reyes, E.;Evens, J.;Fulton, J.;Sikes, K.; Johnson, D.;Keeler-Wolf, T.;Vu, S.;LaFever-Jackson, A. 2023 (in progress)</li>
+		
+		<li>Barry, W.J. 1989a</li>
+		
+		<li>Barry, W.J. 1989b</li>
+		
+		<li>Brown, D.E.;Lowe, C.H.;Pase, C.P. 1980</li>
+		
+		<li>Cheatham, N.H.;Haller, J.R. 1975</li>
+		
+		<li>Johnson, H.B. 1976</li>
+		
+		<li>Keeler-Wolf, T. 2007b</li>
+		
+		<li>MacMahon, J.A. 1988</li>
+		
+		<li>Menke, J.;Reyes, E.;Hepburn, A.;Johnson, D.;Reyes, J. 2013</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Black, H.;Bleich, V.C.;Mincks, J.W. 1980</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Conrad, C.E. 1982</li>
+		
+		<li>Reid, M.S.;Schulz, K.A.;Cormer, P.J.;Schindel, M.H.;Culver, D.R.;Sarr, D.A.;Damm, M.C. 1999</li>
+		
+		<li>Thomas, K.;Franklin, J.;Keeler-Wolf, T.;Stine, P. 2004</li>
+		
+		<li>Thorne, R.F. 1976</li>
+		
+		<li>Thorne, R.F. 1982</li>
+		
+		<li>Turner, R.M.;Brown, D.E. 1982</li>
+		
+		<li>Uchytil, R.J. 1990d</li>
+		
+		<li>Vasek, F.C.;Barbour, M.G. 1977</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program);AIS, 2013</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/530/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

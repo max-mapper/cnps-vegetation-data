@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Encelia californica - Eriogonum cinereum</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Encelia</i> <i>californica</i> - <i>Eriogonum</i> <i>cinereum</i></span> Shrubland Alliance <br/>
+        <span class="subtitle">California brittle bush - Ashy buckwheat scrub</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-1200 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G3
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA (NatureServe), Baja California, Mexico (TJM2)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>Yes
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2016/12/14
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/encelia-californica_bigconejocrrdsamo_03-03_01.jpg', '/static/images/photos/shrub/encelia-californica_conejovolcanicssmm_03-02_01.jpg', '/static/images/photos/shrub/encelia-californica_conejovolcanicssmm_03-02_02.jpg', '/static/images/photos/shrub/encelia-californica_offbarrancardsamo_03-03_01.jpg', '/static/images/photos/shrub/encelia-californica_thousandoakssamo_03-03_01.jpg', '/static/images/photos/shrub/encelia-californica_thousandoakssamo_03-03_02.jpg', '/static/images/photos/shrub/eriogonum-cinereum_santamonicamtns_04-03.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Encelia</i> <i>californica</i> and/or <i>Eriogonum</i> <i>cinereum</i> is dominant or co-dominant in the shrub canopy with <i>Artemisia</i> <i>californica</i>, <i>Baccharis</i> <i>pilularis</i>, <i>Cleome</i> <i>isomeris</i>, <i>Diplacus</i> <i>aurantiacus</i>, <i>Eriogonum</i> <i>fasciculatum</i>, <i>Hesperoyucca</i> <i>whipplei</i>, <i>Isocoma</i> <i>menziesii</i>, <i>Lotus</i> <i>scoparius</i>, <i>Malacothamnus</i> <i>fasciculatus</i>, <i>Malosma</i> <i>laurina</i>, <i>Mirabilis</i> <i>laevis</i> var. <i>crassifolia</i>, <i>Opuntia</i> <i>littoralis</i>, <i>Rhus</i> <i>integrifolia</i>, <i>Salvia</i> <i>leucophylla</i>, <i>Salvia</i> <i>mellifera</i> and <i>Sambucus</i> <i>nigra</i>. Emergent trees may be present, including <i>Juglans</i> <i>californica</i> or <i>Quercus</i> <i>agrifolia</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 2 m; canopy is intermittent to continuous. Herbaceous layer is variable. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Encelia californica</i> > 30% relative cover in the shrub canopy (Evens and San 2005, Keeler-Wolf and Evens 2006, Klein and Evens 2005, Klein et al. 2010, Verdone and Evens 2010).</li>
+		
+		<li><i>Eriogonum cinereum</i> > 50% relative cover in the shrub layer (Keeler-Wolf and Evens 2006, Verdone and Evens 2010).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Sunny, steep slopes that are often rocky or eroded. Soils develop from sandstone, shale, or volcanic  substrates.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>California encelia series, California sagebrush series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Encelia californica shrubland alliance, Eriogonum cinereum shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>California buckwheat, Encelia scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Southern coastal bluff scrub, Venturan coastal sage scrub, Diegan coastal sage scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Coastal sage scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Coastal scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>32.051.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Mediterranean Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Mediterranean Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>California Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>California Coastal Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Central and South Coastal Californian coastal sage scrub
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Encelia californica </i>is a short-lived shrub that lives to 30 years. It leafs out and flowers whenever moisture is available, usually in spring and lasting sometimes through the fall. Its leaves drop in drought conditions. Its composite heads have showy yellow disk flowers and dark ray flowers <i>. E. californica </i>reproduces by seed and weakly sprouts from damaged stems. It is allelopathic to several winter annual species. <br/>
+ <br/>
+<i>Eriogonum cinereum </i>(a CNPS list 4 plant) is a much-branched perennial shrub < 1 m tall with white-wooly herbage and white to pinkish flowers. It is endemic to the Venturan coastal scrub region (Axelrod 1978, Malanson 1984, Westman 1981b), with the alliance distribution mainly in the Santa Monica Mountains. <br/>
+<br/>
+This alliance is one of the several alliances of coastal sage scrub (Rundel 2007). Previously in 2009, two separate alliances were defined by the indicator species, which have now been merged into a combined alliance (Rodriguez et al. 2017). Stands of both <i>Encelia californica </i> and <i>E. cinereum </i>are characteristic of relatively steep slopes and cliffs, and the species occur in many other coastal sage scrub types, including the <i>Artemisia californica, Malosma laurina, Rhus integrifolia, Salvia leucophylla, </i>and <i>Salvia mellifera </i>alliances. Despite its preference for sunny steep exposures, the alliance is usually associated with some summer fog and usually exists close to the coast (Kirkpatrick and Hutchinson 1980, Keeler-Wolf and Evens 2006). A post-fire phase of the alliance may have high cover of <i>Leymus condensatus </i>and <i>Malacothamnus fasciculatus</i>. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Encelia californica</th>
+			
+		
+			
+			<th>Eriogonum cinereum</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Shrub; drought deciduous</td>
+			
+		
+			
+			<td>Shrub; evergreen, (semi-)drought deciduous</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Transient</td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Wind</td>
+			
+		
+			
+			<td>Animal; water/hydrological; wind</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>Heat (fire)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Underground structures (weak to moderate)</td>
+			
+		
+			
+			<td>Underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-sensitive (to fire-moderate); no/low sprouter (to moderate sprouter)</td>
+			
+		
+			
+			<td>Fire-sensitive; (moderate sprouter to) high sprouter; canopy architecture susceptible</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>3 to 30+? years</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>High</td>
+			
+		
+			
+			<td>Low to moderate</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Post-fire studies of the Santa Monica Mountains (Keeley and Keeley 1984, O’Leary 1990) found <i>Encelia californica </i>vigorously sprouted from the shrub’s main shoot and the sprouts produced flowers and set seed within the second year after fire, with seedlings successfully establishing as well. <i>Eriogonum cinereum </i>can also vigorous sprout from the root crown after fire, especially in less intense fires (Westman 1981a, Keeley and Keeley 1984). Seeds typically do not germinate from the seed bank. Instead, the sprouting shrubs flower and set seed in the year after a fire. Seedlings appear in the second season.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Medium (15-70+ years)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Late summer-fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Medium to large—up to or beyond stand size
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Moderate to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>High to very high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Passive-active crown fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>South Coast
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Southern California Coast</b> (261Bb-j). Stands from the Santa Monica Mountains (Keeler-Wolf and Evens 2006), and generally for the section (Kirkpatrick and Hutchinson 1977, Malanson 1984) vary greatly in species composition. Stands with <i>Encelia californica </i>are rare on Santa Cruz Island and are likely to occur on south-facing slopes on San Clemente.  Stands have been sampled on Anacapa and Santa Catalina islands (Rodriguez et al. 2017, Dixon et al. 2019). Stands with <i>Encelia californica </i>are common at Cabrillo National Monument in disturbed areas and associate with <i>Euphorbia misera </i>on rocky southerly exposures. Stands with <i>Eriogonum cinereum </i>are more restricted than <i>Encelia californica</i> in that they occur to the Los Angeles basin and hills near Newport Beach and not further south.</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Bj-k). Stands with <i>Encelia californica </i> and <i>Artemisia californica </i>from the western subsections exist no more than about 50 km from the coast (Evens and San 2005, Klein and Evens 2005).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Increased urbanization, especially in the South Coast, and non-native invasive plants are impacting the range of this alliance. <i>Encelia californica </i>rapidly colonizes roadsides and other disturbed areas, but repeated fires at less than 10-year intervals negatively impact stands by increasing the abundance of non-native species. By virtue of their ability to colonize and dominate steep unstable slopes, managers could use both <i>E. californica </i> and<i>Eriogonum cinereum </i> for erosion control. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Encelia californica [2], [5], [7], [9], [11]</li>
+                
+                    <li>Encelia californica - Artemisia californica [1], [2], [3], [4], [6], [7], [9], [10]</li>
+                
+                    <li>Encelia californica - Artemisia californica - Salvia mellifera - Baccharis pilularis [1]</li>
+                
+                    <li>Encelia californica - Eriogonum arborescens [8]</li>
+                
+                    <li>Encelia californica - Eriogonum cinereum [2], [7]</li>
+                
+                    <li>Encelia californica - Malosma laurina - Salvia mellifera [2]</li>
+                
+                    <li>Encelia californica - Rhus integrifolia [2]</li>
+                
+                    <li>Eriogonum cinereum [2], [7]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Evens, J.;San, S. 2005</li>
+		
+		<li>[2] Keeler-Wolf, T.;Evens, J. 2006</li>
+		
+		<li>[3] Klein, A.;Evens, J. 2005</li>
+		
+		<li>[4] Kirkpatrick, J.B.;Hutchinson, C.F. 1977</li>
+		
+		<li>[5] Malanson, G.P. 1984</li>
+		
+		<li>[6] Sproul, F.;Keeler-Wolf, T.;Gordon-Reedy, P.;Dunn, J.;Klein, A.;Harper, K. 2011</li>
+		
+		<li>[7] Verdone, L.;Evens, J. 2010</li>
+		
+		<li>[8] Rodriguez, D.;Sikes, K.;Keeler-Wolf, T.;Kittel, G.;Curtis, J.;Curley, C.;Evens, J. 2017</li>
+		
+		<li>[9] AECOM, 2013</li>
+		
+		<li>[10] Klein, A.;Keeler-Wolf, T.;Sagar, T.;Valois, A. 2010</li>
+		
+		<li>[11] Reyes, E.;Johnson, D.;Glass, A. 2019</li>
+		
+		<li>Axelrod, D.I. 1978</li>
+		
+		<li>Barbour, M.G. 1994b</li>
+		
+		<li>DeSimone, S.A.;Burk, J.H. 1992</li>
+		
+		<li>Hanes, T.L. 1977</li>
+		
+		<li>Keeley, J.E.;Keeley, S.C. 1984</li>
+		
+		<li>Malanson, G.P.;O'Leary, J.F. 1982</li>
+		
+		<li>Mooney, H.A. 1977</li>
+		
+		<li>O'Leary, J.F. 1990</li>
+		
+		<li>Rundel, P.W. 2007</li>
+		
+		<li>Westman, W.E. 1981a</li>
+		
+		<li>Westman, W.E. 1981b</li>
+		
+		<li>Westman, W.E. 1981c</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/544/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

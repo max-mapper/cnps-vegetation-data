@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Prosopis glandulosa - Prosopis velutina - Prosopis pubescens</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Prosopis</i> <i>glandulosa</i> - <i>Prosopis</i> <i>velutina</i> - <i>Prosopis</i> <i>pubescens</i></span> Woodland Alliance <br/>
+        <span class="subtitle">Mesquite thickets</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Tree
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>-80-1550 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G5
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: AZ, CA, NV, NM, TX. Mexico (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2017/01/24
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/tree/prosopis-glandulosa_deathvalleynp.jpg', '/static/images/photos/tree/prosopis-glandulosa_dvnp_04-99_01.jpg', '/static/images/photos/tree/prosopis-glandulosa_mesquitelk_04-99_01.jpg', '/static/images/photos/tree/prosopis-glandulosa_mesquitelk_04-99_02.jpg', '/static/images/photos/tree/prosopis-glandulosa_palenlk_03-98_01.jpg', '/static/images/photos/tree/prosopis-glandulosa_tecopa_10-99_01.jpg', '/static/images/photos/tree/prosopis-glandulosa_yaqui-wells_02-10_01.jpg', '/static/images/photos/tree/prosopis-glandulosa_yaqui-wells_02-10_02.jpg', '/static/images/photos/tree/prosopis-glandulosa_yaqui-wells_02-10_03.jpg', '/static/images/photos/tree/prosopis-glandulosa_westofpalenlake_04-12_01.jpg', '/static/images/photos/tree/prosopis-pubescens_shoshone_10-99_01.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Prosopis</i> <i>glandulosa</i> and/or <i>Prosopis</i> <i>pubescens</i> is dominant or co-dominant in the small tree canopy with <i>Populus</i> <i>fremontii</i>, <i>Salix</i> <i>exigua</i>, <i>Salix</i> <i>lasiolepis</i> or <i>Sambucus</i> <i>nigra</i>. Shrubs may include <i>Allenrolfea</i> <i>occidentalis</i>, <i>Ambrosia</i> <i>dumosa</i>, <i>Atriplex</i> <i>canescens</i>, <i>Atriplex</i> <i>polycarpa</i>, <i>Baccharis</i> <i>emoryi</i>, <i>Baccharis</i> <i>salicifolia</i>, <i>Baccharis</i> <i>sergiloides</i>, <i>Bebbia</i> <i>juncea</i>, <i>Petalonyx</i> <i>thurberi</i>, <i>Pluchea</i> <i>sericea</i>, <i>Rhus</i> <i>ovata</i> or <i>Suaeda</i> <i>moquinii</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text"> Trees < 10 m; canopy is open to continuous. Shrub and herbaceous layers are open to intermittent. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Prosopis</i> > 3% absolute cover as the dominant (including shrub and trees together), not exceeded in cover by any other species of microphyllous tall shrub or tree (Keeler-Wolf et al. 1998b).</li>
+		
+		<li><i>Prosopis glandulosa</i> ≥ 2% absolute cover and > 50% relative cover in the tree or tall shrub canopy; other woody shrubs and cacti may occur at not more than equal cover (Thomas et al. 2004, Evens and San 2005, Klein and Evens 2005).</li>
+		
+		<li><i>Prosopis pubescens</i> ≥ 2% cover in the large shrub or small tree canopy; no other species of large shrub or small tree ≥ cover (Thomas et al. 2004).</li>
+		
+		<li><i>Prosopis</i> > 2% absolute cover as the dominant, though it may be co-dominant with <i>Salix </i> or <i>Tamarix </i>spp. in the tree or tall shrub layer; understory shrubs are variable in cover and may be high in cover (Evens et al. 2014, VegCAMP and AIS 2013).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Fringes of playa lakes, river terraces, stream banks, springs, gullies, floodplains, rarely flooded margins of arroyos and washes, sand dunes. Soils are slightly to moderately saline, with a wide range of soil textures. The USFWS Wetland Inventory (2012 national list) recognizes  <i>P. glandulosa</i> and <i>P. velutina</i> as FACU plants and <i>Prosopis pubescens</i> as a FAC plant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Mesquite series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Prosopis (glandulosa, velutina) woodland alliance, Prosopis pubescens shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Mesquite
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Mesquite bosque, Great Valley mesquite scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Creosote bush scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Desert riparian
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>61.514.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Xeromorphic Scrub and Herb Vegetation (Semi-Desert)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Warm Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Warm Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Sonoran and Chihuahuan Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Madrean Warm Semi-Desert Wash Woodland/Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Sonoran-Coloradan semi-desert wash woodland/scrub
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Prosopis pubescens </i>is a deciduous small tree or tall shrub that can attain 10 m in height. Plants have dormant buds on the root crown that sprout and produce abundant seed. Animals and water disperse seeds. Consumed seeds are scarified as they pass through an animal’s digestive tract, and weathered, cached seeds can also germinate. Seeds require some cover by soil for survival (Meyer 2005b, Vogl and McHargue 1966).<br/>
+<br/>
+<i>Prosopis glandulosa </i>var. <i>torreyana, </i>the variety found in California, is also a deciduous, thorny shrub or small tree. Plants grow in areas with access to permanent underground water; deep roots tap water supplies up to 15 m below the surface. They produce abundant seed that remain viable for > 40 years. Dispersal is by animals and water. Germination requires stratification, and seeds germinate commonly from rodent caches. In the hot deserts, conditions favoring plant establishment follow periods of intense rain, usually once every 5-10 years (Steinberg 2001b). <i>P. velutina </i> and the nonnative <i>P. strombulifera </i> also grow in the state, but they are uncommon.<br/>
+<br/>
+<i>Prosopis pubescens </i> and <i>Prosopis glandulosa </i>were treated in separate alliances in the 2009 book, <i>A Manual of California Vegetation, second edition</i>, and have since been combined (Evens et al. 2014, NatureServe 2016), while <i>P. velutina </i>occurs as a dominant outside of California. The alliance occurs in a variety of desert and semidesert settings in the southwestern U.S. and northern Mexico, where plants access permanent water. Stands appear primarily as woodlands, though shrubland stands occur away from rivers. Natural disturbance processes include frost, flooding, shifting sand, and locally occurring fires. Frost sensitivity of <i>P. glandulosa </i>limits the alliance’s distribution to below 1,100 m in California, and low, shrubby forms may result from occasional periods of cold weather at their extreme northern and higher-elevation occurrences. Fluvial processes and shifting, wind-blown sand rather than fire typically affect stands. Floods allow seedling establishment, but they also deplete stands by undercutting and erosion. Shifting sand buries clones at dune and playa margins, and it rarely augments seedling recruitment. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Prosopis glandulosa</th>
+			
+		
+			
+			<th>Prosopis pubescens</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Shrub, tree; winter deciduous</td>
+			
+		
+			
+			<td>Shrub, tree; winter deciduous</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Long (&gt; 40 years)</td>
+			
+		
+			
+			<td>Long</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; water/hydrological</td>
+			
+		
+			
+			<td>Animal; water/hydrological</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Scarification (animal, weathering)</td>
+			
+		
+			
+			<td>Scarification; none (weathering; soil cover)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Buds on small branches; buds on large branches or trunks; underground structures</td>
+			
+		
+			
+			<td>Buds on small branches; buds on large branches or trunks; underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy (?); high sprouter (?)</td>
+			
+		
+			
+			<td>Fire-hardy; high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>5-200+ years</td>
+			
+		
+			
+			<td>5-200+ years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>High (with rainfall); episodic</td>
+			
+		
+			
+			<td>Low to high (with rainfall); episodic</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Fire is not a typical disturbance process. Fires may be localized, particularly at the edge of the Peninsular Ranges adjacent to chaparral stands. Low-intensity fire can result in significant rates of sprouting by <i>Prosopis glandulosa; </i>however, high-intensity fires typically result in high plant mortality (Keeler-Wolf et al.1998b, M. Brooks, pers. comm. 2007).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast Ranges</b> (M262Ad, Ag). Stands of <i>Prosopis </i>spp. occur sporadically in the section, including along Waltham and Los Gatos Creeks near Coalinga, and other creeks near Idria.</li>
+        
+            <li><b>Colorado Desert</b> (322Ca-d). Stands of both <i>Prosopis </i>spp. scattered throughout the section represent dune, playa margin, riparian, and spring settings. Stands at Anza-Borrego Desert State Park such as at Carrizo Marsh, have experienced invasion by <i>Tamarix, </i>but the invasion is being controlled along Coyote Creek (Keeler-Wolf et al. 1998b). Stands also occur in the Coachella Valley, and along the lower Colorado River (Meyer 2005b).</li>
+        
+            <li><b>Great Valley</b> (262Av, Ay). Stands in the southern San Joaquin Valley were established 120 years ago (Holland 1987, 1988).</li>
+        
+            <li><b>Mojave Desert</b> (322Ab-p). Stands of <i>Prosopis glandulosa </i>occur throughout the section on dunes, playa margins, stream banks, and at springs (Thomas et al. 2004). They go as far north as Mesquite Flat in Death Valley National Park. Groundwater pumping has degraded the westernmost stands in Fremont Valley. The most extensive riparian stands are near Tecopa. Several playa margin stands, including at Cronese Dry Lakes, have tamarisk. Stands of <i>P. pubescens </i>are most extensive along the Amargosa River drainage, where several stands are surrounded by stands of <i>Atriplex canescens, Distichlis spicata, Sporobolus airoides, </i>and <i>Suaeda moquinii </i>alliances (Thomas et al. 2004). Otherwise they occur in various parts of Death Valley National Park (Evens et al. 2014).</li>
+        
+            <li><b>Sonoran Desert</b> (322Ba-e). Playa and dune stands of <i>Prosopis glandulosa </i>occur at Palen Dry Lake, and alkaline stands occur in Chuckwalla Valley (Evens and Hartman 2007). Stands of both <i>P. glandulosa </i> and <i>P. pubescens </i>were once extensive along the lower Colorado River, but they have been burned, cleared, or supplanted by <i>Tamarix</i> spp. (Meyer 2005b).</li>
+        
+            <li><b>Southeastern Great Basin</b> (341Fc). Some of the northernmost stands in the state are in the Saline Valley (Thomas et al. 2004). They are adjacent to alkaline springs with Phragmites australis and Juncus arcticus (var. balticus, mexicanus) alliances on the eastern scarp of the Inyo Mountains, adjacent to a marsh on the west side of Salt Lake and to springs on the valley floor with Salix exigua and Prosopis pubescens.</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Bj-k, Bo-p). Scattered springs and alluvial settings support cismontane stands of <i>P. glandulosa </i>in Riverside Co. (Klein and Evens 2005). Stands also occur on floodplains, in washes, and at springs in San Felipe Valley and in Anza-Borrego Desert State Park (Keeler-Wolf et al. 1998b, Evens and San 2005).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> <i>Prosopis </i>spp. trees extract groundwater with extensive root systems, yet they grow best where water tables are shallow such as along drainages, springs, playas, and adjacent dunes. Cutting for firewood has decimated many stands, in spite of its regulation by the Native Plant Protection Act. <i>Tamarix </i>is replacing stands along many rivers and in desert wetlands. Groundwater pumping is a serious threat in many locations and has led to the decline of numerous stands. Livestock avidly eat the plant’s sweet-tasting pods and may remove all the fruits (Becker 1982). The alliance's habitats are relatively sensitive since they have been degraded by various factors, and further monitoring is needed. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Prosopis / Bebbia juncea - Petalonyx thurberi (wash) [3]</li>
+                
+                    <li>Prosopis glandulosa / (Atriplex spp. - Suaeda moquinii) [1], [2], [3], [4], [6], [7]</li>
+                
+                    <li>Prosopis glandulosa / Pluchea sericea [2], [3], [7]</li>
+                
+                    <li>Prosopis glandulosa / Rhus ovata (upper desert spring) [3], [8]</li>
+                
+                    <li>Prosopis glandulosa - (Salix exigua - Salix lasiolepis) [2], [3], [7]</li>
+                
+                    <li>Prosopis glandulosa - Sambucus nigra [5]</li>
+                
+                    <li>Prosopis glandulosa var. torreyana [2], [4], [7], [9]</li>
+                
+                    <li>Prosopis pubescens / Baccharis sergiloides [7]</li>
+                
+                    <li>Prosopis pubescens / Pluchea sericea Alkaline Spring [3], [7]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Evens, J.M.;Hartman, S. 2007</li>
+		
+		<li>[2] Reyes, E.;Evens, J.;Fulton, J.;Sikes, K.; Johnson, D.;Keeler-Wolf, T.;Vu, S.;LaFever-Jackson, A. 2023 (in progress)</li>
+		
+		<li>[3] Keeler-Wolf, T.;Roye, C.;Lewis, K. 1998b</li>
+		
+		<li>[4] Keeler-Wolf, T.;Thomas, K. 2000</li>
+		
+		<li>[5] Klein, A.;Evens, J. 2005</li>
+		
+		<li>[6] Evens, J.M.;Roach-McIntosh, D.;Stout, D. 2012</li>
+		
+		<li>[7] Evens, J.M.;Sikes, K.;Hastings, D.;Ratchford,J.S. 2014</li>
+		
+		<li>[8] Evens, J.;San, S. 2005</li>
+		
+		<li>[9] Reyes, E.;Evens, J.;Glass, A.;Sikes, K.;Keeler-Wolf., T.;Winitsky, S.;Johnson, D.;Menke, J.;Hepburn, A. 2020a</li>
+		
+		<li>Barnes, P.W.;Archer, S. 1996</li>
+		
+		<li>Becker, R. 1982</li>
+		
+		<li>Brown, D.E. 1982f</li>
+		
+		<li>Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>Burkart, A. 1976</li>
+		
+		<li>Geesing, D.;Felker, P.;Bingham, R.L. 2000</li>
+		
+		<li>Golubov, J.;Mandujano, M.;Franco, M.;Montaña, C.;Eguiarte, L.;Lopez-Portillo, J. 1999</li>
+		
+		<li>Hilu, K.W.;Boyd, S.;Felker, P. 1982</li>
+		
+		<li>Holland, R.F. 1986</li>
+		
+		<li>MacMahon, J.A. 1988</li>
+		
+		<li>Martin, S.C. 1980b</li>
+		
+		<li>Menke, J.;Reyes, E.;Hepburn, A.;Johnson, D.;Reyes, J. 2013</li>
+		
+		<li>Meyer, R. 2005b</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Black, H.;Bleich, V.C.;Mincks, J.W. 1980</li>
+		
+		<li>Reid, M.S.;Schulz, K.A.;Cormer, P.J.;Schindel, M.H.;Culver, D.R.;Sarr, D.A.;Damm, M.C. 1999</li>
+		
+		<li>Sharf, M.R.;Nilsen, E.T.;Rundel, P.W. 1982</li>
+		
+		<li>Spolsky, A.M. 1979</li>
+		
+		<li>Steinberg, P.D. 2001b</li>
+		
+		<li>Thomas, K.;Franklin, J.;Keeler-Wolf, T.;Stine, P. 2004</li>
+		
+		<li>Uchytil, R.J. 1990g</li>
+		
+		<li>Vasek, F.C.;Barbour, M.G. 1977</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program);AIS, 2013</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/548/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

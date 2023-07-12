@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Arctostaphylos viscida</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Arctostaphylos</i> <i>viscida</i></span> Shrubland Alliance <br/>
+        <span class="subtitle">Whiteleaf manzanita chaparral</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>150-1850 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S4
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G4
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA, OR (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>Yes
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/arctostaphylos-viscida_knoxville_05-03_01.jpg', '/static/images/photos/shrub/arctostaphylos-viscida_eldoradohills_09-11_01.jpg', '/static/images/photos/shrub/arctostaphylos-viscida_eldoradohills_09-11_02.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Arctostaphylos</i> <i>viscida</i> is dominant or co-dominant in the shrub canopy with <i>Adenostoma</i> <i>fasciculatum</i>, <i>Amelanchier</i> <i>alnifolia</i>, <i>Arctostaphylos</i> <i>manzanita</i>, <i>Arctostaphylos</i> <i>mewukka</i>, <i>Arctostaphylos</i> <i>myrtifolia</i>, <i>Arctostaphylos</i> <i>patula</i>, <i>Ceanothus</i> <i>cordulatus</i>, <i>Ceanothus</i> <i>cuneatus</i>, <i>Ceanothus</i> <i>integerrimus</i>, <i>Ceanothus</i> <i>velutinus</i>, <i>Garrya</i> <i>fremontii</i>, <i>Holodiscus</i> <i>discolor</i> and <i>Quercus</i> <i>berberidifolia</i>. Emergent trees may be present at low cover, including <i>Pinus</i> <i>attenuata</i>, <i>Pinus</i> <i>ponderosa</i>, <i>Pinus</i> <i>sabiniana</i> or <i>Pseudotsuga</i> <i>menziesii</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 4 m; canopy is open to continuous. Herbaceous layer is sparse. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Arctostaphylos viscida</i> > 30% relative cover in the shrub canopy (Keeler-Wolf et al. 2003b, Klein et al. 2007).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Ridges and upper slopes that may be steep. Soils are shallow but weathered clays developed from sandstone, granitic, or ultramafic substrates.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>White leaf manzanita series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Arctostaphylos viscida shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Whiteleaf manzanita
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Gabbroic northern mixed chaparral, Mixed montane chaparral, Montane manzanita chaparral, Serpentine chaparral, Mixed serpentine chaparral, Upper Sonoran manzanita chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Mixed chaparral, Montane chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>37.305.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Mediterranean Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Mediterranean Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>California Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>California Chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Californian xeric chaparral
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Arctostaphylos viscida </i>is a long-lived, evergreen, sclerophyllous shrub that grows up to 4 m; its white glaucous leaves are ovate to elliptic. Plants lack a lignotuber. Shrubs produce abundant seed after they are 10 years old that collects in a seed bank in the duff and soil. Plants can reproduce by layering as well (Howard 1992h). <br/>
+<br/>
+In the many portions of its range, stands of <i>A. viscida </i>are transitional to montane forests or woodland types. Other stands persist for over 100 years. <i>A. viscida </i>grows under a wide range of conditions as a result of the species’s high ecological plasticity. Three subspecies are recognized in the <i>Jepson Manual </i>(ssp. <i>mariposa, </i>ssp. <i>pulchella, </i>ssp. <i>viscida</i>), and hybrids with <i>A. canescens </i>and <i>A. patula </i>are known. Ssp. <i>mariposa </i>grows in the central and southern Sierra Nevada; ssp. <i>pulchella </i>grows in the Klamath Mountains and North Coast Ranges; and ssp. <i>viscida </i>grows in the Cascades, Klamath Mountains, and Sierra Nevada. Ssp. <i>pulchella </i>regularly forms stands on serpentine Colusa, Glenn, Mendocino, Napa, and Tehama Cos. Alexander et al. (2007) recognized it as a separate alliance endemic to serpentine. However, since sampling has been minimal in the range of the species, we take a conservative view and include all forms of <i>A. viscida </i>in this alliance at this time. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Arctostaphylos viscida</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Shrub; evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Long</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Chemical; heat; scarification; stratification—winter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-sensitive; thin epidermis; high flammability; no/low sprouting; canopy architecture susceptible</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>10-100+ years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Episodic</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>High</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text"><i>Arctostaphylos viscida </i>is an obligate seeder. Seeds germinate after cold stratification in winter followed by heat scarification from fire. Seedling establishment is often high. Developing stands become dense within the first 5 years. <i>A. viscida </i>is adapted to high-intensity, long-interval fires. Open stands on ridgetops or on serpentine substrates have relatively low fire return rates. Dense montane stands have fire return rates of about 50 years (Howard 1992h).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Medium (20-70+ years)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Late summer-fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Medium to large—up to and beyond stand
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low to moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>High
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Moderate to very high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Active-independent crown fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Cascades, North Coast, and Sierra Nevada
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Klamath Mountains</b> (M261Ac, Ae-r, At-u). Stands occur throughout the section; they are most extensive in the eastern portions, commonly occurring on ultramafic substrates. Stands cover large portions of the upper Sacramento River watershed around Lake Shasta. These stands followed restoration projects in the 1940s after the copper smelters were closed in the Iron Mountain area (Sawyer 2006). Stands are also extensive around Whiskeytown Lake (Lee 2004).</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Ba, Bc-f). The species is found throughout most of the section; it forms stands in the southern portions on serpentine, mostly on south-facing slopes. In Napa Co., stands with a strong component of ssp. <i>pulchella</i> were mapped as a mixture of alliances (the <i>Quercus durata-Arctostaphylos viscida-Adenostoma fasciculata</i> xeric serpentine chaparral mapping unit) in over 1350 stands covering 10,900 ha. (Thorne et al. 2004).</li>
+        
+            <li><b>Northern California Interior Coast Ranges</b> (M261Ca-b). Stands commonly occur with other chaparral types in the eastern foothills of the Yolla Bolly Mountains both on and off serpentine. Stands are described for Frenzel Creek RNA (Keeler-Wolf 1983, see Cheng 2004).</li>
+        
+            <li><b>Sierra Nevada</b> (M261Ef-g, Ep). Stands occur adjacent to conifer forests and evergreen hardwoods, and with several chaparral types at lower elevations in the western portion of the section (Keeler-Wolf et al. 2003b). The similar-looking <i>Arctostaphylos mewukka</i> co-occurs with <i>A. viscida</i> in the central Sierra Nevada. Unlike <i>A. viscida, A. mewukka</i> has a lignotuber, suggesting a different fire regime. Inventorying and mapping of <i>A. mewukka</i> stands need to be done.</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fa-d). Stands occur adjacent to woodland types on volcanic mudflows and on gabbro in the Pine Hill area (Hunter and Horenstein 1992), on deep Miocene clays at Apricum Hill Ecological Reserve (Wood and Parker 1988), and in Big Grizzly Mountain RNA (Cheng 2004). Stands in the Pine Hill area occur with <i>Salvia sonomensis</i> (Klein et al. 2007).</li>
+        
+            <li><b>Southern Cascades</b> (M261Da, Dc, Df-g, Dj, Dl). The species and stands are common in the section at lower montane elevations. Stands are conspicuous around Shasta Valley and in the Shingletown area.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Managers have used fire to convert obligate-seeding manzanita brush fields to forests and grassland because repeated, short-interval fires deplete the seed bank. <i>Arctostaphylos viscida </i>inhibits the growth of conifer seedlings allelopathically (Tinnin and Kirkpatrick 1985). Clearing <i>A. viscida </i>shrubs increases the success of <i>Pseudotsuga menziesii </i>plantings (Amaranthus et al. 1990). Stands are long lasting, even on productive soils, but in time are invaded by conifers as the shrub canopy opens up (Buchanan et al. 1966, Minore et al. 1988). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Arctostaphylos viscida [2], [3], [4], [5], [7]</li>
+                
+                    <li>Arctostaphylos viscida - Adenostoma fasciculatum [4], [5]</li>
+                
+                    <li>(Arctostaphylos viscida - Adenostoma fasciculatum) / Salvia sonomensis [3], [8]</li>
+                
+                    <li>Arctostaphylos viscida - Ceanothus jepsonii [6]</li>
+                
+                    <li>Arctostaphylos viscida - Quercus wislizeni [3]</li>
+                
+                    <li>Arctostaphylos viscida / Salvia sonomensis - Carex (brainerdi, xerophilla) [3], [8]</li>
+                
+                    <li>Arctostaphylos viscida ssp. pulchella [1]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] CNPS (California Native Plant Society), 2005</li>
+		
+		<li>[2] Keeler-Wolf, T.;Schindel, M.;San, S.;Moore, P.;Hickson, D. 2003b</li>
+		
+		<li>[3] Klein, A.;Crawford, J.;Evens, J.;Keeler-Wolf, T.;Hickson, D. 2007</li>
+		
+		<li>[4] Lee, C. 2004</li>
+		
+		<li>[5] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>[6] Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>[7] Reyes, E.;Evens, J.;Glass, A.;Sikes, K.;Keeler-Wolf., T.;Winitsky, S.;Johnson, D.;Menke, J.;Hepburn, A. 2020a</li>
+		
+		<li>[8] Gogolo-Prokurat, M. 2014</li>
+		
+		<li>Amaranthus, M.P.;Li, C.Y.;Perry, D.A. 1990</li>
+		
+		<li>Ball, C.T.;Keeley, J.;Mooney, H.;Seeman, J.;Winner, W. 1983</li>
+		
+		<li>Barry, W.J. 1989a</li>
+		
+		<li>Barry, W.J. 1989b</li>
+		
+		<li>Buchanan, H.;Biswell, H.H.;Gibbens, R.P. 1966</li>
+		
+		<li>Detling, L.E. 1961</li>
+		
+		<li>Gottlieb, L.D. 1968</li>
+		
+		<li>Green, L.R. 1977</li>
+		
+		<li>Hanes, T.L. 1977</li>
+		
+		<li>Hanes, T.L. 1981</li>
+		
+		<li>Horton, J.S. 1960</li>
+		
+		<li>Howard, J.L. 1992h</li>
+		
+		<li>Hunter, J.C.;Horenstein, J.E. 1992</li>
+		
+		<li>Keeley, J.E.;Keeley, S.C. 1988</li>
+		
+		<li>Minore, D.;Weatherly, H.G.;Means, J.E. 1988</li>
+		
+		<li>NPS-SEKI, 2009</li>
+		
+		<li>Pase, C.P. 1982a</li>
+		
+		<li>Patric, J.H.;Hanes, T.L. 1964</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Black, H.;Bleich, V.C.;Mincks, J.W. 1980</li>
+		
+		<li>Thorne, J.H.;Kennedy, J.;Quinn, J.F.;McCoy, M.;Keeler-Wolf, T.;Menke, J. 2004</li>
+		
+		<li>Thorne, R.F. 1976</li>
+		
+		<li>Tinnin, R.O.;Kirkpatrick, L.A. 1985</li>
+		
+		<li>Waring, R.H. 1969</li>
+		
+		<li>Wilson, J. L.;Ayres, D.R.;Steinmaus, S.;Baad, M. 2009</li>
+		
+		<li>Wood, M.T.;Parker, V.T. 1988</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/133/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

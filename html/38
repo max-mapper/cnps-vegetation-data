@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Juniperus osteosperma</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Juniperus</i> <i>osteosperma</i></span> Forest &amp; Woodland Alliance <br/>
+        <span class="subtitle">Utah juniper woodland and forest</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Tree
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>1100-2100 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3.2
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G5
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: AZ, CA, CO, ID, NV, UT, WY (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/tree/juniperus-osteosperma_deathvalleynp_10-99_01.jpg', '/static/images/photos/tree/juniperus-osteosperma_granitemtns_01-98_01.jpg', '/static/images/photos/tree/juniperus-osteosperma_granitemtns_01-98_02.jpg', '/static/images/photos/tree/juniperus-osteosperma_midhills_01-98.jpg', '/static/images/photos/tree/juniperus-osteosperma_newyorkmtns_01.jpg', '/static/images/photos/tree/juniperus-osteosperma_newyorkmtns_02.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Juniperus</i> <i>osteosperma</i> is dominant in the tree or tall shrub canopy with <i>Pinus</i> <i>monophylla</i> and <i>Yucca</i> <i>brevifolia</i>. Shrubs may include <i>Ambrosia</i> <i>dumosa</i>, <i>Artemisia</i> <i>tridentata</i>, <i>Atriplex</i> <i>confertifolia</i>, <i>Coleogyne</i> <i>ramosissima</i>, <i>Cylindropuntia</i> <i>acanthocarpa</i>, <i>Ephedra</i> spp., <i>Ericameria</i> <i>linearifolia</i>, <i>Eriogonum</i> <i>fasciculatum</i>, <i>Grayia</i> <i>spinosa</i>, <i>Gutierrezia</i> <i>microcephala</i>, <i>Purshia</i> <i>tridentata</i>, <i>Salvia</i> <i>dorrii</i>, <i>Tetradymia</i> <i>axillaris</i> or <i>Yucca</i> <i>baccata</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text"> Trees < 15 m; canopy is open to continuous. Shrubs < 2 m; canopy is open to continuous. Herbaceous layer is sparse or grassy. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Juniperus osteosperma</i> > 1% absolute cover, and <i>Pinus monophylla</i> or <i>Yucca brevifolia</i> < 1% absolute cover over a shrub canopy that may have higher cover than do the trees (Thomas et al. 2004).</li>
+		
+		<li><i>Juniperus osteosperma</i> > 50% relative cover (Evens et al. 2014).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Pediments, slopes, ridges, ravines. Soils are rocky or alluvial, are commonly well drained, and may be calcareous.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Utah juniper series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Juniperus osteosperma wooded herbaceous alliance, Juniperus osteosperma wooded shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Utah juniper
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Great Basin juniper woodland and scrub, Mojavean juniper woodland and scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Pinyon-juniper woodland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Juniper, Pinyon-juniper
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>89.300.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Tree Vegetation (Forest and Woodland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Cool Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>North American Intermountain Basins Scrub Woodland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Intermountain Basins Pinyon-Juniper Woodland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Western Great Basin montane conifer woodland
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Juniperus osteosperma </i>grows to 5 m tall and may live as long as 650 years. Trees have taproots that extend 5m deep and lateral roots near the surface that extend as far as 30 m. Trees begin producing seed when they are about 30 years old, and produce a seed crop in most years. Seeds have dormant embryos and impermeable seed coats; the seeds take 2 years to ripen. Seeds are long-lived, and viability ranges from 8 to 49% (Gottfried 1992). Seeds that have passed through the digestive tract of animals germinate quickly. Animal dispersal is common, but water also disperses seeds (Arnold et al. 1964, Zlatnik 1999d). <br/>
+<br/>
+In California, the alliance usually forms a band between the lower desert scrub types and the higher <i>Artemisia tridentata </i>and pinyon-juniper woodlands. This band is extensive only in a few areas, an interface in disturbance regimes. Lightning frequency is higher at this elevation, and fuel is generally higher than at lower elevations (Zlatnik 1999d). <br/>
+<br/>
+We place stands where <i>J. osteosperma </i>and <i>Pinus monophylla </i>have similar cover in the <i>Pinus monophylla </i> alliance. The similar <i>Juniperus californica </i>alliance occupies an area west of the main distribution of the <i>J. osteosperma </i>(Griffin and Critchfield 1972). Overlap of the two juniper alliances occurs in several places in the Mojave Desert and in the southern California mountains, where identification of the two junipers is difficult. Mojave Desert plots of the two juniper alliances are strikingly similar in species composition (Thomas et al. 2004), but <i>J. californica </i>stands exist at lower elevations. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Juniperus osteosperma</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Tree; evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Medium</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; water/hydrological</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-sensitive; high flammability; no/low sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>30-200+ years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text"><i>Juniperus osteosperma </i>is not particularly adapted to fire. Even light to moderate fires kill or seriously damage individual junipers, and most individuals do not sprout after fire. Trees that survive fire act as seed sources. The rate of colonization depends on the size of the burn, tree maturity, and the presence of dispersal agents. Seedlings may establish within 1-2 years. Well-developed woodlands take from 85 to 90 years to develop, with the effects of previous fire still evident (Zlatnik 1999d).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Truncated long (100-200 years)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Summer-early fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Medium to large
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Medium
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>High
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Very high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Surface-passive crown
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Warm deserts
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Mojave Desert</b> (322Ad, Af, Ah, Aj, Al, An-p). Stands occupy narrow bands below the pinyon pine zone in many of the eastern mountains (Thomas et al. 2004). Juniper stands occur on gentle slopes or alluvium while the pine on steeper slopes (Vasek and Thorne 1977, Thorne et al. 2007). They are adjacent to <i>Nolina parryi</i> stands in the Kingston Range. Others near Cima Dome, the New York Mountains, and in the Clark Range have burned recently.</li>
+        
+            <li><b>Mono</b> (341Da-e, Dh, Dj-l). Stands occur widely in the region.</li>
+        
+            <li><b>Sierra Nevada</b> (M261En, Er). Stands occur on the eastern fringe of the Sierra adjacent to the Great Basin and the western Mojave deserts.</li>
+        
+            <li><b>Southeastern Great Basin</b> (341Fb-f). Stands are commonly adjacent to those of the <i>Artemisia tridentata</i> and <i>Pinus monophylla</i> alliances in the section (Thomas et al. 2004). They may range lower in elevation on limestone, as in the Inyo and Panamint mountains, where some form open stands with <i>Cercocarpus intricatus.</i> Fire effects in this section are unclear, although many stands do have non-native grasses present and may experience higher fire frequencies.</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Bd, Bg, Bi). Stands occur in the San Gabriel and San Bernardino mountains where they can be confused with stands of <i>Juniperus californica.</i> Griffin and Critchfield (1972) report that <i>J. osteosperma</i> grows largely above the range of <i>J. californica.</i></li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> The introduction and spread of non-native annual grasses, which has been substantial in many areas, are likely the result of past weed invasion and continued, long-term livestock grazing. The flammable thatch carries fire through more stands at higher fire return intervals, causing a reduction of the alliance. We need to map and monitor this alliance throughout its California range. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Juniperus osteosperma [1]</li>
+                
+                    <li>Juniperus osteosperma / Ambrosia dumosa [1]</li>
+                
+                    <li>Juniperus osteosperma / Artemisia tridentata ssp. tridentata [1], [2]</li>
+                
+                    <li>Juniperus osteosperma / Atriplex confertifolia - (Tetradymia axillaris) [1]</li>
+                
+                    <li>Juniperus osteosperma / Coleogyne ramosissima [1], [2]</li>
+                
+                    <li>Juniperus osteosperma / Ephedra nevadensis / Achnatherum speciosum [1]</li>
+                
+                    <li>Juniperus osteosperma / Eriogonum fasciculatum - Yucca baccata [1], [2]</li>
+                
+                    <li>Juniperus osteosperma - Yucca brevifolia / Bouteloua eriopoda [1], [2]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Keeler-Wolf, T.;Thomas, K. 2000</li>
+		
+		<li>[2] Evens, J.M.;Sikes, K.;Hastings, D.;Ratchford,J.S. 2014</li>
+		
+		<li>Arnold, J.F.;Jameson. D.A.;Reid, E.H. 1964</li>
+		
+		<li>Gottfried, G.J. 1992</li>
+		
+		<li>Meeuwig, R.O.;Bassett, R.L. 1983</li>
+		
+		<li>Reid, M.S.;Schulz, K.A.;Cormer, P.J.;Schindel, M.H.;Culver, D.R.;Sarr, D.A.;Damm, M.C. 1999</li>
+		
+		<li>Thomas, K.;Franklin, J.;Keeler-Wolf, T.;Stine, P. 2004</li>
+		
+		<li>Thorne, R.F.;Schoenherr, A.;Clements, C.D.;Young., J.A. 2007</li>
+		
+		<li>Tueller, P.T.;Beeson, C.D.;Tausch, R.J.;West, N. E.;Rea, K.H. 1979</li>
+		
+		<li>Vasek, F.C.;Thorne, R.F. 1977</li>
+		
+		<li>Zlatnik, E. 1999b</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/38/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

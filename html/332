@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Bromus rubens - Schismus (arabicus, barbatus)</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Bromus</i> <i>rubens</i> - <i>Schismus</i> (<i>arabicus</i>, <i>barbatus</i><span style="padding-left: .2em">)</span></span> Herbaceous Semi-Natural Alliance <br/>
+        <span class="subtitle">Red brome or Mediterranean grass grasslands</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Herb
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-2200 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>SNA
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>GNA
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA. Mexico (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                        <li>
+                            <span class="category">Invasive species rank</span>
+                            See remarks
+                        </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2009/09/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/herb/bromus-rubens_schismus-arabicus-barbatus_erbo_sanfelipeval_2005.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Bromus</i> <i>rubens</i>, <i>Schismus</i> <i>arabicus</i> and/or <i>Schismus</i> <i>barbatus</i> is dominant or co-dominant with other non-natives in the herbaceous layer. Emergent shrubs may be present at low cover. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Herbs < 75 cm; cover is open to continuous. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Bromus rubens</i> > 80% relative cover in the herbaceous layer (cf. Keeler-Wolf et al. 1998b, Evens and San 2005, Klein and Evens 2005).</li>
+		
+		<li><i>Schismus barbatus</i> > 80% relative cover with <i>B. rubens</i> present or lacking in the herbaceous layer (cf. Keeler-Wolf et al. 1998b).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> All topography settings and soil textures. The USFWS Wetland Inventory (1996 national list) recognizes <i>Bromus rubens</i> as an UPL plant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>California annual grassland series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Bromus (diandrus, hordeaceus, madritensis) herbaceous alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Annual grasses and forbs, Non-native/ornamental grass
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Valley and foothill grassland, Non-native grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Valley grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Annual grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>42.024.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Mediterranean Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Mediterranean Grassland and Forb Meadow
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>California Grassland and  Meadow
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>California Annual and Perennial Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Mediterranean California naturalized annual and perennial grassland
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Bromus rubens, </i>red brome, has a Cal-IPC rank of High. It is a cool-season, non-native, annual grass from Europe with plump, reddish inflorescences and awns. Freezing temperatures kill plants, and seeds germinate throughout the growing season at temperatures between 20-25º C and rainfall greater than 1 cm. Seeds are dormant when mature and lose dormancy within a few months. Plants are shade intolerant. At high densities, they produce less biomass and set seed or die. The fastest growth occurs as plants mature and set seed and die. <i>B. rubens </i>requires about half as much rain to stimulate seed germination as do native winter annuals (Newman 2001, Simonin 2001b). <i>B. rubens </i>grows across California at low elevations, but exhibits strongest dominance in warm deserts and semi-deserts of the state. It is often treated as a subspecies of <i>B. madritensis </i>(Hickman 1993), which is less invasive. <br/>
+<br/>
+<i>Schismus barbatus, </i>common Mediterranean grass, has a Cal-IPC rank of Limited. It is a tufted, cool-season, annual grass from southern Europe and Africa with narrow, greenish-purple inflorescences. The stems are erect or lie on the ground. Plants grow in sandy soils, on sandy flats, arroyos, washes, bases of larger dunes, and as agricultural and urban weeds. As with <i>B. rubens, S. barbatus </i>has become an important component of the winter and early spring annual flora, and they both prevent native ephemerals from sprouting (DiTomaso and Healy 2007). <br/>
+<br/>
+<i>Schismus arabicus, </i>Arabian schismus, has a Cal-IPC rank of Limited. It is a tufted, cool-season, annual grass from Eurasia. It is similar to <i>S. barbatus </i>ecologically, but it grows in more arid areas within the range of <i>S. barbatus. </i>Both <i>Schismus </i>species range from the San Joaquin Valley east to the Sonoran Desert, though they strongly dominate, as does <i>B. rubens, </i>in the warm deserts (Brooks 2002a, 2002b, Brooks and Pyke 2001, Brown and Minnich 1986). <br/>
+<br/>
+Stands of <i>Bromus rubens </i>and/or <i>Schismus </i>spp. appear abundantly in southern California from the Carrizo Plain National Monument and central San Joaquin Valley south and east to the Mojave and Colorado deserts. Stands also occur further east into Arizona and Nevada, occurring in stands together or separately (Abella et al. 2015, E. Peterson, pers. comm. 2008). <br/>
+<br/>
+The abundance of these species in this and the <i>Bromus </i>(<i>diandrus, hordeaceus</i>)-<i>Brachypodium distachyon </i>type may be both precipitation and temperature driven. Janes (1969) found that the dominance of non-native grasses was based on rainfall totals: <i>B. rubens </i>at < 20 cm, <i>B. diandrus </i>and <i>B. hordeaceus </i>together at 20-80 cm, and <i>B. hordeaceus </i>at > 80 cm. <i>B. rubens </i>and <i>Schismus </i>spp. occur in areas where the other bromes do not grow. They invade native desert and semi-desert stands, and convert them to seminatural grasslands with frequent fire. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Bromus rubens</th>
+			
+		
+			
+			<th>Schismus arabicus</th>
+			
+		
+			
+			<th>Schismus barbatus</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Annual; herb</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Transient; Soil-stored</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Gravity</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Stratification - Winter</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-sensitive; High flammability</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>High</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text"><i>Bromus rubens </i>and <i>Schismus </i>spp. shorten fire return intervals in warmer and drier portions of the state by producing abundant and continuous cover of long-lasting fine fuels. They also promote fires that are hot and fast, in areas where fires previously were infrequent due to insufficient fuels. Fires may return every 10 years, when previously they were at > 35 to > 100 year cycles, and these short-return fires continue to promote establishment of grasses such as <i>B. rubens </i>(Simonin 2001b, Abella et al. 2015). Annual herbaceous vegetation in similar areas is less susceptible to these types of fires.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+            <p>The range of <i>Bromus rubens</i> is across California at lower elevations; the range of <i>Schismus</i> spp. is central and southern California.</p>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Aa-l). No description available</li>
+        
+            <li><b>Central California Coast Ranges</b> (M262Aa-k). Stands from Monocline Ridge to Carrizo Plain National Monument in the eastern subsections have <i>B. rubens </i>and/or <i>Schismus arabicus </i>co-dominant with <i>Erodium cicutarium </i>or <i>Vulpia myuros </i>and with low cover of <i>Amsinckia menziesii, Astragalus </i>spp., <i>Calandrinia ciliata, Croton setigerus, Hemizonia </i>spp., <i>Lasthenia</i> spp.,<i> Lepidium</i> spp., <i>Lotus </i>spp., <i>Monolopia congdonii, Pectocarya penicillata, </i>and <i>Salvia columbariae </i>(CNPS 2005).</li>
+        
+            <li><b>Colorado Desert</b> (322C). Stands of <i>B. rubens </i>were large enough to map across Anza-Borrego Desert State Park and occur where grazing or other disturbances have taken place; stands of <i>Schismus barbatus </i>occur at Blair and Earthquake valley playas, often mixed with <i>B. rubens </i>and the native <i>Hoffmannseggia glauca </i>(Keeler-Wolf et al. 1998b).</li>
+        
+            <li><b>Great Valley</b> (262Aa-z). Stands in the San Joaquin Valley include <i>B. rubens </i>and <i>Schismus arabicus </i>dominance with other non-natives; a variety of natives occur at low cover (CNPS 2005).</li>
+        
+            <li><b>Klamath Mountains</b> (M261Aa-f, Ah-n, Ap-r, Au). No description available</li>
+        
+            <li><b>Modoc Plateau</b> (M261Ga-p). No description available</li>
+        
+            <li><b>Mojave Desert</b> (322A). Stands of both <i>B. rubens </i>and <i>Schismus </i>spp. occur with a variety of natives, depending on yearly rainfall and temperature. However, stands have not been well sampled.</li>
+        
+            <li><b>Northern California Coast</b> (263Aa-m). No description available</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Ba-f). No description available</li>
+        
+            <li><b>Northern California Interior Coast Ranges</b> (M261Ca-c). No description available</li>
+        
+            <li><b>Northwestern Basin and Range</b> (342Ba-e). No description available</li>
+        
+            <li><b>Sierra Nevada</b> (M261Ea-n, Ep-u). No description available</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fa-e). No description available</li>
+        
+            <li><b>Sonoran Desert</b> (322Ba-e). No description available</li>
+        
+            <li><b>Southeastern Great Basin</b> (341Fb). No description available</li>
+        
+            <li><b>Southern California Coast</b> (261Ba-j). No description available</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Ba-p). Stands of <i>B. rubens </i>in western Riverside and central San Diego Cos. (Evens and San 2005, Klein and Evens 2005) contain <i>Brassica tournefortii, Cryptantha intermedia, Camissonia </i>spp., <i>Cucurbita palmata, Datura wrightii, Croton setigerus, Erodium </i>spp., <i>Corethrogyne filaginifolia, Lupinus bicolor, L. concinnus, Phacelia minor, </i>and <i>S. barbatus</i>.</li>
+        
+            <li><b>Southern Cascades</b> (M261Da-m). No description available</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> <i>Bromus rubens </i>and <i>Schismus </i>spp. can create carpets, produce abundant seed early in the growing season, and compete with native plants. Fire and livestock grazing promote their dominance, and provide a feedback loop. Herbicides, such as glyphosate, can be effective but difficult to apply (Brooks 2000a). Relatively dry winters and wet summers may slow <i>B. rubens </i>invasion (Betancourt 1996). However, stands can have conservation value as habitat for wildlife and for native plants, which may be rare or regionally distributed. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Bromus rubens [2], [4], [5], [8], [9]</li>
+                
+                    <li>Bromus rubens - Erodium cicutarium - Chaenactis spp. [6]</li>
+                
+                    <li>Bromus rubens - mixed herbs [1], [3], [7], [13]</li>
+                
+                    <li>Schismus (arabicus, barbatus) [5], [8], [9]</li>
+                
+                    <li>Schismus playa [2]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Evens, J.;San, S. 2005</li>
+		
+		<li>[2] Keeler-Wolf, T.;Roye, C.;Lewis, K. 1998b</li>
+		
+		<li>[3] Klein, A.;Evens, J. 2005</li>
+		
+		<li>[4] Sproul, F.;Keeler-Wolf, T.;Gordon-Reedy, P.;Dunn, J.;Klein, A.;Harper, K. 2011</li>
+		
+		<li>[5] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>[6] Evens, J.M.;Sikes, K.;Hastings, D.;Ratchford,J.S. 2014</li>
+		
+		<li>[7] Verdone, L.;Evens, J. 2010</li>
+		
+		<li>[8] Buck-Diaz, J.;Harbert, B.;Evens, J. 2011</li>
+		
+		<li>[9] Buck-Diaz, J.;Ratchford, J.;Evens, J. 2013</li>
+		
+		<li>[13] Rodriguez, D. 2015</li>
+		
+		<li>Abella, S.R.;Fisichelli, N.A.;Schmid, S.M.;Embrey, T.M.;Hughson, D.L.;Cipra, J. 2015</li>
+		
+		<li>Brooks, M. 2000a</li>
+		
+		<li>Brooks, M. 2000b</li>
+		
+		<li>Brooks, M.L.;Pyke, D. 2001</li>
+		
+		<li>Brown, D.E.;Minnich, R.A. 1986</li>
+		
+		<li>DiTomaso, J.M.;Healy, E.A. 2007</li>
+		
+		<li>Keeler-Wolf, T.;Evens, J.M.;Solomeshch, A.I.;Holland, V.L.;Barbour, M.G. 2007</li>
+		
+		<li>Newman, D. 1991</li>
+		
+		<li>Simonin, K.A. 2001b</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/332/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

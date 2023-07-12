@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Mesembryanthemum spp. - Carpobrotus spp.</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Mesembryanthemum</i> spp. - <i>Carpobrotus</i> spp.</span> Herbaceous Semi-Natural Alliance <br/>
+        <span class="subtitle">Ice plant mats</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Herb
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-100 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>SNA
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>GNA
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                        <li>
+                            <span class="category">Invasive species rank</span>
+                            Cal IPC High
+                        </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/herb/carpobrotus-edulis-iceplant_bigsur_07-09.jpg', '/static/images/photos/herb/carpobrotus-edulis-iceplant_hwy1_07-10_01.jpg', '/static/images/photos/herb/carpobrotus-edulis_%20or_other_ice_plants_santarosaisland_04-2013.jpg', '/static/images/photos/herb/mesembryanthemum_carpobrotus_halfmoonbaystbeach_03-2019_smat0008.jpg', '/static/images/photos/herb/mesembryanthemum-carpobrotus_ano-nuevo-san-mteo_04-2021.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Carpobrotus</i> <i>chilensis</i>, <i>Carpobrotus</i> <i>edulis</i>, <i>Mesembryanthemum</i> <i>crystallinum</i> or other ice plant taxa are dominant in the herbaceous layer. Emergent trees and shrubs may be present at low cover. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Herbs < 50 cm; cover is intermittent to continuous. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Carpobrotus edulis, Mesembryanthemum crystallinum, </i>or other ice plant strongly dominant (> 80% relative cover) close to the coast (cf. Keeler-Wolf et al. 2003a, Evens and San 2005, HDR 2014b, Rodriguez et al. 2017, Verdone and Evens 2010).</li>
+		
+		<li><i>Carpobrotus</i> and/or <i>Mesembryanthemum</i> > 50% relative cover on bluffs, dunes, or disturbed lands (Buck-Diaz et al. 2021, Sikes et al. 2021).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Bluffs, disturbed land, sand dunes of immediate coastline.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Ice plant series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Mesembryanthemum spp.-Carpobrotus spp. semi-natural herbaceous alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Dunes, Non-native/invasive forb, Coastal bluff scrub, Coastal lupine
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Northern foredunes, Southern foredunes, Southern coastal bluff scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Coastal strand
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Coastal scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>21.200.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate and Boreal Shrubland and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate and Boreal Scrub and Herb Coastal Vegetation
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Pacific Coast Scrub and Herb Littoral Vegetation
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Vancouverian Coastal Dune and Bluff
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>California-Vancouverian semi-natural littoral scrub and herb vegetation
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> At least eight invasive ice plant taxa grow in California: <i>Aptenia cordifolia, Carpobrotus edulis, C. chilensis, Conicosia pugioniformis, Drosanthemum floribundum, Malephora crocea, Mesembryanthemum crystallinum, </i>and <i>M. nodiflorum </i>(Bossard et al. 2000, DiTomaso and Healy 2007). Ice plants spread beyond landscaped areas and invade dune mat, dune scrub, coastal bluff scrub, and coastal prairies (Albert 2000). All compete with native plants for moisture, nutrients, and space, and they create adverse conditions for establishment of natives. This alliance was cited as <i>Carpobrotus edulis </i> or Other Ice Plants Semi-natural Herbaceous Stands in the 2009 book, <i>A Manual of California Vegetation, second edition</i>.<br/>
+<br/>
+<i>Carpobrotus edulis </i>is a ground-hugging succulent perennial that forms impenetrable mats covering large areas; its flowers are yellow to pink. Shoot segments can continue to grow if they are isolated from the parent plant and plants create abundant seed. This ice plant has been widely planted for soil stabilization and landscaping. The success of <i>C. edulis </i>is due particularly to its tolerance of a wide range of soil moisture and nutrient conditions, and to its dispersal by mammals (D’Antonio 1993). This species is often confused with <i>C. chilensis, </i>a smaller, less aggressive ice plant with magenta flowers. The two species hybridize, and the hybrids are invasive as well. <br/>
+<br/>
+<i>Aptenia cordifolia </i>grows in disturbed places and on margins of coastal wetlands (Kitz 2000a). <i>Conicosia pugioniformis, </i>a short-lived succulent, has narrow leaves and does not form clonal mats. It is most abundant in open patches on dunes and in recently disturbed areas (Albert and D’Antonio 2000). The uncommon <i>Drosanthemum floribundum </i>is a mat-forming subshrub; <i>Malephora crocea </i>is a prostrate subshrub with linear leaves, common in coastal southern California (DiTomaso and Healy 2007). <i>Mesembryanthemum crystallinum </i>and <i>M. nodiflorum </i>invade coastal bluffs and interior alkaline wetlands in southern California (Randall 2000). </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Carpobrotus chilensis</th>
+			
+		
+			
+			<th>Carpobrotus edulis</th>
+			
+		
+			
+			<th>Mesembryanthemum crystallinum</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Perennial; herb; clonal</td>
+			
+		
+			
+			<td>Perennial; herb; clonal</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Canopy stored</td>
+			
+		
+			
+			<td>Canopy stored</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Medium</td>
+			
+		
+			
+			<td>Medium</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal</td>
+			
+		
+			
+			<td>Animal</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Scarification (germinates best when scarified in an animal&#39;s gut)</td>
+			
+		
+			
+			<td>Scarification (germinates best when scarified in an animal&#39;s gut)</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Underground structures</td>
+			
+		
+			
+			<td>Underground structures</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; low flammability</td>
+			
+		
+			
+			<td>Fire-hardy; low flammability</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>High?</td>
+			
+		
+			
+			<td>High?</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Processes other than fire primarily disturb stands. They include salt spray, yearly variation in moisture, wind-blown sand accretion, and sand/bluff erosion.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Aa-l). <i>Carpobrotus </i>and <i>Mesembryanthemum </i>species are common on coastal dune systems and along bluffs throughout the section. They also occur along levees and dikes of the high marsh zone in the San Francisco Bay estuaries (Baye 2000, Baye et al. 2000), and along roadways in the outer coastal areas.</li>
+        
+            <li><b>Great Valley</b> (262Aa-h, Aj-z). Stands occur in Suisun Marsh (Keeler-Wolf and Vaghti 2000) and in other areas of the Sacramento-San Joaquin River delta.</li>
+        
+            <li><b>Northern California Coast</b> (263Aa-m). Stands are common along dunes, bluffs, and similar exposed settings in the section. Removal of both <i>Carpobrotus </i>species to restore stands of the <i>Abronia latifolia-Ambrosia chamissonis </i>alliance has occurred for over two decades at the Eureka Dunes Protected Area, the Lanphere Dunes and the Ma-le’l Dunes, the Manila Dunes, and the BLM’s Samoa Dunes Recreation Area on the north spit of Humboldt Bay in Humboldt Co. Stands along Point Reyes National Seashore also contain both <i>Carpobrotus </i>species. They tend to replace dune mat plants of the <i>Abronia latifolia-Ambrosia chamissonis </i>and <i>Lupinus chamissonis-Ericameria ericoides</i> alliances. Park-funded ice plant removal projects are underway to remove large stands, primarily of <i>C. edulis </i>at several state beaches.</li>
+        
+            <li><b>Southern California Coast</b> (261Ba-j). Stands of <i>Carpobrotus edulis, Malephora crocea</i>,  and <i>Mesembryanthemum </i>spp. are common on coastal dune systems and along bluffs. Extensive plantings along roads invade and impact coastal scrub types. On coastal bluffs and terraces of San Diego Co., <i>C. chilensis </i>and other ice plants particularly invade <i>Artemisia californica </i>stands at urban-wildland interfaces (Evens and San 2005). At Vandenberg Air Force Base, <i>C. edulis </i>has invaded coastal grasslands, backdunes, and particularly coastal scrub (D’Antonio 1993, Underwood et al. 2002). In the northern Channel Islands, <i>M. crystallinum </i>competes with native coastal bluff and grassland stands (Johnson and Rodriguez 2001, Vivrette 1973). Johnson and Rodriguez (2001) sampled several stands dominated by <i>Malephora crocea.</i></li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Ba-p). <i>Mesembryanthemum nodiflorum </i>invades alkaline areas such as the San Jacinto River Valley in western Riverside Co. (Klein and Evens 2005), where it competes with natives such as <i>Atriplex coronata </i>var. <i>notatior </i>(a CNPS list 1B.1 plant).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> CalFire has recommended <i>Carpobrotus edulis </i>and other ice plant taxa as fire-resistant landscaping plants, because fire little affects plants due to their succulent habit. However, ice plants change coastal habitats in numerous ways, including alteration of soil chemistry and dune system geomorphology. In particular, salt buildup from ice plant leaves in soils effectively excludes native species from colonizing bare areas (Vivrette and Muller 1977). D’Antonio (1993) and Pickart and Sawyer (1998) reviewed methods of ice plant removal on coastal dunes, including suppression of growth and use of tractor-tread bobcats. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Carpobrotus (edulis) [1], [2], [3], [5], [7], [8]</li>
+                
+                    <li>Carpobrotus spp. - Mesembryanthemum crystallinum [4], [6]</li>
+                
+                    <li>Mesembryanthemum crystallinum - Malva parviflora - Hordeum murinum [4], [6]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] HDR, 2014b</li>
+		
+		<li>[2] Keeler-Wolf, T.;Evens, J. 2006</li>
+		
+		<li>[3] Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>[4] Rodriguez, D.;Sikes, K.;Keeler-Wolf, T.;Kittel, G.;Curtis, J.;Curley, C.;Evens, J. 2017</li>
+		
+		<li>[5] Verdone, L.;Evens, J. 2010</li>
+		
+		<li>[6] Rodriguez, D. 2015</li>
+		
+		<li>[7] Sikes, K.;Buck-Diaz, J.;Evens, J. 2021</li>
+		
+		<li>[8] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>Albert, A.;D’Antonio, C. 2000</li>
+		
+		<li>Albert, M. 2000</li>
+		
+		<li>Bossard, C.C.;Randall, J.M.;Hoshovsky, M.C. 2000</li>
+		
+		<li>Buck-Diaz, J.;Evens, J.M. 2015</li>
+		
+		<li>D'Antonio, C.M. 1993</li>
+		
+		<li>DiTomaso, J.M.;Healy, E.A. 2007</li>
+		
+		<li>Evens, J.;San, S. 2005</li>
+		
+		<li>Junak, S.;Knapp, D.A.;Haller, J.R.;Philbrick, R.;Schoenherr, A.;Keeler-Wolf, T. 2007</li>
+		
+		<li>Keeler-Wolf, T .;Schirokauer, D.;Meinke, J.;van derLeeden, P. 2003a</li>
+		
+		<li>Kitz, J. 2000a</li>
+		
+		<li>Pickart, A.J.;Sawyer, J.O. 1998</li>
+		
+		<li>Randall, J.J. 2000</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/367/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

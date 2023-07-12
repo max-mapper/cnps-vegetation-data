@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Gutierrezia sarothrae - Gutierrezia microcephala</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Gutierrezia</i> <i>sarothrae</i> - <i>Gutierrezia</i> <i>microcephala</i></span> Shrubland Alliance <br/>
+        <span class="subtitle">Snakeweed scrub</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>800-2200 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G3
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: AZ, CA, TX, UT (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2009/09/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/gutierrezia-sarothrae_nymtns_09-09_01.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Gutierrezia</i> <i>microcephala</i> and/or <i>Gutierrezia</i> <i>sarothrae</i> is dominant in the shrub canopy with <i>Atriplex</i> spp., <i>Cylindropuntia</i> <i>acanthocarpa</i>, <i>Ephedra</i> <i>nevadensis</i>, <i>Eriogonum</i> <i>fasciculatum</i>, <i>Eriogonum</i> <i>wrightii</i>, <i>Krascheninnikovia</i> <i>lanata</i>, <i>Larrea</i> <i>tridentata</i>, <i>Opuntia</i> <i>polyacantha</i> var. <i>erinacea</i>, <i>Prunus</i> <i>fasciculata</i>, <i>Sphaeralcea</i> <i>ambigua</i>, <i>Stephanomeria</i> <i>pauciflora</i> and <i>Yucca</i> <i>schidigera</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 1.5 m; canopy is open to intermittent. Herbaceous layer is absent to intermittent. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Gutierrezia sarothrae</i> or <i>G. microcephala</i> > 50% relative cover and clearly dominant (Evens et al. 2014).</li>
+		
+		<li><i>Gutierrezia sarothrae</i>  > 50% relative cover with sometimes higher cover of herbs (Evens and San 2005).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Hill, ridges, valleys, cliffs, plateaus, moderate to somewhat steep slopes, and draws in desert or desert-transition vegetation. Soils are typically loams often well drained.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Gutierrezia sarothrae dwarf-shrubland alliance, Pleuraphis rigida / Gutierrezia sarothrae shrub herbaceous alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Desert mixed scrub, High desert mixed scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Mojave mixed woody scrub, Mojave mixed steppe, Great Basin mixed scrub, Upper Sonoran subshrub scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Creosote bush scrub, Pinyon-juniper woodland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Desert scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>32.043.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Xeromorphic Scrub and Herb Vegetation (Semi-Desert)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Cool Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Cool Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North American Cool Semi-Desert Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Cool Semi-desert wash and disturbance scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Intermontane seral shrubland
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Gutierrezia sarothrae </i>and <i>G. microcephala </i>are low shrubs with thread-like, leaves that are facultatively drought- and winter-deciduous. Plants are summer to fall blooming and produce abundant seed crops. Seeds fall near parent plants where they form a seed bank. They need cold stratification or after-ripening and will germinate under warm, moist conditions. Plants develop deep taproots that can colonize areas with limited water or under drought conditions, and populations sizes may vary with drought cycles. Plants are also toxic to ungulates, though the seeds of <i>Gutierrezia </i>spp. are readily eaten by a wide variety of small birds and mammals (Bonneau 2000, Tirmenstein 1999f, Carey 1995d). <br/>
+<br/>
+Stands of <i>Gutierrezia sarothrae </i> and <i>G. microcephala </i>occur on moderately sloping hillsides, particularly south-facing slopes, and plateaus with undulating topography. Disturbances, including clearing, fire, grazing, or intermittent flooding, create conditions for seed establishment of these snakeweeds. Stands appear as early seral types, which may transition to longer-lived shrub and herb alliances after recovery from disturbance or drought.<br/>
+<br/>
+This alliance was cited as <i>Gutierrezia sarothrae</i> Provisional Shrubland Alliance in the 2009 book, <i>A Manual of California Vegetation, second edition</i>. It has been expanded to include either <i>G. microcephala </i>or <i>G. sarothrae </i>as the dominant shrub. When other shrubs are present, including in washes, other disturbance settings, and steep rocky slopes, key to those alliances first (e.g., <i>Ericameria teretifolia, Eriogonum fasciculatum - Viguiera parishii, Prunus fasciculata - Salazaria mexicana, Eriogonum wrightii - Eriogonum heermannii - Buddleja utahensis, Ephedra viridis </i>,or other alliances). </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Gutierrezia microcephala</th>
+			
+		
+			
+			<th>Gutierrezia sarothrae</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Polycarpic perennial; Shrub; Drought-deciduous</td>
+			
+		
+			
+			<td>Polycarpic perennial; Shrub; Winter deciduous</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Medium</td>
+			
+		
+			
+			<td>Medium</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Wind</td>
+			
+		
+			
+			<td>Wind</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>After-ripening</td>
+			
+		
+			
+			<td>After-ripening</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>None (to weak)</td>
+			
+		
+			
+			<td>None (or weak sprouting)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-sensitive</td>
+			
+		
+			
+			<td>Fire-sensitive</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>(2)5 to 20 years (short-lived)</td>
+			
+		
+			
+			<td>(1)2-20 years (short-lived)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Low to moderate</td>
+			
+		
+			
+			<td>High</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">This early seral type replaces other long-persisent types following fire or other disturbances, including <i>Artemisia tridentata,  Coleogyne ramosissima, Juniperus osteosperma, Larrea tridentata, Pinus monophylla, Yucca schidigera, Yucca brevifolia </i>Alliances, and other desert plant communities. Wind-dispersed seeds of <i>Gutierrezia </i>spp. from adjacent unburned areas can colonize burned sites, and soil-stored seeds also germinate. Post-fire, this alliance typically follows annual grasses, forbs, and short-lived perennials in one to two decades, though it may take only five years for this alliance to gain dominance in some sites including moister settings. Then it can take 40 or more years for other longer-lived types to rebound.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Medium
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Summer-early fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Medium
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>High
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Moderate to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Very high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Surface to passive crown fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Unknown
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+            <p><i>Gutierrezia </i>species occur in a broader range than is currently cited for the alliance. More sampling and comparison with other early- to late-seral types are needed to determine the alliance's full variation and extent.</p>
+        
+
+        <ul class="text">
+        
+            <li><b>Mojave Desert</b> (322Af-g, Aj-l, An). Stands have been sampled in the Clark and New York Mountains of the Mojave National Preserve and in the Panamint Range of Death Valley National Park (Evens et al. 2014). The alliance has been mapped occasionally in western subsections of the Mojave Desert (VegCAMP and AIS 2013).</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Bn-o). Stands in the foothills west of and on Volcan Mountain in the Palomar-Cuyamaca Peak areas of San Diego Co. had an understory of <i>Avena barbata, Bromus hordeaceus, Erodium</i> spp., and <i>Nassella pulchra</i> (Moran 2004b, Evens and San 2005). More sampling is needed to understand the full extent of this alliance in the section.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> A long history of settlement and livestock grazing has impacted the native vegetation in the desert regions where this alliance occurs. Stands of this alliance typically occur in recently disturbed sites such as burned areas, steep cliffs with colluvial rockfall, minor drainages with intermittent flooding, and heavily grazed or recently cleared areas. A variety of graminoids and forbs often occur in these stands, including <i>Achnatherum speciosum, Aristida purpurea, Bromus rubens, Bromus tectorum, Elymus elymoides, Pleuraphis jamesii, Pleuraphis rigida,</i>and <i>Sphaeralcea ambigua</i>. The shrubs of this alliance are opportunistic sub-shrubs and will transition over time to other alliances. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Gutierrezia (microcephala, sarothrae) [1]</li>
+                
+                    <li>Gutierrezia sarothrae - Erodium spp. - Nassella pulchra [2]</li>
+                
+                    <li>Gutierrezia sarothrae / Pleuraphis rigida - Sphaeralcea ambigua [1]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Evens, J.M.;Sikes, K.;Hastings, D.;Ratchford,J.S. 2014</li>
+		
+		<li>[2] Evens, J.;San, S. 2005</li>
+		
+		<li>Bonneau, A. 2000</li>
+		
+		<li>Carey, J.H. 1995e</li>
+		
+		<li>James, L.F.;Ralphs, M.H.;Nielsen, D.B. 1988</li>
+		
+		<li>McDaniel, K.C.;Hart, C.R.;Carroll, D.B. 1997</li>
+		
+		<li>Menke, J.;Reyes, E.;Hepburn, A.;Johnson, D.;Reyes, J. 2013</li>
+		
+		<li>NatureServe, 2007</li>
+		
+		<li>Tirmenstein, D. 1999f</li>
+		
+		<li>VegCAMP (CDFW Vegetation Classification and Mapping Program);AIS, 2013</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/212/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Aristida purpurea - Elymus elymoides - Poa secunda</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Aristida</i> <i>purpurea</i> - <i>Elymus</i> <i>elymoides</i> - <i>Poa</i> <i>secunda</i></span> Herbaceous Alliance <br/>
+        <span class="subtitle">Purple three-awn - squirreltail - curly blue grass patches</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Herb
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-3800 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S4?
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G4
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: AZ, CA, CO, ID, NM, NV, OR, UT, WA, WY (USDA Plants)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2019/03/18
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/herb/aristida-purpurea_sfvwla_dscn1359_02-05.jpg', '/static/images/photos/herb/poa-secunda_carrizoplain_04-10.jpg', '/static/images/photos/herb/poa-secunda_carrizoplain_04-10_01.jpg', '/static/images/photos/herb/poa-secunda_carrizoplain_04-10_02.jpg', '/static/images/photos/herb/poa-secunda_carrizoplain_04-10_03.jpg', '/static/images/photos/herb/poa-secunda_carrizoplain_04-10_04.jpg', '/static/images/photos/herb/poa-secunda_carrizoplain_04-10_05.jpg', '/static/images/photos/herb/poa-secunda_carrizoplain_04-10_06.jpg', '/static/images/photos/herb/poa-secunda_cascades.jpg', '/static/images/photos/herb/poa-secunda_tejonranch_01-10_01.jpg', '/static/images/photos/herb/poa-secunda_tejonranch_01-10_02.jpg', '/static/images/photos/herb/elymus-multisetus_pattonmills_12-91_01.jpg', '/static/images/photos/herb/elymus-multisetus_pattonmills_1991.jpg', '/static/images/photos/herb/poa-secunda_shastanf-wofmteddy_07-13.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Aristida</i> <i>purpurea</i>, <i>Elymus</i> <i>elymoides</i>, <i>Elymus</i> <i>multisetus</i> and/or <i>Poa</i> <i>secunda</i> is dominant or co-dominant in the herbaceous layer with <i>Amsinckia</i> spp., <i>Bromus</i> <i>diandrus</i>, <i>Bromus</i> <i>rubens</i>, <i>Bromus</i> <i>tectorum</i>, <i>Clarkia</i> <i>cylindrica</i>, <i>Cryptantha</i> spp., <i>Eriogonum</i> spp., <i>Erodium</i> <i>cicutarium</i>, <i>Eschscholzia</i> <i>californica</i>, <i>Lolium</i> <i>perenne</i>, <i>Nassella</i> <i>pulchra</i>, <i>Plantago</i> <i>erecta</i> or <i>Vulpia</i> spp. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Herbs < 1 m; cover is open to intermittent. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Poa secunda</i> > 50% relative cover in the herb layer (Hickson et al. 2007).</li>
+		
+		<li><i>Poa secunda</i> and/or <i>Elymus elymoides</i> is dominant or co-dominant with <i>Bromus rubens</i> or <i>Bromus tectorum</i>on clayey flats or on north-facing hillslopes along with <i>Allium</i> spp., <i>Claytonia parviflora, Bromus diandrus, Erodium cicutarium, Dichelostemma capitata, Trifolium willdenovii</i>, and/or other herbs (Buck-Diaz and Evens 2011b, Buck-Diaz et al. 2013).</li>
+		
+		<li>Native perennial grasses such as <i>Poa secunda</i>, <i>Elymus elymoides</i>, or <i>Elymus multisetus</i> are diagnostic and evenly distributed although may be co-dominant with non-native annuals (Reyes et al. 2020a).</li>
+		
+		<li>Vegetation dominated by a mixture of native perennial grasses and annuals, with the native grass component mainly <i>Aristida purpurea </i>at > 10% relative cover (Evens and San 2005).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Valley bottoms with clayey alluvium, lower portions of alluvial slopes, and all uplands locations. Rocky or sandy. Soils are clay or sandy loam. The USFWS Wetland Inventory (1996 national lists) recognizes <i>Poa secunda</i> as a FACU plant and recognizes <i>Elymus elymoides</i> as a FACU, UPL plant. The USFWS Wetland Inventory (2012 national lists) recognizes both as FACU plants. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>One-sided bluegrass series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Aristida purpurea herbaceous alliance, Poa secunda herbaceous alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Perennial grasses and forbs
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Native grassland, Serpentine bunchgrass, Pine bluegrass grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Sagebrush scrub, Valley grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Perennial grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>41.660.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate and Boreal Shrubland and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate Grassland, Meadow, and Shrubland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Vancouverian and Rocky Mountain Grassland and Shrubland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Western North American Temperate Grassland and Meadow
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Western dry upland perennial grassland
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Aristida purpurea </i>is a warm-season, perennial bunchgrass of the western United States. Roots are moderately deep to 1 m, and plants tolerate droughts lasting a few years. Seeds usually germinate in the spring at high temperatures. Flowering spikelets shatter with seed and lemma falling near the parent plant, or animals disperse them with the help of the awns. Seed crops are plentiful in years with summer and fall rainfall. Plants are common on disturbed sites, such as abandoned fields and roadsides (Howard 1997a) as well as moderately grazed sites. This highly variable species has six varieties in California (Hickman 1993).<br/>
+<br/>
+<i>Elymus multisetus </i>is a cool-season, short-lived bunchgrass with culms to 45 cm. Its distinctive spikelets have condensed florets with long, widely spreading awns. Plants produce large numbers of seed that wind disperses over short distances. Under suitable moisture conditions seeds can germinate at a wide range of temperatures. Plants do not produce tillers. Older botanical references use the name <i>Sitanion jubatum </i>(Simonin 2001c). <br/>
+<br/>
+<i>Elymus multisetus </i>closely resembles <i>Elymus elymoides </i>and the two species are found in similar settings and often confused in the field.  Therefore this alliance has been updated since the publication of the 2009 book, <i>A Manual of California Vegetation, second edition</i>, to include <i>E. elymoides</i>. <i>Elymus multisetus </i> and <i>E. elymoides </i>grow throughout the state under a wide range of ecological and topographical conditions. <br/>
+<br/>
+<i>Poa secunda </i>is a native, cool-season, perennial bunchgrass that is shallowly rooted. It regenerates by tillers, by seed, and by facultatively apomictic seed. It is not shade tolerant. It produces little litter, and its small size along with its sparse litter reduces the amount of heat transferred to perennating buds in the soil (Howard 1997b).  The species occurs throughout California, but vegetation descriptions are primarily available for transmontane California. The habitats of the two subspecies differ (Soreng 2007); ssp. <i>juncifolia </i>(including ecotypes called <i>P. ampla, P. juncifolia, </i>and <i>P. nevadensis</i>) is associated with mesic flood plains and internally drained basins, whereas ssp. <i>secunda </i>(including ecotypes called <i>P. canbyi, P. gracillima, P. incurva, P. sandbergii, P. scabrella</i>) grows in scablands in ridges, plateaus, and benches on steep canyon slopes (and is the primary subspecies of this alliance). Soils are typically shallow with a high percentage of rock fragments and exposed rock. <br/>
+<br/>
+This alliance is a merger of the dry associations of <i>Poa secunda</i> with the provisional alliances of <i>Aristida purpurea</i> and <i>Elymus (elymoides, multisetus)</i>. We need further sampling and analysis to distinguish its relationships and to understand the full range of this dry meadow alliance, as compared to other related alliances.  Also, the National Vegetation Classification describes at least one alliance in the Intermountain Semi-Desert Grassland Group that appears to be equivalent: <i>Sporobolus cryptandrus - Aristida purpurea var. longiseta - Poa secunda</i> grassland alliance (NatureServe 2018). </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Aristida purpurea</th>
+			
+		
+			
+			<th>Elymus elymoides</th>
+			
+		
+			
+			<th>Elymus multisetus</th>
+			
+		
+			
+			<th>Poa secunda</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Herb</td>
+			
+		
+			
+			<td>Perennial; herb; grass</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Polycarpic perennial; herb</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Long (?)</td>
+			
+		
+			
+			<td>Medium (?)</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Moderate</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Gravity; Animal</td>
+			
+		
+			
+			<td>Wind</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Animal; gravity; wind</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Stratification - Summer</td>
+			
+		
+			
+			<td>Stratification - Summer</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>Underground structure</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Buds on large branches or trunks (basal buds, tillers)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-sensitive</td>
+			
+		
+			
+			<td>Fire-hardy</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Fire-sensitive; no/low  sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Life of plant</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>High</td>
+			
+		
+			
+			<td>High</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Low to high</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>By subspecies</td>
+			
+		
+			
+			<td>Moderate</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>By subspecies</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">While <i>Poa secunda </i>is relatively fire-sensitive because of its narrow blades and stems and small size of clumps, some forms of <i>P. secunda </i>commonly survive fire. In the Great Basin, Modoc Plateau, and in cismontane California, <i>P. secunda </i>and dry land shrubs relate competitively; in older stands shrubs increase in dominance. In the Modoc Plateau, Riegel et al. (2006) suggested that fire intervals of > 100 years maintained mixed stands of <i>P. secunda </i>and <i>Artemisia arbuscula</i>. However, stands of <i>P. secunda </i>with few or no shrubs tend to occur in areas burned within 30 years.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Medium (20-30 years)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Summer-early fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Up to stand size
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Low
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Low to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Surface fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Modoc Plateau
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Aa-l). Stands occur mostly on serpentine substrate in warmer, drier portions of this section such as Coyote Ridge (Evens and San 2004) and Mount San Diablo.</li>
+        
+            <li><b>Central California Coast Ranges</b> (M262Aa-k). Upland stands occur on sedimentary and serpentine substrates in the Diablo Range in San Benito and western Fresno Cos. Carlsen et al. (2000) noted that restored <i>Poa secunda </i>stands provide better habitat for the endangered <i>Amsinckia grandiflora </i>than stands of non-native grasses. This alliance is tolerant of extremely alkaline soils on stabilized dunes in the Carrizo National Monument and also occurs on acidic soils on sandstone and granitics on the surrounding Caliente and Temblor ranges.</li>
+        
+            <li><b>Great Valley</b> (262Ax, Az). Stands occur on the western edge of the valley on marine sediments.</li>
+        
+            <li><b>Klamath Mountains</b> (M261Ai, Al). Stands occur in open, drier hills in the eastern subsections.</li>
+        
+            <li><b>Mojave Desert</b> (322Aa, Ag). Data for stands from the Antelope Valley Poppy Preserve are on file at the CNDDB (2008).</li>
+        
+            <li><b>Mono</b> (341Da-f, Dh-l). Stands of <i>Aristida purpurea</i> are expected in this section.</li>
+        
+            <li><b>Northern California Coast</b> (263Ag, Al). Stands of <i>Elymus multisetus</i> have been sampled in Sonoma County on the Northern California Coast (Klein et al. 2015).</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Bb). Stands of <i>Elymus multisetus</i> have been sampled in Sonoma County in the Northern California Coast Ranges (Klein et al. 2015).</li>
+        
+            <li><b>Northern California Interior Coast Ranges</b> (M261Ca-b). Small stands occur in Napa and Yolo Cos. on steep north-facing slopes associated with stands of the <i>Quercus douglasii </i>alliance. <i>P. secunda</i> does not compete as well as does <i>Nassella pulchra</i> with non-native <i>Erodium </i>spp. when planted in restoration sites in this section (Lulow et al. 2007).</li>
+        
+            <li><b>Sierra Nevada</b> (M261Er-s). Stands sampled with <i>Poa secunda </i>and <i>Elymus elymoides </i> at elevations of 1400-1600 m occur on the eastside of the Sierra, including in post-burn areas (Reyes et al. 2020a).</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fd-e). Stands <i>Elymus elymoides</i> and <i>Poa secunda </i>have been sampled in dry meadows in the San Emigdio Mountains (Buck et al. 2013).</li>
+        
+            <li><b>Southeastern Great Basin</b> (341Fa-f). We expect stands of </i>Aristida purpurea</i> at mid to upper elevations of this section.</li>
+        
+            <li><b>Southern California Coast</b> (261Ba-b, Bd-g, Bi-j). Stands of <i>Aristida purpurea</i> are expected to occur throughout the section.</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Bb, Bo-p). Well-developed stands of <i>Poa secunda</i> occur at Hungry Valley State Recreation Area.  Evens and San (2005) sampled four plots with <i>Aristida purpurea</i> dominance at the Santa Ysabel Ranch and in the San Felipe Valley in the Peninsular Ranges in central San Diego Co. Moran (2004b) also recognized stands of <i>A. purpurea</i> at Santa Ysabel Ranch.</li>
+        
+            <li><b>Southern Cascades</b> (M261Da-c, Dl). Stands exist in the drier, more Great Basin-influenced portion of the section.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> The ecological breadth of <i>Poa secunda </i>necessitates a broad approach to management, so that stands can persist in various mosaics with stands of many different herbaceous and shrub alliances. Stands devoid of shrubs, such as at Clear Lake Hills in Modoc Co., have burned within 30 years and may have once had higher <i>Artemisia arbuscula </i>cover. Stands in the South Coast Ranges and the Transverse Ranges also have a recent history of frequent fire (e.g., Antelope Valley Poppy Preserve, Hungry Valley State Recreation Area). 
+
+Disturbances in stands include not only fire but also grazing, frost heaving, and invasion by non-native plants. In the Great Basin, <i>P. secunda </i>is one of few native grasses that can compete successfully with the invasive non-native <i>Bromus tectorum </i>by maintaining more positive and stable growth rates at all temperatures than <i>B. tectorum </i>(Monaco et al. 2005). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Aristida purpurea [3]</li>
+                
+                    <li>Elymus elymoides [7], [10]</li>
+                
+                    <li>Monolopia stricta - Poa secunda [4], [5], [6], [7]</li>
+                
+                    <li>Poa secunda - Bromus rubens [4], [5], [6], [7], [8]</li>
+                
+                    <li>Poa secunda - (Elymus sp.) - Clarkia cylindrica [7]</li>
+                
+                    <li>Poa secunda Shrub post-burn [8]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[3] Evens, J.;San, S. 2005</li>
+		
+		<li>[4] Buck-Diaz, J.;Evens, J. 2011b</li>
+		
+		<li>[5] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>[6] Buck-Diaz, J.;Harbert, B.;Evens, J. 2011</li>
+		
+		<li>[7] Buck-Diaz, J.;Ratchford, J.;Evens, J. 2013</li>
+		
+		<li>[8] Reyes, E.;Evens, J.;Glass, A.;Sikes, K.;Keeler-Wolf., T.;Winitsky, S.;Johnson, D.;Menke, J.;Hepburn, A. 2020a</li>
+		
+		<li>[10] Boul, R.;Keeler-Wolf, T.;Ratchford, J.;Haynes, T.;Hickson, D.;Yacoub, R.;Harbert, B.;Evens, J. 2021b</li>
+		
+		<li>Evens, J.M.;Klein, A.;Taylor, J.;Hickson, D.;Keeler-Wolf, T. 2006</li>
+		
+		<li>Evens, J.;San, S. 2004</li>
+		
+		<li>Heady, H.F. 1977</li>
+		
+		<li>Howard, J.L. 1997a</li>
+		
+		<li>Howard, J.L. 1997c</li>
+		
+		<li>Keeler-Wolf, T.;Evens, J.M.;Solomeshch, A.I.;Holland, V.L.;Barbour, M.G. 2007</li>
+		
+		<li>Klein, A.;Keeler-Wolf, T.;Evens, J. 2015</li>
+		
+		<li>Lulow, M.E.;Young, T.P.;Wirka, J.L.;Anderson, J.H. 2007</li>
+		
+		<li>Simonin, K.A. 2001c</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/568/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

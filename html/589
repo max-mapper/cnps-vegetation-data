@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Acacia spp. - Grevillea spp. - Leptospermum laevigatum</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Acacia</i> spp. - <i>Grevillea</i> spp. - <i>Leptospermum</i> <i>laevigatum</i></span> Shrubland Semi-natural Alliance <br/>
+        <span class="subtitle">Australian wattle - Grevillea - Tea tree ruderal patches</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-500 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>SNA
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>GNA
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>CA (Jepson)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                        <li>
+                            <span class="category">Invasive species rank</span>
+                            See Remarks
+                        </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2022/07/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/acacia-spp_grevillea-spp_leptospermum-laevigatum_01fortfunston-ggnra_06_2019.jpg', '/static/images/photos/shrub/acacia-spp_grevillea-spp_leptospermum-laevigatum_02fortfunston-ggnra_06_2019.jpg', '/static/images/photos/shrub/acacia-spp_grevillea-spp_leptospermum-laevigatum_thorntonstatebeach-cdpr_06_2019.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Acacia</i> spp., <i>Albizia</i> <i>lophantha</i>, <i>Grevillea</i> spp. or <i>Leptospermum</i> <i>laevigatum</i> is dominant in the shrub or small tree canopy including <i>Acacia</i> <i>baileyana</i>, <i>Acacia</i> <i>cyclops</i>, <i>Acacia</i> <i>dealbata</i>, <i>Acacia</i> <i>longifolia</i>, <i>Acacia</i> <i>paradoxa</i>, <i>Acacia</i> <i>redolens</i>, <i>Acacia</i> <i>retinodes</i>, <i>Acacia</i> <i>saligna</i>, <i>Grevillea</i> <i>robusta</i> or <i>Grevillea</i> <i>rosmariniifolia</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrub < 5 (10) m; canopy is intermittent to continuous. Herbaceous layer is open. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li>A non-native shrub <i>Acacia</i> spp., <i>Albizia lophantha, Grevillea </i>spp. and/or <i>Leptospermum laevigatum</i> are together > 60% of the shrub canopy (Buck-Diaz et al. 2021, Sikes et al. 2021).</li>
+		
+		<li><i>Acacia cyclops </i>or other related species >75% relative cover in the tall shrub to low tree canopy (Buck-Diaz and Evens 2015, Verdone and Evens 2010).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Coastal hillslopes, flats, and ridge tops. Soils are often sandy and alluvial. The USACE Wetland Inventory (2020 national list) recognizes <i>Grevillea robusta</i> as an UPL plant. Other spp. Are not considered. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Non-native/ornamental shrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Coastal scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Coastal sage scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Coastal scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>32.220.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Mediterranean Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Mediterranean Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>California Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>California Coastal Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Naturalized non-native Mediterranean scrub
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Acacia</i> species belong to the family Fabaceae and are known for their yellow flowers and often have dissected leaves. Various shrubs, which are non-natives from Australia, thrive in the coastal and transverse ranges of California. The flowers of <i>Acacia</i> spp. can be pollinated by beetles, bees and wasps. Its seeds, spread by ants, birds, wind, water, or waste, can be long-lived, germinating after fires or other disturbances (Cal-IPC 2021). Cal-IPC ranks <i>A. dealbata </i> as Moderate; <i>A. baileyana, A. cyclops, A. longifolia, A. paradoxa, </i>and <i>A. saligna </i>as Watch.<br/>
+ <br/>
+<i>Leptospermum laevigatum</i> belongs to the family Myrtaceae and is native to Australia. This shrub or small tree has white flowers and narrow leaves. It grows in sand dunes and bluffs in the San Francisco Bay and central and south coast ranges of California. Its seeds are spread via wind, vehicles, soil movement, water and dumped garden waste (Cal-IPC 2017). The older stems are covered with shedding brown bark, and younger stems are green and smooth with silky hairs. The leaves are alternate along the stem and are attached to short and flat petioles. Its flowers bloom in late winter and spring and the fruit ripen from green to brown, becoming more woody as they mature. Cal-IPC ranks <i>L. laevigatum </i> as Watch.<br/>
+ <br/>
+<i>Grevillea</i> species are evergreen trees and shrubs distributed in central and southern coastal California (Calflora 2017). They are native to Australia and naturalized in California along with tropical and subtropical regions of the world (Cal-IPC 2017). They are prolific seeders with light weight seeds dispersed by wind. They can also spread via root suckers.  The seeds of <i>Grevillea</i> can initiate germination 20 days after dispersal. They drop large amounts of fruit and leaf litter that contain allelopathic substances and consequently inhibits the growth of understory native plants. It is at a high risk of becoming invasive in California. Cal-IPC ranks <i>Grevillea robusta </i>as Watch.<br/>
+<br/>
+Stands of <i>Acacia</i> spp., <i>Albizia lophantha, Leptospermum laevigatum, Grevillea</i> spp. or related shrubs to small trees occur sporadically in California, particularly along the coast and in the Coast Ranges. They are often near development having escaped from horticultural plantings and are sometimes naturally reproducing in the wild along the coastal hills; for example, they can invade disturbed places in coastal sage scrub and coastal prairies (Cal-IPC 2021).  More study of this type is needed. Stands dominated by tree species of <i>Acacia </i>currently fall under the <i>Eucalyptus spp. - Ailanthus altissima - Robinia pseudoacacia </i>Alliance. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Acacia spp.</th>
+			
+		
+			
+			<th>Albizia lophantha</th>
+			
+		
+			
+			<th>Grevillea spp.</th>
+			
+		
+			
+			<th>Leptospermum laevigatum</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Shrub; winter deciduous</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Tree; evergreen</td>
+			
+		
+			
+			<td>Tree, shrub; evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td>Canopy</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Medium to long</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td>Long</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Wind; Water</td>
+			
+		
+			
+			<td>Wind; Water</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Scarification</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>Heat (fire)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Underground structures (root crown)</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Underground structures (root crown)</td>
+			
+		
+			
+			<td>Underground structures; buds on large branches and trunks</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy;  high sprouter</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Fire-sensitive</td>
+			
+		
+			
+			<td>Fire-hardy</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>Yes</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>2 years</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>3-5 years</td>
+			
+		
+			
+			<td>3-5 years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>High</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td>Unknown</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Plants dominant in this alliance can germinate or resprout after fire or other disturbances (Cal-IPC 2021). Little is known about this alliance's fire dynamics in California.</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Af, Ai, Ak). Various <i>Acacia </i>species, <i>Albizia lophantha </i>occur along the coast invading prairie, scrub and chaparral habitats (CCH 2022, Sikes et al. 2021).</li>
+        
+            <li><b>Northern California Coast</b> (263Ac, Ak-l). Various <i>Acacia </i>species, <i>Grevillea rosmarinifolia </i>and <i>Albizia lophantha </i>occur along the coast invading prairies, scrub, and chaparral habitats (Buck-Diaz et al. 2021, Cal-IPC 2021, CCH 2022).</li>
+        
+            <li><b>Southern California Coast</b> (261Bb-e, Bg, Bi-j). Various <i>Acacia </i>species, <i>Grevillea robusta, </i>and <i>Albizia lophantha </i>occur along the coast invading prairies, scrub, chaparral, and moist areas habitats (Buck-Diaz et al. 2015, Cal-IPC 2021, CCH 2022, VegCAMP 2007a, Verdone and Evens 2010).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Since most of the species are on the Watch list for Cal-IPC, they have the moderate to high risk of being invasive (Cal-IPC 2021). Additionally, <i>Acacia </i>species including <i>A. dealbata </i>can change soil chemistry by fixing nitrogen, and fallen leaves may have allelopathic effects that prevent growth of native plants and may also foster other invasives to establish. Acacias are commonly planted as ornamentals and can escape, especially in disturbed places where they can spread by seed or by rhizomes.  Seeds can accumulate in the soil and germinate after fire, hot weather, or other disturbances (Cal-IPC 2021). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Acacia (cyclops, dealbata) [1], [2], [3], [4]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Buck-Diaz, J.;Evens, J.M. 2015</li>
+		
+		<li>[2] Verdone, L.;Evens, J. 2010</li>
+		
+		<li>[3] Sikes, K.;Buck-Diaz, J.;Evens, J. 2021</li>
+		
+		<li>[4] VegCAMP (CDFW Vegetation Classification and Mapping Program), 2007a</li>
+		
+		<li>Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>Calflora, 2018+</li>
+		
+		<li>Cal-IPC, 2002+</li>
+		
+		<li>CCH (Consortium of California Herbaria), 2017+</li>
+		
+		<li>Flora of North America Editorial Committee, 1993+</li>
+		
+		<li>Rojas-Sandoval, J. 2015</li>
+		
+		<li>Skolman, R.G. 2004</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/589/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

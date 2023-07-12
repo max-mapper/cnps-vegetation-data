@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Arctostaphylos patula - Arctostaphylos nevadensis</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Arctostaphylos</i> <i>patula</i> - <i>Arctostaphylos</i> <i>nevadensis</i></span> Shrubland Alliance <br/>
+        <span class="subtitle">Green leaf manzanita - Pinemat manzanita chaparral</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>610-3350 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3S4
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G5
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: AZ, CA, CO, NV, OR, UT, WA (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/arctostaphylos-patula_lassennf_09-06_01.jpg', '/static/images/photos/shrub/arctostaphylos-patula_lassennf_09-06_02.jpg', '/static/images/photos/shrub/arctostaphylos-patula_lassennf_09-06_03.jpg', '/static/images/photos/shrub/arctostaphylos-patula_lassennf_09-06_04.jpg', '/static/images/photos/shrub/arctostaphylos-patula_onioncr_08-09_01.jpg', '/static/images/photos/shrub/arctostaphylos-patula_trinityalps_01.jpg', '/static/images/photos/shrub/arctostaphylos-patula_trinitymtns_02.jpg', '/static/images/photos/shrub/arctostaphylos-patula_trinityalps-stonyridgetrail_08-05.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Arctostaphylos</i> <i>nevadensis</i> and/or <i>Arctostaphylos</i> <i>patula</i> is dominant or co-dominant in the shrub canopy with <i>Amelanchier</i> <i>alnifolia</i>, <i>Ceanothus</i> <i>cordulatus</i>, <i>Ceanothus</i> <i>velutinus</i>, <i>Chrysolepis</i> <i>sempervirens</i>, <i>Garrya</i> <i>fremontii</i>, <i>Holodiscus</i> <i>discolor</i>, <i>Prunus</i> <i>emarginata</i> and <i>Symphoricarpos</i> <i>mollis</i>. Emergent conifer trees may be present at low cover including <i>Abies</i> <i>concolor</i>, <i>Abies</i> <i>magnifica</i>, <i>Juniperus</i> <i>occidentalis</i> var. <i>occidentalis</i>, <i>Pinus</i> <i>jeffreyi</i>, <i>Pinus</i> <i>lambertiana</i> and <i>Pinus</i> <i>monticola</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 2 m; canopy is intermittent to continuous. Herbaceous layer is sparse. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Arctostaphylos patula</i> > 60% relative cover in the shrub canopy (Keeler-Wolf et al. 2003b).</li>
+		
+		<li><i>Arctostaphylos patula</i> > 30% relative cover within the shrub canopy (Lee 2004, Boul et al. 2021b).</li>
+		
+		<li><i>Arctostaphylos patula</i> > 50% relative cover in the shrub canopy (Solomeshch et al. 2013).</li>
+		
+		<li><i>Arctostaphylos nevadensis</i> > 50% relative cover in the shrub canopy or co-dominant with <i>A. patula </i>(Solomeshch et al. 2013).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Ridges and upper slopes that may be steep. Soils are shallow, can be acidic, and commonly derived from granitic or volcanic substrates.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Green leaf manzanita series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Arctostaphylos patula shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Great Basin-Mixed chaparral transition, Greenleaf manzanita, Pinemat manzanita, Upper montane mixed chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Montane manzanita chaparral, Upper Sonoran manzanita chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Montane chaparral
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>37.303.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate and Boreal Shrubland and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate Grassland, Meadow, and Shrubland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North America Interior Sclerophyllous Shrubland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Western North American Cool/Montane Sclerophyllous Evergreen Scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Western Cordilleran montane sclerophyll scrub
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Arctostaphylos patula</i> is a long-lived, evergreen manzanita with bright green leaves that grows up to 2 m in height. Individuals in some portions of the species range have lignotubers; shrubs in other portions lack lignotubers. Plants can also reproduce by layering from the enlarged root crown. Shrubs produce abundant seed, which collects in duff and soil in a seed bank. Wildlife value the fruits and disperse the stones (Zimmerman 1991a). <br/>
+<br/>
+<i>Arctostaphylos patula</i> characteristically forms stands in full sunlight in openings of coniferous forests, on recent and old burns, on rocky outcrops, and following logging. The species also occurs as scattered shrubs in forest understories. Self-perpetuating stands grow on skeletal or rocky soils, frequently on glaciated surfaces. Some stands exceed 100 years of age (Zimmerman 1991a). Stands can be seral, though long-persisting, on burned and logged sites with productive soils.<br/>
+<br/>
+<i>Arctostaphylos nevadensis</i> is a spreading, low-growing, evergreen manzanita that lacks lignotubers and, therefore, does not survive fire. Like <i>A. patula</i>, the stem roots where they make contact with the soil and establishes freely from seed following a fire. Wildlife browse seedlings but find mature plants unpalatable (Howard 1993d). <br/>
+<br/>
+<i>Arctostaphylos nevadensis</i> grows where overstory cover is sparse and does not tolerate low light levels. It is adapted to cool, dry sites at high elevations (up to 3,400 m). Stands of <i>A. nevadensis</i> are found in large openings of, or adjacent to, coniferous forest (Howard 1993d). </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Arctostaphylos nevadensis</th>
+			
+		
+			
+			<th>Arctostaphylos patula</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Shrub; evergreen</td>
+			
+		
+			
+			<td>Shrub; evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil</td>
+			
+		
+			
+			<td>Soil</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Medium to long</td>
+			
+		
+			
+			<td>Long</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Gravity; animal</td>
+			
+		
+			
+			<td>Animal</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Scarification: fire, charred wood</td>
+			
+		
+			
+			<td>Heat; scarification</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Buds on small branches</td>
+			
+		
+			
+			<td>Underground structures; none (in some places)</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-sensitive, no/low sprouter</td>
+			
+		
+			
+			<td>Fire-hardy; high-sprouting</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td>10-100 years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Episodic</td>
+			
+		
+			
+			<td>Episodic</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Unknown</td>
+			
+		
+			
+			<td>By habit and habitat</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text"><i>Arctostaphylos patula </i>plants are generally top-killed in burns, but they sprout vigorously from a root crown or buried lignotuber, if present. Abundant seedlings establish after a fire and sprouting plants quickly establish new crowns. After 10 years of growth, shrubs produce significant seed crops; sprouts take only 2 years. However, <i>A. patula </i>can experience highly consumptive, fatal burns when fuels are high and dry (Zimmerman 1991a).
+
+Since <i>Arctostaphylos nevadensis</i> is lacking lignotubers it does not resprout after a fire. However, it does readily establish from seed post-fire (Howard 1993d).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Medium (20-50 years)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Late summer-fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Medium to large—up to stand
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low to moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Moderate to high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Moderate to very high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Active-independent crown fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Sierra Nevada
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Klamath Mountains</b> (M261Aa-g, Ai-u). Stands exist throughout the section excluding the broader low lying valleys. Most stands following fire and logging are transitional to mixed conifer and true fir forest types at montane and subalpine elevations, as at the Pearch Creek study area (Cheng 2004). Stands have been mapped in the Whiskeytown NM (Lee 2004). Persistent stands occur on open glaciated slopes and moraines at Sugar Creek RNA (Cheng 2004) and elsewhere in the section.</li>
+        
+            <li><b>Modoc Plateau</b> (M261Gf, Gi-n). Stands are post-fire and logging types in a matrix with pine forest alliances. Those in the Warner Mountains are transitional to <i>Abies concolor</i> forest types.</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Ba). Stands are present in the higher elevations on Franciscan metasediments. Most stands follow fire and logging and are transitional to mixed conifer and true fir forest alliances.</li>
+        
+            <li><b>Sierra Nevada</b> (M261Ea-h, Ej-u). Stands occur in all subsections but Sierra Valley. Most stands following fire and logging are transitional to mixed conifer and true fir forest alliances at montane and subalpine elevations. Persistent stands occur on open glaciated slopes and moraines in Clark Fork RNA (Cheng 2004), Yosemite National Park (Keeler-Wolf et al. 2003b), Sequoia-Kings Canyon National Park (S. Haultain, pers. comm. 2005), and elsewhere in the section.</li>
+        
+            <li><b>Sierra Nevada Foothills</b> (M261Fd-e). Stands have been seen only in the southern portion of the ecoregion near <i>Pinus jefferyi</i> and <i>Pinus monophylla</i>  stands.</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Bb, Be, Bh, Bm). Small localized stands occur in the western Transverse, San Bernardino, San Gabriel, and San Jacinto mountains.</li>
+        
+            <li><b>Southern Cascades</b> (M261Da, Dc-d, Df-j, Dl-m). Stands occur in all subsections except the lower valleys. Extensive brush fields exist at base of Mount Shasta, near Burney, and in other areas following crown fires in the early twentieth century, and more recently after logging of pine and true fir forest types. Descriptions are available for the Antelope Creek Lakes RNA, Red Ridge-Red Fir RNA, and Green Island Lake RNA (Cheng 2004). Stands of <i>A. nevadensis</i> have been mapped in the Mill Creek watershed (Stillwater Sciences and AIS 2015).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> When stands of <i>Arctostaphylos patula</i> are subjected to fires, they quickly regenerate. Managers consider <i>Arctostaphylos patula</i> a detrimental in establishing fast growing conifers after logging and fires (Royce and Barbour 2001). Leaves are allelopathic when they decompose (Tinnin and Kirkpatrick 1985), and shrub roots effectively compete with conifer seedlings for soil water (Miller 1986). Managers use fire as a management tool to establish conifer stands at the expense of the shrubs by timing burns in the late spring or summer, when plants are actively growing and fuels are dry and consumable. However, on sites free of fire for long periods, <i>A. patula</i> facilitates conifer establishment in the filtered sunlight and high organic material supplied by the shrubs. 
+
+Since <i>Arctostaphylos nevadensis</i> is lacking a lignotuber, fire will kill mature stands of <i>A. nevadensis</i> but it will regenerate quickly from seed and will colonize disturbed sites (Howard 1993d). People use <i>A. patula</i> and <i>A. nevadensis</i> in erosion control and bank stabilization (Zimmerman 1991a, Howard 1993d). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Arctostaphylos nevadensis [6]</li>
+                
+                    <li>Arctostaphylos patula [1], [3], [4], [6], [7]</li>
+                
+                    <li>Arctostaphylos patula - Ceanothus velutinus - Ceanothus prostratus [7]</li>
+                
+                    <li>Arctostaphylos patula - Quercus vacciniifolia [2]</li>
+                
+                    <li>Arctostaphylos spp. - Ceanothus fresnensis [5]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Barbour, M.G. 1988</li>
+		
+		<li>[2] Sawyer, J.O.;Thornburgh, D.A. 1977</li>
+		
+		<li>[3] Keeler-Wolf, T.;Schindel, M.;San, S.;Moore, P.;Hickson, D. 2003b</li>
+		
+		<li>[4] DiPaolo, D.A.;Smith, S.B.;Odion, D.C.;Ives, J.H.;Sarr, D.A. 2015</li>
+		
+		<li>[5] Ratchford, J.;Boul, R.;Keeler-Wolf ,T.;Evens, J. 2022b (in progress)</li>
+		
+		<li>[6] Solomeshch, A.;DiPaolo, D.A.;Odion, D.C. 2013</li>
+		
+		<li>[7] Boul, R.;Keeler-Wolf, T.;Ratchford, J.;Haynes, T.;Hickson, D.;Yacoub, R.;Harbert, B.;Evens, J. 2021b</li>
+		
+		<li>Cheng, S. 2004</li>
+		
+		<li>Howard, J.L. 1992j</li>
+		
+		<li>Howard, J.L. 1993d</li>
+		
+		<li>Keeley, J.E. 1988</li>
+		
+		<li>Lee, C. 2004</li>
+		
+		<li>NPS-SEKI, 2009</li>
+		
+		<li>Reid, M.S.;Schulz, K.A.;Cormer, P.J.;Schindel, M.H.;Culver, D.R.;Sarr, D.A.;Damm, M.C. 1999</li>
+		
+		<li>Riser, R.J.;Fry, M. 1994</li>
+		
+		<li>Royce, E.B.;Barbour, M.G. 2001</li>
+		
+		<li>Solinas, P.;Spycher, G.;Topik, C. 1985</li>
+		
+		<li>Stillwater Sciences,:AIS, 2015</li>
+		
+		<li>Tinnin, R.O.;Kirkpatrick, L.A. 1985</li>
+		
+		<li>Wilken, D.;Burgher, J. 2000</li>
+		
+		<li>Zimmerman, M.L. 1991a</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/127/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

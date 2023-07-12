@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Abies magnifica</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Abies</i> <i>magnifica</i></span> Forest &amp; Woodland Alliance <br/>
+        <span class="subtitle">Red fir forest and woodland</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Tree
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>1400-2700 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S4
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G5
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA, NV, OR (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/tree/abies-magnifica_calaverasco_09-09_01.jpg', '/static/images/photos/tree/abies-magnifica_lakealpine_09-09_01.jpg', '/static/images/photos/tree/abies-magnifica_lassenvnp_08-10_01.jpg', '/static/images/photos/tree/abies-magnifica_lassenvnp_08-10_02.jpg', '/static/images/photos/tree/abies-magnifica_lassenvnp_08-10_03.jpg', '/static/images/photos/tree/abies-magnifica_marblemtwilderness.jpg', '/static/images/photos/tree/abies-magnifica_mtlassennp_08-09_01.jpg', '/static/images/photos/tree/abies-magnifica_mtpleasant_1981.jpg', '/static/images/photos/tree/abies-magnifica_plumasnf_08-12.jpg', '/static/images/photos/tree/abies-magnifica_pokerflat.jpg', '/static/images/photos/tree/abies-magnifica_siskiyoucrest.jpg', '/static/images/photos/tree/abies-magnifica_siskiyoumtns.jpg', '/static/images/photos/tree/abies-magnifica_siskiyouwilderness.jpg', '/static/images/photos/tree/abies-magnifica_sonorapass_09-03.jpg', '/static/images/photos/tree/abies-magnifica_spicer_09-09_03.jpg', '/static/images/photos/tree/abies-magnifica_trinitymtns_06-65.jpg', '/static/images/photos/tree/abies-magnifica_yosemite.jpg', '/static/images/photos/tree/abies-magnifica_abies-concolor_lassenvnp_08-10_01.jpg', '/static/images/photos/tree/abies-magnifica_abies-concolor_yosemite_6-02.jpg', '/static/images/photos/tree/abies-magnifica_blackbutte-yollabollymtns_06-13_01.jpg', '/static/images/photos/tree/abies-magnifica_blackbutte-yollabollymtns_06-13_02.jpg', '/static/images/photos/tree/abies-magnifica_fh7-yollabollymtns_06-13_01.jpg', '/static/images/photos/tree/abies-magnifica_fh7-yollabollymtns_06-13_02.jpg', '/static/images/photos/tree/abies-magnifica_anthonypk-yollabollymtns_06-13.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Abies</i> <i>magnifica</i>, <i>Abies</i> <i>procera</i> or <i>Abies</i> ×<i>shastensis</i> is dominant or co-dominant in the tree canopy with <i>Abies</i> <i>concolor</i>, <i>Calocedrus</i> <i>decurrens</i>, <i>Picea</i> <i>breweriana</i>, <i>Pinus</i> <i>contorta</i> ssp. <i>murrayana</i>, <i>Pinus</i> <i>jeffreyi</i>, <i>Pinus</i> <i>lambertiana</i>, <i>Pinus</i> <i>monticola</i>, <i>Pseudotsuga</i> <i>menziesii</i> and <i>Tsuga</i> <i>mertensiana</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text"> Trees < 60 m; canopy is intermittent to continuous. Shrub layer is sparse to continuous. Herbaceous layer is sparse or abundant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Abies magnifica</i> > 50% relative cover in the tree canopy and present in reproduction layers. Stands may include several other tree conifers; <i>A. concolor, Pinus lambertiana,</i> and other montane species are unimportant (< 5% relative cover) (Keeler-Wolf et al. 2003b).</li>
+		
+		<li><i>Abies magnifica</i> > 60% tree relative cover in the tree canopy (Potter 1998).</li>
+		
+		<li><i>Abies magnifica</i> and <i>A. concolor, P. lambertiana,</i> and/or <i>P. jeffreyi</i> > 15 % relative cover in tree canopy (Keeler-Wolf et al. 2003b, Potter 1998).<i> Pinus monticola</i> may be common.</li>
+		
+		<li><i>Abies concolor,</i> and <i>A. magnifica, A. procera,</i> or <i>A.</i> x <i>shastensis</i> 30-60% cover in the tree layer (CNDDB).</li>
+		
+		<li><i>Abies magnifica</i> >30% relative cover in the tree canopy. Other conifers may include <i>A. concolor, P. monticola,</i> and/or <i>P. contorta</i> ssp. <i>murryana</i> (Ratchford et al. 2022b)</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Upland slopes, ridges, raised stream benches, and terraces. Parent materials and soils are highly variable and include ultramafics. The USFWS Wetland Inventory (1996 national list) recognizes <i>Abies magnifica</i> as a FAC plant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Red fir series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Abies concolor-Abies x shastensis forest alliance, Abies magnifica forest alliance, Abies magnifica-Abies concolor forest alliance, Abies x shastensis forest alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Mixed conifer-Fir, Klamath mixed conifer, Red fir, Subalpine conifers
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Red fir forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Red fir forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Red fir
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>88.200.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Tree Vegetation (Forest and Woodland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Cool Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North America Cool Temperate Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Vancouverian Subalpine Forest
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Vancouverian mesic montane coniferous forest and woodland
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Abies magnifica, </i>the largest of the true firs, attains a height of 60 m and lives for 600 years. Trees bear cones after 30 years of age, and trees mast in 2- to 6-year cycles. Wind disseminates the seeds up to 20 m. Seeds germinate the following spring. Seedlings are tolerant of frost, but not drought. Seedling establishment and initial growth are best in dense shade with litter. Trees are moderately shade tolerant. Once established, trees release from suppression in small openings created by the death of a few trees or in large openings created by fire, insects, diseases, or wind (Cope 1993a, Laacke 1990b). <br/>
+<br/>
+The red firs of California (<i>Abies magnifica, </i>var. <i>magnifica, </i>var. <i>shastensis, </i>x <i>shastensis, </i>and <i>A. procera</i>) are most confusing (Oline 2008). <i>A. magnifica </i>var. <i>magnifica </i>is a wide-ranging tree in the upper montane belt in the Sierra Nevada and southern Cascades. Here the cones have scales that are longer than the bracts. Traditionally botanists have considered the trees in the Klamath Mountains and Cascades, as at Mount Shasta, to be var. <i>shastensis </i>because the cone scales are shorter than the bracts (Griffin and Critchfield 1972, Sawyer 2004, Stuart and Sawyer 2001). <i>A. procera </i>is a widespread tree in the Cascades north of Crater Lake. As in var. <i>shastensis, </i>the bracts exceed the cone scales, but bracts differ in shape from those of var. <i>shastensis</i>. In the area of overlap for species, many botanists (Franklin 1990, Hunt 1993, Laacke 1990b, Liu 1971, Sawyer 2004, 2006) now considered the trees with intermediate characters to be x <i>shastensis </i>(<i>A. magnifica </i>x <i>A. procera</i>). There is another population of <i>A. magnifica </i>in the southern Sierra Nevada with exerted bracts, which appears to be var. <i>shastensis</i>. <i>A. procera </i>and all forms of <i>A. magnifica </i>in California have similar ecological responses to environmental variation (Barbour and Minnich 2000, Barbour and Woodward 1985, Regalia 1978). For this reason, stands containing <i>A. procera </i>in California and all forms of <i>A. magnifica </i>are included in this <i>Abies magnifica </i>alliance.<br/>
+<br/>
+Mixed <i>Abies magnifica-Abies concolor </i>forests were previously considered a separate alliance in A Manual of California Vegetation, 2009. However, additional analysis has expanded our understanding of the mixed fir types. These mixed fir forests occur at higher elevations in cooler and/or more mesic settings than the <i>Abies concolor </i>or <i>Abies concolor-Pinus lambertiana </i>alliances. These settings are similar to the pure <i>A. magnifica </i> stands just at slightly lower elevations, allowing for both species to co-occur.<br/>
+<br/>
+ The <i>A. magnifica </i>alliance is extensive at upper montane and lower subalpine elevations throughout the mountains of northern California where the winter snows are deep. Often the understory has only a few shrubs and almost no herbaceous plants, but those in more maritime climates or near water sources are more diverse. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Abies magnifica</th>
+			
+		
+			
+			<th>Abies procera</th>
+			
+		
+			
+			<th>Abies ×shastensis</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Tree; evergreen</td>
+			
+		
+			
+			<td>Tree; evergreen</td>
+			
+		
+			
+			<td>Tree; evergreen</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Transient</td>
+			
+		
+			
+			<td>Canopy stored; Transient</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+			
+			<td>Short</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Wind</td>
+			
+		
+			
+			<td>Wind</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Stratification—winter</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-hardy; thick epidermis; low flammability</td>
+			
+		
+			
+			<td>Fire-sensitive; High flammability; Thin epidermis</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td>None</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>30-600 years</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Medium</td>
+			
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>Low</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Low- to moderate-severity fires with long fire-free intervals favor <i>Abies magnifica</i> and <i>A. concolor</i>. These fires normally spread slowly because of compact fuel beds, and they are seldom very destructive (Cope 1993a, Laacke 1990b). Stand-replacing fires rarely occur; instead, stand-modifying fires with fire return intervals from 10 to 65 years are more common (Sugihara et al. 2006).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Medium (5-150 years)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Summer-early fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Small to large
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Multiple
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Multiple
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>Multiple
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Multiple
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Klamath, Cascade, and North Coast ranges; Sierra Nevada
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Klamath Mountains</b> (M261Aa, Ac-g, Ai-j, Am-p, As-u). Stands are common at upper montane and subalpine elevations, mainly on the south-facing slopes leading up to the higher mountaintops and ridges (Sawyer 2006, 2007). They alternate with the <i>Tsuga mertensiana</i> stands on north slopes, where the stands are pure or mixes with <i>Abies procera</i> and few hybrid trees of x <i>A. magnifica</i> (Oline 2008). Stands with <i>A. procera</i> occur at Bear Basin Butte Botanical Area, Rock Creek Butte cRNA, North Trinity Mountain rRNA, and Pearch Creek study area (Cheng 2004). Stands with <i>A</i>. x <i>shastensis</i> occur in the southern Siskiyou Mountains (Simpson 1980), Cedar Basin, Haypress Meadows, and Sugar Creek cRNAs (Cheng 2004), and regionally in section (Jimerson 1993).</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Ba). Stands are local on the highest mountaintops and ridges in the section (Sawyer 2006, 2007). The most extensive are on Snow Mountain (Gray 1978) and on the northern slopes of South Yolla Bolly Mountain (Keeler-Wolf and Keeler-Wolf 1974). Others in other parts of the Yolla Bolly Mountains (Waddell 1982) and on South Fork Mountain (Jimerson 1993) are more local.</li>
+        
+            <li><b>Sierra Nevada</b> (M261Ea, Ec-e, Eh, Ej-q, Eu). Stands are extensive at upper montane and subalpine elevations (Fites-Kaufman et al. 2007). Stands are described for Sierra Co. (Gray 1978), in Home Camp Creek pRNA, Mountaineer Creek cRNA, Babbitt Peak, Bell Meadow RNA, Mount Pleasant RNA, Mud Lake RNA, and W. B. Critchfield RNA (Cheng 2004), Teakettle Creek Experimental Forest (Griffin 1975), Yosemite National Park (Keeler-Wolf et al. 2003b), and regionally in the section (Potter 1998). Stands have also been surveyed and mapped in Sequoia Kings Canyon National Park (NPS, 2009). Stands in the southern to central subsections can have open tree canopies.</li>
+        
+            <li><b>Southern Cascades</b> (M261Da, Df, Di-j, Dl-m). Stands are common at upper montane and subalpine elevations, and even at timberline (Fites-Kaufman et al. 2007, Sawyer and Keeler-Wolf 2007). Stands have closed tree canopies in areas with deep, continuous soil. If soils are thin, rocky and discontinuous, stands are either open pure stands or mixes of other subalpine trees. Both <i>A. magnifica</i> and <i>A</i>. x <i>shastensis</i> occur in this section including Antelope Creek Lakes cRNA, and Cub Creek and Red Butte-Red Fir Ridge RNAs (Cheng 2004). Stands have been surveyed in the Mount Lassen National Park (NPS, 2016) area and other montane elevations occur on volcanic substrates (Fites-Kaufman et al. 2007).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Fires, diseases, fungi, insects, and windstorms disturb and modify the development and structure of stands (Cope 1993a). We should monitor regeneration and general stand health in relation to climate change, especially in the southern limits in the southern Sierra Nevada and North Coast Ranges. 
+
+However, even as far north as the Klamath Mountains, researchers have observed recent widespread die-off of Shasta red fir (<i>Abies magnifica </i>var. <i>magnifica</i>), in which mortality increased with higher stand densities and with larger recent increases in minimum winter temperature. Mortality here appear to be caused by a dwarf mistletoe (<i>Arceuthobium abietinum </i>ssp. <i>wiensii</i>), a canker-forming fungi (<i>Cytospora</i>), and fire engraver beetle (<i>Scolytus ventralis</i>). The more drought tolerant and lower-elevation white fir (<i>A. concolor </i>) does not appear to be affected by these same mortality agents (DeSiervo et al. 2018). Generally, tree mortality is predicted to continue because of increased temperatures and prolonged drought in western North America (Allen et al. 2015). Allowing wildfire to burn in the region may be the only way to reduce the disease complex from spreading (DeSiervo et al. 2018). </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+                <p>Mixed Fir Stands in the Klamath Mountains with a Well-Developed Shrub Layer</p>
+            
+            <ul class="text">
+                
+                    <li>Abies magnifica - Abies concolor / Acer glabrum [3]</li>
+                
+                    <li>Abies magnifica - Abies concolor / Arctostaphylos nevadensis [3]</li>
+                
+                    <li>Abies magnifica - Abies concolor / Quercus sadleriana [3]</li>
+                
+                    <li>Abies magnifica - Abies concolor / Symphoricarpos mollis - Rosa gymnocarpa [3]</li>
+                
+            </ul>
+        
+            
+                <p>Mixed Fir Stands in the Klamath Mountains with Little Shrub Layer</p>
+            
+            <ul class="text">
+                
+                    <li>Abies magnifica - Abies concolor / Achlys triphylla [3]</li>
+                
+                    <li>Abies magnifica - Abies concolor / Anemone deltoidea [3]</li>
+                
+                    <li>Abies magnifica - Abies concolor / Arnica cordifolia [3]</li>
+                
+                    <li>Abies magnifica - Abies concolor / Penstemon anguineus - Monardella odoratissima [3]</li>
+                
+                    <li>Abies magnifica - Abies concolor / Pteridium aquilinum [3]</li>
+                
+            </ul>
+        
+            
+                <p>Stands in the Klamath and North Coast Mountains with a Well-Developed Shrub Layer</p>
+            
+            <ul class="text">
+                
+                    <li>Abies magnifica / Leucothoe davisiae [8]</li>
+                
+                    <li>Abies magnifica - Picea breweriana / Quercus sadleriana - Vaccinium membranaceum [3]</li>
+                
+                    <li>Abies magnifica / Quercus sadleriana [1], [3], [9]</li>
+                
+                    <li>Abies magnifica / Quercus sadleriana - Arctostaphylos nevadensis [3]</li>
+                
+                    <li>Abies magnifica / Quercus vacciniifolia [8]</li>
+                
+                    <li>Abies magnifica / Rhododendron macrophyllum [3]</li>
+                
+                    <li>Abies magnifica / Vaccinium membranaceum [1]</li>
+                
+            </ul>
+        
+            
+                <p>Stands in the Klamath and North Coast Mountains without a Well-Developed Shrub Layer</p>
+            
+            <ul class="text">
+                
+                    <li>Abies magnifica / Achlys triphylla [1]</li>
+                
+                    <li>Abies magnifica - (Calocedrus decurrens) [3]</li>
+                
+                    <li>Abies magnifica / Chimaphila umbellata [2], [8]</li>
+                
+                    <li>Abies magnifica / Linnaea borealis [8]</li>
+                
+                    <li>Abies magnifica / Lupinus albifrons [10]</li>
+                
+                    <li>Abies magnifica / Orthilia secunda [3], [8], [10]</li>
+                
+                    <li>Abies magnifica / Penstemon gracilentus [2]</li>
+                
+                    <li>Abies magnifica - Tsuga mertensiana / Orthilia secunda [3]</li>
+                
+            </ul>
+        
+            
+                <p>Stands in the Sierra Nevada</p>
+            
+            <ul class="text">
+                
+                    <li>Abies magnifica [3], [4], [5], [8], [10]</li>
+                
+                    <li>Abies magnifica - Abies concolor [3], [4], [6]</li>
+                
+                    <li>Abies magnifica - Abies concolor - Pinus jeffreyi [4], [6], [11]</li>
+                
+                    <li>Abies magnifica - Abies concolor / Pinus lambertiana [4], [6], [11]</li>
+                
+                    <li>Abies magnifica - Pinus contorta / Sphenosciadium capitellatum [7]</li>
+                
+                    <li>Abies magnifica - Pinus contorta ssp. murrayana [4], [5], [6], [11]</li>
+                
+                    <li>Abies magnifica - Pinus monticola [4], [6], [11]</li>
+                
+                    <li>Abies magnifica - (Pinus monticola) / Arctostaphylos nevadensis [2], [4], [6], [9]</li>
+                
+                    <li>Abies magnifica - Pinus monticola / Chrysolepis sempervirens [4], [6]</li>
+                
+                    <li>Abies magnifica - Pinus monticola - Pinus contorta ssp. murrayana [4], [6], [7], [11]</li>
+                
+                    <li>Abies magnifica - Pinus monticola / Quercus vacciniifolia [4]</li>
+                
+                    <li>Abies magnifica / Wyethia mollis [4], [6]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Imper, D.K. 1988a</li>
+		
+		<li>[2] Imper, D.K. 1988b</li>
+		
+		<li>[3] Jimerson, T.M. 1993</li>
+		
+		<li>[4] Keeler-Wolf, T.;Schindel, M.;San, S.;Moore, P.;Hickson, D. 2003b</li>
+		
+		<li>[5] Potter, D.A. 1994</li>
+		
+		<li>[6] Potter, D.A. 1998</li>
+		
+		<li>[7] Potter, D.A. 2005</li>
+		
+		<li>[8] Sawyer, J.O.;Thornburgh, D.A. 1977</li>
+		
+		<li>[9] Simpson, L.G. 1980</li>
+		
+		<li>[10] Waddell, D.R. 1982</li>
+		
+		<li>[11] NPS-SEKI, 2009</li>
+		
+		<li>Barbour, M.G. 1984</li>
+		
+		<li>Barbour, M.G. 1988</li>
+		
+		<li>Barbour, M.G.;Woodward, R.A. 1985</li>
+		
+		<li>Cope, A.B. 1993</li>
+		
+		<li>Cope, A.B. 1993a</li>
+		
+		<li>Fites-Kauffman, J.A.;Rundel, P.;Stephenson, N.;Weixelman, D. 2007</li>
+		
+		<li>Franklin, J.F. 1988</li>
+		
+		<li>Franklin, J.F. 1990</li>
+		
+		<li>Gordon, D.T. 1980b</li>
+		
+		<li>Heckard, L.R.;Hickman, J.C. 1984</li>
+		
+		<li>Hendrickson, J.;Prigge, B. 1975</li>
+		
+		<li>Keeler-Wolf, T. 1989a</li>
+		
+		<li>Laacke, R.J. 1990a</li>
+		
+		<li>Laacke, R.J. 1990b</li>
+		
+		<li>Laacke, R.J.;Fiske, J.N. 1983a</li>
+		
+		<li>Minnich, R.A. 1987</li>
+		
+		<li>Oline, D.K. 2008</li>
+		
+		<li>Oosting, H.J.;Billings, W.D. 1943</li>
+		
+		<li>Paysen, T.E.;Derby, J.A.;Black, H.;Bleich, V.C.;Mincks, J.W. 1980</li>
+		
+		<li>Ratchford, J.;Boul, R.;Keeler-Wolf ,T.;Evens, J. 2022b (in progress)</li>
+		
+		<li>Rundel, P.W.;Parsons, D.J.;Gordon, D.T. 1977</li>
+		
+		<li>Sawyer, J.O. 2006</li>
+		
+		<li>Sawyer, J.O. 2007</li>
+		
+		<li>Stone, R.D.;Sumida, V.A. 1983</li>
+		
+		<li>Sugihara, N.G.;van Wagtendonk, J.W.;Shaffer, K.E.;Fites-Kaufman, J.;Thode, A.E. 2006</li>
+		
+		<li>Taylor, A.H.;Halpern, C.B. 1991</li>
+		
+		<li>USDA Forest Service (USFS), Various dates (1987-2019)</li>
+		
+		<li>Vasek, F.C. 1985</li>
+		
+		<li>Zouhar, K. 2001a</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/8/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

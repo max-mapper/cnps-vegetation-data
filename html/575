@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Navarretia leucocephala ssp. minima - Plagiobothrys cusickii</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Navarretia</i> <i>leucocephala</i> ssp. <i>minima</i> - <i>Plagiobothrys</i> <i>cusickii</i></span> Herbaceous Alliance <br/>
+        <span class="subtitle">Little white navarretia - Cusick&#39;s popcorn flower vernal pools</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Herb
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>1200-2000 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S2
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>GNR
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>CAN: AL, SK. USA: AZ, CA, CO, ID, MN, NE, OR, UT, WA, WY. (USDA PLANTS)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2019/10/02
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/herb/navarretia%20leucocephala-ssp-minima_plagiobothrys-cusickii_mola_06_2016_01.jpg', '/static/images/photos/herb/navarretia%20leucocephala-ssp-minima_plagiobothrys-cusickii_mola_06_2016_02.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Iva</i> <i>axillaris</i>, <i>Navarretia</i> <i>leucocephala</i>, <i>Plagiobothrys</i> <i>cusickii</i> and/ or <i>Taraxia</i> <i>tanacetifolia</i> are present with <i>Downingia</i> <i>bacigalupii</i>, <i>Eleocharis</i> <i>macrostachya</i>, <i>Muhlenbergia</i> <i>richardsonis</i> or <i>Psilocarphus</i> <i>brevissimus</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Emergent shrubs may be present at low cover. Herb layer is sparse to abundant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li>Stand contain several genera typical of the Modoc plateau vernal pools, including <i>Navarretia leucocephala, Plagiobothrys cusickii, Muhlenbergia richardsonis, Polygonum aviculare, Taraxia tanacetifolia, Iva axillaris</i>, and/or <i>Downingia bacigalupii</i> (Boul et al. 2021b, Solomeshch and Barbour 2012).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Seasonal or ephemeral wetlands, vernal pools. The USFWS Wetland Inventory (2012 national list) recognizes <i>Navarretia leucocephala</i> as a OBL plant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Northern basalt flow vernal pool habitat
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Vernal pool
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Northern basalt flow vernal pool
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Not treated
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Fresh emergent wetland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>43.000.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate and Boreal Shrubland and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate and Boreal Freshwater Marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Western North American Freshwater Marsh
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Western North America Vernal Pool
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Californian mixed annual/perennial freshwater vernal pool / swale bottomland
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Navarretia leucocephala</i> is a small, annual herb under 15 cm in height that grows in generally wet or moist habitats. Leaves are pinnately divided into many needle-like lobes. Flowers are in a head-like cluster of blue to white tube shaped flowers. The size and appearance of plants varies depending on water availability. Five subspecies, all of which occur in vernal pools in central and northern California, are taxonomically distinguished based on floral morphology: ssp. <i>bakeri</i>, ssp. <i>leucocephala</i>, ssp. <i>minima</i>, ssp. <i>pauciflora</i>, and ssp. <i>plieantha</i>. Three of these subspecies are rare, California endemics and are in the CNPS Inventory of Rare and Endangered Plants: ssp. <i>bakeri</i> (1B.1), ssp. <i>plieantha</i>(1B.2), and ssp. <i>pauciflora</i> (1B.1). Additionally, both ssp. <i>pauciflora</i> and spp. <i>plieantha</i> are federally endangered (CNPS 2019). <i>Navarretia leucocephala</i> spp. <i>minima</i> is the most widespread subspecies and grows to 2 - 8 cm tall with 1 - 2 cm wide white flowers in vernal pools of California, Washington, and Utah below 2200 m (The Jepson Manual 2013). <br/>
+<br/>
+<i>Plagiobothrys cusickii</i>, also known as <i>P. scouleri</i> var. <i>cusickii</i>, is an annual herb that grows up to 30 cm. It can be found in a variety of habitats in northern California, Idaho, Oregon, Nevada, and Washington such as wet, muddy areas, or flats in sagebrush scrub and conifer forests. (Jepson Flora Project 2020, USDA-NRCS 2020). <br/>
+<br/>
+Stands of this alliance are generally situated in ephemerally saturated or flooded flats and smaller vernal pools. Stands may also be found on seasonally drying edges of reservoirs, lakes, livestock ponds, or vernal pools and swales. Species composition changes seasonally, but at peak phenology, this alliance will contain typical genera of Great Basin seasonal and ephemeral wetlands such as <i>Navarretia leucocephala, Muhlenbergia richardsonis, Polygonum aviculare,</i> and/or <i>Downingia bacigalupii</i>. In a provisional association of this alliance, <i>Taraxia tanacetifolia</i> and/or <i>Iva axillaris</i> co-dominate with <i>Polygonum aviculare, Psilocarphus brevissimus</i> and/or <i>Muhlenbergia richardsonis</i> (VegCAMP 2020). <br/>
+<br/>
+Although this alliance shares some ecological similarities to other California vernal pool communities such as the <i>Eleocharis macrostachya</i> alliance which is characterized by more typical California vernal pool genera, the <i>Navarretia leucocephala</i> ssp. <i>minima</i> - <i>Plagiobothrys cusickii</i> alliance is more closely related to the vernal pools found in Washington, Oregon, and northern Nevada. The presence of <i>Navarretia leucocephala</i>, <i>Muhlenbergia richardsonis</i>, <i>Downingia bacigalupii</i>, <i>Taraxia tanacetifolia</i>, and other vernally wet herbaceous species characteristic of the high and dry climate of the Modoc plateau, relate it more to vernal pools found in the broader Great Basin beyond California. This alliance is not well defined in California and warrants more data collection and analysis. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Iva axillaris</th>
+			
+		
+			
+			<th>Navarretia leucocephala</th>
+			
+		
+			
+			<th>Plagiobothrys cusickii</th>
+			
+		
+			
+			<th>Taraxia tanacetifolia</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Perennial; herb; clonal</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>Annual; herb</td>
+			
+		
+			
+			<td>Perennial; herb</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Transient</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Water</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>Inundation</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Underground structures</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td></td>
+			
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text"></div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Modoc Plateau</b> (M261Gb-m, Go). Alliance-level stands and stands of the Taraxia tanacetifolia - Iva axillaris association have been mapped throughout the central, northern, and southern subsections of this section, largely in meadows and at the edges of lakes or ponds. There is a high probability that stands exist along the western edge of the section, based on extensive Calflora and CCH records. Stands are also likely to occur in the Warner Mountains based on proximity to mapped stands and similarity of habitat.</li>
+        
+            <li><b>Mono</b> (341Dk). One stand has been sampled on the north side of Fort Sage Mountains, stands are probable along Long Valley Creek based on records in Calflora.</li>
+        
+            <li><b>Northwestern Basin and Range</b> (342Ba-e). Stands have been mapped extensively in low areas throughout most of this section. Stands are probable in the Surprise Valley area based on records from Calflora and CCH.</li>
+        
+            <li><b>Sierra Nevada</b> (M261Ea, Ec, Ei-j). Stands are likely to occur in this section based on records from CCH and Calflora.</li>
+        
+            <li><b>Southern Cascades</b> (M261Dh). Vernal pools have been mapped in this subsection in the Modoc National Forest (Holland 2013).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> Stands may be disturbed by livestock use and groundwater pumping or other hydrological modifications. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Marsilea oligospora - Eleocharis (acicularis, bella) [3]</li>
+                
+                    <li>Polygonum polygaloides - Downingia bacigalupii [3]</li>
+                
+                    <li>Taraxia tanacetifolia - Iva axillaris [1], [2]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Boul, R.;Keeler-Wolf, T.;Ratchford, J.;Haynes, T.;Hickson, D.;Yacoub, R.;Harbert, B.;Evens, J. 2021b</li>
+		
+		<li>[2] Montalvo, A.;Goode, L.; Beyers, J. 2010</li>
+		
+		<li>[3] Ratchford, J.;Boul, R.;Keeler-Wolf ,T.;Evens, J. 2022b (in progress)</li>
+		
+		<li>CNPS (California Native Plant Society), 2007+</li>
+		
+		<li>Holland, Robert F. 2013</li>
+		
+		<li>Jepson Flora Project, 2004-present</li>
+		
+		<li>Solomeshch, A., Barbour, M. 2012</li>
+		
+		<li>Stone, K. 2010</li>
+		
+		<li>UCB (University of California Berkeley), 2004-present</li>
+		
+		<li>USDA-NRCS (US Department of Agriculture - Natural Resource Conservation Service), Various dates (1999-2021)</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/575/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

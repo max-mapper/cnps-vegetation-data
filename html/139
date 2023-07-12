@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Artemisia cana</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Artemisia</i> <i>cana</i></span> Shrubland Alliance <br/>
+        <span class="subtitle">Silver sagebrush wet shrubland</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Shrub
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>1300-2500 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>S3
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>G5
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA, CO, ID, MT, NV, OR, UT, WY (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>2009/09/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/shrub/artemisia-cana_sagehen_06-03_01.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Artemisia</i> <i>cana</i> is dominant in the shrub canopy with <i>Artemisia</i> <i>nova</i>, <i>Artemisia</i> <i>tridentata</i>, <i>Chrysothamnus</i> spp., <i>Ericameria</i> <i>nauseosa</i>, <i>Rosa</i> <i>woodsii</i> or <i>Sarcobatus</i> <i>vermiculatus</i>. The herbaceous layer typically has cover of <i>Poa</i> <i>secunda</i>. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Shrubs < 2 m; canopy is open to continuous. Herbaceous layer is sparse to continuous and usually grassy. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Artemisia cana</i> > 15% absolute cover in the shrub canopy (Manning and Padgett 1995).</li>
+		
+		<li><i>Artemisia cana</i> (ssp. <i>bolanderi</i>) is >60% relative cover in the shrub layer (Boul et al. 2021b).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Playas, bottomlands, stream banks, swales, and snow catchments typically vernally wet. Soils are high in silt or clay and drain slowly. The USACE Wetland Inventory (2018 national list) recognizes <i>Artemisia cana</i> as a FACU plant. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Low sagebrush series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Artemisia cana (ssp. bolanderi, ssp viscidula) shrub herbaceous alliance, Artemisia cana (ssp. bolanderi, ssp viscidula) shrubland alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Low sagebrush, Silver sagebrush
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Subalpine sagebrush scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Sagebrush scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Sagebrush
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>35.150.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Temperate and Boreal Shrubland and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Temperate Grassland, Meadow, and Shrubland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>Vancouverian and Rocky Mountain Grassland and Shrubland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>Western Cordilleran Montane Shrubland and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Western Cordilleran montane deciduous scrub
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Artemisia cana </i>is a relatively low, thickly branched, rounded shrub that rarely reaches 1 m in height. Leaves are silvery, canescent, and typically entire or rarely with 1-2 teeth. Plants often root sprout or layer. They reproduce by producing light, wind-dispersed seeds (Howard 2002a). <i>A. cana </i>ssp. <i>bolanderi </i>occurs in California and beyond in the Cascades and Great Basin; <i>A. cana </i>ssp. <i>cana </i>grows in the Rocky Mountains and Great Plains; <i>A. cana </i>ssp. <i>viscidula </i>is an intermountain shrub. <br/>
+<br/>
+Stands in California are usually structurally simple, consisting of <i>A. cana </i>ssp. <i>bolanderi </i>shrubs and understory grasses and sedges. The herbaceous layer may include vernal pool indicators such as <i>Psilocarphus brevissimus</i> and <i>Navarretia</i> spp. or more generally moist herbs such as <i>Hordeum brachyantherum, Muhlenbergia richarsonis</i>, and <i>Juncus</i> spp. (Boul et al. 2021b). <br/>
+<br/>
+Stands of this type occur on mesic sites including basin bottoms, stream terraces, swales, and flats (Boul et al. 2021b). These are often pluvial lakebeds in internally drained basins with alkaline, clay soils that are seasonally saturated from snowmelt accumulation (Young et al. 1977, 2007) and in snow catchments (Weixelman et al. 1999). This is one of the more rare sagebrush alliances in the state. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Artemisia cana</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td>Shrub; winter deciduous</td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>Soil; transient</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>Short</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>Animal; wind</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>None</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>Underground structures</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>Fire-sensitive to fire-hardy; high flammability (?); no/low to high sprouter</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>No</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>3-40 (50) years</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>Medium to high</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>High</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text">Fire histories are sparse or lacking for California. Elsewhere, stands burn when dry, especially those occupying bottomlands with heavy fuel loads. <i>Artemisia cana </i>survives surface fires, even severe ones that top-kill. It has the strongest sprouting response of any woody sagebrush to fire. It sprouts from root crowns, rhizomes, and roots; it readily colonizes burned areas by seed from nearby unburned plants (Howard 2002a).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>Medium (30-100+ years)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>Summer-early fall
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>Small to medium
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>Low to moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>Low to moderate
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>High to very high
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>Passive-active crown fire
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>Eastern Sierra Nevada; eastern Oregon
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+            <p>The range of <i>Artemisia cana</i> includes the Modoc Plateau (M261Ga-o), Mono (341Da-f, Dh-l), Northwestern Basin and Range (342Ba-e), and the Sierra Nevada (M261Ea, Ec, Ei-k, En-o, Er, Et).</p>
+        
+
+        <ul class="text">
+        
+            <li><b>Modoc Plateau</b> (M261Ga-o). Stands exist on riparian terraces and adjacent to vernal pools, ponds, and moist meadows, typically those with a long history of grazing (S. Smith 1998b). Young et al. (1977) described stands with <i>Elymus elymoides</i> in the understory from Willow Creek Valley in Lassen County.</li>
+        
+            <li><b>Mono</b> (341Da-f, Dh-l). Stands occupy moist meadow and riparian edges, with descriptions from the Carson and Walker River watersheds (Weixelman et al. 1999), Sweetwater Range (Manning and Padgett 1995), Bridgeport Valley area (Keeler-Wolf et al. 2003b), and several subsections (S. Smith 1998b). They occur in areas with recurrent grazing and browsing of livestock with Achillea millefolium, Agropyron trachycaulum, Muhlenbergia richardsonis, and Poa pratensis.</li>
+        
+            <li><b>Northwestern Basin and Range</b> (342Ba-e). Stands occur in moist, riparian lowlands throughout the section. Stands are extensive in the western Madeline Plain and are associated with stands of the <i>Juncus arcticus</i> (var. <i>balticus, mexicanus</i>) alliance.</li>
+        
+            <li><b>Sierra Nevada</b> (M261Ea, Ec, Ei-k, En-o, Er, Et). Stands are common on the eastern slopes in riparian settings. Stands occupy moist meadow and riparian edges on the east side in Yosemite National Park (Keeler-Wolf et al. 2003b) and along Long Valley Creek (S. Smith 1998b). They occur in areas with recurrent grazing and browsing of livestock with <i>Juncus arcticus, Achillea millefolium,</i> and other herbs (Manning and Padgett 1995).</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> <i>Artemisia cana </i>is an important browse for domestic livestock and wildlife, especially in the winter (Howard 2002a). Prolonged livestock use can decrease the abundance of native bunchgrasses and increase the cover of shrubs and non-native species, such as <i>Poa pratensis</i> and <i>Taraxacum officinale</i>. Comparisons of grazed and protected (ungrazed) floodplain sites showed a tendency for Artemisia cana to occur more commonly in grazed than ungrazed sites with similar groundwater hydrology (NatureServe 2019). Many stands with <i>Achillea millefolium, Hymenoxys hoopesii, </i>and <i>Juncus arcticus </i>indicate past heavy grazing (Manning and Padgett 1995, S. Smith 1998b).
+
+Unlike other <i>Artemisia</i> spp., <i>A. cana</i> resprouts vigorously following spring fire, and prescribed burning may increase shrub cover. Conversely, fire in the fall may decrease shrub abundance. (NatureServe 2019) </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Artemisia cana / Juncus arcticus var. balticus [1], [2], [4]</li>
+                
+                    <li>Artemisia cana (ssp. bolanderi, ssp. viscidula) / Poa secunda [2], [3], [5]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Keeler-Wolf, T.;Schindel, M.;San, S.;Moore, P.;Hickson, D. 2003b</li>
+		
+		<li>[2] Manning, M.E.;Padgett, W.G. 1995</li>
+		
+		<li>[3] Smith, S. 1998b</li>
+		
+		<li>[4] Weixelman, D.A.;Zamudio, D.C.;Zamudio, K.A. 1999</li>
+		
+		<li>[5] Boul, R.;Keeler-Wolf, T.;Ratchford, J.;Haynes, T.;Hickson, D.;Yacoub, R.;Harbert, B.;Evens, J. 2021b</li>
+		
+		<li>Conroy, S.D.;Svejcar, T.J. 1991</li>
+		
+		<li>Franklin, J.F.;Dyrness, C.T. 1973</li>
+		
+		<li>Howard, J.L. 2002a</li>
+		
+		<li>Kovalchik, B.L. 1987</li>
+		
+		<li>McArthur, E.D. 1994</li>
+		
+		<li>NatureServe, 2014+</li>
+		
+		<li>Young, J.A.;Evans, R.A.;Major, J. 1977</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/139/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>

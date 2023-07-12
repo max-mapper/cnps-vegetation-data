@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>CNPS Alliance: Cortaderia (jubata, selloana)</title>
+        <meta name="description" content="">
+        <!-- <meta name="viewport" content="width=device-width"> -->
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="/static/style/application.css">
+        <script src="/static/javascript/libs/modernizr-2.6.2.min.js"></script>
+        <script>var console=console||{"log":function(){}};</script>
+        
+<link rel="stylesheet" href="/static/style/toastr.css">
+<link rel="stylesheet" href="/static/javascript/libs/leaflet.css">
+<style>
+    /* Override cursors on the map since layers have no interaction */
+    .leaflet-container, .leaflet-clickable, .leaflet-control
+    {
+        cursor: auto;
+    }
+</style>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W2JV8DB8C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W2JV8DB8C8');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <header class="pageHeader">
+            <div class="pageHeaderContainer">
+                <a href="/">
+                    <img src="/static/images/cnps_logo2x.png" alt="California Native Plant Society logo" class="logo" width="399">
+                </a>
+                <br>
+                <span class="tagline">A Manual of California Vegetation Online</span>
+            </div>
+        </header>
+        
+        
+        <div class="pageContainer">
+        
+
+<article class="alliance_page">
+
+    <div class="allianceHeader">
+        <span class="scientificName"><i>Cortaderia</i> (<i>jubata</i>, <i>selloana</i><span style="padding-left: .2em">)</span></span> Herbaceous Semi-Natural Alliance <br/>
+        <span class="subtitle">Pampas grass patches</span>
+    </div>
+
+    <div class="mainAllianceInfo">
+
+        <div class="allianceSideInfo">
+            <h4>USDA Ecological Section Map</h4>
+            <div class="map">
+                <div id="map"></div>
+            </div>
+            <div class="quickInfoList">
+                <h4>Summary Information</h4>
+                <ul>
+                    <li>
+                        <span class="category">Primary Life Form</span>Herb
+                    </li>
+                    <li>
+                        <span class="category">Elevation</span>0-800 m
+                    </li>
+                    <li>
+                        <span class="category">State Rarity</span>SNA
+                    </li>
+                    <li>
+                        <span class="category">Global Rarity</span>GNA
+                    </li>
+                    <li>
+                        <span class="category">Distribution</span>USA: CA (NatureServe)
+                    </li>
+                    <li>
+                        <span class="category">Endemic to California</span>No
+                    </li>
+                    
+                        <li>
+                            <span class="category">Invasive species rank</span>
+                            See remarks
+                        </li>
+                    
+                    <li>
+                        <span class="category">Endemic to California Floristic Province and Deserts</span>No
+                    </li>
+                    <li>
+                        <span class="category">Date Added</span>1995/11/01
+                    </li>
+                    </ul>
+            </div>
+            <div class="photo loading">
+            </div>
+            <script>
+                var photoLocations = ['/static/images/photos/herb/cortaderia-jubata-selloana_hwy1_07-10_01.jpg', '/static/images/photos/herb/cortaderia-jubata-selloana_hwy1_07-10_02.jpg', '/static/images/photos/herb/cortaderia-jubata-selloana_09-05_01.jpg', '/static/images/photos/herb/cortaderia_smat0012_ggnra-ranchocorral-detierra_03-19.jpg']
+            </script>
+
+            <div class="relatedLinks">
+                <h4>Related Links</h4>
+                <ul class="sideLinks">
+                    <li><a href="/newobservation">Feedback</a></li>
+                    <li><a href="/overview/descriptions">How to read alliance descriptions</a></li>
+                    <li><a href="/static/docs/MCV_Literature_cited.pdf">Full bibliography</a></li>
+                </ul>
+            </div>
+        </div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Characteristic Species</h4>
+	<div class="text"> <i>Cortaderia</i> <i>jubata</i> or <i>Cortaderia</i> <i>selloana</i> is dominant in the herbaceous and shrub canopies. Emergent trees and shrubs may be present at low cover. </div>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Vegetation Layers</h4>
+	<div class="text">  Herbs < 4 m; cover is open to continuous. </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Membership Rules</h4>
+	<ul class="text">
+		
+		<li><i>Cortaderia jubata</i> or <i>C. selloana</i> > 80% relative cover in the shrub or herbaceous layer (NatureServe 2007).</li>
+		
+		<li><i>Cortaderia jubata</i> or <i>Cortaderia selloana</i> > 50% relative cover in naturalized stands, or other non-native plants such as <i>Echium candicans</i> > 50% relative cover, or > 30% relative cover with <i>Cortaderia jubata</i> (Buck-Diaz et al. 2021, Sikes et al. 2021).</li>
+		
+	</ul>
+</div>
+
+        
+	
+<div class="allianceSection">
+	 <h4 class="header">Habitats</h4>
+	<div class="text"> Coastal land, disturbed areas, estuaries, grasslands, urban areas, wetlands.  </div>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">Other Habitat, Alliance and Community Groupings</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">MCV (1995)</td>
+			<td>Pampas grass series
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">NVCS (2009)</td>
+			<td>Cortaderia (selloana, jubata) semi-natural herbaceous alliance
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Calveg</td>
+			<td>Perennial grasses and forbs, Non-native/ornamental grass
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Holland</td>
+			<td>Non-native grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Munz</td>
+			<td>Coastal sage scrub
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">WHR</td>
+			<td>Perennial grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">CDFW CA Code</td>
+			<td>42.070.00
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+        
+<div class="allianceSection">
+	 <h4 class="header">National Vegetation Classification Hierarchy</h4>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Formation Class</td>
+			<td>Mesomorphic Shrub and Herb Vegetation (Shrubland and Grassland)
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation Subclass</td>
+			<td>Mediterranean Scrub and Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Formation</td>
+			<td>Mediterranean Grassland and Forb Meadow
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Division</td>
+			<td>California Grassland and  Meadow
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Macro Group</td>
+			<td>California Annual and Perennial Grassland
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Group</td>
+			<td>Mediterranean California naturalized annual and perennial grassland
+				
+			</td>
+		</tr>
+		
+	</table>
+</div>
+    </div>
+
+    <!-- collapsable content below -->
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Remarks</h4>
+	<div class="text"> <i>Cortaderia </i>species are large tussock grasses with big showy plumes with abundant small seeds. They produce seeds sexually or asexually; all seeds are highly fertile, small, and easily dispersed by wind, water, and machinery. Plants have broad habitat requirements and grow vigorously. Growing best in full sunshine with adequate water, plants can tolerate drought conditions once they are established. Plants produce a large amount of dry matter that easily burns (DiTomaso 2000a,b, DiTomaso and Healy 2007, Peterson and Russo 1988). <br/>
+<br/>
+<i>Cortaderia jubata, </i>jubata grass, has a Cal-IPC rank of High. Plants flourish in foggy coastal habitats that are generally free of freezing temperatures. Several consecutive nights of frost will generally not kill plants but can severely damage them. The species reproduces asexually. Plants were first found in the state on recently logged lands of Humboldt Co. (Fuller 1976). <br/>
+<br/>
+<i>Cortaderia selloana, </i>pampas grass, has a Cal-IPC rank of High. It reproduces sexually by seed when both male and female plants are present, and it escapes from cultivation by fragmentation. <i>C. selloana </i>is a more invasive species and invades a greater variety of vegetation types from coastal to inland California than does <i>C. jubata </i>(Lambrinos 2001); <i>C. selloana </i>tolerates more frost and more-continental climates (DiTomaso 2000b). <br/>
+<br/>
+Stands of <i>Cortaderia </i>invade coastal bluff and coastal scrub stands of <i>Artemisia californica, Baccharis pilularis, </i>and <i>Eriogonum fasciculatum </i>alliances. They grow in moist, open forest stands and infest inland riparian stands in the Great Valley. </div>
+</div>
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Life History Traits of the Principal Species</h4>
+	<table class="zebraStripe">
+		<thead>
+		<tr>
+		
+			<th>&nbsp;</th>
+		
+		
+			
+			<th>Cortaderia jubata</th>
+			
+		
+			
+			<th>Cortaderia selloana</th>
+			
+		
+	</tr>
+		</thead>
+		<tbody>
+		<tr>
+		
+			<td>Life forms</td>
+		
+		
+			
+			<td></td>
+			
+		
+			
+			<td></td>
+			
+		
+	</tr>
+		<tr>
+		
+			<td>Seed storage</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Seed longevity</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of dispersal</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Germination agents</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Mode of sprouting</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Survivability after fire/disturbance</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Disturbance-stimulated flowering</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Reproductive range</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Recruitment</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>			
+		<tr>
+		
+			<td>Regional variation</td>
+		
+		
+			
+			<td>null</td>
+			
+		
+			
+			<td>null</td>
+			
+		
+	</tr>						
+		</tbody>
+	</table>
+</div>
+
+
+    
+	
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Fire Characteristics</h4>
+	<div class="text"><i>Cortaderia </i>species increase fire fuel loads and fire intensity, especially in areas already altered by other non-natives with which they commonly grow. See also Lambrinos (2000).</div>
+	<table class="zebraStripe">
+		
+		<tr>
+			<td class="key">Fire return interval</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Seasonality</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Size/extent</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Complexity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Intensity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Severity</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Type</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="key">Regional knowledge</td>
+			<td>&mdash;
+			</td>
+		</tr>
+		
+	</table>
+</div>
+
+
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Regional Status</h4>
+        
+
+        <ul class="text">
+        
+            <li><b>Central California Coast</b> (261Aa-l). Stands of both species occur along the coast on steep slopes, bluffs, and road cuts. Stands are common in the San Francisco Bay Area, particularly at the disturbed edges of salt marshes (e.g., Oakland Airport). State parks have managed stands to eliminate their spread, including patches of <i>C. jubata </i>at Morro Strand State Beach (Walgren et al. 2005).</li>
+        
+            <li><b>Central California Coast Ranges</b> (M262Aa-b, Af). Cortaderia has been seen along Alameda Creek near Sunol and near tributaries above San Juan Canyon near San Juan Bautista (CalFlora 2019).</li>
+        
+            <li><b>Great Valley</b> (262Af-g, Al). Small stands of <i>C. selloana </i>observed on moist soils in association with <i>Juncus arcticus </i>or <I>J</i>. <i>lescurii </i>occur along levees and in disturbed portions of Suisun Marsh (Vaghti and Keeler-Wolf 2000) and the Sacramento-San Joaquin River delta (Hickson and Keeler-Wolf 2007). Stands at Suisun Marsh did increase during 4 years of monitoring (Vaghti and Keeler-Wolf 2004). Though mostly existing scattered individuals, and under active management, at least one small stand exists along the lower American River (Maret, pers. Communication 2019), and <i>C. selloana</i> has infestations under management on the Feather River around Thermolito (CalFlora 2019, CalIPC 2018).</li>
+        
+            <li><b>Northern California Coast</b> (263Aa-m). <i>Cortaderia jubata </i>commonly invades logged forest sites. It dies out as tree canopies develop and reduce light levels. However, it persists in stands of coastal dune and scrub alliances. Monitoring and manual removal has kept the Lanphere Dunes unit of the Humboldt Bay National Refuge and other conservation areas on the north spit of Humboldt Bay in Humboldt Co. free of <i>C. jubata</i>.</li>
+        
+            <li><b>Northern California Coast Ranges</b> (M261Bb, Bd-f). Infestations of <i>Cortaderia</i> are known to be increasing around Clear Lake and Lake Berryessa (Cal-IPC 2018).</li>
+        
+            <li><b>Southern California Coast</b> (261Ba-j). Stands of both grasses invade maritime chaparral and coastal scrub
+alliances along the coast, including at Vandenberg Air Force Base and near Lompoc and Santa Maria in Santa Barbara Co. (Lambrinos 2000, 2002, Underwood et al. 2002), south to San Diego Co. (DiTomaso et al. 1999).</li>
+        
+            <li><b>Southern California Mountains and Valleys</b> (M262Ba-d, Bf-g). Stands of <i>C. selloana </i>exist in the western Transverse Ranges.</li>
+        
+        </ul>
+    </div>
+
+
+    
+	
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">Management Considerations</h4>
+	<div class="text"> <i>Cortaderia </i>species invade and threaten California’s native coastal vegetation types, particularly those in sensitive coastal dune and bluff scrub areas. In logged redwood forests of northern California, <i>C. jubata </i>can retard tree establishment and growth, and it can create fire hazards by accumulating biomass of living and dried vegetation and by impeding access to areas (DiTomaso et al. 1999). Prescribed burning does not furnish long-term control, as burned plants sprout. See DiTomaso (2000a, 2001b) and DiTomoso and Healy (2007) for a review of manual and chemical control measures. </div>
+</div>
+
+    
+
+    
+
+    <div class="allianceSection collapsable collapsed">
+        <h4 class="header">Associations</h4>
+        
+            
+            <ul class="text">
+                
+                    <li>Cortaderia (jubata, selloana) [1], [2], [3]</li>
+                
+            </ul>
+        
+    </div>
+
+    
+<div class="allianceSection collapsable collapsed">
+	 <h4 class="header">References</h4>
+	<ul class="text">
+		
+		<li>[1] Buck-Diaz, J.;Batiuk, S.;Evens, J.M. 2012</li>
+		
+		<li>[2] Sikes, K.;Buck-Diaz, J.;Evens, J. 2021</li>
+		
+		<li>[3] Buck-Diaz, J.;Sikes, K.;Evens, J.M. 2021</li>
+		
+		<li>DiTomaso, J.M. 2000a</li>
+		
+		<li>DiTomaso, J.M. 2000b</li>
+		
+		<li>DiTomaso, J.M.;Healy, E.A. 2007</li>
+		
+		<li>DiTomaso, J.M.;Healy, E.A.;Bell, C.;Drewitz, J.;Tschohl, A. 1999</li>
+		
+		<li>Fuller, T.C. 1976</li>
+		
+		<li>Lambrinos, J.G. 2000</li>
+		
+		<li>Lambrinos, J.G. 2001</li>
+		
+		<li>Lambrinos, J.G. 2002</li>
+		
+		<li>Peterson, D.L.;Russo, M.J. 1988</li>
+		
+	</ul>
+</div>
+
+</article>
+
+
+        </div>
+
+    <!--
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/static//javascript/libs/jquery-1.9.1.min.js"><\/script>')</script>
+    -->
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script
+        ><script src="/static/javascript/libs/jquery-1.9.1.min.js"></script>
+        <script src="/static/javascript/libs/lodash.js"></script>
+        <script src="/static/javascript/libs/fastclick.js"></script>
+        
+        
+    <script>
+        var app = app || {};
+        app.geoURL = "/alliance/374/geo";
+    </script>
+    <script src="/static/javascript/alliance_page.js"></script>
+    <script src="/static/javascript/libs/leaflet.js"></script>
+    <script src="/static/javascript/libs/esri-leaflet.js"></script>
+    <script src="/static/javascript/libs/toastr.min.js"></script>
+    <script src="/static/javascript/alliance_map.js"></script>
+
+
+        <!-- livereload script -->
+        
+        <script>
+        var loc = document.location.hostname;
+        var classes = document.body.parentElement.className
+        var oldie = classes.split(' ')[1]
+        if (loc === "dt3010" && oldie.search("ie9") === -1 ) { 
+            var s = document.createElement('script');
+            s.src = 'http://' + loc + ':35729/livereload.js';
+            document.body.appendChild(s);
+        }
+        </script>
+    </body>
+</html>
